@@ -1,0 +1,7 @@
+INSERT INTO similaritydataset (source_text, plagiarized_text, label) 
+VALUES (
+    'This is the original text for testing similarity detection.',
+    'This is the copied text for testing similarity detection.',
+    1
+);
+

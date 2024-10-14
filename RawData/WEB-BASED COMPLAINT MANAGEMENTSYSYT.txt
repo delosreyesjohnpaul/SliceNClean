@@ -1,0 +1,400 @@
+WEB-BASED COMPLAINT MANAGEMENTSYSYTEMFORUNLAWFULTRICYCLE
+ SERVICES IN NAGUILIAN, ISABELA
+ A Thesis Presented to the Faculty of the College of Computing Studies, Information and
+ Communication Technology Isabela State University Cauayan Campus
+ In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer
+ Science
+ BELLEN, Johanna G. BERNABE, Rose Ann Q. GONZALES, Melanie J.
+ January 2023
+ ABSTRACT
+ One of the problems faced by the commuters of Naguilian, Isabela is the manual process of
+ reporting the conduct of tricycle drivers. In this study the Complaint Management System is
+ design and develop to help the commuters to report unlawful tricycle services. The main
+ objective of this study is to develop a system that can monitor complaints and evaluate the
+ perspective of users about the functionality, usability, and reliability.
+ The researchers conducted the study through questionnaire for evaluation, library research for
+ the review of the existing flow of the system that they used, and additional internet research for
+ the needed information in developing the system.
+ Based on the evaluation gathered, Web-based Complaint Management System in Naguilian,
+ Isabela proved that they are satisfied with the application that developed in terms of functionality
+ with weighted mean 4.38, usability with weighted mean 4.42, and reliability with weighted mean
+ 4.23. As a result, shows that the Grand mean of the proposed system is 4.34 which interprets
+ wherein, respondents strongly agreed that the system is efficient and effective. This study will
+ benefit all the tricycle commuters of Nagulian, Isabela. Based on the conclusion, the
+ researchers strongly recommend the adaption of the system.
+ CHAPTER 1INTRODUCTION
+ 1.1 Background of the study
+ The prevalent situation of tricycle commuters of Naguilian, Isabela experiences are inadequate
+ services offered by the drivers. Hence, satisfaction of the commuters is the challenge that we
+ are encountering. The Design and Implementation of the system is a web-based application that
+ will solve the problem facing commuters the conduct of tricycle drivers.
+The solution to certain social problem is very effective these days which does not need to go to
+ a certain office to register a complaint and get documents. It is very easy to register a complaint
+ in this digital age with the help of the internet. With the help of applications, we can reduce the
+ barrier between government and the public so that the public can communicate directly with the
+ relevant authorities by telephone or computer according to Battula Rushi, et. al., (2021).
+ Complaint handling is an effective tool for public sector governance. Effective complaint
+ handling improves relationships between organizations and citizens by fostering trust and
+ accountability, helps address gaps in public service delivery, and supports innovation in public
+ service design (Andrew Prosser (2022)).
+ A Complaint Management System is considered as one of contemporary productivity
+ enhancement gear extensively by means of all companies and management. It provides an
+ online way of solving the problems faced by the public by saving time and eradicate corruption
+ (Lovely Singh, et al., (2021)).
+ Tricycle has become a primary mode of transportation in the community, drivers who behave
+ corruptly is inevitable. Commuters are complaining about overcharging drivers, which urged to
+ report misconduct. Commuters need this platform where they can easily report the conduct of
+ tricycle drivers. To resolve the problem this system wass made as a platform to report drivers
+ conduct easily and efficiently. It was designed for tricycle commuters to report violations
+ committed by tricycle drivers. For easy data management, the report sent to the system. The
+ accumulated data collected by the system will allow the admin to track abusive drivers faster as
+ well as commend the responsible ones.
+ This study conducts to assess the status of the services of tricycle drivers in Naguilian and to
+ establish its pressing needs for more and better services which will help to resolve the
+ predicaments suffered by the commuters.
+ 1.2 Objectives of the study
+ The main objective of the study is to design and develop a Web-based Complaint Management
+ System for Unlawful Tricycle Services in Naguilian, Isabeta, intended to be used as a platform to
+ report the conduct of unlawful tricycle drivers.
+ Specifically aims to:
+ 1. to implement the Web-based Complaint Management System for Unlawful Tricycle Services
+ in Naguilian, Isabela.
+ 2. to record complaints for unlawful tricycle service.
+3. evaluate through questionnaire the user's perspective on the system in terms of:
+ a) functionality
+ b) usability
+ c) reliability
+ 1.3 Significance of the study
+ The study will be beneficial to the following individuals:
+ Commuters- This will help them feel secure and justly treated.
+ Admin The collected data and information by the system will help them track abusive tricycle
+ drivers.
+ Tricycle Drivers This will help thern have knowledge about the commuters perceive their
+ service.
+ Researchers The success of the study will help them develop more helpful applications for
+ everyone.
+ Future Researchers The study can serve as their basis in designing and developing their own
+ version of application.
+ 1.4 Scope and Delimitations
+ This study covers the procedure for managing complaints in Naguilian, Isabela about the
+ conduct of tricycle drivers. The system was designed to be web-based application, to help
+ commuters to register their complaints.
+ This system is limited only for the users. The application cannot process the penalties or the
+ punishment for tricycle drivers found for being unlawful about their services.
+ CHAPTER II
+ THEORETICAL FRAMEWORK
+ 2.1 Review of Related Literature and Studies
+This chapter provides an overview of past research and different information from articles,
+ books, and internet which are used as references for the completion of this study. The
+ researchers introduce the framework for the case study that comprises the focus of the research
+ study which is the Complaints Management System for unlawful tricycle services in Nagullan,
+ Isabela. The following related literature and studies are found relevant to the study of profiling
+ system.
+ Foreign Literature
+ Websites act as a bridge between the people and the government officers in which the people
+ directly register their complaint to the government officers via internet, lack of paper movements
+ provides complaint management operations with a speed which was never envisaged in manual
+ mode at all. Website allows people to register a complaint and automatically schedules and
+ prompt operators to source complaint to concemed departments (M. Saranya, et, al., (2020)).
+ Several websites have been developed allowing drivers to post their complaints about other
+ motorists online. These websites allow drivers to describe the nature of the offensive behavior
+ and to identify the offending motorist by vehicle type, color, and license plate number. Some
+ websites also ask drivers to list the location where the event took place and the exact date and
+ time of the offence. The purpose of the study was to: (1) assess the research value of this novel
+ data source; (2) demonstrate the value of content analysis to the study of driver behavior: (3)
+ further validate an existing coding scheme; (4) determine whether this new data source would
+ replicate previous research findings regarding the most frequent types of driver complaints and
+ temporal distribution of these reports; (5) provide recommendations for improved driver training
+ and public safety initiatives based on these data (Christine M Wickens et, al., (2019)).
+ A mobile application to provide tricycle commuters a medium to report good and bad conduct of
+ tricycle drivers was developed. Ionic Framework was used to develop the Graphical User
+ Interface (GUI) while the Laravel framework served as the backend of the mobile application.
+ The rates and reports are transmitted into a web admin system that was developed using Vue.js
+ with an SQLite database. For the mobile application and web admin systern to work online
+ Heroku was used (Ertie Cusipag Abana, et, al., (2020)).
+ Local Literature
+ Environmental legislation must be considered, particularly in a variety of industries like transit,
+ particularly here in Cabanatuan City, the tricycle capital of the Philippines. This study aims to
+ evaluate TODA members' compliance with local environmental regulations and ordinances and
+ establish whether there is a connection between the characteristics of tricycle drivers and the
+ issues they face. Tricycle drivers had to deal with several issues, including unpleasant
+ customers, high fuel costs, and a decrease in passenger traffic brought on by the increase in
+ private vehicles (Fhrizz S. De Jesus, et, al., (2022)).
+This investigation focuses on the operation of Tuguegarao City's Tricycle Regulation Unit (TRU),
+ specifically its powers and duties in relation to the compliance of tricycle operators and/or
+ drivers with current city legislation pertaining to public safety and security. The research is
+ framed by the ideas of social duty, discipline, and effective governance (Dr. Agustin, et, al.,
+ (2018)).
+ This study measured the usability of a web application for tricycle commuters. Toward this goal,
+ the effectiveness, efficiency, and user satisfaction were measured using common usability
+ metrics. The effectiveness was measured in terms of task completion rate and user errors while
+ efficiency was measured in terms of time on task Ertie C. Abana (2019).
+ Foreign Studies
+ With the help of applications, we can reduce the barrier between government and the public so
+ that the public can communicate directly with the relevant authorities by telephone or computer.
+ Transparency between user and authority has helped resolve many issues in less time than
+ usual. These applications apply to various sectors such as fire department, municipal
+ department, finance department, electricity department etc. complaints made. The Online
+ Complaint Management System provides a web solution for community issues by saving time
+ and eliminating corruption (Jaya Siva, et, al., (2021)).
+ Complaint management has been substantially growing over the last few years. Firms have
+ started to realize the importance of complaint management as defensive marketing strategy
+ (Amit Kumar, et, al., (2018)).
+ Integrated complaints management system designed to give organizations the opportunity to
+ learn from customer feedback information and use information to reduce weaknesses in
+ business performance, efficient use of resources and maintain satisfactory capital base long
+ term relationship with their customers. Therefore, in this paper, a model is provided that could
+ clear weak points first, in other words, discover and understand the Working patterns and
+ factors affecting it. Second, it can provide solutions to the problem (Shabnam Mohammadi
+ (2017)).
+ Local Studies
+ Participatory governance is a democratic process intended to involve citizens in the
+ management of public institution. By providing them platforms through which they can access
+ the government, transparency and accountability in public governance is enhanced. The study
+ aims at describing and evaluating the Complaints Management Program of the DPWH Nueva
+ Ecija 2nd District Engineering Office based in Cabanatuan City (Allan V Mantaring, et, al.,
+ (2019)).
+ Effective complaint handling improves relationships between organizations and citizens by
+ fostering trust and accountability, helps address gaps in public service delivery, and supports
+innovation in public service design. Despite these benefits, complaint handling practices at the
+ local government level in British Columbia (BC) is often ad hoc, poorly designed, or non-existent
+ (Prosser (2022)).
+ Web-based management system which shall reinvent barangay management from a traditional
+ and centrally dependent unit towards a more inclusive and citizens-oriented scheme. It
+ essentially aims to streamline existing administrative processes in terms of filing complaints and
+ generating apt and accurate local statistics. The researcher has adopted the prototype
+ methodology in the development of the system. It focuses on creating and testing system
+ features, graphical user interface and scheduling iterations (Claire Ong Carpio (2020)).
+ 2.2 Concept of the Study
+ Figure 1. Conceptual Framework
+ The user needs to log in and register first in the Complaint app, after the user got verified by the
+ system, they able to see and monitor the application. In registering information of the users and
+ adding complaints will send data to the admin and save using Firebase.
+ 2.3 Definition of terms
+ Complaint App a web based application with which you can add your complaint about unlawful
+ tricycle services. The purpose of a complaint app is to make it easier for customers to voice their
+ concerns and for companies to manage and respond to those concerns in a timely and efficient
+ manner.
+ User- a person who has had a negative experience with a tricycle driver or operator and wishes
+ to file a complaint about the tricycle service.
+ Admin responsible for managing and monitoring the system, including reviewing, and
+ addressing complaints submitted by users.
+ Dashboard- a user interface that allows administrators and other authorized users to view and
+ manage the data and functionality of the system.
+ Firebase- It provides a wide range of services for data storage, authentication, and real-time
+ updates. To store and retrieve information about complaints, as well as to authenticate and
+ manage users.
+ Web-Based-a software platform that can be accessed through a web browser and is designed
+ to allow users to submit complaints about tricycle drivers who are engaging in unlawful services.
+CHAPTER III OPERATIONAL FRAMEWORK
+ 3.1 Technical Background
+ Table 1. Shows the Software and Hardware used in the application in developing the system.
+ 3.2 Methods
+ Figure 2. Homepage
+ A web-based complaint system is a platform that allows individuals to submit complaints about
+ unlawful tricycle services. This allows commuters of Naguilian, Isabela to report any instances of
+ misconduct by tricycle operators. Whether overcharging, reckless driving, or any other violation,
+ the researchers would like to help about the mentioned concerns and hold these operators
+ accountable. The system is easy to use, and complaints will be promptly reviewed and
+ addressed.
+ Figure 3. Log in
+ To log in to this system, users need to have an account and enter username and password.
+ Once logged in, users will be able to access the features of the system, such as submitting new
+ complaint or checking the status of an existing complaint. Logging in to this system helps to
+ protect your personal information and ensure that only authorized users can access the system.
+ It also allows you to access your account and any information or settings associated with it.
+ Figure 4. Register
+ To register means to sign up or enroll in it. This usually involves providing some personal
+ information and creating a username and password. For example, if users want to use a
+ website or online service, being registered is necessary sary for an account before accessing
+ full features of the site. This helps the website or service keep track of its users and provide
+ personalized experience. It also allows users to log in to certain account and access information
+ and settings.
+ Figure 5. View Profile
+ A profile in a web based complaint system for unlawful tricycle services is a set of personal
+ information and preferences associated with a specific user on the system. This information is
+ typically used to identify the user and provide a personalized experience on the system. A
+ profile may include things like the user's name, contact information, gender, and birthdate. A
+ profile is often created when a user registers for an account on the system and can be updated
+by the user at any time. The profile is an important part of the system because it allows users to
+ access personal information and customize the experience on the platform.
+ Figure 6. Edit Profile
+ Updating profile on a web-based complaint system for unlawful tricycle services means making
+ changes to the personal information and settings associated with user's account on the system.
+ This could include things like name, contact information, password, and preferences. By
+ updating profile, users can keep information accurate and current, and customize experience on
+ the system. To update profile, you may need to log in to your account and navigate to your
+ profile or settings page. From there, you can make any necessary changes and save them to
+ apply the updates. Updating profile is important because it ensures that the system has
+ accurate information and allows users to customize experiences on the platform.
+ Figure 7. Add Complaints
+ Adding a new complaint means submitting a formal expression of dissatisfaction or grievance to
+ Tricycle Services. When adding a new complaint, users may be asked to provide some personal
+ information and details about specific concerns. This information can be used to help the
+ organization understand complaint and take appropriate action to address it. By adding a new
+ complaint, you are bringing attention to an issue that needs to be resolved. This can help the
+ organization identify and address problems with unlawful tricycle services.
+ Figure 8. Complaint Status
+ In a web-based complaint system for unlawful tricycle services, checking the status of a
+ complaint means finding out where it stands in the process of being addressed. Checking the
+ status of complaint can help users to understand what steps should be done to addressed
+ concerns, and whether any further action is needed on your part. It can also give you an idea of
+ how long it may take for your complaint to be resolved.
+ Figure 9. Log out.
+ Logging out of a web-based complaint system for unlawful tricycle services is the process of
+ ending a session on the system. When you log out, you are typically prompted to enter your
+ username and password again to verify your identity. This helps to protect your privacy and
+ keep your information secure. After logging out, users will no longer have access to the system,
+ or any personal information or settings associated with your account. To log out of the system,
+ users may need to click on a log out button or link or navigate to a specific log out page. This
+ ends user session and log out of the system. Logging out is important because it helps to
+ protect personal information and ensures only authorized users can access the system.
+ 3.3 Methodology
+Figure 10. Rapid Application Development
+ In this figure, it discusses about the methodology that was used to develop the system. The
+ system development life cycle that was used is Rapid Application Development (RAD) is chosen
+ to develop this Complaint Management System, it explains more details about every phase that
+ involve in this system develop.
+ 3.4 Different phases in designing and developing the system.
+ 3.4.1 Planning
+ In this phase, defines the requirements of the project. Users and analysts meet to identify
+ objectives of the application or system and to identify information requirements arising from
+ those
+ objectives.
+ 3.4.2 Analysis
+ In this phase, the requirements of the system are discussed, and the focus is more on what
+ does the system should do and how it will work, and going reviewing the Complaint form and all
+ the flow regarding complaint making so that it will be easier to understand.
+ 3.4.3 Design
+ This phase is the program, application development and coding. This is important throughout
+ the process.
+ 3.4.4 Implementation
+ This is the Implementation phase where the finished product goes to launch. The
+ implementation phase will do some checking to all the systems modules. If the coding has an
+ error, find an error of this system, and find ways to overcome it.
+ 3.4.5 Testing and Integration
+ In this phase, the overall testing time is reduced in the RAD model as the prototypes are
+ independently tested during every iteration. However, the data flow and the interfaces between
+ all the components need to be thoroughly tested with complete test average.
+ 3.6 Timeline of the Study
+Figure 12. Gantt Chart
+ This diagram shows and explain the different activities that was conducted to achieve and finish
+ thesis project.
+ CHAPTER IV RESULTS ANDDISCUSSION
+ This chapter presents the result, analysis, and interpretations of the data collected in pre-survey and post-survey. The tables discuss the summary and findings of the gained information
+ and reactions from the respondents by way of Likert scale survey questionnaires to the
+ commuters of Naguilian, Isabela. The tables discuss the benefits and perceptions of the
+ respondents in the proposed system.
+ Table 2. Data were analysed using the frequency count and weighted mean using the scale
+ below.
+ Likert Scale, Pimentel, J.L. (2010) shows the weighted mean range and its descriptive
+ interpretation as evaluated by the respondents.
+ In finding the weighted Mean in the presentation, analysis and interpretation of data, the
+ researchers used the formula:
+ WM1+++ N
+ Where,
+ WM-Weighted Mean
+ X1+X2 +X3+...x Sum of Scores/Means
+ N- Total Number of Respondents/Means
+ PRE-SURVEY
+ Table 3. Mean Response and Descriptive Interpretation of the respondents' evaluation on the
+ manual complaint management system in terms of Functionality.
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ manual system in terms of Functionality.
+The table reveals the respondents strongly agree that the the manual process needs a lot of
+ time and effort (4.21). It shows that the committing records in manual recording (4.15) and can't
+ easily access the records (4.37). All (items) were strongly agreed by the respondents; thus, the
+ manual is not effective based on the computed weighted mean of 4.24.
+ Table 4. Mean Response and Descriptive Interpretation of the respondents evaluation on the
+ manual complaint management system in terms of Usability
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ manual system in terms of Usability.
+ The table reveals that the manual management system is missing of files and documents based
+ on the table 4.27 which falls on "strongly agree" interpretation. It also shows that the
+ respondents reports are inaccurate (4.38) and unauthorized person can access the records.
+ (4.21).
+ Table 5. Mean Response and Descriptive Interpretation of the respondents evaluation on the
+ manual complaint management system.
+ The table shows the mean and descriptive interpretation of respondents evaluation on the
+ manual system in terms of Reliability.
+ The table reveals that the Efforts and patient are highly needed based on the computed
+ weighted mean of 4.37, which falls on "strongly agree" interpretation. In addition, some of record
+ are not properly organized of 4.16 while it is time consuming in locating documents 4.27.
+ However, both have the mean which fall on "strongly agree" interpretation. Thus, the manual is
+ not reliable.
+ Table 6. Summary of the Mean Responses and Descriptive Interpretation of the respondents
+ evaluation on the manual complaint management system.
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ manual complaint management system.
+ The table reveals that the manual complaint management system is functional (4.24), usable
+ (4.29), and reliable (4.27) based on the general mean of 4.27 which falls on "strongly agree".
+ POST-SURVEY
+ Table 7. Mean Response and Descriptive Interpretation of the respondents evaluation on the
+ developed system in terms of Functionality.
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ system in terms of Functionality.
+The table reveals the respondents strongly agree that the system meets the functions required
+ (4.37). It shows that it is effective and efficient in reporting services of unlawful tricycle drivers
+ (4.38) and can perform or fix the problem within a given time (4.40). All (items) were strongly
+ agreed by the respondents, thus the system is effective based on the computed weighted mean
+ of 4.38.
+ Table 8. Mean Response and Descriptive Interpretation of the respondents evaluation on the
+ developed system in terms of Usability.
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ system in terms of Usability.
+ The table reveals that the system is usable based on the computed weighted mean of 4.37
+ which falls on "strongly agree" interpretation. It also shows that the respondents strongly agree
+ that the system is appropriate to the need of users (4.47) and is easy to operate (4.37) and can
+ submit complaint clear and easy to understand (4.27).
+ Table 9. Mean Response and Descriptive Interpretation of the respondents evaluation on the
+ developed system in terms of Reliability.
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ system in terms of Reliability.
+ The table reveals that the system is reliable based on the computed weighted mean of 4.23
+ which falls on "strongly agree" interpretation. In addition, item 3 "Driving with valid licensed or
+ non-expired licensed" obtained the highest mean of 4.33 while item 5 "Driving at speeds over
+ the stablished legal limit" got the lowest mean of 4.17. However, both have the mean which fall
+ on "strongly agree" interpretation. Thus, the system is reliable.
+ Table 10. Summary of the Mean Responses and Descriptive Interpretation of the respondents
+ evaluation on the developed system
+ The table shows the mean and descriptive interpretation of respondents' evaluation on the
+ developed system.
+ The table reveals that the developed system is functional (4.38), usable (4.37), and reliable
+ (4.23) based on the general mean of 4.33 which falls on "strongly agree".
+ CHAPTER VSUMMARY,CONCLUSIONS, ANDRECOMMENDATIONS
+In this chapter, the summarized result of findings, proven conclusion and recommendations are
+ included based on the gathered facts from the respondents about the proposed system of
+ Web-based Complaint Management System for Unlawful Tricycle Services in Naguilian, Isabela.
+ Summary
+ The researchers discussed the phases of development of the study as stated in the previous
+ chapters. It has detailed aim to become a Complaint Management System.
+ After a thorough analysis gathered data, the researcher's findings reveal that:
+ Analysis shows that the perception of the respondents on the proposed Web-based Complaint
+ Management System for Unlawful Tricycle Services in Naguilian, Isabela is strongly agreed that
+ the system is effective and efficient. Most of the respondents agreed that the Complaint app is
+ beneficial to all commuters.
+ In terms of the functionality of the system, most of the respondents answered "Strongly agree"
+ as it garnered a category mean of 4.38, the same in terms of usability of the system, it shows
+ that the respondents also "Strongly agree on this aspect as it garnered a category mean of 4.37.
+ In terms of reliability, the respondents disclosed that they "Strongly agree' as evidenced by its
+ category mean of 4.23.
+ To sum up, the respondents evaluated the proposed system in terms of functionality. usability,
+ reliability, most of the respondents "Strongly agree" and it gamered an overall mean of
+ 4.33.
+ Conclusions
+ Based on all the data gathered from the respondents, the researchers concluded that:
+ The respondents agreed that it is timely to change the existing manual complaint management
+ into Web-based Complaint Management System, and the benefits of the system were
+ determined by the respondents in terms of functionality, usability, and reliability.
+ 1. The system can benefit the respondents in terms of complaining the unlawful tricycle services
+ in Naguilian, Isabela.
+ 2. On the process of evaluation, the researchers used a questionnaire method with the following
+ criteria namely; (1) Functionality, (2) Usability, (3) Reliability.
+ 3. The proposed system received "Strongly Agree" in terms of functionality (4.38), usability
+ (4.37), and reliability (4.23), with the general mean of 4.33.
+Recommendations
+ Based on the findings and conclusion the researchers highly recommend that if possible and for
+ future enhancement of the development:
+ The Municipality of Naguilian, Isabela should adopt the Web based complaint management
+ system to improve the process of disseminating issues related to tricycle services and to ease
+ the problems encountered by the commuters.

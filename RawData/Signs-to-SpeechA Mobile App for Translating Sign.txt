@@ -1,0 +1,430 @@
+Signs-to-Speech: A Mobile App for Translating Sign Language to Speech using Convolutional
+ Neural Network
+ A Thesis Presented to the Faculty of the College of Computing Studies, Information and
+ Communication Technology Isabela State University Cauayan Campus
+ In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer
+ Science
+ JENALYN L. AGLUGUB
+ ANGELICA MAE P. LABUGUEN XYLEE MANER.MANIBOG
+ January 2023
+ ABSTRACT
+ It becomes very difficult to converse with deaf and mute people, so we need a language
+ structure to understand what they are trying to say. Language is a barrier between normal
+ people and mute people. Our aim is to create an interface that converts sign language to text so
+ that everyone can understand the sign language of people who are unable to speak. For this
+ purpose, we will train a model to recognize sign language and aim to create a mobile application
+ that can detect sign language and convert text into voice.
+ The researchers trained a state-of-the-art convolutional neural network (CNN) architecture,
+ ShuffleNetV2. Adam and SGD were used as optimization algorithms to compare which one
+ would achieve the highest accuracy in training the models. The researchers trained these
+ models to detect sign language, i.e., the American Sign Language alphabet.
+ During the recognition of American Sign Language, the Adam optimization achieved the highest
+ accuracy with an average of 99.51%, while SGD achieved an average accuracy of 99.26%. The
+ accuracy of the Adam and SGD models demonstrates that they can be used to detect sign
+ language. These models are chosen to be used on a mobile application for hand-sign language
+ translation. This model proved to be ideal for mobile applications with its small size of 235 MB.
+ 1. INTRODUCTION
+ 1.1 Background of the Study
+ In recent years, the use of different types of controls besides the mouse and keyboard has
+ become common. A number of devices are available for specific tasks or applications; one
+ interaction form that has gained popularity is the area of natural interactions between humans
+ and machines. Web browsers, video games, Virtual Reality (VR) environments, and a diverse
+set of tools have taken advantage of users' natural interactions, e.g., voice control, touchpads,
+ haptic devices, cameras, etc. Immersing the user in the system or environment in a natural way
+ is the goal of this type of research. Natural interaction involves the use of a user's body without
+ additional hardware. This is called a "natural user interface" (NUI). By using sensors and
+ capturing the diverse interactions of the user's body, it is possible to recognize commands and
+ perform required tasks in a system. Hand gestures are an important part of nonverbal
+ communication and form an integral part of our interactions with the environment. Notably, sign
+ language is a set of hand gestures that is valuable to millions of disabled people. However, deaf
+ or dumb users experience difficulty communicating with the outside world, as most neither
+ understand nor can use sign language. Gesture recognition and classification platforms can aid
+ in translating the gestures to those who do not understand sign language (Yang et al., 2016).
+ Furthermore, hand gesture recognition can help with the monitoring of stroke and rheumatoid
+ arthritis patients (Watson, 1993). Healthcare professionals can remotely monitor the
+ performance of several patients using a gesture classification system at a lower cost and
+ shorter time commitment than the traditional method of physically observing the joints in the
+ hand. Furthermore, hand gesture classification is a vital tool in human-computer interaction.
+ These gestures can be used to control equipment in the workplace and to replace traditional
+ input devices such as a mouse or keyboard in virtual reality applications (lannizzotto et al.,
+ 2001; Conn and Sharma, 2016). Sign language (SL) is not commonly learned by non-mute
+ people; thus, mute people have problems communicating. Usually, people do not learn sign
+ language if there is no mute person in their social circle or if it is not required for their job. When
+ they engage with a mute person, the communication can be hard and tedious. As an example, a
+ mute individual goes to an interview. If the interviewer does not know SL, the common approach
+ is to hire a translator. This action creates some problems, as hiring can be expensive, and
+ scheduling an appointment with three people, depending on the circumstances, is difficult.
+ Capturing and comprehending the relationship between utterances and words is critical for the
+ Deaf community in order to guide us to a time when automatic translation between utterances
+ and words is possible. The research community has long identified the need for developing sign
+ language technologies to facilitate the communication and social inclusion of hearing-impaired
+ people. Although the development of such technologies can be really challenging due to the
+ existence of numerous sign languages and the lack of large annotated datasets, the recent
+ advances in Al and machine learning have played a significant role in automating and
+ enhancing such technologies. On the other hand, sign language translation involves the
+ translation between different sign languages as well as the translation between sign and
+ speaking languages. This is where image recognition techniques play an important role by
+ automating the process of identifying signs. The focus of this research is on this type of
+ problem: facilitating communication via SL by automating the transcription of SL without the
+ need for a human translator.
+ 1.2 Objectives of the Study
+ The general intent of this study Signs-to-Speech: A Mobile App for Translating Sign Language
+ to Speech using Convolutional Neural Network.
+Following are the specific objectives of the study:
+ a. Gather and build an image dataset of the American Sign Language alphabet.
+ b. Train a CNN model to classify sign language alphabet on the gathered image dataset.
+ c. Compare the performance of using Adam and SGD optimization algorithm on the
+ performance of the CNN model.
+ d. Develop an android application using the trained CNN model to translate the real- life sign
+ language letters into speech.
+ 1.3 Significance of the Study
+ The researchers believe that the results of the study will benefit the following:
+ Deaf-mutes: They are most benefited by this app, for it could help them in their emotional
+ aspects; it helps them boost their confidence and have the chance to be considered in the
+ community like a normal person because with this app, many people have the possibility of
+ learning and adopting sign language communication.
+ Signer or Interpreter: They may know how to speak in a sign language way, but it would be way
+ better if they would install an app like this to save in an on-the-spot situation wherein they forgot
+ a certain sign language, then they will just look at their phone and click the app to know the right
+ and exact sign language.
+ Normal people will benefit from this app as well, because it makes them aware of such signs
+ and allows them to be educated.
+ Future Researchers: The output of this research will serve as an input for future researchers
+ who want to conduct a study related to this project. The next batch of researchers can upgrade
+ the project by adding machine learning concepts and computer image processing.
+ 1.4 Scope and Delimitations
+ 1.4.1 Scope
+ The scope of this project is to build a mobile application that can automatically detect gestures
+ (sign language) and convert text into audio without the use of interpreters.
+ 1.4.2 Delimitations
+The system can only detect the collected hand gesture images (A--Z sign languages). Also, for
+ hand detection, the study is only interested in detecting the hand gestures collected. Therefore,
+ those hand gestures that were not collected will not be identified.
+ 2
+ THEORETICAL FRAMEWORK
+ 2.1 Review of Related Literature
+ This section includes the ideas, generalization or conclusions, methodologies, and other
+ information that are relevant and related to the study.
+ Sandeep Kautish (2021) asserts in his study that machine learning is an old technique that has
+ lately advanced. Since the 1970s, there has been a push to use artificial intelligence and
+ machine learning to improve the world. Wang et al. used the limit histogram to demonstrate
+ turn- invariant postures. The information has been secured using a camera. The bunching
+ process uses a common form after computation to calculate the limit for each grouping in the
+ grouped image using the skin tone discovery channel. Multiple networks were created from the
+ image, and the bounds were then standardized. By dividing the image into a number of sections
+ Nin an outspread structure, according to the explicit edge, the harmony's size chain limit-which
+ was used in the form of a histogram was determined. Neural networks, MLP and dynamic
+ programming, as well as DP coordination, were used for the classification process. Despite the
+ usage of the distinct harmony's size histogram and distinctive harmony's size FFT, many
+ analyses have been conducted on various highlight places. As various studies have clearly
+ shown in the past, convolutional neural networks play a significant role in picture recognition. A
+ remarkable application with a track record of efficiency and dependability is CNNs' unique
+ contribution to the diagnosis of medical disorders by tying the scanned images to the presence
+ or absence of diseases.
+ One of the most reliable activation functions used in image processing is the Rectified Linear
+ Unit (ReLU). One of the most often used nonlinear activation functions that academics rely on
+ for deep learning projects is ReLU. The experiments used 26 static positions from American
+ Sign Language. The work was built on a uniform base. For the purpose of acknowledging hand
+ motions, Stergiopoulou put out yet another self-growing and self-organized neural network
+ (SONG) network [18]. An assessment of hand-formed morphology has been identified utilizing
+ SONGarrange, and a shading division approach based on the skin shading channel in the
+ YCbCr shading space was used for hand district identification. The Gaussian circulation model
+ was used for recognition after three highlights were extracted using the finger-distinguishing
+ proof process, which determines the quantity of lifted fingers and quality of hand shape.
+ According to Ahmed KASAPBASI (2021), hearing loss affects more than 5% of the world's
+ population. Different sign languages have been created as a simple and effective form of
+ communication to help these people overcome the difficulties they confront. During
+communication, sign language relies on movements and signals to convey meaning.
+ Researchers are currently looking at ways to create sign language recognition systems,
+ however there are many difficulties with their implementation, including the inability to recognize
+ motions and hand poses. The development of recognition systems is further complicated by the
+ similarity of some signs' appearances. Because letters are the foundation of all languages, this
+ paper focuses on the alphabet recognition method used in sign language. Furthermore, the
+ system described here can be used as a springboard for creating systems that are more
+ complicated.
+ Image-based and sensor-based sign language identification techniques are the two main
+ categories. The first technique depends on wearing certain gloves or localized sensors. This
+ technique's key advantage is its capacity to accurately convey information regarding signals or
+ gestures including hand movement, rotation, orientation, and location. The second technique
+ makes use of several camera types. It is founded on image processing, which does not call for
+ hardware like sensors. This strategy solely makes use of pattern recognition and various image
+ processing methods. The sign languages of various nations vary. Additionally, non-manual signs
+ including body motions and facial expressions are frequently used in different sign languages.
+ These signs frequently need to be performed with two hands or in a series of movements. The
+ design of sign language recognition systems becomes more challenging as a result of these
+ problems. Researchers became particularly interested in sign language recognition systems as
+ a means of overcoming this. Deep learning has recently been used by researchers to improve
+ sign language recognition software. In order to increase the system's accuracy, numerous
+ approaches and datasets are used in this process. Many factors, including regional disparities,
+ image types (such as RGB or depth), and others, result in the creation of different datasets.
+ Similar to spoken languages, sign languages vary from one place to another and include
+ American Sign Language, Indian Sign Language, Arabic Sign Language, etc. Additionally,
+ whether a camera produces RGB or depth images determines the kind of images that are
+ employed in recognition systems. Additionally, the fundamental research approaches that make
+ up various gesture recognition systems differ from one system to another. Each study strives to
+ develop and upgrade a unique system to increase its accuracy. There is currently no method
+ that can accurately handle every situation. Due to CNNs' outstanding performance in picture
+ identification, researchers have previously concentrated on CNNs with various parameters for
+ sign language recognition systems classification. Additionally, several research combine CNNs
+ with other techniques to provide more accurate results. Others, however, have employed
+ strategies like SVM and PCANET. The superiority and skill of CNNs have been demonstrated by
+ comparisons with other techniques.
+ According to Ying Ma (2022), The World Federation of the Deaf (WFD) estimates that around 70
+ million deaf persons worldwide utilize sign languages. The ability to read signs could help
+ hearing- impaired and sighted persons overcome social bariers. As the primary language of
+ hearing-impaired people in North America, American Sign Language (ASL) has been utilized for
+ name spelling, book spelling, and letter correction since it is the most straightforward and
+ valuable sign language. As a result, ASL is essential for those who are hard of hearing. But in
+ unusual circumstances, ASL is always employed as a supplementary language for alphabetic
+spelling, so the advancement of the ASL recognition system is frequently disregarded. Although
+ the majority of modem communication tools can allow translation between spoken and written
+ languages, they are insufficient for ASL. Therefore, developing a reliable ASL recognition model
+ is essential to enhance communication and serve as a tool for hearing-impaired people to help
+ with letter correction, book spelling, and name spelling. For the recognition of sign language,
+ some deep leaming approaches have been employed. The convolutional neural network (CNN)
+ typically delivers superior sign language recognition precision among these techniques. One or
+ more images are always used for recognition in a single- stream CNN. Each individual image is
+ subjected to a different convolution kernel operation. To aid those who are deaf, numerous
+ articles on the understanding of sign languages have lately been published. To categorize
+ handgrip and finger movements, Adewuyi et al. integrated electromyography data from the
+ fingers and arm muscles. To get higher identification results, several works combined several
+ pieces of art, modal data, which is referred to as a multi-modal approach.
+ A sort of neural network used to process sequence data is the recurrent neural network (RNN).
+ Cate et al. detected 95 different types of vocabulary in sign language using RNN for time series
+ modeling. A dual-stream RNN network was proposed by Chai et al. in 2016. The model could
+ extract gradient histogram characteristics and skeleton data for use as another RNN network's
+ input. In the Chalearm Gesture Recognition Challenge, this model came in first place. In 2017,
+ Li et al. provided new hand type descriptors, and using LSTM-based timing modeling on these
+ descriptors, they successfully recognized Chinese sign language with high accuracy. In 2018,
+ Pu et al. suggested a system for understanding sign language based on a dilated convolutional
+ network and a three-dimensional residual network.
+ According to Ankit Ojha (2020), it has gotten harder in recent years to communicate with the
+ general public if you're deaf. Implementing such a system is challenging because society
+ doesn't have a competent translator for it, and having an app for it on our phones is like having
+ a dream during the day.
+ By offering a communication app, the writers have made a fantastic suggestion for the deaf
+ community or the hearing aid community. But creating an app for it is not an easy operation; it
+ calls for numerous efforts including memory usage and the implementation of a totally good
+ design. Their software takes a photo of a sign motion and then transforms it into a meaningful
+ word. In order to lessen the load on the CPU and its time, they first compared the gesture using
+ a histogram related to the sample test as well as other, brief samples. They have outlined a
+ procedure that makes it simple to add a gesture to their software and keep it in their database
+ for later, wider recognition. Finally, they made a big move by deciding to employ one app rather
+ than a number of recent customer favorites as a translator.
+ The use of facial and physical expressions, postures, and a set of gestures in human-to- human
+ communication, as well as through TV and social media, are all part of sign language, according
+ to Abiyev, Rahib H. (2020). Millions of deaf (hearing impaired) persons use sign language as
+ their primary language, along with those who are hard of hearing and have a variety of speech
+ challenges. Approximately 151,000 persons use sign language as a form of communication,
+ according to research done by the British Deaf Association. Since practically every nation has
+ its own national sign language and fingerspelling alphabet, there is no such thing as a
+worldwide sign language. They replicate facial expressions while also moving their lips and
+ making manual movements. These sign languages have a unique syntax that differs
+ significantly from spoken languages based on speech. American Sign Language (ASL), one of
+ the most widely used sign languages, with its own syntax and set of rules. A sign language
+ known as Signed English uses signs from ASL but arranges them according to the English
+ language. It takes two skills to communicate in sign language: reading the signs (receptive
+ skills) and making the signs (expressive skills). Because it integrates hearing-impaired people
+ into society and promotes equality for all people, translation and recognition of sign language is
+ an important research area. An extremely important issue aimed at replacing the third human
+ factor is the creation of a human-machine interface that can improve communication between
+ hearing-impaired and healthy people (the translator). The translation of words written with the
+ fingers into text is frequently the only situation where the recognition of the sign language
+ alphabet is a challenge. Sign languages are dynamic combinations of a variety of palm and
+ hand gesture positions, body movements, and, finally, facial expressions that each have their
+ own rules and grammar. For the majority, if not all, known natural dialects or languages, there
+ are various signs.
+ Figure 2-1. Conceptual framework
+ Figure 2-1 depicts the conceptual framework used in this study. First, is the data gathering.
+ Then the datasets was used for the development process, we used two algorithm to compare
+ which of them has the highest accuracy. Then datasets are split into two sets- for the training
+ and validation set, which is used to evaluate the performance of the models. The trained and
+ evaluate
+ 2.3 Definition of Terms
+ ASL: American Sign Language
+ CNN: Convolutional Neural Network
+ Commands: Is a specific instruction given to a computer application to perform some kind of
+ task or function.
+ Dataset: Collection of examples.
+ Deaf: Lacking the power of hearing, or having impaired hearing.
+ Deep Learning: It is a type of machine learning and artificial intelligence that imitates the way
+ humans gain certain types of knowledge.
+ Epochs: The number of times that the model will work through the entire dataset.
+Finger Spelling: Is a method of spelling words using hand movements.
+ Gesture: A movement of part of the body, especially a hand or the head, to express an idea or
+ meaning.
+ Grammar: Is the way we arrange words to make proper sentences.
+ Histogram: Is a graph that shows the frequency of numerical data using rectangles.
+ Image Processing: Performing operations on an image for enhancement or to extract useful
+ information from it.
+ Machine Learning: The science of getting computers to act without being explicitly programmed.
+ Mobile App: A computer program or software application designed to run on a mobile device
+ such as a phone, tablet or watch.
+ Model: The output of training a machine learning algorithm.
+ Mute: Is a person who does not speak, either from an inability to speak or an unwillingness to
+ speak.
+ Natural User Interface: Is a system for human-computer interaction that the user operates
+ through intuitive actions related to natural, everyday human behavior.
+ Prediction: The output of a trained model when applied to new data.
+ Preprocessing: Processing data before it's used to train a model.
+ SL: Sign Language a system of communication using visual gestures and signs, as used by
+ deaf people.
+ Translator: Converts English text into American Sign Language (ASL) used by people with
+ speech and hearing impairment.
+ Validation: The process of evaluating the model during training.
+ 3
+ OPERATIONAL FRAMEWORK
+This chapter focuses its discussion on the materials and methods that are utilized to describe
+ how the study was conducted. The first section explains the different techniques used in training
+ the CNN models. The second section presents the different technologies used for the realization
+ of the proposed application.
+ 3.1 Technologies and Tools
+ 3.1.1 Tools used in training the CNN models
+ Throughout the process of training and validating the CNN models, the Python programming
+ language was used with version 3.9.0. Python was created by Guido van Rossum and was
+ released in 1990. We used Python in this study because of its simplicity.
+ Stochastic Gradient Descent (SGD) is an optimization algorithm often used in machine leaming
+ applications to find the model parameters that correspond to the best fit between predicted and
+ actual outputs. It's an inexact but powerful technique. SGD is a non-convex, iterative, first-order
+ optimization algorithm for differentiable error surfaces. It is a stochastic estimation of gradient
+ descent, in which the training data is randomized. It is a computationally stable and
+ mathematically well-established optimization algorithm. The intuition behind SGD is that we take
+ the partial derivative of the objective function with respect to the parameter we can optimize,
+ which yields its gradient, which shows the increasing direction of the error loss.
+ The Adam Optimization algorithm differs from the classical stochastic gradient descent
+ algorithm.Adam is a popular algorithm in the field of deep leaming because it achieves good
+ results quickly.
+ The movement estimation algorithm, or Adam for short, is an extension to gradient descent and
+ a natural successor to techniques like AdaGrad and RMSProp that automatically adapt a
+ leaming rate for each input variable for the objective function and further smooth the search
+ process by using an exponentially decreasing moving average of the gradient to make updates
+ to variables. Recently, the Adam optimization algorithm has gained a lot of popularity. Adam was
+ developed by Diederik P. Kingma and Jimmy Ba in 2014 and works well in place of SGD. The
+ results of the Adam optimizer are generally better than every other optimization algorithm, it has
+ a faster computation time, and it
+ requires fewer parameters for tuning. Because of all that, Adam is recommended as the default
+ optimizer for most applications. Convolutional Neural Network (CNN) is a subset of machine
+ learning. It is one of the various types of artificial neural networks that are used for different
+ applications and data types. A CNN is a kind of network architecture for deep learning
+ algorithms and is specifically used for image recognition and tasks that involve the processing of
+ pixel data. CNNs are particularly useful for finding pattems in images to recognize objects,
+ classes, and categories. CNNs were first developed and used around the 1980s, and they were
+ introduced by Yann LeCun.
+According to Zhu et al. (2020), unlike other classical models where the feature extraction part is
+ done separately, CNNs take image data, train the model, and then automatically classify the
+ features. CNNs are composed of multiple layers that allow the model to extract the important
+ features in an image, which is then used for prediction (Yamashita et al., 2018).
+ 3.1.2 Tools used in building the mobile app
+ React Native is a JavaScript framework for writing real, natively rendered mobile applications for
+ iOS and Android. It is based on React, Facebook's JavaScript library for building user
+ interfaces, but instead of targeting the browser, it targets mobile platforms. In other words, web
+ developers can now write mobile applications that look and feel truly "native," all from the
+ comfort of a JavaScript library that we already know and love. Plus, because most of the code
+ you write can be shared between platforms, React Native makes it easy to simultaneously
+ develop for both Android and iOS. React Native was first released by Facebook as an
+ open-source project in 2015. In just a couple of years, it became one of the top solutions used
+ for mobile development. React Native development is used to power some of the world's
+ leading mobile apps, including Instagram, Facebook, and Skype.
+ PlayTorch is a framework for rapidly creating mobile Al experiences. It is also known as PyTorch
+ Live and helps build Al-powered mobile prototypes quickly. The new release is much simpler
+ and provides a much better developer experience.
+ The programming language used was JavaScript JavaScript, often abbreviated as JS, is a
+ programming language that is one of the core technologies of the World Wide Web. It is one of
+ the most popular languages in the world. JavaScript was invented by Brendan Eich in 1995.
+ 3.2 Methods
+ 3.2.1 Dataset Creation
+ Image datasets used in this paper is the ASL Alphabet dataset. All images in both datasets
+ were captured by the camera. The image data examples are shown in Figure 3-1. ASL is a
+ gesture language with a simple expression that mainly contains static gestures. In "static"
+ gestures, a gesture represents the meaning of an American letter.
+ The researchers specified the hyperparameters to be used during model training, as seen in
+ Table 3-2. The mobile CNN models were trained for 15 epochs; the batch size was defined to be
+ 128; the stochastic gradient descent (SGD) and Adam optimization algorithms were used as the
+ optimizer, and the cross-entropy loss was defined as the loss function.
+4
+ RESULTS AND DISCUSSION
+ This chapter presents and interprets the data gathered in this study.
+ 4.1 Results and Verification
+ 4.1.1 Results of Training the Mobile CNNs
+ 4.1.1.1 Validation accuracy
+ The two mobile CNNs were tested on the validation dataset. The performance of the model is
+ reported by computing its accuracy. The accuracy is computed by averaging the accuracy of
+ each class in the dataset. The precision, recall, and f1-score are shown in the tables in
+ Appendix A.
+ For the sign language dataset, the two mobile CNNs showed high performance on the validation
+ set. However, the models greatly differ in the time consumed in training. The Adam achieved the
+ highest accuracy with 99.51% in the validation dataset and was trained for 2.46 minutes. SGD
+ achieved 99.26% with 2.45 minutes of training time.
+ 4.1.1.2 SGD vs Adam
+ Figure 4-2 shows the training and validation accuracy of SGD on a sign language dataset.
+ As can be seen, the accuracy started very low while the loss started at 3%. This was a result of
+ using the transfer learning method. The training time of this model was similar to the training
+ time of the transfer training model. Figure 4-2 also shows the training, accuracy, and loss of the
+ trained model. The highest accuracy achieved within the 15 epochs of training was 0.991.
+ Figure 4-2. SGD accuracy (right) and SGD loss (left)
+ Adam is the model that achieved the highest validation accuracy on the sign language dataset.
+ The Adam achieved 0.995 or 99% accuracy on the validation set, as shown in figure 4-3.
+ As can be seen in the results, the validation accuracy achieved performed well in comparison
+ with the models. Also, the transfer learning method achieved high validation accuracy quickly,
+ showing high accuracy even in the first epoch.
+ Figure 4-4. ShuffleNetV2 and SGD confusion matrix
+Figure 4-4 shows the confusion matrix of the ShuffleNetV2 and SGD models on the sign
+ language dataset. The confusion matrix shows what the model got right and wrong during its
+ prediction on the validation set. The ShuffleNetV2 and SGD models correctly labeled 4 images
+ of A and 23 of B.
+ Figure 4-5. ShuffleNetV2 and Adam confusion matrix
+ Figure 4-5 shows the confusion matrix of ShuffleNetV2 and the Adam model. The confusion
+ matrix shows that the ShuffleaNetV2 and Adam models were the most excellent at identifying
+ sign language.
+ Figure 4-6. Main screen of the app (left) and sign language detection (left)
+ The Adam model showed the highest validation accuracy on the task of sign language
+ translation, while the SGD showed the lowest validation accuracy. Therefore, the Adam and
+ SGDare used in building the sign language translation app.
+ Figure 4-6 shows the main screen of the mobile app. There is one button to start detecting your
+ hand signs. The app works by first obtaining an image that will be used for detection. The image
+ could be obtained by using the phone's camera to capture an image of the sign language.
+ The images in Figures 4-7 below show screenshots of the mobile app's detection of sign
+ language. The last screenshot image shows incorrect detection of sign language, where it was
+ detected as K when it is actually an image of V. This incorrect detection happened because of
+ the insufficient light and low quality of the camera, and it could not clearly detect some of the
+ letters in the alphabet because of some similarity in the datasets.
+ 5
+ SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+ This chapter presents the summary of the research undertaken, the conclusions drawn, and the
+ recommendations made as an outgrowth of this study.
+ 5.1 Summary
+ This study was conducted for the purpose of training a hand-sign language machine learning
+ model with the use of ShuffleNetV2 CNN architectures. Different methodologies and procedures
+ are used in this study. Acquiring the image dataset used in training the models is the most
+ crucial part of the study. The image datasets were given by the researchers, and some were
+ open-sourced by other researchers and developers. The dataset was also verified by checking
+ for and fixing duplicate and mislabeled images.
+The mobile CNN model used is ShuffleNetV2. The Adam model showed the highest accuracy in
+ the validation set of sign language, while SGD showed the lowest validation accuracy on the
+ sign language dataset. The results showed that the performance of the model Adam is better
+ compared to SGD.
+ As the Adam achieved the highest accuracy on the sign language dataset, these models were
+ converted to TorchScript, a file format that allows the models to run inference on mobile phones.
+ React Native was used to develop the mobile application.
+ 5.2 Conclusions
+ Based on the data gathered in this study, the following conclusions are drawn:
+ 1. The researchers, therefore, conclude that the researchers gathered and built the image
+ dataset of the American Sign Language alphabet, which was then used in this study.
+ 2. As a result, the researchers conclude that a trained CNN model to classify sign language
+ alphabet on the collected image dataset can fit hand sign language.
+ 3. It was also found out that using SGD and the Adam optimization algorithm for training the
+ dataset yields the highest validation accuracy is Adam.
+ 4. Furthermore, developing an Android application using the trained CNN model to translate
+ real-life sign language letters into speech is exemplary. Lastly, the on-device inference makes
+ the mobile app more widely available to users as it can function without the use of an internet
+ connection.
+ 5.3 Recommendations
+ The results of the models on the sign language datasets presented in this study are promising.
+ However, some areas are needed to improve in order to make the project more accurate and
+ instrumental. Based on the results and conclusions presented in this study, the following
+ recommendations are suggested:
+ 1. The project would be more helpful if there were some spacing so that it could construct a
+ sentence.
+ 2. The use of more data with high-quality images for more accuracy
+ 3. The project would be more helpful if it was able to identify sign language words so that you
+ didn't need to do it by letters.

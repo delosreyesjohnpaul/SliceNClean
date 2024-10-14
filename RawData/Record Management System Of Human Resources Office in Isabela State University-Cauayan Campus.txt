@@ -1,0 +1,225 @@
+Record Management System Of Human Resources Office in Isabela State University-Cauayan Campus
+
+A Capstone Project Presented to the Faculty of the
+
+College of Computing Studies, Information and
+
+Communication Technology
+
+Isabela State University Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Aguinaldo, Ira D. Canapi, Joferson V. Mangaoang, Jhon Paul M.
+
+ABSTRACT
+
+The study entitled "Record Management System Of Human Resources Office in Isabela State University-Cauayan City" helps the admin input employee's data. The work of the staff will be reduced and likewise the queue time of the employees that want the service of the office.
+
+The main purpose of this study is to develop and implement the proposed research entitled "Record Management System of Human Resources Office in Isabela State University-Cauayan City" Mainly the study aimed to: determine the listed problems
+
+encountered by the agency in the present system. The method used in gathering data were questionnaires, interviews, and observations. Based on the weighted Mean and descriptive interpretation of the performance of the existing manual system, the Department Head and Staff "Much a
+
+Problem" encountered plenty of problems. Analysis shows that the pre-evaluation perception of the respondents on the Record Management Manual System of the Human Resources Office in Isabela State University-Cauayan City is "Much a Problem. "The respondents agreed they encountered listed problems along the weighted Mean (3.62).
+
+Likewise, the post-evaluation perception of the respondents is "Agree" with the development of the Record Management System for the Human Resources Office in Isabela State University-Cauayan Campus in terms of functionality (3.65), Reliability (3.65). Usability (3.83), Efficiency (3.60), Security (3.88), and Maintainability (3.73). The result of the post-evaluation. The respondents have certainly agreed that they used of current system along weighted Mean (3.72)
+
+Based on the summary, conclusion, and recommendations, most respondents believed there is a need to improve the present system. The existing manual system is nor effective, as proven by the encountered listed problems and the need for an effective system for easier and more accurate transactions. The evaluations of the respondents gave the reason that there is a need to replace the manual system with Recora Management System, a Desktop application.
+
+Hence, the development of a Record Management system is recommended in the Human Resources Office to address the problems encountered based on the study result 0CHAPTER 1 INTRODUCTION
+
+An RMS system, often known as a records management system, can greatly simplify everything. This software can keep, locate, and utilize official records as proof of transactions, payments, and other business activities. The most recent document and records management applications contain cutting-edge features, including search tools, scanning abilities, retention and classification tools, compliance tracking features, and
+
+more.
+
+Records management not only ensures that your files are always accessible when needed, but it can also improve workflow and productivity within your organization. Workers will be able to process data quickly, identify the owner of each set of information, and eliminate unnecessary data. You can instantly access your documents using a cloud-based records management solution.
+
+In the process, the researchers will conduct the study in Human Resources Office at Isabela State University-Cauayan Campus.
+
+The importance of this recording management in the current age of technology. redundancy processes, terabytes, gigabytes, and duplicate copies of information, record management is a mundane yet critical practice all organizations should have nailed down. More often, the role of records management in an organization and the approach to maintaining data files. Records management involves multiple areas of data collection, storage, and, eventually, proper destruction.
+
+Objectives of the Project
+
+The main objective of this study is to develop a system entitled "Record Management System of Human Resources Office in Isabela State University- Cauayan Campus."
+
+Specifically, it aimed to:
+
+1. identify the problems and challenges encountered in the Human Resources
+
+Office's present manual system of recording employees' personal information.
+
+2. evaluate the developed desktop application system in terms of the given ISO
+
+25010 standard criteria;
+
+2.1 Functionality;
+
+2.2 Reliability;
+
+2.3 Usability:
+
+2.4 Efficiency
+
+2.5 Maintainability; and
+
+2.6 Security.
+
+Scope and Limitations
+
+The scope of this study is to design and implement a record management system that focuses on PDS, Collecting employee data. The record management system is accessible by the Admin and staff of the HR office. The system is capable of storing a large amount of employee data. This system will provide efficient, reliable, fast, and accurate information to good quality service to secure the file of the employees.
+
+Limitation
+
+This study is limited to the department of Human Resources Office in Isabela State University-Cauayan Campus only to add, edit, or update employees' records. It also printed individual employees' forms and counted automatically listed employees.
+
+The figure summarizes the steps to be followed to achieve the goal of the study.
+
+The input column shows what the problems encountered are. The process column shows the framework used to construct the proposed system. The output column shows the development of the proposed Record Management System of the Human Resources
+
+Office
+
+at
+
+Isabela
+
+State
+
+University-Cauayan
+
+Campus.
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+According to Scott Shpak (2019), double-entry accounting is time-consuming in a manual system since cach transaction must be manually recorded twice. A double-entry method is used by many accounting programs, but the second entry is generated automatically. It does minimize disparities between the first and second submissions, but it won't prevent someone from entering the wrong number.
+
+According to Thomason (2019), "businesses today may still use manual accounting for some processes. Manual accounting involves the use of paper ledgers and journals to record financial transactions. A lack of Security is another common disadvantage to manual accounting Companies may be unable to prevent employees from reviewing sensitive data in paper ledgers and journals.
+
+According to Bailey (2019), "in very small businesses where the owner is the main operator, it can still make sense to do all the data entry manually, although upgrading to an automatic system can make for smoother operations. Here are some disadvantages Human error 2. Speed 3. Labor Costs".
+
+According to Mukred (2022), the amount of information stored in modern technology has been exponentially increasing. Access to vast amounts of information has changed how governments, institutions, organizations, and individuals conduct their business and record keeping. The increased use of cloud computing in conjunction with. record-keeping and management. Several government offices opted to use computers to store records for easy access and retrieval in searching for specific data or files.
+
+According to Mishra. (2021), storage of data and using that data in an effective manner are the major issues in the management system. The Security of data and the use of this data in a proper way are very important. This project of Record Management System is a web application-based project designed for the hospital to manage and use their patients' data effectively. The project's main aspect is providing a system where the data can be stored and retrieved easily.
+
+According to Omuge (2020), the Government's research focused on assessing records management systems with the aim of looking at the systems in use and how records are handled.
+
+According to Aziz (2018), One system to think about is the Electronic Document and Records Management System (EDRMS). However, because people are not enthusiastic about using it, the adoption rate of such a system is remarkably below satisfaction. The Government has invested a significant sum of money in ensuring that its information management procedure complies with widely accepted best practices for improving the methodical, quick, effective, and efficient delivery of information services.
+
+According to Shonhe (2019), the adoption of electronic records management systems (ERMS) in government organizations has been affected by technology. One of the main reasons why the Government has been under pressure to implement ERMS is the high frequency of subpar service performance in government entities.
+According to Barrow (2019), from the perspective of Somalia, the project Criminal Record Management System is a criminal record management system that documents criminal activity. It may be utilized to report unlawful activity.
+
+According to Obotu (2018), in any facility that offers healthcare services, health record management is essential. Delivering services of a high standard. Hospitals need a variety of essential tools, including health records.in order to fulfill the goals and objectives of the affiliated hospitals.
+
+According to Popela (2019), the adoption of electronic patient record management systems was found to be significantly influenced by a number of other factors, including knowledge of the systems, ICT infrastructures, organizational readiness, technical readiness, top management support, and system compatibility.
+
+According to Ogwal (2019), dairy farms now have a computerized records management system that addresses issues with record accuracy and a lack of actual farm records. The technology registers all of the animals on the farm and keeps tabs on their well-being and productivity. These records are preserved for animal statuses, care, services, pregnancy, and calf records. With its different reports and graphs for simpler comprehension, the system also keeps track of personnel and milk distribution
+
+information.
+
+According to Gumiran (2019), an automated calculation of the seminars and training sessions attended as well as the employee's service history using NBC guidelines policy was delivered by the human resource record management system, in addition to providing an effective and systematic tool for managing the record and keeping it secure. 
+
+CHAPTER III DESIGN AND METHODOLOGY
+
+This chapter presents the design and methodology of the research, and the researchers used this method to develop a proposed project entitled "Record Management System of Human Resources Office in Isabela State University-
+
+The figure above shows the data flow diagram that illustrates the manual process of receiving employees in the Human Resources Office. The employees are obliged to fill up the PDS by the HR office to keep their personal information as an employee. After that, all the information will be stored in a file storage or file cabinet.
+
+Fishbone Diagram
+Figure 3. Fishbone Diagram
+
+The fishbone diagram was provided to assist in the understanding of the project. The set of branches demonstrates how to think about the causes of the existing method's problem. The data recording process is too slow in performance because of the manua pen, paper, and manual system method. In efficiency, the data is either hard to retrieve or misplaced due to improper data storage. In the information, the data received by the Admin is sometimes inaccurate. Security, the data is not secure because usually it is only stored on a desk and can easily be accessed by any person. In economics, the usage of paper is too expensive for gathering information. Requirement Documentation
+
+Technical Background
+
+This chapter discusses the technical background of the system. It covers the technique of the project, brief details of the technologies that were used, and how the project will work.
+
+Materials
+
+1.1.1 Software Used
+
+Programming Languages:
+
+Visual Basic 6.0- Language used to develop the system
+
+Database
+
+Microsoft Access
+
+1.1.2 Hardware Used
+
+Laptop
+
+Intel HD3000 2GHz+
+
+Storage 500GB HDD
+
+RAM 8GB
+
+1.1.3 Data
+
+The researchers asked the Human Resources Office for some samples employees' data recorded. This will serve as a guide for developing the system. 
+1. Identify and Resolve the Risk
+
+The second quadrant is when all potential solutions are compared to choose the best one. The researchers then assess the risk connected to the solution, and hazards are dealt with utilizing the best approach.
+
+2. Development and Test
+
+The third quadrant is where the developed and tested features are recognized. The availability of the program will be made feasible by this quadrant.
+
+3. Plan the Next Iteration
+
+The last quadrant was where the users evaluated the developed version of the software. After being evaluated, the next phase was started.
+
+4. Research Design
+
+The researchers used the descriptive method of research to describe the Record Management System's effectiveness in design, functionality, reliability, and performance.
+
+Data Gathering Procedure
+
+The researchers gathered some information on how the Admin and staff handle the employees gathered records through an interview. It is observed that the staff manually collects personal data.
+
+Data Gathering Instruments
+
+Interview
+
+The researchers conducted an interview with the respondents. The purpose of the interview was to learn more about the existing personal data recording procedure used by the human resources office. The researchers amassed the data required to comprehend the study's manual processing, analyse it, and suggest a system utilizing this method.
+
+Survey Questionnaires
+
+The use of questionnaires assisted them in gathering information about the potential benefits of the proposed Record Management System. Using a questionnaire developed by the researchers, the researchers were able to collect information about the benefits of the proposed Record Management System.
+
+Internet Research
+
+The researchers used the internet to obtain the information they needed for their study materials, as well as to gather additional information for the study.
+
+Data Analysis Plan
+
+It is the process of analysing and summarizing data in order to extract useful information and develop conclusions and recommendations from the material examined and summarized 
+CHAPTER V SUMMARY, CONCLUTION, AND RECOMMENDATIONS
+
+This chapter summarizes the study's findings, conclusions, and recommendations based on the study's objective: to design and develop a Record Management system.
+
+Summary
+
+Based on the proposed "Record Management System of Human Resources Office in Isabela State University-Cauayan Campus." The following findings are being presented.
+
+Based on the respondents' responses to the existing system's concerns in terms of problems encountered (a mean of 3.62), as a result, with a general Mean of 3.62, the respondents encountered a problem when utilizing the current system.
+
+Also, based on the responses of the respondents, the proposed system's effectiveness in terms of Security (a mean of 3.88), usability (a mean of 3.83), maintainability (a mean of 3.73), functionality (a mean of 3.65), reliability (a mean of 3.65), and efficiency (a mean of 3.60). Got a general Mean of 4.08, respondents agreed that implementing the proposed system is effective,Conclusions
+
+Conduction a thorough analysis of the designed proposed system, it is possible to state with confidence that the proposed system is efficient and functional for both Admin and staff of the agency.
+
+1. There are problems encountered in the manual process at the agency of this study in terms of retrieving and finding employees' records.
+
+2. The system operates effectively and appropriately to fulfill the minimum expectations established from the beginning. The proposed system is expected to provide additional benefits by improving overall performance, efficiency, and productivity in monitoring employees' information and data at the Isabela State University-Cauayan Campus. The Admin and staff-supported Record Management System are implemented. The proposed system is more stable
+
+and better than the manual system.
+Recommendations
+
+Based on the results of the findings and conclusion gathered, the researchers would like to recommend the following:
+
+1. The researchers strongly recommend that the proposed "Record management System of Human Resources Office in Isabela State University-Cauayan Campus" be implemented because it will significantly benefit the Admin and staff of the Human Resources Office in Isabela State University-Cauayan Campus in terms of maintaining and monitoring employees' records.
+
+2. According to the proponents, future researchers may continue enhancing the proposed system in portability, which was identified as the weakest category in the evaluation. Additionally, proper system maintenance is necessary to ensure the system's working state and accessibility to implementation.

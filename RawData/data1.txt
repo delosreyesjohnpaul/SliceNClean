@@ -1,0 +1,1462 @@
+26   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ Data Mining Techniques 
+in Agricultural and 
+Environmental Sciences
+ Altannar Chinchuluun, Department of Industrial and Systems Engineering, , University of 
+Florida, USA
+ Petros Xanthopoulos, Department of Industrial and Systems Engineering, , University of 
+Florida, USA
+ GN[J EXVJRWX$ 5NYJ[]VNW] XO :WM^¥][RJU JWM Db¥]NV¥ 6WPRWNN[RWP$ $ FWR_N[¥R]b XO 7UX[RMJ$ 
+FD21 5NYJ[]VNW] XO 6aYN[RVNW]JU JWM 4URWRLJU >NMRLRWN$ $ FWR_N[¥R]b >JPWJ 8[eLRJ XO 
+Catanzaro, Italy
+ A&>& AJ[MJUX¥$ 5NYJ[]VNW] XO :WM^¥][RJU JWM Db¥]NV¥ 6WPRWNN[RWP$ $ FWR_N[¥R]b XO 7UX[RMJ$ 
+USA
+ ABSTRACT
+ Data mining techniques are largely used in different sectors of the economy and they increasingly are play
+RWP JW RVYX[]JW] [XUN RW JP[RL^U]^[N JWM NW_R[XWVNW]%[NUJ]NM J[NJ¥& EQR¥ YJYN[ JRV¥ ]X ¥QX` X^[ _R¥RXW XW 
+]QN RVYX[]JWLN XO TWX`RWP JWM NOfLRNW]Ub ^¥RWP MJ]J VRWRWP JWM VJLQRWN UNJ[WRWP%[NUJ]NM ]NLQWRZ^N¥ OX[ 
+TWX`UNMPN MR¥LX_N[b RW ]QN fNUM XO JP[RL^U]^[N JWM NW_R[XWVNW]& 6OOX[]¥ OX[ ¥NJ[LQRWP QRMMNW YJ]]N[W¥ RW 
+MJ]J J[N WX] J [NLNW] YQNWXVNWXW& 9R¥]X[b ¥QX`¥ ]QJ] Na]NW¥R_N XK¥N[_J]RXW¥ XW MJ]J QJ_N QNUYNM MR¥LX_N[ 
+NVYR[RLJU UJ`¥ RW MROON[NW] fNUM¥ XO [N¥NJ[LQ& EQN[NOX[N$ R] R¥ RVYX[]JW] ]X Y[X_RMN [N¥NJ[LQN[¥ RW JP[RL^U]^[N 
+and environmental-related areas with the most advanced knowledge discovery techniques. Data mining is 
+]QN Y[XLN¥¥ XO Na][JL]RWP RVYX[]JW] JWM ^¥NO^U RWOX[VJ]RXW O[XV UJ[PN ¥N]¥ XO MJ]J& EQR¥ RWOX[VJ]RXW LJW 
+be converted into useful knowledge that could help to better understand the problem in study and to better 
+Y[NMRL] O^]^[N MN_NUXYVNW]¥& EQN YJYN[ Y[N¥NW]¥ ]QN ¥]J]N XO ]QN J[] RW MJ]J VRWRWP JWM TWX`UNMPN MR¥LX_N[b 
+techniques and provides discussions for future directions.
+ <Nb`X[M¥0 2P[RL^U]^[N1 2[]RfLRJU ?N^[JU ?N]`X[T¥1 5J]J >RWRWP1 T ?NJ[N¥] ?NRPQKX[1 T%>NJW¥1 @Y]RVRcJ]RXW1 
+D^YYX[] GNL]X[ >JLQRWN¥
+ <Nb`X[M¥0 
+2P[RL^U]^[JU JWM 6W_R[XWVNW]JU DLRNWLN¥$ 5J]J >RWRWP ENLQWRZ^N¥
+ INTRODUCTION
+ The problem of searching for patterns in data is 
+a fundamental one and has a long and successful 
+9D>3 *)'-)*1([RVZd'+)*)*)*,)+
+ history. There are many examples in different 
+research areas that extensive observations of 
+UReR YRd ]VU e` UZdT`gVcZ_X V^aZcZTR] ]Rhd' 6d 
+an example, the attentiv astronomical observa
+eZ`_d f_UVceR¥V_ Sj dVgVcR] Rdec`_`^d R]]`hVU 
+8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   27
+ @Va]Vc e` UZdT`gVc eYV ]Rhd `W a]R_VeRcj ^`eZ`_ 
+#7ZdY`a% +))/$'
+ Over the years, several techniques have 
+been developed to discover hidden patterns in 
+data and these efforts led to the creation of a 
+cZX`fc`fd UZdTZa]Z_V ¥_`h_ Rd UReR ^Z_Z_X `c 
+¥_`h]VUXV UZdT`gVcj' 9ReR ^Z_Z_X Zd eYV ac`
+cess of finding useful patterns or correlations 
+amongst data. These patterns, associations, or 
+cV]ReZ`_dYZad SVehVV_ UReR TR_ ac`gZUV Z_W`c^R
+tion about the problem in study and information 
+TR_ eYV_ SV ecR_dW`c^VU Z_e` ¥_`h]VUXV' IYV 
+idea of using information hidden into relation
+ships amongst data inspired researchers to apply 
+these techniques for predicting future trends 
+#BfTYVcZ_`% ERaR[`cXZ% " ERcUR]`d% +))2$' 9ReR 
+mining techniques are developed from mainly 
+three areas: statistics, artificial intelligence and 
+machine learning. Although the roots of data 
+mining may seem different, but essentially they 
+aim the same target: discover a relationship that 
+more or less maps measurements in one part of 
+a data set to measurements in another, linked 
+aRce `W eYV UReR dVe #Ej]V% +)),$'
+ Regardless of the method used, the goal of 
+data mining techniques is to split data in differ
+ent categories, each of them representing some 
+feature of interest the data may have (Mucherino 
+et al., 2009). Thus, fundamental for the success 
+of a data mining technique is the ability to group 
+RgRZ]RS]V UReR Z_ UZd[`Z_e TReVX`cZVd% hYVcV VRTY 
+TReVX`cj T`_eRZ_d UReR hZeY dZ^Z]Rc ac`aVceZVd' 
+IYV dZ^Z]RcZej SVehVV_ UReR Zd fdfR]]j ^VRdfcVU 
+fdZ_X R UZdeR_TV Wf_TeZ`_4 dZ^Z]Rc UReR dY`f]U 
+belong to the same group or cluster. Therefore, 
+the success of a data mining technique depends 
+on the adequate definition of a suitable distance 
+SVehVV_ UReR dR^a]Vd'
+ 6d eYV dZ^Z]RcZej SVehVV_ UReR dR^a]Vd 
+is measured using a distance function, often it 
+occurs that this distance needs to be optimal. 
+Thus, many data mining techniques led to the 
+formulation of a global optimization problem 
+(Mucherino et al., 2009).
+ Data mining techniques can be grouped in 
+eYcVV TReVX`cZVd Rd dY`h_ Z_ ;ZXfcV *'
+ Statistical Methods
+ Statistical methods such as Principal Compo
+nent Analysis (PCA) and regression techniques 
+are commonly used as simple methods for 
+finding patterns in sets of data. PCA is a useful 
+statistical technique that has found application 
+in fields such as image compression, and is a 
+common technique for finding patterns in big 
+data sets. PCA helps identifying patterns in 
+UReR% R_U ViacVddZ_X eYV UReR Z_ dfTY R hRj Rd 
+to emphasize their similarities and differences. 
+Since patterns in large data sets can be hard to 
+find, because graphical representation of the 
+UReR Zd _`e RgRZ]RS]V% E86 Zd R a`hVcWf] e``] 
+for analyzing data.
+ The main advantage of PCA is that once 
+patterns in the data are identified data can be 
+represented as components ordered by their 
+Figure 1. A schematic representation of the classification of the data mining techniques
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+28   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ relevance and it is possible then to discard 
+T`^a`_V_ed `W ]`h ]VgV] `W cV]VgR_TV hZeY`fe 
+loss of important information and thus, reducing 
+the complexity of the problem. In many cases, 
+dimension reduction makes it possible to repre
+sent data graphically that enormously facilitates 
+the understanding of discovered patterns.
+ Classification Techniques
+ 8]RddZWZTReZ`_ eVTY_ZbfVd fdV eYV hV]]&¥_`h_ 
+principle of Cicero pares cum paribus facillime 
+congregantur (birds of a feather flock together 
+or literally equals with equals easily associate). 
+IYVdV eVTY_ZbfVd ecj e` T]RddZWj R_ f_¥_`h_ 
+dR^a]V SRdVU `_ eYV ¥_`h_ T]RddZWZTReZ`_ `W 
+its neighbors (Mucherino et al., 2009). Let 
+fd dfaa`dV eYRe R dVe `W dR^a]Vd hZeY ¥_`h_ 
+classification is available, that is referred to as 
+R ecRZ_Z_X dVe' :RTY f_¥_`h_ dR^a]V dY`f]U SV 
+classified considering its surrounding samples. 
+Therefore, if the classification of a sample is 
+f_¥_`h_% eYV_ Ze T`f]U SV acVUZTeVU Sj T`_dZU
+ering the classification of its nearest neighbor 
+samples. The main idea behind the classifica
+eZ`_d ^VeY`U Zd eYRe XZgV_ R_ f_¥_`h_ dR^a]V 
+R_U R ecRZ_Z_X dVe% R]] eYV UZdeR_TVd SVehVV_ eYV 
+f_¥_`h_ dR^a]V R_U R]] dR^a]Vd Z_ eYV ecRZ_
+Z_X dVe TR_ SV T`^afeVU' IYV UZdeR_TV hZeY eYV 
+smallest value corresponds to the sample (or 
+samples) in the training set closest to the un
+¥_`h_ dR^a]V' IYVcVW`cV% eYV f_¥_`h_ dR^a]V 
+may be classified based on the classification of 
+this nearest neighbor.
+ Clustering Techniques
+ Clustering techniques are used for partition
+ing a given set of data samples in clusters and 
+eYVcV Zd _` ¥_`h]VUXV R acZ`cZ RS`fe eYVdV UReR 
+(Arulselvan, Baourakis, Boginski, Korchina, & 
+Pardalos, 2008, Mucherino et al., 2009). The 
+main idea behind the clustering algorithms 
+is partitioning a set the data into a number of 
+UZd[`Z_e T]fdeVcd Sj ]``¥Z_X W`c Z_YVcV_e aRe
+terns in the set.
+ Clustering techniques are divided in hi
+erarchical and partitioning. The hierarchical 
+clustering approach builds a tree of clusters. 
+The root of this tree can be a cluster containing 
+all the data. Then, branch by branch, the initial 
+big cluster is split in sub-clusters, until a parti
+tion having the desired number of clusters is 
+reached. In this case, the hierarchical clustering 
+is referred to as divisive. Furthermore, the root 
+of the tree can also consist of a set of clusters, 
+Z_ hYZTY VRTY T]fdeVc T`_eRZ_d `_V R_U `_]j `_V 
+sample. Then, branch by branch, these clusters 
+are merged together to form bigger clusters, until 
+the desired number of clusters is obtained. In 
+this case, the hierarchical clustering is referred 
+to as agglomerative.
+ IYV aRaVc Zd `cXR_ZkVU Rd W`]]`hd' LV cV
+gZVh eYV ^RZ_ `aeZ^ZkReZ`_ SRdVU UReR ^Z_Z_X 
+techniques, including k-means clustering tech
+niqe and support vector machine classifications, 
+in the next section. The applications of these data 
+mining techniques in agricultural engineering 
+hZ]] SV acVdV_eVU R_U WfefcV UZcVTeZ`_d `W eYZd 
+field are discussed.
+ Data Mining Algorithms
+ Data mining is the process of analyzing data 
+using tools such as clustering, classification, 
+feature selection and outlier’s detection. Clus
+tering techniques partition a given set of data 
+into groups of similar samples according to 
+some similarity criteria. Classification tech
+niques determine classes of the test samples 
+fdZ_X ¥_`h_ T]RddZWZTReZ`_ `W R ecRZ_Z_X UReR 
+set. Feature selection techniques select a subset 
+of features responsible for creating the condi
+tion corresponding to any class. Clustering is 
+generally an initial step of data mining and it 
+Xc`fad UReR Z_e` dZ^Z]Rc dR^a]Vd hYZTY TR_ SV 
+used as a starting point of other techniques. 
+9ReR T]fdeVcZ_X TR_ SV UZgZUVU Z_e` eh` aRced 
+as hierarchical and partitional clustering (Jain, 
+Murty, & Flynn, 1999). Single link and complete 
+link are examples of hierarchical clustering 
+hYZ]V aRceZeZ`_R] T]fdeVcZ_X Z_T]fUVd dbfRcVU 
+error algorithms (k-means), graph theoretic, 
+mixture resolving (expectation maximization), 
+mode seeking, and so forth. Bayesian classifier 
+is a traditional statistical classification algorithm 
+8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   29
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+ based on Bayes’ theory. Bayesian classifiers 
+use combination of conditional probability 
+and posterior probabilities for classifying any 
+information. Further details about Bayesian 
+classifiers and applications can be found in 
+9fUR R_U =Rce #*20,$% BRcTYR_e R_U D_jR_X` 
+#+)),$% EVc_¥`aW #+)).$ R_U NRXVc #+))/$' 
+Some other clustering techniques such as fuzzy 
+T]fdeVcZ_X% RceZWZTZR] _VfcR] _Veh`c¥d% _VRcVde 
+neighbor clustering and evolutionary approach 
+based clustering are also becoming very popular 
+tools for researchers. We discuss some of these 
+clustering techniques in this section.
+ The k-means Algorithm
+ The k&^VR_d #BRTFfVV_% *2/0$ ^VeY`U Zd `_V 
+of the most popular unsupervised learning or 
+T]fdeVcZ_X ^VeY`Ud hYZTY YRgV SVV_ Raa]ZVU Z_ 
+a variety of fields including pattern recognition, 
+information retrieval, document extraction and 
+microbiology analysis, and so forth. The method 
+is called the k-means because it represents each 
+of k number of clusters Cj
+ (j= 1,2,…,k) by the 
+^VR_ #`c eYV hVZXYeVU RgVcRXV$ `W Zed a`Z_ed' IYV 
+goal of this method is to classify a given data set 
+through a certain number of clusters such that 
+some metric relative to the centroids (or centers) 
+of the clusters is minimized. We can define our 
+ac`S]V^ ^ReYV^ReZTR]]j Rd W`]]`hd'
+ Hfaa`dV eYRe hV RcV XZgV_ R dVe X of a finite 
+number of points in d-dimensional Euclidean 
+space Rr, that is, X x x xn %( , ,..., ) 1 2 hYVcV 
+x R i d-, i=1,2,…,n.
+ We aim at finding a partition Cj
+ , j=1,2,…
+ ,k:
+ X C C Cl j
+ j
+ k
+ j
+ % %
+ %1
+ 0 " , , 
+for all SdU, of X hYZTY ^Z_Z^ZkVd eYV dbfRcVU 
+error function
+ fCC C c x k
+ j
+ x C j
+ k
+ i
+ i
+ j
+ ( , ,..., ) 1 2
+ 1
+ 2 % #-%
+ . . ! ! , 
+hYVcV ! ! ; denotes the Euclidean norm, Cj is 
+the center of the cluster Cj
+ c C x j k j
+ j
+ i
+ x C i
+ j
+ % %
+. 1 12 | | , , ,..., (1)
+ Algorithm k-Means
+ Step 1. Initialize the centroids
+ 
+ C j
+ 0 , 
+ 
+ j=1,2,…,k . Set q5) #hYVcV q is the itera
+tion counter).
+ Step 2. Assign each point ai (i=1,2,…,n) to the 
+cluster that has the closest centroid (or 
+the center of the cluster) c j k j( {, ,.. }-12 ,
+ 
+that is j argmin x c l k
+ i
+ q
+ l % ' # '' 1
+ 2 ! ! .
+ Step 3. When all points have been assigned, 
+for j=1,2,…,k% TR]Tf]ReV eYV _Vh a`dZeZ`_ 
+cq
+ j
+ "1
+ of the centroid j.
+ Step 4. If c c q
+ j
+ q
+ j % "1
+ for all j=1,2,…,k, then 
+de`a% `eYVchZdV dVe q=q+1 and go to Step 
+2.
+ The k-means algorithms is easy to implement 
+and its time complexity is order of n (O(n)), 
+hYVcV n is number of patterns (Jain et al., 1999). 
+=`hVgVc% Ze WZ_Ud `_V `W eYV ^R_j ]`TR] d`]f
+tions that depend on the initial starting points. 
+I` WZ_U R SVeeVc d`]feZ`_% hV TR_ cf_ eYV R]X`
+rithm several times and choose the best one as 
+the optimal solution. Unfortunately, repetition 
+hZeY UZWWVcV_e cR_U`^ dV]VTeZ`_d #9fUR " =Rce% 
+*20,$ RaaVRcd e` SV _`e R gVcj VWWZTZV_e ^VeY`U' 
+For this purpose, Bradley and Fayyad (1998) 
+presented a procedure for computing a refined 
+starting condition from a given initial one that 
+is based on an efficient sampling technique 
+for estimating the modes of a distribution, and 
+their experiments presented that refined initial 
+starting points indeed lead to improved solu
+tions. Yager and Fillev (1994) developed the 
+mountain method hYZTY Zd R dZ^a]V R_U VWWVT
+tive approach for approximate estimation of the 
+cluster centers on the basis of the concept of a 
+mountain function. It can be useful for obtain
+ing the initial values of the clusters that are 
+30   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+ required by more complex cluster algorithms. 
+6_`eYVc UcRhSRT¥ `W eYV R]X`cZeY^ Zd eYRe 
+there are no efficient methods for defining the 
+initial number of partitions. Many alternative 
+methods to improve k&^VR_d hVcV afS]ZdYVU Z_ 
+literature. Krishna and Murty (1999) proposed 
+R _Vh <V_VeZT k-means algorithm (GKA) for 
+global search and faster convergence. Zhang, 
+MZ`_X% BR`% R_U Df #+))/$ ac`a`dVU aRcR]]V] 
+k-means algorithm for higher efficiency. Many 
+algorithms similar to k-means have been ap
+peared in the literature (Duda, Hart, & Stork, 
++))*4 BRTFfVV_% *2/0$'
+ Fuzzy c-means (FCM) Clustering
+ In the k-means algorithm, each sample can be 
+assigned to only one cluster. Fuzzy clustering 
+cV]RiVd eYZd cVdecZTeZ`_ R_U R_ `S[VTe TR_ SV]`_X 
+e` dVgVcR] T]fdeVcd Re eYV dR^V eZ^V Sfe hZeY TVc
+eRZ_ UVXcVVd `W ^V^SVcdYZad' IYV ^`de ¥_`h_ 
+fuzzy clustering method is the fuzzy c-means 
+method (FCM), introduced by Dunn (1974) 
+and later generalized by Bezdek (1981). FCM 
+partitions a data set X x x x R n
+ p % , ( , ,..., ) 1 2
+ 
+of p features, into c Wfkkj dfSdVed hYVcV ui,k
+ is 
+the membership of ak
+ in class i (i=1,2,…,c). 
+These classes are identified by their cluster 
+centers vi
+ , (i=1,…,c$' IYV `S[VTeZgV `W ;8B Zd 
+to find an optimal fuzzy c partition minimizing 
+eYV `S[VTeZgV Wf_TeZ`_%
+ JmUV X u x v ik
+ m
+ i
+ c
+ k
+ n
+ k i
+ ( , : )% #
+ % %
+ . .
+ 1 1
+ 2 ! ! ,  (2)
+ hYVcV eYV gR]fV `W Wfkkj aRceZeZ`_ ^RecZi U is 
+T`_decRZ_VU Z_ eYV cR_XV P)%*Q dfTY eYRe
+ u k n ij
+ i
+ c
+ % %
+ %
+ . 1 12
+ 1
+ , , ,..., #,$
+ and
+ u n i c ik
+ k
+ n
+ ' %
+ %
+ . , , ,...,
+ 1
+ 12 (4)
+ Here, m- ( [ , ) 1 Zd R_ Via`_V_eZR] hVZXYe
+ing function that controls the fuzziness of the 
+membership values, ! ! ; is the Euclidean norm 
+and V v v vc
+ %( , ,..., ) 1 2
+ Zd R ^RecZi `W f_¥_`h_ 
+cluster centers v R i
+ p- (i=1,…,c). Fuzzy c
+means algorithm to minimize (2):
+ Step 1. Choose appropriate values for m 
+and c, and a small positive number -. Initial
+ize randomly a fuzzy partition matrix U0 and 
+set iteration number t=0.
+ Step 2. For given membership values uik
+ t ( )
+ , calculate the cluster centers vi
+ t ( ) (i=1,2,…,c) 
+as
+ v u x
+ u i
+ t k
+ n
+ ik
+ t m
+ k
+ k
+ n
+ ik
+ t m
+ ( )
+ ( )
+ ( )
+ ( )
+ ( )
+ % %
+ %
+ .
+ .1
+ 1
+ (5)
+ Step 3. <ZgV_ R _Vh T]fdeVc TV_eVc Wc`^ Step 
+2, update membership values uik
+ t ( ) "1 using
+ uik
+ t ( ) "1
+ =
+ ! !
+ ! !
+ x v
+ u
+ k i
+ t
+ k
+ n
+ ik
+ t m
+ j
+ c #
+ !
+ /
+ 1
+ 0 0 0 0 0 0 0 0
+ 5
+ 7
+ 6 6 6 6 6 6 6 6
+ 2
+ 4
+ 3 3 3 3 %
+ % . . ( )
+ ( )
+ 2
+ 1
+ 1
+ 8
+ :
+ 9 9 9 9 9 #/$
+ Step 4. Repeat Step 2 and 3 until 
+| ( ) | ( ) U t Ut # " # $-1 or a pre-defined 
+number of iterations is reached.
+ Methods discussed in previous sections 
+RcV TcZda(YRcU aRceZeZ`_Z_X ^VeY`Ud% hYZTY R]
+]`h e` aRceZeZ`_ UReR Z_e` R daVTZWZVU _f^SVc `W 
+^fefR]]j ViT]fdZgV UReRdVed `_]j% hYZ]V Wfkkj 
+^VeY`Ud RcV d`We aRceZeZ`_Z_X ^VeY`Ud hYVcV 
+R_ `S[VTe TR_ SV]`_X e` `_V `c ^`cV UReR dVed(
+ partitions. Similarly to the crisp/hard parti
+tioning methods, selection of initial matrix of 
+centers plays an important role in convergence 
+of FCM. Many times FCM does not guarantee 
+the global optimal solutions due to randomized 
+initialization of cluster centers and matrix U. 
+Moreover, FCM solutions are also sensitive to 
+_`ZdV R_U `fe]ZVcd' =ReYhRj% 7VkUV¥% R_U =f 
+(2000) have proposed a modified FCM using 
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   31
+ 1 norm distance to increase robustness against 
+outliers. Hung and Yang’s Y¥74> algorithm 
+(Hung & Yang, 2001) finds the actual clusters’ 
+centers and refines initial value of FCM. This 
+technique reduces the computational time by a 
+large amount. Many other improved FCMs and 
+their applications can also be found in (Hammah 
+" 8fccR_% +))*4 =ReYRhRj " 7VkUV¥% +))*4 
+@RcRjZR__Zd% *2204 OYR_X Ve R]'% +))/$'
+ k-Nearest Neighbor Classification
+ The k-nearest neighborhood (Mitchell, 1997) 
+^VeY`U Zd hZUV]j RU`aeVU UfV e` Zed VWWZTZV_Tj' 
+The key idea of the algorithm is to classify a 
+_Vh dR^a]V Z_ eYV ^`de WcVbfV_e T]Rdd `W Zed 
+closest neighbors in the training set. This is a 
+^R[`cZej g`eZ_X W`c^f]R `_ eYV T]Rdd ]RSV]d `W 
+its neighbors. A Euclidean distance measure 
+Zd fdVU e` TR]Tf]ReV Y`h T]`dV VRTY ^V^SVc `W 
+the training set is to the target data that is being 
+examined. The k-nearest neighbor classification 
+R]X`cZeY^ TR_ SV UZgZUVU Z_e` eh` aYRdVd3
+ Training Phase
+ m 
+9Vs_V 
+R 
+ecRZ_Z_X 
+%{( , ),( , ),...,( , )}
+ S x y x y x y n n
+ 1 1 2 2
+ hYVcV x x x x
+ d
+ %( , ,..., )
+ i i i i
+ dVe 
+, 
+1 2 is a d-dimen
+sional feature vector of real numbers, for 
+all i=1,…,n.
+ m 
+m 
+9Vs_V T]Rdd ]RSV]d 
+y
+ i 
+correspond
+ing to each xi for all i, y C
+ i- hYVcV 
+12 
+%(, ,..., )
+ C N
+ different classes.
+ Task: determine 
+, 
+Nc
+ is the number of 
+ynew for Cnew
+ Testing Phase
+ m 
+Find the closest point 
+xj
+ to xnew
+ hZeY cV
+spect to Euclidean distance
+ 1 1 2
+ d
+ x x x x
+ # ";;;" # 
+d d
+ ( ) ( )
+ j new j
+ m 
+Classify by 
+%
+ new
+ y y
+ new j
+ 6 dVcZ`fd UcRhSRT¥ `W eYZd k-nearest neighbor 
+technique is the computational complexity 
+in searching the k nearest neighbors among 
+those available training samples. Kuncheva 
+(1997) claims to achieve better computational 
+efficiency and higher classification accuracy by 
+using genetic algorithms as editing techniques. 
+7Vc^V[` R_U 8RSVdeR_j #+)))$ ac`a`dVU R @CC 
+R]X`cZeY^ hZeY ]`TR] ERckV_ hZ_U`h VdeZ^ReV e` 
+improve approximation quality. They also sug
+XVdeVU R_ RURaeZgV ]VRc_Z_X R]X`cZeY^ e` R]]`h 
+WVhVc UReR a`Z_ed e` SV fdVU Z_ R ecRZ_Z_X UReR 
+set. Many other techniques have been proposed 
+to reduce computational burden of k-nearest 
+_VZXYS`c R]X`cZeY^d Z_ =hR_X R_U LV_ #*221$ 
+and Pan, Qiao, and Sun (2004).
+ ARTIFICIAL NEURAL 
+NETWORKS
+ 6ceZWZTZR] _VfcR] _Veh`c¥d #6CC$ RcV VWWZTZV_e 
+classification tools that have been applied 
+to several applications including extracting 
+regularities in data and classifying events in 
+finance, marketing, Internet and biomedicine. 
+The training process uses available examples 
+e` ac`UfTV R ^`UV] R_U e` T]RddZWj _Vh VgV_ed 
+SRdVU `_ eYV ViecRTeVU ^`UV]' CVfcR] _Veh`c¥d 
+are built from simple units, called neurons or 
+TV]]d Sj R_R]`Xj hZeY eYV hRj Yf^R_ ScRZ_ 
+h`c¥d' CVfc`_d RcV ]Z_¥VU hZeY VRTY `eYVc Sj 
+R dVe `W hVZXYeVU T`__VTeZ`_d' IYV Z_W`c^ReZ`_ 
+to be analyzed is fed to the neurons of the input 
+layer and then propagated to the neurons of the 
+hidden layers (if any) for further processing. The 
+result of this processing is then propagated to 
+the next hidden layer and the process is con
+tinued until the output layer is reached. Each 
+unit receives some information from other units 
+R_U ac`TVddVd eYZd Z_W`c^ReZ`_% hYZTY hZ]] SV 
+converted into the output of the unit. There are 
+8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+32   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+ _` daVTZWZT ^VeY`Ud `W TY``dZ_X eYV _Veh`c¥ 
+parameters such as number of hidden layers 
+and type of activation function. Generally one 
+input and one output nodes are chosen for each 
+data class.
+ IYV ecRZ_Z_X dVe Zd ¥_`h_ R acZ`cZ R_U Zd 
+fdVU e` WZ_V&ef_V eYV _Veh`c¥ W`c WfefcV dZ^Z]Rc 
+cVT`cUd' LYZ]V Z_ ecRZ_Z_X aYRdV% ¥_`h_ UReR 
+containing inputs and corresponding outputs are 
+WVU e` eYV _Veh`c¥% R_U eYV _Veh`c¥ ]VRc_d e` 
+Z_WVc eYV cV]ReZ`_dYZa SVehVV_ eYVdV eh`'
+ The process of classification by ANN can 
+SV Sc`RU]j UVWZ_VU Rd W`]]`hd3
+ Run a sample from the training set, by m 
+giving its attribute values as input.
+ IYV df^^ReZ`_ `W hVZXYed R_U RTeZgReZ`_ m 
+functions are applied at each node of hid
+den and output layers, until an output is 
+XV_VcReVU #WVVU&W`chRcU ac`TVdd$'
+ 8`^aRcV `feafe hZeY eYV ViaVTeVU `feafe m 
+from training set.
+ If output does not match, go back layer to m 
+]RjVc R_U ^`UZWj RcT hVZXYed R_U SZRdVd 
+of nodes (back-propagation process).
+ Run the next sample and process the m 
+same.
+ :gV_efR]]j eYV hVZXYed hZ]] T`_gVcXV R_U m 
+process stops.
+ ;VVU W`chRcU e`a`]`Xj Zd hZUV]j fdVU Z_ 
+^f]eZ]RjVc aVcTVaeZ`_d _Veh`c¥d' ;VVU W`chRcU 
+_Veh`c¥ ac`gZUVd R XV_VcR] WcR^Vh`c¥ W`c 
+representing non-linear functional mappings 
+SVehVV_ R dVe `W Z_afe gRcZRS]Vd R_U R dVe `W 
+`feafe gRcZRS]Vd #7ZdY`a% *22.$' 7V]`h Zd R 
+ScZVW `gVcgZVh `W WVVU W`chRcU _Veh`c¥ W`c 
+each training sample X and for each hidden or 
+output layer node j:
+ Calculate input m Ij
+ to that node as
+ I wx w j ji i
+ i
+ d
+ j
+ % "
+ %
+ .
+ 1
+ 0
+ . 
+Calculate output m Oj
+ from that node as
+ O
+ e j I j
+ %
+ " #
+ 1
+ 1
+ . 
+7RT¥&ac`aRXReZ`_ Zd hZUV]j fdVU R]X`cZeY^ 
+W`c eYV afca`dV `W ecRZ_Z_X eYV _VfcR] _Veh`c¥d' 
+Back-Propagation algorithm can be considered 
+Rd R eh`&deVa ac`TVdd' >_ eYV WZcde deVa% eYV 
+UVcZgReZgVd `W eYV Vcc`c Wf_TeZ`_ hZeY cVdaVTe 
+e` eYV hVZXYed RcV VgR]fReVU' >_ dVT`_U deVa% 
+these derivatives are then used to compute the 
+RU[fde^V_ed e` SV ^RUV e` eYV hVZXYed Sj fd
+ing gradient descent or any other optimization 
+dTYV^Vd' 6_ `gVcgZVh `W SRT¥&ac`aRXReZ`_ TR_ 
+SV XZgV_ Rd SV]`h3
+ For each node m j in output layer, calculate 
+the error as
+ Err O O T O j j j j
+ % # # ( )( ) 1 
+For each node m j in hidden layer, calculate 
+the error as
+ Err O O Errw j j j k jk
+ k
+ % # /
+ 1
+ 0 0 0 0
+ 5
+ 7
+ 6 6 6 6 . ( ) 1 
+;`c VRTY hVZXYe m wij
+ % TR]Tf]ReV hVZXYe Z_
+crement as
+ & % ; ; w l Err O ij j i
+ 
+C`h% faUReV eYV acVgZ`fd hVZXYe Rd m 
+w w w ij ij ij
+ % "& 
+For each bias m " calculate bias increment 
+as
+ #"j j
+ l Err % ; 
+;Z_R]]j faUReV SZRd hZeY m 
+" " " j j j
+ % "# . 
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   33
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+ CVfcR] _Veh`c¥d RcV hZUV]j fdVU Z_ T]Rd
+sification but there are still many unsolved 
+ZddfVd Z_ Raa]jZ_X _VfcR] _Veh`c¥d dfTY Rd 
+scalability, misclassification, convergence, 
+higher mean square errors, and so forth. Many 
+researchers have tried to overcome these issues 
+R_U ac`a`dVU gRcZVej `W _VfcR] _Veh`c¥d hZeY 
+better performances. Jiang, Harvey, and Wah 
+#+)),$ ac`a`dVU R _Vh Raac`RTY `W T`_decfTe
+Z_X R_U ecRZ_Z_X _VfcR] _Veh`c¥d e` `gVcT`^V 
+the problems including local minima and the 
+d]`h T`_gVcXV_TV `W eYV ]VRc_Z_X ac`TVdd' >_ 
+eYVZc Raac`RTY% WVVU&W`chRcU _Veh`c¥ hRd 
+constructed based on the data clusters generated 
+based on locally trained clustering (LTC) and 
+then further trained using standard algorithms 
+`aVcReZ_X `_ eYV X]`SR] ecRZ_Z_X dVe hYZTY 
+T`_gVcXVd cRaZU]j UfV e` Zed Z_YVcZeVU ¥_`h]
+VUXV hZeY X``U XV_VcR]ZkReZ`_ RSZ]Zej Wc`^ eYV 
+global training. Ji and Ma (1997) proposed a 
+]VRc_Z_X ^VeY`U SRdVU `_ T`^SZ_ReZ`_ `W hVR¥ 
+T]RddZWZVcd% hYZTY hVcV W`f_U Sj R cR_U`^ZkVU 
+algorithm, to achieve good generalization and 
+fast training time on both the test problems 
+R_U eYV cVR] Raa]ZTReZ`_d' IYVj dY`hVU eYRe 
+ZW eYV hVR¥_Vdd WRTe`c hRd TY`dV_ RTT`cUZ_X 
+to the critical value given by their theory, the 
+T`^SZ_ReZ`_d `W hVR¥ T]RddZWZVcd T`f]U RTYZVgV 
+R X``U XV_VcR]ZkReZ`_ aVcW`c^R_TV hZeY a`]j
+nomial space- and time-complexity. Yu, Chen, 
+and Cheng (1995) proposed dynamic learning 
+using derivative information instead of fixed 
+learning rate to optimize back propagation. 
+IYV Z_W`c^ReZ`_ XReYVcVU Wc`^ eYV W`chRcU R_U 
+SRT¥hRcU ac`aRXReZ`_ hRd fdVU W`c Uj_R^ZT 
+]VRc_Z_X4 hZeY eYZd eVTY_ZbfV eYVj RTYZVgVU 
+higher convergence rate and significant reduc
+tion in learning process. The probability of 
+misclassification of any random sample can be 
+termed as the generalization error of a classifier. 
+Many researchers have used ensemble methods 
+to reduce misclassification or generalization 
+Vcc`cd #=R_dV_ " HR]R^`_% *22)4 =RdYV^ " 
+Schmeiser, 1995). Further information on clas
+sification errors, learning and generalization, 
+and some of the recent developments in neural 
+_Veh`c¥d TR_ SV W`f_U Z_ @f]¥Rc_Z% AfX`dZ% R_U 
+Venkatesh (1998), Solazzia and Uncinib (2004), 
+and Zhang (2000). Recent studies in data mining 
+techniques (Wu et al., 2008) do not consider 
+ANN as a top 10 data mining technique.
+ SUPPORT VECTOR MACHINES
+ Support Vector Machine (SVM) is a state of 
+the art machine learning algorithm (Cortes & 
+KRa_Z¥% *22.4 KRa_Z¥% *22.$' IYV ^RZ_ ZUVR 
+`W HKB Zd e` dVaRcReV eYV Z_afe daRTV Z_ eh` 
+half spaces using the hyperplane xw y T # %0 
+hYZTY ^RiZ^ZkVd eYV ^RcXZ_ SVehVV_ eYV eh` 
+classes {2$3l' >_ `eYVc h`cUd% XZgV_ _ a`Z_ed 
+x R i
+ d-, i=1,2,…,n, and the corresponding 
+labels 
+yi
+ ifx B
+ ifx A
+ i
+ i
+ % #-- { 1
+ 1 , 
+hV _VVU e` WZ_U eh` aRcR]]V] YjaVca]R_Vd 
+xw y T # %)1 hYZTY dVaRcReVd eYV a`Z_ed 
+SVehVV_ eh` T]RddVd' IYV ^RcXZ_ SVehVV_ eh` 
+T]RddVd Zd cVacVdV_eVU Sj eYV UZdeR_TV SVehVV_ 
+eYV eh` YjaVca]R_Vd% 
+2
+ ! ! w . 
+Thus the optimization problem is to minimize 
+the norm of w% hZeY T`_decRZ_ed e` T`ccVTe]j 
+classified points of both classes:
+ min
+ .. ( )
+ , ,...,
+ 1
+ 2
+ 1
+ 12
+ 2 ! ! w
+ st y x w y
+ i n
+ i iT # *
+ %
+ . 
+=VcV hV _`eV eYRe ^Z_Z^ZkZ_X ! ! w is the 
+same as minizing ! ! w 2' IYZd ^VeY`U h`c¥d 
+hYV_ eYVcV Zd R aVcWVTe ]Z_VRc dVaRcReZ`_ SVehVV_ 
+eYV eh` T]RddVd' IYVcVW`cV Ze Zd TR]]VU eYV YRcU 
+^RcXZ_ T]RddZWZVc' LYV_ eYV eh` T]RddVd RcV _`e 
+linearly separable, the soft margin classifier is 
+used. This classifier finds a hyperplane that 
+R]]`hd R WVh a`Z_ed e` gZ`]ReV eYV dVaRcReZ`_' 
+The number of points that are not correctly 
+classified should be minimized in this case. 
+34   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+ Then the optimization problem is reduced to 
+eYV W`]]`hZ_X3
+ min
+ .. ( )
+ , ,...,
+ 1
+ 2 2
+ 1
+ 12
+ 2
+ 1
+ 2 ! ! w C
+ sty x w y
+ i n
+ i
+ i
+ n
+ i i i T
+ "
+ # * #
+ %
+ %
+ .#
+ #
+ . 
+These problems belong to the quadratic 
+convex programming problems and can be 
+solved using standard quadratic programming 
+techniques (Bertsekas, 1995). For nonlinear 
+T]RddZWZTReZ`_% eYV HKB Zd fdVU hZeY ¥Vc_V] 
+Wf_TeZ`_d #BR_XRdRcZR_ " LZ]U% +))/$ R_U 
+the basic solution technique is through linear 
+programming.
+ GENERALIZED EIGENVALUE 
+CLASSIFICATION
+ Generalized eigenvalue classification methods 
+proposed by Mangasarian and Wild (2004) 
+(Guarracino, Cifarelli, Seref, & Pardalos, 2007) 
+YRgV R T]RddZWZTReZ`_ RTTfcRTj T`^aRcRS]V hZeY 
+eY`dV `SeRZ_VU Sj HKB Re R ]`hVc ViVTfeZ`_ 
+time. This is also a support vector machine clas
+dZWZTReZ`_ hYVcV VRTY a]R_V `W eh` _`_&aRcR]]V] 
+planes is generated such that it is closest to one 
+`W eYV eh` UReR dVed R_U Rd WRc Rd a`ddZS]V Wc`^ 
+eYV `eYVc UReR dVe' IYZd ac`S]V^ ]VRUd e` eh` 
+simple generalized eigenvalue problems. The 
+^RZ_ ZUVR Zd e` T]RddZWj eh` dVed `W a`Z_ed% A 
+and 3% fdZ_X eh` YjaVca]R_Vd% VRTY T]`dVde e` 
+one set of points, and furthest from the other. 
+Let xw y T # %0 be a hyperplane in Rd . To 
+satisfy the previous condition for the points in 
+A, the hyperplanes can be obtained by solving 
+eYV W`]]`hZ_X `aeZ^ZkReZ`_ ac`S]V^3
+ min
+ , wy
+ Aw ey
+ Bw ey +
+ #
+ # 0
+ 2
+ 2
+ ! !
+ ! ! (8)
+ The hyperplane for the 3 can be obtained 
+Sj ^Z_Z^ZkZ_X eYV Z_gVcdV `W eYV `S[VT
+eZgV Wf_TeZ`_ Z_ #1$' >W hV fdV eYV _`eReZ`_d
+ G A e A e H B e B e z w y T T T T % # # % # # % [ , ] [ , ], [ , ] [ , ], [ , ]
+ , then equation (8) becomes:
+ min
+ z R
+ T
+ T d
+ zGz
+ zHz
+ (9)
+ The expression in (9) is the Raleigh quo
+tient of the generalized eigenvalue problem 
+Gx Hx %! . The stationary points are ob
+eRZ_VU `_]j Re eYV VZXV_gVTe`cd `W #2$% hYVcV 
+eYV gR]fV `W eYV `S[VTeZgV Wf_TeZ`_ Zd XZgV_ Sj 
+the eigenvalues. When H is positive definite, 
+the Raleigh quotient is bounded and it ranges 
+over the interval determined by minimum and 
+maximum eigenvalues (Parlett, 1998). H is 
+positive definite under the assumption that the 
+T`]f^_d `W P3$ % N] are linearly independent. 
+IYV Z_gVcdV `W eYV `S[VTeZgV Wf_TeZ`_ Z_ #-$ YRd 
+the same eigenvectors and reciprocal eigenval
+ues. Let z w y min
+ %[ , ] 1 1
+ and z w y max
+ [ , ] % 2 2
+ be 
+the eigenvectors related to the eigenvalues of 
+smallest and largest modulo, respectively. Then 
+x w y T
+ 1 1
+ 0 # % is the closest hyperplane to the 
+set of points in A and the furthest from those in 
+3 and x w y T
+ 2 2
+ 0 # %  is the closest hyperplane 
+to the set of points in 3, and the furthest from 
+those in A. In order to regularize the problem, 
+hV TR_ d`]gV3
+ min Aw ey B
+ Bw ey A wy , +
+ # "
+ # " 0
+ 2 2
+ 2 2
+ ! ! ! $ !
+ ! ! ! $ !
+ 
+ 
+, 
+hYVcV eYV A $ and B $ are the diagonals of matri
+ces [ ] Aw ey # and [ ] Bw ey # , respectively.
+ By choosing the eigenvectors related to the 
+_Vh ^Z_Z^f^ R_U ^RiZ^f^ VZXV_gR]fV% hV 
+obtain solutions that are close to the ones of the 
+original problem. A point is classified according 
+to the closest hyperplane or the class.
+ More recently, Cifarelli, Guarracino, Seref, 
+Cuciniello, and Pardalos (2007) introduced 
+IReGEC, an incremental technique capable of 
+reducing the training set in the learning phase 
+`W eYV dfaVcgZdVU T]RddZWZTReZ`_% hZeY eYV RUgR_
+eRXV `W ]`hVc `gVcWZeZ_X `W UReR R_U Z^ac`gVU 
+classification accuracy. This method together 
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   35
+ hZeY d`^V `eYVc T]RddZWZTReZ`_ ^VeY`Ud YRd SVV_ 
+applied to different biomedical data sets (Felici, 
+Bertolazzi, Guarracino, Chinchuluun, & Parda
+]`d% +))24 <fRccRTZ_` Ve R]'% +))0$' >_TcV^V_eR] 
+subset selection permits to construct a small set 
+of points that retains the information of the entire 
+training set and provides comparable accuracy 
+results. A kernel built from a smaller subset is 
+computationally more efficient in predicting 
+_Vh V]V^V_ed% T`^aRcVU e` eYV `_V eYRe fdVd eYV 
+entire training set. Furthermore, a smaller set of 
+points reduces the probability of overfitting the 
+ac`S]V^' ;Z_R]]j% Rd _Vh a`Z_ed RcV RgRZ]RS]V% 
+the cost to retrain the algorithm decreases if the 
+Z_W]fV_TV `W eY`dV _Vh a`Z_ed `_ T]RddZWZTReZ`_ 
+Zd `_]j VgR]fReVU hZeY cVdaVTe e` eYRe dfSdVe% 
+cReYVc eYR_ eYV hY`]V ecRZ_Z_X dVe'
+ APPLICATIONS
+ =Zde`cZTR]]j `_V `W eYV WZcde aRaVcd UVR]Z_X hZeY 
+UReR UZdTcZ^Z_ReZ`_ Z_e` UZWWVcV_e T]RddVd hRd 
+directly applied to an agricultural problem. This 
+is Fisher‘s Linear Discriminant Analysis (LDA) 
+algorithm published in the annals of Eugenics 
+(later renamed Annals of Human Genetics) and 
+had been applied in order to discriminate 150 
+W]`hVcd Z_e` eYcVV T]RddVd `W W]`hVcd SRdVU `_ 
+W`fc bfR_eZeReZgV WVRefcVd _R^V]j3 dVaR] hZUeY% 
+dVaR] ]V_XeY% aVUR] hZUeY R_U aVUR] ]V_XeY #;ZdY
+Vc% *2,/$' I`URj eYZd WR^`fd UReRdVe #SVde ¥_`h_ 
+in data mining community as IRIS dataset) can 
+easily be found in any open dataset repositories 
+(e.g., UCI, http://archive.ics.uci.edu/ml/) and 
+serves as an example in many undergraduate 
+UReR ^Z_Z_X T`fcdVd Rc`f_U eYV h`c]U'
+ Although the first use data mining tech
+_ZbfVd hRd Z_ RXcZTf]efcV% ^ReYV^ReZTR] e``]d 
+hVcV _`e VieV_dZgV]j fdVU Z_ eYZd WZV]U W`c 
+many years. The change came especially due 
+to recent technological advances that made 
+it possible to store and process large amount 
+of data in home computers. Accumulation of 
+data generated the challenge and the need for 
+ac`TVddZ_X R_U R_R]jdZd XV_VcReZ_X dVgVcR] hV]] 
+defined mathematical problems. Today many 
+data miners identify and attack problems coming 
+from agricultural science.
+ Clustering for example has been used 
+(and more especially the famous k-means 
+method) to address problems that arise during 
+eYV WVc^V_eReZ`_ ac`TVdd `W hZ_V' >_ JcefSZR% 
+Perez-Correa, Meurens, and Agosin (2004), 
+eYV RfeY`cd fdVU eYV ¥&^VR_d e` acVUZTe Y`h 
+X``U eYV WVc^V_eReZ`_ ac`TVdd hZ]] SV' IYZd 
+hRd RTYZVgVU Sj cVT`cUZ_X R _f^SVc `W WVRefcVd 
+related to sugars, alchohols organic acids and 
+_Zec`XV_ d`fcTVd' >_ZeZR]]j% E86 hRd fdVU e` 
+reduce the dimensionality of the problem and 
+eYV_ eYV ¥&^VR_d T]fdeVcZ_X ^VeY`U hRd Raa]ZVU 
+to determine the different clusters.
+ The k-means algorithm also has been used 
+for image segmentation in the area of machine 
+vision. As part of it, Leemans and Destain used 
+k-means method for grading apples and identify
+ing visually defected products before shipping 
+them to the end customers (2004). They describe 
+a conveyer based system able to analyze four 
+apples in 1 second. The same authors extended 
+their machine vision-based data mining using 
+other methods such as the Linear Discriminant 
+Analysis (Leemans, Magein, & Destain, 2002) 
+and Bayesian (Leemans, Magein, & Destain, 
+1999) to solve the same problem.
+ On the other side Artificial Neural Net
+h`c¥d #6CC$ eYRe RcV a`af]Rc e``]d W`c VdaV
+cially among computer scientists for supervised 
+classification problems. ANN’s have demon
+strated good results in practice, especially if the 
+eVdeZ_X UReRdVe Zd hZdV]j TY`dV_ R_U eYV decfTefcV 
+`W eYV _Veh`c¥ Zd dfTY eYRe Ze Zd c`Sfde RXRZ_de 
+overfitting. In Aerts, Jans, Halloy, Gustin, and 
+Berckmans (2004), the authors utilize ANNs 
+to detect abnormal coughing sounds in a herd. 
+Abnormal coughing sound usually is associated 
+hZeY d`^V UZdVRdV d` Ze Zd gVcj TcfTZR] W`c eYV 
+farmer to distinguish if there is any potentially 
+diseased animal in the herd. Thus, data mining 
+can be used to prevent and control the spread 
+of dangerous contagious diseases.
+ Another application of ANN’s in agri
+Tf]efcV hRd acVdV_eVU Sj HYRYZ_% I`]]_Vc% R_U 
+BT8]V_U`_ #+))*$ hYVcV eYVj RcV fdVU Rd 
+intelligent classifiers on Magnetic Resonance 
+8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+36   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ Imaging (MRI) scans of apples in order to 
+detect internal defects in apples (Shahin et al., 
++))*$' ;c`^ eYZd aVcdaVTeZgV% _VfcR] _Veh`c¥ 
+classification is used as a quality control tool to 
+decrease the number of defected products. By 
+utilizing X-ray images Schatzki, Haff, Young, 
+8R_% AV% R_U I`j`Wf¥f hVcV RS]V e` UVeVTe RS`fe 
+2)! `W eYV UVWVTeVU Raa]Vd #*220$'
+ Liu, Lyon, Windham, Lyon, and Savage 
+(2004) use PCA to analize chicken breast qual
+ity. In order to analyze the meat quality and the 
+UVS`_Z_X eZ^V% R dVe `W ,/ TYZT¥V_ TRcTRddVd YRd 
+been considered and randomly divided into four 
+subgroups, each one containing 9 carcasses. 
+These subgroups are designed for different 
+deboning times. Chickens in the different groups 
+YRgV SVV_ UVS`_VU RWeVc +% -% / R_U +- Y`fcd 
+after the death. After deboning, the breasts have 
+SVV_ Tfe Z_ eh` aRced% R_U VRTY aRce YRd SVV_ 
+dfS[VTe e` R UZWWVcV_e dVe `W R_R]jdZd' 6WeVc fdZ_X 
+the PCA to decrease the dimensionality of the 
+ac`S]V^% cVdf]ed dY`h eYRe eYV WZcde dVgV_ acZ_
+cipal components are able to represent about the 
+0)! aVcTV_e `W eYV e`eR] gRcZReZ`_d `_ eYV UReR' 
+Moreover, the first four principal components 
+cVacVdV_e RS`fe .)! `W eYV e`eR] gRcZReZ`_d' >_ 
+particular, the first principal component takes 
++,',! `W eYV gRcZReZ`_d% eYV dVT`_U `_V *,'/!% 
+eYV eYZcU `_V 1'1! R_U WZ_R]]j eYV W`fceY `_V 
+/'2!' 6_ R_R]jdZd `_ eYV UReR dY`hVU eYRe eYV 
+WZcde T`^a`_V_e hRd ^RZ_]j UVWZ_VU Sj eYV dYVRc 
+force and by the attributes decided by the group 
+of panelists supervising this process. Therefore, 
+these attributes are the most important variables 
+for the evaluation of the chicken breast quality 
+(Mucherino et al., 2009).
+ >_ ?RXeRa% ?`_Vd% ARG`h% 6[RjR_% R_U 
+Dr7cZV_ #+))/$ R k-NN algorithm is used for the 
+recalibration of the precipitation outputs from 
+the FSU-GSM (Florida State University Global 
+Spectral Model) and FSU-RSM (Florida State 
+University Regional Spectral Model) climate 
+models. These climate models may not produce 
+dfWWZTZV_e]j RTTfcReV URZ]j hVReYVc gRcZRS]V 
+`feafed e` fdV Z_ Tc`a ^`UV]d' IYV `S[VTeZgV 
+is to find k _VZXYS`cZ_X jVRcd hYZTY YRgV eYV 
+forecasts closest to those of a target year. It is 
+therefore assumed that the climate during a 
+eRcXVe jVRc Zd R cVa]ZTReZ`_ `W eYV hVReYVc cV
+corded in the past. The k-NN method resulted 
+able to improve the accuracy of the monthly 
+precipitation forecasts across all sites used in 
+the study.
+ FUTURE DIRECTIONS
+ 9ReR ^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj eVTY
+_ZbfVd RcV cV]ReZgV]j _Vh e` RXcZTf]efcR] R_U 
+environmental fields. Their use is associated 
+R_U T`_UZeZ`_VU hZeY eYV fdV `W cVdVRcTY `a
+erations sets of tools. There are a number of 
+cVdVRcTY aRaVcd eYRe dY`h eYRe RXcZTf]efcR] R_U 
+environmental sciences can really benefit from 
+the use of mathematical tools and modern tech
+nology. It is important to note that the a number 
+of published papers are purely research and 
+have not yet been applied to be part of the set 
+of tools farmers or practitioners use everyday. 
+As an example, the study that use a Artificial 
+CVfcR] CVeh`c¥ #6Vced Ve R]'% +))-$ UVdTcZSVd 
+eYV ac`TVdd `W Y`h R aZX X`Vd eYc`fXY eYV djd
+tem designed to record pig coughs to discover 
+hYVeYVc eYV R_Z^R] YRd YVR]eY ac`S]V^d Sfe Ze 
+does not address the issue of scaling the proposed 
+system to be applied to the entire herd. The 
+proposed system is complex and can examine 
+`_]j `_V R_Z^R] Re R eZ^V' >e hZ]] SV UZWWZTf]e e` 
+see the proposed system be applied in a herd of 
+Yf_UcVUd `W aZXd hYVcV VRTY R_Z^R] ^fde SV 
+ViR^Z_VU Z_UZgZUfR]]j' IYV UZWWZTf]eZVd h`f]U 
+be operational and finacial.
+ Often occurs that producers and practitio
+ners in agriculture and environment have more 
+trust on traditional decision making methods 
+and they might see suspiciously automated 
+decision making tools. This phenomenon has 
+Z_ XV_VcR] YRaaV_VU Z_ R]] RcVRd hYVcV UReR 
+^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj eVTY_ZbfVd 
+have been introduced.
+ IYV R_dhVc eYRe UReR ^Z_Vcd ac`gZUV Zd eYRe 
+classification, clustering and generally any other 
+mathematical tool, doesn’t aim to replace the 
+human expert. On the contrary, they serve as 
+expert assisting tools that help humans make 
+sounder and better decisions. Data mining and 
+8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   37
+ @_`h]VUXV UZdT`gVcj RcV e`eR]]j Yf^R_ RTeZgZ
+eZVd' 6]X`cZeY^d h`f]U ac`gZUV eYV cVdf]ed eYRe 
+need to be interpreted by data miners in order 
+to reach a final conclusion about the problem 
+under study.
+ Many methods such as classical k-means 
+clustering, ANNs, support vector machines, 
+k-NNR classification have been applied in a 
+variety of problems. But still there are many 
+deReV `W eYV Rce ^VeY`Ud hY`dV a`eV_eZR] Raa]Z
+cations in agriculture have not been explored 
+in full yet (e.g., biclustering). We envision 
+more and more data mining application related 
+aRaVcd hZeY UZWWVcV_e ac`S]V^d R_U UZWWVcV_e R]
+X`cZeY^d SVZ_X afS]ZdYVU Z_ [`fc_R]d `W Z_eVcVde 
+to agricultural/environmental related scientists 
+and practitioners.
+ We think that it is the time to introduce data 
+^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj eVTY_ZbfVd 
+in the curriculum of agricultural and environ
+mental departments, thus students can become 
+WR^Z]ZRc hZeY eYVdV ac`^ZddZ_X eVTY_ZbfVd' IYV 
+recently published book titled “Data Mining in 
+Agriculture” (Mucherino et al., 2009) specifi
+cally tailored for students of agricultural and 
+V_gZc`_^V_eR] WZV]Ud hZ]] SV R fdVWf] d`fcTV `W 
+¥_`h]VUXV Rd Ze ac`gZUVd R_ ViYRfdeZgV Z_gV_
+e`cj `W UReR ^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj 
+techniques applied in agricultural and environ
+mental sciences.
+ A number of academic institutions are 
+`cXR_ZkZ_X pHf^^Vc HTY``]dq hYVcV Z_ R hVV¥ 
+`c eh` eYVj ac`gZUV R X``U Z_ec`UfTeZ`_ Z_ UReR 
+^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj eVTY_ZbfVd' 
+B`cV `W dZ^Z]Rc VWW`ced hZ]] TVceRZ_]j YV]a Z_ 
+^R¥Z_X UReR ^Z_Z_X R_U ¥_`h]VUXV UZdT`gVcj 
+techniques familiar to students, researchers 
+and practitioners in the field of agriculture and 
+environment.
+ REFERENCES
+ Aerts, J.-M., Jans, P., Halloy, D., Gustin, P., & Ber
+ckmans, D. (2004). Labeling of cough data from pigs 
+for on-line disease monitoring by sound analysis. 
+2VN[RLJW DXLRN]b XO 2P[RL^U]^[JU JWM 3RXUXPRLJU 
+Engineers, 48#*$% ,.*o,.-'
+ Arulselvan, A., Baourakis, G., Boginski, V., 
+Korchina, E., & Pardalos, P. M. (2008). Analy
+dZd `W W``U Z_Ufdecj ^Rc¥Ve fdZ_X _Veh`c¥ Ra
+proaches. 3[R]R¥Q 7XXM ;X^[WJU, 110#2$% 2*/o2+1' 
+U`Z3*)'**)1()))0)0))1*)2))/**
+ 7Vc^V[`% H'% " 8RSVdeR_j% ?' #+)))$' 6URaeZgV d`We 
+k-nearest-neighbour classifiers. Pattern Recognition, 
+33% *222o+)).' U`Z3*)'*)*/(H)),*&,+),#22$))*1/&
+ 7
+ Bertsekas, D. P. (1995). Nonlinear programming. 
+Belmont, MA: Athena Scientific.
+ Bezdek, J. (1981). Pattern recognition with fuzzy 
+objective function algorithms' CVh N`c¥3 E]V_f^ 
+Press.
+ Bishop, C. M. (1995). Neural networks for pat
+tern recognition. Oxford, UK: Oxford University 
+Press.
+ 7ZdY`a% B' 8' #+))/$' Pattern recognition and 
+machine learning' CVh N`c¥3 >_W`c^ReZ`_ HTZV_TVd 
+and Statistics, Springer.
+ Bradley, S., & Fayyad, M. (1998, July 24-27). Refin
+ing initial points for k-means clustering. In J. Shavlik 
+(Ed.), Proceedings of the 15th International Confer
+NWLN XW >JLQRWN =NJ[WRWP ":4>=/.#$ Madison, WI 
+(pp. 91-99). San Francisco: Morgan Kaufmann.
+ Chinchuluun, R., Won Suk, L., Bhorania, J., & 
+Pardalos, P. M. (2009). Clustering and classification 
+algorithms in food and agricultural applications: A 
+dfcgVj' >_ E' ERaR[`cX[Z R_U E' B' ERcUR]`d #:Ud'$% 
+Advances in modeling agricultural systems (pp. 
+*&++$' CVh N`c¥3 HacZ_XVc'
+ Cifarelli, C., Guarracino, M. R., Seref, O., Cucin
+iello, S., & Pardalos, P. M. (2007). Incremental 
+T]RddZWZTReZ`_ hZeY XV_VcR]ZkVU VZXV_gR]fVd' Journal 
+of Classification, 24(2), 205–219. doi:10.1007/
+ d)),.0&))0&))*+&k
+ Cortes, C., & Vapnik, V. (1995). Support vector 
+machines. >JLQRWN =NJ[WRWP, 20% +0,o+02'
+ 9fUR% G' D'% " =Rce% E' :' #*20,$' Pattern classifi
+cation and scene analysis' CVh N`c¥3 ?`Y_ LZ]Vj 
+& Sons.
+ Duda, R. O., Hart, P. E., & Stork, D. G. (2001). 
+Pattern classification #+_U VU'$' CVh N`c¥3 ?`Y_ 
+Wiley & Sons.
+ Dunn, J. (1974). A fuzzy relative of the ISODATA 
+ac`TVdd R_U Zed fdV Z_ UVeVTeZ_X T`^aRTe hV]] dVaR
+rated clusters. Journal of Cybernetics, 3#,$% ,+o.0' 
+U`Z3*)'*)1)()*2/20+0,)1.-/)-/
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+38   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ Felici, G., Bertolazzi, P., Guarracino, M. R., Chinchu
+luun, A., & Pardalos, P. M. (2008. November). 
+A`XZT W`c^f]Rd SRdVU ¥_`h]VUXV UZdT`gVcj R_U Zed 
+application to the classification of biological data. 
+In R. P. Mondaini (Ed.), 8th International Sympo
+sium on Mathematical and Computational Biology 
+(3:@>2E )''.#$ HR` ERf]`% 7cRkZ] #aa' ++,&+,-$' 
+World Scientific.
+ ;ZdYVc% G' 6' #*2,/$' IYV fdV `W ^f]eZa]V ^VRdfcV
+ments in taxonomic problems. Annals of Eugenics, 
+7, 179–188.
+ Guarracino, M. R., Chinchuluun, A., & Pardalos, P. M. 
+(in press). Decision rules for efficient classification 
+of biological data. Optimization Letters.
+ Guarracino, M. R., Cifarelli, C., Seref, O., & 
+Pardalos, P. M. (2007). A classification algorithm 
+based on generalized eigenvalue problems. Op
+]RVRcJ]RXW >N]QXM¥ JWM DXO]`J[N, 22#*$% 0,o1*' 
+U`Z3*)'*)1)(*)../01)/))11,10
+Hammah, R. E., & Curran, J. H. (2000). Validity 
+measures for the fuzzy cluster analysis of orien
+tations. :666 E[JW¥JL]RXW¥ XW AJ]]N[W 2WJUb¥R¥ 
+JWM >JLQRWN :W]NUURPNWLN, 22#*+$% *-/0o*-0+' 
+U`Z3*)'**)2(,-'12.21*
+ =R_dV_% A' @'% " HR]R^`_% E' #*22)$' CVfcR] _Veh`c¥ 
+ensembles. :666 E[JW¥JL]RXW¥ XW AJ]]N[W 2WJUb
+¥R¥ JWM >JLQRWN :W]NUURPNWLN, 12#*)$% 22,o*))*' 
+U`Z3*)'**)2(,-'.110*
+ Hashem, S., & Schmeiser, B. (1995). Improving 
+model accuracy using optimal linear combinations of 
+ecRZ_VU _VfcR] _Veh`c¥d' :666 E[JW¥JL]RXW¥ XW ?N^[JU 
+Networks, 6#,$% 02+o02-' U`Z3*)'**)2(0+',0022)
+ =ReYRhRj% G'% " 7VkUV¥% ?' #+))*$' ;fkkj c-means 
+clustering of incomplete data. :666 E[JW¥JL]RXW¥ 
+XW Db¥]NV¥$ >JW$ JWM 4bKN[WN]RL¥ % AJ[] 3$ *((5), 
+0,.&0--'
+ =ReYRhRj% G'% 7VkUV¥% ?'% " =f% N' #+)))$' <V_VcR]
+ized fuzzy c-means clustering strategies using L norm 
+distances. IEEE transactions on Fuzzy Systems, 8(5), 
+.0/o.1+' U`Z3*)'**)2(2*'10,.1)
+ Hung, M., & Yang, D. (2001, November 29-De
+cember 1). An efficient fuzzy c-means clustering 
+algorithm. In Proceedings of the IEEE International 
+4XWON[NWLN XW 5J]J >RWRWP$ San Jose, CA (pp. 
+++.&+,+$'
+ =hR_X% L' ?'% " LV_% @' L' #*221$' ;Rde ¥ T]RddZ
+fication algorithm based on partial distance search. 
+Electronics Letters, 34#+*$% +)/+o+)/,' U`Z3*)'*)-2(
+ el:19981427
+ ?RXeRa% H' H'% ?`_Vd% ?' L'% ARG`h% I'% 6[RjR_% 6'% 
+" Dr7cZV_% ?' ?' #+))/$' #BR_fdTcZae dfS^ZeeVU W`c 
+publication). Statistical recalibration of precipitation 
+outputs from coupled climate models. Journal of 
+2YYURNM >N]NX[XUXPb.
+ Jain, A. K., Murty, M. N., & Flynn, P. J. (1999). Data 
+T]fdeVcZ_X3 6 cVgZVh' 24> 4XVY^]RWP D^[_Nb¥, 31#,$% 
++/-o,+,' U`Z3*)'**-.(,,*-22',,*.)
+?Z% 8'% " BR% H' #*220$' 8`^SZ_ReZ`_d `W hVR¥ T]Rd
+sifiers. :666 E[JW¥JL]RXW¥ XW ?N^[JU ?N]`X[T¥, 8(1), 
+,+o-+' U`Z3*)'**)2(0+'..-*12
+ ?ZR_X% M'% =RcgVj% 6'% " LRY% @' H' #+)),$' 8`_
+decfTeZ_X R_U ecRZ_Z_X WVVU&W`chRcU _VfcR] _Veh`c¥d 
+for pattern classification. Patt. Recog., 36% 1.,o1/0' 
+U`Z3*)'*)*/(H)),*&,+),#)+$)))10&)
+ Karayiannis, N. B. (1997). A methodology for 
+constructing fuzzy algorithms for learning vector 
+quantization. :666 E[JW¥JL]RXW¥ XW ?N^[JU ?N]`X[T¥, 
+8#,$% .).o.*1' U`Z3*)'**)2(0+'.0+)2*
+ Krishna, K., & Murty, M. (1999). Genetic k-means 
+algorithm. :666 E[JW¥JL]RXW¥ XW Db¥]NV¥$ >JW$ JWM 
+4bKN[WN]RL¥ % AJ[] 3$ )/#,$% -,,&-,2'
+ Kulkarni, S. R., Lugosi, G., & Venkatesh, S. S. 
+(1998). Learning pattern classification - a survey. 
+:666 E[JW¥JL]RXW¥ XW :WOX[VJ]RXW EQNX[b, 44#/$% 
++*01o++)/' U`Z3*)'**)2(*1'0+).,/
+ Kuncheva, L. I. (1997). Fitness functions in editing 
+k-NN reference set by genetic algorithms. Patt. 
+Recog., 30#/$% *)-*o*)-2' U`Z3*)'*)*/(H)),*&
+ ,+),#2/$))*,-&,
+ Leemans, V., & Destain, M. F. (2004). A real time 
+grading method of apples based on features extracted 
+from defects. Journal of Food Engineering, 61, 
+1,o12' U`Z3*)'*)*/(H)+/)&100-#),$))*12&
+Leemans, V., Magein, H., & Destain, M.-F. (1999). 
+Defect segmentation on ‘Jonagold’ apples using 
+colour vision and Bayesian method. Computers and 
+Electronics in Agriculture, 23% -,o.,' U`Z3*)'*)*/(
+ H)*/1&*/22#22$))))/&M
+ Leemans, V., Magein, H., & Destain, M.-F. (2002). 
+On-line apple grading according to European stan
+dards using machine vision. 3RX¥b¥]NV¥ 6WPRWNN[RWP, 
+83#-$% ,20o-)-' U`Z3*)'*))/(SZ`V'+))+')*,*
+ Liu, Y., Lyon, B. G., Windham, W. R., Lyon, C. 
+E., & Savage, E. M. (2004). Principal component 
+analysis of physical, color, and sensory character
+ZdeZTd `W TYZT¥V_ ScVRded UVS`_VU Re eh`% W`fc% dZi% 
+R_U ehV_ej&W`fc Y`fcd a`de^`ceV^' Poultry Science, 
+83, 101–108.
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010   39
+ BRTFfVV_% ?' 7' #*2/0$' H`^V ^VeY`Ud W`c T]Rd
+sification and analysis of Multivariate Observa
+tions. In A[XLNNMRWP¥ XO +]Q 3N[TNUNb DbVYX¥R^V 
+XW >J]QNVJ]RLJU D]J]R¥]RL¥ JWM A[XKJKRUR]b0 GXU& ( 
+(pp. 281-297). Berkeley, CA: University of Cali
+fornia Press.
+ Mangasarian, O. L., & Wild, E. W. (2004). >^U]R
+¥^[OJLN Y[XaRVJU ¥^YYX[] _NL]X[ LUJ¥¥RORLJ]RXW _RJ 
+generalized eigenvalues #IVTY_' GVa' )-&),$' BRUZ
+son, WI: Data Mining Institute, Computer Science 
+Department, University of Wisconsin.
+ BR_XRdRcZR_% D' A'% " LZ]U% :' L' #+))/$' Nonlinear 
+knowledge-based classification #IVTY' GVa' )/&)-$' 
+Madison, WI: Data Mining Institute, Computer Sci
+ence Department, University of Wisconsin.
+ BRcTYR_e% ?' 6'% " D_jR_X`% 8' B' #+)),$' 8`^
+aRcZd`_ `W R 7RjVdZR_ T]RddZWZVc hZeY R ^f]eZ]RjVc 
+WVVU&W`chRcU _VfcR] _Veh`c¥ fdZ_X eYV ViR^a]V 
+`W a]R_e(hVVU(d`Z] UZdTcZ^Z_ReZ`_' Computers and 
+Electronics in Agriculture, 39% ,o++' U`Z3*)'*)*/(
+ H)*/1&*/22#)+$))++,&.
+ Mitchell, T. M. (1997). >JLQRWN UNJ[WRWP' CVh 
+N`c¥3 BT<cRh&=Z]]'
+ BfTYVcZ_`% 6'% ERaR[`cX[Z% E'% " ERcUR]`d% E' B' 
+(2009). Survey of Data Mining Techniques Applied 
+to Agriculture. Operational Research - . International 
+;X^[WJU "EX[XW]X$ @W]&#, 9, 121–140.
+ BfTYVcZ_`% 6'% ERaR[`cX[Z% E'% " ERcUR]`d% E' B' 
+(2009). Data mining in agriculture' CVh N`c¥3 
+Springer.
+ Pan, J. S., Qiao, Y. L., & Sun, S. H. (2004). A fast 
+k nearest neighbors classification algorithm. IEICE 
+E[JW¥JL]RXW¥ XW 7^WMJVNW]JU¥ XO 6UNL][XWRL¥$ 4XV
+munications and Computer Sciences . E (Norwalk, 
+Conn.), 87-A#-$% 2/*o2/,'
+ Parlett, B. N. (1998). The symmetric eigenvalue 
+problem. D:2>$ )'$ ,.0'
+ EVc_¥`aW% ;' #+)).$' 7RjVdZR_ _Veh`c¥ T]RddZWZVcd 
+versus selective k-NN classifier. Pattern Recognition, 
+38#*$% *o*)' U`Z3*)'*)*/(['aReT`X'+))-').')*+
+ Ej]V% 9' #+)),$' 3^¥RWN¥¥ VXMNURWP JWM MJ]J VRWRWP. 
+San Francisco, CA: Morgan Kaufmann Publishers.
+ Schatzki, T. F., Haff, R. P., Young, R., Can, I., Le, 
+L.-C., & Toyofuku, N. (1997). Defect detection in 
+apples by means of x-ray imaging. E[JW¥JL]RXW¥ XO 
+the American Society of Agricultural Engineers, 
+40(5), 1407–1415.
+ Shahin, M. A., Tollner, E. W., & McClendon, R. W. 
+(2001). Artificial intelligence classifiers for sorting 
+Raa]Vd SRdVU `_ hReVcT`cV' Journal of Agricultural 
+Engineering Research, 79#,$% +/.o+0-' U`Z3*)'*))/(
+ [RVc'+))*')0).
+ Solazzia, M., & Uncinib, A. (2004). Regularizing 
+_VfcR] _Veh`c¥d fdZ_X W]ViZS]V ^f]eZgRcZReV RTeZgR
+tion function. Neural Networks, 17#+$% +-0o+/)' 
+U`Z3*)'*)*/(H)12,&/)1)#),$))*12&1
+ Urtubia, A., Perez-Correa, J. R., Meurens, M., & 
+6X`dZ_% :' #+))-$' B`_Ze`cZ_X ]RcXV dTR]V hZ_V 
+WVc^V_eReZ`_d hZeY Z_WcRcVU daVTec`dT`aj' EJUJW]J, 
+64#,$% 001o01-' U`Z3*)'*)*/(['eR]R_eR'+))-')-')).
+ Vapnik, V. (1995). EQN WJ]^[N XO ¥]J]R¥]RLJU UNJ[WRWP 
+theory' CVh N`c¥3 HacZ_XVc&KVc]RX'
+ Wu, X., Kumar, V., Quinlan, J. R., Ghosh, J., Yang, 
+Q., & Motoda, H. (2008). Top 10 algorithms in data 
+mining. Knowledge and Information Systems, 6(14), 
+*o,0' U`Z3*)'*))0(d*)**.&))0&)**-&+
+ NRXVc% G' G' #+))/$' 6_ VieV_dZ`_ `W eYV _RZgV 7RjVd
+ian classifier. Information Science, 176(5), 577–588. 
+U`Z3*)'*)*/(['Z_d'+))-'*+'))/
+ Yager, R. R., & Filev, D. P. (1994). Approximate 
+clustering via the mountain method. :666 E[JW¥
+JL]RXW¥ XW Db¥]NV¥$ >JW$ JWM 4bKN[WN]RL¥, 24(8), 
+1279–1284. doi:10.1109/21.299710
+ Yu, X., Chen, G., & Cheng, S. (1995). Dynamic 
+learning rate optimization of the backpropagation 
+algorithm. :666 E[JW¥JL]RXW¥ XW ?N^[JU ?N]`X[T¥, 
+6#,$% //2o/00' U`Z3*)'**)2(0+',0020+
+ OYR_X% <' E' #+)))$' CVfcR] _Veh`c¥d W`c T]Rd
+sification: a survey. :666 E[JW¥JL]RXW¥ XW Db¥
+]NV¥$ >JW$ JWM 4bKN[WN]RL¥, 30#-$% -.*o-/+' 
+U`Z3*)'**)2(.,+/'120)0+
+ OYR_X% N'% MZ`_X% O'% BR`% ?'% " Df% A' #+))/% 
+June). The study of parallel k-means algorithm. In 
+Proceedings of the 6th World Congress on Intelligent 
+Control and Automation: Vol.2, Dalian, China (pp. 
+.1/1&.10*$' >:::'
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.
+40   International Journal of Agricultural and Environmental Information Systems, 1(1), 26-40, January-June 2010
+ 2U]JWWJ[ 4QRWLQ^U^^W [NLNR_NM J 3DL RW VJ]QNVJ]RL¥ RW )'') O[XV ]QN ?J]RXWJU FWR_N[¥R]b XO 
+>XWPXURJ JWM J 3DL RW K^¥RWN¥¥ JMVRWR¥][J]RXW RW )'') O[XV ]QN >XWPXURJW FWR_N[¥R]b XO DLRNWLN 
+JWM ENLQWXUXPb& 9N [NLNR_NM QR¥ >DL JWM J AQ5 RW XYN[J]RXW¥ [N¥NJ[LQ J] ]QN FWR_N[¥R]b XO 7UX[RMJ 
+in December. Chinchuluun has received a number of prestigious awards such as Outstanding 
+International Student Award, College of Engineering, University of Florida, 2007, Graduate 
+D]^MNW] 2`J[M OX[ 6aLNUUNWLN RW CN¥NJ[LQ$ 5NYJ[]VNW] XO :WM^¥][RJU JWM Db¥]NV¥ 6WPRWNN[RWP$ 
+University of Florida, 2006, Outstanding International Student Award, College of Engineering, 
+FWR_N[¥R]b XO 7UX[RMJ$ )'',$ :?7@C>D )'', 5XL]X[JU 4XUUXZ^R^V YJ[]RLRYJW]$ 5NYJ[]VNW] XO 
+Industrial and Systems Engineering, University of Florida, 2006, etc. Chinchuluun has published 
+a number of papers in the most well-known international journals and edited several books. 
+He is associate editor, Journal of Global Optimization, Springer, guest editor, special issues on 
+Optimization and Optimal Control, Optimization$ EJbUX[ ! 7[JWLR¥$ )''/& 4^[[NW]Ub QN R¥ J YX¥] 
+doctoral associate at the Imperial College London, UK.
+ Petros Xanthopoulos received the Dipl. Eng. degree in electronics and computer engineering from 
+]QN 6UNL][XWRL¥ JWM 4XVY^]N[ 6WPRWNN[RWP 5NYJ[]VNW]$ ENLQWRLJU FWR_N[¥R]b XO 4[N]N$ 4QJWRJ$ 
+8[NNLN$ RW )''+ JWM J >DL O[XV RWM^¥][RJU JWM ¥b¥]NV¥ NWPRWNN[RWP$ FWR_N[¥R]b XO 7UX[RMJ& 9N R¥ 
+currently working toward the PhD degree in the Industrial and Systems Engineering Department, 
+University of Florida, Gainesville. He has published his work in journals of IEEE, Elsevier and 
+Wiley and he has edited a special issue for the Journal of Combinatorial Optimization entitled 
+Data Mining in Biomedicine. Currently he is editing a book on computational neuroscience that 
+`RUU KN Y^KUR¥QNM O[XV DY[RWPN[& 9N QJ¥ JU¥X LX%X[PJWRcNM "`R]Q 5[& AJWX¥ >& AJ[MJUX¥# VJWb 
+special sessions in international meeting and two conferences related to applications of data 
+VRWRWP RW KRXVNMRLRWN& AN][X IJW]QXYX^UX¥ QJ¥ J YJ]NW] `R]Q `NUU%TWX`W [N¥NJ[LQN[¥ ]R]UNM ERVN 
+7[NZ^NWLb E[JW¥OX[VJ]RXW 2WJUb¥R¥ OX[ 5N]NL]RXW JWM B^JW]RORLJ]RXW XO 6YRUNY]ROX[V 2L]R_R]b 
+Load in Generalized Epilepsies UF-731P. He is currently a research assistant at the Center for 
+Applied Optimization, University of Florida.
+ GN[J EXVJRWX [NLNR_NM ]QN >D MNP[NN RW RWM^¥][RJU NWPRWNN[RWP O[XV ]QN FWR_N[¥R]b XO 4JUJK[RJ$ 
+:]JUb$ RW )''-& DQN R¥ L^[[NW]Ub Y^[¥^RWP QN[ AQ5 RW ]QN 5NYJ[]VNW] XO 3RXVNMRLJU 6WPRWNN[RWP 
+J] ]QN FWR_N[¥R]b >JPWJ 8[eLRJ$ 4J]JWcJ[X& DRWLN ?X_NVKN[ )''.$ ¥QN R¥ `X[TRWP J¥ J _R¥R]RWP 
+scholar at the Center for Applied Optimization, University of Florida. Her current research in
+terests include data mining in biomedical applications and optimization. She is currently working 
+on data mining applications in the field of biomedicine particularly applied to cancer research 
+MJ]J& EXVJRWX QJ¥ Y^KUR¥QNM QN[ `X[T RW `NUU%TWX`W SX^[WJU¥ JWM RW RW]N[WJ]RXWJU LXWON[NWLN¥& 
+She closely works with the medical industry and research labs dealing with cancer research data 
+applies data mining techniques and optimization.
+ AJWX¥ >& AJ[MJUX¥ R¥ J MR¥]RWP^R¥QNM Y[XON¥¥X[ XO :WM^¥][RJU JWM Db¥]NV¥ 6WPRWNN[RWP 5NYJ[]
+ment at the University of Florida and director of the Center for Applied Optimization (CAO). 
+Professor Pardalos is editor in chief of five internationally well-known journals and member of 
+the editorial board of more than 15 international journals in the field of applied mathematics. 
+9N R¥ VNVKN[ XO 2LJMNVb XO DLRNWLN¥ XO FT[JRWN$ DYJRW$ C^¥¥RJ JWM =R]Q^JWRJ JWM >XWPXURJ& 
+A[XON¥¥X[ AJ[MJUX¥ R¥ `RWWN[ XO EQN HRUURJV ARN[¥TJUUJ KN¥] YJYN[ J`J[M OX[ [N¥NJ[LQ NaLNUUNWLN 
+in health care management science. He has a long list of publications and books.
+ 8`ajcZXYe n +)*)% ><> <]`SR]' 8`ajZ_X `c UZdecZSfeZ_X Z_ acZ_e `c V]VTec`_ZT W`c^d hZeY`fe hcZeeV_ aVc^ZddZ`_ `W ><> <]`SR]
+ is prohibited.

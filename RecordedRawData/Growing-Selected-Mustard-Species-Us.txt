@@ -1,0 +1,369 @@
+Growing Selected Mustard Species Using Smart Technologies in Hydroponics
+
+2023
+
+Agustin, Jonalyn N. 
+Bagara, Lea Erica D. 
+Velasco, Kent Lemuel L.
+
+ABSTRACT
+
+The study deals with developing growing selected mustard species using smart technologies in hydroponics. Hydroponics is the science of soilless gardening. It entails growing healthy plants without the use of traditional soil. It has a nutrient, such as a mineral-rich water solution. A plant only requires a few nutrients, water, and sunlight to develop. Plants not only grow without soil, but they often grow their roots better in water. The study's main objective is to design and implement a growing system for selected mustard species using smart technologies in hydroponics to monitor various parameters such as water level, nutrients, and pH of the water and improve crop productivity. It aims to discover the challenges farmers encounter using traditional farming methods. The system improves farming in a new way. The researchers used descriptive research in the study to describe current issues. They provided information about the issues through a questionnaire using ISO 25010 and various fact-finding methods, and their respondents are from the IAT department, both faculty and students. The sampling method used is purposeful non-probability sampling.
+
+The researchers' analysis of the data revealed that the hydroponic system is "agreeable" in terms of functionality, efficiency, usability, and reliability for Growing Selected Mustard Species Using Smart Technologies in Hydroponics. The system is expected to benefit the agency regarding the effectiveness of hydroponic farming in agriculture.
+
+CHAPTER I
+
+INTRODUCTION
+
+Background of the Study
+
+Hydroponics was introduced in 1946 by an English scientist, Duglas (n.d.), who established a laboratory in the Kalimpong area, West Bengal. He has also written a book on hydroponics named 'Hydroponics the Bengal System. Later on, during the 1960s and 70s, commercial hydroponics farms were developed in Abu Dhabi. Hydroponic systems have been utilized as one of the standard methods for plant biology research and are also used in commercial production for several crops. During the 1980s, many automated and computerized hydroponics farms were established worldwide. Home hydroponics kits became popular during the 1990s.
+
+It is derived from the ancient Greek word "hydro" for water and "ponics" for labor. Waterworks here allow plants to develop quickly. Growing plants without soil are known as hydroponics. It's a more efficient approach to give your plants water. Plants do not use soil. Instead, they use water in it. Hydroponics is the science of soilless gardening. It entails growing healthy plants without the use of traditional soil. It has a nutrient such as a mineral- rich water solution. Developing a plant only requires a few nutrients, water, and sunlight. Plants not only grow without soil, but they often grow better with their roots in water.
+
+The purpose of soil is to provide plants with nutrients and anchor their roots. Still, in a hydroponic garden, you'll provide your plants with a complete fertilizer formula and an inert growing medium to anchor their roots and give them quicker access to water. Because the nutrition is dissolved in water, it reaches the roots quickly. Due to its more sustainable approach to resource utilization than traditional growing methods, hydroponic farming is fast becoming a popular alternative for many farmers throughout the world. It is simple to use and make changes to get positive impacts on agriculture and to develop plants more quickly and to be harvested earlier. It is light and clean because it does not require cultural activities like plowing, weeding, soil fertilization, or crop rotation.
+
+Furthermore, hydroponics is the practice of growing plants without soil.
+
+Hydroponics commonly cultivates plants in nutrient-rich water, although hydroponics can
+
+also be considered to be the practice of growing plants in other aggregates, such as a soil-
+
+less bark-based mix. Hydroponics is an advantageous method of gardening both for home
+
+and commercial use. There are no weeds to deal with, and hydroponic plants are typically
+
+healthy, mature earlier, and use less space. In addition, because it is entirely water-based,
+
+it is possible to automate a hydroponics system fully, so if the gardener is absent for an
+
+extended period, the plants will not suffer. Unlike traditional farming methods, the water
+
+is typically reused, where much water is lost through evaporation or runoff.
+
+There are three different ways of culturing hydroponically-grown plants. The simplest one, the nutrient film technique, uses a plastic trough as a container. Holes are placed on the top to hold the plants. The trough is sloped slightly so that the solution will flow to a reservoir. Other methods include aeroponics, which suspends the roots in a mist rather than a solution, and aeration, which uses an air pump to deliver oxygen to the roots immersed in the solution. An aggregate hydroponics system uses inert material, such as clay pebbles or foam chips, to surround the roots and support the plant.
+
+According to growers, hydroponic systems help them expand their ability for Plants can be produced anywhere, ie., in a small area with a regulated growth environment, with continuous output during a brief growing period and reduced land requirement. The common response from growers is that hydroponics always enables them to have increased output and harvests without any limitations from climatic and meteorological factors. Additionally, producers have argued that because hydroponic produce is produced in a carefully regulated environment, it may be produced more uniformly and without losing any water or nutrients. Additionally, because hydroponics is not dependent on seasonality, their productivities are higher and more consistent all year long. Hydroponic productions are also frequently reported to be simpler by growers. Since they don't need cultural processes, such as They are light and clean, similar to weeding, crop rotation, soil fertilization, and plowing. The scientific data, however, frequently needs to be more coherent. Numerous drawbacks are cited to support their rejection, including expensive starting expenditures, a requirement for a high level of technical and plant physiology expertise, consistent work schedules, and effective electrical systems. In order to prevent excessive salinization and any production losses, it is also essential and effective to manage nutritional solutions, measure liquid nutrients daily, and control microbiological illnesses and pests
+
+However, growers frequently counter that this method makes it possible to produce better food and lowers waste. The crop grown most hydroponically in the world is lettuce, which serves as a good illustration of waste reduction. 99% of its hydroponic leaves are functional and can be sold for about 40% more than lettuce that is typically cultivated.
+
+Additionally, fresh produce grown hydroponically has a higher chance of being accepted by consumers and has a higher average nutritional quality. Additionally, growers reported that hydroponics avoids some of the drawbacks of conventional agriculture, such as the excessive and inefficient use of water, the need for a lot of land, the use of high concentrations of nutrients and pesticides, and soil degradation and erosion problems, which are much more common concerns among consumers today.
+
+Objectives of the Study
+
+The study's main objective is to design and implement a growing system for selected mustard species using smart technologies in hydroponics for monitoring various parameters such as water level, nutrients, and pH, as well as improving crop productivity. Specifically, it aimed to:
+
+1. identify problems encountered in traditional methods of farming,
+
+2. test the efficiency of climate-smart technologies in comparison to traditional approaches for the environment and farmers; and
+
+3. evaluate the project prototype, adopting the ISO 25010 system evaluation standards
+
+in terms of:
+
+3.1 Functionality;
+
+3.2 Efficiency;
+
+3.3 Usability; and
+
+3.4 Reliability,
+
+Scope and Limitations
+
+The research focused on growing selected mustard species in hydroponics using smart technologies. It is limited to the agriculturists of the ISU Cauayan Campus for the collection and gathering of information for our study. The system's process and methods will assist agriculturists in determining the efficacy of Growing Selected Mustard Species Using Smart Technologies in Hydroponics in farming and crop growth.
+
+Respondents of the study
+
+To collect the appropriate data needed for the research, the researchers collected information by giving questionnaires to the faculty and students of the Institute of Agricultural Technology.
+
+Significance of the Study
+
+This study will be undertaken to test the effectiveness and efficiency of growing selected mustard species using smart technologies in Hydroponics in ISU Cauayan Campus Agricultural Department.
+
+The various sectors that benefit from the study are as follows:
+
+Mustard Growers. The growers can use it as an alternative and enhanced way of farming. 
+
+The small-time businesses. The agriculturist can test and try the effectiveness of hydroponics farming for better improvement in agriculture.
+
+Future Researchers. The presented ideas may be used as reference data in conducting new research or testing the validity of other related findings. This study will also serve as their cross-reference, giving them background or an overview of this study.
+
+Researchers designed this setup to demonstrate how it works and to describe the hydroponics system production concept. The input is the hardware and software that we use to create a system. The process indicates the approaches we used to maintain and monitor our system. The output illustrates the hydroponic system.
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+The literature related to the study is presented in this chapter those included in this chapter aid in familiarizing relevant and comparable information to the current research.
+
+A Brief History of Hydroponics
+
+According to King (2020), hydroponics has enjoyed a resurgence lately. Popularized in the 1940s and solidified in growing culture by the 2000s, hydroponics began much further back in our ancient history. According to Hellenic culture, The Hanging Gardens of Babylon were among the Seven Wonders of the Ancient World. If real, the gardens were built in the 6th century, relying exclusively on the Euphrates River as their source of irrigation. Without soil available in the arid desert, they may be the first example of successful hydroponics.
+
+In the 10th century, the Aztecs reportedly used floating gardens in nearby lakes, and the Chinese utilized hydroponics for rice fields devoid of soil in the 13th century. By the 16th century, Belgian Jan van Helmont recorded the earliest known science-based research on hydroponics. He noted that water delivered nutrients to plants. Building on Jan van Helmont's previous work, in 1699, John Woodward created the world's first hydroponics nutrient solution after concluding that plant growth benefited by nutrients in water were more accessible than soil. The 20th century was a flurry of studies and advancements in how we grow.
+
+Based on the study of the king in the brief history of hydroponics, it is truly believed that hydroponics has been evolving as time goes by, and it has become more modernized.
+
+Hydroponic System
+
+According to Bowery farming (2022), all hydroponics systems have some kind of growing tray where the plants grow. In some scenarios, these trays have only water and the liquid nutrient solution in them, and in other systems, the plants grow in a non-soil material like sand, rock, or wool. Hydroponic farming systems usually also have growing lights as part of their operations. Some smaller systems rely on timers to keep a regular schedule for watering and light usage.
+
+In a hydroponics system, there are many ways and different tools you can use in planting or growing your plants.
+
+Automated smart hydroponics system using the internet of things
+
+According to Lakshmanan et al. (2020), this paper presents a design and implementation of an automated smart hydroponics system using the internet of things. The method was implemented using NodeMcu, Node-Red, MQTT, and sensors that were chosen during component selection. The system improved its performance and allowed it to successfully achieve the aim of the entire system implemented. There are some limitations that can be enhanced as future work, such as including data science with the usage of artificial intelligence to improve the crops further and get a better outcome. 
+
+Based on the study, they employed sensors to enhance its functionality and enable it to accomplish the system's goal, but there is still room for improvement for the following researcher.
+
+According to Vidhya et al. (2018), due to an increase in industrialization, there is a notable decrease in agricultural farmland. The human population is increasing daily, increasing the demand for food. Food is the primary basic source for the survival of human beings on earth. Usually, traditional planting with soil consumes a longer time. There is a huge technological advancement in the agriculture sector with the hydroponic concept.
+
+As researchers, we believe that Vidhya et al. study is particularly relevant today because it is true that the human population is growing quickly and that we will need more food supplies soon to make up for current food shortages via hydroponic farming.
+
+According to Savvas and Dimitrios (2016), Commercial hydroponics is a cutting- edge technique that substitutes inert media for natural soil for plant development in order to decouple crop performance from ground-level issues including soil-borne illnesses, unsuitable soil, undesirable physical qualities, etc. Rock wool, perlite, pumice, expanded clay, other volcanic materials, polyurethane foam, coir dust, and other non-toxic porous materials are used as plant development substrates. To guarantee sufficient water availability for the plants without compromising the supply of oxygen to the roots, a substrate must have a balanced distribution of small and larger holes. The quality of the fruits and flowers that are grown in these systems without the use of hydroponics is unaffected. Contrarily, total control over nutrition provided by the nutritional solution might allow an enhancement of product quality, particularly in vegetable crops, such as tomato, melon, and lettuce.
+
+Farmland used for agriculture has considerably decreased as a result of an increase in the human population. Food is the primary nutritional item required by people to survive. The hydroponic concept has significantly advanced agricultural technology in the present. This report details the preparation and implementation of an automated smart hydroponics system using the Internet of Things.
+
+Hydroponic Gardening
+
+According to Scotts Company LLC (2022), hydroponics is the practice of growing plants in nutrient-added sand, gravel, or liquid without soil, according to Liburd et al. (n.d.). Although there are other approaches to building a hydroponic system, this project will concentrate on the Nutrient Film Technique, or "NFT." When people hear the word "hydroponics," they immediately think of the NFT system. It includes a straightforward growing media, like PVC tubing, and a continuous flow of fertilizer solution from a reservoir.
+
+We can see that hydroponics uses using NFT system to grow a plant by using PVC and many other tools.
+
+According to Sonawane et al. (2018), agriculture needs to be capable of supporting the world's entire population. Due to accelerated urbanization and industrialization, as well as other manufactured and natural factors, the fraction of cultivated and arable land continues to decrease. At the same time, the population of the world continues to increase steadily. In 1960, each hectare of arable land fed about two people; presently, every hectare of land needs to provide four, and by 2050, it is expected to feed 6.25 people.
+
+In this study, due to accelerated urbanization and industrialization as well as other manufactured and natural factors, the fraction of cultivated and arable land continues to decrease, resulting in us building a solution to that, which is a hydroponics system.
+
+According to Boylan et al. (2020), Large-scale vertical farming carried out in urban areas has significant potential to: 1. sustainably produce enough food to comfortably feed the entire human race for the foreseeable future; 2. large-scale land conversion to a more natural state, restoring ecosystem services and functions; 3. Use the organic element of human and agricultural waste to generate energy safely and effectively through the production of methane while also drastically reducing vermin populations (such as rats and cockroaches); 4. Clean up black water while developing a crucial new plan to conserve drinking water, 5. Utilize vacant and underutilized urban places.
+
+Vertical farming has the potential to sustainably produce enough food to feed the whole human race for the foreseeable future. Allowing huge land areas to return to their natural state will help restore ecosystem services and functions. Utilize the organic component of waste from people and agriculture to generate electricity through methane production while also drastically reducing vermin populations (e.g., rats, cockroaches).
+
+Review
+
+According to Kumar et al. (2018), the expansion the intensive growing strategy and an increase in the number of cattle have produced increased feed and fodder requirements in the country. Hydroponics is a technology of sprouting grains or growing plants without soil, but only with water or nutrient-rich solution in greenhouses under a controlled environment within a short period.
+
+In this study, it is said that using hydroponics in growing plants without soil with water or nutrient-rich solution in greenhouses under a controlled environment within a short time is very reliable.
+
+According to Khan (2018), the term 'Hydroponics' was derived from the Greek word 'hydro' means water, and 'ponos' mean labor. Hydroponics is a modern agriculture technique that uses nutrient solutions rather than soil for crop production. Humans need water, food, and a living habitat to endure. As the population increases, the food demand also increases. The worry is that the existing agriculture system will not be able to meet the food requirement near future as this system is facing many challenges.
+
+A new farming method called hydroponics produces crops without using soil via nutrient solutions. Demand for food rises along with population growth. The concern is that soon, the current agricultural system will only be able to supply some of the food needed.
+
+Hydroponics vs. Traditional Farming
+
+According to Hale (2022), The answer is dependent on a few things. Hydroponic farming typically costs less per square foot than conventional farming since it requires less room for production. Hydroponics, which substitutes water for soil to grow plants, saves money by eliminating the need for soil, which is also expensive. However, conventional farming is frequently more cost-effective when we consider the price per pound of production. This is due to the fact that conventional methods can provide higher yields and require no additional labor or equipment to maintain your hydroponic garden.
+
+According to Eden Green (2022), traditional farming has remained mostly unchanged for centuries. Improvements have been made in commercial farm equipment, genetically modified seeds, and irrigation. But we continue to plant seeds in the ground, provide water and sunlight, and wait for the harvest. It's always been away. But is that the most effective approach to producing goods on a large scale? There are more agricultural options available to businesses in the food market nowadays, thanks to a number of newer farming techniques. Based on this study introduces that we can also grow a plant in hydroponics, not just in soil.
+
+According to Aires et al. (2017), according to growers, hydroponic systems help them expand their abilities. Plants can be produced anywhere, i.e., in a small area with a regulated growth environment, with continuous output during a brief growing period and reduced land requirement. The common response from growers is that hydroponics always enables them to have higher productivity and yields without any constraints of climate and weather conditions. In addition, growers often claim that the Because it uses a tightly controlled atmosphere and allows for a more homogenous production without any loss of water or nutrients, hydroponic produce has better quality. Additionally, because hydroponics is not dependent on seasonality, their productivities are higher and more consistent all year long.
+
+Growers say that hydroponic systems enable them to increase their capacity for continuous production in a short growing period and require less space, according to Aires et al. (2017). Traditional farming is frequently a better choice if you are considering the cost per pound of production. This is a result of conventional methods that can produce higher yields and do not incur additional personnel or equipment maintenance costs.
+
+Hydroponics: the use of water to grow food hydroponically.
+
+According to Lagomarsino and Senft (2019), With "roughly 83 million people being added to the world's population each year until then," the UN predicts that by 2050, there will be close to 10 billion people on Earth. In 2019 alone, an estimated 124 million people experienced acute food shortages as a result of climate-related events like flooding, irregular rains, droughts, and high temperatures. The Food and Agriculture Organization of the United Nations has been introducing hydroponic farming in regions of the world that have food shortages because it can grow food in a controlled environment, with less water, and in higher yields.
+
+Large hydroponic farms are currently being established in Latin American and African nations through continuing efforts.
+
+In this study, it is said that people faced acute food shortages from climate-related events such as flooding, irregular rains, droughts, and high temperatures, and using hydroponics is more reliable for this because hydroponics can grow food in a controlled environment.
+
+According to Magwaza et al. (2019), water scarcity, nutrient-depleted soils, and pollution continue to be major challenges worldwide. These are probably going to get worse as the world's population grows, especially in cities. As a result, inadequate sanitation and wastewater disposal systems may lead to issues with the environment and public health. As a result, there have been paradigm shifts in the sustainable management of waste disposal in a way that might benefit society by enabling nutrient recovery and reuse for food production while also protecting the environment. Therefore, there is an increased possibility for using urban wastewater for agricultural irrigation, particularly when reusing minerals like nitrogen and phosphorus, which are crucial for crop production.
+
+Based on this study, it is said that sustainable management of waste disposal in a manner that could protect the environment at the same time, benefits society by allowing nutrient recovery and reuse for food production is required, and it is essential for crop production.
+
+According to Rakhman (2015), hydroponics is an alternative way of farming in limited area of urban. It is Easy, controlled, and can be done on media without soil, even in a house. In hydroponic watering system is done automatically, and the environment can be controlled to prevent the plant from pests. It is suitable for people who spend more routine work in the office than at home. However, hydroponics nutrients are very difficult to obtain. Even in Lampung, nobody has sold. Aquaponics is another alternative that could be used to grow crops in a limited area, and the nutrients are easier to find because it uses fish waste. This study was conducted to evaluate whether fish waste could replace hydroponic nutrients to support the growth of mustard plants.
+
+In this study, we realize that hydroponics is one solution and can be used as an alternative way of farming.
+
+According to Roy et al. (2022), hydroponics is a plant-growing procedure in water, and aquaponics is an eco-friendly, water and energy-saving bio-integrated recirculating aquaculture system that integrates fish farming and vegetable gardening in a symbiotic close loop system. This experiment was carried out to observe the production potentiality of broccoli in a different types of hydroponics like organic Hydroponics (T1), inorganic Hydroponics (T2), and tilapia-based aquaponics systems (T3), each with three replicates for 106 days from 19th February to 4th June 2018. Three kg vermicomposting as T1 was soaked in 90 L water in a drum with a net bag, and after that, 1 kg vermicomposting was added weekly, discarding the old one. In the case of T2, 28.50 g mixed fertilizer composed of 5g urea, 7.50g TSP, 5g MOP, 5g dolomite, 5g DAP, 0.50 g boron, and 0.50 g iron was added in 90 L water and after seven days 22.80 g was added fortnightly. In the aquaponics tank, ten healthy tilapia fingerlings were released in the same amount of water, and 30% protein-containing commercial floating feed was fed twice daily at the rate of 3% body
+
+weight.
+
+Food can be grown hydroponically in a controlled environment with lower water usage and higher yields. An estimated 124 million people had severe food shortages in 2019 due to climate-related catastrophes like flooding, erratic rain, droughts, and extreme temperatures. Global population growth is anticipated to make issues like water scarcity, nutrient-depleted soils, and pollution even more problematic. The environment may be adjusted, and the hydroponic watering system is automatic to protect the plant from pests. Brassica rapa and Brassica juncea plants grow and produce well in a vertical hydroponics system.
+
+According to Caparro et al. (2018), the study assessed pechay's yield and growth and mustard in a vertical hydroponics system. It was conducted to produce clean and safe food and help the farmers produce higher results of a suitable crop using small space. The study has a significant contribution to the understanding of soilless agriculture. Hydroponics is a well-liked method of growing plants inside that lowers the possibility of crops being exposed to pests and bad weather.
+
+This study demonstrates how the growth and yield of pechay and mustard in a vertical hydroponics system were assessed. It was also carried out to enable farmers to have a larger yield of an appropriate crop using little area, as well as to provide clean, safe food.
+
+According to Touliatos et al. (2016), vertical farming systems (VFS) have been proposed as an engineering solution to increase productivity per unit area of cultivated land by extending crop production into the vertical dimension. To test whether this approach presents a viable alternative to horizontal crop production systems, a VFS (where plants were grown in upright cylindrical columns) was compared against a conventional horizontal hydroponic system (HHS) using lettuce (Lactuca sativa L. ev. "Little Gem") as a model crop. Both systems had similar root zone volume and planting density. Half- strength Hoagland's solution was applied to plants grown in perlite in an indoor controlled environment, with metal halide lamps providing artificial lighting. A common method of growing plants indoors that lowers the likelihood of crops being exposed to pests and bad weather is hydroponics. Plants grown in perlite were treated with half-strength Hoagland's solution in an enclosed, climate-controlled room with metal halide lighting. The work significantly advances our knowledge of soilless agriculture.
+
+Production of Leafy Crops in Small-Scale Hydroponic and Soilless Systems
+
+According to Bumgarner et al. (2019), Food production in homes and small businesses can take many different shapes. The majority of people have traditional home gardens that use local soil, although interest in producing vegetables is not restricted to those who have adequate outdoor and in-ground locations. A gardener frequently needs access to a plot of land, or the soil may not be of sufficient quality to support growing plants in the ground. Many people have the choice of soilless farming or hydroponics, which makes it possible to grow vegetables on a small scale where conventional gardens are impractical. The soilless growing methods and technologies allow people in metropolitan areas with limited land, a sunny patio, or a variety of different settings and situations to enjoy growing their food.
+
+It is shown that the soilless growing of plants in urban areas is possible to use even in a small space only.
+
+According to Maršić et al. (2021), there are many methods for cultivating leafy vegetables in greenhouses during the fall period, and two of them (floating hydroponic system and substrate culture) have been used in this study. The aim was to evaluate a floating hydroponic system (FHS) and substrate culture (SC), for leafy Asian vegetable cultivation, regarding the harvestable biomass production and nutrition value. Two Asian leafy vegetables were included: two cultivars of Mizuna (Brassica rapa L. subsp. nipposinica Hanelt), 'Mizuna Grün' and 'Mizuna Rot' and red leaf mustard (Brassica juncea L.) 'Mustard Giant Rot.'
+
+It is shown in this study that we can have a way to grow a plant during the fall period by using floating hydroponics.
+
+According to De Lira et al. (2019), groundwater with high salt concentrations is common in the semiarid region of Brazil. It often makes them inappropriate for conventional agricultural production of vegetables. Watercress and Chinese cabbage were grown under a nutrient film technique (NFT) hydroponic system using brackish groundwater. Different treatments negatively affected the growth and yield of the plants. Residential and small-scale commercial food production can take many different forms. Most people have traditional home gardens that use local soil, although interest in producing vegetables is not restricted to those with adequate outdoor and in-ground locations. Often, a gardener might not have access to a piece of land, or the soil might be so bad that growing things in the ground is not an option. With the aid of soilless growing systems and methods, people in urban areas with limited land, a sunny patio, or a variety of different locations and circumstances can benefit from growing their own food.
+
+Crop nutrition in hydroponics
+
+According to Adams (n.d), concern about the pollution of the environment by waste nutrients has led to increasing interest in the recirculation of the nutrient solution. To optimize the uptake and minimize the wastage of nutrients, inputs must match uptake, and good-quality water must be used. Nutrient uptake is generally proportional to the concentration of nutrients around the roots, but in flowing solutions, plants can grow well over a wide range of concentrations.
+
+It is shown in this study that we can use hydroponics in concern about pollution of the environment by waste nutrients has led to increasing interest in recirculation of the nutrient solution.
+
+According to Swain et al. (2021), in the present situation, India needs food security which entails that each and every people must have physical and economic access to safe and nutritious food to meet dietary needs. The scarcity of usable water for agriculture leads to the production of lesser production of food, which ultimately leads to hunger and malnutrition of a large number of people in our country. So, there is an utmost need for the adoption of such technology in agriculture that can contribute towards water saving and have a positive impact on food production and availability. 'Hydroponics' is one such methodology of soilless cultivation, and water use efficiency is much more than a conventional system.
+
+It is shown here that the adoption of such technology in agriculture can contribute towards water saving and have a positive impact on food production and availability.
+
+According to Diamond (2020), the Philippines is greatly affected by hunger and poverty. There are still families in need of help and support against this crisis. Degradation of soil in the country has also become a major problem, in which soil erosion is the most widespread and studied type of soil degradation, while very few studies have been done on other types. With the addition of other recent calamities, there is a need to help decrease further problems and make needs more affordable for families so that they no longer experience starvation and poverty. Hydroponics is said to have helped in situations like these, where instead of using traditional soil to grow crops, a nutrient-rich solution is used to grow crops with the same quality of plants grown in soil.
+
+One such type of soilless growing is known as "hydroponics," It uses less water than a typical system. Recirculation of the nutrient solution is becoming more popular due to worries that waste nutrients may pollute the environment. In India, a lack of useable water for agriculture causes a reduction in food production, which causes a huge number of people to be hungry and suffer from malnutrition.
+
+Comparison between Growing Plants in Hydroponic System and Soil Based System
+
+According to Gashgari et al. (2018), as the world population grows, the demand and need for different products, especially food products, also develop. Because of this growing demand, there will be an expected food crisis in the coming years. To prevent that crisis, other methods-farming methods- and food sources must be used. This paper studies two farming systems to compare and find the best system that will cover the current and future demand with the least cost and natural resource consumption.
+
+In this study, it is shown here that hydroponics can be a way of preventing a crisis in food demand.
+
+According to Barbosa et al. (2015), the land, water, and energy requirements of hydroponics were compared to those of conventional agriculture by the example of lettuce production in Yuma, Arizona, USA. Data were obtained from crop budgets and governmental agricultural statistics and contrasted with theoretical data for hydroponic lettuce production derived using engineering equations populated with literature values. Yields of lettuce per greenhouse unit (815 m2) of 41 plus/minus 6.1 * kg / m * 2 / y had water and energy demands of 20 plus/minus 3.8 * L / k * g / y and 90000 plus/minus 11000 * kJ / k * g / y (standard deviation), respectively. In comparison, conventional production yielded 3.9 plus/minus 0.21 * kg / m * 2 / y of produce, with water and energy demands of 250 plus/minus 25 * L / k * g / y and 1100 plus/minus 75 * kJ / k * g / y respectively. Hydroponics offered 11 plus/minus 1.7 times higher yields but required 82 plus/minus 11 times more energy compared to conventionally produced lettuce.
+
+It is shown in this study that hydroponics has higher yields but requires more energy compared to conventionally produced lettuce.
+
+According to Diamond (2020), the Philippines is greatly affected by hunger and poverty. There are still families in need of help and support against this crisis. Degradation of soil in the country has also become a major problem in the country, in which soil erosion is the most widespread and studied type of soil degradation. In contrast, very few studies have been done on other types. With the addition of other recent calamities, there is a need to help decrease further problems and make needs more affordable for families so that they no longer experience starvation and poverty. Hydroponics is said to have helped in situations like these, where instead of using traditional soil to grow crops, a nutrient-rich solution is used to grow crops with the same quality of plants grown in soil.
+
+Also, in this study, it is shown here that we can use hydroponics methods of farming against the degradation of soil, which is consider a major problem in the Philippines.
+
+According to Tavakkoli et al. (2012), success in breeding crops for yield and other quantitative traits depends on the use of methods to evaluate genotypes accurately under field conditions. Although many screening criteria have been suggested to distinguish between genotypes for their salt tolerance under controlled environmental conditions, there is a need to test these criteria in the field. In this study, the salt tolerance, ion concentrations, and accumulation of compatible solutes of barley genotypes with a range of putative salt tolerance were investigated using three growing conditions (Hydroponics, soil in pots, and natural saline field).
+
+It is shown here that the expression of salt tolerance in saline solution culture was not a reliable indicator of the differences in salt tolerance between barley plants that were evident in saline soil-based comparisons. Significant correlations were observed in the rankings of genotypes on the basis of their grain yield production at a moderately saline field site and their relative shoot growth in pots at EC. 7.2 [Spearman's rank correlation.
+
+According to Soares et al. (2020), The development of hydroponic crops using brackish water offers an option to growing vegetables. In this regard, two tests were carried out to assess the impact on cauliflower biometrics in the NFT (nutrient film technique) hydroponic system of employing brackish water to prepare the nutrient solution and replenish the evapotranspired depth, applied at varied flow rates. Six levels of water electrical conductivity (ECw) in conjunction with two flow rates of nutrient solution application in the hydroponic channels comprised the 6 x 2 factorial design used in both trials (1.5 and 2.5 L min-1).
+
+The demand and necessity for many products, particularly food products, increase together with the growth of the global population. In order to determine the optimal farming system that will meet present and future demand while consuming the fewest resources,
+
+this essay compares and contrasts two farming systems. Significant correlations were observed in rankings of genotype rankings on the basis of their grain yield production at a moderately saline field.
+
+Beneficial bacteria and fungi in hydroponic systems: Types and characteristics of hydroponic food production methods
+
+According to Lee et al. (2015), hydroponic systems have gained worldwide popularity and are increasingly used for various purposes in different geographic areas. The purpose of this review is to present information concerning hydroponic systems, including the different types and methods of operation, trends, advantages, and limitations, and the role of beneficial bacteria and fungi in reducing plant disease and improving plant quality and productivity. In order to produce more and improved hydroponic crops, a variety of modified hydroponic systems have been developed, such as the wick, drip, ebb- flow, water culture, nutrient film technique, aeroponic, and window farm systems. According to numerous studies, hydroponics has many advantages over field culture systems, such as the reuse of water, ease in controlling external factors, and a reduction in traditional farming practices (e.g., cultivating, weeding, watering, and tilling).
+
+It is shown here in the study that the different types and methods of operation, trends, advantages, and limitations, and the role of beneficial bacteria and fungi in reducing plant disease and improving plant quality and productivity of hydroponics.
+
+According to Bosmans et al. (2017), rhizogenic Agrobacterium biovar 1, harboring a Ri-plasmid (root-inducing plasmid), is the causative agent of hairy root disease (HRD) in the hydroponic cultivation of tomato, cucumber, and aubergine. The disease is
+
+ characterized by extensive root proliferation leading to strong vegetative growth and, in severe cases, substantial losses in marketable yield. Agrobacterium biovar 1 is a heterogeneous group of agrobacteria and includes at least ten genomospecies, among which at least four (G1, G3, G8, and G9) have been associated with HRD in hydroponically grown vegetables. This review has synthesized the current knowledge on rhizogenic Agrobacterium biovar 1, including the infection process, current taxonomic status, genetic and phenotypic diversity, detection methods, and strategies for disease control.
+
+Hydroponic systems have achieved worldwide popularity and are increasingly employed for diverse purposes in different geographic areas. Numerous studies have shown that hydroponics has many advantages over field growth techniques, including the ability to reuse water and the simplicity of managing outside conditions. This study has collected the current knowledge on rhizogenic Agrobacterium biovar 1, covering the infection process, taxonomic status, genetic and phenotypic variety, detection methods, and strategies for disease control.
+
+Pros and Cons of Hydroponic Systems
+
+According to Kelly (2016), the advantage is, first, Nutrient Intake while figuring out the perfect blend of nutrients can be hard at first, and they are much easier to control. Since the plants' root system is open, nutrients and oxygen are delivered directly to the roots. By taking away the plants' need to search for diluted nutrients, the plant will grow up instead of out. Secondly, No Pests, No Problem, Ok, so maybe your plants won't be completely guarded against pests, but for many soils is necessary to live. Plus, without the use of soil, the growing environment is easier to keep clean and clear of any unwanted intruders. Lastly, with More Personal Space in hydroponic systems, plants are not fighting for root space, so they grow up, taking up less space. That means you can grow more plants at once.
+
+Based on the study kelly it is shown here that there are also pros and cons of hydroponics that we must consider also. And we believe that in everything, even a good has a bad side also, which we must consider before we implement or before we make a comparison of using a soil-based system and hydroponics system as two growths media for growing pechay (brassica rapa) in greenhouse comparison of using the soil-based system and hydroponics system as two growths media for growing pechay (brassica rapa) in greenhouse comparison of using soil.
+
+Research Gap
+
+According to the researchers, modem farms and agricultural operations are changing rapidly. All of their studies use hydroponics, but they did not use smart technology. Unlike the other studies conducted, this study aims to develop and design a system for growing selected mustard species using smart technology to modernize hydroponic systems. The ease of system setup, the cost of the growth system, and the flexibility to characterize and harvest plant material are all features of the new hydroponic system that are constantly improving. Moreover, in this project, building a system that monitors and controls all the parameters necessary for healthy indoor plant growth was conceptualized.
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter describes and discusses the materials needed and the process of producing the product. In addition, it also explains how the researchers gathered the necessary data and information used in the analysis of the result. It includes the respondents for the product testing. This also shows the procedure of data collection and instruments used. In addition, this chapter discusses the capstone project method used and the locale where the study was conducted. 
+
+The Arduino controls the water level sensor. If the water level sensor detects that the water is low, the water pump will turn on, and if the water level sensor detects that the water is high, the water pump will automatically turn off.
+The fishbone diagram illustrated the proposed hydroponic system to present the possible problems encountered by the farmers in hydroponic farming. The fishbone diagram is a graphic presentation of the problem's cause and effects. In methods it's not easy to use because it is different from the traditional way of farming. In the environment, nutrient pollution is a problem in hydroponic agriculture. Materials are also a problem for the growers if they make hydroponic farming because it is expensive as compared to the traditional way of farming, and also Farmers have a problem in hydroponics because they cannot quickly adopt the new farming method. All of these are the cause and effects are hydroponic farming method problems. This figure shows the development of the Growing Selected Mustard Species Using Smart Technologies in Hydroponics. This is the duration of the different activities we did to create a system and manuscript. 
+
+The Use Case Diagram above indicates that there are two parties involved in the hydroponic system. The role of the farmer is to operate and control the hydroponic system as a whole, whereas the hardware and other materials are the life of the system that is used to keep plants alive. 
+
+Description of the Prototype
+
+This figure shows how our system works. The farmer operates the whole system. An Arduino Uno controls the system's sensor. The data from Arduino was saved to the laptop. A water level sensor checks the water level of the tube. It will also have a water quality sensor that checks the pH, salinity, and temperature of the water. The tube is supplied with water by a water pump and a tank. It's to circulate your nutritional solution from the reservoir to the PVC tube, which houses your plants.
+
+Phase 1. Planning - The researchers started developing a hydroponic system that aimed to find the problems and constraints on the running system and formulate goals of analyzing construction and system development that focuses on the Smart Hydroponic System.
+
+Phase 2. Design - The researchers used several tools to create a system design.
+
+Phase 3. Manufacturing The researchers made necessary adjustments during the system development.
+
+Phase 4. Testing - Before the hydroponic system is tested, the system must be free from error.
+
+Data Gathering Procedure
+
+The following are the procedures that the researcher followed to gather information and create the study.
+
+1. The researchers prepared a letter seeking approval from the concerned authority.
+
+2. The researchers started gathering information by preparing the survey questionnaires and having them checked and approved by the research adviser.
+
+3. The researchers tallied the responses according to the questions in the problem statement. Then, the answers were put into tables, interpreted, and analyzed.
+
+4. After the data had been analyzed and interpreted, it was used to improve the Hydroponic System.
+
+Data Analysis Plan
+
+This section demonstrates the statistical process for determining the equivalence of the estimated weighted mean and descriptive interpretation. The data was interpreted and analyzed using the Likert Scale shown below. The researchers used this formula to calculate the weighted mean:
+
+wm= f(1)+(2)+f(3)... f(n) / n
+
+Where:
+
+WMWeighted Mean
+
+F = Frequency
+
+n-Number of Respondents
+
+In interpreting the weighted mean for the extent of complaints of the development system 
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter presents the findings, analysis, and interpretation drawn from the data gathered. Tables supplement explanation. The interpretation projects the synthesis of ideas and insights to come up with worthy conclusions and recommendations.
+
+Table 1 above shows the weighted mean of the post-questionnaire that researchers provided to the respondents as the basis of the result if they Agree or Disagree with the hydroponic system.
+
+Table 2 above shows the common problems encountered by the agriculturist in the Institutes of Agricultural Technology, both faculty and students. The respondents rated traditional farming as much a problem as farmers have difficulty in cultivating soil.
+
+The respondents rated traditional farming as much a problem in always checking the water of the plants, and the respondents rated traditional farming as much a problem in maintaining a plant, and also, the respondents rated traditional farming much a problem in spraying to protect from insects
+
+The grand mean result is a major issue, so in traditional farming, they see the problems that farmers using traditional methods face.
+
+As seen in table 3, respondents agreed with the system's functionality and rated it as equally effective as traditional farming, with a mean of 4.05; they also agreed that plants grown in hydroponics grow faster than those grown in traditional farming, with a mean of 3.65. The grand mean of system functionality is 3.85, which is qualitatively described as "agree." This means that the respondents perceived that the system is functional. 
+The system efficiency is shown in table 4 above, respondents rated the system as more efficient than in-land production with a mean of 3.65, and they agreed that hydroponic systems are less cost-effective than traditional farming with a mean of 3.55. The grand mean of the system efficiency is 3.6, which is qualitatively described as agreeable. This means that the respondents perceived that the system was efficient. As gleaned from the table, the respondents rated the system as agreeable because it is easier to manage than traditional farming, with a mean of 3.95. Also, they agreed that the hydroponic system requires less supervision, with a mean of 4.45. The system usability grand mean is 4.2, qualitatively described as agreeable. This means that the respondents perceived the system as usable. 
+Table 6 above shows the system's reliability. The respondents rated the system as "strongly agree" as the system can be an alternative to farming with a mean of 4.5. They also agreed that hydroponics production has a better quality in mustard yield, with a mean of 3.65. The grand mean of the system reliability is 4.07, which is qualitatively described as "agree." This means that the respondents perceived the system as reliable. 
+
+The data in Table 7 show the overall mean of the system's characteristics titled "Growing Selected Mustard Species Using Smart Technologies in Hydroponics." The system functionality has a sub-mean of 3.85, followed by system efficiency with a sub- mean of 3.6, then system reliability with a sub-mean of 4.07, and then system usability with the highest sub-mean of 4.7 among the four characteristics. The overall mean is "agree," and the grand mean 3.93 (also "agree").
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presents the summary of findings, conclusion, and recommendations based on the analysis of data gathered to provide objective answers to the specific problems in this study.
+
+Summary
+
+The study is entitled "Growing Selected Mustard Species Using Smart Technologies in Hydroponics. It is a mustard green hydroponic production that is used. The main objective of the study is to design and implement a growing selected mustard species using smart technologies in Hydroponics for Monitoring various
+
+parameters such as the level of water, nutrients, and pH contained in water as well as to
+
+monitor and improve crop productivity.
+
+Twenty respondents, both faculty and student, were from the Institute Agricultural Technology department at Isabela State University Cauayan campus. Evaluated the developed system
+
+The overall mean of the characteristics of the developed system entitled Growing Selected Mustard Species Using Smart Technologies in Hydroponics. System functionality has a sub-mean of 3.85, followed by System efficiency with a sub-mean of 3.6, followed system reliability with a sub-mean of 4.07. Then the system usability has the highest sub- mean of 4.7 among the four characteristics. The overall mean is "agree," and the grand mean 3.93 (also "Agree").
+Conclusions
+
+Based on the findings of the study, the researchers arrived at the following conclusions:
+
+1. Farmers have difficulty in cultivating soil in traditional farming, which is the most common issue for farmers who use traditional farming methods.
+
+2. Based on the pilot testing of the developed hydroponic system. The system is efficient for the faculty and students of the Institute Agricultural Technology, and it can be an alternative for farming.
+
+3. Based on the survey evaluations of the system with a grand mean of 3.93, the use of the developed hydroponic system has received Agree from the respondents, both faculty and student of the Institute Agricultural Technology Department. The system has performed its functions well. The system is expected to give more benefits to the agency. In general, the respondents believe that the system is successful.
+
+Recommendations
+
+Given the initial findings and conclusions of the study, the researchers formulated the following recommendations for future researchers:
+
+1. Future researchers may improve the system in preparation for future studies.
+
+2. If possible, a greenhouse to control the temperature of the hydroponic system may be built.
+
+3. More sensors may be added in future research.

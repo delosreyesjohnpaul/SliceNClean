@@ -1,4 +1,4 @@
-Online Inventory System with Stock Level Notification for Four A's Convenience Store
+Online Inventory System with Stock Level Notification for Four A's Convenience Store GUMARO, JAMAICA B. GUZMAN, JOHN PAUL S. VILORIA, GIO ANGELO M. January 2023
 
 A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
 

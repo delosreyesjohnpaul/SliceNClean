@@ -1,0 +1,317 @@
+Record Management System Of Human Resources Office in Isabela State University-Cauayan Campus
+
+2023
+
+Aguinaldo, Ira D. 
+Canapi, Joferson V. 
+Mangaoang, Jhon Paul M.
+
+An RMS system, often known as a records management system, can greatly simplify everything. This software can keep, locate, and utilize official records as proof of transactions, payments, and other business activities. The most recent document and records management applications contain cutting-edge features, including search tools, scanning abilities, retention and classification tools, compliance tracking features, and
+
+more.
+
+Records management not only ensures that your files are always accessible when needed, but it can also improve workflow and productivity within your organization. Workers will be able to process data quickly, identify the owner of each set of information, and eliminate unnecessary data. You can instantly access your documents using a cloud-based records management solution.
+
+In the process, the researchers will conduct the study in Human Resources Office at Isabela State University-Cauayan Campus.
+
+The importance of this recording management in the current age of technology, redundancy processes, terabytes, gigabytes, and duplicate copies of information, record management is a mundane yet critical practice all organizations should have nailed down. More often, the role of records management in an organization and the approach to maintaining data files. Records management involves multiple areas of data collection, storage, and, eventually, proper destruction.
+
+Records management not only ensures that your files are always accessible when needed, but it can also improve your organization's workflow and productivity. Workers will be able to process data quickly, identify the owner of each set of data, and eliminate redundant data.
+
+Successful record management systems securely store records and establish an organizational method for creating, maintaining, using, and disposing of records. The creation and continuous updating of record management guidelines are critical to the system's integrity. You can create an effective record management system by following guidelines for information requirements, input methods, storage timelines and backup, security regulations, and accurate reporting. Records management is a systematic approach to document administration throughout its life cycle.
+
+By engaging in records management, another benefit is easy access to information for compliance audits, regulatory audits, and lawsuit-related inquiries. Also, in an environment where there is a high level of employee turnover, proper records management can represent an essential source of institutional knowledge.
+
+Objectives of the Project
+
+The main objective of this study is to develop a system entitled "Record Management System of Human Resources Office in Isabela State University- Cauayan Campus."
+
+Specifically, it aimed to:
+
+1. identify the problems and challenges encountered in the Human Resources Office's present manual system of recording employees' personal information.
+
+2. evaluate the developed desktop application system in terms of the given ISO
+
+25010 standard criteria;
+
+2.1 Functionality;
+
+2.2 Reliability;
+
+2.3 Usability;
+
+2.4 Efficiency
+
+2.5 Maintainability; and
+
+2.6 Security.
+
+Scope and Limitations
+
+The scope of this study is to design and implement a record management system that focuses on PDS, Collecting employee data. The record management system is accessible by the Admin and staff of the HR office. The system is capable of storing a large amount of employee data. This system will provide efficient, reliable, fast, and accurate information to good quality service to secure the file of the employees.
+
+Limitation
+
+This study is limited to the department of Human Resources Office in Isabela State University-Cauayan Campus only to add, edit, or update employees' records. It also printed individual employees' forms and counted automatically listed employees.
+
+Concept of the Study
+
+The figure summarizes the steps to be followed to achieve the goal of the study. The input column shows what the problems encountered are. The process column shows the framework used to construct the proposed system. The output column shows the development of the proposed Record Management System of the Human Resources Office at ISU-CC.
+
+Review of Related Literature and Studies
+
+According to Scott Shpak (2019), double-entry accounting is time-consuming in a manual system since each transaction must be manually recorded twice. A double-entry method is used by many accounting programs, but the second entry is generated automatically. It does minimize disparities between the first and second submissions, but it won't prevent someone from entering the wrong number.
+
+According to Thomason (2019), "businesses today may still use manual accounting for some processes. Manual accounting involves the use of paper ledgers and journals to record financial transactions. A lack of Security is another common disadvantage to manual accounting Companies may be unable to prevent employees from reviewing sensitive data in paper ledgers and journals.
+
+According to Bailey (2019), "in very small businesses where the owner is the main operator, it can still make sense to do all the data entry manually, although upgrading to an automatic system can make for smoother operations. Here are some disadvantages Human error 2. Speed 3. Labor Costs".
+
+According to Mukred (2022), the amount of information stored in modern technology has been exponentially increasing. Access to vast amounts of information has changed how governments, institutions, organizations, and individuals conduct their business and record keeping. The increased use of cloud computing in conjunction with
+information and communication technologies (ICT), office automation, and digitalization has altered how electronic records are generated.
+
+According to Sammeta and Parthiban (2022), the information security world is witnessing records by naive and professional Records (EMR) in Hospital Management Systems is of paramount importance and so warrants immediate attention. In this research work, BlockChain containers running on multiple ports are proposed to be used for holding patients' medical records.
+
+According to Flinnet al. (2019), The project considered the inter-relationship between records management and freedom of information and examined the cooperation and partnerships needed in order to maximize the benefits of freedom of information.
+
+According to Aniel, and Ndumbaro, F. (2022). Record management capability is an important factor in determining institutional capacities in digital records preservation. This study aims to assess human resource capabilities in supporting digital records preservation in Tanzania, with special reference to the Records.
+
+According to Namara (2019), This was a study concerning the assessment of records management, in particular school records, to find out the types of records managed at the school and explain the extent to which the school efficiently and effectively manages its records in terms of creation, storage, distribution, use, classification, Security, protection against disasters and ultimate disposition with an effort to obtain and archive the objectives.
+
+According to Manun-og (2021), records are considered essential documents in government offices, and the advent of technology brings more significant advantages to record-keeping and management. Several government offices opted to use computers to store records for easy access and retrieval in searching for specific data or files.
+
+According to Mishra. (2021), storage of data and using that data in an effective manner are the major issues in the management system. The Security of data and the use of this data in a proper way are very important. This project of Record Management System is a web application-based project designed for the hospital to manage and use their patients' data effectively. The project's main aspect is providing a system where the data can be stored and retrieved easily.
+
+According to Omuge (2020), the Government's research focused on assessing records management systems with the aim of looking at the systems in use and how records are handled.
+
+According to Aziz (2018), One system to think about is the Electronic Document and Records Management System (EDRMS). However, because people are not enthusiastic about using it, the adoption rate of such a system is remarkably below satisfaction. The Government has invested a significant sum of money in ensuring that its information management procedure complies with widely accepted best practices for improving the methodical, quick, effective, and efficient delivery of information services.
+
+According to Shonhe (2019), the adoption of electronic records management systems (ERMS) in government organizations has been affected by technology. One of the main reasons why the Government has been under pressure to implement ERMS is the high frequency of subpar service performance in government entities.
+
+According to Barrow (2019), from the perspective of Somalia, the project Criminal Record Management System is a criminal record management system that documents criminal activity. It may be utilized to report unlawful activity.
+
+According to Obotu (2018), in any facility that offers healthcare services, health record management is essential. Delivering services of a high standard. Hospitals need a variety of essential tools, including health records.in order to fulfill the goals and objectives of the affiliated hospitals.
+
+According to Popela (2019), the adoption of electronic patient record management systems was found to be significantly influenced by a number of other factors, including knowledge of the systems, ICT infrastructures, organizational readiness, technical readiness, top management support, and system compatibility.
+
+According to Ogwal (2019), dairy farms now have a computerized records management system that addresses issues with record accuracy and a lack of actual farm records. The technology registers all of the animals on the farm and keeps tabs on their well-being and productivity. These records are preserved for animal statuses, care, services, pregnancy, and calf records. With its different reports and graphs for simpler comprehension, the system also keeps track of personnel and milk distribution information.
+
+According to Gumiran (2019), an automated calculation of the seminars and training sessions attended as well as the employee's service history using NBC guidelines policy was delivered by the human resource record management system, in addition to providing an effective and systematic tool for managing the record and keeping it secure.
+
+According to Kavuta, (2018), SRMS's (Students' Records Management System) introduction was intended to be as seamless as possible; hence this study was created to determine the variables of Schools of higher learning. At the Institute of Accountancy Arusha, the study was carried out as a continuation of the single case study (IAA). The goal of the study was to reveal how SRMS impacted higher education institutions' student record-keeping practices.
+
+CHAPTER III DESIGN AND METHODOLOGY
+
+This chapter presents the design and methodology of the research, and the researchers used this method to develop a proposed project entitled "Record Management System of Human Resources Office in Isabela State University- Cauayan Campus.”
+
+The figure above shows the data flow diagram that illustrates the manual process of receiving employees in the Human Resources Office. The employees are obliged to fill up the PDS by the HR office to keep their personal information as an employee. After that, all the information will be stored in a file storage or file cabinet.
+
+The fishbone diagram was provided to assist in the understanding of the project. The set of branches demonstrates how to think about the causes of the existing method's problem. The data recording process is too slow in performance because of the manual pen, paper, and manual system method. In efficiency, the data is either hard to retrieve or misplaced due to improper data storage. In the information, the data received by the Admin is sometimes inaccurate. Security, the data is not secure because usually it is only stored on a desk and can easily be accessed by any person. In economics, the usage of paper is too expensive for gathering information.
+
+The chart shown above is an example of a graph that illustrates the development of the developed system. This table acts as a guide and a string point for developing the design.
+
+Requirement Documentation
+
+Technical Background
+
+This chapter discusses the technical background of the system. It covers the technique of the project, brief details of the technologies that were used, and how the project will work.
+
+Materials
+
+1.1.1 Software Used
+
+Programming Languages:
+
+Visual Basic 6.0- Language used to develop the system
+
+Database
+
+• Microsoft Access
+
+1.1.2 Hardware Used
+
+Laptop
+
+Intel HD3000 2GHz+
+
+• Storage 500GB HDD
+
+RAM 8GB
+
+1.1.3 Data
+
+The researchers asked the Human Resources Office for some samples of employees' data recorded. This will serve as a guide for developing the system.
+
+The use case diagram demonstrates the relationship between the administrator and the user. The AdminAdmin has the privilege to a new user, update user info and view time in history and purpose reports for security reasons.
+
+The functional decomposition diagram shows how the researchers intend to proceed with their research strategy after examining the collected data. With this figure, researchers can more fully comprehend the system.
+
+The System Flowchart represents the flow of the system. The Admin would input the correct Username and Password to access the system.
+
+The first quadrant is where the researchers gathered information from the respondents, wherein the objectives are identified, elaborated, and analysed at the start of every phase.
+
+1. Identify and Resolve the Risk
+
+The second quadrant is when all potential solutions are compared to choose the best one. The researchers then assess the risk connected to the solution, and hazards are dealt with utilizing the best approach.
+
+2. Development and Test
+
+The third quadrant is where the developed and tested features are recognized. The availability of the program will be made feasible by this quadrant.
+
+3. Plan the Next Iteration
+
+The last quadrant was where the users evaluated the developed version of the software. After being evaluated, the next phase was started.
+
+4. Research Design
+
+The researchers used the descriptive method of research to describe the Record Management System's effectiveness in design, functionality, reliability, and performance.
+
+Data Gathering Procedure
+
+The researchers gathered some information on how the Admin and staff handle the employees gathered records through an interview. It is observed that the staff manually collects personal data.
+
+Data Gathering Instruments
+
+Interview
+
+The researchers conducted an interview with the respondents. The purpose of the interview was to learn more about the existing personal data recording procedure used by
+
+the human resources office. The researchers amassed the data required to comprehend the study's manual processing, analyse it, and suggest a system utilizing this method.
+
+Survey Questionnaires
+
+The use of questionnaires assisted them in gathering information about the potential benefits of the proposed Record Management System. Using a questionnaire developed by the researchers, the researchers were able to collect information about the benefits of the proposed Record Management System.
+
+Internet Research
+
+The researchers used the internet to obtain the information they needed for their study materials, as well as to gather additional information for the study.
+
+Data Analysis Plan
+
+It is the process of analysing and summarizing data in order to extract useful information and develop conclusions and recommendations from the material examined and summarized
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula:
+
+WM= X1 + x2+X3+....xn / N
+
+Where,
+
+WM-Weighted Mean
+
+X1+x2+x3+... Sum of Scores/Responses
+
+N-Total Number of Respondent
+
+The researchers used to point, It shows how server and workstation are commented to each this. The only network has two devices connected by a USB cord and printer to the computer.
+
+It shows the strategy, activities, person involved, and the duration of the proponent done before the implementation.
+
+Implementation Results
+
+According to the Head of the Human Resources Office, the result of the implementation is a success. The system is a great help to their office and will make it easier for their Admin and staff to monitor employees' information rather than using a manual system.
+
+Results by phase of study
+
+The result of the data gathered were presented, analyzed, and interpreted in this
+
+chapter. It addresses the research study "Record Management System of Human
+
+Resources Office in Isabela State University-Cauayan Campus.”
+
+The table shows the mean and descriptive interpretation on the encountered problems in Human Resources Office present manual system of recording employee's personal information.
+
+The table reveals that all the respondents interpret the listed problems as "Much a problem" based on the computed weighted mean of 3.62. It also shows that the problems "Employees records are not well kept and not secured." and "Stored records are not kept properly" obtained the highest mean of 4.00 while the problem "Slow retrieval of employees records file" got the lowest mean of 3.00.
+
+The analysis summarizes the mean rating distributions and its descriptive interpretation of the respondents according to the current manual process of recording employees' records.
+
+Further analysis shows that the majority of the respondents viewed the respondents' perception about the problems and challenges they encountered in the traditional recording of employee's data with a grand mean of 3.62.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Functionality.
+
+The table reveals a weighted mean of 3.65 which means that respondents "Agree" that it is functional. Also, it shows that all controls are functional and understandable with mean of 3.55. It also shows that the system is working properly in managing records for HR Office with mean of 3.70, and with the use of the system, keeping records is easy (3.70).
+
+The calculated overall weighted mean is 3.65, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Functionality.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Functionality.
+
+The table reveals a weighted mean of 3.65 which means that respondents "Agree" that it is functional. Also, it shows that all controls are functional and understandable with mean of 3.55. It also shows that the system is working properly in managing records for HR Office with mean of 3.70, and with the use of the system, keeping records is easy (3.70).
+
+The calculated overall weighted mean is 3.65, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Functionality.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Reliability.
+
+The table reveals that respondents agree that the system informs users concerning invalid data entry (3.45), is capable in handling errors (3.80), and provides accurate results (3.70).
+
+The calculated overall weighted mean is 3.65, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Reliability.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Usability.
+
+The table reveals that respondents agree that the system can perform its function easily (3.65), is easy to operate and control (3.90), and is easy to use (3.95). Thus, the system is usable based on the computed weighted mean of 3.83 which falls on "Agree".
+
+The calculated overall weighted mean is 3.83, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Usability.
+
+The table shows the mean and descriptive interpretation of respondents" evaluation on the Record Management System terms of Efficiency.
+
+The table reveals that the system is efficient based on the student response mean of 3.60 which falls on "Agree". It also shows that respondents agree that the system is slow retrieval of files (3.50), and Releases correct data of the authorized person in-charge (3.75).
+
+The calculated overall weighted mean is 3.60, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Efficiency.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Security.
+
+The table reveals that with the use of the system, respondents agree that the user's record is intact and well-secured (3.65), ensures access log-in and out process (4.00), and provides safety and privacy of the employees record (4.00). Thus, the system's data is secured based on the computed mean of 3.88 which falls on "Agree".
+
+The calculated overall weighted mean is 3.88, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of Security.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Record Management System terms of Maintainability.
+
+The table reveals that the system is easy to maintain (maintainable) having the weighted mean of 3.73 which belong to the interpretation of "agree". This shows that the system works properly (3.70, agree), is accessible (3.85, agree), and is easy to manipulate (3.65, agree).
+
+The calculated overall weighted mean is 3.73, which is interpreted as "Agree."
+
+This demonstrates that the proposed system is extremely effective in terms of
+
+Maintainability.
+
+The analysis summarizes the mean rating description and its descriptive interpretation of the respondents on the Evaluation of the Record Management System. The table reveals that the developed Record Management System is "Security" gathered a category of (3.88) with a descriptive interpretation of "Agree". While item "Usability" gathered a category mean of (3.83) with a descriptive interpretation of "Agree." Item "Functionality" gathered a category mean of (3.65) with a descriptive interpretation of "Agree". While item "Reliability" gathered a category mean of (3.65) with descriptive interpretation of "Agree". While item "Maintainability" gathered a category mean of (3.73) with a descriptive interpretation of "Agree". Last item "Efficiency" gathered a category mean of (3.60) with description of "Agree".
+
+As a result, the suggested system Grand Weighted Mean was 3.72, indicating that the proposed system is effective in the respondent's opinion.
+
+CHAPTER V SUMMARY, CONCLUTION, AND RECOMMENDATIONS
+
+This chapter summarizes the study's findings, conclusions, and recommendations based on the study's objective: to design and develop a Record Management system.
+
+Summary
+
+Based on the proposed "Record Management System of Human Resources Office in Isabela State University-Cauayan Campus." The following findings are being presented.
+
+Based on the respondents' responses to the existing system's concerns in terms of problems encountered (a mean of 3.62), as a result, with a general Mean of 3.62, the respondents encountered a problem when utilizing the current system.
+
+Also, based on the responses of the respondents, the proposed system's effectiveness in terms of Security (a mean of 3.88), usability (a mean of 3.83), maintainability (a mean of 3.73), functionality (a mean of 3.65), reliability (a mean of 3.65), and efficiency (a mean of 3.60). Got a general Mean of 4.08, respondents agreed that implementing the proposed system is effective.
+
+Conclusions
+
+Conduction a thorough analysis of the designed proposed system, it is possible to state with confidence that the proposed system is efficient and functional for both Admin and staff of the agency.
+
+1. There are problems encountered in the manual process at the agency of this study in terms of retrieving and finding employees' records.
+
+2. The system operates effectively and appropriately to fulfill the minimum expectations established from the beginning. The proposed system is expected to provide additional benefits by improving overall performance, efficiency, and productivity in monitoring employees' information and data at the Isabela State University-Cauayan Campus. The Admin and staff-supported Record Management System are implemented. The proposed system is more stable and better than the manual system.
+
+Recommendations
+
+Based on the results of the findings and conclusion gathered, the researchers would like to recommend the following:
+
+1. The researchers strongly recommend that the proposed "Record management System of Human Resources Office in Isabela State University-Cauayan Campus" be implemented because it will significantly benefit the Admin and staff of the Human Resources Office in Isabela State University-Cauayan Campus in terms of maintaining and monitoring employees' records.
+
+2. According to the proponents, future researchers may continue enhancing the proposed system in portability, which was identified as the weakest category in the evaluation. Additionally, proper system maintenance is necessary to ensure the system's working state and accessibility to implementation.
+

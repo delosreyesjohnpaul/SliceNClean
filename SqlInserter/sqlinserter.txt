@@ -4,4 +4,3 @@ VALUES (
     'This is the copied text for testing similarity detection.',
     1
 );
-

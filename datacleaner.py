@@ -20,8 +20,8 @@ def clean_text(text):
     return text
 
 # Load the input text file
-input_file_path = 'RawData/D21.txt'
-output_file_path = 'CleanedData/D21.txt'
+input_file_path = 'RawData/D22.txt'
+output_file_path = 'CleanedData/D22.txt'
 
 with open(input_file_path, 'r', encoding='utf-8') as file:
     data = file.read()

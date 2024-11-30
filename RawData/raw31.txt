@@ -1,0 +1,417 @@
+TRANS APP: A Mobile Transportation Application for Tricycle Passengers of Cauayan City, Isabela Marisol L. Aguinaldo Rafael A. Lara Reynaldo D. Untalan Jr. January 2022
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information andCommunication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Information Technology
+
+Marisol L. Aguinaldo Rafael A. Lara Reynaldo D. Untalan Jr. January 2022
+
+
+ABSTRACT
+
+The purpose of this study is to developed a mobile transportation app for the tricycle passengers of Cauayan City, Isabela. The participants of the study involved the tricycle drivers and passengers within the said location. On the conducted pre-survey on the extent of choice of the passengers on the use of tricycle as their mode of public transportation, there was neutral perception among the respondents. However, the respondents have agreed on the benefits of using mobile application for transacting a transport business within the area such as reasonable fare, time convenience, comfortability, innovation, and sufery and security.
+
+The characteristics of the mobile transportation app has been evaluated by the participants based on its characteristics in accordance with ISO 20510 in terms of functional suitability, reliability, usability, security, compatibility, efficiency, maintainability, and portability. A total of 50 participants have been involved in the study.
+
+The findings of the study revealed that among the given characteristics, portability and efficiency ranked the highest with mean of 4.01. It followed by compatibility (3.99). maintainability (3.98), functional suitability (3.95), security (3.92), reliability (3.91), and usability (3.85).
+
+Findings have revealed that the development of the mobile transportation application is a need to address issues on the comfortability, convenience and greater security of the passengers who are using tricycle as their m. ode of public transportation. The application has performed its function well and could be used by the target clients.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+The Covid-19 pandemic has caused an unprecedented global crisis and led to a huge number of deaths, economic hardship and the disruption of everyday life. Measures to restrict accessibility adopted by many countries were a swift yet effective response to contain the spread of the virus. The transport sector has a critical part in getting economies moving again while curbing the spread of COVID-19. Many of those who must continue commuting rely on public transport systems, which are uniquely positioned to carry large volumes of passengers through busy urban areas. Even during a pandemic, public transport remains the backbone of sustainable mobility and essential to economic recovery.
+
+One of the most used transportation nowadays is tricycles. In the conventional way. hailing a tricycle is done manually, passengers would wait in the streets for tricycles to pass by. This manual process could cause delays and be very inefficient to cater and reach out for more passengers.
+
+Cauayan City is a 3rd class component city in the province of Isabela, Philippines. According to the 2020 census, it has a population of 143,403 people. It continuously embraces technology advancement with the partnership, collaboration, and help of every institution that can improve the lives of their citizens and to make cities more connected, resilient and digitally enabled.
+
+
+The "Transportation Using Mobile App" is a software application that is designed to run on smart phones, tablets, and other mobile devices. The application is commonly known as "mobile apps". In this era of rapid technological advances, mobile applications have become one of the primary tools we use daily both in our personal and professional lives. These applications will play key roles in facilitating many applications that are important in our society today.
+
+As the pre-assessment among chosen respondents have revealed that there is a neutral view on the extent of use of choosing tricycle as their mode of transportation in the city and that they have shown agreement on the use of mobile transportation app, this capstone project has been conceptualized.
+
+The developed mobile trans app is for public transport designed specifically for the residents of the City of Cauayan and for visitors or from other provinces/places in Philippines who visits in the place. Due to the large number of visitors who do not know where to ride a tricycle in our city, this mobile app allows visitors or people from other provinces to use their mobile phones or gadgets to more easily find a tricycle. As this pandemic have arisen and still hitting the country, the digitalization project of Cauayan City is an innovation that helps all its constituents benefit from its programs in different aspects including transportation.
+
+The easiest way to ensure business continuity and control the pandemic is to encourage telecommuting. Still, not everyone can work from home. Many people need to leave their home to generate income. And the provision of products and services remains dependent on workers accessing their jobs. Hence, they need to travel every day to go to their respective fields or offices. And with such, non-owners of vehicles are experiencing problems on their transportation especially that most drivers according to data had reduced their days of going to work due to restrictions imposed by the IATF on each ride's capacity and the cost of increased for the fare. This highly signify the importance of this developed Trans App as a mobile transportation application for the tricycle passengers and drivers.
+
+Objectives of the Study
+
+The main objective of the study is to develop a transportation application system with the use of the mobile phone. This generally aims to make public transportation safety, comfortable and convenient to the public through the use of mobile application in Cauayan City, Isabela,
+
+Specifically, it aims to:
+
+1. determine the extent of choice of the respondents on the use of tricycle as their mode of public transportation in Cauayan City, Isabela;
+
+2. determine the perception of the respondents on the use of transportation using mobile application for public transportation? And
+
+3. To describe the perception of the respondents on the developed system in terms of:
+
+3.1 functional suitability;
+
+3.2 reliability;
+
+3.3 usability:
+
+3,4 security;
+
+3.5 compatibility;
+
+3.6 efficiency,
+
+3,7 maintainability; and
+
+3.8 portability.
+
+Scope and Limitations
+
+The scope of the study is about the development of transportation application specifically designed for the use of tricycle drivers and passengers in the City of Cauayan, Isabela.
+
+The application's feature involves creating of account of the drivers and passengers where in personal information will be given for the purpose of safety and legality of transactions. For the drivers, motorcycle information will also be uploaded and the system will process the application until it is approved.
+
+The said application will be monitored by the franchising department of the City Municipal Office. Every transaction will be monitored by the franchising department where the passengers can choose available drivers during the time that the passengers will book a trip. Moreover, the passenger can update the status of his travel once it is completed. Moreover, the location of the passenger can be accused by the driver through the use of google map which is already embedded in the application.
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Related Literatures
+
+Public transit is an important tool for those looking to ease their commutes, reduce their car dependence, or perhaps minimize their environmental impact. Unfortunately, the usability of transit systems often leaves much to be desired, to the point of deterring new riders. Tools on the web and mobile devices are increasingly being used to help tame confusing transit systems. One Bus Away is one such set of tools, providing access to real- time transit information for Seattle bus riders through a variety of interfaces, including web (http://onebusaway.org), phone, SMS, and mobile devices. We describe the current system, and then discuss current and planned research that builds on it to use increasingly- powerful smart mobile devices to provide location and context-aware tools for navigating transit systems.
+
+In recent years, technological and social forces have pushed smartphone applications (apps) from the fringe to the mainstream. Shaheen et. al (2016) Understanding the role of transportation apps in urban mobility is important for policy development and transportation planners. This study evaluates the role and impact of multimodal aggregators from a variety of perspectives, including a literature review; a review of the most innovative, disruptive, and highest-rated transportation apps, interviews with experts in the industry, and a user survey of former multimodal aggregator Ride Scout users.
+
+Between February and April 2016, researchers conducted interviews with experts to gain a stronger understanding about challenges and benefits of data sharing between private companies and public agencies. Key findings from the expert interviews include the critical need to protect user privacy, the potential to use data sharing to address integrated corridor and congestion management as well as various pricing strategies during peak hours; along with the potential benefits for improving coordination between the public and private sectors. In March 2016, researchers surveyed 130 people who had downloaded the Ride Scout app to evaluate attitudes and perceptions toward mobile apps, travel behavior, and modal shift. The goal was to enhance understanding of how the multimodal apps were impacting the transportation behavior. The survey did found that respondents used multimodal apps in ways that yielded travel that was less energy intensive and more supportive of public transit. Looking to the future, smartphone applications and more specifically multimodal aggregators, may offer the potential for transportation planners and policymakers to enhance their understanding of multimodal travel behavior, share data, enhance collaboration, and identify opportunities for public-private partnerships.
+
+Public transport (PT) in urban areas has gained greater attention in recent years for improving sustainability and the quality of urban life. The economic and environmental performance of cities can be enhanced by connecting resources to destinations effectively and facilitating mass mobility (Bok and Kwon, 2016).
+
+Public transportation provides commuters with a convenient method to reach their destination faster and cheaper compared with private vehicles. However, this is not always the case for Metro Manila because many Filipinos have a negative perception of using public transportation. This paper first discusses the researchers' study of the travel behavior of Metro Manila commuters and the status of its public transportation sector based on their Metro Manila Public Transport Travel Survey. Information from the survey was used to implement a multimodal public transportation route planner for Metro Manila, which is designed to provide commuters with facts about public transportation. This should change its negative image and entice more people to use the services. The analysis of the publicly distributed General Transit Feed Specification data provided by the government is discussed. All these findings support the researchers' goal of improving Metro Manila's public transportation.
+
+Transportation is an integral part of modern life. According to Kumari et al. (2016) and Rehrl et al. (2017), a good transportation network is one of every modernized city's initial priorities because today's modern society needs mobility in every aspect of life. Every day, people need to go to work, children need to go to school, and products need to reach the other end of the supply chain. However, because of the continuous population growth in the world, transportation networks are unceasingly being congested.
+
+According to Kenyon et al. (2016), many governments worldwide have been pushing for the so-called "modal shift" to solve this problem and reduce the number of vehicles clogging up road networks, i.e., by enticing citizens to shift away from mainly using private transportation modes to using public transportation modes. The National Household Travel Survey (NHTS, 2016) notes that the average vehicle occupancy of private cars is only 1.55 persons. The World Bank's Implementation Completion and Results Report (2016) notes that the average jeepney occupancy is 10.6 people and bus occupancy is 43.4 people. These statistics illustrate the big difference in numbers of people transported with almost the same road space used. Simultaneously, there has also been a need to shift from monomodal travelling using only one transportation mode per trip to multimodal travelling using more than one transportation.
+
+The U.S. passenger transportation landscape has begun a structural shift due to the introduction of shared mobility systems, particularly in urban areas. Although the beginnings of this shift are limited, Millennials are increasingly using smartphone applications and other information technology (IT) to expand their mobility options. Nearly 70 percent of Millennials use multiple modes several times each week (APTA, 2016).
+
+Multimodal travelers (characterized by automobile use and at least one other travel mode during the week) increased their usage of alternatives to the private auto between 2001 and 2009 (Buehler and Hamre, 2016).
+
+This shift toward multimodal transportation represents an opportunity to promote more sustainable and accessible/equitable mobility options (Shaheen and Christensen, 2014). Smartphone apps are changing how people view mobility and travel. Shared mobility apps are facilitating a transformative trend: Transportation as a Service (TaaS), incorporating shared modes, such as car sharing (short-term access to a vehicle fleet); bike sharing (shared access to a bike fleet); shared ride services (e.g., Uber, Lyft, Carma Carpool), as well as public transportation and taxis with e-hail capabilities. Multimodal trip aggregators, are mobile apps that provide users with information on surface transportation options from any one location to anywhere else within a metropolitan region. These apps provide this information by aggregating information (e.g., public transit, car sharing, bike sharing, walking, bicycling, and available shared 10 rides services (shuttles, for-hire vehicle services, carpooling etc.). Examples of such apps include Swiftly, which aggregates information for public transit and other modes, such as Lyft and Uber, and helps users navigate travel across multiple agencies and jurisdictions. While these apps improve the availability of static and real-time information, they also have the potential to offer a number of broader benefits. For the user, the primary multimodal trip aggregators offer greater convenience by making multimodal information easier and more convenient to access, ultimately simplifying the user experience. Trip aggregators provide instant access to information about the modes, timetables, costs, and transfer points within a given service area. Trip aggregators also raise awareness of non-motorized travel, which can lead to emission reductions, energy savings, and congestion mitigation.
+
+According to Lim (2017) stated that some Filipino people wanted to be in the TNVS industry because they can maximize their resources and they are the manager in their own working hours. In addition, the income that they will earn will be depending to them. In Malaysia, Grab has been very useful. GrabCar drivers can refer some of their colleagues to join them and as a return they will get a reward. Grab driving is one of the most effective work (Charles, 2018).
+
+Private passenger transport has undergone changes and adaptations in the last 5 years with the rise of start-ups such as Uber, Cabify and 99, which offer their partners (drivers) an income opportunity. During this same period, Brazil experienced a constant increase in unemployed people. Seeking a solution to unemployment, workers found in private passenger start-ups an alternative. Therefore, despite the unfavorable economic scenario, start-ups had a great business opportunity with the unemployed, who until then had in their assets a durable good (automobile) and, for the most part, did not generate financial gain, thus enabling, the realization of the partnership between unemployed and start-up. From this scenario, for the grounding of the study, we use the State Space Models. The results were satisfactory and pointed out that in the modeling of the series containing the evolution of private passenger start-ups in Brazil, the component that represents the unemployed volume (explanatory variable) is statistically significant, corroborating similar studies already published.
+
+Sustainability of transportation, environmental conditions of an area, public health and economic condition of residents can be raised by shifting from private transport to the public transportation, walking and cycling (Elias and Shiftan, 2016). This shifting will happen in the condition that the public transportation is widely available and accessible to the public. 
+
+Using detailed trip-level taxi and for-hire-vehicle data and new incident-level complaints data, we study how the entry of Uber and Lyft has affected the quality of taxi services in New York City. In a panel setting with 263 NYC taxi-zones over the time period from 2014 to 2017, we find that increased competition measured by the number of daily Uber/Lyft trips in a given taxi-zone has led to more complaints regarding a variety of service quality dimensions such as unsafe driving, rude behavior and fare refusal. Our results are robust to accounting for potential simultaneity in the determination of complaints and Uber and Lyft penetration.
+
+Socioeconomic and Behavioral Research into multimodal passenger travel and behavior has focused mainly in Western Europe, with fewer and more localized studies being conducted in North America (Buehler and Hamre, 2015). Recent research in Western Europe has documented a stagnation of overall travel and a trend among younger adults employing multimodalism, i.e., a combination of driving, public transit, and active transportation (bicycling and walking). The existing body of literature points to key socioeconomic factors that contribute to increased multimodal travel behavior. These include younger age, living in households without children, and living in urban areas with access to public transportation.
+
+Kuhnimhof et al. (2016) found that men aged 18 to 29 reduced driving due to increased multimodalism and decreased personal automobile ownership. Nobis (2017) similarly found a correlation between age and multimodalism, with younger adults and older adults exhibiting increased multimodal travel in 12 Germany. Adults with children (typically middle-aged) were more likely to travel by private auto (Kuhnimhof et al., 2016). Moreover, it was noted that multimodalism remains an urban phenomenon, since alternative modes are most available in cities (Nobis, 2017). Not surprisingly, access to high-quality public transportation has increased multimodalism (Kuhnimhof et al., 2016).
+
+Associations of multimodalism and gender were inconclusive. Recent research on multimodal travel in the U.S. reveals similar findings. Buehler and Hamre (2017) analyzed the 2015 and 2017 National Household Travel Surveys (NHTS) and found that the majority of Americans are "multimodal car users," i.e., those who drive but make at least one trip weekly by public transit, bicycling, or walking. Only 28% are mono-modal, reliant on private auto during the week. Buehler and Hamre assert that the majority of American travel behavior lies on a "spectrum" between car-only and walk-/bike-/public transit-only, and public policy could focus on moving travelers along the spectrum toward increased multimodalism. Encouraging increased multimodalism has been a focus of researchers as well.
+
+Related Studies
+
+Diana and Mokhtarian (2017) compared datasets from the San Francisco Bay Area and metropolitan areas in France and identified car users who were willing to increase public transit use. Those already engaged in and familiar with alternative modes, though infrequent, were more willing to increase multimodal behavior over time. Trip purpose is an important aspect of multimodal behavior. Kuhnimhof et al. (2016) found that for multimodal travelers in Germany, they employ public transit for specific purposes, such as commuting, but travel by car for all purposes. Multimodal travelers will often choose public transit when it is clearly the better option compared to the private car.
+
+Multimodal Modeling Researchers have been developing models to make trip planning and travel more efficient. Nuzzolo et al. (2016) developed an Advanced Traveler Advisory Tool (ATAT) used to advise and guide users on multimodal trips with both path and modal choices. The ATAT concept was developed into a mobile app tested in Rome, Italy, Researchers concluded that the experiment warranted further path choice modeling. Traveler information systems, such as ATAT, have been the topic of research since prior to the advent of smartphones and mobile apps.
+
+Chorus et al. (2016) researched the literature of the time and predicted the development of a next generation of Advanced Traveler Information Services resulting in mobile, multimodal, dynamic, and personal travel information services. Mobile apps of today appear to have fulfilled that prediction. While there are private-sector companies that have developed mobile apps for trip planning (discussed later in this chapter), the technology is relatively new and evolving very rapidly. Thus, formal studies are limited on the effects of these apps on travel behavior.
+
+In 2016, Lättman et al. proposed to consider the perceived accessibility in public transport as a complementary measure to conventional objective measures of accessibility by capturing the subjective element of accessibility, as opposed to conventional accessibility that is based on the same objective attributes for large areas or groups of people. They developed a measure of perceived accessibility by running a four items self- reported questionnaire from the users of public transport.
+
+According to Pradhan (2019) stated that Grab is a TNVS that allowed the tansportation to connect the drivers and riders through the use of smart phone application. Grab allows a person to earn income by the use of his or her own car. Grab is able to introduce different kinds of transportation service that they have. These includes the Grab Taxi, Grab Car, Grab Share, Grab Food and Grab Delivery.
+
+Regidor (2018) explains that using private vehicles as public utility vehicle under the TNVS like Grab are popular today as an alternative transportation to help riders who are struggling with their mode of transit. As time goes by, people go for using it because aside from it is the most trust transportation around the world, the safety of the drivers and riders is already proven (Napalang, 2018). Ride-sharing gives an affordable cost, saves travel time, offers convenience and comfortable ride to the Filipinos (Ayres, 2018).
+
+Creno (2015) claimed that in the system of Grab application, the route in going to the pick-up and drop-off destination of the riders is provided. The cost of the entire trip and the arrival time of the riders is also stated in the system (Creno, 2015). As stated by Ganesha (2018), GrabCar drivers is one of the trending discourse topic in social media. She claimed that some GrabCar drivers have shown misbehavior which results to rude and unsafe perception of people to some GrabCar drivers. However, the head of Grab Company Anthony Tan, promised for the improvement of the behaviors not just the GrabCar Drivers but also every driver under his company (Chua, 2018). On the other hand, most of the Grab Car drivers are still known to be considerate, nice, trustworthy and effective in the field of the innovated way of transportation (Zurbano, 2019).
+
+According to Statista, Brazil's population between the years 2014 and 2016 had a linear growth, which made it possible to estimate up to 2024 an expected 216.5 million inhabitants. This has a direct impact on sustainable technology, whose advance is increasingly necessary to fulfill demands.
+
+In order to meet the needs such as cost reduction and sustainability, there is the proposal of rides. This system reduces the environmental impacts, considering that a car with five seats, where each could be in a different, having the reduction of four vehicles, would thus optimize the space. In addition, the money that would be spent on fuel could be split for all passengers, reducing spending.
+
+The article Evaluating the Effect of Car-Sharing, defines that studies on car sharing in the United States "[...] generates eventual impacts on the way we travel, where each new shared vehicle eliminates the use of 3 to 20 cars and reduces driving time by 20 to 40 percent" (Tal, 2015, apudFigueira, 2016, p.4, own translation). According to Botsman and Rogers (2015) apudFigueira (2016), the term is a way to accommodate the desires and needs of consumers in a more sustainable and attractive way with less burden to the individual. This economic model provides people with financial, space and time savings as well as the creation of new bonds. "Common goods are a new paradigm for creating value and organizing a community of shared interests" (Bollier, 2015, apudFigueira, 2016, p.9, own translation). 
+
+Although this seems the perfect solution to the current problems faced, many people are not adept at rides. There is a part of the population that does not give up its privacy. Currently, there are applications aimed at this system, but some claim lack of security because they do not know the others present in the vehicle. Many young university students use this scheme in their daily academic journey, as they are usually riding groups formed by the students themselves, in which everyone already knows each other. There are also those who take the risk because of the great difference in value when traveling from one state to another, for example, usually representing the portion of the low-income population.
+
+"People of lesser income and age have greater acceptance. Other issues such as the route taken by the driver and his flexible hours also influence this acceptance" (Junior and Fusco, 2016, p.3, own translation). Uber has as a possibility the "together" mode that is characterized by sharing the trip with other passenger(s). By selecting this option, the user indicates how many seats you require and the application takes care of finding, through algorithms, other passenger(s) who have a destination close to theirs, reducing the cost of the trip. However, as with rides, this returns to the uncertainty factor. 
+
+Concept Framework of the Study
+
+Figure 1.Conceptual Diagram
+
+The project uses the Input-Process-Output Model to show the complete procedures that took place in the development of the mobile application for public transportation.
+
+It started with the input of determining the extent of choice of the passengers on choosing tricycle as their mode of transportation and their perception on the possible use of mobile application for public transportation. In this stage, the gathering of user's personal data is also a need for the try-out of the system Furthermore, prior to beginning the process of analyzing problems encountered and designing the system, knowledge of system design is required. Also included in this phase is the testing of system and hardware functionality, as well as its implementation and evaluation. The output covers the developed mobile transportation application for tricycle passengers of Cauayan City, Isabela.
+
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter presents the design and method used during the study. This chapter includes the Requirement Analysis, Requirements Documentation, Technical Background, (Hardware, Software, Use Case Diagram, Functional decomposition diagram, System Flowchart, Entity Relationship Diagram) Design of Software Testing, Software Development Methodology, Development and Testing, Data Gathering Procedure, Different Software Testing, Implementation Plan, and Implementation Test.
+
+Requirement Analysis
+
+This is the process of deriving system requirements through observation of the existing system, discussions with potential users, task analysis and so on. This may involve the development of one or more different system model.
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram of the Developed Mobile App
+
+The diagram above Figure 2, depicts the data flow in the developed mobile transportation application. The flow will begin with either the client user or the driver looking for a transaction. It is viewed that after signing up or registering, they will be able to create an account and will have their client and driver database once the administrator has approved their request. It is the administrator who has an overall control of the application where he or she manage all the transactions.
+
+The client or user can add request for a ride and would look on the available drivers during the time of his transaction. Moreover, drivers could also see available clients waiting and could plug their accounts as available or not. Once transactions are requested, the driver could either accept or cancel the request. The transaction will be registered to the database of the system and could be monitored by the administrator.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram of Existing Procedure
+
+The fishbone diagram reflects the causes of main problem of the study. There were four root causes identified as problems in the implementation of the program. This involves man, materials, methods and machines.
+
+One of the main problem man might commit is his inability to operate well the system which could make it time consuming for every progress to appear in the database. On the other hand, hardware and software issues, poor storage conditions and wrong specifications of the materials used are the main factors that could affect the functioning of the system.
+
+In terms of machine issues, machine malfunctioning, no database to use, and other technical problems such as inability to upload or post documents are threats to the successful implementation of the website. And lastly, in terms of methods, no enough trainings for the administrators and even end users regarding the developed website are possible causes of the problem on the utilization of the system.
+
+In cases that these problems will not be resolved, this will lead to the traditional method of using tricycle as mode of transportation.
+
+Timeline of the Project
+
+Figure 4. Timeline of the Project
+
+The project was conceptualized for 3 months where conducting an interview serves as the primary requirement to determine the need of developing transportation application using mobile phones. The pre-assessment survey was conducted among regular chosen passengers and tricycle drivers. After the analysis of their responses, the initial system design was made which was followed by system development which took 2 months to finished.
+
+Before the actual implementation or utilization of the system, testing was made for I week to assess the different aspects of the mobile application. After it passed all the test, it was utilized by the participants. Evaluation through survey and interview was conducted through the questionnaire adopted by the proponents.
+
+Data analysis and presentation followed after evaluation to provide quantitative descriptions of the responses of the participants. It has been supported by the documents taken.
+
+After all process that has been conducted a generalization of result was made through formulation of the summary, conclusion and recommendation for the project.
+
+Requirements Documentation
+
+In this part we discuss about the technology that we are about to use and the explanation for all those technical developments for the proposed system including the scope, objectives and goal of the new system.
+
+Technical Background
+
+3.1.1 Hardware
+
+Table 1. End User-Tricycle Passenger and Driver Residents
+
+It can be gleaned from the table above that the users only need cellphone to be able to access the Trans App. The use of data connection is already implicit on accessing the mobile application.
+
+3.1.2 Software
+
+Use case Diagram
+
+Figure 5. Use Case Diagram
+
+Client
+
+The use case diagram indicates that there are 3 groups of persons involve in the utilization of the developed mobile application. This involves the administrator, the client, and the driver.
+
+The administrator's function involves managing and approving account requests, and managing all the transactions.
+
+For clients and drivers, the first step they need to do is sign up. After successfully registering to the app, they just need to log in and begin the transaction. The client could add request for a ride to whoever driver is available. The driver can accept or cancel the request upon viewing. After the transaction has been set up, it will be monitored by the administrator, and the client could update his or her status once he or she has arrived in his or her destination.
+
+Functional decomposition diagram
+
+The transaction can be started by the administrator or the client or driver simultaneously. They will officially login on the app.
+
+Once the clients or drivers have accessed the application, they are bounded on the following functions: Add or request for client and accept transaction. Once transaction has been completed, it could be recorded as successful once the passenger or driver has updated the status. Once done, they could immediately log out on the app.
+
+On the other hand, the administrator performs the following functions: approve account, manage account, and manage all transactions.
+
+After all the transactions have been made, the users can log out on their accounts and all their transactions will be saved on the system's database.
+
+System flowchart
+
+Figure 6. System Flowchart
+
+In this figure show on how the Client/Driver and admin log in and sign up in this System. The client add a request and the driver will accept it. While the system admin he/ she is the one who approved and manage the account of his/her client.
+
+Entity relationship diagram
+
+Figure 7. Entity Relationship Diagram
+
+In this diagram show the information of an passenger in application and the driver will accept the request of a passenger and the driver will check the status of passenger to know were his destination. They arrived in their destination the driver will confirm a payment confirmation.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+Figure 8. SDLC MODEL AND PHASES (AGILE MODEL)
+
+Phase 1: Requirement Collection
+
+On the Requirements stage, the researchers will be conducting a survey and gather a data at the said Municipality -Cauayan City, Isabela. The researchers will also conduct a pre-assessment on the extent of choice of passengers on choosing tricycle as their mode of transportation and their perception on the use of mobile application for booking a trip within the area.
+
+Phase 2: Designing
+
+On the Design stage, after the gathering information, the researchers will start to gather resources to be applied on the software system, these will be the pictures such as the Logo of the municipality, the pictures of the Tricycle.
+
+The design will employ minimalism as to make the User Interface more friendly to use and can be able to use by anyone.
+
+Phase 3: Development
+
+This phase will be programming or coding takes place. In this phase, the researchers will start to write a code for the functionalities of the software system, and gather some data to suits the needs and requirements.
+
+Phase 4: Testing
+
+On this phase, after the software will be created, the researchers will start to test the software to assess if it runs properly and as also to search a bug on the system in order to fix and run smoothly.
+
+Phase 5: Deployment
+
+On the deployment stage, the researchers will deploy the system on the said Municipality after the testing phase execution and the software runs properly with its full features and functions.
+
+Phase 6: Review.
+
+This is also considered the monitoring stage after the system deployment. This is necessary to check on a weekly basis to determine problems that are arising, if any, to avoid problems and immediately fix issues for smooth flow of daily. Moreover, the suggestions and comments will be taken into consideration as a basis for some changes and upgrading of the system.
+
+Development and Testing
+
+Data Gathering Procedure
+
+The system has been deployed for one month. It has been purposively utilized. After the date of implementations, the end users which include the clients or users and drivers have rated the developed mobile application as to ISO 25010 standard in terms of functional suitability, reliability, usability, security, compatibility, efficiency, maintainability, and portability.
+
+Data Analysis Plan
+
+On the gathered data, the data will be analyzed by the use of statistical methods in which all the data were interpreted using an evaluation questionnaire based in the objectives of the study.
+
+To determine the result of evaluation from the participants based on ISO 25010 evaluation tool and quality of the developed mobile application, weighted mean was used to get a centralized description of the respondents' perception.
+
+Table 2. Data Analysis Plan
+
+The total number of respondents of the project in the evaluation of the system is 50, where purposive-convenience sampling was used. As it is created for a certain purpose, the clients or users and the drivers served as the respondents of the study.
+
+Different Software Testing
+
+Implementation Plan
+
+Table 3. Implementation Plan
+
+Implementation Results
+
+Upon the implementation of the Trans App: A Mobile Transportation Application for Tricycle Passengers of Cauayan City, Isabela, We let them access the Admin side of the application and discussed and present the application of how to manage it. There reactions are satisfied and giving us a VERY GOOD comments, as a proof we have pictures and videos during the implementation process.
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter presents the result of the evaluation of the developed Transportation Application based on ISO 25010.
+
+Table 4. Extent of Choice of the Respondents on the Use of Tricycle as their Mode of Public Transportation
+
+Table 1 shows the perception of the respondents on the use of public transportation
+
+specifically tricycle. The respondents have agreed that services were more reliable, there were routes that stop at or near their houses, more direct routes/fewer transfers to destinations, and there were routes that stop at their desired destinations with a mean of 3.62, 3.60, 3.58, and 3.50 respectively. On the other hand, the respondents have a neutral perception that using public transportation (tricycle) will feel them safer from crime while riding and feel safer while at the station with a mean of 3.48 and 3.44. Also, they have a neutral perception that the travel time will be lesser if they use their personal vehicle having a mean of 3.46, services will be more frequent, Oservices will be less expensive with a common mean of 3.42, and do not want to use public transportation with the lowest mean of 2.88.
+
+Overall, a grand mean of 3.44 reveals a neutral perception of the respondents on the use of tricycle as a public transportation.
+
+Table 5. Perception of the Respondents on the Use of Transportation using Mobile Applications 
+
+It can be gleaned from the table above that the respondents have agreed on the use of transportation using mobile application as reflected by the grand mean of 4.15. Specifically, the statement "It provides information of the driver for security purposes" has the highest mean (4.44), followed by "It is an innovative work that is useful from everyday living" (4.30), "It will be more convenient for the passengers and drivers" (4.24), "Travelling is more comfortable" (4.12), "It is safe to use for a day-to-day work" (4.08), "travel time will be more reasonable" (3.94), and "fares will be more reasonable" (3.88).
+
+Table 6. Perceived Functional Suitability of the Developed Transportation Mobile Application System
+
+In terms of the functional suitability of the system, the respondents agree that the software can carry out the task required with a mean of 4.06. Also, the respondents have agreed that the result is accurate as expected and the system can easily use by the users with a mean of 3.96 and 3.84 respectively.
+
+In general, there is an agreement of the respondents on the functional suitability of the system as revealed by the sub-mean of 3.95.
+
+Table 7. Perceived Reliability of the Developed Transportation Mobile Application System
+
+In relation the reliability of the system, the respondents also shown agreement that the system can recover the data directly affected and re-establish the desired state of the system with a mean of 4.06, the system meets the needs for reliability under normal operation, and the system is operational and accessible when required for use with the mean of 3.88 and 3.78 respectively.
+
+The sub-mean of 3.91 indicates the agreement on the reliability of the system by the respondents.
+
+Table 8. Perceived Usability of the Developed Transportation Mobile Application System
+
+As reflected in table 5, the respondents have agreed that the user can easily understand the system with a mean of 3.82. Also, the users can easily learn to use the system with a mean of 3.84. Lastly, the users are comfortable using the system with a mean of 3.90.
+
+Overall, the respondents believed that the system is usable in its purpose as indicated by the sub-mean of 3.85.
+
+Table 9. Perceived Security of the Developed Transportation Mobile Application System
+
+As shown in table 6, the respondents have agreed on the security of the system as revealed by the sub-mean of 3.92 as the respondents have agreed that the system can be proven to have taken place, so that the events or actions cannot be repudiated late and that the system prevents unauthorized access to computer data having a mean of 3.94 and 3.90 respectively.
+
+Table 10. Perceived Compatibility of the Developed Transportation Mobile Application System
+
+Along with the compatibility of the system, the respondents also agreed that the system can exchange information and use the information that has been exchange and the system can perform its required function efficiently as revealed by the mean of 4.10 and 3.88 respectively.
+
+A sub-mean of 3.99 further reveals this agreement of the respondents on the compatibility of the system.
+
+Table 11. Perceived Efficiency of the Developed Transportation Mobile Application System
+
+In relation to the efficiency of the system, the respondents have agreed that the system is efficient as revealed by the sub-mean of 4.0. Specifically, the respondents believed that the system applies resources efficiently and is capable of responding with a mean of 4.06 and 3.96.
+
+Table 12. Perceived Maintainability of the Developed Transportation Mobile Application System
+
+The respondents have agreed on the maintainability of the system as shown in table
+
+12. The respondents agree that the software can be tested easily with a mean of 4.04. Also, the system can be easily modified and can continue functioning if changes occurs with a common mean of 4.00, and the errors can be easily recognized having a mean of 3.88.
+
+The finding has been supported by the sub-mean of 3.98.
+
+Table 13. Perceived Portability of the Developed Transportation Mobile Application System
+
+Lastly, in terms of portability of the system, it is reflected in table 10 that the respondents agreed that the system complies with the portability standards, and that the system can be installed easily as indicated by the mean of 4.08 and 3.94 respectively. This was further revealed by the sub-mean of 4.01.
+
+To conclude, table 14 revealed that among the given characteristics, portability and efficiency ranked the highest with a mean of 4.01. It followed by compatibility (3.99), maintainability (3.98), functional suitability (3.95), security (3.92), reliability (3.91), and usability (3.85).
+
+Table 14. Overall Characteristics of the Developed Transportation Mobile Application System
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+The study entitled, "TRANS APP: A Mobile Transportation Application for Tricycle Passengers of Cauayan City, Isabela" is a responsive mobile application system developed on the aim of providing a convenient access on tricycle transportation that can be used by driver and passenger residents of the city.
+
+The tricycle drivers and passengers of the area serve as respondents of the study. The researchers conducted a survey questionnaire to attain the objectives of the study. The first questionnaire was focused on the assessment of the extent of choice the extent of choice of the respondents on the use of tricycle as their mode of public transportation in Cauayan City, Isabela and their perception on the use of transportation using mobile application for public transportation.
+
+Results show that the grand mean of 3.44 reveals a neutral perception of the respondents on the use of tricycle as a public transportation. Moreover, the respondents have agreed on the use of transportation using mobile application as reflected by the grand mean of 4.15.
+
+Part II of the questionnaire is for the Software Quality Standard based in ISO 25010 which comprises eight (8) quality characteristics namely functional suitability, reliability usability, security, compatibility, efficiency, maintainability, and portability. Overall, the system has been rated a mean of 3.96 which means that the developed mobile transportation application has very good characteristics.
+
+Conclusion
+
+Findings have revealed that there is a neutral perception on the extent of choice of the respondents on the use of tricycle as a medium of transportation in Cauayan City, Isabela. Moreover, there is an agreement among the respondents on the benefits of using mobile application for transportation using tricycles.
+
+With the use of the developed mobile transportation application, the convenience, safety, and economic status consideration of both passengers and drivers are taken into accounts. The use of mobile app assures that it could address problem on time passengers could have a ride for work or other agenda.
+
+The use of the developed mobile application has received a very good assessment from the respondents in terms of the aforementioned eight characteristics of website quality according to ISO 20510.
+
+Recommendation
+
+The following recommendations are formulated based on the findings of the study.
+
+1. Provide a citywide training for all the aspiring drivers who are capable to use gadgets and wanting to use the app for strengthened use and utilization of the app for the digitization of the City.
+
+2. A notification through SMS could be added to alert drivers about passengers who are booking a trip using their tricycles.
+
+3. There should be a strata of drivers that should be set on a certain area to match the location and time of travel of the driver and passengers going to a certain destination.
+
+4. Other features of the application could be made based on the recommendations of the users and respondents.

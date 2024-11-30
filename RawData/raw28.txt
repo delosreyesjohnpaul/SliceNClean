@@ -1,0 +1,643 @@
+Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus Keith Karl C. Castillo Katrina M. Marinduque Nevie Jane B. Morillo January 2023
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Keith Karl C. Castillo Katrina M. Marinduque Nevie Jane B. Morillo January 2023
+
+
+
+ABSTRACT
+
+Academic performance refers to an improvement in a student's present state of knowledge and skills as demonstrated in their GPA, in addition to their academic and personal growth from lower to higher levels of learning. The primary goal of this research study was to design and develop a system that would predict the academic performance of BSIT students using regression. The relationship between programming and mathematics subjects served as the two variables utilized in the system as Subject 1 and Subject 2 to construct a predictive model among all the subjects processed in the system. This study aimed to determine the factors that affect the academic performance of the students in terms of economics, performance, and security, to use the linear regression algorithm to predict student performance; and to evaluate the system using ISO 25010 in terms of functionality, usability, reliability, maintainability, efficiency, and performance, compatibility, security, and portability. Some of the methods to effectively develop and create this system include library research, online research, and the utilization of questionnaires to seek and collect data from respondents. The data mining technique, specifically linear regression, was used in this study to predict student performance in programming and mathematics subjects. The datasets were collected from the faculty, staff, and first-year students of BSIT. From what the researchers have gathered and the information collected from the respondents, the overall grand mean of functionality, usability, reliability, maintainability, efficiency/performance, compatibility, security, and portability is 4.49, where respondents strongly agreed to prove that using the system is effective. The correlation between programming and mathematics subjects can be identified to continue with the student performance analysis through linear regression. The researcher observed a positive relationship between their studies and the outcome of the student's performance and was able to predict that students who performed well in their IT mathematics subjects would also perform well in their programming subjects.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+Students' academic performance is critical; they must work hard in class. Student performance is related to teachers' preferred teaching and communication styles, The more they like their teachers' preferred style, the better they perform. Strengthening new knowledge and skills is considered an essential part of training. Academic achievement is a measure of student achievement in various subjects. Teachers and education officials often use classroom performance, graduation rates, and standardized test results to measure achievement.
+
+A student's academic performance refers to an improvement in their current state of knowledge and skills, as reflected in their grade point average (GPA) and their personality and academic growth from lower to higher learning. Information and communication technology (ICT) has become an essential source of innovation and efficiency gains in many worldwide sectors. Especially in education, the application of ICT has become an essential part of the learning process for college students both inside and outside the classroom.
+
+Students' performance is a vital part of educational institutions because one of the criteria for high-quality schools is an outstanding record of academic achievements. Predicting the students' performance is most helpful for educators and learners to improve their teaching and learning processes (Shahiri et al., 2015). Accurate predictions of students' academic performance at early stages help in the identification of weak students and enable management to take corrective actions to prevent their failure (Pandey & Taruna, 2016).
+
+According to Rajalaxmi et al. (2019), the prediction of the students' academic performance helps educators develop a good understanding of the student's community and take healthy measures to make their learning comfortable and understandable. Prediction of students' academic performance has long been observed and considered to be an important research topic in many disciplines because it aids educators and learners. Educators can use the predicted results to identify the number of students who will do well, averagely, or poorly in a particular class and take measures accordingly. But the main objective of the study was to use linear regression techniques to build a model that predicts the performance of the students in the engineering discipline. This relates to the research study that used a linear regression model and data mining techniques to generate outcomes about the academic performance of students.
+
+This study was presented at Isabela State University-Cauayan Campus, a public university in the province of Isabela, Philippines. It is mandated to provide advanced instruction in the arts, agricultural, and natural sciences, as well as in technological and professional fields. The main campus is in Echague, Isabela. Our respondents are the selected Ist-year students and teachers of the College of Computing Studies, Information and Communication Technology (CCSICT) department. This study could be helpful and useful for teachers because of the large number of students in this school. That is wh they need an accurate system that would provide quick work on inputting, recording computing, and interpreting students' output.
+
+To adjust to the pandemic that affected the whole world in 2020, the universit had to adapt to the needs and safety of the students and faculty. As a result, the SIAS system was developed to accurately calculate and input the enrollment and grades o students and incoming students who may wish to enroll in the university. But with this current system, there were still limitations to what it could do. Although a teacher o professor may be able to upload a learner's accomplishments, this raised the issue of how well students perform outside of the classroom during the pandemic. By asking this question, the researchers could see that there was no reliable way to monitor how the learner's performance is evaluated online. So, the idea of a system that teachers may use to predict the outcome of student activities may find an extra addition or a system that functions alongside the SIAS system to predict the students' performance.
+
+The study, "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus," allowed teachers to input students' grades, and the system would then automatically compute and carry out regression based on the students' provided output. 
+
+Purpose and Description of the Project
+
+This study's purpose was to provide a faster way of grading and predicting the academic performance of BSIT students in computer subjects. Through this research, the Isabela State University-Cauayan Campus community would further realize the importance of a quicker way of grading their BSIT students among their subjects. Furthermore, research would help teachers produce more quality and sufficient grading reports.
+
+Objectives of the Study
+
+The main objective of this study was to design and develop a system that would predict the academic performance of BSIT students using regression. Specifically, it aimed to:
+
+1. determine the factors that affect the academic performance of the students in terms of
+
+1.1 economics;
+
+1.2 performance; and
+
+1.3 security.
+
+2. use the linear regression algorithm to predict student performance.
+
+3. evaluate the system using ISO 25010 in terms of
+
+3.1 functionality;
+
+3.2 usability;
+
+3.3 reliability;
+
+3.4 maintainability,
+
+3.5 efficiency/performance;
+
+3.6 compatibility;
+
+3.7 security; and
+
+3.8 portability.
+
+Scope and Limitations
+
+The general purpose of this study was to predict the academic performance of BSIT students using regression. This research study provided a quick way to arrange and calculate the grades of their students based on their academic performances. More importantly, this study was able to predict student performances through the use of a linear regression algorithm and can use the predicted results to identify the number of students who are doing well, average, or poorly in a particular class. In order to create and develop this system completely, some of the procedures included library research, internet research, and the use of questionnaires to obtain and collect data from the users. This study was conducted at the College of Computing Studies, Information, and Communication Technology, which began in June 2022 and ended in January 2023. This study facilitated the recording of the performance of BSIT students, which would help teachers and instructors make their work well organized and structured.
+
+This study was limited only to the BSIT teachers and the BSIT 1st year students, as they were the primary respondents to the study. However, this study covered only some of the subjects that the BSIT students would encounter, but only the mathematics and programming subjects, as they were the only two that correlated with each other
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter presented similar or related studies conducted locally and abroad, including published and unpublished scholarly materials that were available on the Internet and in books. The literature helped the researchers clarify background information on the proposed project's development.
+
+The research effort is aimed at determining the system analysis of student performance among BSIT subjects at Isabela State University's Cauayan Campus. The increase in the number of accomplishments for each student serves as a measure of their positive comments and performances. There are numerous factors to consider when processing each student's data. Therefore, advances in technology have made it possible to use computers in making such systems and software. The process of gathering and interpreting facts and breaking down a system into its constituent parts in order to achieve a user-friendly system in which tasks and work are made easier and faster was an aspect of this study.
+
+Predicting Academic Performance Using Linear Regression
+
+According to Rajalaxmi et al. (2019), the prediction of the students' academic performance helps educators develop a good understanding of the student's community and take healthy measures to make their learning comfortable and understandable.
+
+Prediction of a student's academic performance has long been observed and considered to be an important research topic in many disciplines because it aids the educator and learners. Educators can use the predicted results to identify the number of students who will do well, averagely, or poorly in a particular class and take measures accordingly. However, the main objective of the study was to use linear regression techniques to build a model that predicts the performance of the students in the engineering discipline. This has to do with the research at hand, which uses a linear regression model and data mining to find out how well students do in school.
+
+According to Bum (2019), it becomes vital to predict academic performance in this way to know how they will do in the future and make informed decisions. In the past, they would determine who failed a test or passed an exam. Predictions, on the other hand, usually determine who is most likely to fail and who is most likely to pass a test, as well as the magnitude of the failure or pass. This study predicted the academic performance of Benue State University students using linear regression. In their study, they used linear regression to predict the performance of mathematics and computer science students at Benue State University. They are related to the current study because they used linear regression, and the subject they wanted to predict was student performance.
+
+According to Estrera et al. (2017), predicting students' academic performance is mostly useful in helping educators and learners improve their teaching and learning processes. In this study, the researchers developed a system that combines the work of a dynamic web-based grade book with predictive analytics for the student's performance. They have performed a series of tests to evaluate the importance of the attributes, and the results show that the student's GPA, gender, study behavior, interest in studies, and engaged time in studying the USTP Senior High School students had a great impact on the prediction.
+
+According to Ashraf et al. (2018), a comparative study of predicting student performance using data mining techniques uncovers novel ways to improve educational quality in order to achieve the best outcomes and lower the failure rate. The use of educational data mining (EDM) in educational institutions has recently increased since it provides the ability to monitor and predict student performance and take preventive actions. Based on this study, their main objective is to present a comparative study of various recently used data mining techniques, classification algorithms, their effects on datasets, and the outcome of the prediction attribute. As a result, this study identifies the best attributes, techniques, and tools to predict student performance accurately.
+
+According to Alyahyan et al. (2020), predicting academic success in higher education plays a vital role in educational institutions because it detects students at risk and provides preventive measures that can drastically improve their success. It will become more accurate to predict students' academic success and performance using machine learning and predictive modeling.
+
+According to Huang et al. (2017), predicting student academic performance helps instructors understand how well or poorly the students in their classes will perform, so instructors can take proactive measures to improve student learning. Prediction of student academic performance has long been regarded as an important research topic in many academic disciplines because it benefits both teaching and learning. Also, the instructors can use the predicted results to identify the number of students who will perform well, averagely, or poorly in a class, so they can be proactive. For instance, if the predicted results show that some students in the class would be "academically at risk," instructors may consider taking certain proactive measures to help those students achieve better in the course. In this study, a new set of multivariate linear regression models is developed to predict student academic performance in engineering dynamics. This study was related to the current investigation, which used regression to predict students' academic performance and generate grades and performance outcomes.
+
+According to Amal et al. (2020), the ability to predict students' academic performance is critical for any educational institution that aims to improve its students' learning process and achievement. Although students' performance prediction problem is widely studied, it still represents a challenge and complex issue for educational institutions due to the different features that affect students' learning process and achievement in courses.
+
+According to Oloruntoba et al. (2017), they proposed a study based on data mining techniques for predicting students' academic achievement. The study establishes a connection between students' academic success and their final scores. However, the primary goal of the research is to develop a model that predicts how well students will succeed in the engineering discipline using linear regression techniques. This study is related to the current research that used linear regression to predict student academic performance and used relationships between subjects to obtain outcomes for student performance.
+
+According to O'Connell et al. (2018), student ability predicts the final grade in college algebra courses, the overall final grade was representative of the entire course, and no one subject was overweighted. In addition, the amount of time spent working on homework and assignments led to an improvement in grade outcomes. Armed with this baseline data, the team plans to design targeted interventions to increase student success in future courses. This study used final grades as a representative of courses and incorporated our research using final grades as an indicator of the academic achievement of students.
+
+According to Yang et al. (2018), the idea of learning analytics, a methodology for guiding students in the classroom, is to predict students' academic performance early on and give them timely support. Multiple linear regression (MLR), a common technique for forecasting students' academic achievement, was thus used in this study to create a prediction model. This study is relevant to the current research because it also utilized a regression model to predict students' academic performance.
+
+Sarim et al. (2017) explored the relationship between student performance and influencing variables such as academic ability, military or physical training, and the amount of time spent on training need analysis (TNA) modules. The aptitude test score, physical training time, and TNA module time are adequate independent factors, and they used a multiple regression model to predict the student's performance.
+
+According to Stephen et al. (2021), students' academic achievement in a university setting varies from academic year to academic year. In higher education institutions, it might be difficult to predict students' academic achievement because there isn't a central database that compiles data on students' performance. The lack of standardized techniques for predicting students' performance and other moderating factors like physical, economic, and health influences on performance provide another barrier to students' progress. Based on their study, they used a linear regression model to predict the performance of students. As a result of this study, the model used was able to predict their performance based on their CGPA.
+
+According to Anthony et al. (2017), in a study on the factors influencing grade point average (GPA) with special reference to third-year commerce and management students at Eastern University, Sri Lanka, the cumulative grade point average (CGPA) shows the overall academic performance of students by taking into account the average of all examination grades for all semesters during the student's tenure at the university. Many factors could hinder students from achieving a high CGPA that reflects their overall academic performance, such as gender, previous academic performance, living place and income level of the family, social environment, time spent studying, learning ability, and living place during university life.
+
+According to Garcia et al. (2021), the success of the educational process depends on the student's academic performance. The Occidental Mindoro State College (OMSC), Philippines, uses predictive analysis to predict the low academic performance and failures of the Bachelor of Science in Information and Technology (BSIT) students with their major subjects. Same with the current study, which used predictive analysis to predict students' academic performance based on the scores and test results they got.
+
+According to Abisado et al. (2021), their study developed an academic student progression predictive analysis application for Dr. Josefa Jara Martinez High School (DJJMHS) to provide an intranet platform for the centralized collection of data records and management of school forms. The system includes school details, school forms, real- time records of attendance, student academic progress, prediction, visualization, monitoring of employee performance, and report generation. It has enhanced security protection and can provide all users with a secure network connection. The system uses a graphical user interface to display all the functions and access all system features. The system was developed using standards and tools such as HTML5, CSS3, JavaScript, and PHP/MySQL. It uses technology to create an interface for system transactions for the issuance of school forms such as SF1, SF2, SF4, SF5, SF6, SF9, and SF10.
+
+According to Amazona et al. (2019), student academic performance describes how well a student meets the standards of a course or the whole of the program. Through a learning management system, this student performance data can be analyzed using predictive models integrated into information systems. This study aims to understand the user acceptance of an information system that predicts students' academic performance using the technology acceptance model through a survey conducted among the users of a higher education institution in the Philippines. Results show that perceived ease of use has a significant influence on perceived usefulness. Moreover, there is no significant relationship between perceived usefulness and attitudes toward the use of technology. Overall, the technology acceptance model explains the determinants of the adoption of predictive analytics on student academic performance. Practical and research implications are discussed.
+
+Based on the study of Gotardo (2019), predicting students' academic performance and achievement is critical since it benefits both students and instructors by allowing them to take proactive measures and identify strategies to help students learn, ultimately improving their academic performance. They created a decision-tree model to predict the performance of second-year BSIT students in the data structures and algorithms subject using the data mining technique j48 algorithm. As a result, the generated model showed that the finals had the highest frequency in predicting student success in the Data Structures and Algorithms subject.
+
+Based on the study of Alipio (2020), predicting the academic performance of college students using the outcome-based education (OBE) approach can determine and verify the relationship between psychological factors, expectancy-value beliefs, and academic performance. The zero-order correlations show that there is a connection between psychological characteristics, expectancy-value beliefs, and academic achievement in a sample of 12,452 college students from 70 higher education institutions (HEIs) in the Philippines.
+
+Based on a study by Bondoc (2016), potential predictors of academic performance in science at a state university examined the possible factors that could predict students' academic achievement in science at UP High School Cebu and utilized a multiple regression algorithm to determine the factors that can predict academic performance in science among UP High School Cebu students.
+
+Based on the study of Laus (2021), admission profiles as predictors of academic performance aim to establish the relationship between the admission criteria used in the selection of candidates for admission and the academic performance of students during their first year in high school. The ability of the high school admission test (HSAT) and pre-entry grades to predict the academic performance of 164 students was examined. In this study, they used a multiple regression analysis to identify which of the variables (pre- entry grades and admission test scores in math, science, APFil, English, and OLSAT) can predict the overall academic performance of students. In the study, the pre-entry grade was the most important factor in predicting how well a student would do in school.
+
+Based on the study of Hasan et al. (2020), "Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques" used data mining and video learning analytics to predict students' overall performance at the end of the semester, and data from the learning management system, mobile applications, and student information system were analyzed using eight different classification algorithms.
+
+Based on the study of Zoric et al. (2020), predicting academic performance based on enrollment data uses one of the data mining techniques, neural networks, to present a model for predicting students' academic performance based on enrollment data. The enrollment information consists of demographic and economic data and information about previous education.
+
+Based on the study of Pant et al. (2019), prediction is only one application of regression analysis. The statistical methodology of linear regression analysis allows the examination of the linear relationship between two or more quantitative variables of interest. Using historical data and a linear relationship to predict an outcome is the basis of the linear regression analysis technique.
+
+Based on a study by Lassen et al. (2016), predictive analytics with social media data is the main topic of this chapter. In other words, how real-world processes and outcomes have been predicted using data from social media.
+
+Razak et al.'s (2019) study determined the relationships and significant factors influencing the academic performance of degree students at a higher learning institution.
+
+This study was conducted through survey questionnaires delivered to students on campus based on a list provided by the head of the faculty. Degree students from semesters 4 and 5 were involved. To analyze the results, they used reliability analysis, frequency analysis, descriptive analysis, correlation analysis, and multiple regressions. As a result, this research study gives valuable information to researchers, as the institution needs to take care of the needs of students related to their learning process and show more concern for poor students in order to help them improve their academic performance among degree students in Semesters 4 and 5 at the university.
+
+Based on the study of Elrahman et al. (2022), their paper described the model for predicting student achievement as a research study of how students interact with an interactive e-textbook online. By forecasting students' performance early in the course, educators can rapidly identify students who are in danger.
+
+Based on the study of Balatbat et al. (2016), evaluating how students understand the factors that affect their academic performance is vital. The learning objectives of any college curriculum are met.
+
+Based on a study by Ariaso (2020), the variables of learning in Filipino and students' secondary education performance in Eastern Visayas, Philippines, aim to research and discover specific factors of learning and performance of students in secondary education. The Pearson r and the logistic regression analysis determine the best predictor of student performance. As a result, students' attitudes toward learning Filipino, as well as their motivation level, had an impact on their success. The social environment, teaching, curriculum, level of difficulty, and teacher training also affect student success.
+
+Based on the study by Delfino (2019), we evaluated the level of student involvement at Partido State University and analyzed the factors that affect student engagement. They treated their data with multiple linear regressions. As a result, the study revealed that student engagement in behavioral, emotional, and cognitive activities was high. Also, the correlational analysis of the teacher, school, and family factors was positively related to student engagement. Therefore, this study found that behavioral, emotional, and cognitive participation positively correlated with the academic performance of 305 students at the college of education.
+
+According to Kumari (2018), "linear regression" is a statistical process determining the value of a dependent variable based on the value of an independent variable. Also, it examines the relationship between two variables, and it is the most widely used statistical technique. It is a modeling technique that predicts a dependent variable based on one or more independent variables.
+
+According to Rosenthal (2017), analyzing linear regression is versatile. A simple linear regression shows the relationship between a dependent variable and an independent variable. Based on this study, linear regression's ability to predict the values of the dependent variable is effective.
+
+According to Francis et al. (2019), data mining provides efficient methods for various education-related industries to assess student performance and help the institution recognize the student's performance. According to their study, they use a hybrid algorithm that combines classification and clustering methodologies to produce outcomes that are significantly more accurate in terms of predicting the academic performance of students.
+
+According to Bijoy et al. (2022), the study regarding the MKRF stacking voting: a data mining technique for predicting the educational satisfaction level of Bangladeshi students during the pandemic, aids in the accurate prediction of outcomes. The main objective of their study is to predict the satisfaction levels of Bangladeshi students during the pandemic using data mining techniques, which can be accomplished by filling out some simple questionnaires about the satisfaction level with online learning they gathered through public surveys. They examined the effectiveness of online education in COVID- 19 pandemic scenarios by polling a range of academic institutions, including schools, colleges, and universities. The survey results allowed them to determine how productive Bangladeshi students are in terms of quality online education.
+
+According to Benablo et al. (2018), their study on higher education students' academic performance analysis through predictive analytics aided educators in guiding their students who are underperforming due to excessive exposure to social media. Through predictive analytics, educators can assess the performance of every student and make the necessary interventions. In this study, through the support vector machine (SVM), the academic profiles of the former students are categorized into performing and underperforming as part of the predictive classification model. The model can appropriately predict whether a student requires intervention for their academic performance. This allows them to wisely guide and monitor students in order for them to perform well academically in school. 
+
+According to Piol et al.'s (2022) study on the performance evaluation of regression analysis algorithms in predicting basic education enrollment in Region IVA CALABARZON in the Philippines, using linear regression to predict enrollment is beneficial, though it varies depending on the dataset and characteristic. Different weights of the factor correlation may be ignored if they have no impact on the prediction.
+
+According to Siame (2017), PHP is one of the most widely used programming languages today. PHP is utilized both in the open-source community and in building large web-based applications and application frameworks. This study looks at the development of PHP applications in terms of library usage, software maturity, and adoption of the object-oriented paradigm. This study is relevant to our research because we developed our system using PHP programming.
+
+According to Froud (2021), he determined the degree to which continuous outcomes (physical activity, aerobic fitness, muscular strength, diet, and parental education) are predictive of academic performance and quality of life, as well as whether academic performance and quality of life are associated. His study evaluated the predicted performance of machine learning techniques using linear regression.
+
+According to Seidler (2022), XAMPP is the most popular PHP development package and is very easy to install and configure. It is relevant to the current study because it also used XAMPP in developing the system.
+
+According to the study by Branzuela et al. (2022), the learner factor, teacher factor, parental guidance, and learning facilities were the four variables that the study identified. The 165 students taking Computer-Aided Designing (CAD) courses from three colleges at a state university in Northern Mindanao, Philippines, responded to the online survey. Based on the findings of multiple regression analysis, all four components can contribute 81.2% of the variance in the student's academic performance.
+
+Based on the study by Schober et al. (2020), it is stated that linear regression in medical research determines the relationship between continuous dependent (outcome) variables and independent (predictor) variables and quantifies it using linear regression. This algorithm assists medical areas in properly analyzing their data.
+
+Based on the study by Priya (2021), it is stated that the linear regression technique they used was to predict a new set of values by using older data as a reference. An accurately predicted model is explored in depth by writing code with the help of MATLAB and SIMULINK machine learning and deep learning tools. This study briefly discusses several machine learning (ML) algorithms.
+
+Based on the study of Polinar et al. (2020), higher education institutes (HEls) use data mining techniques and tools to improve student performance in the classroom. The researchers obtained information from Davao del Norte State College (DNSC) Bachelor of Secondary Education (BSEd) graduates, the Institute of Education (IEd), and other offices. They utilized the Naive Bayes and C4.5 algorithms to predict students' performance in the licensure examination for teachers and compared them to identify which among the two classification algorithms performed best. As a result, when compared to C4.5, the Naive Bayes results are more reliable, appropriate, and accurate when testing the data.
+
+Based on the study by Darman et al. (2019), it is stated that a multiple linear regression model is used to predict students' final exam grades based on the results of their assessments. In this model, the response variable is a student's final exam score, and the predictor variables are testing 1 and 2 assessment components. This study is related to the current study because they both predicted student performance using a regression algorithm.
+
+Based on the study of Hussain et al. (2021), following a thorough examination of the model data, marks will be obtained using regression and grading set by a classification method. The findings of this study demonstrate how efficient and relevant machine learning technology is for forecasting student achievement.
+
+Moreover, Yagci's (2022) research identifies the most efficient machine learning techniques and contributes to the early prediction of students who are likely to fail.
+
+Based on the study of Qiu et al. (2022), they developed an e-learning performance predictor from a new perspective and provided a solution to the quantitative evaluation of e-learning classification methods. Prediction is used in this study to forecast student performance in relation to our developed study.
+
+Based on the study of Rosado et al. (2019), data mining has evolved into a universal method for transforming information into meaningful data and knowledge. The Basic Education Department of the University of Perpetual Help System in Laguna used the classification method with Naive Bayes as their data mining technique. RapidMiner is their data mining tool to predict the performance improvement of Grade 7 junior high school students for the academic years 2016-2017 and 2017-2018. As a result, the Naive Bayes obtained a good prediction model based on the academic performance of the seventh-grade junior high school students.
+
+Based on a study by Morilla et al. (2020), the study entitled "Application of Machine Learning Algorithms in Predicting the Performance of Students in Mathematics in the Modern World" uses a multiple linear regression, the J48 decision tree algorithm, and the Naive Bayes classification algorithm to predict the performance of students. Based on their study, the data used were the records of 144 education students, including their attendance, quizzes, recitations, midterm exam, final exam, and final grade. Furthermore, the Naive Bayes method beats other algorithms in predicting students' academic achievement in mathematics in the modern world (MMW). As a result, the Naive Bayes method exceeds alternative algorithms in predicting students' academic achievement in MMW.
+
+Based on a study by Dorta-Guerra (2019), they also obtained predictive models to estimate the value of the new academic performance indicator. We can predict future academic achievement using these models, which may be used to identify students who are at risk of failing the course early on.
+
+Based on the study of Barroso (2020), mathematical models for predicting STEM students' retention in pre-calculus used a cross-sectional predictive design, a type of non- experimental research. The independent variables of the study were the grade point average (GPA) in mathematics 10, the general weighted average (GWA) in grade 10, the results of the National Career Assessment Examination (NCAE) for mathematical ability, the results of the NCAE for STEM, gender, and family monthly income. The dependent variable was the number of STEM students who stayed in pre-calculus.
+
+Conceptual Framework
+
+Figure 1: The Input, Process, and Output of the System
+
+The diagram shows the input, process, and output. The input column presents data on students, their grades, and their performances in various subjects, as well as the login information of the administrator and teachers entered into the system. The process column presents the student information database, grade/performance calculation, exportation of data to a CSV excel file, representation of data through a linear regression algorithm, evaluation of data, and process of SDLC (agile model) for system maintenance. These were the steps and methods for using the system, and the output column represents the developed system for "predicting the academic performance of BSIT students using regression at Isabela State University's Cauayan Campus.” 
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter presents the research study's design and methodology. This also shows the system design and data gathering procedure of the study.
+
+Requirement Analysis
+
+Figure 2: Use Case Diagram
+
+This figure shows the use-case diagram demonstrating how teachers and administrators perform their roles in the system. Particularly, it determined the relationship between the teachers and administrators of the College of Computing Studies and Information and Communication Technology department. The role of the teachers or staff within the diagram was that they were the source of data collection, as they were the ones that collected the data from the students directly from the source. As for the administrators, they served not only as a secondary source for data collection but were also in charge of the system's functions, as they were the ones that reviewed the collected data and executed the evaluation of student performance.
+
+System Flow Chart
+
+Figure 3: System Flow Chart
+
+This figure shows the system flowchart. The chart demonstrates the flow of the different processes in the system and the steps taken by the users to achieve results. The staff or instructors initially start by logging in or registering their users within the system.
+
+If the login is invalid, it would reopen the login page once more. If not, the staff or instructor would be able to access the system; this is the same case for the administrators.
+
+Once the instructor is within the system, they are able to input, update, and remove student records and, after that, process the grades and performance of the students in their various subjects. As for the administrator, once they are logged in to the system, they are able to start the prediction of student grades. This process uses the collected student information and subject grades to predict the student's outcome. The administrator would also be the one to analyze the predicted output and execute their response through the analysis of the linear prediction. Once both the staff and administrator are satisfied with the outcome of the system, they simply need to log out of it, and that would end the flow of the system.
+
+Entity Relationship Diagram
+
+Figure 4: Entity Relationship Diagram
+
+This figure shows the entity relationship diagram that demonstrates the relationship of the various database tables and their interconnection with each other in order to retrieve and organize the student data within the various system pages where information is accessible by the administrator or a staff member.
+
+Data Flow Diagram
+
+Figure 5: Data Flow Diagram
+
+This figure shows the data flow diagram of the system. It shows the process of storing data within the system, where it is saved until further use, and the steps the system would go through to complete the student analysis. The user or administrator would begin on the login page, where they could log in or register. The user or administrator can save their login details and use them each time they log into the system. Once logged in, the user can enter student information, at which point all information about the student is recorded in the database for student information. After doing that, they can move on to entering the student subject grades. To do this, they would need the student's information to record the academic results under a specific student and keep them within the subject's grade database. The user or administrator would then continue with the performance analysis, which calls for both the student information and subject grades to move forward with the student analysis using the linear regression algorithm. The user or administrator would then interpret the results of the analysis to determine its final result.
+
+Fishbone Diagram
+
+Figure 6: Fishbone Diagram
+
+This fishbone diagram identifies the possible causes and effects of the problems. It shows in the diagram what the problems affecting the academic performance of BSIT students are. In determining the factors that affect students' academic performance, some factors are the lack of finances, the working student, the cost of transportation, performance pressure, an unhealthy lifestyle, difficulty understanding, peer influence (B.1.), and romantic relationships. It becomes the system's main problem because it needs to show the possible factors in the predicted results of the regression, not just the students' performance as interpreted by a human. When it comes to the existing system, there is no system used to predict the performance of students because, in determining the outcome of students, the agency uses the Microsoft Excel application.
+
+Gantt chart
+
+Figure 7: Gantt chart of the Capstone Project
+
+The figure above shows the timeline of the researchers' work to create the capstone project. It presents the different activities that guide the researchers, including the start and finish of each activity.
+
+Requirements Documentation
+
+Technical Background
+
+This chapter discusses and explains all about the project as well as all the various techniques that are used. Additionally, this study represents the application development of the project and shows the necessary requirements that are used in the project.
+
+The Technicality of the Project
+
+Currently, Isabela State University-Cauayan Campus uses a semi-manual process for determining the outcome of students' performance, usually the Microsoft Excel application. The researchers created a system called "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus" to improve on the existing process.
+
+Technologies to be used
+
+Software
+
+The researchers used an MS Windows 10 operating system, either 32-bit or 64- bit, as well as PHP, or Personal Home Page or Hypertext Preprocessor, as the required programming language and XAMPP 8.1.12 and MySQL as the database.
+
+XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. The researchers can develop a standalone version of a website using this program without the use of the internet, and they can also provide a local host domain for the website to run on.
+
+PHP or Hypertext Preprocessor is a widely used open-source general-purpose scripting language that is especially suited for web development and can be embedded in HTML. The use of scripting language in our system enables us to link pages more reliably, access databases from the local host easily, and offer options for form encryption when developing web-based systems or programs.
+
+MySQL is an Oracle-backed open-source relational database management system (RDBMS) based on Structural Query Language (SQL). The use of MySQL provides the researchers with a way to incorporate the use of the PHP localhost in developing a connection and the basis for database development. MySQL and the programmer can connect the database and the system they have produced for data storage between the forms and the various databases.
+
+Windows 10 operating system was the OS dedicated to the development of the study since it was currently the most stable build operating system running. Nonetheless, the researchers have also tested that the system is appropriate for Windows 7 and 8.
+
+Hardware
+
+The researchers will be using an MS Windows 10 Operating system either 32 or 64-bit, and also be using PHP or the Personal Home Page or Hypertext Preprocessor as the required programming language, and lastly XAMPP 8.1.12 and is using MySQL as its respective database.
+
+Table 1. This table shows the computer specifications used in running the system
+
+Data
+
+The researchers obtained some information for their study through the internet and the library.
+
+How the Project will Work.
+
+The system administrator and faculty can only access the proposed system. The system administrator oversees system maintenance and data analysis. The faculty can also access the system by logging in and inputting, adding, deleting, and updating the student information and grades as needed.
+
+SDLC Model and Phases (Agile Model)
+
+The researchers used different SDLC methods for this study and chose the agile model.
+
+Figure 8: SDLC Model and Phases of the System
+
+Phase 1: Requirements Collection
+
+The researcher utilized the internet and library research throughout this phase to gather all the data needed for the project's development. The outcomes of previous studies also provided a basis for how the GUI and system developed.
+
+Phase 2: Analysis
+
+The researchers analyzed the information of respondents, for whom the system is limited, and assessed whether the data was feasible to use within the program to design and develop the proposed study.
+
+Phase 3: Designing
+
+The overall system design, the intended user interface, and all other system designs used in the study are presented in this phase.
+
+Phase 4: Coding
+
+To begin the coding based on the proposed system flow and ensure the system would work, the researchers utilized the programming languages CSS, PHP, JS, and HTML at this phase.
+
+Phase 5: Testing
+
+Before implementation or deployment, all parts of the proposed system and the capabilities of the standalone website were tested to see if there were any remaining problems or flaws that needed to be fixed.
+
+Phase 6: Maintenance
+
+This phase documented the system's maintenance after it had been implemented or deployed in order to assess whether any issues still needed to be fixed and whether various system functions needed to be updated.
+
+Data Gathering Procedure
+
+Library Research
+
+This method guided the researchers in gathering relevant information that would serve as additional support for the data.
+
+Internet Research
+
+This method helped researchers get information from a wide range of websites and other sources that were relevant to the data or fit with the study.
+
+Questionnaire
+
+The researchers created a survey questionnaire, both online and face-to-face, based on a fact-finding approach with interpretations of findings that described the developed system based on functionality, usability, reliability, and maintainability.
+
+Research Instrument
+
+A survey questionnaire was the primary tool the researchers utilized to obtain and collect data. A fact-finding approach was used in creating the survey questions and interpreting the results.
+
+List of Data
+
+• Final Grade
+
+• Grade per subject
+
+Steps in Validating Predictive Model
+
+Step 1: Identify the Subject
+
+Figure 9: Identifying the Subjects
+
+This figure shows the first step in validating the predictive model. Within this stage, the users of the system first need to identify the subjects required for the predictive model to function due to the subjects being the source of the data.
+
+Step 2: Grand Mean of Every Subject
+
+Figure 10: Grand mean of Every Subject
+
+This figure shows the second step of validating the predictive model. This stage shows the collection of student grades from the various subjects selected by the staff or instructor. Once the data is collected, the researchers move on to the next step of validation.
+
+Step 3: Exportation and Sorting in preparation for Linear Regression Analysis
+
+Figure 11: Exportation and sortating for Linear Regression Analysis
+
+This figure shows the third step of validating the predictive model. Within this stage, the researchers were able to process all the collected student grades and identify the data required by the linear regression algorithm.
+
+Step 4: Applying Linear Regression Algorithm and Analysis
+
+Figure 12: Applying the Linear Regression Algorithm and Analysis
+
+This figure shows the final step of validating the predictive model. Once all the data is collected and sorted within the CSV file, the data is then brought back to the system and displayed within the linear regression algorithm. Through the produced graph, the user is able to analyze the set of data collected and come up with their analysis.
+
+Development and Testing
+
+Testing
+
+For the current system to be properly tested, it needs to be used by the different people who responded to the project for evaluation. This would give reliable information that would help the targeted agency work better.
+
+Unit Testing
+
+In this testing, the researchers used this method to understand and identify data control. The usage procedures and the method of operation have also been tested; moreover, the researchers can now identify the current errors in the system.
+
+Compatibility Testing
+
+At this stage, the researchers had installed the system on various versions of the Windows operating system; the system can also be accessed through different computers, but strictly only on Windows operating systems not lower than Windows 7.
+
+Performance Testing
+
+In the performance testing, the researchers tested the system on various different Windows operating systems and computers; its speed, responsiveness, and efficiency may vary depending on the computer's specifications, but it works especially well on Windows operating systems.
+
+Stress Testing
+
+The researchers used stress testing to assess the system's stability and reliability.
+
+This was done to understand the limits and capabilities of the system.
+
+System Testing
+
+The researchers and users of the study had various students submit their own academic grades for their first-year programming and math subjects for the linear regression algorithm in order to predict their students' performance during this testing stage, and the administrators were able to view and input their own records within the system
+
+Acceptance Testing
+
+In this testing phase, the researchers evaluated the system to see if it might be acceptable for delivery to the agency. This test was conducted to check if the respondents all agreed with the system and its requirements.
+
+The Population of the Study
+
+The population of this study was at the College of Computing Studies, Information and Communications Technology Department.
+
+Respondents of the Study
+
+Table 2. The table shows the respondents, the number of respondents, and the percentage.
+
+Data Analysis Plan
+
+The researchers used a Likert scale format to analyze the data and make it easy to interpret and understand
+
+Table 3. The table shows the scale, weighted mean and descriptive interpretation of the 5-point Likert scale.
+
+On a scale of 5, a value between 4.20 and 5.00 indicates strongly agreeing. On a scale of 4, a value between 3.40 and 4.19 indicates agreement. On a scale of 3, a value between 2.60 and 3.39 indicated neutrality. On a scale of 2, a value between 1.80 and 2.59 indicated a disagreement. Lastly, on a scale of 1, a value between 1.00 and 1.79 indicates that you strongly disagree.
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of the data, the researchers used this formula:
+
+%= x 100 71
+
+Where:
+
+% = percentage
+
+f = frequency
+
+na number of respondents
+
+B. For finding the weighted mean in the presentation, analysis, and interpretation of data, the researchers used this formula:
+
+WM- f(5)+.....+f(n) N
+
+Where:
+
+WM-Weighted Mean
+
+F-frequency
+
+N-Number of Respondents
+
+Implementation Plan
+
+Table 4. This table shows the strategy, activities, people involved, and duration of the implementation plan.
+
+Implementation Results
+
+Upon the presentation and pilot testing conducted by the researchers of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University Cauayan Campus" to the instructors of the College of Computing Studies, Information, and Communications Technology, they approved it with suggestions such as improving the dashboard, user interfaces, and login page.
+
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by Phase of the Study
+
+This chapter includes the summary, analysis, and interpretation of the data collected and analyzed by the researchers.
+
+Table 5. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding economics in the existing system.
+
+The results for economics according to respondents' perceptions are shown in this table. An average of 4.68 respondents denotes a very serious problem: that a lack of finances or financial distress affects students' academic performance. An average of 4.32 respondents indicates a very serious problem: being a working student affects good academic performance. An average of 4.34 respondents indicates that the cost of transportation has a significant impact on a student's academic performance.
+
+Overall, it has a grand mean of 4.45, which means that the respondents need help with the economics of predicting the academic performance of BSIT students using regression. This implied that the student's lack of finances, being a working student, and the cost of transportation affect his or her academic performance. Prove that one of the main issues facing students is a shortage of resources, which requires them to work to fulfill their demands, directly affecting their academic performance.
+
+Table 6. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding performance in the existing system.
+
+This table displays the performance outcomes based on respondents' perceptions.
+
+An average of 4.68 respondents denotes a very serious problem: that excessive pressure or expectations from family, friends, or teachers affect students' academic performance. An average of 4.32 respondents indicates a very serious problem: lack of sleep and not eating on time can affect students' low body resistance and concentration, which may lead to poor academic performance. An average of 4.34 respondents denotes a very serious problem in that a problem in understanding or being a slow learner affects a student's academic performance.
+
+Overall, it has a grand mean of 4.45, which means that the respondents have a very big problem predicting the academic performance of BSIT students using regression. This implied that performance pressure, lack of sleep, an unhealthy lifestyle, and problems comprehending affect students' academic performance because they suffer from concentration and focus. It shows that the majority of learners studying feel stressed due to high expectations placed on them by their family, friends, and others engaged with them, causing them to feel pressured during their studies.
+
+Table 7. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus" regarding security in the existing system.
+
+This table shows the findings for security as perceived by the respondents. The average of 4.32 respondents denotes a very serious problem: the inappropriate influence of friends or other people leads to students' poor academic performance. An average of 4.04 respondents indicates that romantic relationships have a significant impact on students' academic performance.
+
+Overall, it has a grand mean of 4.18, which means that the respondents need help with the security of predicting the academic performance of BSIT students using regression. This implied that bad influence and eagerness in a relationship affected students' academic performance. It shows that many students are still encouraged to engage in inappropriate behaviors that prevent them from focusing on their academic success and cause them to neglect their academics.
+
+Table 8. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding functionality in the proposed system.
+
+The results for functionality, according to respondents' perceptions, are shown in this table. An average of 4.52 respondents strongly agreed that the system facilitates specific tasks and goals. An average of 4.60 respondents strongly agreed that the system meets the response and processing time requirements when performing its functions. An average of 4.68 respondents strongly agreed that the system can now be used to input and edit student data. An average of 4.36 respondents strongly agreed that the system provides a framework to evaluate student performance. An average of 4.56 respondents also strongly agreed that the system functioned without difficulties with various data.
+
+Overall, it has a grand mean of 4.54, which means that the respondents strongly agreed on the functionality of predicting the academic performance of BSIT students using regression. This implied that the developed system was precise and responsive.
+
+Table 9. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus" regarding usability in the proposed system.
+
+This table presents the findings for usability as perceived by the respondents. An average of 4.84 respondents strongly agreed that the system is easy to operate. An average of 4.64 respondents strongly agreed that the system meets the user requirements. An average of 4.44 respondents strongly agreed that the system's user interface is attractive and suitable for users. An average of 4.34 respondents strongly agreed that the users were satisfied with the system. An average of 4.54 respondents also strongly agreed that the system successfully and efficiently achieves specified learning objectives.
+
+Overall, it has a grand mean of 4.56, which means that the respondents strongly agreed on the usability of predicting the academic performance of BSIT students using regression. This implied that the developed system is usable for the user's needs and suits them effectively.
+
+Table 10. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding reliability in the proposed system.
+
+This table displays the reliability outcomes based on respondents' perceptions. An average of 4.64 respondents strongly agreed that the system is operational and accessible when needed. An average of 4.52 respondents strongly agreed that the system meets the need for reliability under its regular operation. An average of 4.58 respondents strongly agreed that the system was safe for use. An average of 4.54 respondents strongly agreed that the system starts and runs accurately. An average of 4.46 respondents also strongly agreed that the system is responsible for demonstrating appropriate responses.
+
+Overall, it has a grand mean of 4.55, which means that the respondents strongly agreed on the reliability of predicting the academic performance of BSIT students using regression. This implied that the developed system performed accurately in terms of operation and function.
+
+Table 11. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus" regarding maintainability in the proposed system.
+
+The results for maintainability according to respondents' perceptions are shown in this table. An average of 4.50 respondents strongly agreed that the system is stable. An average of 4.56 respondents strongly agreed that the system operates cleanly. An average of 4.80 respondents strongly agreed that the system is analyzable and well understood. 
+
+An average of 4.34 respondents strongly agreed that the system was effectively observed to check its operation. An average of 4.52 respondents also strongly agreed that the system is composed of discrete components, so changes to one part have minimal impact on another.
+
+Overall, it has a grand mean of 4.54, which means that the respondents strongly agreed on the maintainability of predicting the academic performance of BSIT students using regression. This implied that the developed system is successful in helping users assess and understand its purpose.
+
+Table 12. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University Cauayan Campus" regarding efficiency/performance in the proposed system.
+
+This table shows the findings for efficiency and performance as perceived by respondents. An average of 4.36 respondents strongly agreed that the system runs smoothly. An average of 4.50 respondents strongly agreed that the system takes adequate time to load. An average of 4.34 respondents strongly agreed that the system responds to changes in the interface. An average of 4.34 respondents strongly agreed that the system executes various applications in the background.
+
+Overall, it has a grand mean of 4.39, which means that the respondents strongly agreed on the efficiency and performance of the system in predicting the academic performance of BSIT students using regression. This implied that the developed system effectively worked for users to run the program and that they could use the system without the hassle of loading and waiting time.
+
+Table 13. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding compatibility in the proposed system.
+
+This table displays the compatibility outcomes based on respondents' perceptions.
+
+An average of 4.80 respondents strongly agreed that the system is operational on various versions of the Windows operating system when needed. An average of 4.64 respondents strongly agreed that the system works within different internet browser software. An average of 4.60 respondents strongly agreed that the system is compatible and functions on various computer devices. An average of 4.35 respondents strongly agreed that the system runs with different computer specifications and parts.
+
+Overall, it has a grand mean of 4.60, which means that the respondents strongly agreed on the efficiency of a system in predicting the academic performance of BSIT students using regression. This implied that the system was appropriately used, edited, and performed across browsers and computer devices.
+
+Table 14. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University - Cauayan Campus" regarding security in the proposed system.
+
+The results for security, according to respondents' perceptions, are shown in this table. An average of 4.44 respondents strongly agreed that the system secures the collected data. An average of 4.52 respondents strongly agreed that all passwords saved by the system are encrypted. An average of 4.46 respondents strongly agreed that the system URL shows no evidence of using passwords within its text. An average of 4.60 respondents strongly agreed that the system could not bypass the login page.
+
+Overall, it has a grand mean of 4.51, which means that the respondents strongly agreed on the security of the system and its data in predicting the academic performance of BSIT students using regression. This implied that the system was safe and secure in terms of its purpose.
+
+Table 15. Respondents' Mean and Descriptive Interpretations of "Predicting the Academic Performance of BSIT Students' Using Regression at Isabela State University-Cauayan Campus" regarding portability in the proposed system.
+
+The results for portability according to respondents' perceptions are shown in this table. An average of 4.54 respondents strongly agreed that the system could store data on a flash drive. An average of 4.44 respondents strongly agreed that the system requires less than 1 gigabyte to transfer. An average of 4.60 respondents strongly agreed that the system requires the use of a XAMPP offline installer to be considered transportable. An average of 4.52 respondents strongly agreed that the system is readily available when needed.
+
+Overall, it has a grand mean of 4.26, which means that the respondents strongly agreed on the portability of predicting the academic performance of BSIT students using regression. This implied that the system could be easily transferred to a different computer device and that the necessary software applications needed to be installed for it to work properly.
+
+Verification Studies
+
+As a result of the respondent's response to the functionality, usability, reliability, and maintainability of the developed system, it is understandable that the system can serve its goal. This could support the idea of Estrera et al. (2017) that predicting students' academic performance aids students and teachers in improving their teaching-learning processes. The result of the proposed system can be used by educators to identify the number of students who will do well, averagely, or poorly in a particular class and take measures accordingly. For instance, if the predicted results show that some students in the class would be "academically at risk," instructors may consider taking proactive measures to help those students achieve better in the course.
+
+Design
+
+Output and log-in interface design
+
+Figure 13: Login
+
+This figure shows the login form for the administrators and staff of the proposed system.
+
+FORMS
+
+Dashboard
+
+Figure 14: Dashboard
+
+This form depicts the system's dashboard, which shows the user that is logged in within the system as well as the student count and administrator/staff count within the system's database.
+
+Student List
+
+Figure 15: Student List
+
+This page shows the student page, where the user or administrator is able to add student data and view their student profiles.
+
+Subject List
+
+Figure 16: Subject List page
+
+This page shows the subject page where the user or administrator can add subjects in order to input the student grades.
+
+Academic/Student Records
+
+Figure 17: Student Records Page
+
+This page shows where the administrator or the user can access the lists of student records and be able to add records and view records for the selected students.
+
+CSV Conversion
+
+Figure 18: CSV Conversion page
+
+This page shows the collected subject IDs and their subject grade averages in preparation for sorting and filtering for the linear regression analysis.
+
+Regression Analysis
+
+Figure 19: Linear Regression Analysis page
+
+This page shows the linear regression algorithm graph as a visualizer in order to analyze the student's grades for their programming and mathematics subjects.
+
+User/Administrator Account
+
+Figure 20: User/Administrator information page
+
+This page shows the list of both staff users and administrators within the system.
+
+Here, the administrators may add new users and edit and update existing users within the system.
+
+Database
+
+Figure 21: Database and Tables
+
+This shows the database developed and the tables required to make the system function.
+
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+The proposed study, titled "Predicting the Academic Performance of BSIT Students Using Regression at Isabela State University-Cauayan Campus," is a stand- alone system that does not require access to the Internet. It provided instructors with a quick way to arrange and calculate the grades of students based on their academic performances, and this system can predict student performances through linear regression. The researchers used the conceptual framework as their foundation to see the system's processes and methods. To collect responses, researchers also conducted a face- to-face and online survey for the questionnaires.
+
+The findings revealed that the developed system, in terms of functionality, usability, reliability, maintainability, efficiency/performance, compatibility, security, and portability, achieved high standards and a positive outcome in performing its purpose based on the findings of the evaluation given by the respondents. Therefore, it can be concluded that the respondents "strongly agree" with the achievement and overall performance of the developed system.
+
+Further analysis showed that the data mining technique of linear regression was successfully utilized to predict the academic performance of the BSIT students. From what the researchers had gathered and the information collected from the respondents, it was possible to identify the correlation between their programming and mathematics subjects to continue with the student performance analysis through linear regression.
+
+Also, there was a positive relationship between their studies and the outcome of the student's performance. The researchers were able to predict that students who performed well in their IT mathematics subjects would also perform well in their programming subjects.
+
+Conclusions
+
+The main objective of this study was to design and develop a system that would predict the academic performance of BSIT students using regression.
+
+Based on the evidence gained, the researchers concluded that:
+
+1. In the survey data collected from the respondents, security has a grand mean of 4.18, while economics and performance have a mean rating of 4.45. However, it has an average score of 4.36, which indicates a very serious problem. Based on the results of our survey, the majority of the respondents strongly agreed that factors such as lack of finances, working students, cost of transportation, performance pressure, an unhealthy lifestyle, difficulty in understanding, peer influence (B.I.), and romantic relationships contribute to this problem. Other factors may also have an impact on academic performance. These circumstances can lead to students struggling with concentration and focus.
+
+2. Using the linear regression technique to predict student performance has proven to be beneficial because, during the entire implementation and development of the system, the inclusion of a linear regression algorithm had proven to show great promise in its ability to predict student performance. Using the algorithm, it can be seen that the correlation between the student's programming and mathematics subjects showed that the two were directly related to each other regarding a student's performance in their programming subjects.
+
+3. Based on the survey we gathered, the overall grand mean of functionality, usability, reliability, maintainability, efficiency/performance, compatibility, security, and portability is 4.49, where respondents strongly agreed to prove that using the system is effective. Under functionality, the system can successfully store student and administrator data with encryption as an added security measure. In usability, the user interface has a simple design and self- explanatory labels for users to access the pages they need to use without getting lost within the system. In order to ensure reliability, student and administrator data is secured with encryption to provide security for the various stored information within the system. For maintainability, the system may require simple maintenance, such as the deletion and tracking of data and other instances within the system. The efficiency or performance of a system functions efficiently as long as it meets the specified specifications. Under compatibility, the system is compatible with the various Windows operating systems, not lower than Windows 7 and up to Windows 10. In terms of security, the system may provide appropriate protection by using MD5 encryption and not leaking any confidential data within its programs. In terms of portability, the system is proven portable and transportable via flash drives and hard drives, as long as these storage devices do not fall below 500 megabytes.
+
+Recommendations
+
+Based on the findings and conclusions of the research study, the researchers recommend the following
+
+1. It is encouraged that this system be implemented in the CCSICT College.
+
+2. It is encouraged that the system's future development continues to be improved and enhanced, including the design of the user interface and dashboard of the proposed system.
+
+3. Future development of the system is encouraged by the implementation of new algorithms to improve the system's effectiveness and efficiency while also enhancing the students' performance.

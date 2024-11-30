@@ -1,0 +1,350 @@
+An Online Cash Loan Transaction with Decision Support System for JBM Lending Investors INC.
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology Isabela State University Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Carl Jan Q. Cabildo Paul Jefferson M. Ong
+
+January 2023
+
+CHAPTER 1
+
+INTRODUCTION
+
+Project Context
+
+There is no other period in world history when online cash loan transactions have been making their greatest impact on the business world than it is today. Online cash loan transactions are said to be the future of the world's cash cycle in lending operations System formation is the foundation of all of this
+
+During the early stages of the lending system, the loan management system has always been the dilemma of humankind. The oldest method was a pawnbroker in this system, pawnbrokers lend by collecting collaterals from the borrower to reduce the risk of the lender In the Zamindar system, the people get money from zamindars and then work for them to repay the amount. For farmers, the mill owners lend the amount to farm the grains and purchase the grains from them. During the 1800s, the loan management system evolved internationally Big buildings and savings funds were established during this era
+
+The administration of a business includes systems for the performance or management of business operations and decision-making as well as the efficient organization of people and other resources to direct activities toward common goals and objectives In some analyses, online transactions are viewed as a subset of administration, specifically associated with the technical and operational aspects of an organization, distinct from executive or strategic functions
+
+A loan management system is a digital platform that helps automate every stage of the loan lifecycle, from application to closing. The traditional loan management process is meticulous, and time-consuming, and requires collecting and verifying information about applicants, their trustworthiness, and their credibility. By doing so, business, as a primary driver of globalization, can help ensure that markets, commerce, technology, and finance advance in ways that benefit economies and societies everywhere As social, political, and economic challenges (and opportunities) whether occurring at home or in other regions affect business more than ever before, many companies recognize the need for an online cash loan system. This ever-increasing understanding is reflected in society's rapid growth
+
+The Bachelor of Science in Information Technology program aims to help students acquire analytical skills, perception, and competencies necessary for sound financial decision-making in the business world.
+
+Business concerns need cash loan systems for their lenders and creditors to meet their requirements in the economic world. Any kind of business activity depends on finance Hence, it is called the lifeblood of the business organization. All businesses, specifically banks and other financial institutions need an online cash loan management system to be able to fully do business with their stakeholders. In the modern world, all activities are concerned with economic activities and are very particular about earning profit through any venture or activities. The entire business activities are directly related to making a profit. (According to the economics concept of factors of production, rent is given to the landlord, wage given to labor, interest given to capital, and profit given to shareholders or proprietors), a business concern needs finance to meet all the requirements Hence online cash loan management systems may be called capital, investment, fund, etc., but each term has different meanings and unique characteristics. Increasing profit is the main aun of any kind of economic activity
+
+JBM Lending Investors Inc had been having problems regarding loan transactions throughout its operating life. It has been noted that they are troubled in terms of keeping client data and the easiness of decision-making due to the lack of system-operated data for the loan approval process
+
+Online cash loan management with a decision support system in theirs efficient procurement and utilization of finance in a profitable manner. In the olden days, subject loan management was a part of accountancy with the traditional approaches. Nowadays it has been enlarged with innovative and multi-dimensional functions in the field of technology with the effect of industrialization, loan management systems have become vital parts of the business concern and they are concentrating more on the field of easier and more convenient banking with the rapid growth of the birth rate People are switching to more convenient ways to have money either through lending or saving and that is online Also because of the growth of technology, everything we need is being provided with the click of a finger through our mobile phones and that is why online loan management with a decision support system is necessary.
+
+Objectives of the Project
+
+The mam objective is to develop An Online Cash Loan Transaction with Decision Suppon
+
+System (DSS) Specifically, it aims
+
+1. to identify the problems encountered by JBM Lending Investors Inc, in terms of
+
+a process or management Problem
+
+b. environmental problems
+
+c. the material used for data storage
+
+d security issues
+
+2 to identify in the implementation stage the strength of the system in terms of
+
+a functional stability of the system
+
+b. performance efficiency
+
+c compatibility
+
+d usability
+
+e reliability
+
+f security
+
+g. maintainability
+
+Theoretical Framework
+
+Many financial business institutions must confront and upgrade their cash loan management problem/s Old ways of loan transactions are now incompatible with the fast-changing environment. That is the main problem for small loan businesses Thus they try to find cheap loan systems that can easily be corrupted by hackers thus making their money online susceptible to phishing. They try to study the system without the guidance of the developers. They try to ensure the future Moreover, this makes managing the business more stressful
+
+An increasing amount of technological advancements are being called to the attention of banking and financial institutions directing the transition to systems that bring convenience to the end users. It is a movement that incorporates a great deal of stress and challenge
+
+Significance of the Study
+
+This study is relevant because it can appraise the value of online cash loan management with a decision support system for financial institution/s. It has been envisioned by the researcher as significant to
+
+Financial Institution Owners. To apprehend their reason for having this problem and be able to overcome it and manage their time efficiently
+
+Loan Clients. For them to understand the situation of every financial institution, having difficulties with the management of their system
+
+School This study will benefit the school as to performance in keeping their students as competitive as other schools and accelerating the percentage results in civil service examinations.
+
+Researchers. This study will open the researchers minds to equip them with the knowledge and skills in relation to this topic
+
+Future Researcher's. The proposed study will help the future researcher/s as their guide They can also have an opportunity to improve this study.
+
+Scope and Limitations
+
+This research study was conducted to identify the problems encountered by JBM Lending Incorporated to help them with a cash online transaction with a decision support system Furthermore, the respondents of this study is JBM Lending Incorporated, who currently experience the problems, can give the proper profile for this study, and can help to give the answers to thi research study. The study looked into the profile, personal and academic factors of JBM Lendin Incorporated that may lead to the failure of their studies.
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+This chapter presents several previous studies and research done both local and foreign, on the common problems encountered by the students in their subjects
+
+For this study, the researchers reviewed several books, journals, unpublished materials, internet websites, and other references which are significant to the study
+
+Based on the Topic of Decision Support System
+
+In the last few years decision-makers and the general public have recognized the importance of having a system network in situ that provides accurate information to be used for both surveillance of online cash loan management with decision support systems.
+
+A Decision Support System (DDS) is an interactive computer-based system or subsystem intended to help decision-makers use communication technologies, data, documents, knowledge, and/or models to identify and solve problems, complete decision process tasks and make decisions The decision support system is a general term for any computer application that enhances a person or group's ability to make decisions Also, decision support systems refer to an academic field of research that involves designing and studying analytical information systems
+
+According to Miller F Peckley (2019), organizations like bank uses security management procedures such as asset and information classification, threat assessment, risk assessment, and risk analysis to identify threats, categorizes assets, and rate system vulnerabilities so that they can implement effective controls like loss prevention, security risk management, risk avoidance, risk reduction, risk spreading, risk transfer, and risk acceptance.
+
+As to Peckley (2019), new online banking products and communication points were introduced, and so were opportunities for fraudulent activities It is reasonable to assume that new product introductions and the related security challenges will progress hand in hand. As functionality continues to grow, so will criminal initiatives to exploit it. Over the past years, banks have witnessed a major shift in fraudulent activity Originally, hackers would create worms and/or viruses, such as I Love You, Mamba, and a host of others, to crash systems and wreck general havoc Most of these programs were created as pranks with the purpose of proving to the world how smart hackers were. Today, the focus has shifted Hackers are now aiming at specific targets with the intention of defeating their security, retrieving customer information, and selling it online for a profit In short, cybercrime has moved from destructive pranks to criminal intent. As a result, banks tend to switch to newer phases and innovations in technology and systems that secure data and reduce the time of decision-making for the end users
+
+According to Chua and Tiongson (2018), their study on Multiple borrowing in the
+
+Philippines represents a pilot effort to understand the incidence of multiple borrowing and its
+
+correlates in a particular community It complements other data sources, reflecting different notions
+
+of multiple borrowing and strengths and weaknesses in the quality of information collected The
+
+data suggest that MFI households represent only a small fraction of households in this community
+
+Among MFI households, the incidence of multiple borrowing is large, if by multiple borrowing we
+
+mean borrowing from all possible sources of credit. If by multiple borrowing we mean borrowing
+
+from other MFIs, not a single MFI household in the sample reports themselves to be borrowing
+
+from multiple MFI sources. This could be due to sampling error or households could be deliberately
+
+providing false information Data from the other data collection effort branch client data can
+
+serve to validate this finding.
+Multiple borrowing appears to be consumption and crisis-driven, with few of the households reporting that the multiple loans are being used explicitly for business purposes This is associated with a relatively large fraction of households (about a fifth) missing payments over the months preceding the survey However, there is limited evidence to suggest that multiple borrowers are substantially more delinquent than the average indebted household
+
+The essence of the existence of security forces in business establishments such as bank institutions is crime prevention. Prevention being the prime reason for security existence is always of primordial interest in bank security Security exists to prevent or avert any loss or damage to properties, loss of life, and limbs to some extent, the prevention of crime If something happens and we were not able to prevent it, this is simply called a lapse of security
+
+A Decision Support System is a computer-based software that can assist decision-makers in their decision process, supporting rather than replacing their judgment and, at length, improving effectiveness over efficiency
+
+Synthesis:
+
+Banks can utilize the time saved on decision support systems for expenses of business, marketing, and sales activities by channel migration of customers to online cash loan management. Banks or financial institutions providing online cash transactions with a decision support system can have a competitive advantage over those banks, which are not providing this service.
+Based on the Topic of Computer Automation and Technology Formation
+
+The abstract thought of mathematicians, coupled with the development of ingenious electronic technology, created not only a new industry but also a catalyst to help quicken the tempo and reshape the structure of industrial society Countless generations of technological advancements have been compressed into little more than half a century
+
+According to Griswold (2018), the computer age is fast changing the way we live. The uses of electronic computers in these systems have begun to amplify this trend to the point where new types of industrial and social phenomena may be appearing Some observers comed the term cybernation to fit the whole process and defined it as the "electromechanical manipulation of symbals by computers and the simultaneous use of computers and the simultaneous use of computer and automation for organization and control" For Heidegger, cybernetics, the statistical study that aims at controlling the flow of information in particular systems, is the place where all sciences meet. Everywhere the computer is assuming an increasingly central place in scientific research, and data processing is becoming all-important (Lovitt and Lovitt, 1995)
+
+Initially, personal computers were used mainly for word processing. At present, they perform more than that. They are now utilized as systems Messages and data can travel in a big office through the use of local and wide area networks.
+
+Synthesis:
+
+The fast-changing society changes the way we do our everyday transactions. Innovations are everywhere bringing us to an era where life becomes easier in terms of technology, Technology is creating new decision support capabilities, but much learning and discussion need to occur to successfully exploit the technological possibilities.
+
+Based on Topic Online Cash Loan During CoVID-19
+
+Several studies were conducted to examine the role and effectiveness of several modes of financial inclusion and technology for uninterrupted economic and business activities during the COVID-19 pandemic
+
+The measures to counter the spread of COVID-19, including lockdowns, the suspension of educational and entertainment activities, the temporary ban on public transport, the suspension of flights and airport operations, and the enforcement of social distancing, have accelerated the use of electronic payments, online buying, and the use of social media for normal business activities Several strategies for enhancing the use of digital technologies have been attempted during the COVID-19 crisis The objective of those attempts was to mitigate the adverse effects of the crisis and to provide alternative ways of continuing economic activities during the crisis Digital technology was rapidly adopted by the public for transferring remittances when remitting cash became a difficult option due to numerous pandemic-related restrictions The central banks in different countries have encouraged digital payments and mobile money transfers by warving transaction charges on digital payments Though it is a common opinion that COVID-19 is a temporary crisis and, like other pandemics, it will become history, the countermeasures will initiate a new era in the use of digital technology The countermeasures will change business processes and customers' habits According to a survey carried out by McKinsey & Company (2020), 75% of people who used digital modes of payment for the first time during the pandemic crisis have indicated that they will continue to use these modes even after things have returned to normal. According to the World Trade Organization (2020), online e-commerce platforms have registered significant growth since the start of the pandemic Rapid growth in the businesses of e-commerce companies has been reported. Amazon announced revenues of USD75 billion in the first three months of 2020, Mercadolibre reported more than a 70% increase in net revenue in the first quarter of 2020, and Alibaba reported a 22% growth in sales in the first three months of 2020 All these indicators predict that a speedy shift to electronic payments and e-commerce is likely
+
+Decision Support System (DSS) is an umbrella term used to describe any computer application that enhances the user's ability to make decisions More specifically, the term is usually used to describe a computer-based system designed to help decision-makers use data, knowledge, and communications technology to identify problems and make decisions to solve those problems DSS systems can be separated into seven broad categories namely Communications Driven DSS, Data-Driven DSS, Document Driven DSS, Knowledge-Driven DSS, Model Driven DSS, Spreadsheet-based DSS, and Web-based DSS Communications Driven DSS is a type of DSS that enhances decision-making by enabling communication and sharing of information between groups of people Data-Driven DSS is a form of support system that focuses on the provision of internal (and sometimes external) data to aid decision-making Document Driven DSS are support systems designed to convert documents into valuable business data. Knowledge Driven DSS are systems designed to recommend actions to users Model Driven DSS support systems incorporate the ability to manipulate data to generate statistical and financial reports, as well as simulation models, to aid decision-makers Spreadsheet-based DSS offers decision-makers easy-to-understand representations of large amounts of data A Web-based DSS system is operated through the interface of a web browser, even if the data used for decision support remains confined to a legacy system such as a data warehouse. Decision-making processes need a combination of skills, creativity, recognition of the problems, lucidity of judgment, determination, and effective implementation in an operational plan. To adopt the right decision, managers have to get the correct information at the right time In connection with e-commerce, the source system of data sets is extended With a view to minimization of failure during domestic and especially cross-border online selling, it is necessary to allow for many factors. Traditionally, IS academics and practitioners have discussed building DSS in terms of four major components 1) the user interface, 2) the database, 3) the models and analytical tools, and 4) the DSS architecture and network (cf, Sprague and Carlson, 1982) This traditional list of components remains useful because it identifies similarities and differences between categories or types of DSS, and it can help managers and analysts build new DSS
+
+DSS should be built or implemented using an appropriate process. Many small, specialized model-driven DSS is built quickly Large, enterprise-wide DSS is built using sophisticated tools and systematic and structured systems analysis and development approaches Communications- driven and GDSS are usually purchased as "off-the-shelf software and then implemented in a company Creating enterprise-wide DSS environments remains an iterative and evolutionary task As an enterprise-wide DSS grows, it inevitably becomes a major part of the overall information systems infrastructure of an organization. Despite the significant differences created by the specific task and scope of a DSS, all DSS have similar technical components and share a common purpose supporting decision-making.
+
+Synthesis:
+
+The rapid growth of the World Wide Web has created enormous opportunities for making
+
+more organizational information available to decision-makers. The managers who are, and will be, using company intranets and the Internet are more technologically sophisticated than the managers of the past. They will have high expectations for DSS, but in many ways, they will be much better customers of computerized decision support. Managers need broad knowledge of the managerial and technical issues associated with the various categories of DSS MIS professionals need this same general knowledge, and they need specific skills in the analysis, design, and development of DSS.
+
+Based on the Topic Global Online Cash Loan Transaction
+
+Cash online transactions' primary goal was convenience and case of access for both the consumers and the bank or financial institutions themselves. The first signs of electronic banking in the country sprouted in the 1980s with the introduction of the automated teller machine (ATM) Initially, banks formed three different ATM consortia (Expressnet, Megalink, and Bancnet) ATM services did not turn out to be as efficient as intended with several consortia co-existing and operating in silos This prompted banks to open up their systems to inter-ATM network transactions until eventually, all networks merged into one consortium that has serviced the whole banking system since 2015
+
+Synthesis:
+
+Many Filipinos find it hard to accept new technologies due to traditions Very few are knowledgeable about decision support systems that are giving large impacts on many other nations who embrace these decision support systems which are now in the first world and have very advanced technologies.
+
+Concept of the Study
+
+Figure 1. Requirement Modeling
+
+This diagram describes and shows the input, process, and output of the system. The imput column is the list of things that are needed for the process, the process is where you determine the problem of what you entered in the input, and the output shows the development of the proposed system. 
+
+CHAPTER III DESIGN AND METHODOLOGY
+
+This chapter presents the methodology of the research. It also contains the different techniques, methods, and procedures employed in gathering data.
+
+Software Development Methodology
+
+A descriptive research methodology was used for the study. A survey was administered to a selected sample from a specific population identified by JBM Lending Investors Inc. The term survey is commonly applied to a research methodology designed to collect data from a specific population, and interview as the survey instrument Another approach that will be employed is the software development method using an agile development strategy applied through the Iterative Model may prove advantageous for web development because of its focus on working with real people under real- world circumstances
+
+Structured processes involved when working on a project. It is a blend design that stretches back to the early days of computing The goal is to provide a systematic approach to softwar development. Provides a platform for developers to work together more efficiently as a team formalizes communication and determines how information is shared within. 
+
+Fishbone Diagram
+
+illustrates that manual transactions can affect the four important factors of the loan system, such. as the environment, borrowers, staff, and hardware/software. Represents various problems that may cause the failure to produce accurate reports and in brainstorming to identify possible causes of a problem and in sorting ideas into useful categories.
+
+Figure 5. Gantt Chart of the Project
+
+Figure 5 (Gantt Chart) the researcher used Gantt Chart as a scheduling tool for a more precise and concise development plan, it presents the different activities that guide the researchers to finish the study
+
+Requirements Documentation
+
+Technical Background
+
+This section represents the technical background of the study "An Online Cash Loan Transaction with Decision Support System "It discusses the software specification, the technology to use, and how the project was created
+
+Materials
+
+1 Software
+
+The software used by the proponents is PHP, XAMPP, Codeigniter, CSS, HTML, and Visual Studio Code. The proponents used PHP script for the connection for the MySQL database having to insert, select, update, delete, and all records from the database to access on a PHP script to retrieve the data to a web page. The proponents also used xamp to make it simple to code PHP and create databases on the windows platform And Codelgniter is one of the best open-source and the most rapid development framework software used to build dynamic web apps and websites in PHP, And CSS was also used for the perfect design and customized the HTML program. The proponents used IITMI, to have compatibility with web browser software and an easy way to develop programs. And lastly, Visual Studio Code is a popular text editor for creating web- based systems. 2 Hardware
+
+The hardware used by the proponents is a laptop/desktop and Internet connection For the laptop/desktop, which is 500GB HDD and At least 4GB Ram and up. And for the Internet connection, at least 10mbps and up
+
+3 Data
+
+The collected data were from the primary and secondary surveys and Scale surveys conducted by the researchers using the Questionnaires. And 2022 is the year of acquisition
+
+Figure 6 shows the interaction between the user and the administrator in the system. It shows
+
+that users directly Loan transactions, sign up, and view posts. On the other hand, the admin can only manage and view or update the Loan system, make loan approval, produce loan Documents, and Verify loan applications. Figure 7. Entity Relationship Diagram
+
+Figure 7 represents the Financial Management with Inventory Tracking and Reservation System for the Sales and Expenses entity. The relationships between entities and sets recorded in a database are depicted in an entity relationship diagram (ERD) The figures show all the visual instruments of a database table and the relationship between the tables.
+
+Design of Software/System
+
+Software Development Methodology
+
+Figure 8. Waterfall Model Methodology
+
+The researchers use the Waterfall Model method that can fix errors in the process as you get feedback frequently. There is no overlapping in phase, Requirement Analysis, System Design, Implemeritation, testing, deployment, and maintenance
+
+Advantages of the Iterative Model
+
+These are the advantages that the Iterative Model offers in front of other systems development models It generates working software quickly and early during the software life cycle. It is more flexible-less costly to change scope and requirements It is also easier to test and debug during a smaller steration and easier to manage nsk because risky pieces are identified and handled during its iteration. Also, each duration is an easily managed milestone. PHASE 1 CONCEPT
+
+In this phase, the researchers will identify constraints regarding the development of the system thus, conceptualizing the expected deliverables will be identified and procedures on how they will be achieved will be carefully planned or conceptualized. Initial data gathering on the current situation and processes of JBM Lending Investors Inc will also be conducted to ensure that proceeding to the next phase will be less erroneous
+
+PHASE 2 SYSTEM DEVELOPMENT
+
+Planning and Requirements
+
+The researchers gathered and reviewed all requirements needed for the system including software and hardware. At this phase, the researchers define the resources and information needed in the development of the proposed system
+
+PHASE 3 DESIGN AND DEVELOPMENT
+
+In this phase, it establishes the system architecture, which involves representing the software function in a form that may be transformed into one or more executable programs In addition, the researchers design internal and external controls feature to guarantee that the system will pass the ISO 25010 requirement, is establishes the system, which involves representing the software function in a Form dat may be transformed into one or more executable programs. The Researchers designed a üser interface and recognized that all the parts of input, output, and process all requaed. 
+PHASE 4 DEPLOYMENT
+
+This phase is where the developed system is tested to see whether all the necessary function works well, and to test/evaluate whether it is error-free or not. The process by which the document types, model, and overall project are made available for use, and developers to build, test and deploy new code will impact how fast a product can respond
+
+PHASE 5 ANALYTICS AND FEEDBACK
+
+After the deployment of the system at JBM Lending Investors Inc the manager gave his feedback and recommendation
+
+PHASE 6 EVALUATION
+
+After feedback, the evaluation of the system follows, At this phase, the researchers used the ISO 25010 questionnaire to evaluate the system's functionality in terms of functional stability. performance efficiency, compatibility, usability, reliability, security, and maintainability. 
+Development and Testing
+
+Testing
+
+To test the system, the respondents used the system to evaluate and generate the accuracy of the data that would make the project functional for the admins
+
+Acceptance Testing
+
+Ensures that the end-user can achieve the goals set in the busmess requirements, which determines whether the software is acceptable for delivery or not
+
+Functional Testing
+
+Checks a website or system to ensure it's doing exactly what it's supposed to be doing
+
+End-to-End Testing
+
+The technique that tests the website workflow from beginning to end to make sure everything functions as expected
+
+Integration Testing
+
+It is performed in an integrated hardware and software environment to ensure that the entire system functions properly
+
+Data Gathering Procedure
+
+The Researchers asked permission from the authorities where the study will be conducted. Second, the researchers constructed a questionnaire The third step is to float a questionnaire and conduct a personal interview The researchers then retrieved questionnaires and tabulated the data that will be gathered for the questionnaire. Lastly, the researchers analyzed and interpreted the data
+
+Questionnaire: The researchers created a structured questionnaire as the main instrument in collecting the data and distributing it to its respondents. Every respondent was given a set different questions to identify the problems encountered by the agency, to determine the feature of the system, and to evaluate the system based on ISO 25010 of
+
+Interview:
+
+1. The first thing the researchers did was prepare to seek the approval of the agency The researchers went to JBM Lending Investors INC to give the letter of approval for them to conduct their study
+
+2. After seeking approval, the researchers gathered information about the process of the manual system of the Online Cash Loan Transaction System through informal interviews in JBM Lending Investors INC
+
+3. The collection of questions that a research project is designed to answer is a major predictor of the sort of data that will be collected. Although quantitative data is preferred for this study, the poir educational attainment of certain customers necessitates the collection of qualitative data as well. There are approximately 4 quests/clients: and 7 IT Experts
+
+Internet Research: Researchers use the internet to search for information instead of going to the bibrary because it is easier to use. This figure demonstrates the flow of activities for admin, members, and the central server of the system The Administrator must log in and proceed to the main server that manages the operation of the system It will include the following Members Profiling and Loan Management will proceed to the database and generate the Loan Record and Financial Data Analytics. The loan officer will log in to view the membership and loan status
+
+Implementation and Testing of the developed Loan Management System.
+
+The developers performed online testing of the system where the end-users were allowed to use the system thru theme viewer and navigate its functionalities and features. The loan management was able to manage loan-related transactions When the user applies a member for a loan, it successfully processed the application. The user processed the payment of the borrower and the loan record updated automatically the user was able to view the loan status such as Penalty and Loan balance. The user accesses the financial data analytics and it was able to generate reports in Membership such as active
+
+and in-active members and regular and irregular
+
+CHAPTER IV RESULTS AND DISCUSSION
+
+This chapter contains the presentation, analysis, and interpretation of the result of the data gathered by the researchers. It deals with the study entitled "An Online Cash Loan Transaction with Decision Support System
+
+The table reveals that in terms of Process efficiency, with a mean of 3.0 or 60% was "Somewhat Problem and Time-Consuming for both parties (Chent/Officer) when it comes to a manual process and in terms of Process efficiency, with a mean of 3.5 or 70% were "Somewhat Problem that Difficult to search records and it show that in terms of Process efficiency, with a mean of 4.0 or 80% were "Much Problem" that difficult to find records Verification studies
+
+An article conducted at the Indian Institute of Technology Delhi by P. K. Jain was conducted to evaluate the effectiveness of a decision support system (055) for credit management. This study formed a part of a larger initiative to assess the effectiveness of IT-based credit прапан processes at the State Bank of India (SB1). Such a study was necessitated since credit appraised bus emerged to become a critical sub-function in Indian banks given a growing incidenes of now performing assets. This system helps in the analysis of balance shots, calculation of frond ratios, cash flow analysis, future projections, sensitivity analysis, and risk evaluation as per SBI norms. The experiment consisted of measurements that were taken as pre-and post-tous An experimental intervention was applied between the pre-tests and the post-tests. The intervention, or stimulus, consisted of DSS training and use. There were four groups in our experiment. The stimulus remained constant as we took care to ensure that the course contents as well as the instructors remained the same during our experiment. Two were experimental groups and two wers control groups. All four groups underwent training in credit management between the pre-and post tests. Results from our research show that while the DS5 is effective, improvements need to be made in the methodology to msess such improvements. Moreover, such assessment frameworks, while being adequate from a DSS-centric viewpoint, do not respond to the assessment of a DS5 in an organizational setting in our concluding section, we have discussed how this evaluative framework can be strengthened to initiate an activity that will allow the long-term, and possibly the only meaningful, evaluation framework for such a system. In an article conducted at Sichuan University, Mainland China by Wu Jingua, recently, P2P lending has become a hot research topis in finance, especially after the global financial crisis Most existing research did not consider the efficiency from the borrowers' perspective. This paper proposes a decision support system brased on intelligent agents in P2P Lending for borrowers. The system provides borrowers with individual CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+Based on the analysis, the researchers came up with the following findings
+
+It is agreed in Procean that the system loessens the time recording and faster transactions in person- in-charge have significantly helped the company with a mean of 4.0 and a percentage of 80%
+
+With regards to the Environment, it is agreed that the majority of the problems of IBM Lending Investors Inc, is that company files can be easily destroyed by fortuitous events, the system had helped so that the company can now retrieve and find files easily and they agreed that the system helped them with lesser space for keeping records with a mean of 4.0 and percentage of 80%
+
+In Materiality, it is agreed by the respondents that the system had helped the company save more money rather than keeping paper-based records and the system had a real-time process by the company with a mean of 4.0 and a percentage of 80%
+
+With regards to Security, the respondents agreed that there is secured information of the user and the system provides database backup with a mean of 4.0 and a percentage of 80%
+
+In Functional Stability, Functional Correctness had a very large extent as to the help extended with the company with a mean of 4.5
+
+In Performance Efficiency, Resource Utilization had a very large extent as to the help extended with the company with a mean of 4.6
+
+The Compatibility confirms that Interoperability had been selected by the respondents with a mean of 46 and interpreted that has a very large extent with the usefulness of the information generated with the system.
+The Usability indicates that Learnability, User Interaction Aesthetics, and Accessibility had been selected by the respondents with a mean of 4.7 and interpreted that has a very large extent with the clarity of the system to be easily understood by users
+
+In Reliability, due to the problem encountered in the past for no available system within the company to keep clients' records, the Availability of the system with a mean of 47 had a very large extent with JBM Lending
+
+In Secunty, due to the problem encountered in the past for no available system within the company to keep records, Confidentiality, Integrity, and Authenticity of the system with a mean of 4.7 had a very large extent with JBM Lending
+
+The Maintainability indicates that the Reusability of the system had been selected by the respondents with a mean of 4 5 and interpreted that has a very large extent with the users
+
+In Portability, the installability of the system with a mean of 4 4 with an interpretation that only large extent to installability because only IT experts can install the said system
+
+Conclusions
+
+Based on the findings of the study, the researchers conclude the following
+
+1. The researchers concluded that without a system that can help with Decision Support, problems encountered by JBM Lending Investor Inc, were mostly that of lack of manpower and human crrors as to record-keeping and security of the information, and said problems were addressed by the system
+
+2. The researchers concluded that the strengths of the system as rated by JBM Lending Investor Inc
+
+Recommendations
+
+1. Based on the findings and conclusions that were drawn, the recommended that the proposed system should be adopted to make the system process much more effective and to help businesses adapt to the new normal by having a system that can ease their operations with much engaged system-based transactions to lessen human error in decision support system and other human factors in terms of functions, Performance efficiency, Compatibility, Usability, Reliability, Security and Maintainability
+
+2. An Online Cash Loan Transaction with a decision Support System should be used by the company for effective and convenient transactions. It should be adopted to aid with the problems encountered by financial institutions as to Process, Environmental Issues, Materiality, and Security.

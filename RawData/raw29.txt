@@ -1,0 +1,371 @@
+Proposed Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) BAUTISTA, MARY ANNE T, ESMILLA, CHERRY ANNE M. MAGAT, SEAN GLENN A. January 2022
+
+DEAR
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+BAUTISTA, MARY ANNE T, ESMILLA, CHERRY ANNE M. MAGAT, SEAN GLENN A. January 2022
+
+
+
+
+ABSTRACT
+
+As the technology is going in advance, the research in robotic science is growing rapidly for the convenience of the human life. The main aim of this study is to design and build vacuum that is controlled by android phone through Bluetooth. According to commands received from android the RoboVac motion can be controlled. This Android controlled vacuum make cleaning process easier rather than by using manual vacuum.
+
+Prototyping model was used in the design and methodology. In this model, it is assumed that all the requirements may not be known at the beginning of the development of the system. This model allows the user to interact and experiment with a working model of the system known as prototype.
+
+The overall summary of responses of the respondents is "Strongly Agree" in the criteria of Reliability, Usability, Performance Efficiency, Maintainability and Portability.
+
+Further analysis shows that because of its grand mean the Robot Vacuum Controlled by Smartphone via Bluetooth makes cleaning process easier than by using manual vacuum.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Background of the Study
+
+Human-machine interaction is evolving away from the mouse and pen, becoming more general and compatible with the physical environment.
+
+Smart phones are getting more powerful these days, with faster processors, larger storage capacities, better entertainment options, and more communication options. Bluetooth is mostly utilized for data transfer and the addition of new capabilities to smart phones. Bluetooth technology, developed by Ericsson in 1994, demonstrates its utility by combining with cellphones. It has transformed how people use digital gadgets at home and at work, converting traditional wired equipment to wireless devices. Any digital device could be turned into a controlled robot that rolls about on our fingers.
+
+According to Harsurkar, et.al., (2017) In today's industrial automation and monitoring system, robots play a critical role. These robots' uses and capabilities have grown as technology has progressed. Working robots will assist people in making their jobs easier and less complicated. The main objective of creating this robot is to monitor human activities in conflict areas or border regions in order to limit enemy infiltration.
+
+Instead of utilizing a manual vacuum cleaner, a vacuums robot is designed to make things even better. The user-friendly, orderly, and effective Vacuum Robot will suit human needs on multiple levels.
+
+Objectives of the Study
+
+The main objective of the study is to design and to build a vacuum that is controlled by android phone through Bluetooth. Vacuum is controlled using Android mobile phone instead of any other method like buttons, gestures etc.
+
+Specifically, this study aimed to:
+
+1. To determine the benefits of using robot vacuum,
+
+2. To determine the difficulties using robot vacuum;
+
+3. To evaluate the robovac in terms of;
+
+3.1. Reliability.
+
+3.2. Usability,
+
+3.3. Performance/Efficiency,
+
+3.4. Maintainability; and
+
+3.5. Portability
+
+Significance of the Study
+
+This study is beneficial to the following:
+
+Researchers. Broaden their knowledge about mechanical study.
+
+Future Researchers. They can use the thesis book as their reference and basis in developing an embedded system.
+
+The School. After this study the Robot Vacuum will be given to the CCSICT.
+
+The Students. They can gain idea about embedded system.
+
+The Children. They can enjoy cleaning while using their phone.
+
+The PWD'S. They can able to perform chore like cleaning regardless of their condition.
+
+Scope and Delimitations
+
+The Robot Vacuum is controlled by smartphone through the application installed in it. It can be used or operated by any individual who has a smartphone. The android controlled vacuum can move forward, backward, left and right direction and it can also clean dust and small particles from the floor. It reduces human effort and it is cost effective. The android controlled vacuum is not capable to operate during high level of water. It will stop functioning if the battery is empty. It is only intended for flat surface use. Children below 7 years old cannot operate the Robot Vacuum.
+
+Conceptual Framework
+
+Nowadays thousands of mobile phones were released by many top companies. The android phone has many features, such as game, browsing, camera, wireless connection, etc. In this generation android phone is already part of the people's everyday lives.
+
+This study is anchored on the concept of device interaction of what we can do with our android phone like controlling another device. The android phone will send a command and the other device will receive and act the command given by the android phone.
+
+The Android controlled vacuum (RoboVac) demonstrated the power of the device interaction through wireless connection. It also displayed the expanding features of what we can do through our android phones.
+
+Conceptual Diagram
+
+Figure 1. Conceptual Diagram
+
+The picture is visualizing the movement of the RoboVac and illustrating the connection of the android phone from the Bluetooth module to the microcontroller which is the Arduino to the bridge module or the motor driver and motor drive to the DC motor.
+
+Figure 2. IPO (Input-Process-Output)
+
+The Figure 2 showed and explained the flow of Input-Process-Output (IPO) of Robo Vac reflected in the conceptual framework. The Input showed the specific objectives of the study, the software and hardware requirements with the used of the prototyping model.
+
+Gather Requirements In this stage, the researchers gathered and reviewed all the necessary requirements (hardware and software) on designing or building a prototype.
+
+Quick Design - After knowing the requirements, the researchers designed or build the system that focuses on the representation of its important aspects which gives an idea of the system to the user.
+
+Prototype In this stage, the researchers modified the information gathered from quick design to form a prototype.
+
+Evaluate Prototype in this stage, the researchers administered questionnaires to the selected respondents in order to see if the system is beneficial to them. It contains a number of questions that is based on the system that will assess how the system is being helpful to the respondents and its efficiency.
+
+Refine Requirements - Once the user evaluated the prototype, the researchers refined the project and fulfill the user's desire for the system.
+
+Throw away and Engineer - After all the successive feedback and positive reviews from the user, the actual product was designed and developed by the researchers.
+
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+In this chapter, the researchers presented the Review of Related Literature and Studies.
+
+Review of Related Literature and Studies
+
+According to Velrajkumar et al. (2017) in the evolution of robotic controls and the realization of unique techniques in controls, advanced technology as well as computer expansion capability have created a dynamic opportunity.
+
+According to Paul, et.al., (2020) many massive projects are currently being constructed using open-source tools (hardware and software) as a framework, integrating creative ideas, wireless technology, and an open mind enabling people to become an active part of the resilient system.
+
+According to Harsurkar, et al., (2017) robotic serve an important in today's competitive technology as well as monitoring systems. As technology advances, the usage and capacities of these machines have expanded. Performing robotics will cooperate with humans work more efficient and straightforward. The main purpose of this robot's design is to keep track of human behavior in war zones and border regions in order to prevent enemy infiltration.
+
+According to Paul, et al., (2020) in recent years, both specialists and hobbyist electronics users have become interested in interacting with robots. Many large-scale initiatives are currently being built using open-source tools (hardware and software) as a framework, incorporating novel concepts, wireless technology, and an open mind for individuals to become active participants in the resilient system. We describe an innovative robotic system using an Android smartphone in this study. Smartphones are getting more durable and robotics-related add-ons are becoming more common.
+
+According to Runa Farhana Rahman and I D Sumitra (2020) many sites now have CCTV; however, users do not always check the monitors, which leads to a slew of unanticipated happenings. Because users would receive notifications in real time, this system has the ability to aid users in monitoring visitors who arrive to a location, and it is predicted that this system will raise the level of security of the location.
+
+According to Naing and Hlaing (2019) to show the automated test system's utility, devices including LDR, level sensor, smoke detectors, and proximity sensors were interconnected with it. Light, room temp, and warnings are all monitored and controlled by the sensors. The main purpose of both the network security is to send Alert messages to the user via GSM. Two arduino nanos control detectors and relay that monitor a specified area and respond to variables such as ambient light, temperature, and so on. Whereas if sensors identify an error, the micro-controller will send a Text message to the owner. With the RFID module, door locks are also more secured. This paper discusses how to enhance its safety and reliability of GSM modules.
+
+According to Morallo (2017) data may be communicated across short range via network connection, providing for simplicity, intelligence, and control. In this paper, a Hardware Interface functionality and a Mobile platform can be used to present and prototype a home lighting management software, arduino, smartphones, and bluetooth connectivity are all discussed. The project presents the HC-05 Bt SPP (Serial Port Protocol) modules, which is developed as simple wireless serial connection setup.
+
+According to Prusty (2017) the goal of this method is to help and support elderly and disabled persons at home. Routine jobs that can be automated have advanced significantly. Throughout the day, the majority of people are connected to their smartphones and other smart devices. As a result, by personifying the usage of the mobile phone, he may do several daily household activities with the support of his companion-a mobile phone. Android-based phones are clearly the most popular in the current smart phone sector. It's become a slang term for a cell phone in everyday language.
+
+According to Mahajan, et.al., (2020) in today's automation, wireless technology has become increasingly crucial. That means that automation frees technologies from human meddling. Home automation is one of the most recent technologies to emerge. Low-cost communication technologies such as Bluetooth and Wi-Fi, for example, can help make it more effective and efficient. Wireless networking technology that can be used to automate your home. It's a low-cost, easy method with a range of up to 100 meters. Using an Android application, we may link and run domestic appliances as well as provide security to handicapped and elderly people. 
+
+According to Saiyar (2021) as research methodologies, the author's home was observed directly and literature studies were conducted using the Arduino microcontroller. Arduino is also connected to Bluetooth to process commands
+
+According to Muhammad Sidik and Hermawaty (2019) the communal clothesline is still in the form of a manual, requiring the community to raise it directly. When traveling or there are other jobs the community is still confused how-to pick-up clothesline with changing weather. Based on these issues, an Android-based Arduino prototype model of an automatic clothesline was constructed to simplify and reduce the time spent lifting and drying garments when the weather changes. Using an Android-based Arduino, I created an automatic clothesline. In this study, the Arduino UNO microcontroller functions as a data processing center obtained from the LDR sensor to detect light, uses a water sensor to detect rainwater and uses a DC motor to move the clothesline out/in, and uses the Bluetooth HC-05 module to move the clothesline with Android.
+
+According to Hasan, et al., (2017) this paper discusses the process of designing and implementing an Android-based espionage robot. This espionage robot is controlled via an Android-based application and an RC Bluetooth controller. An app for Android phones can be used to operate this robot. Inside this Bt network range, this robot is controlled to any area and perform intelligently.
+
+According to Riyadi, et al., (2021) electronic devices that are increasingly developing make alternatives to human activities every day so that human work can be completed easily. Many electrical equipment may be controlled by merely pushing the remote-control button without touching anything rather than using voice commands. Technology has advanced quickly to the point that a microcontroller like arduino may be integrated with other devices, such as an electric car powered by solar panels and operated by an Android smartphone. In this study, an electric car will be controlled by an application on a smartphone with voice commands, and using Bluetooth as a connection between the application system and the electric car system.
+
+According to Wen Cheng, et.al., (2020) the pedagogic needs, important parts, and usefulness of a complete the installation of robots and Internet of things objects for developing a possible situation interactive learning experience for youths English as a Foreign Language learners are examined using a layout research technique.
+
+According to PB Jarande, et.al., (2018) laser mapping robots are faster, take less time, and use less energy, but they are more expensive, whereas obstacle avoidance robots are slower and use less energy due to random cleaning, but they are less expensive. The major purpose of this project is to provide a viable solution to the problem of producing robotic cleaners with local resources while preserving quality.
+
+According to TB Asafa, et al., (2018) since vacuum cleaners have made housekeeping easier, they are often loud and heavy to use on a regular basis. To address these shortcomings, it is consequently necessary to develop vacuum cleaning technology.
+
+According to ES RAHAYU and DA AZIS (2020) the goal of the design of a prototype robot vacuum cleaner based on the Arduino Uno is to create a prototype robot that can clean house floors fast and efficiently. The Robot Vacuum Cleaner is a vacuum cleaner that picks up debris from a room's floor and operates in two modes: automatically and manually. The robot vacuum cleaner's automated mode causes the robot to move randomly across the floor of a room and automatically avoid obstacles in its path. In manual mode, the robot vacuums cleaner moves in response to commands issued by the user via an Android smartphone equipped with the Bluetooth HC-05 communication module. The program flow begins with the Android Smartphone being connected to the Bluetooth HC- 05 module, after which Arduino will read the input data of the mode selected by the user, either automated or manual mode. If automatic mode is selected, Arduino will engage the vacuum motor and initialize the Sharp GP proximity sensor to determine the distance of objects in front of the robot. If the object in front of the robot is more than 8 cm away, the robot will come to a halt and pivot to avoid the thing. If the user chooses manual mode, the robot will wait for the user's command to maneuver and activate the controlled vacuum motor using the application on the user's smartphone.
+
+According to DC Patel and HS Patil (2017) the automatic floor cleaner is a system that uses a highly stabilized and fast functionalized electro-mechanical control system to clean the floor. The goal of this article was to create Arduino code for an autonomous smart vacuum cleaner robot that could clean huge areas of houses or offices. The idea is basically to detect any obstacle with the help of sensor and send its output to a microcontroller that will control the Autonomous vacuum cleaner movement. By using autonomous vacuum cleaner, user can turn ON the Autonomous vacuum robot to clean without any help of human operator. When this machine is turned on, it moves all over the floor surface, covering the entire floor space. It also adjusts its direction at random when it encounters impediments or a dramatic decrease in floor space. In smart vacuum robot, proper cleaning is achieved with controlled motion of vacuum cleaner and scrubbing action of broom along with vacuum action. The goal of this article is to use Arduino microcontrollers, sensors, and motors to build and develop a low-cost Al vacuum cleaner.
+
+According to Li Hung Goon, et.al., (2019) in this work, we have built a low-cost and simple automatic floor polisher to ease the life of modern living. This little cleaner and polisher robot is capable of mechanically polishing and cleaning the floor while avoiding colliding with furniture or other obstructions. A Bluetooth phone can be used to turn on or off this robotic floor cleaner. The Bluetooth pairing method using a simple and user- friendly user interface, compatible with third-party apps. An Arduino microcontroller, ultrasonic sensor, two PC fans, four DC motors, two discs, LEDs, and a Bluetooth module are used in this project. This polisher robot floor cleaner is made up of 3R materials, small in size and eco-friendly.
+
+According to S Yatmono, et.al., (2019) cleaning the dust from the floor is one of the daily chores. This activity is not only at home but also in offices or shopping centers. Due to the fact that dust cleaning operations take a long time, other activities are sometimes disregarded. For this reason, we are trying to develop a smart floor cleaning robot that can navigate, clean dust, and polish floors automatically. The study was conducted using Pressman's research and development methods which included the following phases: analysis, design, implementation and testing. The robot, developed using an omniwheel wheel and is equipped with a vacuum cleaner and floor polishing motor. The control system used is based on the Arduino microcontroller, the robot is also equipped with a Bluetooth communication system so that it can be controlled via an Android smartphone. Besides this robot is also able to move to avoid obstacles if the distance between the robot and the barrier is less than 15 cm. Floor cleaning performance on various types of dirt is quite good with only leaving dirt on the floor less than 20%.
+
+According to Julio Vega and José M Cañas (2019) technology is growing more popular in elementary and secondary schools in Western nations, mostly as a curriculum and as a technique to make STEM subjects more accessible to youngsters. Furthermore, greater robotics expertise is always in demand in the labor market. The PyBoKids framework for learning robotics in secondary level is presented in this study, with the goal of improving pre-university electronics learning. It controls robots with the Python language and Arduino microprocessors. It consists of a software infrastructure as well as a set of practical activities aimed at high school pupils. Realistic and simulating robots are supported by the given software. Furthermore, we describe a two-year pilot teaching initiative based on this paradigm, which involved over 2000 genuine students.
+
+According to Charlie Deeng, et.al., (2017) cleanliness is vital because it has an impact on the health of the people who live there. Manually clear the dust on the floor with a broom or vacuum cleaner. Vacuum cleaners are devices that vacuum dust under the user's direct control. This study provides a rudimentary prototype of a mobile robot vacuum cleaner that can suck dust on a flat floor surface autonomously. The prototype contains three ultrasonic sensors that can detect and obstacle avoidance.
+
+According to Yudalrawan, et.al., (2021) once an ultrasonic sensor detects an impediment in front of the robot, it will automatically seek a path that is not blocked When the distance read by the ultrasonic sensor is less than 15 cm, the distance value on the sensor has been determined. When the distance is greater than 15 cm, the condition of the prototype cleaning robot for road floor cleaning is obtained, while when the distance is less than 15 cm, the condition of the prototype cleaning robot for street floor cleaning has ceased.
+
+According to K Rachananjali, et al., (2021) in today's world, we all have a propensity to be so preoccupied with our jobs that we don't have time to thoroughly clean our homes. The answer to the matter is incredibly straightforward, you only ought to purchase a domestic household appliance mechanism such as i-robot roomba which can clean your house with the press of a button. However, there is one issue that all industrial goods have in common: price. So today, we can create a simple Floor cleaner mechanism, that isn't solely straightforward to make but prices terribly less compared to commercial merchandise out there within the market. Regular readers may recall our Arduino vacuum cleanup device from a while back, but that one was really huge and required a massive accumulator to move about. The new Arduino Vacuum Cleaner is expected to be small and practical. On high of that, this mechanism can have supersonic sensing elements like ultrasonic sensor, IR proximity sensor. The supersonic sensing element can enable the mechanism to avoid obstacles so it will move freely till the space is correctly cleansed, and therefore the proximity sensing element can facilitate it to avoid falling from stairs.
+
+According to Vaishnavi Sanjay Ransing, et al., (2018) as we know there is demand for automation and robotics, in today's world robots are making the life of humans simpler.
+
+There are few things that a machine can't accomplish in today's society, thus we designed a cleaning robot that would be controlled by an Arduino Uno. The technology will include obstacle detection sensors that will allow the robot to clean itself without the need for human intervention. It will also include a control mode that will allow us to control it with our Android phone. The system will be connected to the internet using the WiFi module which will help the user to turn on or turn off the machine from remote places. This can help the user operate or monitor the robot from any distance. There will also be level sensors installed in the rubbish tank, which will alert the user when the tank is full.
+
+According to Jiansheng Peng, et al., (2020) research studies have demonstrated that the front-end tow strap may successfully prevent the robot from falling during the cleaning process of the smart glass-wiping bot. The smart glass-wiping bot moves by employing the four bionic legs on the gearbox, which can execute basic functions like movement, adsorption, obstacle avoidance, and cleaning.
+
+According to Md Shahnewaz Tanvir, et.al., (2021) dirt on the top of a solar panel makes it vulnerable. The solar panel's effectiveness decreases over time caused by air accumulation. The purpose of this work is to build and implement a solar panel cleaning system based on Arduino. The solar panel cleaner that has been presented is waterless, cost-effective, and self-contained.
+
+According to Teck Seng Kong, et.al., (2019) existing vacuum cleaner robots, on the other hand, cost up to RM1500. As a result, this study presented a low-cost fully automated vacuum cleaner robot made up of an Object Avoidance Robot and a Vacuum. To actuate 5V DC motors, the Object Avoidance Robot gets feedback signals from ultrasonic and infrared (IR) sensors. The robot and vacuum cleaner are powered by two 3.7 V Li-ion battery packs and a 12V alkaline battery, respectively. A 12V brushless DC Fan was used to produce a vacuum chamber that sucked dust, sand, and small paper fragments. This project will set you back RM130. 70.
+
+According to R Radha, et.al., (2019) this paper describes a gesture control and obstacle avoidance robot for cleaning applications that may be operated with our hands. This robot can clean in both physical and automatic modes, and it can do anything from dry cleaning to wet cleaning to sweeping. We are adding the features like battery status indication through alarm sound and full dust bag indication. In this paper using technologies are arduino microcontroller, accelerometer, ultrasonic sensor and GSM module. Motors, roller brushes, cleaning mop, dust bag, and 12v rechargeable battery are among the components of the cleaning section. In manual mode, an RF module was utilized to transmit and receive data between the human and the robot.
+
+According to J Lee, et.al., (2019) in this present era, people live a very busy life. In such a case, one will always look for ways to save time. Household chores are the ones that are most dreaded upon and cleaning a home tops the list. An autonomous floor cleaning robot is developed to help people to complete their cleaning task. The development of an autonomous floor cleaning robot using Arduino as a platform for processing and controlling input and output is presented in this work. When opposed to using a manual vacuum, an autonomous vacuum cleaner robot is supposed to make cleaning easier. The idea is basically by having the sensor to detect any object and send the input to Arduino that will control the robot movement. With the water spray feature, this robot can vacuum and wipe. It is also programmed to move in zigzag movement to ensure that the robot can clean all the corner of the house and avoid obstacle autonomously. This robot consists of three ultrasonic sensors, one infra-red (IR) sensor and two brushes in front of it to ensure effective cleaning. It is designed to run on flat surface. This self-contained multi-function floor cleaning robot is less expensive than other vacuum robots on the market and is ideal for use in homes and small businesses.
+
+According to Pınar KIRCI, et al., (2021) in terms of time and work, cleaning residences is quite challenging for people. In terms of simplicity of use, vacuums are wired and slow. As a result, plenty of robot vacuums ready to replace ordinary vacuums have begun to appear on the market. We wanted to create and imitate a smart vacuum cleaner in our project. The smart vacuum cleaner will use a map to recognize its surroundings and impediments. 
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+In this chapter, the researchers presented the Prototyping Model, Hardware and Software Requirements, Use Case, Architecture Diagram, Graphical User Interface, Schematic Diagram, Gantt chart.
+
+Requirement Analysis
+
+Prototyping Model
+
+A Customer Experience Model is largely used to promote user-focused study and is encouraged as direct social interaction. While this form of model does not address prospective treatment options, it does provide a more realistic assessment of a promising concept's overall size, dimensions, interfaces, and articulation. This form of model enables early evaluation of how a possible user interacts with various parts, movements, and movements of a concept, defining the basic use case and user experience.
+
+Figure 3. Prototyping Model
+
+Gather Requirements In this stage, the researchers gathered and reviewed all the necessary requirements (hardware and software) on designing or building a prototype.
+
+Quick Design - After knowing the requirements, the researchers designed or build the system that focuses on the representation of its important aspects which gives an idea of the system to the user.
+
+Prototype In this stage, the researchers modified the information gathered from quick design to form a prototype.
+
+Evaluate Prototype in this stage, the researchers administered questionnaires to the selected respondents in order to see if the system is beneficial to them. It contains a number of questions that is based on the system that will assess how the system is being helpful to the respondents and its efficiency.
+
+Refine Requirements - Once the user evaluated the prototype, the researchers refined the project and fulfill the user's desire for the system.
+
+Throw away and Engineer - After all the successive feedback and positive reviews from the user, the actual product was designed and developed by the researchers.
+
+Requirements Documentation
+
+Hardware and Software Requirements
+
+Table 1. Hardware and Software Requirements
+
+This table presents the Hardware and Software of RoboVac. It shows here all the description tools/requirements and minimum needed in making/designing robot vacuum.
+
+Use Case
+
+Figure 4. Use Case
+
+The Use Case showed the flow of activities of both user and the RoboVac. It showed how the Robo Vac manipulated to get rid of the unwanted things on the floor 
+
+The user send command through android phone to manipulate the acceleration and direction of the Robo Vac.
+
+Architecture Diagram
+
+Figure 5. Architecture Diagram
+
+Getting started in using the RoboVac, first you must turn on the device and open the Bluetooth connection of your phone. Pair your android phone to the RoboVac, wait for a second, enter the password then wait for the Bluetooth module indicator to stop. Test the connection by sending command to the RoboVac. Turn ON the Vacuum switch and perform the desired command in any direction you want the Robo Vac to go. After using it Turn OFF the vacuum and the Robo Vac. Remove the Vacuum bin, unload and clean the vacuum bin then put it back again.
+
+Graphical User Interface
+
+In the two pictures, we can see the Arduino Bluetooth Controller App upon opening and the android phone is searching for active Bluetooth devices.
+
+Figure 6. Graphical User Interface
+
+Schematic Diagram
+
+Table 2.1 Wire Diagram
+
+Table 2.2 Wire Diagram
+
+Table 2.3 Wire Diagram
+
+Table 2.4 Wire Diagram
+
+This is the connection of the RoboVac wire diagram. Table 2.1 we can see the connection of Bridge Module to DC Motor. In table 2.2 the connection of the Bridge Module to the Arduino. In table 2.3 Bluetooth Module and the Arduino. In table 2.4 it is the connection of the power form battery to Bridge Module to Arduino.
+
+Timeline of the Project
+
+Gantt Chart
+
+Title: Robot Vacuum (RobVac)
+
+Finished
+
+On-process
+
+Table 3.2. Month of August 2021 to Month of February 2022
+
+Statistical Treatment
+
+Data were analyzed using frequency counts, percentage and weighted mean using the scale below.
+
+Table 4. Statistical treatment
+
+Where: WM = f(1)+(2)+f(3) = f(4)+f(5) N
+
+WM-Weighted Mean
+
+F= frequency
+
+N-Number of Respondents
+
+
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter presented the analysis and interpretation of the result of the data gathered by the researchers based from the questionnaire distributed to the respondent.
+
+Table 5. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Benefits.
+
+Table 5 shows that the respondent strongly agrees with a category mean of 4.47 because the robot vacuum helps person with disabilities to work and to be active. Now a day's children are very addicted to gadgets, it helps us to ask our children to cleaning through using smart phone by controlling vacuum instead of playing any games.
+
+Table 6. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Difficulties.
+
+Table 6 shows that the respondent agree with a category mean of 4.18 because the robot vacuum cannot use in cleaning sofa, bed and etc. It also incapable in stairs because the vacuum is big and it design like a car, it cannot move properly if it use in stairs and some of the respondent answered its noisy.
+
+Table 7. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Reliability
+
+Table 7 shows that the respondent strongly agrees with a category mean of 4.40 in terms of reliability because the robot vacuum is providing effective interaction to the user, the quality and design of a robot is good and it easy to follow the instruction so the robot vacuum is easy to use. It supported the idea of Bruno Siciliano that Robotic Vacuum are making a good considerable impact on many aspects of modern life.
+
+Table 8. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Usability.
+
+Table 8 showed that the respondent strongly agrees with a category mean of 4.29
+
+in terms of usability because the robot vacuum is more useful than manual vacuum, it's effective and helpful. They agree that vacuum is comfortable to use and helpful. It supported the idea of Ansari that the Robotic Vacuum is designed to make cleaning progress become easier rather than using manual vacuum.
+
+Table 9. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Performance/Efficiency.
+
+Table 9 showed that the respondent strongly agrees with a category mean of 4.34
+
+in terms of performance efficiency because the robot vacuum is very easy to manipulate/control and its respond to user command also match to the user skill. It supported the idea of Saini that wireless control is one of the most important basic needs for all the people and android smartphone are the most popular gadget. There are multiple applications on the internet that exploit inbuilt hardware in these mobile phones, such as Bluetooth, Wi-Fi and ZigBee technology to control devices.
+
+Table 10 shows that the respondent strongly agrees with a category mean of 4.35 in terms of maintainability because the robot vacuum is safe to use and not harmful. The battery is chargeable, provide effective learning and good services. It supported the Idea of Surbhi Verma that human is moving and accepting compact technologies and the gap between personage and the machine is being reduced to ease the standard of living 
+
+Table 10. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Maintainability
+
+Table 11. The Result of Evaluation of the Weighted Mean and Descriptive Interpretation on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC) in terms of Portability
+
+Table 11 showed that the respondent strongly agrees with a category mean of 4.38
+
+in terms of portability because the robot vacuum was manageable and meet the portability standard. It supported the idea of Khali had presented the design, development and fabrication of prototype smart floor cleaning robot (clear) using IEEE standard 1621. Clear has all the features which are required for a vacuum cleaner. It can work automatically and manually.
+
+Table 12. Summary of result of Evaluation of the respondent on the Robot Vacuum Controlled by Smartphone via Bluetooth (ROBOVAC
+
+Table 12 shows that the overall summary of responses of the respondents is "Strongly Agree" with a grand mean of 4.35 in terms of the Reliability, Usability, Performance/Efficiency, Maintainability and Portability.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presented the summary of findings, conclusion and recommendation based on the discussion and analysis of the result in the previous chapter.
+
+Summary
+
+The study aimed to design and build vacuum that is controlled by smartphone via Bluetooth. This study eliminates the need to stand, walk and bend over for extended period of time because you can control the movement (left, right, forward & back) in the smartphone control.
+
+The developed prototype was evaluated in Baculod, Cauayan City Isabela. The result shows that robot vacuum controlled by smartphone are credibly efficient to the benefits of the vacuum because its helps person with disabilities to do work and children to enjoy cleaning by controlling the vacuum through smartphone and the difficulties encountered in robot vacuum are incapable stairs and cannot use in cleaning sofa, bed and etc.
+
+Based on the evaluation in testing the robot vacuum, the respondent strongly agrees in term of reliability, usability, performance efficiency, maintainability and portability. By using robot vacuum keep your floors cleaner, cut down on dust and other allergens in ways that your manual vacuum never could and using robot vacuum is more reliable and efficient.
+
+Conclusions
+
+Based on the findings of the study, the following conclusion were derived,
+
+1. The respondent of the study is agreed that robot vacuum is useful and credibly efficient in terms of the benefits of robot vacuum.
+
+2. The difficulties encountered in robot vacuum are incapable in cleaning stairs and cannot use in cleaning sofa, bed and etc. and some of the respondent find the robot vacuum are noisy.
+
+3. The respondent strongly agrees on the robot vacuum in terms of reliability, usability, performance efficiency, maintainability and portability.
+
+Recommendations
+
+Based on the findings and conclusions made, the researches came up with the following recommendation with the proposed application entitled "Robot Vacuum Controlled by Smart phone via Bluetooth"
+
+The researchers recommend future researchers/developers to continue to improve the features of Robot Vacuum is the sensor (Dirt Detect) to automatically detects dirt, bigger container for the dirt, the On and Off power of the vacuum should be controlled through the phone, DC motor with higher voltage for the vacuum, light battery detector, look for a finer filter, wireless camera, voice recognition, and improved the vacuum blade fan

@@ -1,0 +1,535 @@
+WEB-BASED GIS RICE MAPPING SYSTEM OF THE MUNICIPALITY OF SAN MARIANO, ISABELA Jenifer L. Calautit Janika B. Guerrero Rubilyn G. Lobendino January 2023
+
+A Capstone Projected Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfilment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Jenifer L. Calautit Janika B. Guerrero Rubilyn G. Lobendino January 2023
+
+
+
+
+ABSTRACCT
+
+A web-based farmer registry system is a registration system that records farmer information at a support center to guarantee that agricultural assistance is traceable and reportable. However, the manual registration for choosing who would receive rice farmer support is highly dubious or unsure. Due to the lack of a system that can trace the location and measurement of the rice field, rice farmers can falsify their documents and information in order to obtain government financial support, which is solely meant for rice farm owners. This study aim to developed, design, and implement" Web-Based GIS Rice Mapping System of San Mariano, Isabela".
+
+The researchers of the study used Software Development Life Cycle (SDLC) as the development process that involved different phases. It includes system planning, analysing, system design, coding, system coding and system finalizing. In data gathering, the researchers presented the questionnaire in face to face survey. The researchers used Five-point Likert Scale in the survey questionnaire with a descriptive interpretation such (Excellent, above average, average and below average very poor). The gathered data was also analyzed using the weighted mean by the researchers.
+
+Based on the respondents perspective in term of measuring and locating the rice land area has an interpretation "Excellent" with a grand mean 4.68 while on the evaluation and testing of the developed system, the Web-Based GIS Rice Mapping System is" Excellent" in term of system functionality, usability, performance and reliability with the overall category grand mean 4.62.
+
+Generally, the manual registration is always encountered a problem. The admin and the IT expert of Department of Agriculture of San Mariano, Isabela agreed that the developed system is excellent in term of functionality, usability, performance and reliability.
+
+
+
+
+
+CHAPTER 1
+
+INTRODUCTION
+
+Project Context
+
+A web-based farmer registry system is a mandatory registration system that records farmer information at a center that supports inquiries ensure that agricultural support is traceable and reportable. It is a comprehensive collection that keeps track of the personal data and assets of farmers who are actively engaged in agricultural activities (Cenardo et al., 2022). By adding farmers to the register system, the agriculture department hopes to increase productivity and access to financing and give them access to better technologies and business development services Collado (2020). Also, according to Ganancial (2019), a member of a DA-accredited farmer organization (FO), such as a multipurpose cooperative, an irrigators' association, or a people's group, can access basic information about them in the RSBA, an electronic database of farmers. Furthermore, (CAR- RAFIS, 2021) DA-CAR encouraged individuals in the Agri-based sector to register in the Registry System for Basic Sectors in Agriculture (RSBSA). Chief Susan D. Balanza stated that those registered farmers and fisherfolk are given priority for providing financial assistance, subsidiary funding, insurance services and implementation of their respective programs.
+
+Agriculture is a significant resource in San Mariano, Isabela especially the rice industry. To increase their income and overall standanr of living, subsidies are given to rice farmers, and the Department of Agriculture (DA) San Mariano is responsible for implementing and giving those subsidies to the rice farmers. Thus, the respondents of this study were the rice farmers and the members of the DA San Mariano.
+
+The manual system of determining the beneficiaries for the assistance of the rice farmers is quite skeptical or uncertain. Due to the lack of a system that can trace the area and the location of the rice field, the rice farmers can fake their documents and information to get financial assistance from the government, which is just intended for the rice farm owners only. And, lack of advancement of technologies was seen by the Department of Agriculture (DA) San Mariano that needed a solution.
+
+The researchers wanted to help the Department of Agriculture (DA) San Mariano to maximize the beneficiaries and assistance for those who have rice fields only. The proposed idea was to provide a subsidized registry system for rice farmers with a mapping system using GIS. This study made the following contributions: ensuring reliable, up-to-date information for the registry; providing real-time availability information on the web-based registry system; and providing an interface that identifies the area and location of the registered rice fields using GIS. This study benefited the Department of Agriculture (DA) San Mariano in ensuring the information of beneficiaries for the rice farmers, as well as, the rice farmers' to be updated for subsidies and other information for their assistance. 
+
+Objectives of the Project
+
+The main objective of this study was to develop and implement a Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela. This was used by the Municipal Agriculture office for the accounting of the rice field owners and the beneficiaries for subsidies.
+
+Especially, this project aimed to:
+
+1. Determine the effectiveness of the Web-Based GIS Rice Mapping of the Municipality of San Mariano, Isabela in terms of measuring and locating the rice land area from the perspective of the user;
+
+2. test the accuracy of measurement given in the system; and
+
+3. evaluate the performance of the developed system in the extent of compliance with ISO 25010 Software Quality Standards using the following:
+
+3.1 functional suitability
+
+3.2 usability
+
+3.3 performance efficiency
+
+3.4 reliability
+
+
+Scope and Limitations
+
+This study sought to determine the usability, appropriateness, and effectiveness of
+
+the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela. The system make it easier for the Department of Agriculture in San Mariano to check and examine the deserving beneficiaries and for the rice field owners to register for financial assistance and other subsidies. Furthermore, the system contained basic information about the rice field owner, such as name, address, birthday, barangay, location and measurement of the rice field.
+
+The Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela focused on developing and implementing the system for the Department of Agriculture and constituents of San Mariano, Isabela.
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+Agriculture, without a doubt, is the mother of all occupations. It has been the primary and independent source of income for generations, particularly in agricultural provinces and municipalities. Agriculture has been a plentiful supply that caters to the needs of each sector and many minute entities such as industry, school, family, and others, serving as the primary resources of necessity (Cenardo et al., 2022).
+
+Farmers often use the manual, paper-based approach for recording farming data in current practices, which is prone to human error. But since all farm data will be maintained digitally, technology can be used to simplify the paper-based method and make it easier for farmers to collect farm data (Roslin, 2021).
+
+Also, according to Mogatos (2018), in the Philippines, agriculture has traditionally been linked to manual labor and archaic conventional farming practices. The Department of Agriculture's (DA) mission to achieve food security and recruit more people to the industry is not made any simpler by the perception that farming is a low- paying employment.
+
+Registry System
+
+DA Communications Group (2022) William D. Dar, Secretary of Agriculture, said that the national Registry System for Basic Sectors in Agriculture (RSBSA) acts as a major prerequisite, giving more than five million farmers, fishers, and farm workers priority to obtain various support from the Department of Agriculture (DA). Once registered, they are given preference when applying for agricultural and fishery aid, which can come in the form of cash, farm inputs like seeds and fertilizer, and fuel subsidy vouchers, to mention a few. He continued that having an accurate and up-to-date register system is unquestionably crucial for formulating policies to realize our vision of a resilient and food-secure Philippine agriculture, he continued.
+
+Furthermore, according to Balanza (2021), chief of the Planning Monitoring and Evaluation Division (PMED), (Unite 2021) signing up for the RSBSA is the bare minimum requirement for utilizing government services related to agriculture and fishing, such as financial assistance, subsidiary funding, and insurance services. The RSBSA is a computerized database that compiles primary data on farmers, farm workers, fishers, and other DA beneficiaries involved in agriculture. Their information is encoded in the system of the farmers and fisheries registry run by the DA-Central Office. Balanza claimed that persons included in a government agency's electronic database are given preference in the targeting and execution of their particular initiatives.
+
+In order to give unregistered farmers more accessible access to various government interventions and financial support in the agriculture sector, the Department of Agriculture (DA) has urged them to submit an application to the agency's Registry System for Basic Sectors in Agriculture (RSBSA) (Gomez, 2022)
+
+According to Lorenzon (2018) introduced Farmers Register in Lebanon through webinar that aimed to discuss recent experiences of farmer's registries, focusing on registration and the development of an appropriate database, which can better inform future policies. Creating a farmer's registry is one step to guaranteeing better coverage of social protection. A registry is vital in supporting the progressive formulization of farmers, enabling their access to existing productive and social services and permitting the creation and expansion of new benefits. Building a registry begins with a consultation process to establish the criteria and definition of farmers. Therefore a farmer's registration is a vital tool for the government to monitor the farmers.
+
+Registry administration is in charge of effectively and methodically overseeing the development, reception, upkeep, use, and disposal of records, as well as the procedures for recording and keeping track of information regarding company transactions and operations (Dinu, 2021). A foundation for organization and finding papers is provided by registry management, which also makes sure that necessary data is conveniently accessible and immediately available. Thus computerized registry records are essential in maintaining updated information for farmers. Additionally, farmers is committed to updating their data collection's verifiability.
+
+In Vietnam, rice is the main crop, playing a significant role in the export and national food security (Duong et al., 2020). Although there is a growing demand for this crop, there are limitations on how much land can be used for it because of urbanization and seawater intrusion. As a result, it is highly desirable to have a sustainable and efficient system for monitoring the rice paddies because the current approaches need to be revised, corrected, and labor-intensive. Furthermore, the proper management of rice fields can be a powerful tool for the governing body of agriculture, such as food security, export planning, and crop estimation.
+
+Additionally, Vietnam is one of the countries that export rice, yet natural disasters pose several threats to agricultural productivity (Truong et al., 2021). Thus, the mapping system or remote sensing project began in 2013 to aid in agriculture management and provide help for insurance or rice. SARMAP, a remote sensing company based in Switzerland, is the International Rice Research Institute (IRRI). The Ministry of Agriculture and Rural Development and Cooperation is working together on remote sensing-based information and insurance for crops in emerging economies (RIICE) (SDC). Software called MAPcape-RICE and Rice Yield Estimation System (RiceYES) must be integrated in order for RIICE technologies to work. Hence, that rice fields recording technologies are a good tool for rice monitoring and possible application in crop insurance for agriculture.
+
+Based on the study of Gloria & Reyes (2017) There are numerous government programs aimed at the agriculture and fisheries sectors, particularly the poor. The Aquino administration has created of the Registry System for Basic Sectors in Agriculture (RSBSA), a list of farmers, farm workers, and fisher folk in the country's 75 provinces, excluding ARMM and NCR, for more efficient and streamlined program targeting. The Department of Budget and Management currently uses this to target beneficiaries of the various government agencies implementing agricultural support programs and issue allocated budgets for these programs.
+
+The Registry System for the Basic Sectors in Agriculture (RSBSA) is a registry of farmers, fisher folk, and farm laborers that target beneficiaries for various government agriculture-related programs and services. The Philippine Crop Insurance Corporation (PCIC) was one of the first to use the RSBSA list to implement its particular program, the RSBSA Agricultural Insurance Program (AIP) (Mina & Reyes, 2017).
+
+The registry filing system captures and associates the context of records with their content. The primary function of registries in which agreed procedures is used to complete control records achieved by processes for managing their use, location, order, and contents. The registry is a system that assists users and organizations in improving record-keeping systems as an audit trail by establishing a link between the content (the records), context (the storage), and the structure (methods of the display) of records. Furthermore, the method used to capture and list the receipt and movement of records actively used in the organization is a crusial feature of the registry filing system (Khairunnisa & Shahira, 2017).
+
+The registry is one such technological intervention that assists various agencies and organizations in developing a database of all producers in their area of operations. Provide a viable forecast of produce for a season or a year based on who they are, what they produce, and how much they can produce. This database, which can communicate with and integrate with other public databases such as land records, weather forecasts, and Agri Intelligence Systems, can assist procurement agencies in estimating the requirements of the entire value chain, as well as various government agencies in having a validated database of producers who can participate in their various welfare programs (CSM, 2023).
+
+Geographic Information System (GIS)
+
+According to Suppayasan et al. (2019), Geographical Information System is a vital tool for tracking and predicting the rice crop production in the area to reduce the possibility of planting inadequate crop conditions; hence, the most recent data on agriculture crops, especially rice crops is crucial for making decision about public policy and socioeconomic development.
+
+Moreover, International Rice Research Institute (2018) states that geographic information systems (GIS) and remote sensing (R.S.) technology have grown in popularity in recent years in order to determine where and when rice is cultivated, as well as where crops are functioning well or poorly. These technologies can be utilized to monitor and assess agricultural systems. It is essential to map and monitor the biophysical and socioeconomic traits of rice-producing regions to create effective targeted strategies for the promotion of cutting-edge solutions for sustainable crop management and crop diversification. Similarly, locating areas with the potential to increase rice production is essential as a basis for policies addressing the rising demand from rice. The development of technologies related to agriculture especially for rice mapping, could be an edge to monitoring and give focus to the rice-producing region to sustain crop management.
+
+Data imaging underwent a new set of information usage and representation with the introduction of geographic information systems in 1963 to manage the inventory of natural resources via analysis. Michael Goodchild helped to introduce and promote this unique information system in Canada. The introduction of the first GIS sparked a quantitative revolution in the study of geography and the enlargement of data (Dangermond, 2021).
+
+Gonzales et al.(2018) said that the purpose of their study was to locate cacao plantations in the province of Cagayan and map the locations of such plantations using Geographic Information Systems (GIS), particularly in the three districts that had known cacao plantations. The land use system information collected included farm size, infrastructural needs, cropping features, cultural practices, market orientation, labor intensity, mechanization, and power use in connection to mechanization.
+
+Precision farming requires the mapping of agricultural fields. The use of mapping technologies by farmers makes it easier for them to travel and locate each crop's specific location on their fields. Additionally, they can show crop location information. Growers and agribusinesses can obtain a wealth of helpful information about soil, product origins, moisture, and nutritional levels in addition to knowing the precise positions of crops (Lenniy, 2019).
+
+Nguyen et al.(2020) for effective food security control and support measures, agriculture applications depend on reliable land monitoring, particularly in paddy regions.
+
+However, typical monitoring calls for professional fieldwork or surveys, which are pricy, time-consuming, and infrequent. Remote sensing using satellite data for quick and affordable paddy mapping is the first step in the search for sustainable land use monitoring solutions by agriculture monitoring systems.
+
+The demand for rice rises in tandem with the growth of the global population.
+
+Therefore, it is crucial to provide accurate and current paddy rice maps. In contrast to the conventional survey method, a satellite-based methodology generates paddy rice maps with a quick update cycle (Park, 2018).
+
+GIS/GPS mapping has much potential as a quick and precise data collection method, especially in isolated rural areas. More information than ever before is being given about the farmers to work with, including their farms' location and measurement of the land. Through targeted farm development plans, training, and other inputs, the data can be used to offer bespoke support to farms in order to increase productivity. (GPS Mapping increasing transparency on the ground, 2022).
+
+Hence, according to Culili (2022), San Mariano Agricultural Office makes every effort to pursue intelligent registration for capable rice farmers. However, the current situation of San Mariano Agricultural Office is that registration comes in with pen and paper, which is an adaptive antique practice. On the other hand, a Web-based Registration System is strongly advised to be scrutinized.
+
+Rice is a staple food in Malaysia. As part of precision farming technologies, a decision support system, such as a web application system, also known as web-based paddy GIS, was used to assist the government in increasing rice production in the country. The web system can store, manage, analyze, and visualize all information related to rice growth monitoring on a single platform that is accessible to all people. In addition, the web paddy GIS allows agriculture officers and farmers to access rice information and improve agricultural management by utilizing Information and Communication Technology (ICT) in the globalization era (Norasma, et al., 2020).
+
+Acedo (2020) conducted a study on developing a Web-enabled GIS platform for Catanduane's agricultural land use. The system assists local leaders in strategizing activities and quickly facilitating the identification, monitoring, forecasting, visualization, and analysis of agricultural land use situations. The web-enabled GIS is part of an initiative to improve the agricultural land use system in the province by integrating GIS in terms of locating, mapping, profiling, and land management. This effort is expected to benefit farmers and local communities by increasing harvest rates.
+
+According to Khater et al.(2022) Geographic Information Systems (GIS) are computer programs and hardware that sort, manipulate, analyze, and display spatial or geographically referenced data. It creates maps and maintains data. GIS is a vital information system that is used as a tool in the overall processing system; it is also used to solve variety of data-driven problems. Geographic Information Systems (GIS) is an excellent tool for handling data in many aspects, such as optimum transportation locations, locating new landfills, and monitoring landfill. It saves time and money, it can manage a large amount of data from various sources. Additionally, GIS can provide numerous opportunities for improving spatial data convenience and accuracy, as well as more productive analysis and data access. Furthermore, it could process large amounts of spatial data. It stores, retrieve, analyzes, and displays data based on their specifications.
+
+Based on (speedy course 2021), The web's integration with GIS (Geographic Information Systems) has unlocked GIS's potential, putting online maps and geospatial intelligence in the offices/homes of millions and the hands of billions. Web mapping technologies increasing flexibility and interoperability has created new opportunities for Web Based Mappers. Non-GIS users and GIS experts alike can now share maps more efficiently than ever before. Web maps can quickly deliver up-to-date information because they are generated automatically from databases and display data in near real- time. Web GIS is extremely useful in e-government, e-business, e-science, and all aspects of daily life. Web GIS can help government employees improve public service delivery and cross-agency collaboration.
+
+Future agricultural growth must be driven by new technologies that are not only cost-effective but also compatible with the country's natural climatic regime. Data enhancements for better research, better results, and more sustainable planning; bridging the knowledge-practice gap; and prudent land use resource surveys, efficient management practices, and sustainable natural resource use. Technological advancements and geospatial technology aid in the development of a dynamic and competitive agriculture that is environmentally friendly. GIS can significantly aid in effective crop yield estimates, land measurement, etc. More accurate and reliable crop estimates help reduce uncertainty (Shimonti, 2018).
+
+In order to categorize the land suitability classes for lowland rice and upland rice in Central Lombok Regency based on topographic features, soil type, and climate, the study Evaluation of Land Suitability for Rice Commodities by Utilizing the Application of Geographic Information Systems (GIS) in Central Lombok Regency was conducted.
+
+The Matching approach, which modifies the current land suitability class criteria, is employed (Hidayat et al., 2018).
+
+Food and Agriculture Organization of the United Nations (FAO, 2022). Globally, the GIS is utilized chiefly for managing natural resources, including accurate disaster monitoring, mapping and visualizing irrigation systems, crop production, and problem areas like weeds and diseases.
+
+The Geographic Information System (GIS) is one of the finest options for the Timor-Leste government to map all rice field regions nationwide for simply monitoring of the status and production data. We, therefore, attempted to create a GIS application for rice field regions and rice production in this study. This application will support the administration's choice regarding the management of the rice fields. On the other hand, this GIS for rice fields offers relevant data regarding rice fields, including the total number of hectares of active, inactive, and abandoned rice fields, the quantity of rice produced annually, farmer information, and the amount of rice consumed by each farmer (Cabral et al., 2022)
+
+Geographical Information Systems (GIS) are now an essential tool in all situations involving geographic data, whether they are public or private, and they can be used in a variety of contexts, particularly in the management of health, the environment, the exploration of natural resources and urban planning (Muenchow,2019).
+
+Finding patterns one was unaware of can be accomplished by visualizing massive spatial datasets using geocoding and mapping. Geocoding, however, becomes troublesome when used in works from earlier times because it suggests conceptual and other kinds of anachronism. Therefore, using GIS technologies requires embracing anachronism as an essential research trade-off (Petrulevich et al., 2019)
+
+Based on the study of Ghosh and Kumpatla (2022), GIS is considered Precision Agriculture's brain. Digital GIS maps differ from traditional maps in that they contain multiple layers of information, with each layer providing information or a map about a specific attribute such as soil survey, precipitation, nutrient status, pest infestation, yield, and so on. Furthermore, GIS provides analytical capability through statistical tools and geospatial analytics, allowing the extraction of inter-relationships between attributes, and the insights gained are valuable for management decision-making.
+
+Future agricultural growth must come from new technologies that are not only cost-effective but also in accordance with the country's natural climatic regime; technologies relevant to rain-fed areas specifically; continued genetic improvements for better seeds and yields; data improvements for better research, better results, and sustainable planning; bridging the knowledge-practice gap; and prudent land use resource surveys, efficient management practices. Moreover, technological advancements and geospatial technology aid in the development of a dynamic and competitive agriculture that is environmentally friendly and capable of providing excellent nutrition to people.
+
+While natural inputs in farming cannot be controlled, GIS applications can help farmers better understand and manage them. GIS can significantly aid in accurate crop yield estimates, soil amendment analyses, and erosion detection and remediation. Crop estimates that are more accurate and reliable help to reduce uncertainty (Paul, 2018).
+
+According to Kogure & Takasaki (2019) Geographic Information Systems (GIS) computer systems designed to gather, store, manage, display, and analyze spatial data-have become an essential tool in geographical, environmental, health, and social science research due to the increasing availability of spatial data from GPS and remote sensing.
+
+Recent advancements in Geographic Information Systems (GIS), Remote Sensing (RS), and Geographic Positioning Systems (GPS) technologies provide an opportunity to acquire and deploy high-resolution satellite imagery and digital spatial data. These spatial data have aided in the investigation of spatial anomalies in the agriculture sector. The relationships between social, physical, agroecological, and environmental complexities and how they affect agricultural sustainability. GIS technology provides users with a variety of geospatial information management tools and methods for collecting, storing, integrating, querying, displaying, and analyzing geospatial data at various scales (Mathenge et al., 2022).
+
+Kalantar et al.(2019) discussed using GIS in urban planning through a geospatial approach. Their research proposed an automated selection process that takes important factors into account. A geospatial decision-making tool based on the fuzzy overlay (FO) and method for ranking performance by similarity to ideal solution (TOPSIS) approaches are presented for development projects in Libya. According to the findings, demographics and vegetation are the two most essential factors in deciding which city to grow in Libya.
+
+Charles (2019) described how GIS technologies aid Japanese urban planning. It draws on examples from three areas of urban planning: municipal master planning, regulatory reform, and planning ordinance amendment. Spatial data (locational information) can be helpful at all stages of urban planning, from planning to consensus building, implementation, management, and maintenance.
+
+The United Nations (2021) described how oil spills are tracked and mapped using a geographic information system. The United Nations provided experimental parameters for evaluating oil spill maps using NOAA incident maps, the Nigerian Oil Spill Monitor, and Environmental Response Management Application (ERMA). Furthermore, they have expanded their recommendations for variable tools such as (General NOAA Operational Modeling Environment (GNOME), Unit Converter for Spill Responders (NUCOS), and Automated Data Inquiry for Oil Spills (ADIOS) (ADIOS).
+
+GESSA (2022) demonstrated the use of geographic information systems (GIS) in architecture, engineering, and navigation. ESRI is considered a market leader for AreView and ArcGIS, and Integraph, which is primarily a family of Geomedia and the like, has developed interlinear and sub-applications of GIS.
+
+Gonzaleset et al.(2018) stated that their study was carried out to determine the locations of cacao areas in the province of Cagayan and to map the cacao using Geographic Information System (GIS) in three districts with known cacao plantations. Baseline data were collected in each municipality of the Province of Cagayan in order to determine the various locations and trace the cacao in the three districts of Cagayan using Geographic Information System (GIS). The cacao plantations were then validated through a reconnaissance survey using GPS and a survey questionnaire form developed by the National Mapping and Resource Information Authority (NAMRIA). The surveys identify cacao growers' geographic locations as well as their agricultural land use systems. Capital intensity, market orientation, labor intensity, mechanization and power usage in relation to mechanization, farm size, infrastructure requirements, cropping characteristics, and cultural management practices were all collected data for land use systems. Quantum Geographic Information System 2.18.4 was used to create a cacao map (QGIS 2.18.4). All data collected was spatially analyzed using QGIS software, and the resulting map shows where large areas of cacao plantation are located in Cagayan. According to the results, the majority of cacao plantations are located in the municipalities of Lasam and Sta. Praxedes covered by the 2nd District. Other areas are located in District 1 (Gonzaga, Sta. Teresita, Lal-lo, Gattaran, and Sanchez Mira). Moreover, for District III, Peablanca and Rizal were surveyed to have a large cacao area.
+
+The International Multidisciplinary Scientific GeoConference Surveying Geology and Mining Ecology Management, SGEM The experience of introducing GIS technologies in the Krasnoyarsk Territory's regional agriculture system is given. Geoinformation technologies, remote sensing data, methods, and web mapping software tools are used to create the digital model of the Experimental Agricultural Enterprise "Minino" located near Krasnoyarsk city. The digital model includes information about agricultural fields, varieties, crops, soil, granulometric composition, soil-forming rocks, and relief conditions. Multispectral satellite images were chosen for the territory under consideration, allowing practical agricultural monitoring problems to be solved. 
+
+Technological digital maps and cartograms have been developed to focus on crop rotations and cultivated crops. In general, a multi-layer electronic map of the agricultural enterprise was developed, and tabular data from the database of field history was introduced. They are taking into account all agro-technical measures carried out. Web- mapping tools are used to gain access to the prepared thematic maps. The developed software allows users to visualize geospatial data in a standard web browser or through standard web mapping services in desktop software such as MapInfo, QGIS, ArcGIS, and others. The creation of a geospatial database of soil information is the first step in the digitalization of the Krasnoyarsk territory's agricultural system (Erunova, 2019).
+
+According to Ose (2018), the French Ministry of Agriculture, which oversees forest policies, has commissioned the development of a clear-cut detection method using optical satellite images. Mapping the clear-cuts is based on a change detection method based on two satellite images acquired over two consecutive years, during the summer when the trees' leaves are visible. This chapter presents a practical application of clear-cut detection on a couple of Landsat 8 images acquired between Tours and Besancon in the summers of 2015 and 2016. The clear-cut detection method uses basic functionalities of quantum information system (QGIS) to process raster and vector data. This option enables anyone to apply processing without having to install extensions. Of course, some steps of the method can be performed with more efficient tools, such as CNES's Orfeo ToolBox (OTB) image processing library.
+
+According to Walzykova & Zagórda (2018), applied various software programs for yield mapping in precision agriculture Yield mapping can be done in GIS programs as well as specialized agricultural software. These can be programs for creating informative and application maps, as well as software for integrated agricultural production management with a built-in GIS module. Representatives from these three groups were considered in the presented study: QGIS, Agro-Map, and Farm TM Works Office (now Trimble Ag Software). The study's goal was to assess the compatibility of the yield maps obtained in terms of basic statistical and geostatistical parameters such as average yield, coefficient of variability, placement on field zones with different yield ranges, and their percentage share of the field surface. Calculations and visualization of results were performed for winter wheat, winter rape, and com grown in a three-year rotation on a single field. All three programs presented allow for the preparation of raw yield monitoring data so that yield maps produced with identical interpolation parameter assumptions differ slightly. The use of these applications differs primarily because of the additional use of the resulting maps, the time required to learn the program, the task execution time, and the cost of purchase.
+
+Somma et al.(2018) previous study on the RAG color-coded prioritization systems for the discovery of clandestine graves did not consider all of the factors influencing burial site choice within a GIS project. The purpose of this technical note was to go over a GIS-based quantitative approach for searching for hidden graves. The method is based on cross-referenced RAG maps with cumulative suitability factors to host a burial, resulting in the editing of different search scenarios for ground searches showing high- (Red), medium-(Amber) and low-(Green) priority areas. The use of this procedure allowed several outcomes to be determined: if the concealment occurs at night, the "search scenario without visibility" will be the most effective; if the concealment occurs during the day, the "search scenario with DSM-based visibility" will be the most appropriate; the different search scenarios can be cross-referenced with offender confessions and eyewitness testimonies to verify the veracity of their statements.
+
+Additionally, Schmid (2019) the coordinated use of surface- and groundwater over time and space as two components of a single irrigation system is critical in many rural areas around the world to ensure crop production sustainability, restore ongoing and prevent future issues geographically related to freshwater quality and quantity mismanagement/deterioration. New technological solutions, such as GIS-integrated simulation models, may provide reliable tools for evaluating impacts in space and time, as well as managing conjunctive use of surface water and groundwater, as well as water- constrained agricultural production. We discuss and present the integration of the Farm Process (FMP; embedded in the USGS's MODFLOW One-Water Hydrologic Model) coupled to a Crop Growth Module (CGM) within the open source and public domain QGIS-integrated FREEWAT platform after presenting the standard open source simulation programs for dealing with conjunctive use. Using FMP in FREEWAT gains the benefit of a GIS solution's spatial environment and data management tools, as well as the ability to perform proper analysis of dynamically integrated terms of the hydrological cycle, in order to effectively balance crop water demand and supply from various water sources. A simple but realistic hypothetic application of the proposed approach with FMP and CGM is presented, simulating the harvest yield of irrigated sunflower in a Mediterranean area. The findings shed light on the potential application of the developed solution, including, but not limited to, quantitative temporal analysis of irrigation water sources and detailed analysis of evaporation and transpiration terms (from irrigation, groundwater or rainfall). When dealing with crop productivity, the combination of FMP and CGM to estimate crop yield at harvest provides additional management tools. The analysis of the water balance terms in the simulated case study allowed identifying the relevance of groundwater contribution to ETC-act, emphasizing the role of natural root uptake. Water authorities, large farms, and public/private companies managing irrigation areas are expected to use the proposed solution. To achieve data-driven agricultural water management, using these tools necessitates dedicated capacity building in the agricultural water sector.
+
+Torre's (2018) previous research on RAG color-coded prioritization systems for the discovery of clandestine graves did not take into account all of the factors influencing burial site choice within a GIS project. The purpose of this technical note was to go over a GIS-based quantitative approach for searching for hidden graves. The method is based on cross-referenced RAG maps with cumulative suitability factors to host a burial, resulting in the editing of different search scenarios for ground searches indicating high (Red), medium (Amber), and low (Green) priority areas. The use of this procedure allowed several outcomes to be determined: if the concealment occurs at night, the "search scenario without visibility" will be the most effective; if the concealment occurs during the day, the "search scenario with DSM-based visibility" will be the most appropriate; the various search scenarios can be cross-referenced with offender confessions and eyewitness testimonies to verify the veracity of their statements.
+
+Cheng (2019), elevated trace metal concentrations, particularly lead (Pb), are common in urban soils and a significant barrier to urban agriculture. The growing popularity of urban gardening may also pose a public health risk. This study analyzed and visualized the spatial distribution of Pb in New York City gardens using Geographic Information System (GIS) tools. Various indices assessed the pollution levels and ecological risks of gardens and overall New York City (NYC). Pb posed a moderate to significantly high risk to the local garden ecosystems, according to the single ecological risk index and potential ecological index. Most NYC gardens' soil quality was classified as polluted based on the pollution load index. Geostatistical, geoprocessing, and spatial tools were used to create color-coded maps to aid decision-making and to estimate potential human health risks associated with gardening, living, or working in/near these gardens. These findings have important implications for developing of pollution prevention and mitigation strategies to reduce the risk of trace metal contamination in garden soil public health.
+
+Wang (2020) presents the Tectonic Geodesy Application (TGA), a user-friendly 64-bit tectonic geodesy mapping software based on the secondary development interface of the open-source geographic information system QGIS, to overcome the high cost of learning, non-visual operation, and cumbersome steps of fine-tuning map elements in Generic Mapping Tools (GMT) and other geoscience mapping softwires. In this paper, we introduce the architecture and function modules of our software in detail, and highlight the rendering and map decoration functions through four cases: the geologic map of Papua New Guinea, the seismicity in China and surrounding regions, the seismicity and crustal deformation of the Tibetan Plateau, and the coseismal deformation of China's 2017 Jiuzhaigou earthquake. Compared to GMT, the tectonic geodesy mapping software we developed has the advantages of ease of use, low learning costs, and a user-friendly interface. 
+
+According to Lemenkova (2020), the goal of this work is to perform modeling and spatial analysis of marine geological data using a combination of QGIS and Python programming. Choosing appropriate cartographic software is an essential part of geospatial research. QGIS organizes data in a GIS project for mapping and spatial visualization using vector and raster layers stored in GIS. The Mariana Trench is located in the western Pacific Ocean. In QGIS, a series of cross-section profiles were digitized and used for data processing in Python. The Mariana Trench has a complex geomorphic structure with unevenness in profiles that stretch southwestward. The geomorphology is affected by a variety of phenomena that influence its shape. This paper covers the topics of bathymetry, geodesy, gravimetry, tectonic plates, and geological settings. To comprehend the trench's structure, data modeling using bathymetric analysis was carried out using a combination of QGIS mapping and statistical analysis in Python's library Seaborn. Multiple facet grids, area charts for data frames, regression analysis, letter-value plots, hexagonal and Kernel density estimation were used in statistical data modeling to analyze the spatial variation of the trench's geomorphology. The geospatial data analysis results show spatial unevenness of the Mariana Trench's geomorphic structure, gravimetric, geodetic, and bathymetric settings. The research demonstrated the efficacy of the Python application in geographic data analysis, with Python codes provided for repeatability.
+
+Additionally, Vitalis (2020), with the release of QGIS 3.0 in 2018, supports 3D visualization was added. Simultaneously, CityJSON has been evolving as a simple JavaScript Object Notation (SON) encoding for 3D city models built with CityGML. Data model 2.0. Together, this enabled the first time that semantic 3D city models could be supported in the popular open-source GIS software. To support 3D city models in QGIS, we created a plugin that allows City JSON datasets to be loaded. To identify all city objects, the plugin parses a CityJSON file and analyzes its tree structure. The geometry and attributes of each city object are then converted into QGIS features and divided into layers based on the user's preferences. When tested against several open datasets, CityJSON parsing proved to be simple and consistent. One of the most difficult challenges was mapping CityJSON's hierarchical data structure to QGIS's relational model. We addressed this issue by providing several methods for loading model geometries as QGIS features. We intend to use the plugin in our university for educational purposes, and we believe it will be a valuable tool for researchers and practitioners.
+
+Moreover, Garcia (2020) will present a methodological sequence based on multicriteria analysis that will identify areas with different Aedes aegypti intervention priorities, METHODS: A Female Aedes Displacement Index (IDFAedes) was developed, consolidated according to urban blocks, to represent the interaction between population densities, Aedes aegypti oviposition sites, and dengue case notifications; a graphical model (Model Builder) was created with QGIS software, using the Kernel mapping algorithm and IDFAedes as the weighting factor. RESULTS: For the evaluated example - Anápolis, GO, Brazil - stratification revealed intervention priority levels for urban blocks of 17.5%, 37.3%, low; 33.6%, medium; 10.2%, high; 1.4%, very high; blocks with medium, high, and very high priority accounted for 22.53,% of the territory in the area. The spatial block method proposed in this article can be used in health surveillance programs to improve targeting and control action planning. 
+
+Leaflet Mapping Api
+
+Maps' high informational potential was determined by the ability to detect several high-quality features thanks to the usage of different colors Lorek & Medyska-Gulij, (2019). Hence, that the leaflet mapping API is important to easily determine every barangay in San Mariano, Isabela by the high-quality feature that usage of different color.
+
+With a large number of available plugins and clear source code, the Leaflet JavaScript library significantly enhances the capability of WebGIS and makes web-based spatial information more interactive (Agafonkin, 2020).
+
+Leaflet was created with the goal of simplicity, performance, and usability in mind. It is compatible with all major web and mobile platforms, can be extended with numerous plug-ins, and has a well-designed API and simple, transparent source code. It is widely regarded as the best library for creating interactive maps on websites for mobile devices (Horbinski et al., 2020).
+
+In research from Zunino et al.(2020) Over the past few years, a number of libraries have developed to make it easier to create interactive maps for Web browsers. These libraries include Leaflet, Mapbox GL JS, and OpenLayers, as examples. They provide straightforward ways to display and stack semi-transparent map layers from various sources and map providers, including static raster and vector layers with various styling techniques. Despite the fact that these solutions rely on reliable and established open Web standards, performance and network use are very unpredictable due to the complexity of the technological stack, which includes Web browsers, operating systems, GPUs, and internal library design elements.
+
+The Geographical Information System (GIS) is one of the systems that transforms spatial data into information that is accessible to the general public. One of the technologies used to create online, open-source Geographical Information Systems is leafletjs, which makes the development process more dynamic and adaptable. With the vast amount of data, a web-based geographic information system powered by Leafletjs technology can process it in a way that is informative. People can view the greenpark data via the web-based information system in the form of an understandable digital map since it is displayed on a polygon map, (Abdillah,2021).
+
+Among web mapping libraries, Leaflet is one of the most popular. A free JavaScript library for interactive mobile maps is called The Leaflet. Due to the effectiveness of desktop and mobile platforms, it is straightforward and widely used. It is made up of tutorials that aid in the development of the web map and an easy-to-use, well- documented API (Bhatia et al., 2018)
+
+Duarte et al.(2021) used leaflet to develop a web map for hospitals and health care facilities. A few fundamental features were added, including I a control layer that groups all of the layers and allows users to choose which layers they want to see on the map; (ii) a numerical scale or a scale control that displays the scale of the current center of the screen in metric (m/km) and imperial (mi/ft) systems; (iii) a polyline measure that is based on a Leaflet plugin and measures distances of simple lines as well as complex poly. The created GIS desktop program offers a simple method for producing plots with PQI variation over time, a helpful tool to track its development and, consequently, track the standard of primary care and the health system.
+
+Conceptual Framework
+
+Figure 1. Conceptual Framework of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The project used the Input-Process-Output model to demonstrate all of the steps that involved in developing the entire system.
+
+It started with the input of determining the Department of Agriculture's problems in measuring and locating the farmers' land in San Mariano, Isabela, and also the Hardware and software needed in developing the system. The process involves analysis of the problems encountered and designing of the system. Also, this phase includes testing of the system and its functionality, usability, efficiency, and reliability. Also, implementation and evaluation of the developed system.
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter describes and discusses how the researchers will gather the necessary data and information for the study. It also discusses the research strategy, method, and research locale where the study was conducted.
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram 0 of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The diagram above shows the data flow diagram 0 Web-Based GIS Rice Mapping of the Municipality of San Mariano, Isabela. This diagram shows how the system works from the admin and the farmers. It is the basic flow of the system developed.
+
+Figure 3. Data Flow Diagram of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The data flow diagram of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela shows the process of data. The researchers used the data flow diagram to understand the project flow. When the admin goes to the website, if they log-in to the admins account, they will be directed to the map of the system. When they go to the profiles and if they click the new they can register or add new, beneficiaries and measure the rice fields. After that, they will search for the barangay where the beneficiary resides, and then they just choose a color for the map, they will start to map the land, finally, they will input the beneficiaries information such as name, address, birthday, and subsidy status whether the farmer receives subsidies or not, the information was saved at the administrator database, the list of registered farmers was seen at the profiles upon clicking, the administrator can update the latest information at the edit button, and a print button to print out the list of the beneficiaries. Finally, the login button to log out the account. 
+
+Fishbone Diagram
+
+Figure 4. Fishbone Diagram of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+This study deliberately considered four underlying factors that contributed to creating the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela. This system revolves around the economics of the Department of Agriculture service of the existing system, functionality, performance, usability, and reliability.
+
+
+Timeline of the project
+
+Gantt Chart
+
+Figure 5. Gantt Chart of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The Gantt chart shows the timeline of the activities that will be perform by the proponents in order to implement the Web-based GIS rice mapping system. Chart shows the steps and schedules of the researchers that will use in the development of the proposed project.
+
+Technical Background
+
+The program is web-based, thus users can access it through any digital platform, according to the proponents. The Web-Based GIS Rice Mapping System is online website for Municipality of San Mariano, Isabela without using the conventional procedure, providing simple and accessible access by the staff and farmers.
+
+Table 1. Hardware
+
+The table above, show the hardware needed by the users and admin of San Mariano, Isabela.
+
+Table 2. Software
+
+The table above shows the software needed to operate the developed system by the admin and users of San Mariano, Isabela.
+
+Use Case Diagram
+
+
+Figure 6. Use Case Diagram of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+In the above Use Case Diagram, there are a total eight use cases that represent the specific functionality of a Web-Based Registry System. A farmer can enter and view the website anytime. This farmer can perform only these interactions with the system even though other use case remain in the system. The admin can interact with all functionalities of the system though other use case are remaining in the system. The admin can interact with all functionalities of the system.
+
+Functional Decomposition Diagram (Administrator) 
+
+Figure 7. Functional Decomposition Diagram (Administrator) of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The functional decomposition diagram shows the system coverage for the administrator of Web-Based GIS Rice mapping of the Municipality of San Mariano, Isabela. It shows how the different flow of the system by the administrator.
+
+Functional Decomposition Diagram (Farmer)
+
+Figure 8. Functional Decomposition Diagram (Farmer) of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The functional decomposition diagram shows the coverage of the system for the user of Web-Based GIS Rice mapping of the Municipality of San Mariano, Isabela. It shows how the different flow of the system to the farmer.
+
+System flowchart for Admin
+
+Figure 9. System Flowchart for admin of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The diagram demonstrate how the user will use the system. To view and edit the data, the user must log in first to their account.
+
+System Flowchart for farmers
+
+Figure 10. System Flowchart for farmers of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The diagram above demonstrates how user will view the system, the user must search the website to view the essential data.
+
+Software Development Methodology
+
+Figure 11. The SDLC and Phases of the System (Model) of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The researchers used the software Development Life Cycle Model to easily understand. It shows the step-by-step procedure and process of the developed system.
+
+Description of Prototype
+
+Dashboard
+
+Figure 12. Description of Prototype - Admin Dashboard of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The Dashboard includes the total farmers and the total barangay in San Mariano Isabela. It also can be seen that the name of every barangay and the total number farmers on that barangay.
+
+Map
+
+Figure 13. Description of Prototype - Admin Map of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The mapping section includes the search bar, where you can search the barangay and the farmer's name. Upon clicking, the land will appear as already measured, and the owner's information includes the name, barangay birthdate, subsidy, total hectare, and the total square meter of the land. It also includes the barangay in San Mariano, Isabela by clicking the map it will appear the name of that barangay.
+
+Profiles
+
+Figure 14. Description of Prototype - Admin Profile of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The profile feature includes the Name, Address, Birthday, and barangay that is already registered. It also includes a search bar to find information about the farmer quickly. Refresh can also refresh the page, and the new button that is needed when we register the farmer by clicking new, directly on the map, and the farmer's information will also appear on how to measure and locate the farmer's land. The print button is also included to print when needed.
+
+Account
+
+Figure 15. Description of Prototype - Admin Account of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+On the account page includes the account of the admin which is the name and his/her email. In the new button we can create another account.
+
+Admin
+
+Figure 16. Description of Prototype - Admin of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+On the admin page includes the log out icon which is to exit in the system.
+
+Phase 1: Requirements Gathering
+
+In this stage, the researchers conducted an interview with one of the member of the Department of Agriculture San Mariano, Isabela and gathered important information that are needed in developing the system such as clients, data, and current process. They said, they do not have a system that can locate and measure the area of the rice field's farmers. In this case, the researchers suggested to develop a Web-Based Registry for Rice Farmer with Mapping System using GIS in San Mariano, Isabela to enhance the method of locating and measuring land of the rice fields farmers for their subsidies.
+
+Phase 2: System Design
+
+This phase is about the designing of the system which includes the mapping api using GIS and other necessary designs involves in the projects. The researchers designed the user interface and identified all necessary input output and processes.
+
+Phase 3: Developing
+
+Once the design is completed, the development of the system will be undertaken where most of the major decision about the system will made. The goal of the developing is to translate the design of the system using the PHP (Markup language). After the database and user interface design, the researchers input codes to every command of the system to ensure that the system will work.
+
+Phase 4: System Testing
+
+In this phase, the testing procedure was done in order to dominate and better understand the limit and potential of the system.
+
+Phase 5: Deployment
+
+This phase is the deployment of the system to the Department of Agriculture in San Mariano in order for them to use the system.
+
+Phase 6: Maintenance
+
+This phase includes the maintenance of the system for the future updates and ensuring the system will work.
+
+System Architecture
+
+Figure 17. System Architecture of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+The figure aboves shows how the system works with the users and the admin. The admin needs information from the farmer to input on the admin interface and saved it to the web server. The user or farmer can view the website by searching the website name, the user can also view the website using cellphone.
+
+Development and Testing
+
+Data Gathering Procedure
+
+Interview
+
+This is the first thing to do and the best way of gathering a data in the chosen agency. The researchers conducted an interview to the head officer of the Department of Agriculture San Mariano by asking questions about the current system the used.
+
+Internet Research
+
+The researchers used the internet to search for related studies and gather important information that may help the system's development.
+
+Data Analysis Plan
+
+The researchers used statistical methods to examine the data collected, and they will interpret the results using questionnaire evaluations that are based on the objectives of the study.
+
+A. For finding the percentage of the sample in the presentation, analysis and interpretation of the data, the researchers used this formul:
+
+\%= (f/n) * 100
+
+Where:
+
+% = percentage
+
+f = frequency
+
+n = number of the respondents
+
+B. For finding the weighted mean in the presentation, analysis and interpretation of the data gathered, the researchers used this formula.
+
+WM = (f(1) + f(2) + f(3) = f(4) + f(5))/N
+
+Where:
+
+WM-Weighted Mean
+
+F = frequency
+
+N = Number of Respondents
+
+C. To ascertain the outcomes of the respondents' evaluations based on the effectiveness of the developed system and the ISO 25010 evaluation tools.
+
+Table 3. Survey Evaluation Scale
+
+D. The total respondents of the study in the evaluation of the system and its quality is 80, where random sampling was been utilized in order to get the total number of respondents. The respondents came from different barangay's of San Mariano which was the results of the random sampling methods. As it is created for a certain purpose, the Department of Agriculture of San Mariano, Isabela and those farmers have rice fields are used to become the respondents of the study.
+
+Development, Testing and Implementation plan
+
+The system has been develop for the Department of Agriculture of San Mariano, Isabela that can locate and measure the land rice of the farmer. The testing and implementation of the system was occur first week of November. The staffs of Department of Agriculture and the farmers of San Mariano, Isabela have rated the developed website system as to 25010 standards in terms of functionality suitability, performance efficiency, usability and reliability.
+
+Implementation Plan
+
+Figure 18. Implementation Plan of the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela.
+
+Implementation Results
+
+The researchers completed the proposed system's preliminary and final testing. The system implementation was limited to the admin of Department of Agriculture office of San Mariano, Isabela. The researchers tested and implemented by face-to-face with the admin user and IT expert. The researchers seek IT expert and users for thorough system testing.
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter summarizes the results, conclusions and suggestion based on the information gathered from respondents about the proposed system entitled "Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela".
+
+Survey evaluation to the respondents
+
+Table 4. Grand Mean with interpretation of the respondent's perspective in term of measuring and locating the rice land area 
+
+The table above shows the grand mean with interpretation of the respondents perspective in term of measuring and locating the rice land area. The respondent's interpreted the system in term of easy to find the data information needed with the mean 4.75. In terms of specific functions, the user interpreted excellent with the mean 4.83. The respondent's interpreted excellent when it comes to "easy to recognize the rice land of the farmer" with the mean 4.61 and they interpreted excellent and "easy understand the different features of the system" with the mean 4.5. Lastly, when it comes to "multimedia components" the respondents interpreted excellent with the mean 4.71.
+
+Overall, based on the perspective of the respondents, the system is effective in terms of measuring and locating the rice land area with a grand mean 4.68 and the respondents interpreted excellent.
+
+Table 5. Result of accuracy tested of measurement given in the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela
+
+The table above shows the result in actual and manual land measurement given data by the Department of Agriculture and the system measurement is accurate in measuring the rice field area from testing 1 to testing 5 in barangay Alibadabad.
+
+Table 6. Result of accuracy tested of measurement given in the Web-Based
+
+GIS Rice Mapping System of the Municipality of San Mariano, Isabela
+
+Based on the table above shows the result in actual and manual land measurement given data by the Department of Agriculture and the system measurement is accurate in measuring the rice field area from testing 1 to testing 5 in barangay Binatug
+
+Table 7. Result of accuracy tested of measurement given in the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela
+
+Based on table above shows the result in actual and manual land measurement given data by the Department of Agriculture and the system measurement is accurate in measuring the land area from testing 1 to testing 5 in barangay Cataguing.
+
+Table 8. Result of accuracy tested of measurement given in the Web-Based
+
+GIS Rice Mapping System of the Municipality of San Mariano, Isabela
+
+The table above shows the result in actual and manual land measurement given data by the Department of Agriculture and the system measurement is accurate in measuring the rice field area from testing 1 to testing 5 in barangay Disulap.
+
+Table 9. Grand Mean with interpretation of the respondent's feedback regarding the system functionality results of the system.
+
+In terms of the functionality of the system, the respondents rated the system excellent in term of" provided with all the function that needed" with a mean 4.61, also the respondents interpreted excellent when it comes to "appropriate to the needs of the user" with the mean 4.63. Lastly, "the system is easy to understand all the feature" with a mean 4.6 with an interpretation excellent.
+
+Overall, the data got an "excellent" interpretation in terms of the system usability as revealed by the grand mean of 4.61.
+
+Table 10. Grand Mean with interpretation of the respondent's feedback regarding the system usability results of the system.
+
+The table 10 shows the answered from the respondents in terms of the system usability rated excellent when it comes to "operate all the function" with a mean of 4.51, also in term of "data information presented to the system is clear" has an interpretation excellent with a mean 4.5. The respondents interpreted excellent in term of "easy to access the data information that farmer's needed" with the mean 4.61.
+
+Overall, the data got an "excellent" interpretation in terms of the system usability as revealed by the grand mean of 4.54.
+
+Table 11. Grand Mean with interpretation of the respondents feedback regarding the system performance results of the system.
+
+In term of system performance the respondents rated the system excellent in term of "provide time to time information" with a mean 4.56, also when it comes to the "system operational and accessible when required for used" the respondents interpreted excellent with a mean 4.55. The respondents rated excellent in term of "speed up to complete the task" with a mean 4.57. Lastly, in term of "display the information and the maps" the respondents interpreted excellent with a mean 4.5.
+
+It further revealed the grand mean of 4.54 and it described as "excellent" when it comes to performance of the system.
+
+Table 12. Grand Mean with interpretation of the respondents feedback regarding the system reliability results of the system.
+
+The table above revealed the result answered by the respondents when it comes of system reliability. Based on the respondents in term of "accurate information" they interpreted excellent with a mean 4.75, also in term "provided the exact measurement of the land" the respondents interpreted excellent with a mean 4.87. Lastly the respondents interpreted excellent in term of "gave accurate information with the user" with a mean 4.78.
+
+Overall, the data got an "excellent" interpretation in terms of the system reliability as revealed by the grand mean of 4.8 based on the respondents.
+
+Table 13. Overall category grand mean of the characteristics of Web-Based
+
+GIS Rice Mapping of the Municipality of San Mariano, Isabela.
+
+Based on the table above shows the overall category grand mean of the characteristics of the developed system entitled Web-Based GIS Rice Mapping of the Municipality of San Mariano, Isabela. Include the ISO 25010 and we use the compatible in our system which is the system functionality has a category mean of 4.61. Also in term of system usability, respondents rated excellent with has a category mean of 4.54. The system performance described the respondents being excellent with category mean of 4.54. Lastly the system reliability it has a rated excellent with a category mean 4.8.
+
+The result of the system has been rated "excellent" with an overall category grand mean of 4.62, means that the Web-Based GIS Rice Mapping of the Municipality of San Mariano, Isabela is effective and has a good performance based on the answers of the respondents.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATION
+
+Summary
+
+The study aimed to design and develop a Web-based GIS Rice Mapping of the municipality of San Mariano Isabela.
+
+The develop system was evaluated in San Mariano, Isabela. The result shows that Web-based GIS Rice mapping system is credibly efficient, accurate and it benefits the Department of Agriculture (DA), and the Rice farmers.
+
+Based on the result of evaluation, perspective of respondents on the system got an "excellent" answer of 4.68. Moreover, it revealed that the Web-Based GIS Rice Mapping of the Municipality of San Mariano, Isabela has a overall category grand mean of 4.62. Four indicators of a highly developed system were validated by leveraging the system's efficacy, this are system functionality has a category mean of 4.61, system usability has a category mean of 4.54, system performance has a category mean of 4.54, and system reliability has a category mean of 4.8.
+
+Conclusion
+
+Based on the findings of this study, the following conclusion were derived;
+
+1. In manual registry of rice farmers, it is hard to determine the beneficiaries due to lack of system that can trace the area and location of rice fields. So, based on the result of this study, the Web-Based GIS Rice Mapping System of the Municipality of San Mariano, Isabela was developed. The system is effective in terms of Measuring and locating the rice land area based on the perspective of the respondents.
+
+2. Based on the result of testing on different locations, it has an accurate information in terms of measurements of the rice fields given in the Web-based GIS Rice- Mapping System.
+
+3. The Web-based GIS Rice-Mapping System of the Municipality of San Mariano, Isabela achieved a high performance and outperformed ISO 25010 software quality standard. It is seen that the system is useful in carrying out the information resource for profile management and registration of rice-farmers.
+
+Recommendation
+
+Given the research findings of this study, it is recommended that:
+
+1. expand the use of Web-Based GIS Rice-Mapping of the Municipality of San Mariano, Isabela; and
+
+2. insert profile picture of beneficiaries in data information.

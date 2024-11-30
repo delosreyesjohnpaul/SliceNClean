@@ -1,0 +1,519 @@
+CAUAYAN CITY FARMERS e-MARKET Marjorie T. Baddungon Jhon Michael O. Domingo Marc Paul B. Tuquilar January 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Marjorie T. Baddungon Jhon Michael O. Domingo Marc Paul B. Tuquilar January 2023
+
+
+
+ABSTRACT
+
+This study is entitled "Cauayan City Farmers E-market" mainly aimed to develop a E-Market platform for farmers situated in Cauayan City Isabela and Office of the City Agriculturist. Specifically, it aimed to to determine the challenges encountered in the traditional method of farmer's marketplace in terms of products, locations, Transaction, and management. Additionally, to assess the effectiveness of the proposed system based on the client's feedback in terms of ISO 9126 evaluation criteria which are Functionality, Reliability, Usability, Efficiency, Maintainability, and Portability. The researchers interviewed the agency as to identify the needs and wants within the system to which the researchers used the Rapid Application Development model as a Framework for designing and developing the system. floated questionnaire forms to acquire data and information needed answered by farmers and the agency for proper assessment. Based on the summary of findings, the conclusion was drawn, majority of the respondents "strongly agree" on the functionality, "agree" on reliability, usability and efficiency, "strongly agree" on maintainability and portability when it comes to the final developed system. According to the study, the researchers have concluded that the system performs well and will therefore be of help with the problems presented by the agency and those encountered by the farmers.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+The application will provide information on agricultural products, facilitate farmers to market their agricultural products, and facilitate farmers to conduct direct transactions with consumers Heru et. al., (2018) The proposed system differs in the way it focuses on assisting farmers in optimizing profit, providing easy access to clients, and selling agricultural goods. In addition to information on agricultural input advances and new creative agricultural technology. Bhende et al., (2018) So by introducing new marketing method wherein farmer can sell his crop or product at each layer of marketing chain (merchants, markets or directly to end user) along with multiple options becomes necessary. Traders and investors may use more flexible and advanced methods including spreads and combinations to possibly benefit in every market condition.
+
+The Cauayan City Agriculture Office vision to mandate to deliver extension services to farmers and fisher folks to improve quality of life. Expand the income of farms and create employment opportunities for fishermen, farmers, and other rural workers. Through sectoral representation in agricultural policy-making bodies, policies, and programs are formulated and implemented to meet the needs of the public. Lend a hand to self-reliant farmer to emphasize social equity, value, efficiency, and supportability within the utilization of rural resources.
+
+The farmer's priority is to maximize the return on his crop, which typically translates to the highest price for infinite amounts. Manufacturers require low-cost, high- quality food from farmers in order for them to offer it at competitive, yet profitable, pricing. Traders and merchants desire high-quality, dependable products from the manufacturer or farmer at the best possible price. Consumers are looking for high-quality items at reasonable rates. Clearly, there are competing interests at work here.
+
+The intention is to provide farmers the option to develop rather than limiting their produce to their immediate region. If this system works and profits rise, farmers will be able to produce more agricultural items, reducing rice imports and resulting in lower prices. This suggested system aims to provide a stepping stone for all farmers. To assist people in achieving their goals, to compensate for the labor, blood, and sacrifices expended in generating food for every home.
+
+Objectives of the Project
+
+The main objective of the study is to design and develop a Cauayan City farmers e- market application. Specifically, it aimed to;
+
+1. determine the problems encountered in the traditional method of farmer's marketplace in terms of:
+
+1. 1 Products;
+
+1.2 Locations;
+
+1.3 Transaction; and
+
+1.4 Management.
+
+2. determine the effectiveness of the proposed system based on the client's feedback in terms of ISO 9126 evaluation criteria; 
+
+2.1 Functionality:
+
+2.2 Reliability:
+
+2.3 Usability;
+
+2.4 Efficiency:
+
+2.5 Maintainability; and
+
+2.5 Portability.
+
+Scope and Limitations
+
+Since many of our farmers still uses a manual system for transactions, payments, and even report generation, the researchers want to create an electronic-based ordering system for local farmers. This study focuses on farmers in Cauayan City who wish to market and sell their crops and grains using smartphone applications to reach a larger audience and engage in direct conversations and transactions with buyers to promote exchange and meet consumer expectations.
+
+The transaction between sellers and buyers is beyond the researcher's admin control, therefore if there is maliciousness involved in the transaction, the admin may engage with consent from the customer through cancellation, which should be accompanied with evidence. The application is available 24 hours a day, seven days a week. Sellers may notify customers the availability when it comes to questions, but customers can still add items to their shopping carts.
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This Chapter presents the Review of Related Literature and Studies that the researchers consider related or has similarities to the present Research at hand. Providing enough background, foundation, and support for the study.
+
+Importance of Marketplace in Agriculture
+
+E-commerce for agriculture has gradually become an important manifesto, and it serves a unique role in expanding market opportunities while maintaining low operational costs and gaining a competitive advantage for both suppliers and customers in the process, and will benefit countries with rapid technological advancement. Thus, the agricultural e- commerce is a growing aspect of e-agriculture and the e-commerce opportunities that the agricultural sector offers that remain underexploited.
+
+Hence, the emergence of digital channels and growing e-commerce across industries, e-agriculture (or e-agribusiness) is the use of the Internet and information technology in agricultural practices. However, Agricultural e-marketplaces have become an increasingly important part of the business landscape (Lilavanichakul, 2019). The agricultural e-commerce will help the farmers to sell their agricultural products. Farmers will also trade their products through the help of internet. The e-commerce provides an easy way to the farmers in dealing to their agricultural products, thus both farmers and consumers will increase their revenues.
+
+Application for Marketplace Agricultural Product
+
+Farmers' empowerment is an effort to improve farmers' ability to conduct better farming by providing education and training, counseling and mentoring, developing agricultural products and marketing system facilitating access to science, technology, and information, and institutional strengthening. Currently, the chain of commerce for the sale of agricultural products is still very long. That causes the price of agricultural products to be quite high.
+
+Based on the findings of (e-Marketer, 2017), the business-to-consumer (B2C) e- commerce market in Indonesia had the largest growth record in the Asia Pacific through 2017 with growth of 61.3 percent, followed by the Philippines with 53.2 percent growth and Malaysia with 36.8 percent growth. There is potential to improve the welfare of farmers in Indonesia, the Philippines, and other countries using information technology for marketing as well as direct transactions with consumers to reduce the chain of commerce.
+
+In the opinion of (Bhende et al., 2018), by introducing a new marketing method wherein a farmer can sell his crop or product at each layer of the marketing chain (merchants, markets, or directly to end users), multiple options become necessary to accommodate the same for a marketing chain that allows farmers to sell their produce at any layer of the market.
+
+According to (Heru et al., 2018) proposed an Android application for marketplace agricultural products based on Android. This application will provide information on agricultural products, facilitate farmers' efforts to market their agricultural products, and facilitate farmers' direct transactions with consumers. The application that facilitates farmers' marketing their produce at each layer of the marketing chain.
+
+Additionally, (Nayak et al., 2019) developed a website that aims to help farmers as well as customers buy and sell agricultural products across the country using a computerized approach. Farmers can browse through the information available on the website, such as the sale price of a certain product and the total sale and profits earned from the previous transaction. The website will act as a unique and secure way to perform agro- marketing. This project allows users to view various products and then purchase them instantly by making an online payment.
+
+According to (Fachriyan & Wijaya 2019), economic activity is currently entering an era known as the "era of the digital economy," which involves the process of "e- business" or "e-commerce," which involves the use of the internet network to sell goods and services. Because of the rapid growth of internet users, the agribusiness sector has adopted e-commerce, also known as "e-agribusiness". In line with the evolution of the internet, a new understanding of the electronic marketing paradigm in e-agribusiness has emerged in the form of an e-marketplace with an environment where buyers, sellers, producers, and distributors can all come together to conduct e-commerce transactions. As a result, before any new e-marketplace is established, a plan to establish this platform will be required.
+
+As many of the agricultural lands are located in rural areas, to help the farmers achieve good output and enjoy many benefits, they are advised to use the latest agricultural technologies and agricultural equipment, by using these technologies (Dharanidharan et al., 2018), it will be very easy for the farmers to fix a price for their product so that they can be aware of the good and bad market situation.
+
+Computer, Internet and Marketplace Adoption in Agriculture
+
+The advancement of information and communication technology is currently accelerating, and this trend is expected to continue. The presence of internet technology has had a significant impact on many aspects of human life, including education, government, transportation, and finance.
+
+According to (Rahadian et al., 2019), the rapid growth of small and medium enterprises provides an opportunity for business actors to broaden their business reach and market their products by leveraging internet technology. E-Marketplace is an electronic and online product marketing platform that brings together many sellers and buyers to transact with each other and exchange goods using internet technology.
+
+Agriculture remains a major source of revenue and food for many people around the world, as evidenced by the recent increase in agricultural product trade and food trade. This industry has seen many changes and advancements in farming approaches and techniques over the last few years and is one of the most dynamic sectors in the modern economy. As reported by (Matalaya 2018), given the scarcity of off-farm employment opportunities, much-needed increases in household income for improving food security must come from increases in agricultural productivity through better technology and more profitable crops. In the world as a whole, agricultural innovation provides benefits for both developed and developing countries.
+
+There are numerous advantages to using modern technology in agriculture. As believed by (Sumijan & Santony 2017), multimedia computers today have become a necessity, either for businesses or other community groups in some developing countries in the field of agriculture. One of the multimedia computer applications that is widely used today is e-commerce, where the buying or selling activity is conducted electronically on the Internet. E-commerce can also be a more specific means of advertising, sales, delivery, and can increase the number of farmers who are able to enter a better market that offers very competitive prices and great possibilities to sell their products.
+
+According to the (International Journal of Trends in Scientific Research and Development 2018), this interest has changed the world. In line with other sectors, retail businesses have taken up e-marketing, or internet marketing, expanding outreach to customers beyond their conventional shopping places. Farmers can use the internet in many possible ways to sell their products. For instance, they may be able to sell items through social media platforms or advertise their goods in various other ways. Using the internet in as many ways as possible as a way of selling agricultural products is changing marketing channels in the agribusiness industry.
+
+Based on (Jaswanth et al., 2022) the terminology "internet-based e-market" implies a platform that is committed to combining farmer, authority, and consumer, and by this means bridge the gap between them. The development of information technology and the Internet has led to their increasing use in agribusiness in many parts of the world. In the opinion of (Strzebicki 2017), electronic commerce has had a tangible impact on the way business is conducted and the structure of markets. It is shown that the development of electronic commerce in agribusiness is at an early stage of development and, at the same time, is a process of evolutionary change of the technologies and business practices that is evolving rapidly in scope, scale, and level of sophistication.
+
+As said by (Alvin & Kurniawan 2019), with the existence of the web, farmers have an easier time marketing their agricultural goods and a wider reach for their market, and for consumers, it makes payments easier and the ability to buy the agricultural products easier and more convenient. This proves that there was an impact given by internet business on agribusiness, which can open new business opportunities for farmers and vendors.
+
+As mentioned by (Su et al., 2021), few studies have documented the different impacts of e-commerce adoption characterized by online purchases and sales on farmers' participation in the digital financial market measured by their engagement in digital payments, digital wealth management, and digital credit in rural places. In his studies, (Soegoto et al., 2020), found that the role of market-false e-commerce in agricultural transactions is helpful, ranging from marketing products through media such as websites, social media, and advertisements to financial operations, such as the selling and purchasing of agricultural products. The role of the e-commerce marketplace in transactions greatly provides benefits such as facilitating transactions, knowing the availability of goods, and ease of accessing the site. Therefore, e-commerce and the digital financial market play a large role in rural people's willingness to participate in the digital financial market.
+
+According to (Mojica et al., 2018), agribusiness has to join other businesses in adapting to the globalized market environment to take advantage of the new opportunities brought about by the expanded market reach, which is characterized by increasing interdependence of markets and declining barriers to trade. With the increased internet and social media penetration in the Philippines, as shown in the digital statistical indicators for 2016 and 2017, and the support of telecommunication service providers, opportunities for the adoption of e-commerce are available for agribusiness companies and for the development of agribusiness systems. E-commerce becomes increasingly important to business organizations as businesses connect with other players in the supply chain.
+
+Online Farmers' Market Attendees and Availability
+
+Online shopping is changing the way offline markets operate. As online shopping for fresh produce takes off, it is important to investigate its effects on existing physical market outlets, including supermarkets, farmers' markets, and farm-to-table dining. Some of the studies found that lack of awareness, an inconvenient place and/or time, and low interest are the major reasons for nonattendance.
+
+According to (Gumirakiza 2019), found that among the reasons why farmers' market attendees don't frequent farmers' markets regularly are not knowing where they are and when they are there, inconvenient location, and a lack of interest in participating. His study suggests that farmers' markets could greatly benefit from developing marketing strategies targeting online shoppers to encourage them to attend farmers' markets.
+
+As a result, the (European Association of Mountain Areas 2018), proposes involving and engaging small farmers to work with an online platform to sell their products online, which will help them connect with the modern world and get wider distribution of their products. The platform only wants to engage with small producers to allow them to become more competitive and sell their products at a fair price, compared to big farming companies. This will help small producers be active on the online market. They will be able to sell their products at a fair price, compared to big farming companies, to help small producers be active on the online market.
+
+The Advantages of Local Farmers Using Online Marketing
+
+As stated by (Yasmin et al., 2018), many businesses' strategies now include a critical role for the digital marketing channel. Today, even a small business owner has access to a very effective and affordable method of marketing his or her goods or services. No limits apply to digital marketing. The business can utilize any technology, including social networking, SEO (search engine optimization), computers, televisions, game consoles, and digital billboards, e-mail, content, videos, and many other mediums are used to market the business as well as its goods and services.
+
+Accordant with (Trobe 2017), marketing food directly from producers to consumers, thus circumventing the "middlemen" in the food supply chain, has many potential benefits, including lower food prices and fairer prices for the farmers involved. For consumers, direct marketing initiatives are providing them with locally grown, fresh, healthy, and, in many cases, organic food at affordable prices, and this has led to greater competition among farmers, leading to lower food prices and even better prices for those producers. There are also environmental benefits to promoting access to locally grown food; such initiatives increase the sustainability of the food system. Creating markets where people can buy produce from local farmers and growers reduces the distance that food travels between producers and consumers, which in turn decreases global environmental pollution. 
+
+The Effects of Digital Marketing on Agricultural Businesses
+
+The internet and digitalization have changed the entire world in a way that affects our country in the same manner as in recent history. As indicated by (Fabeil et al. 2020), it has been demonstrated that the Internet makes internationalization processes like information gathering and networking opportunities easier. Like other sectors, the business of agriculture has taken up-marketing and expanded to new boundaries, providing services better than the conventional marketing places. Farmers can use the internet in many possible ways to sell their products, with bettesr contacts, more efficient ways, and more marketing technologies. And they are using the internet as a means and way for selling their agricultural products.
+
+According to (Reddy's 2019), agriculture marketing is defined as the series of activities conducted to explore, create, and deliver the value needed to satisfy the needs of agriculture product markets Development, modernization and expansion of the agriculture products are the major components of marketing. Agriculture market identifies the unfulfilled needs, desires & wants of the targeted consumers who are available for the purchase of Agriculture products.
+
+The Impact of Digital Marketing and Information and Communication Technology Solutions on Agriculture Businesses
+
+Governments have been supporting the development of agricultural marketing by intervening in it for the past several decades with the idea that by guiding it, they can benefit both producers and consumers. In this digitally dominated world, we can extensively develop agriculture marketing end-to-end through digital applications. With the use of technology, both producers and consumers will be able to access more information, thereby improving quality.
+
+As mentioned by (Behera et al., 2018), ICT helps the small farm holding farmers find multiple buyers for their agriculture products who are willing to pay high prices as the products are fresh. Now the buyers are increasing in the digital agriculture marketing mode. Small farmers can reach a large number of buyers over the global information network by using the latest digital technologies. Technology such as "Blockchain" is used to identify the poor quality in the food grain chain of any agriculture commodity, allowing early and efficient actions against its organization. Hence, consumers can gain a competitive advantage when they have a direct, safe, and secure platform to trade, starting from planting and cultivation to processing, transport, and marketing. It helps ensure the freshness and quality of agricultural products for customers.
+
+Agriculture marketing, according to (Bankar and Tamboli 2020), is defined as the services involved in moving an agricultural product from the farm to the target consumer. The primary goal of agriculture marketing is to reduce marketing costs and level the playing field for farmers across the country. The application of information and communication technology (ICT) in the agricultural sector has the potential to significantly improve agricultural efficiency and profitability. Consumer preferences have led to the adoption of new ICT technologies, which have a significant impact on marketing and supply chain practices. The use of ICT in agriculture benefits farmers by providing access to market information and promoting agricultural products. 
+
+Application of the Farmer Business Using the E-Market Place Method
+
+As stated by (Matatula & Widyaningsih 2018), the marketing of farm products has not been fully coordinated thus far. Despite technological advancements for small and medium-sized enterprises (SMEs), farmers remain unaffected by technology as a supporter of product promotion and marketing. Farmers can greatly benefit from product promotion because consumers increasingly value agriculture's sustainability. Online-based marketing technology is a solution for promotion and marketing because it expands the capacity of promoting and marketing their products online. So that product data in rural areas can be easily accessed, it can reach every area. This application for vegetable growers is based on digital technology and the E-Marketplace method, with the goal of facilitating the promotion and marketing of farmers' businesses online so that they are widely accessible.
+
+As reported by (Handayani & Pratama 2020), online-based businesses are increasingly prevalent because online shopping makes time and distance limitations easy to overcome. With the existence of an online business, marketing food products is easier and opens up very promising opportunities to penetrate all parts of the world, thus becoming an important instrument for enhancing local development. The results achieved can provide information on the average price of products in the market. Food marketing has become an important instrument for enhancing local development, enabling producers to compete with others in the market and thus provide food products with a more creative identity, expand the reach of marketing in real time, and provide opportunities to choose profitable ways of marketing.
+
+Electronic commerce and agribusiness opportunities
+
+In the contemporary era of information technology, several aspects of human existence have been aided and facilitated by information technology. E-commerce is one of the outcomes of the information technology industry's extremely quick development. E- commerce is a method or setting for buying and selling products, services, and information over an electronic network, such as the internet.
+
+Based on the study of (Rao 2018) claims that it also gives businesses the opportunity to boost productivity, cut costs and cycle times, and give customers more choice, information, and value. Ecommerce, according to (Erwandri et al., 2020) has had a significant impact on the growth of society's social and economic order and can be utilized to promote agricultural products. It is intended that by using E-Commerce to market their goods, their business would grow and that sales of agricultural goods will increase quickly in the future.
+
+Agriculture was identified as one of the great promises of e-commerce due to the high level of fragmentation in the supply chain, large volumes traded, and homogeneous products, all of which reinforced the expectations of low-cost efficiencies that e-commerce promised. (Balakrishnan et al., 2018) conducted research that summarized the state of information technology and agriculture, e-business platforms for agriculture markets, challenges, and adoption strategies for e-commerce in the agribusiness sector, including technological, regulatory, and business challenges. According to the study's authors, "the study of e-commerce is relatively new." However, e-commerce is still relatively primitive, and today, more and more companies want to publish on the Internet itself, as this is essential to remaining competitive.
+
+As mentioned by (Gupta & Sharma 2018), electronic commerce using Internet technologies helps businesses to cut costs and cycle time, raise efficiency, and provide more information, choice, and value to consumers in the market. The internet continues to become more popular among people who deal with agricultural businesses of any type, not just because the internet makes everything possible but also because it helps to make better and wider products available to consumers. While technology availability has increased and its access has become easier, the demographic transition is also characterized by a greater willingness to use technology among the farming community. Hence, it becomes imperative that agribusiness professionals focus on the elements that make them more attractive in this era of rapid advancement.
+
+Considerations for developing a quality, health, and safety management system for agricultural products sold via e-commerce
+
+As reported by (Ma et al., 2018), the continual development of internet technology and its extensive applications in the business domain have enabled the development of e- commerce in relation to agricultural products. However, this development is facing some "pain points." While middle-class consumers are displaying an ever-increasing demand for high-quality agricultural products via the e-commerce environment, the quality and safety of agricultural products in this environment cannot be guaranteed due to the lack of strict regulations concerning food safety and other quality issues.
+
+Therefore, strengthening the evaluation of the technical level of agricultural products' quality, health, and safety supervision via e-commerce, understanding the problems in the regulatory techniques of e-commerce of agricultural products, and increasing agricultural products' quality, health, and safety supervision via e-commerce are of great importance to satisfying the growing consumer demand for e-commerce in agricultural products.
+
+Furthermore, the key links and control points of quality and safety for agricultural products via e-commerce were identified, and an evaluation basis for the quality and safety management system of agricultural products in the e-commerce environment of quality. health, and safety was provided based on the theory of Hazard Analysis and Critical Control Point (HACCP).
+
+Influence of Participating in Farmers E-commerce
+
+Based on the microscopic survey data of (Guoqiang 2019), his empirically analyzes the influence of brand certification on cooperatives participating in ecommerce using a binary logistic regression model. The findings show that the proportion of e-commerce is generally lower, which requires further improvement. Furthermore, government sales support has a positive impact on cooperative ecommerce, which is an important guarantee for encouraging cooperatives to participate in e-commerce. While the difficulty of agricultural product sales has a negative impact on cooperative e-commerce, the higher the likelihood that the cooperative will participate in e-commerce.
+
+Therefore, as stated by (Ma 2019), it is crucial to make policy recommendations such as actively encouraging cooperatives to participate in brand certification, encouraging cooperatives to participate in e-commerce based on local conditions, and strengthening government sales support.
+
+With the continued development of digital construction in rural areas, its role in the upgrading of rural residents' consumption is becoming increasingly important. According (Zhang 2022), the farmers' wage income, property income, and total income all play a significant positive mediating role in the process of promoting consumption upgrading in villages; information literacy is a latent variable in the process of promoting consumption upgrading in villages. It also played an important positive mediating role.
+
+Agricultural Product e-Commerce Ecological Network System Construction
+
+The rapid advancement of Internet technology promotes the environmental renewal of traditional industries. China's 14th Five-Year Plan expressly calls for rapid growth in the Internet sector. As reported by (Zhong 2020), the main causes are inefficient rural development, farmers' lack of economic consciousness, and a lack of economic information. With the concept of a flat network, the Internet has altered the current scenario by removing the constraints of traditional agricultural product trade channels, allowing farmers to interact directly with consumers, and significantly increasing trading revenues.
+
+According to (Ferrand 2020), discusses the impact of the Internet on the global economy and industry before summarizing how e-commerce has evolved. The benefits and characteristics of e-commerce are then discussed, as well as the theoretical underpinnings and current state of agricultural product e-commerce development. The study draws a conclusion on the hypothetical system for the e-commerce of agricultural goods, highlighting the quick systematization and standardization of agricultural goods and suggesting some ideas and activities to assure the ecological evolution of agricultural e- commerce.
+
+The Effects of Government Policies and Farmers' Cognition on Farmers' E- Commerce Participation, Willingness, and Behavior
+
+According to (Wei 2020), farmers' income development, supply-side agricultural reforms, and farmer-market collaboration issues are all successfully addressed by e- commerce interest linking methods. Using a structural equation model, researchers can investigate how farmers' cognition and government regulations influence their willingness to participate in and actions in interest-linked e-commerce processes.
+
+As specified by (Ruan 2021), farmers' fundamental characteristics and experiences influenced how they viewed e-commerce, which had a significant positive impact on their willingness to participate and behaviors. Despite the fact that there was no clear positive influence on farmers' willingness to join, government policies did have a positive impact on farmers' experiences, knowledge of e-commerce, and participation habits. Farmers' fundamental characteristics interacted with government policies, influencing their willingness to participate and behavior.
+
+Development of rural e-commerce and farmer digital credit behavior
+
+According to (Yu 2020), investigated the impact of rural e-commerce development on rural households' digital credit behavior at the micro-level using a multivariate probit model and propensity score matching method with rural residents. The empirical findings indicate a replacement relationship between traditional bank credit and digital credit. Participation in e-commerce has a positive effect on the amount of digital credit and total credit obtained by farmers, increasing the amount of digital credit and total credit received by participating farmers by $0.922 million and $37.49 million, respectively, in comparison to farmers who do not participate in e-commerce. Additional research discovered by (Xiang 2021), that variations in the amount of digital credit received by e-commerce farmers were primarily caused by differences in capital endowment.
+
+The Development of a Unique Agricultural E-Commerce Platform
+
+As stated by (Quanhong 2020), building an exclusive agricultural e-commerce platform could be a good way to address the unsalable problem of agricultural products and promote the long-term development of "agriculture, rural, and farmers," according to the government, which has long been troubled by their production and marketing. Because the sector has logistical, branding, and customer retention issues, this study found that the creation of a specific platform for agricultural e-commerce is both necessary and advantageous. In light of this, this paper suggests a number of protections for the operational guidelines and management strategies for a dedicated agricultural e-commerce platform.
+
+Research on the Development Level of Rural E-Commerce
+
+According to (Xiang 2020), the growth of rural e-commerce has significant economic, social, cultural, and ecological benefits for farmers' overall development, as well as the efficient use of rural resources and the sustainable development of rural areas. Create a comprehensive assessment index system for the level of development of rural e- commerce (Li 2022), define the weights for each level using the analytic hierarchy approach, and use the systematic clustering method to perform cluster analysis on the level of development of provinces.
+
+Regional Rural E-Commerce Evaluation
+
+As reported by (Yang 2020), in recent years, the Internet has impacted every aspect of people's daily lives, and Internet industry has expanded rapidly. Rural e-commerce, a new transaction model, is a critical path to poverty eradication. More specifically, rural e- commerce has the potential to significantly alter the lives of rural residents in some way by allowing them to purchase high-quality and reasonably priced goods without leaving their homes. To put it another way, the introduction of national e-commerce into rural areas has altered rural residents' way of life and greatly improved their daily convenience. The rural economy is the main engine of the agricultural economy, and rural areas are an important part. The need for developing rural e-commerce has increased due to new and expanding rural demand in an environment where e-commerce is rapidly encroaching on numerous fields.
+
+To be more specific (Jiang 2021), the expansion of rural e-commerce has recently gained attention, and it is critical to coordinate efforts from all parties to investigate and invent in order to support the healthy and orderly development of rural e-commerce.
+
+According to (Bai 2021), data gathering and other methods are used to build the index system of elements that influence the growth of rural e-commerce. The study then uses the regional fuzzy information theory to assess the potential for rural e-commerce development in order to identify the key contributing elements. 
+
+Framework of the Study
+
+Figure 1. Conceptual Framework
+
+The figure displays the system's summarized steps necessary to achieve the determined goal. As displayed from the figure above, the frame work is split into three. First the Input where it contains the necessary hardware and software requirements of the system, second is planning where the development of the system will take place and consists of different stages, and lastly the third where the output will be the proposed title Cauayan City Farmers E-market.
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter goes into the details of the steps that the researchers have taken in designing and methodologies used to develop the system. Some of the concepts are demonstrated as diagrams for visualization and better understanding.
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram
+
+There are three entities being seller, buyer and admin. The seller provides product info within the system and goes through the process of product management, the buyer goes to the process of product viewing and ordering the admin has the ability to gather provided information by the users and monitor product and order reports as well as the process of the payment and delivery process of the seller and buyer, which is essentially the transaction.
+
+Fishbone Diagram
+
+Figure 3. Sample Fishbone Diagram of Existing Procedure
+
+The figure above shows the problems encountered when it comes to selling and buying crops split into four categories, people where connection is a key basis for farmers especially when starting out as they tend to have little to no audience, environment a crucial component in all businesses as it can determine a business sales and traffic which is why it is difficult to find a good location, transaction where processes may take longer the more people that are involved, and lastly management where some processes are hard to oversee and is more likely prone to human error.
+
+Gantt chart
+
+Figure 4: Gantt Chart of Capstone Project
+
+The figure above displays a bird's eye view of the project. It shows the steps that the researchers will be partaking as well as the timeline of those phases, additionally it will serve as a guide for the researchers to determine the completion of the project.
+
+Requirements Documentation
+
+Technical Background
+
+This discusses the technical requirement of the system in regard to its features, software requirement, hardware consideration and date.
+
+Materials
+
+1.1.1
+
+Software
+
+Microsoft visual studio code as a platform, specifically the Microsoft visual studio code is a source code editor developed by Microsoft for windows, Linus and MacOS and it includes support for debugging. Browser for reviewing the result of coding and PhpMyAdmin as the database. Laravel as a framework.
+
+Database
+
+: MySql
+
+Operating system
+
+: Windows 10
+
+Technology
+
+: Android/Laptop
+
+Programming language
+
+: Php, HMTL, CSS
+
+Platform
+
+: Microsoft Visual Studio Code/ Larvel
+
+1.1.2
+
+Hardware
+
+The researchers used one unit of laptop for developing the application and one unit of android phone for installing the actual application with the following specification:
+
+Laptop:
+
+Processor core i7
+
+Memory - 4GB
+
+Hard Disk-232GB
+
+Mobile/Android Phone:
+
+Android version 9
+
+Exynos 7420 Octa
+
+3 GB RAM and 32 GB
+
+1.1.3
+
+Data
+
+The data is provided by the head of the Cauayan City Agriculture office by interviews and survey questionnaires. Secondary data is gathered from the library and through the internet.
+
+Use Case Diagram
+
+Figure 5. Use Case Diagram
+
+The use case diagram is used to show relationships between the users and the system. There are three roles that are available, customers and buyers though both on the front end their accessibility within the systems features. The admin is the sole role that can access the back end and manipulate the system.
+
+Flowchart diagram
+
+Figure 6: System Flowchart of Existing Procedure
+
+The figure above shows the dataflow of current existing processes in the app. It demonstrates that users can choose between two functions, to buy where they can browse the app with the plethora of products that the farmers of Cauayan City offer or to sell some of their own which can only be available to those who are residents of Cauayan City. The process of purchasing has the option of contacting the farmers and the only current form of payment is cash on delivery (COD).
+
+Entity Relationship Diagram
+
+Figure 7. Entity Relationship diagram
+
+The diagram shows the relationship how the data shares between entities. The customers have a zero to many relationships with orders while orders have a one and only one relationship with the customer and same goes with seller to orders while having a zero to many relationship towards the products while products to seller has a one and only one relationship, orders to products have a one to many relationship and products to orders have a zero to many relationships, Reviews has a one and only one relationship towards products while products to reviews has zero to many relationship. And lastly, the users have a zero to many relationships to everything and everything has one to many relationships with users.
+
+Software Development Methodology
+
+Figure 8. Rapid Application Development model of Software Development Methodology
+
+The figure shows that the software model used by the researchers is Rapid Application Development Model because it involves minimal planning of prototypes; it distributes the analysis, design, build and test phase.
+
+Requirement Specification
+
+Phase 1: Analysis and Quick Design
+
+The researchers went to the agency's office to discuss the problems of the manual ways as well as the process and what the agency has in mind of the final output in order to develop a design that caters to their needs and wants.
+
+Phase 2: Prototype
+
+The prototype consists of feature placement and overall look of the application without the functions integrated as the researchers have focused on the layout first to make sure that it is clean and easy to navigate through and for changes to be easily made when being assessed, after the layout comes in the functions.
+
+Phase 3: Maintenance
+
+This is an important Phase in the project development, the system performance must be maintained properly for it to function in the long run, in order to do so checking any errors that might occur, bug fixing, improvements, adding more possible features, and flexible to change is a must.
+
+Phase 4: Implementation
+
+In this Phase the researchers chose to implement the system in The Agriculture Office of Cauayan City Isabela
+
+Data Gathering Procedure
+
+The Researchers used Questionnaire, Interview, observing method, and Surfing the Internet to gather Data. The Researchers used appropriate Data gathering instruments or method in order to obtain the needed information essential in their study.
+
+Questionnaire
+
+The Researchers printed forms that contains a list of questions answered by the respondents. The Researchers used it to gather information needed to find out the status, efficiency and problems encountered.
+
+Interview
+
+This method was utilized by the researches in the beginning of the study. The Researchers interviewed the office of the city agriculturist's staff.
+
+Observing
+
+The observation method is where the researchers wrote down notes and observe the information needed in the study when it comes to the system's functions and effects. This is a useful method in the analysis process.
+
+Internet Search
+
+Surfing the Internet is a new method in collecting information, topic and Related studies. The Researchers surfed the internet for better understanding of the study and related literature of problems encountered and to support the research.
+
+Table 1. Likert Scale, Range and Interpretation on the Problems and Challenges Encountered by the Respondents in Traditional Method:
+
+Table 2. Likert Scale, Range and Interpretation on the Evaluation of Cauayan City Farmers e-Market using the application based on ISO 9126 by the Respondents.
+
+The table above shows the Likert Scale, Range, and Interpretation in Analyzing and interpreting the data gathered from the respondents. Table will be used to interpret the data gathered with regards to problems encountered in the traditional method of farmer's marketplace, while Table 2 will be used to interpret the data gathered with regards to determine the effectiveness of the proposed system based on the client's feedback in terms of ISO 9126.
+
+Different Software Testing
+
+Testing is very important for a newly developed system to fix and test the reliability, to see the errors before the day of implementation begins. To progress the faculty performance evaluation system of agencies, eight levels of testing were conducted, Namely, Unit testing, Integration testing, Compatibility, Performances testing, Stress testing, Loading testing, System testing and Acceptance testing.
+
+Unit testing
+
+It is the system is tested partially and independently, component by component, to ensure that the portion or module works properly. In the Development of the Cauayan City Farmers Market, the developers tested each component independently before finally integrating each of them onto one system. The researchers used this test to verify that every input of data was assigned appropriate tables and fields used this test.
+
+Integration testing
+
+The researchers tested the system as a whole of the combination of all components and subcomponents in order to find the logical errors and malfunction of the system in the database.
+
+Compatibility testing
+
+This performance is done to check the application's compatibility. It is part of software non-functional testing conducted on the application to ensure the application compatibility with the different computing environment.
+
+Performance testing
+
+The researchers tried to run the proposed system and tried ordering and selling to see the output of the system works in terms of responsiveness and stability. Performance testing is a process of determining the speed or effectiveness of a computer, network, software, program device. The application is undergoing performance to determine to responsive and accurateness.
+
+System testing
+
+In this part, the researchers already conducted in the integration testing means the system is working properly. The researchers tested the compatibility of the system with the hardware and the software.
+
+Acceptance testing
+
+After all the initial testing of the system by the researchers. The researchers allowed the users to use the system in order for them to know how the system works and to get their comments for the system.
+
+System Architecture
+
+Figure 9. System Architecture
+
+The diagram shows that there are three users available with their own respective front end depending on the roles or purpose, the admin is the only user that can access and edit everything essentially having full control.
+
+Implementation plan
+
+Implementation Results
+
+After the implementation, the program was deemed successful. According to the engineer in the office of the city agriculturist, the system is a great help with the endorsement of their local farmers and produce. It will improve local visibility and orders thus making the tasks easier for users.
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by phase of study
+
+This chapter deals with the results of the data gathered, analyses, and interpretation by the researchers using the Pre-Evaluation and Post-Evaluation Questionnaires. First is the result of the Pre-Evaluation Questionnaires.
+
+1. Pre-Evaluation of Problems Encountered in the Traditional Method of Selling Agricultural Products
+
+Table 3. Weighted and Descriptive Interpretation of the Problems Encountered in the Traditional Method in terms of Product
+
+As seen in Table 3, the respondents have "Much a Problem" that the traditional method of buyers have difficulty in finding the products (4.3) and buyers may not be aware how much products costs change (4.13) and buyers cannot compare prices efficiently (4.43). As a whole, the computed overall weighted mean is 4.29 is described as "Much a Problem". This goes to show that the performance of traditional method in terms of Products is a problem that the respondents have encountered.
+
+Table 4. Weighted and Descriptive Interpretation of the Problems Encountered in the Traditional Method in terms of Location
+
+As seen in Table 4, the respondents has "Much a Problem" that the traditional method of Location can hinder the discoverability of the vendors (4.36) and it is harder to use traditional way of marketing (4.4) and respondents has "Very Much Problem" buyer traffic heavily relies on the location (4.63). As a whole, the computed overall weighted mean is 4.46 is described as "Very Much a Problem". This demonstrates that the respondents have had issues with the performance of the Traditional Methods in terms of Location
+
+Table 5. Weighted and Descriptive Interpretation of the Problems Encountered in the Traditional Method in terms of Transaction
+
+As seen in Table 5, the respondents has "Much a Problem" that the traditional method of Middlemen may be needed which can add to additional costs (4.26) negotiating can be harder when middlemen are involved (4.13) and respondents has "Very Much Problem" in the transaction process is usually takes a long time considering many parties are involved (4.56). The whole weighted mean, which was calculated, was 4.32 and was labeled as "Much a Problem". This indicates that the respondents have experienced issues with the traditional method's performance in terms of transactions.
+
+Table 6. Weighted and Descriptive Interpretation of the Problems Encountered in the Traditional Method in terms of Management
+
+As can be shown in Table 6, the respondents have "Much a Problem" with the Orders getting mixed (4.06) and Information usually isn't recorded properly (4.26) and some process of transaction are hard to oversee (4.13). Overall, the weighted mean of 4.15 is calculated and is labeled as "Much a Problem". This goes to show that the performance of traditional method in terms of Management is a problem that the respondents have encountered.
+
+Table 7. The Overall mean of Problems Encountered in the Traditional Method
+
+To conclude the table 7 shows the overall mean of the problems encountered in the traditional method. This are described in four factors, the products has the sub mean of 4.29, location with 4.46, followed by transaction 4.32 and lastly management with 4.15 which is described as much a problem.
+
+Overall, the pre evaluation of the traditional Method is rated as much a problem with a grand weighted mean of 4.31.
+
+2. Post-Evaluation to Determine the Effectiveness of the Develop System based on the client's feedback
+
+Table 8. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Functionality
+
+As seen in Table 8, the respondents "Strongly Agree" that the effectiveness of the developed system provides timely service (4.73) the records are secured (4.6) and respondents "Agree" in the system provides additional Customer Service (4.33). The calculated total weighted mean is 4.55, which is classified as "Strongly Agree." This demonstrates that the respondents have unquestionably acknowledged that there aren't many issues with the effectiveness of the proposed system.
+
+Table 9. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Reliability 
+
+On the other hand, the post-evaluation of the respondents in the effectiveness of the develop system along Reliability reveals that the Cauayan City farmers e-Market reacts appropriately when failure occur (4.36) and it can update the product easily (4.43) and it is easy to recover users information (4.36) are described as "Agree". The respondents "agreed" that the effectiveness of the proposed system on reliability is no longer a concern for them, as evidenced by the overall weighted mean of 4.38.
+
+Table 10. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Usability
+
+As seen in Table 10, the respondents "Agree" that the effectiveness of the developed system is visible and attractive when posted on the Cauayan City Farmer's e-Market (4.33) and Cauayan City Farmer's e-Market is easy to learn and use (4.33) and Cauayan City Farmer's e-Market is easy to operate and control (4.33). As a whole, the computed overall weighted mean is 4.33 is described as "Agree". This goes to show that the respondents have certainly agreed that there is no much problem they encountered in the effectiveness of the proposed system.
+
+Table 11. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Efficiency
+
+On the other hand, the post-evaluation of the respondents in the effectiveness of the developed system along efficiency reveals that there is less effort in getting product of customers using traditional method (4.16) and the data information are well organized (4.53) and Using the application/mobile phone appropriate for the farmers e-market system (4.6) are described as "Strongly Agree". Meanwhile, the overall weighted mean of 4.43 revealed that the respondents have "agree" that the effectiveness of the proposed system on efficiency is no longer a problem to them.
+
+Table 12. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Maintainability
+
+Table 12 shows that the respondents, "Agree" that the Effectiveness of the Develop System is that the system is easy to manipulate (4.23) and the system is easy to modify and adapt to the smart phone/ laptop (4.7) and it is easy to install in smart phone and other devices (4.7) as describe as "Strongly Agree". The calculated total weighted mean is 4.54. which is classified as "Strongly Agree." This demonstrates that the respondents unquestionably concur that there aren't many issues with the effectiveness of the proposed system.
+
+Table 13. Weighted and Descriptive Interpretation to Determine the Effectiveness of the Develop System based on the client's feedback in terms of Portability
+
+On the other hand, the post-evaluation of the respondents in the effectiveness of the develop system along portability reveals that it is portable to android device (4.66) and it is easy to use for another operating system (4.66) and it is easy to adapt to other environment (4.66) are described as "Strongly Agree". The respondents "Strongly Agreed," as indicated by the overall weighted mean of 4.66, that the effectiveness of the proposed system on portability is no longer an issue for them.
+
+Table 14. The Overall mean of the Effectiveness of the Develop System based on the client's feedback
+
+To conclude the table 14 shows the overall mean of the Effectiveness of the Develop System based on the client's feedback. It can be described that among the six (6) of ISO 9126, the functionality has the sub mean of 4.55, maintainability with 4.54, followed by portability 4.66 which are described as strongly agree. On the other hand, the reliability has 4.38, usability sub-mean is 4.33, and lastly the efficiency with 4.43 which is rated as Agree.
+
+Overall, the Effectiveness of the Develop System based on the client's feedback has grand weighted mean of 4.48 which the respondents strongly agree.
+
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+Cauayan City Farmer's E-Market is a simple and convenient way for users to sell and purchase produce of farmers in Cauayan City. Although this system is simple it may also involve human errors in orders and delivery. The researchers used the Rapid Application Development (RAD) framework to understand the process of the system and methodology to take the essential steps towards the development of the system. The researchers used questionnaire to gather the responses of the users regarding to the use of the system. According to the respondents and agency, they encountered a learning curve with finalized system nonetheless approved of it with some altercation. The respondents agreed to the benefits and function of the final system "Cauayan City Farmer's E-Market" in terms of functionality, reliability, efficiency, usability and strongly agreed in portability, maintainability.
+
+Conclusions
+
+With the development of "Cauayan City Farmer's E-Market" done and feedback from the respondents and agencies acquired the research:
+
+1. Based from the findings, the researchers concluded that there are problems and challenges when it comes to the additional costs of the manual ways which can be lessened through the use of an android application.
+
+2. The researchers interviewed the agency and discussed the process then designed and developed a system based on the results.
+
+3. The researchers used a survey questionnaire based on the ISO 9126 as a way for users to properly assess the developed Cauayan Farmer's E-Market system as it determines quality of a software product through six characteristics which resulted in some minor changes.
+
+4. The Office of the city agriculturist of Cauayan city assessed the process of the developed system and provided feedback for the functions which led to some changes from what was originally proposed and has since then been integrated by the researchers to the final and accepted system by the agency.
+
+Recommendations
+
+Based on the results of the finding and conclusion gathered, the researchers would like to recommend the following:
+
+1. The proponents recommend that delivery and transaction should be self-run by users.
+
+2. The proponents suggest that users should use their mobile number instead of email when signing up or logging in.
+
+3. The proponents recommend further that future researchers relative to this may continue to improve the proposed system.

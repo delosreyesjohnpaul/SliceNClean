@@ -1,0 +1,501 @@
+DIGITAL DOOR LOCK SYSTEM USING ARDUINO AND MOBILE APP Kristine Cabauatan Dessirei Ann Gapusan Jaymark Pasaraba January 2022
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Kristine Cabauatan Dessirei Ann Gapusan Jaymark Pasaraba January 2022
+
+
+
+ABSTRACT
+
+One way to secure our home is using door locks that is done manually. However, traditional door lock is not as safe as before, it can easily be broken. Door lock keys can be lost, stolen and duplicated by anyone specially intruders which make it easy for them to gain access and steal valuable things inside your home. Through technology modernization, traditional door lock is possible to access using smartphone. This study "Digital Door Lock System using Arduino and Mobile App," aimed to sdentify the problems encountered using traditional door lock It also aimed to test and evaluate in terms of Software Quality Standards ISO 25010.
+
+The researchers of the study used Rapid Application Development as the system development process that involves different phases. It includes define project requirements, user design (prototyping, test & iterate), rapid construction & feedback, and finalizing product or implementation In data gathering, the researchers presented the questionnaires online using Google Forms. The researchers used a Five-point Likert Scale in the survey questionnaire with a descriptive interpretation such as (Excellent, Very good, Good, Fair, Poor) and (Always a problem, Often a problem, Sometimes a problem, Rarely a problem and Never a problem). The gathered data was also analyzed using the weighted arithmetic mean by the researchers.
+
+Based on the analysis and evaluation of the developed system, home owners agreed that the traditional door lock is an "Always a Problem" in terms of performance efficiency, reliability, security and usability with a general mean of 4.53. While on the evaluation and testing of the developed system, the Digital Door Lock System is "Excellent" in terms of performance efficiency, reliability, security and usability with the general mean 4.68.
+
+Generally, home owner always encountered a problem in traditional door lock. Home owners together with an IT expert agreed that the developed system is excellent in terms of performance efficiency, reliability, security and usability.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+Technology is reshaping the world as ever-expanding intelligent applications surround it. Smart devices can be beneficial in providing people with adequate access. The proposed model consists of an innovative lock system that can be managed remotely via an app on our smartphones (Prabakaran et al., 2021).
+
+Through technology, the Barangay Diamantina of Aurora, Isabela can experience the modern door lock innovated with smart technology. This can be one way to know more about innovations and technology. It can improve how they secure their home and give them easy access by using their smartphones.
+
+Nowadays, people must know how to use a high-technology door lock to cope with the fast-changing world. The keys, made of chains, use the current door locks and sometimes just the traditional locks. However, can easily break lock can easily break the lock, and keys can be stolen, lost, or duplicated. They make it easy for outsiders to gain access and steal valuable items.
+
+Through innovations, it makes the industry modernized and automatically operated using controllers. One of the newest innovations is an old door lock that has become high- tech. Many electronic locks have been introduced, but not all people know about them or have seen them. Some are left behind about technology innovation, especially those in rural areas like this Barangay. This system project introduces a new innovative Digital Door Lock System Using Arduino and a Mobile App that will focus on replacing the traditional lock with a modern way of accessing the door where security is the main priority.
+
+Purpose and Description of the Project
+
+This project aims to provide a safe and secured home by constructing a Digital Door Lock System using Arduino and Mobile App. A user/homeowner must download the application and log in using their Smartphone to access the door lock. A traditional door lock has been done manually using door lock keys. A traditional door lock is not that secured and can easily break it; door lock keys can be stolen, lost, or duplicated by anyone and could give an intruder to gain access and steal inside your home. We extremely recommend a smart lock, the home automation door lock of the traditional door locks. Through innovation, door locks have been enhanced using electronic mechanisms to lock and unlock a door. Using the thing that we use every day, which is smartphones, why not install an application that can give you easy access to lock and unlock a door without using any keys.
+
+In another way, the user can change the application's password and the keypad's password through the application installed on the Smartphone. It is the most secure option available to protect homes from strangers. The smart door lock is becoming necessary for all smart houses, company offices, etc. It focuses on efficient smart features and offers a high level of security. One of the essential things that you need to consider in choosing the right lock is the cost of buying a door lock. Consider buying a smart door lock to lessen the expenses, and no need to pay an extra fee for the security and safety of your home.
+
+Objectives of the Study
+
+This study aimed to construct a Digital Door Lock System Using Arduino and a Mobile App that includes securing a room with authentication using Smartphone.
+
+Specifically, it aimed to:
+
+1. Identify the problems encountered in using a traditional door lock.
+
+2. To test and evaluate the project in terms of Software Quality Standards ISO 25010
+
+2.1 Performance;
+
+2.2 Reliability;
+
+2.3 Security; and
+
+2.4 Usability.
+
+Scope and Delimitation
+
+This research focuses on using Arduino to build a Digital Door Lock System Using Arduino and Mobile App. This research is limited to personal property (house, apartment, office, or a room) confined to designing and building a comprehensive, low-cost home control system using a numerical keypad and a mobile application connected with the Arduino Uno through Bluetooth. The residents will evaluate the convenient digital door lock at the Barangay Diamantina, Aurora, for them to experience and know the difference between this innovative technology. Other limitations include: (1) the smart lock can be only accessed by the users who have the authorization; (2) can access the keypad many times; (3) this application can only connect to Bluetooth once at a time to open and lock the door, and it cannot link to Bluetooth synchronously, and it's not connected to the internet; (4) can change the keypad and security app password can change the keypad and security app password multiple times in the application; (5) if you forget your password, the application allows you to clear your data; (6) the smart lock has only one button inside to open and close the door, (7) the technology does not keep or save any information regarding when the door is opened or closed; and this smart lock is powered by electricity, but it may also be powered by a battery or power bank in the case of a power outage,
+
+Significance of the Study
+
+The topic entitled "Digital Door Lock System Using Arduino and Mobile App will be advantageous to the following:
+
+To the Community. The proposed smart lock will be beneficial for the community by simply decreasing the rate of crimes in theft or burglary.
+
+To the Residence. The proposed smart lock will be beneficial for the householders in securing the safety of their kids or family, own room, and things or belongings.
+
+To the Developer. The proposed smart lock is one way to develop and improve the developer's skills in innovation and research.
+
+To the Future Researcher. This study would serve as a basis and additional reference for future researchers.
+
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+In this section, you will read about the different literature that the researcher has read that are directly related to their study. This literature helps the researcher have a more transparent background in developing the proposed door lock..
+
+Literature
+
+The design of a lock system can be opened or closed by entering the password or the gadget to control its presentation. The system uses Bluetooth technology with low power and is available on almost all devices. The design of the system is also completed with a unique feature to increase the security and the comfort of the users (Hadis et al., 2018).
+
+The world of today is a smart world. Everything in our smart society is smart, from the home to the metropolis. So, in this paper, a smart door lock system is presented as part of the smart home. By monitoring the live feed on their smartphone, this owner can operate their door. Visitors' information is stored in one database. This entire system is powered by Bluetooth technology. (Kavde et al., 2017).
+
+Visible light identification (VLID) is a high-security door lock that uses VLC technology. By using fingerprint scanners or password entering, the smartphone's identity application program validates the user. VLID is capable of utilizing cellphones' cutting- edge technology and software. Can upgrade it with advanced technology without having to be modified or replaced (Song & Nam, 2017). 
+
+The task proposes a practical and possible execution of loT utilized for smart door lock frameworks, using which the client can remotely control the entryway. The proposed arrangement utilizes a webcam and PIR sensor to detect the intruder and capture the picture (Davda et al., 2020).
+
+In this paper, Komol et al. (2019) a door locking system with some remarkable features is proposed, making the locking or unlocking of a door more reliable to the user than the traditional system. Full security access with an accurate detection system is provided here. It's a global ranged operation process that can be operated by a mobile phone through a short message service (SMS) transferring operation from any corner of the world.
+
+The system platform design of this article is based on the Android platform. The smartphone is used as a client to receive signals through Bluetooth and use a particular infrared protocol to send to household appliances that require action. The results show that: The system hardware and equipment is simple, the cost is low, and the system is reliable and easy to expand (Gou et al., 2018).
+
+According to Rahman et al. (2018), the proposed system implements a password- protected electronic lock that provides a significant benefit over a traditional lock and excellent security. The method comprises a keypad and 16x2 LCD along with a PIC18F452microcontroller. The password-protected electronic lock includes the keypad as input, LCD as an output device, and micro-controller as controlling unit.
+
+The system includes a 4X4 keypad input unit for entering the Personal Identification Number (PIN) and a Liquid Crystal Display (LCD) display unit for visual information display. When a user enters a PIN into the security system at any entrance, it captures it and compares it to the recorded PIN's for a match. If the captured PIN matches one of the saved pins, the door unlocks, allowing entry. If a match is detected, it will prompt the user to enter the new PIN twice. Otherwise, I will ask the current PIN will ask the existing PIN again. The system had a 100% success rate (SR) for registered users and a 100% failure rate (FR) for non-registered users (Orji et al., 2019).
+
+According to Goswami et al. (2017), now a day's most of the systems are automated to face new challenges and present-day requirements to achieve good results. An automatic lock system consists of an electronic control assembly that controls the output load through a password. This output load can be a door, motor, lamp, or any other mechanical/electrical gear. New advanced locking systems replace traditional lock systems using mechanical lock and fundamental mechanisms.
+
+Sankar & Srinivasan (2018) stated that the suggested solution uses the Internet of Things (IoT) to construct a digital lock system that ensures security for authorized and unauthorized users. The text password or thumb impression must enter the text password or thumb impression every time a person wishes to enter or leave their house or business, and the door will open automatically. If the person is authenticated and their information (password and biometric thump imprint) is already stored locally or in the cloud, the door will automatically open and close once they approve the digital lock system. The digital lock system is used to secure doors.
+
+A smart home and building automation play a vital role in providing security and reducing human resources.
+
+Umar, A. O. (2019) stated that creating secure entrance door lock mechanisms made a secure entrance lock mechanism. Doors are a common means of keeping people out of public and private spaces. The AT80S51 microprocessor will use the AT80S51 microprocessor in this system, code in Assembly language. The door is unlocked, and the authorized user is granted entry to secured areas such as offices or intimate rooms when the correct PIN is entered. The entrance door closes after a few microseconds to prevent unwanted users from getting access.
+
+According to Li, J et al. (2018), this paper proposes an improved, cost-effective electronic locking system that restricts specific individuals' access to certain data and valuables. The electronic safe prompts the user or access-seeking person for detailed security data, processes the data, and takes logical decisions, leading to granting access or denying access to a restricted safe. The most important strength of the system is the ease with which a user can easily change personal access keys without contacting any professional or programmer.
+
+According to Joshi P et al. (2019), the security level in this situation is deficient. As a result, there is a lot of robbery and stealing going on worldwide. As a result, many are afraid to retain any valuables in their houses. Many individuals now prefer to keep their money in banks. However, in this uncertain world, even institutions are not secure enough to meet people's needs. An ordinary person believes his valuables are safe if protection is efficient. As a result, this project may provide adequate security at a low cost.
+
+Radhika, K. & Velmani (2020) proposed a smart security system designed for an Android-based secure smart door accessing system that is very secure and sturdy. We apply this smart security system with Bluetooth and GSM modules in the proposed method for increased security. The Raspberry Pi module is used to implement the hardware for high- speed data processing. This application is used in banking, residential, and commercial settings.
+
+A smart door lock system that provides auto-lock, schedule lock, and security door lock features. An Android app can manage safety and provide ease of access management. We have also compared the performance of our Android app with the Arduino app. Results show that the prototype door lock is reliable and has a fast response time (Lima et al., 2020).
+
+Malicdem et al. (2019) proposed a door lock that detected a knock pattern and activated it via Android Software-created an Android Software to serve as the indicating app if the device can see any sound. The wooden door was assembled while the machine was constructed. The researchers recommend using ARK Door Lock as a device that heightens the security of homes and properties. The password is entered using a keypad, and if we enter the wrong password three times, the buzzer will sound. The entered password is compared to the password previously entered into the system. The mechanism rotates the door motor and displays the status on the LCD if an appropriate password is supplied. If the password is erroneously entered, the LCD's the word "WRONG." (Roopchandka et al., 2019)
+
+Studies
+
+According to Kumari V et al. (2018), the rapid and revolutionary advancement in technology has increased the demand for advanced mobile applications in our daily lives. This paper proposes a key less smart home security system that uses Bluetooth as a communication protocol to automate door locks based on a security code and predefined user credentials. The system integrates two modules: one of which is the Arduino micro- controller responsible for authentication and verification of security code, and the second is the android application, which provides an interface to the user to set credentials and security code. Arduino and Android are open sources. Hence implementation rate of the proposed system is inexpensive and feasible.
+
+According to Sidik, M et al. (2020) proposed study entitled "Smart Door Lock System Using Bluetooth Based Android for Smartphone with Door Lock Keypad," Arduino micro-controller will control all the hardware and software functions. Bluetooth module is connected to the Arduino UNO to link with the door lock application in the Android smartphone to command servo motor to control the door's movement. Open or close the door depends on a range of Bluetooth and the password that has been set. We can improve home security by using a mobile phone to take care of our belonging.
+
+Internet of Things (IoT) technology in all parts of life has expanded recently, and the most significant sectors affected by this development are locks, security systems, and remote control technologies. Based on Bluetooth technology, the proposed Smart Locker may be managed remotely using a mobile phone application to develop interfaces that improve security and convenience in this study. In addition, if the phone is not available, use a Keypad 4x4 will use a Keypad 4x4 to open the lock. (Alqahtani et al., 2020)
+
+The design of smart door locks which can control can control through Bluetooth is proposed. The first process of the method is an overall design of door locks based on Bluetooth control. The second process is hardware design, which mainly adopts a Bluetooth serial port module, drives the motor, and limits the switch. The last process is software design, including central controller, door locks controller, Bluetooth communication module, and system keyboard Mu, Z et al., (2020). 
+
+Dhiraj Sunehra (2019) designed a Raspberry Pi-based Web-controlled entryway bolt system with an email alarm. The client can remotely lock/unlock and open/close the doorway via a secure web portal. The framework's primary purpose is to provide security and ease of authorization to a household.
+
+According to Izadeen G. Y et al. (2021), the world has embraced smart devices in more significant numbers due to recent advancements and compelling applications. Criminals actively attempting to penetrate security have turned their sights to smart devices. As a result, there have been several attacks on these systems. Some password- based authentication schemes have been offered to counteract these assaults.
+
+Security has always been an essential factor in life. The plug-in electronic door lock is designed to have two levels of security. The first section is a mobile section which serves as the key. If the correct password is entered, the door lock will open the door for 15 seconds, after which it will automatically close the door back. Can use this work for access control in homes and offices. The system contains a matrix keypad, LED, and a micro- controller (Odu et al., 2017).
+
+Dwivedi et al. (2020), the Wi-Fi range allows the user to lock and unlock any system or appliance from inside or outside the house. Here, the door lock system is designed for normal mode and multi-mode operations. If the door isn't locked, the user can close the door from their smartphone via Wi-Fi range. Such a system is essential during a bank and commercial enterprise. The proposed task is to transmit the signal from the mobile to the receiver using the Wi-Fi system.
+
+Smart door locks which can control can control through Bluetooth is, proposed.
+
+The first process of the method is an overall design of smart door locks based on Bluetooth control. The second step is to design the hardware, including a Bluetooth serial port module, a drive motor, and a limit switch. The final step is software design, which includes the central controller, door locks controller, Bluetooth connection module, and system keyboard (Zhaonan et al., 2020).
+
+Simon et al. (2020) proposed a project that a keypad is provided for an authorized individual to enter a password for door unlocking; if several incorrect password tries are performed, a burglary attempt notification is sent to the homeowner for immediate action. The significant advantage of this system is the uniqueness of the password and messaging systems' integration, which prevents access to any unauthorized personality and owner's awareness approach. The keypad is then supplied for an authorized individual to enter a password for door unlocking; if many incorrect password tries are performed, a burglary attempt notification is displayed, would be forwarded to the home's owner for immediate action.
+
+One of the most important aspects of home security is the door access system. It has been improved throughout time by using various techniques such as mobile applications, real-time authentication systems (e.g., audio and video processing), Bluetooth, and other technological advancements. This paper depicts an IoT and Wi-Fi- based door access control system in which a user can control door access from his phone within the coverage area given by the wireless Access-Point located within the residence. This system makes use of the Android phone's biometric capability, which is utilized to confirm allowed users, as well as a cloud-based server as a user verification medium (Deepty et al., 2019).
+
+Smart doors are important initiatives that allow individuals to access doors and prevent illegal personnel from entering. An Arduino board containing lines of code, a hexadecimal keyboard, and some jumper wires are used in this project. The Arduino board, which enables Smart Doors, is the project's most prominent feature. People's technical improvements are skyrocketing these days (Saranya et al., 2019).
+
+Zin et al. (2019) proposed a system that is utilized to regulate lamp, fan, and door locker security connected to the internet and can be controlled using a smartphone. The Arduino Uno was used as the central controller, with the ESP8266 Wi-Fi module providing wireless connectivity to the system. Besides accessing the system remotely, there is also a keypad, which will be covered in this paper, to overcome problems such as mobile phones running out of charge. Blynk, a mobile application, was chosen to operate the microcontroller board via the internet.
+
+Availability of digital password lockers and door locks, an unauthorized person's hacking of the lock code has become a simple process. In this prototype, the one-time password (OTP) plays a critical role in ensuring security. Because roughly 90% of authentication methods, such as Aadhar, banks, and others, are based on OTP, this system provides a low-cost service while also ensuring high security compared to other security systems. It gives users the best protection for their privacy regarding door locks, lockers, and automobiles. Despite the availability of digital password lockers and door locks, an unauthorized person's hacking of the lock code has become a simple process Sreekanth et al., (2021).
+
+Aluri (2020) states that the smart lock is the modern version of traditional safety.
+
+The purpose of this paper is to give an overview of the many options available technologies for smart locks Adoption of an innovative lock system. Today, there is an alarm system in many houses and businesses, a unique method with numerous user-friendly advantages with a few minor drawbacks.
+
+Concept of the Study
+
+Figure 1. Conceptual Framework
+
+The figure shows the system's paradigm and summarizes the steps to achieve the study's goals. To address the information needed to develop the proposed method, the input requirements contain two categories: hardware requirements and software. Second, it has planning, designing, and testing for constructing and testing the door lock operation. Third, the proposed system will produce an output Digital Door Lock System Using Arduino and Mobile App for Diamantina, Aurora residents.
+
+Conceptual Diagram
+
+Figure 2. Conceptual Diagram
+
+The diagram above shows the concept of the proposed system. The homeowner will be one of the user that is authorized to unlock the door using the numerical keypad and mobile application for another access to control the door lock to unlock and lock the door. The user is allowed to also change the keypad password and its application.
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter deals with the different requirement analyses in every figure's data flow, Fishbone, Gantt Chart, Use Case, Functional Decomposition, Flowchart, and Architecture System.
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 3. Data Flow Diagram
+
+The figure above shows the data flow of the proposed system. It shows the function of the system and user. The data flow diagram shows external entities, data storage and procedures to be taken.
+
+Fishbone Diagram
+
+Figure 4. Fishbone Diagram of Traditional Door Lock
+
+The figure above shows the different encountered problems with the traditional lock, such as method, power, performance, security, and material. For example, people can always forget, lose, and misplace the key.
+
+Timeline of the project
+
+Figure 5. Gantt Chart
+
+The figure above shows the timeline of the project. It presents the different activities that guide the researchers to finish the study. It also shows the expected duration for each of the activities.
+
+Requirement Documentation
+
+Technical Background
+
+This section presents the technical background of the study "Digital Door Lock System Using Arduino and Mobile App." It discusses the project's technical aspects, the technologies to use, and how it will operate.
+
+Materials
+
+1. Software
+
+There are three software that we used and this are the following: (1) Arduino IDE - A cross-platform application created with C and C++ functions. It's used to program Arduino compatible boards and transfer them; (2) Android Studio - A unified environment where you can build apps for Android phones, tablets, Android Wear, Android TV, and Android Auto. Structured code modules allow you to divide your project into units of functionality that you can independently build, test, and debug; and (3) Java - an object- oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code runs on most operating systems (OS), including Windows, Linux, and Mac OS.
+
+2.Hardware
+
+The following are the different hardware used in the study with their specifications:
+
+Arduino Uno
+
+is an open-source microcontroller board. The board has several digital and analog input/output pins that can connect to expansion boards and other devices.
+
+4X4 keypad
+
+by pressing a button closes the switch between a column and a row trace, allowing current to flow between a column pin. and a row pin. The Arduino detects which button is pressed by detecting the row and column pin connected to the controller.
+
+Bluctooth Module
+
+manages the communication channel of the wireless part in the proposed project. The Bluetooth modules can transmit and receive the data wireless by using two devices to lock and unlock the door.
+
+Breadboard
+
+holes let easily insert electronic components to prototype meaning to build and test an early version of an electronic circuit, like this one with the proposal project the butions.
+
+Jump wires
+
+are simply cables having connector pins on both ends that can join two points without the requirement of solder. Jumper wires are usually used with breadboards and other prototyping tools to allow for quick circuit changes as needed.
+
+Resistor
+
+researchers use resistors to limit the amount of current to specific components in the circuit.
+
+Active Buzzer
+
+has a built-in oscillating source, so it will make sounds when electrified. When you input a wrong PIN, it will make a sound.
+
+USB 2.0 cable
+
+provides a USB Type-C connector at both ends for quick and easy data transfers up to 480 Mbps
+
+LCD(liquid-crystal display)
+
+is a flat-panel display or another electronically modulated optical device that uses the light-modulating properties of liquid crystals combined with polarizing.
+
+Tactile Button
+
+can press the button down, and the operator can feel it pop back up. Tactile switches are also called momentary, meaning the control only works when the button is being pressed.
+
+Servo Motor
+
+which receives and processes PWM signal faster and better to unlock or lock the door by the rotation of servo motor.
+
+9Volts Battery
+
+EVEREADY SUPER HEAVY DUTY
+
+Power Adapter
+
+Battery Clip
+
+Smartphone
+
+which means this battery can continuously supply one ampere of current for many hour before it reaches the voltage threshold and is considered depleted.
+
+is an extemal power supply used with devices that run on batteries or have no other power source.
+
+this 9V Battery Clip attaches to a 9V Battery, complete with red and black power wires. Cable length of 100mm with good quality.
+
+a mobile device that combines cellular and mobile computing functions into one unit. The user will be using this to communicate using Bluctooth into the parts of the Bluetooth
+
+3. Data
+
+The data were acquired from the Digital Door Lock, specifically from the keypad used in the system and the applications that can install on the smartphone.
+
+Use Case Diagram
+
+Figure 6. Use Case Diagram
+
+The user's probable engagement with the system is depicted in the diagram above. It demonstrates that the user can unlock and lock the door using both the numerical keypad and an application, but only one at a time using Bluetooth. On the other hand, the parents' user can change the numerical keypad passwords.
+
+Functional Decomposition Diagram
+
+Figure 7. Functional Decomposition Diagram
+
+The figure above shows the functionality of decomposition diagram of a User. Each devices has a breakdown structure and the user is composed of 3 modules the keypad, button and application. Each one has a sub modules for breakdown. It shows the whole function of the project and the breakdown structure of the system.
+
+System flowchart
+
+Figure 8. System Flowchart
+
+The figure above shows the system flowchart wherein the user continually needs to enter a PIN. If you are new to using your app, you must register and allow your Bluetooth to access you in the home, where you already have other features such as unlocking or locking the door, changing the password of your keypad and changing the application settings.
+
+Software Development Methodology
+
+Design of Software/Systems
+
+Figure 9. Rapid Application Development
+
+The researchers of the study used Rapid Application Development. The system development process involves different phases. It includes the Define project requirements, user design (prototype, test & iterate), rapid construction & feedback, and finalizing product or implementation. As shown in the figure above.
+
+Phase 1: Define Project Requirements
+
+In this phase, the researchers identified the concept of the project, problems, objectives, and scope. The researchers search the internet to know the different materials to create the Digital Door Lock System Using Arduino and Mobile App. The researchers need to purchase the required materials as soon as they identify the materials needed.
+
+Phase 2: Prototyping (User Design, Iterate and Test)
+
+In this phase, the researchers started designing, iterating, and testing the system.
+
+The researchers made necessary adjustments during system development.
+
+Phase 3: Rapid Construction and Feedback Gathering
+
+In this phase, the researchers tested the input and output functionality of the system to know if the system served its purpose or not. And consolidated the feedback from the users to improve the system.
+
+Phase 4: Finalize Product/Implementation
+
+The last phase is the implementation phase. Once the development of the system was completed, the researchers implemented it to 49 residents of Barangay Diamantina, Aurora, Isabela, and 1 IT expert. The respondents were given a questionnaire to evaluate the system based on ISO25010. The researchers also utilized respondents' feedback to know the necessary adjustment to improve the system.
+
+Development and Testing
+
+Data Gathering Procedure
+
+This study used the structured questionnaire as the primary data collection tool. It also used internet research to support the data information collected from the questionnaire. Simple random sampling was also used as a sampling technique.
+
+Questionnaire: The researchers created a structured questionnaire as the main instrument in collecting the data and distributing it to the respondents. Every respondent was given a set of questions, and they evaluated the system based on the ISO 25010.
+
+Internet Research: Due to the pandemic, researchers use the internet to search for information instead of going to any library because it is easier to use.
+
+Data Analysis Plan
+
+Mean and Standard Deviation were used to describe the problems encountered on conventional lock and the performance of the Digital Door Lock System in Accordance with ISO 25010 - Software Quality Standards in terms of Performance Efficiency, Reliability, Security and Usability.
+
+The following scale was used to describe the computed mean.
+
+A. The following formula was used in finding the percentage of the samples
+
+in the presentation, analysis, and interpretation of data.
+
+% (f/n) 100
+
+Where: % percentage
+
+f = frequency
+
+n=number of respondents
+
+B. The data gathered were analyzed using weighted mean with the following formula.
+
+1)+2(5) + 3 (f) + 4 (f) + 5(f) Wm = N
+
+Different Software Testing
+
+Testing
+
+To test the system door lock, the respondents will use the system door lock for evaluating purposes to generate accurate data that would make the project more functional for the user.
+
+Unit Testing
+
+The researchers will evaluate the procedure and working method to see if they are compatible. The structure is accessible to the user. The researchers will also consider the software's capability to run on the hardware.
+
+Performance Testing
+
+The researchers will test the digital door lock and the application installed on the smartphone in performance testing to see if the system will work successfully.
+
+Stress Testing
+
+In stress testing, the researchers will evaluate the system's process ability. To identify the system, this phase will need to be accomplished.
+
+System Testing
+
+The researchers will demonstrate the system to the respondents the functionality of the system and how it works, including the demonstration of the Digital Door Lock System Using Arduino and Mobile App.
+
+Acceptance Testing
+
+The researchers will conduct the system to the residents of Barangay Diamantina, Aurora, Isabela to see if the participants agreed and all conditions were met.
+
+Description of the Prototype
+
+The system features include the numerical keypad to input the password. It also enables users to see the visible actions from the LCD. It also allows the users to control the door lock to unlocked and locked automatically and can also change the numerical keypad password and its settings password application. The researchers will create a system that incorporates current trends and technologies available to the current generation to meet the earlier features mentioned.
+
+System Architecture
+
+Figure 10. System Architecture
+
+The figure above shows the flow of transactions on how the digital door lock and its application works.
+
+Performance Test
+
+For measuring the performance test of the system, continued the methodology system to try, and the observation output result was shown in Table 1 as performance test data and result
+
+Table 1. Performance Test Data
+
+To check the system's performance, a performance test has been done in several steps. The first step is to power the system. Secondly, the user needs to input the password set by the user in the keypad, and then it will activate the servo to control the latch. In the third step, the application is to connect to Bluetooth. The application will need to register a user to take any action to unlock, lock the door and verify to change the password of the keypad and its settings of the application. A flow chart of the system's operation is shown in Figure 7.
+
+Implementation Plan
+
+Table 2. Implementation Plan
+
+Upon implementing the Digital Door Lock System Using Arduino and Mobile App at the Barangay Diamantina, Aurora, Isabela, we talked to Mr. Robert Marquez Barangay, Captain of Diamantina. We discussed and presented our digital door lock of how to manage it. His reaction is satisfied, and giving excellent comments.
+
+
+
+
+
+CHAPTER IV
+
+RESULT AND DISCUSSIONS
+
+This chapter presents the data gathered, the results of the statistical analysis done and interpretation of findings. It shows that there were 50 or 100% respondents answered traditional door lock; none of the respondents answered digital door lock.
+
+Table 3. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Problems Encountered on Conventional Lock
+
+As can be gleaned from the table, in terms of performance efficiency of the conventional lock, the respondents regarded faulty door lock mechanism as always a problem SD = 0.57 ) and misaligned door latch as often a problem ( M = 4.32 , ( M = 4.58 , SD = 0.65 ) In general, the respondents often encountered problems in terms of performance efficiency of the conventional lock ( M = 4.49 SD = 0.33).
+
+As regards reliability of the conventional lock, the respondents considered the key is left inside the house and the door is already shut as always a problem ( M = 4.78, SD = 0.46) while they considered duplicate keys are required as often a problem ( M = 4, SD -0.97). Hence, the respondents often encountered problems in terms of reliability of the conventional lock (M = 4.44, SD = 0.47)
+
+In terms of the security of the conventional lock, the respondents viewed that the key may be dropped as always a problem (M = 4.84, SD = 0.47) while the house key can be borrowed by relatives to take stuff or equipment as often a problem (M = 4.18, SD = 0.8) Thus, the respondents always encountered problem as regards security of the conventional lock (M = 4.62, SD = 0.32)
+
+With regard to the usability of the conventional lock, the respondents regarded the difficulty to open the lock when the key is broken as always a problem ( M = 4.74 SD = 0.56) and the trouble in inserting the key as often a problem (M = 4.32, SD = 0.59) Hence, the respondents always encountered problems on the usability of the conventional lock (M 4.58, SD = 0.37 )
+
+In general, the respondents always encountered problems on using conventional lock ( M = 4.53 SD = 0.3 )
+
+Table 4. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Performance of the Digital Door Lock System in Accordance with ISO 25010-Software Quality Standards in terms of Performance Efficiency
+
+As can be gleaned from the table, the application excellent in terms of locking and unlocking doors ( M = 4.78 , SD = 0.46 ) , visibility of the operations performed ( M = 4.64, SD 0.56), and application's user-friendly design and concepts ( M = 4.74 SD = 0.56 ) in accordance with ISO 25010-Software Quality Standards.
+
+In general, the Digital Door Lock System is excellent in terms of performance efficiency ( M = 4.72 , SD = 0.38 )
+
+Table 5. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Performance of the Digital Door Lock System in Accordance with ISO 25010-Software Quality Standards in terms of Reliability
+
+As shown from the table, the application is excellent with regard to back up in case of forgotten password (M=4.62, SD=0.53), and back up batteries in case of a power outage (M=4.82, SD=0.44) in accordance with ISO 25010-Software Quality Standards. In general, the Digital Door Lock System is excellent in terms of reliability (M-4.72, SD =0.41).
+
+Table 6. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Performance of the Digital Door Lock System in Accordance with ISO 25010-Software Quality Standards in terms of Security
+
+ It can be observed that the application is excellent in terms of smart use of the concept and control of the application (M = 4.7, SD = 0.51) and access to those who have been given the authority (M = 4.6, SD = 0.61) and very good in terms of the security of the door lock system (M = 4.48, SD = 0.68) in accordance with ISO 25010- Software Quality Standards.
+
+Hence, the Smart Door Lock Wireless Application is excellent in terms of security (M = 4.59, SD = 0.45)
+
+Table 7. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Performance of the Digital Door Lock System in Accordance with ISO 25010-Software Quality Standards in terms of Usability 
+
+As shown from the table, the application is excellent as regards instantly updating the password on the door lock keypad and application using smartphone( M = 4.76 SD = 0.43 ) convenience on using and requiring security code to open ( M = 4.66 , SD = 0.59 ) and controlling with ease using smartphone and Bluetooth connection (M = 4.66, SD = 0.59) in accordance with ISO 25010-Software Quality Standards.
+
+In general, the Digital Door Lock System is excellent in terms of usability (M = 4.69 , SD = 0.39 ) .
+
+Table 8. Mean Response and Standard Deviation with Descriptive Interpretation regarding the Performance of the Digital Door Lock System in Accordance with ISO 25010-Software Quality Standards
+
+It can be noted that the application is excellent in terms of performance efficiency
+
+( M = 4.72 , SD = 0.38 ) reliability ( M = 4.72 , SD = 0.41 ) , usability (M = 4.69, SD = 0.39) and security ( M = 4.59 , SD = 0.45 ) in accordance with ISO 25010 Software Quality Standards.
+
+In general, the Digital Door Lock System is excellent ( M = 4.68 SD = 0.34 ) .
+
+
+
+
+
+CHAPTER V
+
+SUMMARY OF FINDING, CONCLUSIONS, AND RECOMMENDATION
+
+This chapter summarizes the conclusions, verified assumptions, and recommendations based on the responses to the "Digital Door Lock System Using Arduino and Mobile App for Diamantina, Aurora, Isabela" questionnaires.
+
+Summary
+
+The general aimed of this research project was to develop and design a high-tech Digital Door Lock System Using Arduino and a Mobile App that would allow the user to use the door lock easier and change the password of the keypad and its application anytime. The literature aids researchers in their studies in order to gain a better understanding of the proposed project and also to help them achieve the project's goal. Used Arduino IDE, Android Studio, and Java to create the project and its application. The offline application was finished by the deadline for presentation to support the project's timeline.
+
+Based on the responses in terms of ISO 25010 Software Quality Standards with a Category mean of 4.72, Reliability with Category mean of 4.72, Security with a Category mean of 4.59, and Usability with a Category indicates of 4.69. As a result, the respondents expressed excellent and satisfaction with the result. Excellent with its grand mean of 4.68.
+
+Conclusion
+
+The researchers concluded that the proposed project is reliable, secure, and valuable following the details and evaluation. Residents of Diamantina who use the traditional door lock may experience the benefit of the project. Based on the findings of the study, drew the following conclusions:
+
+1. The residence of Diamantina and IT expert evaluated the problems encountered of traditional door lock as always, a problem and the proposed project as excellent
+
+2. The residence and IT expert strongly agreed to the developed project by.
+
+3. The developed project saves time and money in using the digital door lock rather than the traditional door lock used by many residents by duplicating the keys and changing the door lock many times.
+
+Recommendations
+
+Based on the findings and conclusions, the researchers would like to consider the following recommendations:
+
+1. The researchers are recommended to test the system for a longer duration.
+
+2. The researchers strongly recommended testing the application on more than one user.
+
+3. The researchers strongly recommended who will adapt this study can add other devices like biometric, face recognition, PVC card, or any devices that will help improve the developed system

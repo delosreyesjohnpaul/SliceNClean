@@ -1,0 +1,482 @@
+Smart Mapping of MSME's as Business Locator of Naguilian, Isabela Norie Mae L. Monterubio Renz T. Ortiz Mark Anthony A. San Mateo January 2023
+
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Norie Mae L. Monterubio Renz T. Ortiz Mark Anthony A. San Mateo January 2023
+
+
+
+ABSTRACT
+
+The Smart Mapping of MSME's As Business Locator of Naguilian, Isabela. Was developed in order to establish a system which aims to locate a business in Naguilian. Without a business locator they didn't see a types of businesses so that with a business locator can easy to find a business.
+
+Proposing this system using a coding, PHP, HTML and CSS was applied for the system design. Aside from the information gathered during the interviews. Survey questionnaire has been used by the researchers in the conduct of the study.
+
+Findings showed that the majority of the respondents were "Highly Acceptable" Therefore, "Smart Mapping of MSME's as Business locator of Naguilian, Isabela" Should be in Website for Further testing and debugging.
+
+Upon determining the benefits of the proposed system for Naguilian, Isabela. It was found out that the respondents fairly agreed on the benefits of the proposed system in terms of security, Locate map Reliability, Functionality and Usability.
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+The digital revolution of the last 20 years has dramatically altered how businesses interact with one another, their customers, suppliers, and business partners. Customers' access to a company's products, goods, and services is no longer limited by geography. When your company or business is highly visible on various search terms, its credibility improves significantly. When People recognize your company or business name on Google maps with the SERP (search engine result page) results, you won't have to worry about paying to promote your business. Optimizing your Google maps GMB (Google my business) and profile increases your company/business overall credibility and attracts more customer. Google maps can be used to provide a visual interpretation of data. Google maps is an excellent example of a web-based GIS mapping solution that people use for everyday navigation purposes. The biggest advantage of business owners have is when the list their business on web-based mapping using Google maps is that the customers can contact shops directly. (Mansi Rana, 2021)
+
+Naguilian Local Government is the subject agency of the research specifically the Office of the Municipal Treasurer. The department of business permit and licensing division of the local government of Naguilian. It is responsible in processing of business applications both new and renewal to be aware of having a new business.
+
+Micro, small, and medium enterprises (MSMEs) make a crucial contribution to the expansion and development of the economy. The right and good location will increase the chances of a successful and profitable business. This system will enable us to locate a business in Naguilian, Isabela. With this system, you don't have to go all over Naguilian, Isabela to find the businesses.
+
+With the current situation of the Office of the Municipal Treasurer of Naguilian, Isabela. researchers are interested to explore and develop a system that will help business owners and personnel of the Office of the Municipal Treasurer cope to the digitization method of sharing and viewing information relevant to the businesses.
+
+Objectives of the Project
+
+The main objective of the study is to develop "Smart Mapping of MSMEs as Business Locator of Naguilian, Isabela"
+
+Specifically; it aims to:
+
+1. develop a mapping system that would locate businesses in Naguilian, Isabela.
+
+2. provide more information about the businesses in Naguilian Isabela. In terms of:
+
+2.1 Business types;
+
+2.2 MSME's types;
+
+3. evaluate the performance of the developed system in terms of:
+
+3.1 functionality;
+
+3.2 reliability;
+
+3.3 usability;
+
+3.4 security;
+
+3.5 portability; and
+
+3.6 maintainability;
+
+Scope and Limitations
+
+This study focuses on creating a Smart Mapping of MSMEs as Business Locator of Naguilian, Isabela through the use of their gadget.
+
+All user who wants to look the businesses location in Naguilian, Isabela. They can look for and quickly locate their location and business types.
+
+This study is limited only in to Naguilian, Isabela and the users cannot send directly messages to the owners through our system website.
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+According to Stepniak et. al. (2020), the use of GIS (Geographic Information System) systems to manage investments in cities is becoming more and more popular. Current technology enables the use of GIS system with the use of network technology. In this way, the same maps can be used by users of different units. Implementation of investments in cities often requires cooperation between different institutions, offices and other entities. For this purpose, it is possible to create electronic communities, which can be realized through electronic channels. This concept was called the Regional Business Spatial Community. The GIS tools can be considered as an integrating element between actors in the environment. GIS tools can be an element integrating the environments in which investments are made. On shared maps, not only existing facilities can be marked, but also implemented, planned or even postulated projects. The aim of the paper is to present the results of research conducted to identify whether, at a specific stage, the use of GIS technology in cities can serve as a platform conducive to the creation of regional electronic communities to facilitate investment in the city.
+
+Based fromSholeh, et. al. (2017), by the developing of the web-based application, the better development of the information system must be equipped with geographic based facilities. By applying geographic based system, the developed system is equipped with map and search of a certain location. The most important thing in developing information system is the database design. The developed database must be able to store and display the related data with map of location and other supporting data. In this research, the discussion is mainly about the developing of geographic information system that informs the locations of SMEs in the Bantul Regency, Yogyakarta Province, Indonesia. The developed system has special features such as searching the information of handycraftcentre, searching the location of handycraftcentre and map that show the location of the handycraftcentre.
+
+According to Lugue, et. al. (2019). The article examines the mobilisation of spatial media technologies for digitally mapping informal settlements. It argues that digital mapping operates politically through a re-configuration of circulation, power, and territorial formations. Drawing on Stuart Elden's understanding of territory, where space is 'rendered as a political category, the coming together of digital mapping and the geoweb is uncovered as a political technique re-making territory through computational logics operating as a calculative practice that, beyond simply representing space, is productive of the political spatiality that characterises territory. The article is based on an analysis of recent attempts by ICT corporates, particularly Google, to map favelas in Rio de Janeiro, Brazil, critically examining the claim that digitally mapping informal settlements is a mechanism for socio-economic inclusion. Providing a counterargument to claims around the power of digital maps to incorporate favelas, provide recognition, legitimacy, visibility and citizenship, we discuss how in the interface between digital and urban worlds, territory as a political space is constructed through economic incorporation. In doing so, the article unpacks the spatial politics of digital and smart urbanisms and the emerging sovereignties of digital territories, particularly in the context of the tension between inclusion and exclusion experienced by those who live in informal settlements in cities in the global South.
+
+Based on Syaripudin, et., al. (2019), In several cases, data mapping that is available today has not much done digitally yet. Too much data that is involved in data filling process causing a long mapping process. The purpose of this research is to design the system by implementing K-Means Clustering Algorithm for data mapping using Google Maps imagery. The object of system design in this research is the plantation area in Sukabumi Regency, Indonesia. The system design methodology that used is the UML (Unified Modelling Language) approach. Based on the results of system testing, K-Means Clustering algorithm can determine and cluster the plantation area with potency of commodity with three level, among others high level, medium level, and low level, which is further indicated by spatial data.
+
+Based on the study of Harede, et., al. (2019), They explores the experience of implementing digital maps through utilizing Google Maps and Geodatabase Technologies to create for the first time an Interactive Digital Tourist Map for one of Egypt's interesting destinations, Matrouh Governorate. This digital map, as expected, will give more visitors the ability to explore deeply the area and make their visit more enjoyable. Data was collected through official documents and reports about the area of study, then it was digitized using mapping technology. The results are presented through a main digital map that illustrates the natural and cultural attractions as well as other tourism sites and services across the Governorate as an initiative from the researchers to promote tourism in Matrouh within national and global scale. 
+
+From the research paper of Tang, J. (2021), GIS has been proved to be an effective technology for various agricultural applications, ranging from recording data, predicting crop growth, to supporting pesticide control and food safety regulations. As a system designed to capture, store, manipulate, analyze, manage, and present spatial or geographic data, GIS has been motivated to become one of the most dynamic computer application systems. Due to its powerful capability in collecting and updating real-time data, GIS has been identified as a significant bridge between data and agriculture communities. This chapter summarized the major GIS applications in Agriculture, including mapping and analytical techniques, spatial database for agricultural systems, modeling function, and decision support system. These applications have benefited various GIS user as well as agriculture communities. New technologies such as emerging Machine Leaning and Artificial Intelligence provide more opportunities in promoting GIS in more Agriculture applications and meanwhile generate more challenges in understanding global food production and security issues in the future.
+
+According to (Theresia V. Rampisela et al. (July 2020), Research is one of the key pursuits of academics. Research is frequently conducted in partnerships. Through existing relationships, such as co-authorship relationships, one can locate research colleagues. But the systems that are now in place only offer scant data on collaborators. Furthermore, the specifics of co-author relationships have not been adequately examined in earlier research. As a result, we suggest an Expert Locator System (ELS) that can locate collaborators and provide details on their effect and productivity as well as their location and publishing keywords. Using the snowball network method, a sort of social network analysis, we can determine the relationship (SNA). This ELS can be used to get data from colleagues that will be helpful for performing research.
+
+According to (P. Eko Prasetyo, Andryan Setyadharma, Nurjannah Rahayu Kistanti (MARCH 2020), Empirically, it has been demonstrated that entrepreneurial social capital plays a significant and powerful role in promoting entrepreneurial competitiveness and economic success. Additionally, the findings of this study are theoretically able to positively contribute to the theoretical underpinnings of the resection-based view, which claims that social entrepreneurs have assets that do not necessarily manifest from their abilities to create MSME entrepreneurial business networks and boost the competitiveness of their companies.
+
+According to (Ashok Kumar P (18 May 2020), The most crucial element to take into account before beginning a business is the location because the finest location draws in more customers. Before visiting a business, clients can use search engines on the internet to find the closest location. For instance, a customer might utilize search engines to locate the closest jewelry store if they need to purchase some jewelry.
+
+According to (Timothy J. Bartik (July 02, 2012), This article looks at how unionization, taxation, and other state features affect company decisions regarding where to locate a new manufacturing facility in the United States. To make the conditional logit model more applicable to the choice of business location, various adjustments have been made to the model. The most significant finding is that company location is significantly influenced by the union sentiments of states. Contrary to popular belief in the economic literature, the data also show that state taxes have an impact on where businesses are located, albeit in a little way.
+
+According to (Didik Wiguna Universitas Indraprasta PGRI (2020-08-01), The variety of research techniques available in the field of information technology gives decision-makers options for how to integrate these techniques into their operational procedures so that these techniques can be applied to the creation of applications for researchers or programmers who create applications. In practice, the process of putting these research methods into use is created and tailored to fit existing business processes so that in many implementations, these methods can be combined with other methods, one of which is the method of data collection combined with the method of sorting the decision process to provide an overview of the best results so that one can make decisions quickly and accurately.
+
+According to (Addae-Korankye, A., & Aryee, B. A. 2021), discovered that the more Ghanaian SMEs implement strategy evaluation, the less profitable and growing they become. Additionally, the poor and ineffective implementation of strategy evaluation of Small and Medium Enterprises (SMEs) may be the cause of the detrimental effect of strategy evaluation on the growth of SMEs (SMEs). The Small and Medium Enterprises (SMEs) would not be able to reap the rewards of adopting strategy evaluation. The study's findings have shed light on how strategic management techniques affect the development and performance of Small and Medium Enterprises (SMEs) in Ghana.
+
+According to Adani, S., & Konnerth, P. (2019), It has been established that the competitive environment, entrepreneurs, and management have an impact on SMEs strategic planning. The business model of each company was discovered to be an unexpected and important aspect in SMEs' strategic planning. Only businesses with the greatest level of strategic planning carried out environmental analysis and tightly correlated it to their plan; other businesses were able to address their external environmental concerns using their own, unstructured strategies. As a result, the link and interaction between the three variables, in particular the business model, have a significant impact on how organizations approach strategic planning and the performance that results.
+
+According to (Jakart (2020), The economic growth that SMEs contribute to necessitates increased performance from MSMEs. This study was conducted with the aim of examining the significant impact of entrepreneurship and market orientations on the business performance to MSMEs. In this situation, many factors should be taken into consideration in order to improve performance of SMEs, such as entrepreneurship and market orientations. This study was conducted utilizing a quantitative methodology.
+
+According to (SYAIFULLAH Jahid,SUKENDAR Markus, UtomoJUNAEDI unaedi (2021-02-28), This study intends to investigate the impact of social media marketing on the COVID-19 epidemic performance of micro, small, and medium-sized businesses (MSMEs). Structural Equation Modeling (SEM), a quantitative research methodology based on Partial Least Square, is the analytical instrument employed in this study. MSMES that use social media for marketing made up the sample in this study, which employed the purposive sampling technique. Whatsapp, Instagram, and Facebook are the social media platforms used. 254 MSMEs served as the study's sample population. Online surveys were employed for the data collecting. The results of the study demonstrate how compatibility, perceived utility, and perceived usability all affect how social media marketing is used.
+
+According to (JATMIKO Bambang, UDIN Udin, LARAS Titi (2021.03.30)) By using the SWOT analysis approach, this study's main goal is to suggest methods for growing micro, small, and medium-sized firms (MSMEs) in order to achieve sustained competitive advantage. As a result, the primary issues examined in this study are as follows roughly 60-70% of MSMEs in Kulonprogo Regency do not yet have access to or financing from banks; lack of knowledge of production technology; generally, MSMEs business actors are still incorporated legal entities; MSMEs do not have a good financial administration and management system; coordination between MSMEs stakeholders has not been integrated; and limited facilities and infrastructure of MSMEs
+
+A
+
+According to (Arief Dwi Saputra, Alfina Rahmatia (2021-06-30), Gamification is the use of game design in a non-game setting to the business of Micro, Small, and Medium- Sized Enterprises (MSMEs). The purpose of this study is to determine how gamification might improve MSMEs' business operations and performance. 13 of 34 MSMEs run by students at the provincial level in Indonesia who represent students as Branch Leaders, Branch Managers, and Regional Leaders make up the sample. First, theoretical investigations (literature reviews, reports, and reliable media data) and observations of empirical features are used to view the source of the problem from secondary data (observation and interviews).
+
+According to (Mark Lloyd Lester S Consignado, et al. (2017-08-25), The goal of the study is to create the HAYBOL apartment and boarding house search engine. This mobile apartment locator software is powered by Android and may be used by the public, particularly students, to quickly identify flats and boarding homes as well as to assist business owners in promoting their enterprises.
+
+According to (Khoo Jin Sheng et al. (November 22,2016), Due to time constraints and the requirement for extensive research, the Car Breakdown Service Station Locator System will currently be built on the Android platform. If the users' response is positive, development of this system for other operating systems like IOS and Windows may be considered in the future. The system will use the vehicle's current position to find the closest CRSP that is available and present a list of nearby CRSP so the driver can make a selection. With the help of Android's powerful location awareness, the Google Places API for mobile will be used to perform the search for the closest CRSP. In terms of service costs,
+
+According to (Uriel M. Melendres, et al. (2022-01-01), Tire punctures are a frequent and unavoidable problem when traveling, which increases the demand for vulcanizing shops in the region. The vulcanizing shop supplies standard motorbike and automotive necessities and fixes flat tires. However, the well-known navigation application did not tag this modest shop. Therefore, the advocates developed a website-based application to find the closest vulcanizing businesses and motorbike components retailers. The V-locate will not only list the nearby businesses but will also list information about the goods and services that are being supplied. Only the regions of Oriental Mindoro's 2nd District are included in the map's coverage on the aforementioned application.
+
+According to (Zhanlin Ji, et al.(2021), The general idea of deploying cloud-based intelligent automobile parking services in smart cities as a significant application running on the Internet of Things (IoT) paradigm is presented in this paper. The sensor layer, communication layer, and application layer make up the corresponding IoT sub-system. The system architecture is described in broad terms. A cloud-based intelligent automobile parking system for usage on a university campus is detailed together with specifics of its design and execution to show how car parking services can be provided using the suggested platform.
+
+According to (IEEE (2021), Given that it comprises central departments in a power organization sharing data and applying information simultaneously, the power marketing system is crucial to the customer service marketing management system. Implementing information sharing throughout the power enterprise is very challenging for the power marketing system, but building an information-integrated platform to accomplish information integration of the power marketing company is a workable approach. Power marketing system information integration is made simple by building an enterprise information integrated platform based on SOA (service-oriented architecture). The article develops a SOA-based information integrated platform for the power marketing industry and provides design concepts and implementation strategies for the platform through an application example.
+
+According to (Rajib Chandra Das, et al2015), Since it is safer to keep an ATM card than to store cash, money transactions using ATM machines have become commonplace in our daily lives. Knowing the location of the closest ATM machine is important when we need cash in an unfamiliar location or in an emergency. Without this information, a visitor or newcomer can find it difficult to get ATM assistance. Since ATM booths and fast tracks are marked on OpenStreetMap, a growing open-source digital map, we have developed a location-based ATM locator system (LBALS). Database offers comprehensive data on all accessible ATM booths and fast lanes of various banks. It needs an Android handset with GPS and an installed application. When a user requests information, textual information about the closest fast lanes or ATM booths from his present location is delivered. On the map, some Markers represent ATM locations or fast lanes. The shortest route between a user and an ATM booth has been shown using Dijkstra's algorithm. Perpendicular distance can also be calculated using the Haversine formula. LBALS is being tested for a few arbitrary places in a particular area of our country.
+
+According to (Mary Jane C. Samonte, et al. (28 September 2021), Instead of having to seek for the same information across several websites online, the established website and mobile application, DogMate, exhibits all three hundred forty-four (344) breeds and includes general information on health and hygiene online and offline.
+
+According to (HANGGRAENI, Dewi, SINAMO, Timothy (2021.04.30), The major finding demonstrates that, in a typical economic climate, an entrepreneur's intrinsic motivation and commitment to maintaining business operations increase the likelihood that the MSME would experience financial development as opposed to being stagnant. Unexpectedly, being innovative reduces the chance of MSME financial growth, indicating that MSMEs in Indonesia are not subject to the importance of innovation. Finally, it has been discovered that MSMEs' risk-taking behavior is more likely to provide higher performance when operating in a stable business environment. This is true for operational and financial risks, but not marketing risks.
+
+According to (Deepkumar Varma, Pankaj Dutta (3 May 2022). After the COVID- 19 lockdowns, small firms and start-ups have begun to reopen, but they are still encountering many difficulties, largely because of shifting consumer tastes and the need to adjust business models. This study tries to pinpoint the crucial elements that start-ups should pay attention to as they navigate the COVID-19 pandemic storm.
+
+According to (Manvendra pratap Singh, Arpita Chakraborty (January 2016), In the manufacturing sector, organizational sustainability is a critical step in the development of a greener environment. Businesses have undertaken significant sustainable initiatives over the past 20 years to counteract concerns about environmental and societal risks brought on by rising industrialisation. Small businesses display an unfriendly and cynical attitude toward the problems caused by climate change. This study aims to comprehend the driving forces behind MSMEs' commitment to organizational sustainability in such a cutthroat market.
+
+According to (Vera Agustina Yanti, Devy Sayanti, Danny Ong (2021-02-02), In order to support business sustainability, this research aims to: assess business competency levels in rural areas and using ICT facilities in Bandung; assess MSME business competency levels using ICT in rural and urban areas; and develop appropriate strategies for creating business competition applications using ICTs. This investigation was conducted in phases. The choice of location is made consciously. From December 2018 to May 2019, this study was done in Bandung Regency and Bandung City. 
+
+According to (Warcito Warcito, Maruf Akbar, Hamidah Hamidah (2020), The findings demonstrated a relationship between the performance of human resources and the attributes of micro and small business owners, including age, education, and other occupations, as well as attributes of micro and small businesses, which included product types, business structures, legal status, and duration of operation, the size of the company and the workforce. All respondents have taken business management training (56%), technical counseling for extending food security (57%), and new entrepreneurship training (WUB). This demonstrates how crucial it is to develop business owners' capacity to carry out corporate social responsibility (CSR) programs as well as government initiatives independently for business continuity.
+
+According to (Charles Harvie (03 May 2019), the resource sector is characterized by huge state-owned or foreign-owned multinational corporations that employ relatively few people and are typically capital intensive. In this context, micro, small, and medium- sized firms (MSMEs) have a crucial role to play in creating jobs, diversifying the economic foundation, and dispersing the financial rewards of resource extraction in resource-rich countries like the Lao People's Democratic Republic (Lao PDR). A new MSMEs growth and business strategy that emphasizes capacity building through the acquisition of knowledge and skills, technology upgrading, increased product quality and competitiveness, innovation, and entrepreneurial activity is necessary to achieve this. Factors Explaining the Business Survival of MSMEs in Ecuador
+
+According to (Fernando Zambrano Farías, et al. (September 2021), This study uses data from the Superintendence of Companies, Securities, and Insurance for the years 2014 to 2016 to predict the factors that affect the likelihood that micro, small, and medium-sized businesses in Ecuador would survive. The study's findings include the fact that age and size are inversely connected to a company's ability to survive. Additionally, boosting equity, keeping a favorable portfolio turnover, and obtaining balanced debt all lengthen a company's lifespan. Finally, the Sierra region, along with the transportation and construction industries, are more survival-friendly.
+
+According to (Vikas Kumar (Chaudhary Bansi Lal (2022), The use of social media has increased over the past century and is now considered a possible tool for making decisions among other things. The current work investigates how MSMEs might use social media platforms like Facebook, Twitter, Instagram, etc. to support their decision-making. The research is exploratory in nature, and relevant literature has been examined to determine the decision-making processes used at various managerial levels and how they have been incorporated with social media applications. In light of the business environment for MSMEs, specific examples of social media platforms have been highlighted. The biggest obstacles to social media integration have been provided in addition to the techniques.
+
+According to (Bambang Tjahjadi et al. ((2020)) this study, MSMEs' owners and managers should become more information capital ready to support their online market orientation strategy in order to boost their company performance. As the antecedents of business success in the context of Indonesian MSMEs, this study is the first to integrate the concerns of information capital preparedness and online market orientation. Rarely is the mediating role of online market orientation studied in earlier research. 
+
+According to (Rabinder Singh,et al. (December 4, 2021). The study's conclusions demonstrated that different macro- and microenvironmental factors have a considerable impact on entrepreneurial success in J&K. (India). The study also showed that perceived socio-economic gains in J&K are highly influenced by business performance (India). Finally, a model for entrepreneurial success and environmental entrepreneurship was created to help J&K plan its socioeconomic development.
+
+According to (Irwan Sugiarto (May 2019), The purpose of this study is to ascertain how business planning affects the growth of MSMEs. A descriptive and explorative descriptive strategy is used in the research methodology. According to the findings of the research, effective business planning and the use of an effective marketing strategy have a favorable effect on the sustainability of MSME activities. One of the driving reasons is also the production quality, which offers a competitive edge. There are many barriers to the growth of MSMEs, particularly those relating to funding and local government support. The growth of MSMEs is anticipated to enhance public welfare, particularly assisting the government in lowering unemployment.
+
+According to (Agus Supandi Soegoto, Frederik G. Worang (2018), The economy of Manado City and the province of North Sulawesi both benefit from the MSMEs business sector. On a national level, it is also evident that MSMEs play a crucial strategic role in boosting the national economy. When evaluated from the perspective of the purchasing power of the people as consumers, MSMEs have an advantage since MSME business players move in a variety of business fields and directly touch the interests of the community, especially the middle and lower economic groups. However, when viewed from the perspective of business development and sustainability, MSMEs appear to be growing slowly, and business sustainability is still debatable, so it requires serious attention from the regional government and particularly related institutions, namely the Cooperatives service.
+
+According to (Delfi Panjaitan, et al. (2018-06-30), MSMEs must have manageable resources in order to compete successfully in Indonesia's business environment. Information resources are one of the most crucial resources controlled in winning the business rivalry. With business performance serving as a mediator, this study seeks to demonstrate how the adoption of management accounting systems affects competitive advantage. The information for this study was gathered via distributing questionnaires as part of a survey. Using the purposive sampling method, the MSMEs scale company in the city of Palembang served as the study's sample. Path analysis test is a data analysis technique. According to statistics and study findings, there is a mediator between Management Accounting Systems and Competitive Advantages, and that mediator is Business Unit Performance.
+
+According to (Ardiyan Saptawan (2022), The major goals of this program are to determine the economic potential of Lorok Village and to inform the target audience about the design of the BUMDes business development strategy in order to maximize that potential.
+
+According to (Francis Lwesya, et al. (2021)) This is due to limited capabilities brought on by MSMEs' smaller size as compared to large businesses and limitations in mentoring program content. Additionally, the insufficient adaptation of BDS to the demands of MSMEs, high service charges, and a dearth of qualified service providers are related to the gap between BDS demand and supply as well as the poor adoption rate of BDS. Therefore, we contend that the provision of BDS to MSMEs should be driven by demand and that institutions should create business support programs around the distinctive qualities of MSMEs. On the other hand, fostering business ties between MSMEs and major corporations should be a part of government initiatives to support the growth of MSMEs through laws and programs.
+
+According to (Peter Ellis (2016), This proposal is a research plan for my ongoing study, which aims to discover, analyze, and comprehend the key characteristics that set Micro, Small, and Medium-Sized Enterprises (MSMEs) apart from other entities in the world of business management. I'll be use the structure created by Faff (2015b) for beginning pitchers and (Faff, 2015a), which demonstrates the tool's academic legitimacy. I'm introducing the idea, the data, and the tools that are utilized after describing the reason and puzzle using this tool. I then go into what is new and why using the new data is advantageous before offering a conclusion that highlights the contribution and other factors.
+
+Further, from the research of Maskun, T., et al (2021), a mapping of the potential for agribusiness in the southern part of West Java was carried out, which serves as a policy material and business development in developing local potential in the agribusiness sector to improve local communities' welfare. The agribusiness potential of South West Java is dynamic and varied. However, it has not been developed optimally to improve local communities' welfare, which is generally scattered in underdeveloped villages. The government and developers (entrepreneurs) have difficulty obtaining digital data updates.
+
+The purpose of this research is to map the regional potential in the field of agribusiness in the form of digital data to facilitate the development of agribusiness potential in coastal areas located on the shores of the Indian Ocean (Indonesian Ocean). The research method uses Geographical Information Systems. This research can be used as policy materials and business development in developing local potential in the agribusiness sector to improve the welfare of the people of West Java.
+
+Moreover, Utomo S. B. (2019), stated that Risk Advisory Division requires an application that can predict the branches affected by natural disaster, namely Risk Dashboard. This application is developed by waterfall methodology, ASP.NET programming language, SQL Server Management Studio database, and Google Maps Geo- Coding Technic. This application makes the time needed to find a branch to be only a few seconds from the previous one which took almost a day. With this application, it makes RA Division faster in analyzing the data for reporting and updating Business Continuity Plan (BCP).
+
+In addition, according to Veenendaal et., al. (2017), Web mapping and the use of geospatial information online have evolved rapidly over the past few decades. Almost everyone in the world uses mapping information, whether or not one realizes it. Almost every mobile phone now has location services and every event and object on the earth has a location. The use of this geospatial location data has expanded rapidly, thanks to the development of the Internet. Huge volumes of geospatial data are available and daily being captured online, and are used in web applications and maps for viewing, analysis, modeling and simulation. This paper reviews the developments of web mapping from the first static online map images to the current highly interactive, multi-sourced web mapping services that have been increasingly moved to cloud computing platforms. The whole environment of web mapping captures the integration and interaction between three components found online, namely, geospatial information, people and functionality. In this paper, the trends and interactions among these components are identified and reviewed in relation to the technology developments. The review then concludes by exploring some of the opportunities and directions.
+
+Also, based on Yaqot et., al. (2018), stated that exploiting the integration between the existing technologies, particularly web and geographic information system (GIS), would enable determining people's location and analyzing their reactions to different aspects of life using the smart engine (sentiment analysis). Marketing sector, for instance, is progressively seeking to generate useful reports that help in analyzing big data by its location to maximize sales and adaptively take corrective actions in the shortest time with least cost. In this paper, a web application has been introduced using nodeJS, JavaScript, MongoDB online database, Twitter APIs, and Google map APIs (including; Geocoding, Reverse Geocoding, and Google map markers). It was found that those tools could integrate, manage, and visualize spatial data with respect to geo-located tweets and its sentiment. Consequently, this application offers convenient, flexible, honest, selective, tailored to different needs, immediate, unrestricted and updated information that help the user to extract features from a large data set of tweets.
+
+Concept of the Study
+
+Figure 1. Concept of the Study
+
+The figure above shows the input, output and process model wherein the needs to develop and implement proposed system. The input indicates the users and system inputs, as well as the Development platforms, used to build the system. The process is the planning and development of the system, the process also shows different criteria on the acceptance of the system to create the output 'Smart Mapping of MSMEs as Business Locator of Naguilian, Isabela'.
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+Introduction
+
+A research methodology is a strategy used to implement a research plan. This plan chapter contains requirements analysis. Data flow diagram, fishbone diagram, system flowchart and statistical procedure and technique for the implementation of data gathered. Good research design ensures that the data obtain will help in answering research question more effectively.
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram
+
+The process of using the system is shown in the diagram. Admin user can manage the business information and location to enter data in the map, once validated the user can enter the system. Data Flow Diagram demonstrates the flow, data storage and the process to be performed to access the system.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram
+
+The fishbone diagram states the effect of business locator in terms of performance, information, control and security, and efficiency. As an effect, limited ways of accessing data information, uncontrolled viewing and no mapping view.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt chart
+
+Figure 4 illustrates the timeline of the project. It states the different activities that guide the researchers to finish the study. It also shows the expected duration for each of the activities.
+
+Requirements Documentation
+
+Technical Background
+
+Materials
+
+1.1.1 Software
+
+MySqLan open-source relational database management system (RDBMS). A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data.
+
+PHPMyAdmin- is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB. Frequently used operations (managing databases, tables, columns, relations, indexes, users, permissions, etc).
+
+Web Frontend:
+
+HTML
+
+• JavaScript
+
+CSS
+
+Web Frontend Additional Libraries:
+
+• Jquery
+
+Google Maps
+
+• Web Back-end:
+
+• Codeigniter 3 - PHP
+
+1.1.2 Hardware
+
+Desktop Computer
+
+Laptop with intel Core i5
+
+Mobilephone whether android or iOs
+
+1.1.3 Data
+
+The data gathered:
+
+Business owners that registered from Naguilian Local Government, Treasurer Department
+
+Observation
+
+The researchers observed and recorded the information needed in the study. This method helps the Researchers to gather data and information which is also accurate that they preferred.
+
+Interview
+
+The Researchers have used this method at the beginning of the study. They used an interview guide in conduction interviews and selected users to determine the problem encountered in the current system.
+
+Use case Diagram
+
+Figure 5. Use case Diagram of Smart Mapping as Business Locator of Naguilian, Isabela
+
+Use case Diagram shows that the user and admin can do to that system. This includes Log-in, view map, locate businesses, adding, editing and deleting businesses, searching businesses, log-out.
+
+System flowchart
+
+Figure 6. System Flowchart
+
+The system flowchart diagram shows the breakdown of the system. It contains log- in user, Dashboard, business information and location.
+
+Entity relationship diagram
+
+Figure 7. Entity relationship diagram
+
+This figure shows how the entity in the system function. Which includes the login, users, establishment, and establishment image. Admin can add new businesses, business owners' information and their business location. They can also delete and edit the businesses information.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+Figure 8. Software Development of Smart Mapping as Business Locator of Naguilian, Isabela
+
+The researchers used this method to have a flexible action in delivering a working project. By breaking ideas, thoughts and action into smaller segments or following a phase so that each phase is well accomplished to have a better output of the proposed project.
+
+System Planning
+
+In this phase researchers made up a plan by identifying the subject of the study, determining the problem to be solved, the objective of the study, and knowing the significance of the study. By collaborating the ideas, software applications such as web framework, programming language, run time environment are being inquired with the preparation of the hardware to be used.
+
+Requirement Analysis
+
+During this phase, all the relevant information is collected from the subject of the research to develop a product as per their expectation. Any ambiguities are resolved in this. Researchers set a meeting with the subject department to gather all the information and discuss or ask them what they want to build, who will be the end-user, and what is the purpose of the project. After gathering the requirement, an analysis is done to check the feasibility of the development of a project. A call is set up for further discussion in case of any unclear details. This requirement analysis is being documented thoroughly and understood by the researchers so that it can be reviewed by the subject department for future reference.
+
+Design
+
+In this phase, researchers used the requirement analysis document as an input to derive in implementing system development. A draft design is presented to the treasurer department of Naguilian Municipal and discussed the details on how web development applies to the proposed project.
+
+Testing
+
+This phase involves system integration and system testing of programs and procedures. It is to determine whether the proposed design meets the initial set of goals in doing the project. It includes also the evaluation of the project whether it is being tested to the target respondents and if the tests are based on the statement of the problem. It describes the details in necessary specifications, features and operation that will satisfy the functional requirements of the proposed system which will be in place.
+
+To test the system, the researcher will conduct trials of testing regarding the functionality of the web application. First, the account adding new user's, to test if the application displays the needed log in form for the registration and if upon submission the information will be stored. Second, to test if the new user can log in the system to be an admin. Third, if the admin can add, edit and delete data in the establishments from the map. lastly, Using Gmail to generate a new password if the user may use the forgot password feature.
+
+Development and Testing
+
+Data Gathering Procedure
+
+The researchers were given time to think about what to develop, the researcher came up with an idea regarding to it. After the approval of the title proposal, the researchers started to gather information about the proposed study. The researchers ask permission to conduct research in the Municipality of Naguilian, Isabela. The researcher prepared a letter of approval from the concerned authority. After seeking approval: the researchers created a questionnaire and floated it to their respective respondents. The data were gathered and tallied using statistician treatment.
+
+Data Analysis Plan
+
+The researcher used 5-Point Likert Scale a form of rating scale that is used to assess attitude or opinions. With this scale, respondents are asked to rate the things at the level of the agreement stated below.
+
+Table 1. Equivalent Weight Mean and Interpretation of Scale of the Perception of the Business Owners in the develop system.
+
+Statistical Treatment
+
+The statistical measures used by the researcher for the analysis are as follows.
+
+Percentage - This will assess the demographic profile of the respondents.
+
+Formula: P = x 100% N
+
+Where:
+
+P = Percentage
+
+f= Frequency
+
+N= Total Number of the Respondents
+
+Weighted Mean - This will assess the weight of respondents' responses.
+
+W =
+
+Formula:
+
+Where:
+
+WWeighted Mean
+
+w = Weights
+
+x= Value
+
+Ewx Sum of weight multiplied by value
+
+w = Sum of weights
+
+Maintenance
+
+This phase involves making changes to hardware, software, and documentation to support its operational effectiveness. It includes making changes to improve a system's performance, correct problems, enhance security, or address user requirements.
+
+The researchers given priority the connectivity on the internet as part of the maintenance to operate well and gather the specific data needed.
+
+Implementation Plan
+
+Table 2. Implementation Plan number 1
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter presents the results of the conducted questionnaire of the respondents of Naguilian, Isabela in the Smart Mapping of MSME's as Business Locator.
+
+Sampling Design
+
+Sampling Techniques
+
+The researchers used a simple random sampling. The survey questions will be given to the respondents that are available at a time when we conduct a survey. The questionnaire will be spread by using simple random sampling to the business owners.
+
+Sampling Size
+
+In determining the sample size of the business locator study, it covers 541 business owners in using a manual sampling, there were 185 business owners responded from among the 541 business owners.
+
+Respondents of the study
+
+The respondents of the study were more than 50 people who are using the web system. The data gathering on this research will be conducted using manual survey.
+
+Results by phase of Study
+
+This chapter presence the tables, provides through analysis and interpretation of the data gathered in the conduct of the study.
+
+Table 3. List of Business by Business Types
+
+Reveal the most common business in Naguilian, Isabela which is sari-sari store with the average of (42.70) and the smallest average is (0.54).
+
+Table 4. List of MSME' by MSME's Types
+
+Shows the MSME's types of Naguilian Isabela in terms of Micro, Small and Medium Enterprises where the majority of them is Micro (57.83), Small (35.13) and Medium (7.02).
+
+Table 5. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Functionality
+
+As shown from the table above, the performance of the system in terms of Completeness (M=4.96), and Correctness (M=4.92) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+Moreover, the Functionality of the system is highly acceptable(M = 4.94).
+
+Table 6. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Reliability
+
+It can be observed from the table that the performance of the system in terms of Availability (M = 4.92) and Recoverability (M = 4.92) * i excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+In general, the Reliability of the system is highly acceptable (M = 4.92)
+
+Table 7. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Usability
+
+As shown from the table above, the performance of the system in terms of Appropriateness (M = 4.88) and Operability (M = 4.9) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+Therefore, the Usability of the system is highly acceptable (M = 4.89)
+
+Table 8. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Security
+
+As gleaned from the table, the performance of the system in terms of Confidentiality (M=4.86) and Integrity (M4.96) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+In general, the Security of the system is highly acceptable(M = 4.91).
+
+Table 9. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Portability
+
+As can be seen from the table above, the performance of the system in terms of Installability (M=4.98), and Adaptability (M=4.92) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+Hence, the Portability of the system is highly acceptable (M = 4.95)
+
+Table 10. Performance of the System based on the International Standard of Software Evaluation or ISO/IEC25010 in terms of Maintainability
+
+As shown from the table above, the performance of the system in terms of Modifiability (M = 4.96) , and Analyzability (M = 4.92) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+Thus, the Maintainability of the system is highly acceptable (M = 4, 94)
+
+Table 11. The Summary of the Performance of a Smart Mapping of MSMES As Business Locator at Naguilian Local Government, Isabela based on the International Standard of Software Evaluation or ISO/IЕС25010.
+
+It can be observed from the above table that the performance of the system in terms of Functionality (M = 4.94) , Reliability (M = 4.92) Usability (M = 4.89) Security
+
+(M = 4, 91) Portability (M = 4.95) and Maintainability (M = 4.94) is excellent based on the International Standard of Software Evaluation or ISO/IEC25010.
+
+In general, the developed system is highly acceptable (M = 4.93)
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter present the results of the conducted questionnaires of the respondents of Naguilian, Isabela in the Smart Mapping of MSME's as Business Locator.
+
+Summary
+
+The main objective is to develop Smart Mapping of MSMES as Business Locator of Naguilian, Isabela. The system allows business owners and other people to view their business location in the system.
+
+From system planning, going to requirement analysis and then the design of the system. After careful study and relying to various relevant literatures, the construction or the coding. Then, the testing of the system with the use of research instruments such as interviews and survey form given to the Business Owners and the personnel in-charge in Business Permit Application to evaluate the developed system based on the criteria to be measured in line with ISO/IEC25010 and finally the maintenance to know if upgrade or modification is needed.
+
+Conclusions
+
+The researchers therefore conclude the following:
+
+1. The developed system can allow the people to visit the businesses in Naguilian, Isabela. And to see the exact location and the types of businesses.
+
+2. That based on the response of the respondents through descriptive survey in line with ISO/IEC25010. The performance of the developed system is excellent in result, effective and recommended to use to a larger group of people.
+
+Recommendations
+
+Based on the findings and conclusion presented, the following recommendations are suggested:
+
+1. It is recommended that the End-user of the system is properly oriented to know the use and to manage.
+
+2. The researchers recommended to the future developers to include a real time- online GPS
+
+3. The study is recommended to future researchers to further upgrade the system with a better modification to make it more useful with the help of proper equipment and their knowledge, assessment, decision-making, and critical thinking.
+

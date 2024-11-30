@@ -1,0 +1,457 @@
+USING APRIORI ALGORITHM TO ANALYZE CUSTOMERS PRODUCTS PURCHASE FOR RJC HARDWARE AND GENERAL MERCHANDISE Agron, Mark Angelo S. Ferrer, Jose Marie A. Oreta, Rengbel D. January 2023
+
+A Thesis Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer Science
+
+Agron, Mark Angelo S. Ferrer, Jose Marie A. Oreta, Rengbel D. January 2023
+
+
+ABSTRACT
+
+In this competitive business era, the most important thing for the business is to know what the most product purchased by the customer. The "visual support system" is a tool developed by researchers to assist RJC Hardware General Merchandise in understanding their customer's purchasing habits. By analyzing transaction data. Thus, the goal of this study is to help business better understand their customers' needs and make informed decisions about what products to stock. The apriori algorithm operates to find the frequent items and combinations of items and rules based on the information and understanding of the transaction data.
+
+The researcher used the Waterfall model Software Development Methodology for developing the proposed system, in which development is divided into distinct phases: Requirements, Design, Implementation, Verification, and Maintenance. By following the phases, the researcher can ensure that the research project is successful and all the objectives are accomplished. This methodology also provides a clear and well-defined process, which makes it easy to plan, track, and manage the project's progress. The Apriori algorithm is used as a data mining method to analyze the transaction data to find common products that are purchased by customers.
+
+Based on the gathered result, the researchers conclude that the algorithm implemented in the proposed system or application has successfully obtained the expected output to find the most commonly purchased products and make more informed decisions about their products. Also, the developed system or application is effective in terms of functionality, information, usability, and efficiency. The proposed system has benefits for the owner and the potential to improve the RJC hardware company.
+
+
+
+1 INTRODUCTION
+
+1.1 Background of the Study
+
+Nowadays, the business world of this era is very competitive, and enterprises are trying to improve the experience of the consumer by analyzing their past transactions. Business customers, also known as industrial customers, purchase products to use in the manufacture of other products, such as products for industries including agriculture, manufacturing, construction, transportation, and communication, among others. Analyzing customers' product purchases is part of a business plan to examine the customer most likely to purchase a product and evaluate the product they purchased. A customer is key to improving marketing. The purpose of this research is to identify the items that consumers frequently purchase. The study's findings helped to determine the degree to which one item is related to another and the pattern of consumer interest in the products they buy (Chandra and Dewi 2019). In data mining, the algorithms include the type of association rules. This group also includes the methods. Data mining techniques are used in association analysis to discover an association rule between a set of items. (Setiawan et al., 2017). It helps to identify different types of importance in itemsets. This analysis helps to understand the customer's on refers to individual purchases. By implementing data mining techniques, companies will be able to continue to improve their business strategies. (Efrat et al., 2020).
+
+In this study, researchers use the apriori algorithm as a method of data processing for transactions data at RJC hardware and Gen. merchandise. The algorithm operates on a combination pattern of items and rules as information and understanding of the transaction data.
+
+This study would like to analyze the customers in product purchases by targeting the data regarding the product they purchase. It can help businesses to focus on selling specific products, and for them to know what products must behave better to be combined together, and find customer segmentation to help business people boost their market sales.
+
+Hence, Since there are so many products the most important thing for an organization to know is the product that is most purchased by customers in this competitive business environment. This is a simple algorithm that is used to mine repeated pattems from a transaction dataset in order to find frequent itemsets and associations between two items.
+
+The Apriori algorithm is used in transactional databases to mine frequent itemsets and the frequency of occurrence of items is referred to as support. An itemset is made up of the items in a transaction. Using one method of data mining, by this algorithm, transaction sales data can be processed again so that it can produce a pattern of consumer purchases. (Putra 2020). This customer purchase pattern will help the owner make a business decision that will increase company strategies.
+
+Using one method of data mining, namely Apriori Algorithm, transaction data can be processed so that it can produce a pattern of consumer purchases. This consumer purchase pattern will help the owner to make a business decision.
+
+Moreover, This study will provide advantages to the company when it comes to the visualization of transaction data because it easily determines the monthly purchases and other features, and analyzes what is most frequently purchased product and possible product combinations using the apriori algorithm. It is a user-friendly web application with a simple interface that is easy to understand and use.
+
+1.2 Objectives of the Study
+
+The main objective of this study is to develop a system that visualizes transaction data for the FDC hardware it refers to as a tool. It provides easy-to-understand visual representations to make an informed decision. Also can help the company by identifying the most commonly purchased products
+
+Specifically, it aims and the following objective:
+
+1. Design and develop a system called "visual support system"
+
+2. Implement the use of Apriori Algorithm to find the most frequently purchased items by customers:
+
+3. Assess the effectiveness of a developed system of the evaluation of the user's perception
+
+in terms of
+
+3.1. Functionality,
+
+32. Information
+
+33. Usability, and
+
+3.4. Efficiency:
+
+1.3 Significance of the Study
+
+The significance of this study would be a major contribution to RJC Hardware Gen. Merchandise. Owner are the primary beneficiaries of this study, which may help them improve their marketing strategies
+
+Benefiting the study are the various sectors as follows:
+
+The Owner. This study will help the owner needed, this system will be beneficial to the owners and lessen their time regarding analyzing products purchased. The vital information/result gathered from this system may lead to better strategies in decision-making and programs geared towards the improvement of the company's operation.
+
+The Researchers. In doing the study, the researchers have acquired skills and knowledge that they can use in their profession. This paper can enlighten their thinking with regard to reality as we work towards the path of the business world.
+
+The Future Researchers. The output of this study can serve as the basis for their version of Using Apriori Algorithm to Analyze Customers Product Purchase for documents request. The documents will serve as the related literature and the system can be upgraded based on the future requirements of the institution.
+
+1.4 Scope and Delimitations
+
+The scope of this study is to help the owner to make a better decision and to address the issues or problems when it comes to analyzing their transaction data. Also with the use of apriori algorithm allowing to determine how often products are purchased. In addition, the web-based application developed in this study would be a useful tool for the company. The study will be conducted under the company name RJC hardware and general merchandise in San Vincente Jones, Isabela. However, the system/application visual presentation is only limited to the quantity, total monthly transactions, and total monthly purchased. The system does not support any other attributes or features beyond these three metrics.
+
+
+
+
+2 THEORETICAL FRAMEWORK
+
+This chapter contains literature and studies from other countries. Literature consists of theories, ideas, or points of view and opinions of any author who is related to the study, while studies are the results or outputs of a particular research study. Literature and studies must be accompanied by the name(s) of the author(s) and the year in which they were conducted.
+
+2.1 Review of Related Literature
+
+Customer purchase and patterns
+
+According to Efrat et al. (2020), analyzing customer purchasing patterns can help minimarket expand marketing strategies by gaining insight into which items customers frequently purchase together. Furthermore, transaction data is a source of information available at the convenience store and can be used to make business decisions. We intend to use the Apriori algorithm method to obtain consumer purchasing pattems to analyze consumer purchasing patterns in this paper. This system employs an apriori algorithm calculation method with consumer transaction data as input.
+
+Transaction data will be sorted and calculated by establishing a minimum support and confidence value
+
+According to Ananda & Umniy. (2020), many companies and businesses that provide basic food items, such as grocery stores, do not use technology such as computers. At the Mukara Store, they have used a computer to process customer purchases. The Mukara Shop's sales process is continuing, and so is the database's data collection as long as it continues to grow. A lot of data is left unused. Data mining is a technique used to extract useful information from data that would be otherwise owerlocked. This research processes transaction data using Data Mining. Similarly, Finding the best strategy for sales optimization in the business world's competition is essential. The frequency of consumer purchases is a factor that affects the need for market analysis. Since a solution to identify sales patterns with the web application is required for it to be more effective and efficient, to create association rules for goods and transactions, the necessary data is extracted from sales transaction data for a specific time period and processed. This can make it simpler for businesses to increase sales tumover, in addition to allowing them to search for patterns that frequently appear among numerous transactions.
+
+The study of Panjaitan et al. (2019), consumer purchasing patterns are a type of purchase made by consumers, whether one person or many people make the purchase transaction in order to get the desired item. One of the ways people purchase things is by exchanging money. This study will develop an application that can be used to predict consumer purchasing patterns by applying algorithms.
+
+According to Chandra & Dewi (2019), the purpose of their research is to identify the items that consumers frequently purchase. The study's findings helped to determine the degree to which one item is related to another and the pattern of consumer interest in the products they buy. The discussion of a combination of goods that meet the minimal standards for the worth of support and the creation of association rules that meet the minimum standards for trust served as the basis for this study. This study has found that using the association rule method can help in developing sales strategies.
+
+Businesses, including the coffee shop industry, can learn about consumer product purchasing trends by analyzing data. Information that can be used to make business decisions can also be found in transaction data. The ECLAT algorithm was used in the study to apply the association rule and identify the Coffee Shop's purchasing patterns. A frequent itemset search is implemented by the ECLAT algorithm using the association rule technique. Processing uses transaction data from the previous 4 months. The coffee shop owner can be recommended to apply the combination of items to create a package menu and help with making future business decisions (Julian et al., 2022). The development of technology in the field of business grows rapidly day by day. The use of technology in business can help companies deploy the best business strategies to compete with others. Companies can take advantage of sales data to discover more information that can help them make decisions. Using a data mining approach, companies can process transaction data in order to find out consumer buying patterns.
+
+Kim et al. (2019). This study proposes a new product recommendation model that takes into account customers' most recent purchase history. There are so many methods for determining the similarity of customers or products using one-way collaborative filtering. Few studies, however, have calculated the similarity of using both customer and product information. As a result, in this study, affinity variables that combine customer and product data are generated using a confusion matrix. Several derived variables are also generated in order to improve the forecasting performance of the massive analysis data. Various data mining classifiers, such as the decision tree, neural network, support vector machine, random forest, and rotation forest, are used in this study, and a sliding- window scheme is used to build the recommendation model.
+
+Purchasing Product Algorithm
+
+Riyadi et al. (2019). In this study, the algorithm used is the Apriori algorithm, the apriori algorithm is chosen because the resulting association rules have higher accuracy than the FP- Growth algorithm. Then the results of the apriori algorithm association rules are used as a reference in determining the items to be promoted, then sales forecasting is carried out with the Weighted Moving Average (WMA) method to predict the estimated total sales. Hence. The challenge of today's e-commerce companies is how to extract large data into information for decision-making, especially in terms of promoting products to be relevant, effective, and efficient. But the method used is not optimal and efficient because promotions are not displayed to potential customers based on customer purchasing patterns. So that the sales target is not achieved, therefore market basket analysis is needed to find and understand the basic patterns of association rules that occur in customer purchase transactions.
+
+Winanti & Handiansyah, (2018). The purpose of the study was to use of apriori algorithm on building sales transaction data of building materials. Currently, many ways are done by companies, shops, or markets in increasing sales including strategic planning in sales. One of the strategies used by the management is using an information system. Inefficient management of the purchase cost and also goods orders made based on estimation without knowing the stock of existing goods and could be over stocks and the stocks running out without control. The era of information technology continues to evolve and requires new innovations, so it does not seem monotonous in the sales process and can increase sales by providing recommendations to buyers. This research will use the apriori algorithm as one data mining branch to analyze the pattem of pending consumers (market- based analysis). An information system sales of building materials using apriori algorithm helps to find pattems in the form of building materials products often purchased simultaneously (or tend to appear together in a transaction) by each customer based on transaction data.
+
+Moreover, The most popular data mining technique is sequential pattem mining. Analyzing sequential patterns has been applied in many real-life businesses such as retail, customer buying behavior, inventory management, and financial industries. This paper used sequential pattem analysis in the supply inventory management of a university. The goal is to identify which particular items need more stock and determine when they will need it and predict the request pattern of items in every department. This paper also defined and reviewed the task of sequential pattem mining and its applications. Moreover, the Apriori Algorithm, a known effective computing solution for small datasets, was used and integrated into the current supplies inventory management system of the university to produce a sequential pattern of items being requested by different departments. (Inovero, 2018).
+
+According to Putra et al. (2018). Business development is a crucial aspect to consider in the business world. To stay competitive, a company must improve the quality of its products, introduce new product categories, and reduce operating expenses. A priori algorithm aims to find frequent item sets in a set of data. An a priori algorithm is a method for identifying a priori rules that satisfy minimal confidence and support requirements. The purpose of this research is to generate a minimarket business strategy for the placement of groceries that is suited to customer consumption patterns. In order to fit the purchase patterns of customers, the arrangement of products can be modified using the rules of the association.
+
+In this paper, two hybrid models are used for the timing of the stock markets on the basis of the technical analysis of Japanese Candlestick by Support Vector Machine (SVM) and Heuristic Algorithms of Imperialist Competition and Genetics. The use of technology in business can help companies deploy the best business strategies to compete with others. Companies can take advantage of sales data to discover more information that can help them make decisions. Using a data mining approach, companies can process transaction data in order to find out consumer buying pattems. In this paper, the authors implement association rules mining or often referred to as Market Basket Analysis for transaction data processing using RapidMiner by comparing FP-Growth and Apriori algorithm. (Aldino et al., 2021).
+
+Analyzing customer's product purchase
+
+The goal of conducting customer analysis as part of a business plan is to thoroughly Investigate the consumers most likely to acquire your product or service. Brands can identify various client segments and their respective needs. Brands may develop their business around delivering solutions to those demands by understanding what motivates individuals to make a purchase.
+
+Bilgic (2019), stated that market basket analysis is very important in terms of understanding consumers' preferences and purchasing behaviors in the retail sector and developing the most suitable production and marketing strategies. As a result of the analysis of the strongest buying behavior, it was determined that the customers who buy eggs also shop from the grocery store.
+
+Yulianto and Heryanto (2019), conducted research on software from e-commerce applications using market basket analysis to market handmade products produced by the Handicraft Industry. From the analysis, two main results were obtained. With the established e-commerce application, the handicraft industry is expected to assist the business process in the marketing of handmade products. The use of the basket, basket analysis method can improve the quality of service to customers, particularty in providing product selection information, and can directly help ownens decide on innovation.
+
+Raja et al. (2019), collected market-based data and determined the frequent and non- frequent item sets in order to uncover the reasons for the sales data. In this way, the least preferred product in the market was identified. In addition, a visualization technique was used to make sales data more comprehensible than previously seen. The authors also claimed that the research they proposed in which the profit and loss of each product were examined can be used for supermarket- based organizations in the future.
+
+According to Mappesona et al. (2020), supply chain management is a way to organize the flow of products and services from supplier to end customer. This greatly impacts the cost of goods and services paid by consumers. This study will analyze the effect of product quality, promotion, and product quality and promotion on purchasing decisions. Data is collected from populations that are the object of the research or samples drawn from existing populations using questionnaires
+
+Vaishampayan et al. (2022), market basket analysis is a data processing technique used to discover relationships between various items. The primary goal of retail market basket analysis is to provide information to the distributor about a customer's purchasing habits, which can help the distributor make the best decisions. A variety of algorithms can be used to perform market basket analysis. This paper compares two popular market basket analysis techniques to see which one is best for rule generation and visualization on a shared dataset. The findings can be used to guide cross-selling, promotions, and determining the best location for products in the store to boost sales. 
+
+Association rules learning algorithm
+
+The Association rule is a leaming technique that helps identify the dependencies between two data items. Based on the dependency, it then maps accordingly so that it can be more profitable.
+
+The association rule furthermore looks for interesting associations among the variables of the
+
+dataset. It is undoubtedly one of the most important concepts of Machine Learning and has been used in different cases such as association in data mining and continuous production
+
+According to Mustakin et al. (2018), by identifying significant relationships between the things shoppers place in their shopping baskets, market basket research reveals the buying habits of consumers. In many company organizations, it not only helps with the decision-making process but also raises sales. For mining frequent itemsets, Apriori and FP Growth are the most popular algorithms. In order to identify the frequent itemsets for both algorithms, a predefined minimum support level must be met. However, when the minimum support is low, a large number of candidate sets will be produced, requiring significant computational resources. Businesses can use sales data to find out more information that will aid in decision-making. Companies can examine transaction data to discover consumer purchase patterns using a data mining approach. This study compares the FP-Growth and Apriori algorithms to execute association rules mining, According to the study's findings, FP-Growth performs the best of the other two algorithms, but it also consumes the most memory. Compared to the Apriori Algorithm, the Apriori-TID Algorithm requires less and runs more quickly.
+
+Hossain and Paul (2019), stated that Maverick buying process was discovered during the study's initial phase, and the operational and purchasing strategies were not fully optimized. When NE receives a project from a customer as part of routine business, the project manager will determine the necessary supplies. That, however, did not take place in NE. Every month's tiny number of supplies from January to December 2019 have been purchased. Using association rule mining, it has been possible to connect the projects collected with the supplies that are required. This study was conducted using the Cross-Industry Standard Process for Data Mining as a project framework. As a result, a certain kind of project is linked to a number of supplies. This discovery will aid NE in better planning its purchases.
+
+These three pattem mining algorithms' development and application were thoroughly covered. The output from all three algorithms was consistent. Using three different datasets, we compared and analyzed the performance of these algorithms. There are suggestions about the ideal algorithm to utilize in various scenarios. Stated by (Syaifudi and Mufidah 2019).
+
+According to Fitrianah and Zain (2021). This study tries to identify associations between consumer purchases and trends that the business can use as a guide when supplying products. Although Mapongs Store is one of the online stores that is growing very quickly, it is still challenging to predict the quantity of goods to be sold, which has an effect on the store's declining sales figures. The Association rule combined with the FP Growth algorithm is the approach taken in this study to solve this challenge. Analysis of sales data gathered using the Association Rules Method and the FP Growth algorithm reveals that fewer itemset and rules will be created the higher the minimum support and minimal confidence applied. Therefore, the findings of this study can be used by sellers to learn what goods customers frequently purchase at this Mapongs Store. In order to maximize the outcomes of sales analysis for sellers, all Rules developed in this study have a Lift ratio value of higher than 1.00. As a consequence, they may be utilized as a reference in determining the relationship between product sales.
+
+According to Manapa et al. (2022), one resource for business decision-making is sales transaction data. The majority of sales transaction data is archived and utilized mainly to create sales reports; it is rarely used again. One science that can be used in circumstances like this is statistics on paint sales. Using data mining techniques, unutilized sales transactions can be retrieved and reprocessed into useful information. The a priori algorithm, one of the data mining techniques, can be used to reprocess sales transaction data and create a customer buying pattem. This data is solely utilized as a reference for creating sales statistics and as an archive, which leads to the collection of data and obscure paint brands that are frequently sold or that consumers find interesting. The author adopts the title "application of data mining analysis of client purchasing patterns in paint sales using Apriori algorithm" as a result. This study is supposed to produce information that can be valuable for linked parties and be used to develop sales strategies that will promote business turnover.
+
+2.2 Concept of the Study
+
+Figure 2-1 Conceptual framework of the study
+
+This diagram shows the input, process, and output (IPO) design wherein the product of this research is Using Apriori Agorithm to Analyze Customers Product Purchase for RJC Hardware and General Merchandise. the input is the list of Information and software requirements, the process would involve using the Apriori Algorithm to analyze the customer purchase data, identify the most frequently purchased items, and designing and developing the proposed system.
+
+2.3. Definition of terms
+
+Web-based Application. A web application is application software that is accessed using a web browser
+
+Analysis. Process of breaking down, interpreting, and evaluating information in order to understand it better and make informed decisions. It can be used to identify patterns, trends, and connections in data, and also used to analyze transaction data.
+
+Decision making. This is the process of making choices by identifying a decision, and gathering information that helps the owner of the RJC
+
+Visualization. The goal of visualization is to present complex information for the users, in a clear and concise manner, so that it can be easily understood and interpreted
+
+Support. Is how much an item affects the overall transaction. Suppose that calculating support iterns A and B from all transactions
+
+Confidence. Confidence is a measure of the strength of the association between two items. It is used to identify relationships or patterns between items in the data.
+
+Apriori Algorithm. An algorithm for frequent itemset mining and association rule leaming over relational databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database.
+
+Association rules. Association rule is a rule that describes a relationship between two or more items in a set of data. It is commonly used in data mining to find patterns and relationships in transactional databases.
+
+
+
+
+3 OPERATIONAL FRAMEWORK
+
+This chapter focuses its discussion on the materials and methods that are utilized, to describe how the study was conducted. The first section presents the different techniques used in the web-based system and the development of the proposed system. The second section defined the different methods used for the research.
+
+3.1 Materials
+
+3.1.1 Software
+
+Table 3-1 shows the software tools utilized by the researchers for the development of the proposed system. It lists the specific software applications and programming languages used to create the system.
+
+3.1.2 Hardware
+
+Table 3-2 shows the hardware used by the researchers; It includes the operating system, processor, memory, and storage specifications used in the development process.
+
+3.1.3 Data
+
+In conducting the study, data was acquired through the source of the data encoded in an excel file or the datasets given by the owner of RJC hardware and general merchandise in San Vicente, Jones Isabela. The data file includes the following attributes: product name, date of purchase, and quantity, which are used to analyze the product purchased.
+
+3.2 Methods
+
+Research Techniques
+
+The researchers used a survey questionnaire in gathering data about the application. The survey questionnaire was based on the fact-finding approach. These were instances when the respondents were asked to rate the system's effectiveness in terms of Functionality, Information, Usability, and Efficiency. R.JC's owner and staff were interviewed by the researchers about the problem and difficulties they encountered and potential areas for improvement.
+
+Respondents
+
+The owner of the RJC hardware and general merchandise company and staff are the respondents to this study because they are the ones who need this part.
+
+Data Gathering Procedure
+
+This is an essential part of conducting a study because it discusses how the researchers gathered information and requirements for software development. The researchers used a variety of data-gathering procedures that could help with the development of the software.
+
+First, the researchers prepared a letter seeking approval from the concerned authority. After seeking approval, the researchers prepared a questionnaire which have been checked and approved by the researcher's adviser and thus followed by the floating of questionnaires to the respondents 
+
+Interview: The researchers used this method to gather information from RJC's owner. The researchers ask questions to the owner about what issues or methods they use to analyze their transaction data before we develop software that fits their needs.
+
+Internet research: The researchers also surfed the internet for the analysis and for understanding the feature of some related Literature and Studies.
+
+Questionnaire: The researchers use a questionnaire to gather responses from the respondents regarding the effectiveness of the proposed system.
+
+System Flowchart
+
+Figure 3-1 System Flowchart
+
+The proposed system flowchart is shown in Figure 3-1. It begins with registration, if you already have an account, you can log in, if not, you must register first to gain access to the application. After successful login, it directs users to the dashboard, which is the main interface of the system where users can input a file containing transaction data. The system will then process the data using the Apriori algorithm to find the possible product combination and frequent ilemsets.
+
+The results of the analysis will be displayed in the dashboard, which can be visualized in the form of charts, tables, or graphs.
+
+Apriori Algorithm
+
+In this study, researchers use the apriori algorithm as a method for data mining to find the frequent itemsets based on the transaction data. One of the most well-known data mining methods. The Apriori algorithm, is also known as market basket analysis. (Ananda, 2020).
+
+The apriori method is used to analyze a collection of items purchased in the transactions and to know the pattem of a product. The algorithm begins by identifying frequent, individual items (items with a frequency greater than or equal to the given support) in the database.
+
+According to Kusrini (2010), the basic methodology of association analysis is divided into two stages:
+
+1. Analyze high-frequency pattem
+
+This stage is looking for a combination of items that meet the minimum requirements of support in the database. The support value of an item is obtained by the following formula.
+
+Support (A) Amout of transaction contain A Amount of transactions
+
+Meanwhile, the support value of 2 items is obtained from the following formula:
+
+Support (AuB) = Amout of transaction contain A and B Amount of transactions
+
+2. The establishment of associative rules
+
+After all, the high-frequency patterns are found, then the associative rule that meets the minimum requirement for confidence by calculating the confidence of the associative rules A→ B. The confidence value of rule A B is obtained from the formula: Confidence P (B/A) = Amout of transaction contain A and B Amount of transactions contains A
+
+Table 3-2 Sample list of transaction data.
+
+Determine the transaction limit and specify the list of 1- itemset candidates. The support of the transaction limit is 3.
+
+Table 3-3 List of Candidates 1-itemsets calculation result
+
+From table 3-3 The result obtained that meets the minimum support of 5% the value of less than 5% will be removed.
+
+Table 3-4 List of Candidates 2-itemsets calculation result
+
+After obtaining a combination that meets the minimum support value, the next step will be the formation of association rules by calculating the confidence value for each 2-itemset combination candidate.
+
+2. The establishment of associative rules
+
+in this method, a minimum confidence value of 30% is set, and a value of less than 30% will be removed.
+
+Table 3-5 Calculation results
+
+The result of a possible item combination is based on our calculation. In this method, researchers demonstrate based on the data presented and the basic concept of apriori algorithm.
+
+Table 3-6 Result of Analysis of apriori algorithm and generate the association rule
+
+1. According to the above pattern, if a customer purchases Padlock, there is a 42% probability that they will also purchase the Cement Republic.
+
+2. According to the above pattern, if a customer purchases Stainless Elbow, there is a 50% probability that they will also purchase the Stainless Tube.
+
+3. According to the above pattern, if a customer purchases Stainless Tube, there is a 75% probability that they will also purchase the Stainless Elbow.
+
+4. According to the above pattern, if a customer purchases Yero, there is a 33% probability that they will also purchase Tire Wire.
+
+5. According to the above pattern, if a customer purchases Welding Rod, there is a 33% probability that they will also purchase the Yero.
+
+6. According to the above pattern, if a customer purchases Yero, there is a 33% probability that they will also purchase the Welding Rod.
+
+7. According to the above pattern, if a customer purchases Welding Rod, there is a 44% probability that they will also purchase the Cement Republic.
+
+In this result, we have 7 rules based on Association mining and the possible combination of items. However, before you get the probability you need to apply association to get the confidence percentages.
+
+Concept of Apriori Algorithm
+
+Figure 3-3 Concept of apriori algorithm
+
+In this study, the researcher used the Concept of the apriori algorithm as a basis for analyzing the purchased product and finding frequent itemsets. Once the frequent item sets have been found, the algorithm can generate rules that explain the relationship between items in the sets. These rules are often represented in the form of "if-then" statements.
+
+3.2.1 Procedures for the different phases
+
+Software Development Methodology
+
+Figure 3-4 Waterfall Model Software Development Life Cycle Model
+
+This figure shows the water model that has been used by the researchers in the study because it is easy to understand the steps and also to use this as a basis to design and develop the web-based application. it provides the structure in a phased approach to delivery.
+
+Phase 1: Requirements
+
+This is the first phase of the development cycle in which the researchers consider the system's functional requirements. Gathering and analyzing user needs to ensure that the system can satisfy their requirements, and make sure the ideas and the goal in this research will be achieved.
+
+Phase 2: Design
+
+At this phase, the design must have a friendly design and a user interface that are easy to understand and direct to the point. The following design principles:
+
+Simplicity: The interface should be simple and easy to understand, with clear and concise labels and instructions.
+
+Consistency: The interface should be consistent in terms of layout, navigation, and terminology, to reduce confusion for the users
+
+Clarity: The interface should be visually clear and easy to read, with good contrast and appropriate typography
+
+Phase 3: Implementation
+
+During this phase, the researchers implement the system for RJC hardware and general merchandise, implement the algorithm and test the system with a sample dataset. The researchers explain the system's flow to the user/merchant. And after that, the researcher will seek feedback from the merchant regarding the application.
+
+Phase 4: Verification
+
+During this phase, determine whether the system is functioning properly by testing and verifying the codes for potential mistakes.
+
+Phase 5: Maintenance
+
+The system's performance must be maintained well for it to work, improving and adding possible features that might be helpful for the company. It involves making changes to improve the system's performance, fix the problem, and address user requirements
+
+3.2.2 Evaluation
+
+Table 3-7 shows the respondents of the study are the owner of the RJC store and the staff at San Vincente Jones, Isabela.
+
+Statistical Treatment of Data
+
+Mean and Standard Deviation were used to describe the advantages of using the proposed system and the Assess the effectiveness of a developed system
+
+Table 3-8 Likert Scale shows the weighted mean range and its descriptive interpretation
+
+In finding the weighted mean in the presentation, analysis, and interpretation of data, the researchers used the formula:
+
+WM (1)f+(2)+(3)f+(4)f+(5)f n
+
+Where:
+
+WM-weighted mean
+
+f = frequency
+
+n = number of respondents
+
+
+
+
+4 RESULTS AND DISCUSSION
+
+This chapter consists of the presentation, analysis, and interpretation of the data gathered by the researchers. It has to do with the study entitled "Using Apriori Algorithm to Analyze Customer's Product Purchase for RJC Hardware and General Merchandise."
+
+Objective 1: Design and develop a system called "visual support system
+
+Figure 4-1. Login form
+
+The figure shows the login form of the system. It is where the authorized user will enter her email and password. Once a user enters the correct email and password it's directed to the dashboard page/home page
+
+Figure 4-2. Registration form
+
+On this page, the user needs to register first including the first name, last name, company name, address, phone number, email, and also the password.
+
+Figure 4-3. Home page/Dashboard page
+
+After successfully log in, users are directed to the Dashboard page.
+
+Figure 4-4. Profile of the user
+
+The user is allowed to change the password and edit profile information
+
+Figure 4-5. List of transaction data
+
+The figure shows the transaction datasets based on data imported and has been cleaned, moving all those null values.
+
+Figure 4-6. Quantity
+
+Based on the imported data, the user can easily determine the quantity of each transaction.
+
+Figure 4-7. Monthly transactions
+
+Based on the imported data, the user can easily determine the monthly transaction of each transaction.
+
+Figure 4-8. Monthly purchased
+
+Based on the imported data, the user can easily determine the monthly purchased of each transaction.
+
+The "visual support system" is a tool designed and developed by researchers for RJC to make transactions more efficient and productive for the user. It allows users to easily visualize their transaction data based on imported datasets and other visual presentation features. The tool is also effective for decision-making as it enables the processing of new forms of information. This information can be used to optimize the product and improve the overall performance of the business in a competitive market. Additionally, the tool is built using the PHP programming language, which is popular for web development and is well-suited for building dynamic, interactive web applications.
+
+Objective 2: Implement the use of apriori algorithm to find the most frequently purchased items by customers using the developed system.
+
+Figure 4-9. Most frequent items
+
+The figure shows the applied apriori algorithm, in order to find frequent items it needs minimum support and minimum confidence.
+
+Figure 4-10. Most frequent 2-itemsets
+
+The figure shows the visual presentation of 2-itemsets and commonly purchased together using the applied algorithm.
+
+Figure 4-11. Established Association Rules
+
+The figure shows, based on the established association rule, the figure shows the possible item combinations and the relation between two items. These rules can help owners understand customers' purchasing capabilities. The algorithm works by identifying frequent itemsets, which are sets of items that appear frequently in the transaction data. Once the frequent itemsets are identified, the algorithm can then generate association rules, which describe the relationship between the items in the frequent itemsets.
+
+Objective 3 Assess the effectiveness of a developed system of the evaluation of the user's perception
+
+Table 4-1: Weighted Mean and Descriptive Interpretation of the Respondents on the Assess the effectiveness of a developed system in terms of Functionality
+
+Table 4-1 shows the respondents' weighted mean and descriptive interpretation on the Assess the effectiveness of a developed system in terms of Functionality. Statement 1 garnered the highest weighted mean of 4.60 with a descriptive interpretation of "Agree." While Statement 3 got the lowest weighted mean of 4.00 with a descriptive interpretation of "Agree."
+
+Further analysis reveals that in the evaluation of the Visual Support System in terms of Information, the majority of the respondents were agreed which gained a composite mean of 4.35.
+
+Table 4-2: Weighted Mean and Descriptive Interpretation of the Respondents on the Assess the effectiveness of a developed system of the evaluation of the user's perception in terms of Information.
+
+Table 4-2 shows the respondents weighted mean and descriptive interpretation on the Assess the effectiveness of a developed system in terms of Information. Statements 1 and 2 gamered the highest weighted mean of 4.40 with a descriptive interpretation of "Agree." While Statement 2 "The system provides the expected output" got the lowest weighted mean of 4.20 with a descriptive interpretation of "Agree"
+
+Further analysis reveals that in the evaluation of the Visual Support System in terms of Information, the majority of the respondents were neutral which gained a composite mean of 4.33.
+
+Table 4-3: Weighted Mean and Descriptive Interpretation of the Respondents on the Assess the effectiveness of a developed system of the evaluation of the user's perception in terms of Usability.
+
+Table 4-3 shows the respondents' weighted mean and descriptive interpretation on the Assess the effectiveness of a developed system in terms of Usability. Statement 3 "The system operates with minimal effort." garnered the highest weighted mean of 4.80 with a descriptive interpretation of "Strongly Agree." While Statement 4 "The system is less time-consuming" got the lowest weighted mean of 3.80 with a descriptive interpretation of "Agree."
+
+Further analysis reveals that in the evaluation of the Visual Support System in terms of Usability, the majority of the respondents Agree which gained a composite mean of 4.40.
+
+Table 4-4: Weighted Mean and Descriptive Interpretation of the Respondents on the Assess the effectiveness of a developed system of the evaluation of the user's perception in terms of Efficiency.
+
+Table 4-4 shows the respondents' weighted mean and descriptive interpretation on the Assess the effectiveness of a developed system in terms of Efficiency. Statement 1 "The system response promptly." gamered the highest weighted mean of 4.50 with a descriptive interpretation of "Strongly Agree." While Statement 2 "The system needs to improve for satisfaction" got the lowest weighted mean of 3.80 with a descriptive interpretation of "Agree."
+
+Further analysis reveals that in the evaluation of the Visual Support System in terms of Efficiency, the majority of the respondents Agree which gained a composite mean of 4.26.
+
+Table 4-5: Summary of Composite Mean and Descriptive Interpretation of the Respondents on the Assess the effectiveness of a developed system of the evaluation of the user's perception.
+
+The above table presents the summary of the composite mean and descriptive interpretation of the respondents on Assess the effectiveness of a developed system. The Usability category gamered the highest category mean of 4.40 with a descriptive interpretation of "Agree." While the Efficiency category got the lowest category mean of 4.26 with a descriptive interpretation of "Agree."
+
+Overall, the grand mean is 4.33 with a descriptive interpretation of "Agree," which means that the majority of the respondents agreed on the different categories in Assess the effectiveness of a developed system. 
+
+
+
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presents the summary of the findings, the conclusions drawn, and the corresponding recommendations for future researchers
+
+5.1 Summary of findings
+
+The thesis study is entitled "Using apriori algorithm to analyze customers product purchase for RJC hardware and General Merchandise". The aim of this study is to analyze the transaction data given by the target agency and provide them with a visual presentation. In transactional databases, the Apriori algorithm is used to mine frequent item sets, and the frequericy of occurrence of items is referred to as support and confidence. This analysis helps you understand your customer's on refers to individual purchases by implementing data mining techniques, companies will be able to continue to improve their business strategies and use them to improve the company's decision-making capabilities. The researcher designed and develop a system that applied apriori algorithm to find the possible product combination and frequent itemsets, and also to visualize the transaction data, based on imported data. The researcher used the Waterfall model Software Development Methodology for developing the proposed system, in which development is divided into distinct phases: Requirements, Design, Implementation, Verification, and Maintenance. By following the phases, the researcher can ensure that the research project is successful and all the objectives are accomplished. The researchers used the descriptive method. It was done using an evaluation questionnaire that was categorically arranged, and given to the business owner and staff of RJC hardware and General Merchandise in San Vicente Jones, Isabela. Applying the statistical treatment to compute the weighted mean, The results showed a weighted mean of 4.33, indicating that the respondents agreed in all categories and that the propsoed system/application was deemed effective
+
+5.2 Conclusions
+
+The following conclusions are based on the objectives:
+
+1. The researchers conclude that the developed application is capable of generating and visualizing the transaction data, and other visual presentation features.
+
+2. The researchers conclude that the apriori algorithm is a simple and easy-to-understand algorithm. As a result of the applied algorithm, it provides to find the item combinations and frequent items by implementing minimum support and confidence. Hence, the researchers concluded that the applied algorithm requires datasets formatted as a comma-separated list of items or products purchased to generate frequent items and associations. The algorithm was implemented in the proposed system/application which helps the company identify the most commonly purchased products and make more informed decisions about their product.
+
+3. The researchers conclude that the developed system/application is effective in terms of functionality, information, usability, and efficiency. However, the researchers also identified areas for improvement where the system could be optimized or new features could be added to enhance the user's experience. Some possible areas for improvement could include increasing the speed of data processing and adding more visualization options.
+
+5.3 Recommendations
+
+The researchers of this study hope that the relevant issues will be solved by the next future researcher. To create a possible solution for this study, develop a productive system to achieve a better result and a good accomplishment. The researcher recommends that future studies also explore other data mining techniques and other areas of analysis that could more potentially benefit the company and the industry.

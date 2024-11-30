@@ -10,7 +10,7 @@ def clean_text(text):
     # Remove unnecessary characters like @%7%
     text = re.sub(r'[^a-zA-Z\s]', '', text)
     
-    # Convert to lowercase
+    # Convert to lowercasecls
     text = text.lower()
     
     # Remove stopwords
@@ -20,8 +20,8 @@ def clean_text(text):
     return text
 
 # Load the input text file
-input_file_path = 'RawData/D23.txt'
-output_file_path = 'CleanedData/D23.txt'
+input_file_path = 'RawData/raw36.txt'
+output_file_path = 'CleanedData/raw36.txt'
 
 with open(input_file_path, 'r', encoding='utf-8') as file:
     data = file.read()

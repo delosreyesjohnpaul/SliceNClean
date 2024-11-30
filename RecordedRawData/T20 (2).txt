@@ -1,0 +1,731 @@
+Online Inventory System with Stock Level Notification for Four A's Convenience Store
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+GUMARO, JAMAICA B. GUZMAN, JOHN PAUL S. VILORIA, GIO ANGELO M.
+
+January 2023
+
+ABSTRACT
+
+The Online Inventory System with Stock Level Notification for Four A's Convenience Store was developed in order to establish a system which aims to solve the problem and challenges that currently exists within the Four A's Convenience Store located in Barangay Tallungan, Reina Mercedes. Without proper inventory monitoring, critical items in large stores can run out of stock. Keeping track of the incoming and outgoing of stocks is another problem to be considered as well. Proposing this system using the Sublime Text for coding and PHP and CSS was applied for the system's design. Aside from the information gathered during the interviews, survey questionnaire, and internet research were the research instruments used by the researchers in the conduct of the study. The waterfall model served as a guideline for the overall process of developing the system. Based on the findings and conclusions shown, the researchers recommended a need to improve the present system in terms of Performance, Information/Data, Economics, Control and Security, and Efficiency and Service. The respondents evaluation gives the reason that there is a need to enhance the traditional process of manual inventory method. It was found out that the respondents agreed on the benefits of the proposed system in terms of functional suitability, performance efficiency, reliability, usability and maintainability.
+
+CHAPTER I INTRODUCTION
+
+Project Context
+
+Technology has become segment of daily living and every phase of establishment is beginning to include it in some way, give enormous advantages, improved as a result of the flexibility and speed, innovative approaches to businesses. Nowadays, convenience stores appeal to a wide portion of the population looking for everything from a small store, not only provide all the convenient stuff but also offer service to their customers for long hours. Many convenience stores remain open for 24 hours that means a person can buy any goods at any time of the day. It seems everyone is on the go so convenience stores appeal to a variety of customers in every socio-economic category.
+
+An inventory system where the demand rate potentially depends on both selling price and stock level, in which the goal was the maximization of the profitability index. (Pando et al. 2021).
+
+Barangay Tallungan formerly known as Poblacion in municipality of Reina Mercedes in the province of Isabela. Barangay Tallungan is also one of the progressive and innovative barangay, in the City.
+
+An Online Inventory System with Stock Level Notification for Four A's Convenience Store is a software solution defined as a systematic design to manage the process of monitoring all incoming and out coming stocks online. Owners and suppliers
+
+can both benefit from a thorough solution, where the system records the quantity of products sold as products purchased, price and date. Having a single source of supply might become a big problem of the owners of Convenience Store, especially in business fail. In addition, owners experience few customers because of lack of most popular and profitable products. Online Inventory System saves time for businesses by speeding up
+
+transactions and inventory. Also it is easy to verify the actual net and gross profit.
+
+Many businesses still try to manage their inventory with manual procedures. Manual inventory can be more challenging, especially when the owners had to write all down the stock level and count each of them. Writing stocks manually is prone to problems such as; misplacing lists, overstocking, and manual documentation. Manually inventory is time-consuming; the owner must reconcile each sales receipt with every piece of physical inventory and how many different products are sold.
+
+The key feature of this project is to track the in and out products also compute actual net and gross, a notification feature will support the system. This system will help the owner to monitor, control and update the incoming and outgoing stocks. The system also checks the cost of products from time to time and informs the owner or people in charge through notification. Furthermore, this system will be a great help and advantage to the users by reducing the manual operations, such as writing the number of the current, incoming and outgoing stocks. This system might also be the solution to digitalize the other types of retail and wholesale businesses by constant innovation and transforming
+
+manual to systematized method.
+
+Objectives of the Project
+
+The main purpose of this study is to develop a system entitled "Online Inventory System with Stock Level Notification for Four A's Convenience Store."
+
+Specifically, it aimed to:
+
+1. identify the problems encountered in manual recording process of a Convenience
+
+store;
+
+1.1 Functional Suitability;
+
+1.2 Performance efficiency;
+
+1.3 Reliability;
+
+1.4 Usability; and
+
+1.5 Maintainability.
+
+2. develop a system that would monitor and manage inventory;
+
+3. evaluate the developed system using ISO 25010 standard evaluation;
+
+3.1 Functional Suitability;
+
+3.2 Performance Efficiency;
+
+3.3 Reliability:
+
+3.4 Usability; and
+
+3.5 Maintainability.
+
+Significance of the study
+The study entitled "Online Inventory System with Stock Level Notification for Four A's Convenience Store" is expected to help and benefit the following: To the Owners, it will be a great benefit for them to update and monitor stock level and also will easily able to know if the products are in critical status.
+
+To the Community or Future Businessmen, they will able to determine if this Online Inventory System with Stock Level Notification for Four A's Convenience Store may be the solution to their manual or recording problems on their businesses.
+
+To the Future Researchers, it will be a great help for them to conduct a better study and this will provide a pattern about other businesses or conduct new research on every business/companies that needs a proper digital inventory system.
+
+Scope and Limitations
+
+The scope of this study is to implement and design online inventory system with stock level notification for four a's convenience store that focuses on Online Inventory with monitoring stocks level of Convenience Store. The Online Inventory System with Stock Level Notification for Four A's Convenience Store is accessible by the owner and person in charge. This system will provide performance efficiency, functional suitability, reliability, maintainability, usability, accurate website to good quality service to the owners. This system is not accessible on smart phones, one user at a time, since the database is not centralized, only owner and cashier can use the system, there is no GUI in Suppliers, Stock Level Notification are only for the re-order level of stocks and nothing
+
+else. Thus, this study is limited only to the owners of convenience store at Barangay Tallungan, Reina Mercedes.
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter discusses the concept, the completed thesis, the research books, the online journals, the generalization or conclusion, the methodology, and the works of other authors who are significant to this study. Those featured in this chapter helped the researchers by researching similar studies and literature. This enables the researchers to understand the conducted study and all the data. This will also summarize the theoretical and conceptual frameworks to understand the study fully.
+
+According to Endeavour (2018), argued that manual systems put pressure on individuals to keep on being correct each and every time and to be very detailed with their work. It can be all too easy to accidentally switch details and end up with inconsistency in data entry or in hand written orders. Furthermore, It takes more effort and physical space to keep track of paper documents, to find information and to keep details secure. When mistakes are made or changes or corrections are needed, often a manual transaction must be completely redone rather than just updated. With manual or partially automated systems information often has to be written down and copied or entered more than once. Systemization can reduce the amount of duplication of data entry.
+
+This study further compares the situation and result of using manual system vs. actual recording. With the help of a manual system, it would be easier to detect human errors and would be more easy and fast to retrieve and access data unlike manual
+
+According to Tubongbanua (2017), the Web-based Information and Monitoring System is an expansion of a basic information system achieved through system design of an improved or broader capability by functionally or technically relating two or more information systems. With this, the academy will be able to provide quality service to its students. This thesis study offers important implications for monitoring of the school and lessens the workload of school management and saves time.
+
+The system can provide an excellent educational experience to students at the said institution. The implications of this thesis study for school monitoring are significant. It attempts to reduce the workload of school administration and save time.
+
+According to Wal-Mart, he runs stores on a perpetual inventory system. This system records the quantity of items sold as items are purchased. The computer system at Wal-Mart constantly keeps up with additions or deductions from inventory and tells management what items are on hand. The organization also conducts employee manual counts of inventory periodically. When an item arrives at the Wal-Mart distribution center it is scanned into the inventory system. When the items are purchased by the consumer, the point-of-sale system reduces the inventory from that purchase. According to Wal-Mart's Gail Lavielle, a leaner inventory will help clear out store clutter and help Wal-Mart focus on specific brands and products that consumers want (The Associated Press, 2016).
+
+The study explains how WalMart uses a perpetual inventory system, where in the system records the quantity sold as the items are purchased meaning there is a constant addition and deductions of inventory in the system. With this, it will be easier for the management to detect the number of stocks that are on hand. This system is beneficial to the company since it more easy to track and retrieve data and inventory files.
+
+According to the National Archives of Scotland (2018), a record management system is the systematic control of an organization's record, through their life cycle, in order to meet operational business needs, statutory and fiscal requirements, and community expectation. Effective management of corporate information allows fast, accurate and reliable access to records, ensuring the timely destruction of redundant information and the 3 identification and protection of vital and historically important records. Record management is the foundation layer of all information systems. Management of patient data, through the proper control of the content and the storage and retention of the records, reduces vulnerability to legal challenge of financial loss and promotes best practice through greater coordination of information.
+
+Cooperative information management allows for fast, accurate, and reliable access to records. Methodically controlling an organization's records is known as record management. A recording system can avoid legal challenges and financial losses if patients' medical records are properly managed. The main purpose of any recording management system is content managing and record storage and retention.
+
+This study further explains the importance of the record management system, since record management is the foundation of all record management. With the help of a good and effective record management system reduces vulnerability to legal challenge of financial loss and promotes fast, accurate and reliable access to records.
+
+According to State of Small Business Report (2017), successful inventory control requires data from purchases, reorders, shipping, warehousing, storage, receiving. customer satisfaction, loss prevention and turnover. Almost half of small business do not track their inventory.
+
+According to Minnullin, & Nekrasova (2018), entitled "Methodical Aspects of Inventory Management in a Construction Company" The article proposes combined use of ABC and XYZ classifications. The analyzed methods allow estimating the main parameters of inventory management: demand, order, supply, warehousing. To confirm the effectiveness of its use, it was tested in a road construction company. The authors have analyzed the results of proposed recommendations; they have shown their applicability in practice.
+
+Under this study, it aims to suggest using both different classes simultaneously. Demand, order, supply, and warehousing are some of the key inventory management parameters that can be estimated utilizing the methods under study. It was tested in a company that built roads in order to verify its efficacy. The writers have examined the outcomes of suggested ideas and demonstrated how practical they are.
+
+According to Sabila, Mustafid, & Suryono (2018), entitled "Inventory Control System by Using Vendor Managed Inventory (VMI)" The inventory control system has a strategic role for the business in managing inventory operations. Management of conventional inventory creates problems in the stock of goods that often runs into vacancies and excess goods at the retail level. This study aims to build an inventory control system that can maintain the stability of goods availability at the retail level. The implementation of Vendor Managed Inventory (VMI) method on inventory control system provides transparency of sales data and inventory of goods at retailer level to supplier. Inventory control is performed by calculating safety stock and reorder point of goods based on sales data received by the system. Rule-based reasoning is provided on the system to facilitate the monitoring of inventory status information, thereby helping the process of inventory updates appropriately.
+
+Under this study, it further discusses inventory control systems that use the vendor managed inventory which aims to build inventory control systems that can maintain the stability of goods and availability at the retail level. This VMI method on inventory control system provides transparency of sales data and inventory of goods.
+
+According to Vadi, Kotadiya, Solanki, & Khambalkar (2021) entitled, "Low-Cost Asset Tracking and Inventory Management System (ATIM)" In any supply chain, the warehouse is the main component in linking the chain partners and nowadays it acts as a competitive factor. Current Inventory management Systems are slow, inefficient
+
+concerning managing and tracking the huge demand for large inventory traffic and hence make a poor customer experience while managing large, urgent and important inventories. Internet of Things (IoT) is a promising technology that can be used in the context of Industry 4.0. This paper aims to improve inventory management efficiency multi-folds and enhance stock SCM (supply chain management) analysis for market planning. This solution strengthens store operations & inventory management smartly, safely and efficiently. Also, the blocks and layers of loT are illustrated. Finally, the benefits and challenges of implementing IoT in the SCM and the warehouse are discussed.
+
+The study entitled Low Cost Asset tracking and Inventory Management system intends to increase stock SCM (supply chain management) analysis for market planning and multiply inventory management efficiency. This solution improves inventory management and store operations in a smart, secure, and effective manner. The building components and levels of the lot are also shown. The advantages and difficulties of using loT in the SCM and warehouse are then highlighted.
+
+According to the study of Bello (2017), many firms have thousands of items of inventory which require some form of control. The usage calculations and record keeping chores would soon become overwhelming were it not for the computer and its unique information storage and retrieval capabilities.
+
+This study further explains that with the aid of a computer system, it will be easy for firma with bulk inventory to record and retrieve all of the company files and data.
+
+According to Febryantahanuji, & Kusumo (2022), entitled Building Materials Management Information System using the Web-Based Perpetual Inventory System. The problem faced is that the recording of material inventory is still done manually using a stock control card, then after that it is recorded it is entered into Microsoft Excel, it causes a long recording of material data stock because it has to open the parts one by one first for report generation. The research objective is to produce a system that can speed up the process of recording stock of building materials in the construction project warehouse, and can produce various material inventory reports that can control the availability of material inventory in the project warehouse. The method used is the Perpetual Inventory System, namely material management is carried out by controlling the stock of material inventory directly per periodic and continuously updating the stock every time material enters or exits. With this system, it will help the administration, foremen and project leaders to speed up various reports on stock control of material supplies that are fast, accurate and thorough and can improve the performance of officers in presenting reports.
+
+Under this study, it further explains the problems encountered when recording of material inventory is still done manually using a stock control card which causes a long process of recording data stock, then afterwards being recorded in the Microsoft excel. Thus this study came up with an idea to produce a system that can speed up and correct the process of recording stock of building materials.
+
+According to the study of Caliwag et al. (2019), entitled "Integrating the escaping technique in preventing cross site scripting in an online inventory system" discusses that In order to guard against Cross Site Scripting (XSS) attacks, this paper demonstrates how to use the Escaping Technique to an online inventory system. As a form of injection attack that inserts malicious scripts into the online application, XSS is also discussed. In order to support its discussion of the various XSS assaults, this paper refers to some related publications that offer additional, crucial details. This report also includes a discussion of preventive techniques to address the XSS attack vulnerabilities. Furthermore, the created online inventory system can be protected against XSS attacks thanks to the escape procedure. By removing unnecessary information, such as improper HTML or script tags, this information cannot be interpreted as code. An online inventory system uses this concept in its implementation. All potential scenarios were examined and included into the created online inventory system. As a result, protecting the privacy, accessibility, and integrity of the data stored inside the system is crucial, as is reducing its susceptibility to wide-spread attack.
+
+In this study to prevent the Cross Site Scripting (XSS) attacks in the inventory system they produce a system that can be used in the online inventory system which is Escaping Technique. It can be protected in XSS attacks and by removing unnecessary information. They use this concept to protect the privacy, integrity of data stored inside the system.
+
+According to the study of Mirea, & Albu (2018), entitled "Acquisition of physical data in an automated system for monitoring medication stocks", discusses that In order to make the procedures that support medical activity more efficient through some control and automation measures, medical units from the public system continually need new ideas. One of the key tasks undertaken by the medical personnel, in addition to the medical procedures carried out in a hospital, is the management of medication for patients. This study describes a monitoring system that performs two tasks: one based on weight sensors that detects when medication vials are being taken or placed, and another based on radio-frequency identification (RFID) that responds when objects with special tags that have information stored electronically are placed close to an RFID reader. This paper aims to present this system's environment interaction system's data collecting phase.
+
+This study discussed how the Acquisition of physical data in an automated system for monitoring medication stocks works. In this system, they invented a system that can perform two tasks which is to detect when medications are being taken or not and the other is RFID that responds when objects with special tags.
+
+According to the study of Payne et al. (2020), entitled "The chemical management system (CMS): a useful tool for inventory management" discusses that Any facility that utilizes and stores chemicals must have thorough inventory management in order to operate effectively. There are many software programs available that successfully carry out this purpose. The majority of inventory management software used commercially is
+
+regulatory or procurement-focused and typically has one-time or ongoing costs. This study discusses software that is publicly downloadable and offers an efficient inventory management system with a special emphasis on chemical security. It was created by Sandia National Laboratories.
+
+In this study, you can get a useful tool for inventory management that can operate effectively and software that is publicly downloadable. The major management software used is regulatory or procurement-focused and typically has one time or ongoing costs.
+
+According to the study of Calmon, & Graves (2017), entitled "Inventory management in a consumer electronics closed-loop supply chain" discusses that in order to support warranty returns and replacements for consumer electronics devices, this article will explain, model, and optimize inventories in a reverse logistics system. Collaboration with an industrial partner, a Fortune 100 firm that distributes consumer goods, provided the background and driving force for this effort. In a closed-loop supply chain, the reverse logistics system uses failed items to be repaired and refurbished before either using the inventory to fulfill warranty requests or selling it through a secondary market. The short life cycle of these devices and the inventory's quickly falling value make managing inventories in this system difficult.
+
+This study discussed how to support warranty returns and replacement for consumers electronic devices. Thus, this study came up with an idea to produce a system
+
+that can speed up and reverse logistics systems that failed or sell it through a secondary market.
+
+According to the study of Shirley et al. (2021), entitled "QR-based inventory management system (QR-IMS) of passenger luggage using website" shows that the goal of this project is to improve web content for the m-flight environment. It provides the design and execution of a paperless mobile network-based travel booking system that may be distributed via QR codes. A mobile device's browser can access the website implemented in this article. The website will offer flight schedules for all of the company's flights as well as an online reservation system that will let users buy tickets electronically using a legitimate debit or credit card and enable Internet access to web apps. In this project, QR codes are utilized to track and update the luggage information for travelers. Using QR codes, the airport department may quickly access passenger data. Separate QR codes were given to store merchandise at the airport at the same time, showing that the tags may be used to quickly identify a product's owner and available locations.
+
+In this study attempt to make web content more mobile-friendly. It provides the design and execution of a paperless mobile network-based travel booking system that may be distributed via QR codes. A mobile device's browser can access the website implemented in this article. The website will offer flight schedules for all company flights
+
+as well as an online reservation system that will let users buy tickets online using a legitimate debit or credit card.
+
+According to the study of Li, Zhang, & Tang (2015), entitled "Joint dynamic pricing and inventory control policy for a stochastic inventory system with perishable products" discusses that the joint dynamic pricing and inventory control strategy for a stochastic inventory system with perishable goods is examined in this study. The inventory system is modeled as a continuous-time stochastic differential equation with random disturbance. A stochastic dynamic optimization problem that maximizes the total discounted profit is constructed by combining dynamic pricing with production management. Formulate the challenge of determining the ideal joint dynamic pricing and production schedule as the problem of solving a Hamilton-Jacobi-Bellman (HJB) equation by using the stochastic optimal control approach. The best dynamic pricing and production rate are demonstrated to take the inventory level's linear feedback form, enabling the decision-maker to successfully modify their tactics over time. The case of optimal production with static price is also taken into consideration in order to emphasize the benefit of the combined dynamic pricing and production strategy. The validity of the theoretical results is demonstrated with the aid of numerical examples.
+
+In this study, the dynamic pricing and the periodic replenishment strategy for a stochastic inventory system with deteriorating items are considered. First of all, it
+
+formulates the problem into a stochastic optimal control model, which is transformed into a HJB equation based on the dynamic programming principle.
+
+According to the study of Ananthi et al. (2021), entitled "Design and Fabrication of lot based inventory control system" discusses that The human power-based inventory management system is used by the majority of industries. Therefore, it is challenging to locate a certain product in a huge warehouse. IoT-based inventory control systems are beneficial for avoiding this issue because they maintain inventory records and inform users of where items are located in the warehouse. The IoT platform stores this comprehensive product data online for simple retrieval and analysis from any location. IoT-based inventory control makes it easier to manage the industry's input and output commodities without the need for human intervention. A significant role in a large variety of manufacturing and product-based methodologies is played by the inventory control system. With the aid of the internet, a wireless connection is used to transmit the RFID card details to the receiver component of the hardware that is readily available. The Internet of Things-based industrial inventory control system was developed to keep track of the stock information, dates, and times, as well as the inventories that are connected to the cards for additional confirmation. All data management is cooperatively controlled by the Raspberry Pi. An archetype that matches data and information flows is created by the entire process. The user may easily monitor things and communicate with the website 
+
+thanks to its user-friendly design. The created management system is a highly affordable, dynamic solution compared to the current warehouse inventory system.
+
+In order to keep away this difficulty, an loT based inventory control system is constructive since it keeps up the inventory's details and tells the user the place where it is stored in the warehouse. Thanks to the website's user-friendly design, the user can easily keep an eye on things and communicate with it. Compared to the current warehouse inventory system, the developed management system is a highly flexible, economical option.
+
+According to the study of Cunanan, & Magsino (2015), entitled "Online Sales and Inventory System for olympic outlet" discusses that Olympic Outlet is a sports store that sells a variety of sporting goods and other items that are related to sports. Without a robust and dependable system, it would be difficult to monitor and update stocks with such a big inventory of supplied products. The business currently makes use of a program called the Chase Inventory.
+
+In this study, they invented a system that makes things faster and lessens difficulties in inventorying sporting goods and other items that are related to sports. The name of the system is Chase Inventory without a robust and dependable system that they invent it would be difficult to monitor and update.
+
+According to the study of Arowolaju, & Mogaji (2020), entitled "Effects of inventory management practices on the performance of small and medium scale enterprises SMEs in Akure Metropolis" This study looks into how inventory management techniques affect how Small and Medium Scale Enterprises (SMEs) behave organizationally in Nigeria's Ondo State and Akure Metropolis. The study's specific goals are to: identify the inventory management strategies used in the chosen SMEs; evaluate the variables influencing the kind of inventory management practices chosen by the chosen enterprise, and assess the impacts of those choices on the profitability of the chosen enterprise. The study's methodology involved fusing secondary data from Akure Metropolis SMEs with primary survey-based data. 966 registered SMEs were present in the Akure Metropolis, Ondo State, Nigeria research region. Both descriptive and inferential statistical approaches were used to analyze the acquired data. The analysis of the data revealed that respondents' attitudes regarding planning and procurement were positive. The inventory management strategies used by the chosen SMEs in the study area have a positive and significant link with their degree of profitability, according to the hypothesis testing result of (r= 0.225 and P 0.05) obtained with Pearson Product Moment Correlation.
+
+Under this study, you can identify the inventory system management strategies used in chosen SMEs and evaluate the variables. By doing a survey-based the inventory
+management strategies used by the chosen SMEs in the study area have a positive and significant link with their degree of profitability.
+
+According to the study of DeHoratius et al. (2017), entitled Retail Inventory Management for records are inaccurate, For shops utilizing automated inventory management systems, inaccurate inventory records are a major issue. In this article, we take a look at an intelligent inventory management tool that uses a Bayesian estimation of the physical inventory level to correct for record error. Sales data provide information about the physical inventory levels if extra demands are lost and unreported. We demonstrate how historical sales and replenishment observations may be effectively summarized by a probability distribution on physical inventory levels, and how this probability distribution can be effectively updated in a Bayesian manner when further observations are gathered. We also show how to utilize this distribution as the foundation for useful replenishment and inventory audit procedures and how to use data to predict the necessary parameters.
+
+Under this study, it shows that Inaccurate inventory records are a big problem for stores using automated inventory management systems. In this paper, they examine an intelligent inventory management solution that corrects for record mistake using a Bayesian assessment of the physical inventory level. When additional needs are lost and unreported, sales statistics reveal the physical inventory levels.
+
+According to the study of Chao, & Wang (2016), entitled dynamic inventory management with cash flow constraints. In this article, we take a look at a well-known dynamic inventory control issue involving a self-financing shop that routinely buys new goods from a supplier and sells it on the open market. The retailer's decisions about replenishment are limited by cash flow, which is updated frequently as a result of purchases and sales made during each period. Each period's excess demand is lost when there is not enough inventory on hand. At the end of the planning horizon, the store wants to maximize its predicted terminal wealth. We define the ideal inventory control strategy and provide a straightforward technique for calculating the best practices for each period. The circumstances under which the ideal control policies are consistent across time are discovered. We also provide comparison statics findings for the best control strategy.
+
+Under this study they examine a well-known dynamic inventory control problem. With a self-financing store that frequently purchases new merchandise from a supplier and resells it on the open market. Cash flow, which is constantly updated as a result of purchases and sales made throughout each period, serves as a constraint on the retailer's options regarding replenishment. When there is insufficient inventory on hand, the surplus demand for each period is lost.
+
+According to the study of Ray (2015), entitled Optimal pricing and inventory control policy in periodic-review systems with fixed ordering cost and lost sales, The periodic-review pricing and inventory control problem for a retailer dealing with
+stochastic price-sensitive demand is examined in this study using a broad set of modeling assumptions. Any unmet demand is lost, and any unsold inventory has a salvage value at the end of the finite selling horizon. The holding, shortfall, and both variable and fixed ordering charges are included in the retailer's cost component. By dynamically selecting the best pricing and restocking strategies for each period, the retailer seeks to maximize its discounted expected profit across the selling horizon. We demonstrate that a (s,S) policy is best for replenishment at the beginning of each period under a loose assumption on the additive demand function, and the value of the best price depends on the inventory level after the replenishment choice has been made. Additionally, our numerical analysis reveals that the best course of action is nearly constant for a sufficiently extended selling horizon. Furthermore, a key component of our modeling system is the fixed ordering cost (K). In particular, each increase in K causes a decrease in s and a rise in S. However, compared to a single constant price across the selling horizon, the profit impact of dynamically adjusting the retail price likewise rises with K. We show that applying estimates of the optimal policy values from a model with backordering of unmet demands to our model may result in a sizable profit penalty.
+
+Under the research of (Ray, 2015), entitled Optimal pricing and inventory control policy in periodic-review systems with fixed ordering cost and lost sales, the periodic- review pricing and inventory control problem for a retailer dealing with stochastic price semitive demand is examined in this study using a wide range of modeling assumptions
+
+Any unfulfilled demand is lost, and at the conclusion of the limited selling horizon, any unsold inventory has a salvage value. The retailer's cost component includes the holding. deficit, and both variable and fixed ordering charges.
+
+According to the study of Benjaafar, & Cooper (2019), entitled Production- inventory systems with imperfect advance demand and updating, We take into account a vendor with erratic production schedules and a limited production capacity. By advertising orders before they are due, customers give suppliers advance demand information (ADI). Customers may request that an order be completed earlier than or later than the anticipated due date because this information is not perfect. Customers update the order status, however the interval between changes is arbitrary. We define the production-control problem as a continuous-time Markov decision process and demonstrate the existence of an optimal state-dependent base-stock policy, where the base-stock levels rely on the numbers of orders at different stages of updating. We also arrive at conclusions regarding the sensitivity of the state-dependent base-stock levels to the volume of orders during each update step. We investigate the benefit of ADI using a numerical study and discover that it is most beneficial to the supplier when the interval between updates is moderate. Additionally, we take into account the effect of holding and backorder costs, the quantity of updates, and the percentage of customers who submit ADI. Additionally, we discover that whereas ADI is usually advantageous to the supplier, this may not always be the case for the clients who supply the ADI.
+
+Under this study, they consider a supplier with irregular production schedules and a constrained output. Customers provide suppliers with advance demand information by publicizing orders before they are due (ADI). Due to the imperfection of this information, customers may request that an order be finished earlier or later than the projected due date. Customers update the order status, however there is no set time between updates.
+
+According to the study of Bretthauer (2018), entitled Inventory and distribution strategies for retail/e-tail organization, In the retail industry, a lot of established brick and mortar businesses have expanded their supply chains to include internet sales channels. Unfortunately, there is very little study on retail/e-tail operations, despite the fact that the combined retailer/e-tailer business model is growing more and more popular. This study examines where and how much inventory should be distributed and kept at each location for a business that satisfies demand for its products both in-store and online in order to close this gap. With regard to processing online sales, we specifically analyze how many and which of a firm's capacitated sites should do so to save total cost (holding, backorder, fixed operating, transportation, and handling costs). Our main conclusions are as follows: I when all costs are taken into account, the percentage of online sales has a significant impact on the number of websites offering e-fulfillment, when holding and backorder costs are the only factor (i.e., the customer pays for shipping), the standard deviation of in-store demand determines where online inventory should be located, regardless of the percentage of demand occurring online; and an increase in online demand has a
+
+significant impact on where online inventory The model delivers sound solutions even when demand is correlated or not regularly distributed, according to the results of a computational research.
+
+Under this research study, it aims to investigates how a corporation can fill demand for its items both in-store and online by determining where and how much inventory should be distributed and retained at each place. They particularly examine how many and which of a firm's capacitated facilities should execute online sales in order to reduce total cost (holding, backorder, fixed operating, transportation, and handling costs).
+
+According to the study of Mohammed, & Zulficarijah (2018), entitled Impact of Inventory Management and Procurement Practices on Organizations and Performance, Organizations have been forced to cut their expenses, boost income, and maintain the best quality of the goods and services they provide to their clients in order to stay competitive in today's market. Organizations use procurement management as a key tactic to maintain their competitiveness in the now and the future. Cost control is a crucial tool in today highly competitive company climate for maintaining market competitiveness. Inventory management ensures control over client needs in such a setting, resulting in increased customer satisfaction and financial performance. The purpose of this research work is to examine inventory management and procurement practices and their impact on organizational performance. The performance measures
+
+examined in this research are financial performance and customer satisfaction. The method used is secondary data collection by gathering information relating to inventory management and procurement practices form different articles, journals and books of various researchers. The results of this study found that automated procurement practice like e-product enhance organizational performance; implementation of world class procurement practices also enhance organizational performance. The study also found that inventory management enhance organizational performance.
+
+Under this study, it aims to analyze the effects of inventory management and procurement procedures on organizational performance. Financial performance and customer satisfaction are the performance metrics that were looked at in this study. The technique employed is secondary data collection, which involves obtaining details about inventory management and procurement procedures from various research articles, journals, and books.
+
+Concept of the Study
+
+INPUT
+
+Gathered data from Convenience Store Owners
+
+Name
+
+• Contact Number
+
+Address Products
+
+Price/Gross
+
+PROCESS
+
+Software Methodologies
+
+Analyzing the current
+
+system's flow of data
+
+Design and features of the system
+
+Testing of the system
+
+OUTPUT
+
+Online Inventory System with Stock Level Notification for Four A's Convenience Store
+
+FEEDBACK
+
+Figure 1. Conceptual Framework
+
+This figure summarizes the steps to be followed in achieving the goals of the study. The input column shows what problems encountered. The process column shows the framework used to construct the proposed system. The output column shows the development of the proposed design Online Inventory System with Stock Level Notification for Four A's Convenience Store.
+
+CHAPTER II DESIGN AND METHODOLOGY
+
+In this chapter, the researchers will discuss the features that would be included in the system to be developed and instruments utilized for gathering data and information for the development of the study. Different software development methodologies were used during the software's development.
+
+Requirement Analysis
+
+Data Flow Diagram
+Figure 2. Data Flow Diagram
+
+The figure shown above is the data flow diagram that illustrates the Online Inventory System. This data is used for transactions, purchasing, and inventory purposes.
+
+Now, the system also has to keep track and manage the business sales, which happens when a customer buys something from the store. In the Inventory, the system saves an algorithm that automatically monitors and manages stocks. This enables the admin (owner) to manage the business efficiently. Its managing will be based on the products and purchasing inputs. The system also manages the transactions and payments of each customer to complete the overall function.
+
+Fishbone Diagram
+
+Figure 3. Fishbone diagram
+
+The fishbone diagram was provided to assist in the understanding of the project. The sets of branches demonstrate how to think about the causes of the existing method's problems. In performance, the written method is time-consuming and because of slow inventory recording. In efficiency, the data is either not properly stored or lost due to inadequate data storing. In the information, the data received by the owner at times can't
+identify the information and misplaced lists. In the security, the data is not secured and might be damaged because usually it can be thrown and can be easily accessed by any person. In economics, the usage of paper is too expensive for listing all the stocks and purchased products.
+
+Timeline of the Project
+
+Gantt Chart
+
+The researchers surveyed the Stores at Barangay Tallungan and gathered some important information on the process of their daily activities. The researchers observed that the Owner of store wrote manually using pen and paper. In this case, the researcher suggested developing an Online Inventory System with Stock Level Notification to enhance the method in recording of the inventories.
+
+Identifying Risk
+
+The researchers observed that inventory lists, purchased items can easily lost and access because it is only placed in a pile of paper above the desk. The researchers think that developing an Online Inventory System with Stock Level Notification will help those secured misplaced lists in a secure database.
+
+Development
+
+The researchers planned and coded the system utilizing PHP and MYSQL for database design. They also designed the user interface and determined the required input, output, and procedures. The objective of the programming phase is to convert the system's design to a program in a given programming language. Besides database and user interface design, the most challenging part of system development is coding. System Implementation
+
+In this phase, the researchers deployed the system to the Four A's Convenience Store to test the system and hear their suggestions or any recommendations for the improvement of the proposed Online Inventory System with Stock Level Notification. This was important to test the system's ISO software.
+
+Development and Testing
+
+Data Gathering Procedure
+
+The researchers managed an interview to gather some information on how the owner store handles the inventory on hand lists. It is observed that the owner store manually list all the products that are regularly purchased with the current prices and all the stocks in and out.
+
+1.1.2 Data Gathering Instruments
+
+Interview
+
+The respondents were interviewed by the researchers. The interview was conducted to learn more about the manually inventory process. The researchers have gathered the data they needed to understand the study's manual processing, analyze it, and design the proposed system using this approach.
+
+Survey Questionnaire
+
+The use of a questionnaire helped them gather information about the possible benefits of the proposed Online Inventory System with Stock Level Notification. The researchers were able to collect information regarding the advantages of the proposed Online Inventory System with Stock Level Notification through a questionnaire developed by the researchers.
+
+Internet Research
+
+B. For finding the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+(1)+(2)+(3)+(4)+f
+
+WM-
+
+Where:
+
+WM Weighted Mean
+
+n
+
+f frequency
+
+n Number of Respondents
+
+Different Software Testing
+
+The implementation plan's purpose is to assist the researchers in developing a technique for testing the system; the project's respondents must use it to test and assess the system to create reliable data that makes the project more efficient and effective. The system is critical in determining the consequences and significance of the proposed system.
+
+Unit Testing
+
+This phase is the software development process wherein the actual coding occurs After receiving the software design papers, researchers used special software for coding to evaluate cach output module.
+
+Integration Testing
+
+During this step, the researchers responsibility was to inspect the bug's fault and other problems, which was accomplished by several tests.
+
+Performance Testing
+
+After completing the integration testing, the researchers moved on to the performance testing phase to evaluate how well the website functions.
+
+Stress Testing
+
+By loading a large amount of data into the website after the performance testing. the researchers were able to determine the website's limitations.
+
+Loading Testing
+
+The developers conducted this type of test to understand the behavior of the proposed system by attempting to access the system and seeing if it is simple to enter records into the proposed system, and by adding additional inputs or entries to the database or system if it is simple. It is the most basic type of testing used to determine how a system behaves when subjected to a given load to measure the flexibility of the system's database.
+
+System Testing
+
+A system is made up of all of the parts that work together to make the whole thing work. It is necessary to guarantee that the entire system runs smoothly and performs as expected and as required. The researchers evaluated the whole system's behavior following the development project's or product's scope.
+
+Acceptance Testing
+
+The researchers evaluated the acceptability of the web-based system. The goal of this test was to see if the website met the business requirements and if it was ready for deployment.
+
+Description of prototype
+
+Front Page
+
+Figure 10. Network Model
+
+The figure shows how the system worked once the admin logged in. After logging in to
+
+the system, the admin can view and update all the features in the saves database.
+
+Implementation Plan
+
+Table 2. Implementation Plan
+
+PLAN
+
+ACTIVITIES
+
+PERSONS INVOLVE/S
+
+DURATION
+
+Approval for letter of implementation
+
+Letter Implement
+
+Researchers and the owner of the Convenience Store
+
+1 Day
+
+Install the system
+
+Brief the admin how to use the system
+
+Researcher/Users
+
+2 Day
+
+Implementation Results
+
+The result of the implementation is success, according to the owner of the Four A's Convenience Store. The system is a great help to their store and will make it easier
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by phase of study
+
+The results of the data gathered and by the researchers are presented, analyzed, and interpreted in this chapter. It addresses the research study "Online Inventory System with Stock Level Notification for Four A's Convenience Store."
+
+A. Pre-Evaluation on the Problems Encountered in the Manual Process
+
+Table 3. Weighted Mean and Descriptive Interpretation of the Problems Encountered as perceived by the Respondents in terms of Functional Suitability
+
+Functional Suitability
+
+M
+
+Descriptive Interpretation
+
+1. Using manual counting of inventory could be time consuming
+
+4.13 Often a Problem
+
+2. Unauthorized personnel can access the
+
+inventory
+
+Composite Mean
+
+4.40 Often a Problem
+
+4.27 Often a Problem
+
+This table shows that "Unauthorized personnel can access the inventory" obtained the highest weighted mean of 4.40 interpreted as "Often a Problem" and "Using manual counting of inventory could be time consuming" got the second highest weighted mean of 4.13 interpreted as "Often a Problem."
+
+The calculated overall weighted mean is 4.27, which is interpreted as "Often a Problem." This demonstrates that traditional method performance in terms of Functional Suitability is a problem that the respondents have previously encountered.
+
+Table 4. Weighted Mean and Descriptive Interpretation of the Problems Encountered as perceived by the Respondents in terms of Performance Efficiency
+
+Performance Efficiency
+
+M
+
+Descriptive Interpretation
+
+1. Inventory record is not stored properly
+
+4.17
+
+4.07
+
+Often a Problem
+
+Often a Problem
+
+2. Inventory record is redundantly 3. Manual recording is time consuming
+
+4.53
+
+Always a Problem
+
+4. It is way more difficult to monitor
+
+4.67
+
+Always a Problem
+
+stocks using the manual counting
+
+Often a Problem
+
+Composite Mean
+
+4.27
+
+This table shows that "It is way more difficult to monitor stocks using the manual counting" obtained the highest weighted mean of 4.67 interpreted as "Always a Problem" and "Manual recording is time consuming" got the second highest weighted mean of 4.53 interpreted as "Always a Problem." While "Inventory record is redundantly" got the lowest weighted mean of 4.07 and was interpreted as "Often a Problem" and the "Inventory record is not stored properly" weighted mean of 4.17 and was interpreted as "Often a Problem."
+
+The calculated overall weighted mean is 4.27, which is interpreted as "Often a Problem." This demonstrates that traditional method performance in terms of Efficiency is a problem that the respondents have previously encountered.
+
+Table 5. Weighted Mean and Descriptive Interpretation of the Problems Encountered as perceived by the Respondents in terms of Reliability
+
+Reliability
+
+M
+
+Descriptive Interpretation
+
+1. Losing the inventory records list
+
+4.50
+
+Always a Problem
+
+2. Can't identify the information
+
+3.93
+
+Often a Problem
+
+3. Difficult to track inventory level
+
+4.27
+
+Often a Problem
+
+Composite Mean
+
+4.23
+
+Often a Problem
+
+This table shows that "Losing the inventory records list" obtained the highest weighted mean of 4.50 interpreted as "Always a Problem" and "Difficult to track inventory level" got the second highest weighted mean of 4.27 interpreted as "Often a Problem". While "Can't identify the information" got the lowest weighted mean of 3.93 and was interpreted as "Often a Problem."
+
+The calculated overall weighted mean is 4.23, which is interpreted as "Often a Problem". This demonstrates that traditional method performance in terms of Reliability is a problem that the respondents have previously encountered.
+
+Table 6. Weighted Mean and Descriptive Interpretation of the Problems Encountered as perceived by the Respondents in terms of Usability
+
+Usability
+
+M
+
+4.13
+
+4.63
+
+4.73
+
+Descriptive Interpretation
+
+1. Inventory lists might be damage
+
+Often a Problem
+
+2. Writing procedures is too slow
+
+Always a Problem Always a Problem
+
+3. Writing inventory makes accessing
+
+inventory records burdensome process an extremely
+
+Composite Mean
+
+4.50
+
+Always a Problem
+
+This table shows that "Writing inventory makes accessing inventory records an extremely burdensome process" obtained the highest weighted mean of 4.73 interpreted as "Always a Problem" and "Writing procedures is too slow" got the second highest weighted mean of 4.63 interpreted as "Always a Problem". While "Inventory lists might be damage" got the lowest weighted mean of 4.13 and was interpreted as "Often a Problem."
+
+The calculated overall weighted mean is 4.50, which is interpreted as "Always a Problem." This demonstrates that traditional method performance in terms of Usability is a problem that the respondents have previously encountered.
+
+Table 7. Weighted Mean and Descriptive Interpretation of the Problems Encountered as perceived by the Respondents in terms of Maintainability
+
+Maintainability
+
+Descriptive Interpretation
+
+1. Sometimes records are misplaced
+
+4.47
+
+3.07
+
+Always a Problem
+
+2. Inventory lists is destroyed
+
+Often a Problem
+
+3. Lack of inventory secure
+
+4.53
+
+Often a Problem
+
+Composite Mean
+
+M
+
+Often a Problem
+
+4.36
+
+This table shows that "Lack of inventory secure" obtained the highest weighted mean of 4.53 interpreted as "Always a Problem" and "Sometimes records are misplaced" got the second highest weighted mean of 4.47 interpreted as "Always a Problem". While "Inventory lists is destroyed" got the lowest weighted mean of 4.07 and was interpreted as "Often a Problem."
+
+The calculated overall weighted mean is 4.36, which is interpreted as "Often a Problem". This demonstrates that traditional method performance in terms of Maintainability is a problem that the respondents have previously encountered.
+
+Table 8. Total Pre-evaluation on the Problems Encountered in the Manual Process.
+
+The analysis summarizes the mean rating distribution and its descriptive interpretation of the respondents according to the traditional method process of recording inventory lists. Item "Reliability" gathered the lowest category mean of 4.23 with a descriptive interpretation of "Often a Problem." While item "Functional Suitability" gathered a category mean of 4.27 with a descriptive interpretation of "Often a Problem". While item "Performance Efficiency" gathered a category mean of 4.36 with a descriptive interpretation of "Often a Problem". While item "Maintainability" gathered a category mean of 4.36 with a descriptive interpretation of "Often a Problem". While item "Usability" gathered the highest category mean of 4.50 with a descriptive interpretation of "Always a Problem."
+
+Further analysis shows that the majority of the respondents viewed the respondents' perception about the problems they encountered in the traditional recording of Convenience store with a grand mean of 4.34.
+
+This table shows that "The updating of inventory system is faster" obtained the highest weighted mean of 4.30 interpreted as "Agree and "The system avoids unauthorized access" got the second highest weighted mean of 4.20 interpreted as "Agree". While "The system is easy and organize" got the lowest weighted mean of 4.03 and was interpreted as "Agree" and the "The system provided the task required" weighted mean of 4.13 and was interpreted as "Agree."
+
+The calculated overall weighted mean is 4.17, which is interpreted as "Agree".
+
+This demonstrates that the proposed system is extremely effective in terms of
+
+Functionality.
+
+Table 10. Weighted Mean and Descriptive Interpretation on the Evaluation of Online Inventory System with Stock Level Notification for Four A's Convenience Store in terms of Performance Efficiency
+
+Performance Efficiency
+
+M
+
+1. Inventory record are stored properly
+
+4.43
+
+2. Inventory record retrieve faster
+
+4.40
+
+1. The system responds quickly in all its functionality and operation.
+
+4.37
+
+Composite Mean
+
+4.40
+
+Descriptive Interpretation
+
+Agree
+
+Agree
+
+Agree
+
+Agree
+
+This table shows that "Inventory record are stored properly" obtained the highest
+
+weighted mean of 4.43 interpreted as "Agree" and "Inventory record retrieve faster" got the second highest weighted mean of 4.40 interpreted as "Agree". While "The system mponds quickly in all its functionality and operation." got the lowest weighted mean of 4.37 and was interpreted as "Agree." The calculated overall weighted mean is 4.40, which is interpected as "Agree". This demonstrates that the proposed system is extremely effective in terms of Performance Efficiency.
+
+Table 11. Weighted Mean and Descriptive Interpretation on the Evaluation of Online Inventory System with Stock Level Notification for Four A's Convenience Store in terms of Reliability
+
+Reliability
+
+M
+
+Descriptive Interpretation
+
+Agree
+
+1. The inventory lists is more secured
+
+4.37
+
+2. The system provided security
+
+3. The system shown inventory is
+
+4.73
+
+Strongly Agree
+
+accurate
+
+4.37
+
+Agree
+
+Composite Mean
+
+4.49
+
+Agree
+
+This table shows that "The system provided security" obtained the highest weighted mean of 4.73 interpreted as "Strongly Agree" and "The inventory lists is more secured got the second highest weighted mean of 4.37 interpreted as "Strongly Agree".
+
+While "The system shown inventory is accurate" got the lowest weighted mean of 4.37 and was interpreted as "Strongly Agree."
+
+The calculated overall weighted mean is 4.49, which is interpreted as "Agree".
+
+This demonstrates that the proposed system is extremely effective in terms of Reliability.
+
+Table 12. Weighted Mean and Descriptive Interpretation on the Evaluation of Online Inventory System with Stock Level Notification for Four A's Convenience Store in terms of Usability
+
+Usability
+
+Descriptive Interpretation
+
+1. The system is user-friendly
+
+4.03
+
+4.27
+
+Agree Agree
+
+2. The system is effective
+
+3. The interface is pleasant and readable
+
+4.17
+
+Agree
+
+Composite Mean
+
+M
+
+4.16
+
+Agree
+
+This table shows that "The system is effective" obtained the highest weighted mean of 4.27 interpreted as "Agree" and "The interface is pleasant and readable" got the
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter summarizes the study's findings, conclusions, and recommendations based on the study's objective: to design and develop an Online Inventory System with Stock Level Notification for Four A's Convenience Store.
+
+Summary of Findings
+
+Based on the study of the proposed system entitled, "Online Inventory System with Stock Level Notification for Four A's Convenience Store" with the purpose of developing a software solution defined as a systematic design to manage the process of monitoring all incoming and outcoming stocks. Owners can benefit from a thorough solution, where the system records the quantity of products sold as products purchased, price and date. The owner of Four A's Convenience Store traditionally writing the entire inventory of the store.
+
+Based on the responses of the respondents, the proposed system's effectiveness in terms of Functional Suitability (a mean of 4.17), Performance Efficiency (a mean of 4.40), Reliability (a mean of 4.49), Usability (a mean of 4.6), and Maintainability (a mean of 4.30). As a result, with the general mean of 4.30, respondents agreed that implementing the proposed system is effective.
+
+Conclusions
+
+The researchers therefore conclude the following:
+
+The majority of the respondents viewed the respondents' perception about the problems they encountered in the Manual processing method. The developed system can allow the owner store to manage and monitor stock level in the online inventory system, based on the response of the respondents through descriptive survey in line with ISO 25010. The performance of the developed system is excellent in result, effective and provide additional benefits by improving manual process.
+
+Recommendations
+
+Based on the results of the findings and conclusion gathered, the researchers would like to recommend the following:
+
+The researchers would recommend the following based on their findings and conclusions:
+
+1. Future researchers may continue developing the proposed system in terms of Usability, which was identified as the weakest category in the evaluation carried out.
+
+2. The researchers strongly recommend that the proposed system "Online Inventory System with Stock Level Notification for Four A's Convenience Store" may be implemented because it will significantly benefit the owner of the Barangay Tallungan, Reina Mercedes in terms of monitoring and maintaining stocks outgoing and incoming.
+
+3. Additionally, proper system maintenance may be needed to ensure the system's working state and accessibility after implementation.

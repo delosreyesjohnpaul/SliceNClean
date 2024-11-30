@@ -1,0 +1,401 @@
+CRIME RATE PREDICTION BASED ON MONTHS USING K-MEANS CLUSTERING JOHN HARVEY O. DARILAG ANALYN R. FELIPE TERESSE ANDREA D. LORENZANA January 2023
+
+A Thesis Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer Science
+
+JOHN HARVEY O. DARILAG ANALYN R. FELIPE TERESSE ANDREA D. LORENZANA January 2023
+
+
+
+ABSTRACT
+
+Crime prediction and counteractive action is a precise methodology for recognizing and breaking down examples and patterns in crime. Our framework can anticipate districts, which have a high likelihood of crime events and can envision crime-prone areas. With the expanding appearance of mechanized frameworks, crime data investigators can help Law requirement officers to accelerate the way toward comprehending. K-means Algorithm is finished by apportioning data into gatherings dependent on their means. The 80% accuracy rate that was achieved suggests that the algorithm was able to identify meaningful patterns in the data and accurately group crimes together based on the month. The developed system that was evaluated in the study was likely a tool or software program that utilized the K-means algorithm to predict crime rates based on months. The evaluation found that the overall mean of the system was 4.17. which indicates that the system was effective in achieving its objectives. The fact that the mean fell within the "Agree" range suggests that the system was well-received by the users and was seen as a valuable tool for predicting and preventing crime. Overall, the study provides evidence that the K- means algorithm can be an effective method for predicting crime rates based on months, and that the developed system was successful in achieving its objectives. This information could be valuable for law enforcement agencies, policymakers, and other organizations that are interested in reducing crime and improving public safety. This framework can likewise be utilized for the crime divisions for lessening the crime and settling the crimes with less time.
+
+
+
+
+
+I INTRODUCTION
+
+1.1 Background of the Study
+
+Crime, in a way, influences organizations and institutions when occurred frequently in society. Thus, it is necessary to study the factors and relations between different crimes and to find a way to accurately predict and avoid these crimes. Recently law enforcement agencies have been moving towards a more empirical, data-driven approach to predictive policing. However, even with new data-driven approaches to predict crime, the fundamental job of crime analysts remains difficult and often manual; specific patterns of crime are not very easy to find by way of automated tools, whereas larger-scale density-based trends comprised mainly of background crime levels are much easier for data-driven approaches and software to estimate. Our research will help our Police Department because by predicting crime rates our police forces will be ready in case it happens suddenly, and it is also good because it will reduce the crime rate in our country, and it will be more peaceful and safer because we can be given more information on what the crime rates can be in these times and have more protection for us. Crimes are a significant threat to humankind. Many crimes happen at regular intervals of time. Perhaps it is increasing and spreading at a fast and vast rate. Crimes happen from small villages and towns to big cities. Crimes are of different types robbery, murder, rape, assault, battery, false imprisonment, kidnapping, and homicide. Since crimes are increasing, there is a need to solve the cases in a much faster way. Crime activities have been increasing at a faster rate and it is the responsibility of the police department to control and reduce criminal activities. Crime prediction and criminal identification are the major problems for the police department as there are a tremendous amount of crime data that exists. There is a need for technology through which case-solving could be faster. Through many documentation and cases, it came out that machine learning and data science can make the work easier and faster.
+
+This project aims to make crime predictions using the features present in the datasets.
+
+1.2 Objectives of the Study
+
+The proposed review is to support the objectives of this study, which are:
+
+1. What is the accuracy rate in predicting crime during a certain month using K-Mean Clustering?
+
+2. Evaluate the developed system.
+
+1.3 Significance of the study
+
+The results of the study will be of great benefit to the following:
+
+Municipal. This study will help the City/Municipal to ensure the safety of their netizens for they are one to those in charge in maintaining peace in Cauayan City.
+
+Philippine National Police. This study will help police officers to improve their work in terms of taking care of all netizens in Cauayan City. It will serve as bases to formulate policies, and guidelines that are effective in minimizing the crime menace in the City.
+
+Barangay Officials. Barangay Officials in each barangay of Cauayan City will surely benefited from this research for the police officers about the crime rates of their barangay for them to be more active in helping their people in every crime situation will inform them. 
+
+Future Researchers. It will help future researchers to have more knowledge in this field and improve their prediction skills and if its accuracy improves especially it help us all.
+
+Community. It helps the community to prevent crimes and to maintain peace.
+
+1.4 Scope and delimitations
+
+The study focuses on crime predict recorded and reported crimes for 2016-2021. The study was conducted in Cauayan City, Isabela. The data were limited to crimes recorded by the Philippine National Police of Cauayan City. Names of suspects and victims were not included in the dataset in this study due to the confidentiality of the information.
+
+
+
+
+
+
+II THEORETICAL FRAMEWORK
+
+2.1 Review of Related Literature
+
+According to Gopika (2020) proposed when considering the effects of global security political and govemmental aims to reduce the frequency of crime are given increasing focus. Data mining can aid many domains of massive crime datasets, and the knowledge gathered will be useful to the police force. K-means clustering functions as a rapid mining technique on a web server. It will be easy to select overall years of crime and murder-and plan them with the conclusion that homicide is the aim in the future thanks to clustered algorithms for crime analysis and pattern prediction that will only expose portion of the needs.
+
+This research aims to reduce grid size while maintaining model performance criteria. The baseline is a 100-by-100 grid with an F1 score of roughly 0.4. Because of the category imbalance, the F1 standard is chosen as the performance criterion. Even if the model predicts a significant percentage of crimes that do not occur, accuracy will remain high. As a result, the F1 score is more suited for reconciling accuracy and memory. The lower bound of predicted precision and recall The F1 score of the 11-month MA is used as a benchmark for performance.
+
+According to Kadar & Pletikosa, (2018), crime prediction is fundamentally tough. Crime study has already proven that crimes are unequally distributed in time and geography. Furthermore, crime is a highly dynamic phenomenon caused by individuals and the environment in which they interact, and academics from numerous disciplines are still exploring various variables for predictive potential. Knowing when and where crime is more likely to occur can assist various players involved in crime reduction, such as urban planners in designing safer cities and police forces in better directing their patrols.
+
+According to Stec & Klabjan, (2018), states that as new analytics-based software has been launched, crime prediction methods have evolved significantly. Geographical Information Systems (GIS) were the first and are still the most widely used analytic tool for spatial data. GIS is beneficial for creating maps and retracing relationships between crime patterns and various geographical and social circumstances, but it lacks the predictive capacity on its own.
+
+According to Robertson et al., (2019), As a systematic stage in the fight against crime, the article seeks to review the methods used for predicting the level of crime occurrence based on artificial neural networks. The review of multiple prediction levels and methods to identify the time and place of the next crime is made. The study has focused on the articles from the previous 8 years to review the methods. The analysis found that the most common methods used by the researchers are deep crime network framework, convolutional network, neural network, multi- model data, and the existing forecasting method. This made it possible to explore the previous forecasting methods used by the researchers to predict the crime level using the neural network.
+
+According to Mansour et al., (2019) It is important to know where, when and under what conditions a specific crime type typically occurs. The goal of our current research is to identify the spatial, temporal, weather, and event features most often associated with specific crime types; using these features, we can compare several different machine-leaming algorithms tasked with crime classifications. The results show that the XG boost algorithm performs best and that spatial, temporal, and weather features do indeed play a significant role in crime type classification - for example, drug crimes tend to happen on sidewalks, late in the evening, and in cold temperatures, proposing that specific 'drug dealing crime team resources' should be matched according to these specific spatial, temporal and weather forecast details.
+
+According to Tarlekar et al., (2021) Crime analysis and prediction is an organized approach for classifying the types of crimes committed, describing the purpose of crime, and predicting future crimes. The dataset includes official police reports and scraped data from reliable websites. By analyzing crime reports, the system can calculate the hotspot areas. Crime data analysts can help law enforcement officers in speeding up the process of finding criminals. The objective of this proposed system is to research datasets and analyze the crimes that are committed and then by applying the Random Forest Algorithm, the prediction of crimes will be carried out.
+
+According to Maes et al., (2021) said that crime rates are increasing all over the world, and many methods for crime prediction based on data mining have been proposed in the past. Crime prediction finds application in areas like predictive policing, Hotspot evaluation, and geographic profiling. It has been observed in the past that crime is closely related to geographical location, time, weather conditions, and day of the week. In this work, a crime prediction approach is proposed which utilizes a crime history dataset that contains multiple categories of crime. And a heuristic approach based on the generalization of crime categories is proposed. A spatiotemporal crime prediction technique based on machine learning techniques is proposed. State-of-the-art classification approaches along with ensemble learning approaches are used for prediction. Crime events dataset can be utilized to predict future crime events in an area because crime shows geographical patterns. These spatial pattems might vary with the category of crime and it is challenging to deal with lots of crime categories. Thus, a generalization-based approach can be a vital asset in crime prediction.
+
+According to Win et al., (2019) identified their approach supports the polices, the detectives, and the law enforcement officers to speed up the process of crime detection and criminal identification. Crime analysis is one of the important applications of data mining. The k-means Clustering algorithm is done by partitioning data into the process of identification of crime patterns. Data mining is the appropriate field to apply to high-volume crime datasets and knowledge gained. This easy-to-implement data mining framework works with the geospatial plot of crime and helps to improve the productivity of detectives and other law enforcement officers.
+
+According to Brown et al., (2021) considered a dataset of a particular Country. The region we selected is the United States of America. We used the Linear Regression model to predict the crime rate. Finally, a graph is plotted after implementing Linear Regression. A graph is plotted between density and crime rate to enhance the distribution of crime rate in a particular region.
+
+According to Yadav et al., (2020) observed crime rates by the KNN prediction method. It will predict, tentatively, the type of crime, when, where and at what time it may take place. This data will give the behaviors in crime over an area that might be helpful for criminal investigations. It will also provide us with the most committed crime in a particular region. In this paper, we will use the k-nearest neighbor algorithm of machine learning.
+
+According to Ramasubbareddy et al., (2020) created hypothetical datasets samples of major city areas and different crimes taking place and then we used the algorithms to analyze it. We used HTML and CSS along with PHP, while wamp was a Web server for this application. The objective of the proposed work is to analyze and predict the chance of a crime happening using the apriori algorithm. In addition, we used a decision tree as a search algorithm and a naive Bayesian classifier to predict the crime in a particular geographical location at a particular point in time. The result of this can be used to raise people's awareness regarding dangerous locations and to help agencies to predict future crime in a specific location within a particular time.
+
+Ingilevich et al., (2018) compared different approaches to the problem of forecasting the number of crimes in different areas of the city. The results of model predictions are compared and determined that gradient boosting is the most appropriate method for the problem of crime rate predict
+
+Lin et al., (2018) proposed the geographic characteristics of the grid are discussed, leaving prediction models unable to predict crime displacement. This study incorporates the concept of a criminal environment in grid-based crime prediction modeling and establishes a range of spatial- temporal features based on 84 types of geographic information by applying the Google Places API to theft data for Taoyuan City, Taiwan. The best model was found to be Deep Neural Networks, which outperforms the popular Random Decision Forest, Support Vector Machine. After tuning, compared to our design's baseline 11 -month moving average, the Ft score improves by about 7% on 100 by 100 geide. Algorithme like the random forest. SV and M are lime-consuming process and gives less accuracy.
+
+According to Borges et al. (2017) proponed a paper that analyzes characteristics of the urban environment in San Francisco in the US and Natal in Brazil cities, deploying a machine learning model to detect categories and hotspots of criminal activities. An extensive evaluation of several years of criminal records from both cities shows how some features such as the street network carry important information about criminal activities. This paper proposed an extensive set of spatiotemporal & urban features, which can significantly improve the accuracy of machine learning models for these tasks. Still, the proposed work is time-consuming and yields less accuracy. The underlying dataset evaluated in this scenario contains incidents derived from San Francisco Police Department (SFPD),
+
+According to Nair et al., (2019) observed that criminals follow a certain pattem. The data driven method is used which is based on the broken windows theory and has an enormous impact on the working of the police department. The theory links disorder and incivility within a community to subsequent occurrences of serious crimes. A predictive model for crime is developed using Machine learning. Predictive policing is used by law enforcement stakeholders to decide how to allocate resources, and manage and successfully avoid situations by taking proactive measures against thefts, robberies, homicides, and other crimes. This will help the bureau and the police departments to efficiently focus their resources on locations that are potential crime hotspots. A data-driven approach is needed to automate the prediction process by identifying the interconnections and pattems in the data. The model is built using this approach to predict the crime rate based on demographic and economic information of particular localities using decision trees, linear classification, regression, and spatial analysis.
+
+According to Niu et al., (2019). Based on police crime reports and demographic data for the City of Chicago gathered over 16 continuous years, they investigate crimes committed in urban neighborhood areas. Our aim is to comprehend how the network of urban community areas influences the dynamics of criminal acts and the demographics of its residents. Our findings demonstrate the dynamic nature of criminal activity and the existence of criminal hotspots. For predicting the per capita crime rate in each municipality, we find the most important characteristics. Additionally, several urban features seem to serve as catalysts for the geographic expansion of criminal activity. We produced three distinct clusters of community areas using the k-Means clustering algorithm, each with a different level of crime and distinctive demographics of the district's residents. Furthermore, we show that Crime Predicting models that take into account both a community's demographics and its crime rate outperform models that simply use one type of feature. Using various sets of information, we create prediction algorithms to anticipate the amount of future crimes in city community regions throughout the period time of one month and one year. The necessary length of historical data, c, of 12 months arises for forecasts for one month using only the number of earlier episodes as a characteristic. Using High forecast accuracy is ensured when utilizing more than 2 months, while poor prediction quality is caused by using fewer months. Utilizing features depending on the district's resident demographics lessens this influence slightly.
+
+We also project the number of offenses in each neighborhood over the course of the year. Then, the researcher investigates which community area and for how long an increase in financing for crime reduction in this area will result in the greatest drop in crime across the entire city.
+
+According to Robertson & Goodridge (2022) Accurately, forecasting the movement of crime from one state, such as cold, to another, such as warm or hot, makes it easier to allocate resources effectively and reduce the threat of crime. In this study, a clustering approach (DBSCAN) that detects important groupings in a geospatial dataset and Spearman's correlation is used to construct a crime-predicting model. The dataset trained using a Multi-Input Hidden Markov Model (MI-HMM) Machine Learning framework. The judgment regarding the potential level of crime for the following month was then made using the results from the MI-HMM and the Maximuposterioriiori (MAP) method. The MI-HMM-MAP innovative model was used to forecast the density of crime across time, including hotspots for criminal activity. The model was assessed using data from the real world. Results indicate an average of 81.7% correctness and 72.5% accuracy. Five traditional predictive models were compared to the model. Results reveal that our model greatly outperforms two machine learning methods, a linear regression model, a neural network model, and other models. An application to the crime of murder in Trinidad and Tobago statistically shows that it somewhat outperforms a deep learning strategy. His research offers a multivariate time series forecasting model that focuses on geographic regions of interest that may go beyond the scope of traditional law enforcement. A MI-HMM-MAP model for crime prediction is presented. The methodology uses other crime data with a one-month lag to forecast murder for the (m + 1) month. The underlying hidden states were chilly, warm, or hot. 
+
+According to Feng et al., (2019). Big data analytics (BDA) is a methodical strategy for analyzing and discovering various patterns, relationships, and trends within a significant amount of data. In this study, we use BDA to visualize and forecast trends from exploratory data analysis on criminal data. Modem data mining and deep learning algorithms are applied in various ways. From criminal data in San Francisco, Chicago, and Philadelphia, some intriguing facts and trends are found after statistical analysis and visualization. The Prophet model and Keras stateful LSTM outperform neural network models, according to the prediction findings, and three years of training data is the ideal amount. These encouraging results will help law enforcement agencies and police departments better understand crime issues and give information that will help them keep track of operations, foresee potential incidents, efficiently use their resources, and improve their decision- making.
+
+According to Tamilarasi & Rani, (2020) the problem of crime against women in our country has grown significantly. The prevention of this crime is a crucial task in the ongoing efforts of many nations to manage it. Crimes against women have drastically increased in recent years. The Indian government is currently interested in finding a solution to this issue and placing greater emphasis on social development. A significant amount of data is collected annually based on the reporting of crimes. This information can be highly helpful for evaluating and forecasting crime and may even help us to some extent halt it. Examining, purifying, transforming, and modeling data is the process of conducting data analysis. The process' objectives are to establish valuable information, report conclusions, and support decision-making. One of the most crucial methods for standardizing the independent characteristics and putting the data into a set range is feature scaling. It is carried out during the pre-processing of data. Machine learning models are computed using the resampling technique known as K-fold cross-validation on a small sample of data. This tactic is frequently used since it is simple to comprehend and typically yields a model deftness estimate that is less biased or less negative than other methods, such a straightforward train or test divide. Processing data involves a lot of machine learning. Six different types of machine learning algorithms, including KNN and decision trees, Naive Bayes, Linear Regression CART (Classification and Regression Tree), and SVM, are introduced in this work employing crime data and similar characteristics. The accuracy of the algorithms is evaluated. This study's major goal is to assess the usefulness and practicality of machine learning algorithms in data analytics.
+
+According to Kumar et al., (2022) human behavior disorder is a major factor in crimes that cause trouble for society in various ways. Crimes and accidents are closely tracked in many nations. Crime analysis is a procedure that thoroughly examines patterns and trends across time. Today, the research community has more opportunities to do extensive analysis because to many sources of crime data. The proposed work examines crime in various geographic (taking latitude and longitude into account) and temporal contexts. The proposed work makes a prediction about the sort of crime and provides information about the time and place. TKinter-Python is used to construct the application as a Windows application for crime prediction. For completing criminal analysis and prediction, machine learning ideas and implementation are utilized, which makes it easier to interpret the data in many ways and further predicts it with good accuracy. Decision tree algorithm and K-means are the algorithms employed in this paper. The suggested effort intends to analyze data mining techniques for grouping and categorizing crime prediction. The outcomes demonstrate that the classification approach performs better in terms of accuracy and detection. In this study, experimental results are checked for calculation errors before being further examined.
+
+According to Mahmud et al., (2021) Analysis of crime is a methodological approach to the identification and assessment of criminal patterns and trends. In a number of respects cost our community profoundly. We have to go many places regularly for our daily purposes, and many times in our everyday lives we face numerous safety problems such as hijack, kidnapping, and harassment. In general, we see that when we need to go anywhere at first, we are searching for Google Maps: Google Maps show one, two, or more ways to get to the destination, but we always choose the shortcut route, but we do not understand the path situation correctly. Is it really secure or not that's why we face many unpleasant circumstances; in this job, we use different clustering approaches of data mining to analyze the crime rate of Bangladesh and we also use K-nearest neighbor (KNN) algorithm to train our dataset. For our job, we are using main and secondary data. By analyzing the data, we find out for many places the prediction rate of different crimes and use the algorithm to determine the prediction rate of the path. Finally, to find out our safe route, we use the forecast rate. This job will assist individuals to become aware of the crime area and discover their secure way to the destination.
+
+According to Kang et al., (2017) In recent years, several studies have been undertaken on the prediction of crime occurrences. This predictive feature is meant to assist in crime prevention by facilitating effective implementation of police patrols. Data from various fields, including economics, education, and demographics, have been used in earlier studies. Their prediction models provide equal weight to data from many domains. These approaches struggle to find extremely nonlinear correlations, redundancies, and dependencies across several datasets, which makes it difficult to estimate the likelihood of a crime occurring. Researchers take into account environmental context information, such as the broken windows theory and crime prevention through environmental design, in order to improve crime prediction models. In this paper, the researcher provides a deep neural network-based technique for feature-level data fusion with environmental context (DNN). The dataset is made up of information gathered from numerous web databases that include information on Chicago, Illinois's demographics, the weather, and crime statistics. We choose crime-related data by doing statistical analysis before producing training data. Finally, the researcher trains the DNN, which contains of layers representing joint feature representation, environmental context, spatial and temporal information, and time. Fusion DNN is the result of an effective decision-making process that statistically examines data redundancy, together with essential data retrieved from other domains. DNN model outperforms other prediction models in terms of performance, according to experimental results.
+
+According to Guevera & Santos, (2021) One of the primary goals of any government globally is to ensure the safety of its citizens. Security organizations take several steps to implement the newest technologies in order to stop any kind of illegal activity. The researchers were able to create patrol routes to prevent and lower the crime rate in the city of Quito, Ecuador, thanks to the study of a database of the National Police of Ecuador. The areas with the highest concentration of crimes have been identified using K-means clustering, and linear regression has been used to predict crimes within data subgroups. These waypoints will make it possible to devise and improve police patrol routes. More than 80% of outcomes in crime prediction were successful,
+
+According to Anitha (2020) Crime is among the most serious and pervasive elements of our society. For a country's citizens to feel safe, crime must be deterred. We can follow the trend of crime occurring and try to prevent adversities by analyzing crime in a methodical way. This paper's main objective is to employ several clustering techniques, such as K-Means Custering, Agglomerative Custering, and Density-Based Spatial Clustering with Noise, to assess the trends of the data gathered throughout time about the crime against women (DBSCAN). Clustering techniques are widely utilized in conjunction with research, investigation, and the discovery of patterns for the occurrence of various types of data. The real-time crime data against women were gathered from West Bengal, one of the well-known states in India, and identified using training and test sets of K-Means, Agglomerative Hierarchical Clustering (AHC), and Density-Based Spatial Clustering (DBSCAN). The comparative analysis reveals that utilizing the DBSCAN clustering technique, an accuracy of 96.1% was reached. This can assist the police in making accurate preventive plans and crime predictions for the foreseeable future.
+
+Bolkiah et al., (2022) Over the past ten years, rising urban crime has become a significant worry. Advanced prediction based on criminal activity and locations can be used for prevention. This study used a 500-record publicly available dataset from kaggle.com that contained data on crime kinds and location coordinates, among other things. K-Means Clustering, an unsupervised machine leaming approach, is used to group the data according to the locations of the reported crimes. The prospective crime areas are then predicted using the supervised machine leaming technique Support Vector Machine. In order to reduce the likelihood of crimes being committed, law enforcement organizations might develop strategic plans and deploy their units to the expected crime scenes. Improvements can still be achieved for future work with larger datasets and incorporating additional machine learning methods, even though the integration of K-Means Clustering and Support Vector Machine for crime scene prediction only shows 0.65 accuracies.
+
+Bekmaganbet (2021) One of the most harmful and damaging factors for society is crime. The majority of law enforcement agencies' efforts are focused on identifying criminals after the event. However, preventative actions are crucial to reducing the tendency for crime to increase. Therefore, creating a model that accurately predicts crime in sensitive regions and identifying the right features (factors) will focus government agencies' attention on the most vulnerable locations. The goal of this study is to use a suitable machine learning algorithm on crime, economic, and social data to predict whether a given region will have high or low crime rates, as well as to define the main social and economic factors that correlate with crime growth. This will help not only law enforcement agencies, but also the entire government, with related problems and the development of better crime prevention strategies. The best prediction models were compared and examined in the recent paper. Tests were conducted using publicly accessible data, and models were acquired and applied to publicly accessible data from Kazakhstani officials. Inconsistency and inadequate data were the two main difficulties that were encountered throughout examination. Data gathering, investigation, preprocessing, and standardization were therefore important processes. Additionally, a variety of well-known models with effective methodologies were contrasted, integrated, and the one that proved to be suitable for the Kazakhstani situation was identified. The following main prediction models were chosen: Decision Tree, Random Forest, Naive Bayesian, K-means, and Support Vector Machine algorithms. These models were based on Classification, Regression, and Clustering approaches. They were put to the test using information obtained from both open- source resources and Kazakhstani government agencies. Among the listed models, Random Forest model was found to be the most accurate (UCI Repository materials, Accuracy: 0.837, Precision: 0.884, Recall: 0.872, F1 score: 0.868), while Decision Tree produced the best results using Kazakhstani data (govstat.kz materials, Accuracy: 0.781, Precision: 0.801, Recall: 0.767, F1 score: 0.784). Additionally, statistical analysis was done to establish a suitable cutoff point for identifying the groups with high and low crime rates. The importance of a particular feature was tested at the very end, and the model demonstrated that it correlates with the target (crime rate) and that included it improved the accuracy of the results.
+
+Vulandari et al., (2020) stated that crimes take place everywhere and result in intricate issues that have a significant impact on all spheres of society. Crime is influenced by a number of variables, including the crime index, the police to population ratio, population density, and poverty levels. The goal of this study is to create an information system that can show and map Central Java's crime-prone locations. It is used to categorize regions in Central Java into the categories of safe, quite vulnerable, vulnerable, and highly vulnerable based on these variables. The K-Means clustering algorithm is excellent at predicting and classifying which areas fall within the four categories. The goal of the issue formulation is to identify crime-prone locations in Central Java. 
+
+Based on the results, there are 11 regions with safe categories, 4 areas with quite vulnerable categories, 13 regions with vulnerable categories and 6 regions with very vulnerable categories.
+
+Yadav et al., (2017) Crimes are a social irritant and have significant financial costs for our community. Any investigation that aids in the swift resolution of crimes will pay for itself. 50% of crimes are committed by around 10% of offenders. The algorithm is taught by feeding it historical crime data from reputable Indian web databases that include information on crimes including murder, kidnapping and abduction, dacoits, robbery, burglary, rape, and other similar offenses. A regression model is developed using data from Indian statistics, which provides data on various crimes committed during the last 14 years (2001-2014), and it may be used to estimate the crime rate in different states for the upcoming years. The researchers have applied supervised, semi- supervised, and unsupervised learning techniques to crime records in order to leam new things and improve the crime's predicted accuracy. The local police stations will benefit from this work in their efforts to reduce crime. 
+
+2.2 Concept of the Study
+
+Figure 1. Conceptual Framework
+
+The figure above illustrates the relationship between three significant parts to develop the proposed system, specifically the input, process, and output. The input column is about the software and hardware requirements used, and then the process column shows the methods used to develop the proposed system. Lastly, the output column is the developed Crime rate Prediction based on months using K-means Algorithm.
+
+2.3 Definition of Terms
+
+Algorithm. A procedure for solving a mathematical problem (finding the greatest common divisor) in a finite number of steps that frequently involves repetition of an operation.
+
+Android. An open-source operating system used for smartphones and tablet computers.
+
+Application. A program (such as a word processor or a spreadsheet) that performs a particular task or set of tasks.
+
+Clustering. A few similar things that occur together.
+
+Crime. The intentional commission of an act usually deemed socially harmful or dangerous and specifically defined, prohibited, and punishable under criminal law.
+
+KNN. Is a supervised learning algorithm mainly used for classification problems.
+
+Prediction. A prediction is a statement about what someone thinks will happen in the future
+
+Rate. Number of times it happens or changes in a particular period
+
+
+
+
+
+
+
+III OPERATIONAL FRAMEWORK
+
+3.1 Materials
+
+3.1.1 Software
+
+Google Colab. Google Colaboratory, also known as 'Google Colab, was used by researchers to classify and train the algorithm's data.
+
+Python. The researcher used Python as a programming language in creating the system.
+
+Visual Studio Code. The researcher used Visual Studio support for development operations like debugging, task running, and version control.
+
+LE
+
+3.1.2 Hardware
+
+Laptop/Desktop. The researchers used a laptop/desktop with at least 8GB RAM at 32- or 64-bit to organize their documents, train their data sets and create a crime mapping modeling system.
+
+3.1.3 Data
+
+Data were gathered from the respected office of Cauayan City Police. The data sets composed of recorded and reported crime activities at Cauayan City, Isabela dated January 1, 2016-December 31, 2021.
+
+3.2 Methods
+
+3.2.1 Agile Software Development
+
+Figure 2. Agile Software Development Methodology
+
+Using K-means clustering algorithm for crime rate prediction is an interesting approach. To implement this, we can follow the Agile software methodology and apply it in the following way:
+
+1. Plan: The team clearly define the problem statement and objectives of the project. Gather and analyze data on crime rates in the past and relevant demographic information.
+
+Determine the relevant features and their impact on crime rates.
+
+Decide on the appropriate number of clusters to be used in the K-means algorithm.
+
+2. Design: The team plan out the architecture and design of the algorithm, including the data pre-processing, feature selection, and model building steps. Identify any potential challenges and design solutions to overcome them.
+
+3. Develop: The team write code to implement the algorithm as designed in the previous step. Write code to process and clean the data, selecting the relevant features, and build the model.
+
+4. Test: The team test the algorithm using historical data to evaluate its performance and accuracy. Evaluate the model's ability to accurately predict crime rates. Fine-tune the algorithm as necessary based on the results of the tests.
+
+5. Release: The team release the algorithm to be used in a live environment. Monitor the performance and make any necessary adjustments to improve the accuracy of the predictions.
+
+6. Feedback: The team obtain feedback from users and stakeholders to understand their experiences and identify areas for improvement.
+
+Incorporate the feedback into future iterations of the algorithm to continuously improve its performance.
+
+3.2.2 Methodology
+
+In this section, the methodology is explained, including how the data sets are obtained, attributes, and the data mining algorithms.
+
+A. Data Collection
+
+The first step in the experimental design would be to collect the relevant data that will be used to predict crime rates. This data can be collected from various sources such as government agencies, news articles, and crime databases. The data should include information such as the type of crime, the location of the crime, the date and time of the crime, and any other relevant information that can be used to predict crime rates.
+
+B. Preprocessing
+
+Once the data has been collected, it must be preprocessed to remove any missing or irrelevant data. This may involve filling in missing values, removing duplicates, and converting categorical data into numerical data. This is an important step as it helps to ensure that the data is clean and ready for analysis.
+
+C. Classification
+
+In this step, the data is classified into different categories based on certain characteristics. For example, crimes can be classified based on their type (e.g. theft, assault, etc.), the location of the crime, or the time of the day. This step helps to identify patterns and trends in the data, which can be used to make predictions.
+
+D. Clustering
+
+In this step, the K-Means algorithm is used to cluster the data into different groups based on their similarity. The algorithm divides the data into k clusters, where k is the number of clusters specified by the user. Each cluster represents a group of similar crimes that can be used to make predictions about crime rates.
+
+E. Pattern Identification
+
+In this step, patterns and trends are identified in the data. For example, if a certain type of crime is more common in a particular area, or if crimes are more likely to occur at a specific time of day, these pattems can be used to make predictions about crime rates.
+
+F. Visualization
+
+In this step, the results of the analysis are visualized to make it easier to understand and interpret. For example, the crime rate predictions can be plotted on a map to show the areas with higher and lower crime rates. This step helps to communicate the results of the analysis to stakeholders, and it can also be used to identify areas that may require additional attention from law enforcement.
+
+Data Gathering Instruments
+
+3.2.3.1 Survey
+
+A survey is described as the process of gathering information from a group of people in order to gauge their opinions or experiences.
+
+3.2.3.2 Pre-Questionnaire
+
+The researchers are using a pre-questionnaire to assess the effectiveness and impact of the current system in their knowledge and perspective.
+
+3.2.3.3 Post-Questionnaire
+
+Post-questionnaire is given to respondents once the system has been completed, and it is frequently used in conjunction with the pre-questionnaire to assess the effectiveness of the system.
+
+Data Gathering Procedure
+
+The researchers wrote a letter asking PLTCOL. Sherwin Cuntapay, head of Cauayan City Police, for his approval. After receiving permission, the researchers asked for a dataset composed of the Crime activities in Cauayan City dated January 1, 2016 to December 31, 2021.
+
+Questionnaire Pre/Post Evaluation
+
+The questionnaires were distributed by the researchers in order to evaluate and determine the proposed Systems quality, Information quality and its Usefulness.
+
+Data Analysis Plan
+
+For finding the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+WM = /(1)+(2)+(3)+(4)+f(5) N
+
+Where:
+
+WM= Weighted Mean
+
+F= frequency
+
+N= Number of Respondents
+
+Implementation Plan
+
+Table 1. Sample Implementation Plan Number 1
+
+Table 2. Sample Implementation Plan Number 2
+
+In table 2.1 and 2.2, It displays the strategy, activities, person's involved, and duration of the proponents' efforts prior to implementation.
+
+Statistical Treatment of Data
+
+1. Mean and Standard Deviation were used to describe the advantages, disadvantages, and post-evaluation of the Crime Modelling System in a Police Station, Cauayan City, Isabela.
+
+TABLE 3. The table Range and interpretation of the five-point scale
+
+The table showed above are the scale range and interpretation of the five-point scale. Scales 5 with the range of 4.20-5.00 with the interpretation of agree. Scale 4 with the range of 3.40-4.19 with the interpretation of agree. Scale 3 with the range of 2.60- 3.39 with the interpretation of neutral. Scales 2 with the range of 1.80-2.59 with the interpretation of disagree.
+
+Scale 1 with the range of 1.00-1.79 with the interpretation of strongly disagree.
+
+Where:
+
+WM-Weighted Mean
+
+F= frequency
+
+N= Number of Respondents/Means
+
+
+
+
+
+
+IV RESULT AND DICUSSION
+
+4.1 Results by phase of study
+
+Objective 1. What is the accuracy rate in predicting crime during a certain month using K- Mean Clustering?
+
+Figure 3. Crime rate prediction based on months
+
+Figure 3 shows monthly reports of the top ten crimes in Cauayan Isabela, revealing the expansion and reduction of crime month-wise. However, the interesting point is that all crimes (top 10) are increased after three months and also decreased after three months, which reveals that the top ten crimes in the Cauayan Isabela area based on seasonal pattem increased in the 3rd month
+
+(March) with sarne pattern in Spring, decreased in the 6th month (June) with the same pattern in Summer, and increased again in September, Autumn.
+
+Figure 4. Crime count
+
+As shown in the figure 4, it shows the crime count patterns in months, showing the category of each crime. This suggests that there is a consistent seasonal pattern in the data, which is not solely driven by changes in the overall number of crimes but by changes in the relative frequency of different types of crimes across the months. 
+
+Figure 5. Normalized crime count
+
+As shown in figure 5, Normalizing the data by mean and standard deviation can help reveal these patterns and make it easier to compare the relative frequencies of different types of crimes across different months.
+
+Figure 6. Raw Data
+
+The preprocessed data about the criminal activities as obtained from Cauayan Police Department is shown in Figure 1. The dataset contains the information about the ID of the criminal, whether the criminal was arrested or not, whether the crime was domestic i.e. was it committed against family member. The dataset also contains information about the beat which is the smallest regional division by the Cauayan Police, Community Area, the year in which the crime occurred, latitude and longitude. The crime description is also available in the dataset.
+
+Figure 7. Accuracy
+
+As shown is figure 7, it shows the calculated result which is the MSE, MAE, R SQUARED parameter, RMSE, and Accuracy.
+
+Objective 2. Evaluate the developed system.
+
+Table 4. Advantages of the Crime Rate Prediction
+
+Table 4. This table showed that item 2 got the highest mean of 4.80, which interpreted as "Strongly Agree" while item 1 and 4 "Lighten police workload." and "Aids in data visualization, evaluates how activity relates to different geographic regions." obtained the lowest mean of 4.17 which interpreted as "Agree". The overall mean for this category is 4.42 with a descriptive interpretation of "Strongly Agree"..
+
+Table 5. Post-Evaluation of the Crime Rate Prediction based on Performance
+
+As shown in table 5, during the post-evaluation of the crime rate prediction modeling
+
+system, the following results were revealed. The functional completeness of the proposed system had 4.15 weighted mean. Followed by functional correctness with 4.20 and functional appropriateness with 4.30. The respondents respond "Strongly Agree" in terms of overall mean of 4.22.
+
+Table 6. Post-Evaluation of the Crime Rate Prediction based on Information and Data
+
+As shown in table 6, during the post-evaluation of the crime mapping modeling system, the following results were revealed. The result of the proposed system had 4.40 weighted mean. Followed by records with 4.50 and accesibility with 4.05. The respondents respond "Strongly Agree" in terms of overall mean of 4.32.
+
+Table 7. Post-Evaluation of the Crime Rate Prediction based on Economics
+
+As shown in table 7, during the post-evaluation of the crime mapping modeling system, the following results were revealed. The materials of the proposed system had 3.90 weighted mean. Followed by people with 3.75 and environment with 3.55. The respondents respond "Agree in terms of overall mean of 3.73.
+
+Table 8. Post-Evaluation of the Crime Rate Prediction based on Security
+
+As shown in table 8, during the post-evaluation of the crime mapping modeling system, the following results were revealed. The Integrity of the proposed system had 3.45 weighted mean. Followed by Aunthenticity with 3.45 and Confidentiality with 4.45. The respondents respond "Agree" in terms of overall mean of 3.78.
+
+Table 9. Post-Evaluation of the Crime Rate Prediction based on Efficiency
+
+As shown in table 9, during the post-evaluation of the crime mapping modeling system, the following results were revealed. The Reusbility of the proposed system had 4.30 weighted mean. Followed by Maturity with 4.30. The respondents respond "Strongly Agree" in terms of overall mean of 4.30.
+
+Table 10. Post-Evaluation of the Crime Rate Prediction based on Service
+
+As shown in table 10, during the post-evaluation of the crime mapping modeling system, the following results were revealed. The Leamability of the proposed system had 4.25 weighted mean. Followed by Operability with 4.65 and User Interface aesthetics with 3.55. The respondents respond "Strongly Agree" in terms of overall mean of 4.48.
+
+Table 11. Post-Evaluation of the Crime Rate Prediction based on Overall Mean
+
+The respondents responded "Agree" to the Post-Evaluation of the Crime Predicting Model System with overall mean of 4.17. 
+
+
+
+
+
+
+V SUMMARY, CONCLUSIONS AND RECOMMENDATION
+
+5.1 Summary
+
+The study was conducted to predict crime rates based on months using the K-means algorithm was likely part of a broader effort to better understand and address crime patterns. By clustering crimes based on the month in which they occurred, the researchers were able to identify trends and pattems that could be used to predict future criminal activity.
+
+The K-means algorithm is a popular clustering algorithm that works by dividing a dataset into k clusters based on the similarity of the data points. In this case, the data points were crime incidents, and the algorithm was used to group similar crimes together based on the month in which they occurred. The 80% accuracy rate that was achieved suggests that the algorithm was able to identify meaningful patterns in the data and accurately group crimes together based on the month.
+
+The developed system that was evaluated in the study was likely a tool or software program that utilized the K-means algorithm to predict crime rates based on months. The evaluation found that the overall mean of the system was 4.17, which indicates that the system was effective in achieving its objectives. The fact that the mean fell within the "Agree" range suggests that the system was well-received by the users and was seen as a valuable tool for predicting and preventing crime.
+
+Overall, the study provides evidence that the K-means algorithm can be an effective method for predicting crime rates based on months, and that the developed system was successful in achieving its objectives. This information could be valuable for law enforcement agencies, policymakers, and other organizations that are interested in reducing crime and improving public safety.
+
+5.2 Conclusions
+
+An organized method of identifying crime pattems and trends is crime prediction. The many technologies presented in this paper can be used to create a system for crime prediction. As a result of the development of the Crime Prediction System, crimes are solved more quickly and the number of crimes is decreased. Based on the results, we know that the Kmeans algorithm has an 80% accuracy rate in predicting crime rates based on months. This suggests that the algorithm is relatively effective in identifying pattems and trends in crime rates over time. It's important to note that the accuracy rate is specific to this particular dataset and prediction task, so it may not be generalizable to other datasets or types of crime.
+
+The evaluated developed system has an overall mean of 4.17, which is described as "Agree". This means that users generally found the system to be useful and effective. However, it's important to note that the overall mean is just one measure of user satisfaction, and there may be other factors that affect how well the system is received by users.
+
+To gain a more complete understanding of the system's effectiveness, it may be useful to look at additional measures of user satisfaction and feedback, such as surveys or user testing. Additionally, it may be helpful to consider other factors that could impact the system's effectiveness, such as the user interface, system performance, and ease of use. 
+
+Overall, these conclusions suggest that the Krmeans algorithm is a useful tool for predicting crime rates based on months, and that the evaluated developed system is generally effective and well-regarded by users. However, there may be additional research and development needed to improve the accuracy and effectiveness of the algorithm and system, and to gain a more complete understanding of user satisfaction and feedback.
+
+5.3 Recommendations
+
+The researchers would like to give the following recommendations based on their observations and conclusions:
+
+1. Incorporate additional data sources: To improve the accuracy of crime rate predictions, it's important to incorporate additional data sources into the model. For example, you might consider incorporating data on weather patterns, economic indicators, or social media activity. By incorporating a wider range of data sources, you can help identify factors that may be influencing crime rates and improve the accuracy of your predictions.
+
+2. Explore advanced machine leaming techniques: While Kmeans is a useful clustering algorithm, there are many other machine learning techniques that can be used to predict crime rates. For example, you might explore techniques such as decision trees, random forests, or neural networks. These more advanced techniques can help identify more complex pattems in crime data and lead to more accurate predictions.
+
+3. Integrate with law enforcement agencies: To make crime rate prediction systems more effective, it's important to integrate them with law enforcement agencies. By sharing crime data and predictions with law enforcement agencies, they can more effectively allocate resources and take proactive steps to prevent crime. This can help improve public safety and reduce the overall level of crime in a given area. Additionally, by incorporating feedback from law enforcement agencies, you can help improve the accuracy of your predictions and ensure that they are aligned with real- world crime trends.
+

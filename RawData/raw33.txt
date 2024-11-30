@@ -1,0 +1,408 @@
+WEB-BASED WATER BILLING MANAGEMENT SYSTEM WITH DUE DATE FOR PAYMENT NOTIFICATION VIA SMS ROCHELLE P. DONATO JAYMAR S. NALAPO JANUARY 2021
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+ROCHELLE P. DONATO JAYMAR S. NALAPO JANUARY 2021
+
+
+
+
+ABSTRACT
+
+A water billing system is an online project that allows water district management to post each customer's bill as well as all other water billing transactions such as customer details, service record module, and account statement. This study, titled "Web-Based Water Billing System with Due Date for Payment Notification via SMS," sought to design and develop a useful, consistent, and functional WATER BILLING MANAGEMENT SYSTEM that improves Aurora Water District's performance. For the construction of the method, the researchers used a waterfall model. Primary data was obtained through interviews and questionnaires, while secondary data was obtained from the internet. As a result, the researchers identified the issues, and the respondents agreed on the effectiveness of the proposed system with a grand mean of 3.25. The researchers concluded that the respondents' evaluations provide enough incentive to endorse and improve the current structure of Aurora Water District after evaluating the collected data 
+
+
+
+CHAPTER 1
+
+INTRODUCTION
+
+PROJECT CONTEXT
+
+The computerized program and improved performance were the focus today.
+
+Getting rid of paper improves efficiency, reduces human error, and allows information to flow to the infrastructure without requiring a time-consuming data input process, as it does in many business scenarios. There is also a lower chance of misreading handwritten orders and a higher customer retention rate. It will be delivered more quickly. A water billing system is an online project that allows water district management to post each customer's bill as well as all other water billing transactions such as customer details, service record module, and account statement. Neumann (2010) states that a water billing system is a necessary tool to help small towns, utility suppliers, bookkeepers, owners, administrators, and auditors unify their water billing services so that clients and service providers receive reliable and correct billing details.
+
+Aurora Water District is a government-owned water company that provides drinking water and waste water services (including sewage treatment) to the Aurora municipality's residential, commercial, and industrial sectors. The water industry excludes manufacturers and suppliers of bottled water, which is a component of beverage production and falls under the food sector. Aurora Water District currently serves 6 barangays and 2000 customers in the Aurora Municipality. This water company, which is owned by the government, already has a billing system. According to the results of a thorough interview, it is extremely difficult to provide up-to-date reporting using their current system Finding and encoding customer data, specifically meter readings and water consumption, was time-consuming for the user. In terms of billing, the company's meter consumption analyst visits each customer's home to read their water consumption. How many days will the MCA take to deliver the water bill by motorcycle? The owner of the house is occasionally away from work or out of town. In this case, the MCA will leave the bill at the customer's front door or at the gate. By that time, the homeowners have no idea whether or not their water bill for the current month has been issued. As a result, because the bill is occasionally misplaced, payment for their water bill will be delayed until the due date
+
+In line with this, we, the researchers, realized that it would be better to develop a new system and have it tested by prospective respondents to see how it actually works. The Aurora Water District and its customers were then chosen as study participants. The proposed system would also change the way the current system works and could have an impact on current employees, resulting in end users being appropriate or not. Over time, as they see that process reform is unavoidable, the proponent is confident that the new program will be accepted by the end users.
+
+Objectives of the Project
+
+The main goal of this study is to develop a useful, consistent and functional WATER BILLING MANAGEMENT SYSTEM that provides better performance
+
+The study specifically aims to
+
+To design and develop a system that is embedded with SMS notification for due date of payments.
+
+To design a system that will automate water billing management.
+
+To evaluate the water billing management system using the iso 25010 framework in terms of:
+
+Functional Suitability
+
+Performance Efficiency
+
+Compatibility
+
+• Reliability
+
+Maintainability and;
+
+Portability
+
+Scope and Limitations
+
+Scope of the study
+
+This study is focused on how the water billing of Aurora Water District will improve their billing system. Therefore, the system includes computing the bill consumed by the consumer and also notifying them via SMS and or via email about their bill and their due date.
+
+Limitation of the study
+
+Even though the customer gets notified of how much they are going to pay each month, the customer can not process payment online or via SMS. This study does not cover the other cities. The project will focus only on Aurora Water District.
+
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+REVIEW OF RELATED LITERATURE
+
+In this chapter, the proponents present a review of different studies and literature, which are related to the proposed study.
+
+Billing System
+
+According to (Ambre, 2016), a water billing system is necessary for clients and service recipients to receive accurate and trustworthy billing information. The purpose of this project is to develop an automated water billing system for the Abra State Institute of Sciences and Technology in Lagangilang, Abra, and to evaluate its usability in terms of quality, affect usefulness, control, and learnability.
+
+As stated by (Dhumale et al., 2018), water waste connected with manually operated water pumps, human error associated with manually operated devices, unsuitable bill creation, bill availability delay, and payment process delay are all issues that contributed to the development of an automated water billing system based on android.
+
+According to (Ribeiro, 2014), the billing function of the majority of water boards is critical, particularly when it comes to sending bills to their customers. The manual method is responsible for the majority of current issues. The primary challenges that water boards are having difficulty resolving are calculation errors, delays in system updates and bill delivery, as well as report tracing concerns.
+
+According to (Pelandiana & Ado, 2018), the Web-Based Billing and Collection System for a Municipal Water and Services Unit is a system designed to address a municipal water unit's billing and collection needs. Thanks to advancements in technology, meter readings can be performed without the use of paper. Additionally, (Alam et al., 2016) asserted that an automatic billing system for shopping malls, supermarkets, and other wholesale and retail establishments is important in the current climate. There are numerous billing systems available on the market, including barcode scanning mechanisms and tag-based systems.
+
+Thailand's payment mechanism for civil servants medical care programs was modified to a direct billing system in 2006, according to (Dilokthornsakul et al., 2010). The new scheme's influence on prescription costs and the amount of medication supplied te beneficiaries was unknown. The purpose of this investigation is to determine the effect of direct billing on prescribing practices. ADVANCED TECHNIQUES: This study employed the retrospective cohort approach. We gathered data from a database at a university hospital in Thailand's northwestern region. We collected data on all patients with civil service medical benefit plans who attended the out-patients department between October 1, 2005, and March 31, 2007. The average price of medications and the number of individuals who use them.
+
+According to (Rebelo et al., 2014), a strategy for selecting use cases based on their usefulness is used to reduce water losses, enhance network regulation, and increase water 3 energy efficiency, as well as to give new services to consumers, enhance billing systems and pricing schemes, improve leak detection and water-energy efficiency, and develop better customer services.
+
+The prioritized use cases found that the most frequently encountered were acquiring water consumption data, comprehending water consumption, and supporting customers in enhancing water use efficiency (consumer domain) and obtaining water and related energy consumption data, comprehending water consumption, and receiving assistance in boosting operational efficiency (business domain) (water utility domain).
+
+Additionally (Castillo-Martinez et al., 2014), Numerous initiatives undertaken by various groups in Spain over the last few years have resulted in a significant reduction in water consumption. However, the majority of individuals are confused if they are properly utilizing water. To solve this issue, the purpose of this study is to develop two new water labels that will help to enhance present water billing practices. These water labels analyze both total water consumption and home hot water consumption. Multiple investigations were undertaken to ascertain market trends and consumer behavior pattems in order to develop the tags. Additionally, a survey and data collection were conducted to get current numbers and to validate previously gathered data.
+
+According to (Knobloch et al., 2014), the bulk of currently available tools involve human data collection and analysis in order to produce a water balance for a water distribution network. This is why, in the majority of cases, water balances are determined for the entire network and at very infrequent intervals. Unmetered components are frequently disregarded or estimated. This article provides an automated approach for computing zonal water balances for variable balancing cycles. The method is demonstrated in the city of Pforzheim, Germany.
+
+Applied technology
+
+Bartolome, 2015 argued that using computers to ease harmful manual labor is critical in the modern day since computers offer numerous benefits, including efficiency, precision, storage capacity, flexibility, cost savings, and the elimination of tiresome manual labor. Wolkite's water billing and customer service system is very labor-intensive. This is limited by the fact that clients must spend considerable time in front of the office in order to register and obtain resource services.
+
+According to Mark Ehab Shoury and Michael Maher Ibrahim (2017), technology and communication are constantly attempting to make life easier for humans.
+
+Additionally, (Thompson & Kadiyala, 2014) claimed that with enhanced sensor technologies and firmware implementations, big data analytics tools, and embedded Machine-to-Machine (M2M) connectivity, more data may be collected and processed. M2M communication sensors and instruments incorporate wireless technologies and data analytics to connect with the firmware and deliver more information. The elimination of the need for hardwired communication systems and facilities results in cost savings and faster installation times.
+
+Web-Based
+
+According to (Bertholet et al., 2020) Determining how representative or different a randomized controlled trial (RCT) sample is from its source population is a difficult subject with substantial consequences for the generalizability of outcomes. It's especially important for freely available web-based therapies that have been studied in RCTs because they're designed to reach a wide audience and potentially exacerbate health disparities if they don't reach the most vulnerable people. In comparison to the source population, we evaluated the representativeness of a sample of participants in a primary/secondary preventive web-based brief intervention RCT.
+
+Additionally, (Beekers et al., 2020) We wanted to see if Web-based questionnaires for common pregnancy problems like gestational diabetes, hypertension, and preeclampsia could be validated. Design and Setting of the Study: We looked at 1,809 women who delivered between 2012 and 2017 and had complete data from the Pregnancy and Infant Development (PRIDE) Study. Using obstetric records as a reference standard, the sensitivity, specificity, and positive and negative predictive values of self-reported diagnoses of gestational diabetes, gestational hypertension, and preeclampsia were determined. We also looked at whether maternal variables influenced the amount of disagreement between questionnaires and the obstetric record.
+
+(Liu et al., 2019) The majority of research on physical activity promotion has centered on intention-formation theories, with the notion that favorable intentions will lead to positive behavior. Exercise intentions are important, but they aren't always enough to enhance physical activity behavior. The Multi-Process Action Control (M-PAC) framework incorporates both factors of intention development and their translation into behavior, building on prior intention-based theories. The goal of this study was to demonstrate how the M-PAC model was used to create a self-guided web-based intervention to encourage physical activity among adults.
+
+As stated by (Eto et al., 2018) Japan's population is rapidly aging, and the number of people who require care is predicted to skyrocket. Establishing a mechanism for training human resources to satisfy this need is a critical task. We depicted the distinctions between expert and novice caregiver actions in this study and investigated how to bring them to learners' notice. We developed web-based learning tools to promote the acquisition of applied nursing skills using three-dimensional computer graphics (3DCG) photographs of carers. The materials were then examined by nursing and caring professionals to ensure that they were effective in teaching those skills. 
+
+CONCEPT OF THE STUDY
+
+Figure 1: Conceptual Framework
+
+Conceptual framework of the study, the first box show is the structural characteristics of the system and the second box show the consumer characteristics and the third box in the middle which connects the 2 boxes shows the output or the system
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter describes and discusses how the researchers will gather the necessary data and information that will be used in the entire study. This also shows the procedure of source of data and methods of collecting data. This chapter also discusses the research strategy, research methods and the research locale where the study was conducted.
+
+DATA FLOW DIAGRAM
+
+Figure 2: Data Flow Diagram
+
+The data flow diagram was used by the researchers to better understand the project's flow. The external entities and the mechanism are depicted in the data flow diagram.
+
+Fishbone Diagram
+
+Figure 3: Fishbone Diagram of Existing Procedure
+
+The fishbone diagram presents the current Water Billing System in order to show the issues that the Aurora Water District is experiencing.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4: Gantt Chart
+
+The illustration shows the schedules of every step that was accomplished by the researchers in developing the proposed project. This chart provides a total overview of the project from the start to finish and all the tasks required to complete the project.
+
+Requirements Documentation
+
+Technical Background
+
+Table 1. Materials needed in the Proposed System
+
+DATA
+
+The researchers obtained secondary data from the internet, the majority of which came from similar studies, the researchers also used the data as a basis for organizing the proper and accurate data required for the study; and primary data came from interviews with Aurora water district employees, where the researchers learned about the current system in use by the said office.
+
+Use Case Diagram
+
+Figure 5: Use Case Diagram
+
+FUNCTIONAL DECOMPOSITION DIAGRAM
+
+Figure 6: Functional Decomposition Diagram
+
+This shows the functional decomposition diagram that mainly focuses on how the overall functionality is developed and its interaction between various components
+
+SYSTEM FLOWCHART
+
+Figure 7: System Flowchart
+
+This figure shows the graphical representation of the flow of data in the Web-Based Water Billing System with Due Date for Payment Notification via SMS.
+
+ENTITY RELATIONSHIP DIAGRAM
+
+Figure 8: Entity Relationship diagram (ERD)
+
+Entity relationship diagram (ERD) shows the relationship of entity sets in a database.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+A model of a software development is shown below which is the series of processes that are used in developing an information system.
+
+Figure 9:Waterfall Model of the development system
+
+For the assurance of the success of the project, the Researchers used the Waterfall model design which determines the complex relationship between each phase of the software development.
+
+Phase 1 Requirement Analysis:
+
+During this phase, the requirements of the proposed system are gathered by analyzing the user's needs. This phase is concerned with determining what the ideal system should be capable of.
+
+Phase 2 System Design:
+
+During the design process, the team uses various diagrams such as Data Flow Diagrams, Operation Diagrams, Class Diagrams and so on to create the program.
+
+Phase 3 System Implementation:
+
+With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
+
+Phase 4 Integration and Test:
+
+After the application has been coded, it is integrated with all other modules with varying functionality. Earlier designed modules are integrated into the parts used in the software framework during each stage of integration, and then the whole system is checked.
+
+Phase 5 Deployment:
+
+After all functional and non-functional tests have been completed, the software is installed on the customer's end.
+
+Phase 6 Maintenance:
+
+The maintenance model is an important phase of this model. In this stage, the product is updated, any bugs and errors are patched, and other essential components are developed based on feedback to make this full software. It is classified into three types: Corrective Maintenance: Corrective maintenance is when maintenance is performed to correct errors.
+
+Perfective Maintenance: Perfective maintenance is performed when maintenance is performed to increase the efficiency of any system in accordance with the needs of the customer.
+
+Adaptive Maintenance: Adaptive Maintenance is usually required when porting your application to a new work environment or switching from one type of operating system to another.
+
+DEVELOPMENT TESTING
+
+Data Gathering Procedures
+
+The researchers gathered information from the respondents for the development of the proposed system through the following procedures:
+
+1. The researcher requested permission to perform the study by writing a letter to the company's Officer In Charge, which was signed by the subject teacher
+
+2. After receiving approval, the researchers conducted interviews with the staff to gather information about the current system they are using. Reliable data is provided for the enhancement of their system.
+
+3. The researchers used the internet to look for related studies because there are many similar studies on the internet that will serve as a reference for the proposed system.
+
+Respondents of the Study
+
+The study's respondents included Aurora Water District employees, customers, and an IT expert. It is composed primarily of 13 customers, 1 employee, and 1 IT expert.
+
+Data Analysis Plan
+
+Statistical Treatment
+
+Following data collection, the weighted mean and standard deviation will be used in data analysis. The weighted mean will be used to calculate the average responses for each of the item's four (4) options, namely, 4 (Strongly Agree), 3 (Agree), 2 (Disagree), 1 (Strongly Disagree).
+
+Distribution Table
+
+The table below shows the weighted mean intervals and its descriptive interpretation using Likert-type Scale.
+
+Table 2. Weighted mean intervals and its descriptive interpretation.
+
+The table below shows the category mean interval and the interpretation using Likert type scale.
+
+Table 3. Overall mean interval and its descriptive interpretation
+
+For finding the weighted mean of the data, the researchers used this formula:
+
+WM(1+2+3+4f)/n
+
+Where:
+
+WM- percentage
+
+f-frequency
+
+n=number of respondents
+
+Different Software Testing
+
+Testing
+
+The researchers carried out testing in order to create a better system that meets the standards and specifications of their respective agency. They asked respondents to assess and provide accurate data in order to create a more efficient and reliable method
+
+Unit Testing
+
+The researchers examined the software's components, looking for common errors and data problems.
+
+Integration Testing
+
+In integration testing, the software was tested by the researchers, and individual units were combined and tested as a group, a test designed to reveal flaws in the interaction of integrated units 
+
+Compatibility Testing
+
+The researchers tested the software to see if it could run on different hardware and operating systems.
+
+Performance Testing
+
+In performance testing, the researchers tested the system's responsiveness and reliability by putting it through its paces.
+
+Stress Testing
+
+The researchers tested the system to see if it could maintain a certain level of effectiveness in adverse conditions,
+
+Loading Testing
+
+The researchers used this method to measure the system's output and see how it reacts when multiple users access it at the same time.
+
+System Testing
+
+In the system testing, the panelists assessed the system and reviewed the whole and fully developed software product.
+
+Description of the Prototype
+
+Figure 10: Prototype of the proposed System "Web-Based Water Billing Management System with Due Date for Payment Notification via SMS"
+
+This figure represents the entire design of the proposed system "Web Based Water Billing Management system with Due Date for Payment Notification via SMS",
+
+
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by phase of study
+
+This chapter includes presentations, analysis, and interpretations of the researchers' data. It is concerned with the study titled "Web based water billing system with due date for payment notification via SMS.
+
+Table 4.1. Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Proposed System in terms of Functional Suitability.
+
+Table 4.1 Mean response of the systems efficiency in terms of Functional Suitability.
+
+Analysis reveals that row 1 which stated "Functional Completeness the system covers all the specified tasks and users." got the highest weighted mean of 3.29 with the std deviation of 0.469 and a descriptive interpretation of agree, while item row 3, which stated "Functional Appropriateness the system facilitates the accomplishment of specified tasks and objectives", has the lowest mean of 3.14 with the std. deviation of 0.363 with a descriptive interpretation of agree. The system's functional suitability, on the other hand, received an overall average of 3.21. According to the interpretation, the respondents approved that the system's effectiveness in terms of functional suitability is high.
+
+Table 4.2 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Performance Efficiency
+
+Table 4.2 Mean response of the systems efficiency in terms of Performance Efficiency.
+
+According to the findings, row 2 ("Capacity the system's maximum limits of parameters mest requirements") has the highest mean of 3.29, a standard deviation of 0.469, and a descriptive interpretation of agree, whereas row 1 ("Time behavior - the system's response and processing times and throughput rates when performing its functions, meet requirements") has the lowest mean of 3.14. However, analysis reveals that performance efficiency got an overall mean of 3.21. This means that the respondents approved that the proposed system's effectiveness in Performance Efficiency is high
+
+Table 4.3 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Compatibility
+
+Table 4.3 Mean response of the systems efficiency in terms of Compatibility
+
+Analysis reveals that row 8 which stated "Accessibility the system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in specified context" has the highest mean of 3.29 and a std deviation of 0.611 with a descriptive interpretation of agree, while rows number 3 which states "Appropriateness - recognizability the system allows users to recognize whether a product or system is appropriate for their needs, row 4 which states that " Learnability the system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency freedom from risk and satisfaction in a specified context of use" and row 5 which states "Operability the system has attributes that make it easy to operate and control"
+
+has the lowest mean of 3.14. with std. deviations of 0.535, 0.363 and 0363 and a descriptive interpretation of agree. Further review reveals an overall mean of 3.19. which shows that the respondents approved that the proposed system's efficacy in terms of compatibility is high.
+
+Table 4.4 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Reliability.
+
+Table 4.4 Mean response of the systems efficiency in terms of Reliability
+
+The analysis shows that row 4 which stated "Recoverability the system can recover the data directly affected and reestablish ine desired state of the system has the highest mean of 3.36 with std. deviation of 0.497 and a descriptive interpretation of agree, while row 2 which stated" Availability-the system is operational and accessible when required for use", has the lowest mean 3.14. with std. deviation of 0.663 with a descriptive interpretation of agree.
+
+analysis reveals that Reliability got an overall mean of 3.25. Indicating that the respondents approved that the proposed system's efficacy in terms of Reliability is High.
+
+Table 4.5 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Security
+
+Table 4.5 Mean response of the systems efficiency in terms of Security
+
+Based from the data Rows 1 and 2 which stated" Confidentiality degree to which a product or a system ensures that data are accessible only to those authorized to have access" and "Integrity the system ensures that data are accessible only to those authorized to have access" has the highest mean of 3.29 with std deviation of 0.369 and a descriptive interpretation of agree, while row 3 which stated "Non-repudiation the system can be proven to have taken place so that the events or actions cannot be repudiated later" has the lowest mean 3.21 with std deviation of 0.426 and a descriptive interpretation of agree. The system's security, on the other hand, received an overall average of 3.26. Interprets that the respondents approved that the proposed system's efficacy in terms of Security is High.
+
+Table 4.6 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Maintainability.
+
+Table 4.6 Mean response of the systems efficiency in terms of Maintainability
+
+According to the findings, row I which stated "Modularity Reusability the system needs to be updated to make it better" has the highest mean of 3.29 and a std.
+
+deviation of 0.497 and a descriptive interpretation of agree, while row 4 which stated "Testability the system is able to function properly" has the lowest mean 3,14 and a std. deviation of 0.363 with a descriptive interpretation of agree. Analysis reveals that Maintainability got an overall mean of 3.25. This means that the respondents approved that the proposed system's efficacy in terms of Maintainability is High.
+
+Table 4.7 Weighted Mean, Standard Deviation and Descriptive Interpretation of the response of the respondents according to the Efficiency using the Propose System in terms of Portability
+
+Table 4.7 Mean response of the systems efficiency in terms of Portability
+
+Analysis reveals that row I which stated "Adaptability the system can be used on variety of existing hardware, (smartphone, computer, laptop)" has the highest mean of 3.50 with a std. deviation of 0.519 and a descriptive interpretation of agree, while row 2 which stated "Instability- The system can be easily removed and installed." has the lowest mean 3.39 with a std. deviation of 0.446 with a descriptive interpretation of agree.
+
+Further review reveals that Portability got an overall mean of 3.39, which interprets that the respondents approved that the proposed system's efficacy in terms of Portability is High
+
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter summarizes the results, proven conclusions, and suggestions based on the information gathered from respondents about a "Web-Based Water Billing Management System with Due Date for Payment Notification via SMS".
+
+Summary
+
+The researchers used a virtual interview to collect data on the existing system and a questionnaire to collect feedback on the proposed system.
+
+Based on the findings of the interviews, problems with the current system's efficiency, performance, security, information, and services were identified
+
+Based on the efficacy of the proposed system as determined by employee responses in terms of Functional Suitability with a category mean of 3.21, Performance Efficiency with a category mean of 3.21, Compatibility with a category mean of 3.19, Reliability with a category mean of 3.25, Security with a category mean of 3.26, Maintainability with a category mean of 3.25, and Portability with a category mean of 3.25,As a result, with a grand mean of 3.25, respondents agreed that the proposed system is effective.
+
+Conclusions
+
+1. The researchers concluded that the respondents' evaluations provide enough incentive to endorse and improve the current structure of Aurora Water District after evaluating the collected data.
+
+2. The new system is expected to provide more benefits to the aforementioned agency in terms of increased overall productivity, performance, and efficiency in the water billing system or Aurora water district. In general, the respondents believed that the proposed system has more benefits and efficacy than their current system.
+
+3. Following a thorough analysis and evaluation of the designed system, it is safe to conclude that the proposed system is a functional, efficient, usable, compatible, reliable, and maintainable water billing system. It functions properly and adequately, meeting the initial minimum expectations.
+
+Recommendations
+
+The researchers would like to make the following recommendations based on their observations and conclusions:
+
+1. The proponents recommend that the agency should consider the new Water Billing system in order to provide better service to their customers and be more efficient in providing results and producing reports.
+
+2. Further investigation and refinement of the system is recommended by the proponents, future researchers might use this as a model for improving and adding unique features to their own systems.

@@ -1,0 +1,1047 @@
+Skip to main contentSkip to article
+Elsevier logo
+Journals & Books
+
+Help
+Search
+My account
+Sign in
+
+Download full issue
+Outline
+Abstract
+Keywords
+1. Introduction
+2. Lignocellulosic composition of agricultural wastes
+3. Pretreatment methods for agricultural wastes
+4. Conclusion and future perspectives
+Author contributions
+Declaration of competing interest
+Acknowledgments
+References
+
+Show full outline
+Cited by (64)
+Figures (3)
+Fig. 1. Waste generation by region in 2016, 2030, and 2050 (millions of tons)
+Fig. 2. Lignocellulosic components of agricultural wastes
+Fig. 3. Digestibility of lignocellulosic biomass according to their content
+Tables (2)
+Table 1
+Table 2
+Elsevier
+Case Studies in Chemical and Environmental Engineering
+Volume 6, December 2022, 100229
+Case Studies in Chemical and Environmental Engineering
+Case Report
+Pretreatment techniques for agricultural waste
+Author links open overlay panel
+Omojola Awogbemi
+, 
+Daramy Vandi Von Kallon
+
+Show more
+
+Add to Mendeley
+
+Share
+
+Cite
+https://doi.org/10.1016/j.cscee.2022.100229
+Get rights and content
+Under a Creative Commons license
+open access
+Abstract
+Millions of tons of agricultural waste are generated annually. The disposal and management of these wastes remain a source of legitimate concerns for environmentalists, governments, and other stakeholders. Inappropriate disposal and management of these wastes constitute an environmental eyesore, health hazards, and source of contamination for aquatic and terrestrial habitats. Conversion of agricultural wastes into useful products remains a cost-effective, eco-friendly, and sustainable strategy for waste management. This study reviews various pretreatment practices aimed at improving the biodegradability and digestibility of agricultural lignocellulosic biomass. The common pretreatment techniques such as physical, chemical, biological, and physicochemical as well as the novel green solvent-based pretreatment are reviewed and emphasized to improve their practicability and applicability. This review encompasses the processes, benefits, and drawbacks of the various pretreatment techniques to further enrich literature and stimulate renewed investigations in the research space. The outcome of this study will stimulate further investment in agricultural waste conversion and utilization. Waste conversion is a feasible waste management strategy for a clean environment and sustainable ecosystem. Going forward, more targeted investigations are needed to evolve innovative techniques to simplify the conversion of agricultural wastes into valuable products. Governments, across jurisdictions, environmentalists, policymakers, and other stakeholders should sensitize citizens to dislodge the religious and cultural barriers against waste conversion.
+Previous article in issue
+Next article in issue
+Keywords
+Agricultural wasteLignocellulosic biomassPretreatment techniquesWaste conversionCrop residuesDigestibility
+1. Introduction
+Increased population growth, accelerated urbanization, industrialization, and environmental degradation have continued to pose legitimate concerns to humanity on a scale never imagined despite sustained efforts by relevant bodies. These situations have given rise to challenges that have continued to engage the attention of individuals, groups, countries, and international organizations. Poverty, environmental degradation, energy insecurity, unavailability of safe water and sanitation, gender inequality, and lack of peaceful coexistence have continued to plague the global population. Inappropriate waste disposal and management are closely connected to sanitation, healthy living, air quality, climate change, food and resource security, and environmental sustainability [1]. Both developed and developing countries are enacting policies and allocating huge resources to confront the pervasive issue of ever-increasing waste generation and disposal. The problem of waste management is being exacerbated by rapid population growth, urbanization, consumer shopping habits, improved economic and industrial activities, and an increased rate of food production and consumption [2,3]. For example, the global waste generation was about 2.02 billion tons in 2016 and has been estimated to become 2.59 billion tons in 2030 and 3.4 billion tons in 2050 [4] (Fig. 1). The global waste management market value has been estimated to increase from USD 1.61 trillion in 2020 to USD 2.5 trillion in 2030 [5]. Managing these huge wastes has been a herculean task for humanity.
+Fig. 1
+Download: Download high-res image (258KB)
+Download: Download full-size image
+Fig. 1. Waste generation by region in 2016, 2030, and 2050 (millions of tons).
+
+Inappropriate disposal and management of agricultural wastes negatively impact the environment and constitute a nuisance to environmental sanitation. Enforcement of policies and laws that encourage waste reduction, reutilization, recycling, and regeneration that can ultimately gravitate the production sector towards zero waste is required [6,7]. New laws and innovative waste management strategies that encourage waste recycling and conversion to useable resources are needed. Agriculture wastes, when optimally managed and utilized, have the potential to become a sustainable resource for value addition and a major contributor to energy security and ecological sustainability. Conversion and appropriate utilization of agricultural wastes can engender economic development, conservation of resources, contribute to the circular economy, and fortification of human health [8,9].
+The subject of waste conversion and utilization is not new. There have been various studies conducted to unearth the various applications of waste. In earlier research, Taghizadeh-Alisaraei et al. [10] conducted a detailed feasibility study on the conversion of citrus fruit waste. Similarly, Awogbemi et al. [1] recently surveyed various strategies of waste management to ensure waste minimization, waste conversion, and utilization. Shen et al. [11], Ge et al. [12], and Atanda et al. [13] highlighted various pathways for the conversion of agricultural wastes into useful products. They agreed on the multifaceted application of agricultural wastes to our daily life and industrial development. The work of Awasthi et al. [14] x-rayed the contributions of agricultural wastes to bioeconomy and a green future. Specifically, Kanwal et al. [15], Akhter et al. [16], and Ismail and Mohamad [17] investigated various processes for converting sugarcane bagasse, rice husk, and rice straw respectively into useful products. These authors agreed on the feasibility and the benefits derivable from the conversion of various wastes for various applications. They are however on the need to pretreat agricultural waste before its conversion. In furtherance of this result, Ndayisenga et al. [18], Naik et al. [19], and Hoang et al. [20] investigated pretreatment techniques applicable to agricultural wastes.
+Despite the outcomes of the aforementioned research, it is pertinent to ask whether the subject of pretreatment techniques for agricultural wastes before conversion into various products has been fully explored. The motivation for the current intervention is to further interrogate the various techniques and technologies for the treatment of agricultural wastes to ease their conversion into various products. This study aims to carry out an up-to-date review of methods and processes carried out on agricultural wastes before their conversion. The scope of the current study is limited to a review of relevant recent literature on the pretreatment techniques applied to agricultural wastes. The current study entails the lignocellulosic composition of various agricultural wastes, types, benefits, and drawbacks of the various pretreatment techniques, conclusion, and future perspectives. The outcome of this investigation will enrich scholarship by providing updated information on the various pretreatment methods for agricultural wastes. Exercise will bring to the fore novel technologies for the transformation of various agricultural wastes into renewable biofuels to stimulate further research in the subject area. The research will further provoke further research on the effectiveness of waste conversion as a waste management strategy. Farm owners, environmentalists, policymakers, small-scale entrepreneurs, and other stakeholders will find the outcome of this study useful in their various fields.
+2. Lignocellulosic composition of agricultural wastes
+Agricultural wastes are usually lignocellulosic biomass which contains complex molecular structures including cellulose, hemicellulose, and lignin, as shown in Fig. 2 [21]. In addition to these components, lignocellulosic biomass also contains some extractives such as ash and protein, though in very small quantities. Since the ash and proteins are in negligible amounts, their presence is of no effect on the composition, pretreatment, and conversion of lignocellulosic biomass. The complex compact matrices are broken into simple monomers before they are converted into various forms [21,22]. Generally, agricultural wastes consist more of cellulose than hemicellulose and lignin.
+Fig. 2
+Download: Download high-res image (314KB)
+Download: Download full-size image
+Fig. 2. Lignocellulosic components of agricultural wastes.
+
+Cellulose is the most abundant natural linear carbohydrate polymer containing D-glucose and is regarded as the cell wall of the plant. Cellulose can also be described as a polysaccharide of anhydrous-glucopyranose with distinctive mechanical potency and chemical stability [23]. The chemical formula of cellulose is C6H10O5 [24]. Hemicellulose (C5H4O8) encloses the cellulose fibers and connects cellulose and lignin. It is made up of diverse assemblage of branched polysaccharides. Structurally, hemicellulose consists of monomers including glucose, galactose, mannose, xylose, arabinose, and glucuronic acid. Hemicellulose is amorphous, easily hydrolyzed by weak acids, bases, and enzymes, and less resistant to chemicals. When compared with cellulose, hemicellulose possesses less physical strength [25].
+Lignin is a non-carbohydrate complex aromatic polymer congregated by unevenly positioned phenylpropane units for structural rigidity [23]. It is fastened to cellulose and hemicellulose and helps to infuse strength and solidity to the material cell wall. It also forms an impenetrable wall that is resistant to water and physical and chemical resistance to microbial attack. Lignin is aquaphobic and cannot dissolve in water [25,26]. The general formula for lignin is C9H10O3(OCH3)0.9-1.7) and it consists of guaiacyl, syringyl, p-hydroxy phenol, and other macromolecules [24]. Generally, a typical agricultural waste contains about 35–50% cellulose, 20–35% hemicellulose, and 15–20% lignin. Table 1 is a compilation of the lignocellulosic composition of some agricultural wastes.
+Table 1. Lignocellulosic composition of some agricultural wastes.
+
+Agricultural waste	Lignocellulosic composition (%)	Ref.
+Cellulose	Hemicellulose	Lignin
+Sugar cane	37.72	22.95	22.34	[27]
+Sorghum bagasse	46.6	34.1	22.3	[28]
+Corn stover	32.75	31.08	10.07	[29]
+Switchgrass	31.8	25.0	31.2	[30]
+Wheat straw	35.69	29.68	18.80	[31]
+Napier grass	46.6	34.1	22.3	[19]
+Cocoa pods	26.1	4.82	21.29	[32]
+Rice straw	38.82	27.59	19.55	[33]
+Bean straw	31.1	23.9	9.7	[34]
+Banana stems	33.3	18.2	5.5	[35]
+Olive tree	36.5	21.3	24.1	[36]
+Sorghum stalks	27	25	11	[37]
+Corn cobs	45	35	15	[37]
+Comparatively, cellulose could be fermented to generate high-prized chemicals and fuels by hydrolysis. Hemicellulose is less crystalline than cellulose but is also used to manufacture industrial chemicals and other value-added products. Lignin can generate special industrial chemicals. The digestibility of lignocellulosic material is a function of its biomass content. Materials with high lignin content have low digestibility and high hydraulic retention time while those rich in sugar have high digestibility and low hydraulic retention time (Fig. 3) [24,38].
+Fig. 3
+Download: Download high-res image (174KB)
+Download: Download full-size image
+Fig. 3. Digestibility of lignocellulosic biomass according to their content.
+
+3. Pretreatment methods for agricultural wastes
+Due to their compositional makeup and complex physicochemical structure, some lignocellulosic biomass, including agricultural wastes are not easily degraded. To overcome this hurdle, the biomass is subjected to some processes. Pretreatment processes are the operations carried out on the biomass to overcome the initial resistance to its easy conversion. These operations alter the constituents of the biomass thereby increasing the conversion efficiency. During the process, the complex molecules in the biomass are broken into cellulose, hemicellulose, and lignin. The decomposition of cellulose is to enhance the porosity and the surface area while reducing the crystallinity of the cellulosic moiety. The main purpose for carrying out pretreatment of agricultural wastes and other lignocellulosic biomass include reduction of energy consumption during conversion, cost reduction, and direct formation of sugars from the biomass. The pretreatment practice also ensures the preservation of the sugar produced from degradation as well as the reduction in the production of inhibitory products [39,40]. The common pretreatment approaches include physical, chemical, biological, physicochemical, and green solvent-based process. Table 2 compiles the benefits and drawbacks of various types of biomass pretreatment methods.
+Table 2. Classification, examples, and advantages of pretreatment techniques.
+
+Pretreatment method	Type	Advantages	Disadvantages	Remarks	Ref.
+Physical	Mechanical pretreatment	
+•
+No inhibitors produced
+•High operational costs
+•
+Significant reduction in the size of the substrate.
+[84,97,98]
+•
+Simple and easy operation
+•Costly process
+•Improved biomethane production from wheat straw
+•
+Reduced crystallinity
+•High energy consumption
+•
+Enhance enzyme digestibility
+•Cannot degrade lignin
+•
+Increased porosity
+•Need to combine with other pretreatments
+•Biomass size reduction
+•Low sugar yield
+•Low investment
+Ultrasonic pretreatment	
+•Low energy utilization
+•Low selectivity
+•Reduction in the degree of polymerization
+•No inhibitor formation
+•High energy consumption
+•Increased fermentation of hydrogen from bagasse
+•Low waste generation
+•Energy lost in diluted media
+•Multiple products generation
+•Difficulties in large-scale reactor design
+•Intensified processing
+Thermal pretreatment	
+•Non-toxic
+•Generation of toxins and inhibitors
+•Highly reliable method
+•
+•Environment friendly
+•High temperature
+•Increased conversion of walnut shell to lactic acid
+Chemical	Acid pretreatment	
+•Short residence time
+•High toxicity and corrosiveness
+•A reliable method, particularly during winter
+[84,[99], [100], [101]]
+•High enzymatic deconstruction reaction rates
+•Formation of poisonous substances and inhibitors
+•Ethanol production from wheat straw
+•Efficient lignin removal
+•Corrosion in equipment
+•Decomposition of hemicellulose
+•Difficulty in recycling
+•Low cost
+Alkali pretreatment	
+•Low inhibitor production
+•Environment pollution
+•Reliable production of bioethanol, silica, and lignin from wheat straw
+•Increased surface area
+•Long residence time
+•Over 92% conversion efficiency achieved
+•Reduction in biomass crystallinity
+•High energy consumption
+•High rate of delignification
+•Can cause condensation and redistribution of lignin
+•Utilizes milder conditions
+•Economically non-viable
+•Low operating temperature
+•Reduced polymerization
+•Low degree of crystallinity of cellulose
+Oxidation pretreatment	
+•Environmentally friendly
+•Formation of toxic and inhibitor compounds
+•Production of methane and hydrogen from coffee husks
+•Highly selective
+•High oxidant required
+•Improved sugar production from straw biomass
+•Can perform at room temperature
+•Expensive process
+•Elimination of lignin and hemicellulose
+•Special instrument required
+•Non-alteration of cellulose structure
+Organic solvent pretreatment	
+•Short reaction time
+•High corrosivity and toxicity
+•Bioethanol production from corn stover
+•Environment pollution
+•Enhanced biofuel production from lignocellulosic biomass
+Biological	Fungal pretreatment	
+•Mild action conditions
+•Long reaction period
+•More than 82% reliable
+[84,[102], [103], [104]]
+•Low energy consumption
+•Low cellulose recovery
+•Conversion of corn stalk and waste wood to methane, and other value added products.
+•Energy efficient
+•Low efficiency
+•No pollution
+•Long residence time
+Bacterial pretreatment	
+•Low energy consumption
+•Longer incubation time
+•Bioconversion of lignocellulose into biomethane and other biofuels
+•
+•Low hazardous chemicals produced
+•Long pretreatment time
+•Environment friendly
+Termite pretreatment	
+•Mild action conditions
+•Long pretreatment time
+•More than 60% lignin degradation by termite
+•
+•Low energy consumption
+•Environment friendly
+Microbial consortium pretreatment	
+•Economic viability
+•Low efficiency
+•Enhanced digestibility of lignocellulosic biomass for biofuel production
+•
+•Environmental friendliness
+•Needs further research
+•Strong operability
+Enzymes	
+•Improved digestibility of cellulose
+•Long incubation time
+•Reliable conversion of biomass into biogas and bioethanol
+•
+•Low cost
+•Require mire investigations
+•Short reaction time
+•Highly efficient
+•No corrosion issues
+•Low energy consumption
+Physico-Chemical	Steam explosion pretreatment	
+•Cost-effective
+•High energy consumption
+•Over 80% lignin removal from pineapple leaf fibers for nanofibers production
+[84,105,106]
+•Nonpolluting
+•High temperature requirement
+•Eco-friendly
+Alkali-heat pretreatment	
+•Low capital cost
+•High temperature and pressure
+•Effective lignin and hemicellulose removal for hydrogen production from corn straw
+Ammonia fiber explosion pretreatment	
+•Simple pretreatment conditions
+•Energy intensive
+•Lignin digestibility of crop residues
+•No inhibitory production
+•Environmental pollution
+Extrusion pretreatment	
+•Simple and easy operation
+•High tech infrastructure
+•Between 75 and 85% hemicellulose and lignin removal efficiency
+•Ecological friendly
+•High cost of equipment
+•Improved biofuel production from crop residues.
+Green solvent-based	Biochemical pretreatment	
+•Highly efficient
+•High cost
+•Wheat straw conversion to biomethane
+[84,107]
+•Short pretreatment duration
+•No generation of inhibitors
+Ionic liquid pretreatment	
+•Wide temperature range
+•High energy consumption
+•99% reliable in converting lignocellulosic biomass to bioethanol
+•Good chemical and thermal stability
+•Highly poisonous
+•High recovery rate
+•Very high price
+•Strong intermolecular interaction
+•Not easy to formulate
+•Low volatility
+•Reuse is not possible
+•Low biodegradability
+•They are viscous and expensive
+Deep eutectic solvents pretreatment	
+•Not costly
+•High viscosity
+•Improved biodegradability of sugarcane bagasse, poplar woods, and bamboo
+•
+•High biodegradability
+•Biofuel production from lignocellulosic biomass
+•High recovery
+•Low toxicity
+Supercritical fluid pretreatment	
+•Low viscosity
+•High pressure
+•Better sugar yield from bioconversion of sorghum straw.
+•
+•Good diffusivity
+•High energy consumption
+•Better digestibility of green coconut fiber
+•Uses less costly CO2
+•Require high temperature, pressure, and special infrastructure
+•Environmentally friendly
+•Unchanged biomass structure due to SCCO2
+•Nonflammable, eco-friendly, and recyclable
+3.1. Physical pretreatment
+Physical pretreatment techniques are used to achieve a reduction in particle size and improved surface area of the agricultural wastes. The size reduction ensures increased enzyme and microbe accessibility during processing, reduction in the crystallinity of cellulose, increased conversion efficiency, and ultimately better product yield. The physical pretreatment method also includes mechanical pretreatment, ultrasonic pretreatment, microwave pretreatment, and thermal pretreatment processes.
+Mechanical pretreatment exerts mechanical force to break the hard structure of lignocellulose to reduce the particle size, lignin content, and degree of polymerization. It also ensures improved access of the chemicals or enzymes to the cellulose and hemicellulose and increases the surface area for a better reaction. Mechanical pretreatment is achieved by cutting, milling, chipping, shearing, and stirring [41,42]. Ultrasonic pretreatment involves the generation of high-energy vibrations that penetrates and decomposes the crystals of the lignocellulose structure. The high frequency, intensity, and duration of ultrasonic vibrations have been used to remove 80–100% lignin content from coffee waste, cabbage, and peanut [43,44].
+Thermal pretreatment is the application of high temperature to dissolve xylan, araban, and mannan contained in the lignocellulose [45]. This allows the enzymes and other chemicals to gain more access into cellulose and hemicellulose. Morales et al. [46] and Ahorsu et al. [47] report that subjecting agricultural wastes to hydrothermal pretreatment at 200 °C for 90 min helps to dissolve oligomers, extract lignin, and raise conversion efficiency to 96.4%. Microwave pretreatment generates electromagnetic radiation that percolates the fabric of the agricultural wastes to weaken the forces holding the different components together [48].
+3.2. Chemical pretreatment
+Chemical pretreatments involve the deployment of special chemicals to overcome and dissolve the rigid lignocellulose crystal structure. Acids, alkalis, oxidation, and organic solvent have been used as chemicals to enlarge the surface area and enhance the biodegradability of agricultural wastes [49].
+3.2.1. Acid pretreatment
+Acids such as HCl, H2SO4, H3PO4, HNO3, Na2CO3, CH3COOH, CH2O2, C4H4O4, etc. have been used as reagents to degrade the glycosidic bonds in lignocellulose, breakdown the cellulose and hemicellulose thereby promoting the release of fermentable sugar. However, only a diluted version of these acids is recommended to minimize the risk of toxicity, corrosion, and handling [50]. An earlier investigation by Ruan et al. [51] and Gonzales et al. [52] revealed that pretreating eucalyptus chips, empty palm fruit bunch, rice husks, and wood pellets with diluted H3PO4 and H2SO4 results in total sugar recovery efficiency of up to 60%.
+3.2.2. Alkali pretreatment
+Alkaline pretreatment is the application of alkaline reagents to liquefy lignin and a portion of hemicellulose to decrease the cellulose crystallinity, thereby promoting the conversion of the biomass. Alkaline reagents such as NaOH, KOH, NH4OH, NH3·H2O, Ca(OH)2, etc. have been used to pretreat lignocellulose and increase the conversion yield. Though alkaline pretreatment is cost-effective and reduces environmental pollution, the need for a long reaction duration and neutralization of the pretreated slurry are some of the obvious drawbacks [53]. The application of NaOH and Na2CO3 to pretreat wheat straw increased the solid dissolution efficiency to 86.7% and 91.1%, respectively [54].
+3.2.3. Oxidative pretreatment
+Oxidative pretreatment capitalizes on the oxidating property of ozone gas and hydrogen peroxide (H2O2) to decompose the lignin and hemicellulose in the biomass to facilitate the release of soluble compounds. The H2O2 chemically decomposed into –OH and O2− and assist in the destruction of the structure of lignin while preventing the release of any inhibitory by-products [55,56]. Dos Santos et al. [57] confirmed the effectiveness of ozone to serve as effective lignin removal from coffee husks for improved biogas production while Yuan et al. [58] successfully deployed H2O2 to reduce lignin content by about 63%.
+3.2.4. Organic solvent pretreatment
+Organosolv pretreatment is the application of some organic solvents to break the internal bonds of lignin and hemicelluloses for the decomposition of lignocellulosic material to ensure effective cellulose conversion. Frequently applied organic solvents include methanol, ethanol, tetrahydrofuranol, ethylene glycol, and acetone [43]. In some cases, acids such as HCl and H2SO4 or bases like NaOH, NH3, and CaCO3 are used as catalysts to speed up the reaction process [25]. In a study, Salapa et al. [59] demonstrated that treating wheat straw with acetone resulted in lignin removal efficiency of about 76%. Similarly, Tang et al. [60] reported an 81.7% lignin removal efficiency when corn stover was treated with acetone.
+3.3. Biological pretreatment
+Biological pretreatment is the application of aerobic bacteria, enzymes, or fungi for the degradation of lignin thereby promoting easy conversion of the lignocellulose material to utilizable products. This method of pretreatment is ecologically benign, discharges no poisonous substance to the environment, consumes little energy, and produces little or no inhibitor [61]. However, the biological pretreatment process is slow, and time-consuming resulting in huge residence time. There is also the likelihood of microbial instability leading to unpredictable reaction outcomes [62].
+3.3.1. Fungal pretreatment
+Fungal pretreatment is a form of biological pretreatment method where white-rot fungi, brown rot fungi, soft rot fungi, and other fungi are deployed to degrade lignin. In many cases, white-rot fungi belonging to the class Basidiomycetes Phanerochaete chrysosporium are used for lignin biodegradation. In a recent study, Ma et al. [63] utilized white-rot fungus Peniophora incarnata for the pretreatment of waste wood which resulted in the reduction of the composition of hemicellulose and lignin by 48% and 70%, respectively. Unlike the physical and chemical pretreatment methods, fungal pretreatment does not require the use of any machine or chemicals. The efficiency of the fungal pretreatment is determined by water content and particle size of the feedstock, reaction temperature, and residence time.
+3.3.2. Termites
+Termites are also used as organisms to decompose lignocellulose materials. Termites belong to the class of microorganisms that have the capacity to secrete enzymes to degrade lignocellulose. Several class of termites such as Microcerotermes parvus, Termes hospes, and Nasutitermes ephratae were reported to secrete lignocellulose degrading enzymes for the degradation of wheat straw, preparatory to its anaerobic digestion [64].
+3.3.3. Microbial consortium pretreatment
+In the Microbial consortium pretreatment method, microbes from soil, wastewater, broiler droppings, etc. are used as pretreatment agents for agricultural wastes. The microbes possess the ability to decompose both the cellulose and hemicellulose in agricultural wastes. In a research, microbes sourced from landfills, decomposing straws, and wastewater were used to pretreat cassava wastes leading to 96% biogas yield [65].
+3.3.4. Enzymes
+Enzymes such as cellulases and hemicellulases are capable of pretreating agricultural wastes and other lignocellulosic biomass. Agricultural wastes such as cassava pulp, sugarcane bagasse, corn stover, Napier grass, rice straw, etc. have been pretreated with enzymes to enhance their conversion efficiency for biobutanol production [[66], [67], [68]]. Bacterial pretreatment involves the use of enzymes-producing bacteria to slow down the polymerization of lignocellulose. Chen et al. [69] effectively utilized the cellulolytic bacterium Acetobacter Orientalis to achieve about 76.24% cellulose degradation efficiency of banana residue. Similarly, Xu, et al. [70] treated corn stalks with Bacillus Subtilis to ensure lignin decomposition and decrease cellulose crystallinity.
+3.4. Physicochemical pretreatment
+Physicochemical pretreatment methods combine the beneficial features of both the physical and chemical pretreatments for maximum lignin denigration and cellulose crystallinity reduction efficiency. They help to reduce the lignin and hemicellulose contents and enhance the synthesis of fermentable sugar. Common examples of physicochemical pretreatment include steam explosion, alkali-heat pretreatment, ammonia fiber expansion, and extrusion method.
+3.4.1. Steam explosion pretreatment
+The steam explosion pretreatment method entails the separation of cellulose from lignocellulose by fracturing the β-O-4 bond in the lignin and annihilating the cell wall configuration of biomass under strict reaction temperature and pressure conditions. Recent investigations have shown that the method performs optimally at a pressure range of 0.5–5 MPa and temperatures of 160–250 °C, in most cases [49,71,72]. Tanpichai et al. [73] reported 80% lignin removal when pineapple leaf fibers were pretreated by the steam explosion in moderate reaction conditions of 215 °C, 2 MPa for 5 min. Similarly, a 90% reduction in lignin and 64–81% increment in cellulose content were accomplished when the reed was subjected to steam explosion pretreatment at 200 °C, 3.4 MPa for about 15 min, before anaerobic digestion [74]. Notwithstanding these positive results, the steam explosion pretreatment method is plagued with high energy consumption, and generation of inhibitory compounds, and requires harsh reaction conditions [55,75].
+3.4.2. Alkali-heat pretreatment
+Alkali-heat pretreatment combines the use of alkali and high temperature to decompose lignin, lower the crystallinity of lignocellulose, and increase the contact surface area of cellulose. Alkali such as NaOH, NaCO3, and alkaline peroxide is preheated to temperatures between 75 and 125 °C for simultaneous lignin and hemicellulose removal and increment in cellulose content [76]. Zhang et al. [77] and Lopez et al. [78], in their separate investigations, reported lignin and hemicellulose removal efficiency of between 54.09% and 67.67% and a corresponding 51.65% increment in cellulose content when corn straw was subjected to NaOH-heat pretreatment at 170 °C. The complexity of this process and the high cost of maintaining the high temperature required for the pretreatment are the major drawbacks of wide application of the method [71].
+3.4.3. Ammonia fiber explosion pretreatment
+Ammonia fiber explosion was developed as a panacea to the deficiencies associated with the alkali-heat pretreatment method. Under this method, ammonia and oxyhydrogen ions are synthesized from liquid ammonia, at high pressure, thus causing a sudden temperature rise. This leads to decomposition of the ester and ether bonds between lignin and hemicellulose and subsequent reduction in the cellulose crystals [79]. This method has been highly effective in the degradation of lignin and improved glucose yield of barley straw [80] and corn stover [43]. Presoaking of feedstocks in hydrogen peroxide before ammonia fiber explosion pretreatment substantially increases glucose and sugar yields when pretreating some energy crops [81].
+3.4.4. Extrusion pretreatment
+Extrusion pretreatment is the amalgamation of thermal and mechanical pretreatment methods to alter the physical and chemical makeup of lignocellulose. During this process, force is exerted on the agricultural wastes in an airtight vessel to elevate the temperature and pressure. This causes an alteration in the physical and chemical structures of the lignocellulosic material. The addition of NaOH to the extrusion process results in improved removal efficiency of hemicellulose and lignin [82,83]. Further studies revealed that the amalgamated impacts of extrusion and heat-moisture pretreatment alter the composition and morphologic structure of corn straw resulting in a 421% increment in sugar yield [83].
+3.5. Green solvent-based pretreatment methods
+Advancements in research and the development of innovative technologies have led to the discovery of other environmentally friendly pretreatment methods. Notable emerging green solvent-based pretreatment methods include biochemical pretreatment, ionic liquid pretreatment, deep eutectic solvent pretreatment, and supercritical fluid pretreatment.
+3.5.1. Biochemical pretreatment
+Biochemical pretreatment methods were developed to compensate for the low efficiency and long residence time associated with biological pretreatment and the huge volume of a variety of chemicals and the synthesis of inhibitory compounds during the chemical pretreatment process [84]. Yadav and Vivekanand [85] and Kumar et al. [71] confirmed that the application of white-rot fungus Abortiporus biennis to treat wheat straw before KOH and NaOH pretreatment elevated lignin degradability by 19% and 31%, respectively, compared with when the white-rot fungus was not used. Another study by Shen et al. [86] confirmed the treatment of rice straw with Sphingobacterium sp. LD-1 before NaOH treatment obliterated the intermolecular force and internal hydrogen bond by 60% and 32% respectively but increased the cellulose content by 41%. Other recent studies have shown that the addition of biological and chemical pretreatments not only improves lignin degradability, and offers techno-economic advantages but also contributes to substantially enhance the overall conversion efficiency of biomass [87].
+3.5.2. Ionic liquid pretreatment
+Ionic liquids are molten salts or liquid electrolytes. They are made up of cation (imidazole, pyridine, choline) and ions (chloride and acetate) and are liquid at or below room temperature [88]. When they interact with lignocellulose materials, the β-O-4 bonds are broken, and ion-dipole bonds are formed in lignin. This results in the interruption of the crystalline composite makeup of lignocellulose, decomposition of the lignin structure, and subsequent separation of lignin and hemicellulose from the cellulose-rich materials [89,90]. Yang et al. [91] showed the addition of Tween-80 and [Emim]OAc to bagasse boosted the enzymatic hydrolysis rate of microcrystalline cellulose by more than 250% and raised the conversion rate by 45%. Ionic liquids are renewable alternatives to organic solvents, easy to synthesize, highly recoverable and recyclable, do not produce any toxic chemicals, and are preferred above other nonrenewable solvents [92].
+3.5.3. Deep eutectic solvents
+Deep eutectic solvents are similar to and referred to as a novel version of ionic liquids in physical and chemical properties and an eco-friendly alternative to ionic liquids. Deep eutectic solvents comprise of hydrogen bond donor (urea, amides, alcohols, acids, etc.) and hydrogen bond acceptor (choline chloride, betaine, alanine, etc.) [93,94]. The interface between hydrogen bond donor and acceptor creates a slight acid or base catalytic blend to degrade the ether bond between lignin and hemicellulose during lignocellulose pretreatment. Ma et al. [93] reported a 96% lignin removal efficiency when poplar wood was pretreated with deep eutectic solvents such as choline chloride–ethylene glycol. Similarly, the combination of hydrothermal and deep eutectic solvents such as choline chloride-lactic acid to pretreat moso bamboo resulted in lignin and hemicellulose degradation efficiency of 86.9% and 98.2%, respectively, while retaining the structure and composition of cellulose [95]. The process promotes biomass valorization and supports the bioconversion of cellulose.
+3.5.4. Supercritical fluid
+Supercritical fluids (H2O, CO2) are fluid that behaves like liquids at above critical temperature (304.25 k) and pressure (7.36 MPa). They are cheap, safe, low-cost, non-poisonous, non-combustible, ecological benign friendly, and renewable properties. Dissolving lignocellulose in a supercritical carbon dioxide (SCCO2) solution causes the alteration of structure and decomposition of the chemical bonds between lignin and hemicellulose [88]. Pretreatment of green coconut fiber with SCCO2 at 20–30 MPa for 6–72 h increased the sugar production efficiency to 101%. The application of SCCO2 and supercritical steam explosion in the pretreatment of microalgal and lignocellulosic biomass leads to a substantial increase in the generation of reducing sugar [56,82]. In another research, Zhang et al. [96] established how the pretreatment of sorghum stalk with SCCO2 and ultrasonic vibration altered the microscopic structures of the feedstock and increased simple sugar yield by 34.5% during enzymatic hydrolysis conversion.
+4. Conclusion and future perspectives
+The menace constituted by the huge volume of agricultural wastes generated by various activities across the world can be minimized by evolving effective waste management strategies. Waste minimization, waste reduction, waste utilization, and waste conversion are some of the techniques adopted to safeguard humanity from the impacts of these wastes. Waste conversion remains one of the feasible, eco-friendly, and sustainable options available for deriving maximum benefits from crop residues and other wastes from agricultural activities. However, by the composition of agricultural wastes, their conversion into useful products is plagued with challenges that hinders the ease of conversion, precipitates poor conversion efficiency, and retards the conversion processes. To overcome these challenges, the wastes must be subjected to an appropriate pretreatment technique to improve their conversion rate, enhance their biodegradation and digestibility, reduce process energy consumption, and increase the volume of the products generated.
+This study reviews cost-effective, practicable, sustainable, and environmentally friendly strategies for improving the biodegradability and digestibility of crop residues, agricultural waste, and other lignocellulosic biomass. The processes are classified broadly as physical, chemical, biological, physicochemical, and other innovative green solvent-based pretreatment techniques. The five broad pretreatment techniques are further broken down into subdivisions to aid a better understanding of the processes. The processes, merits, drawbacks, and major points of these techniques are compiled from relevant published research outcomes and highlighted. Though the pretreatment inflicts additional cost, infrastructural requirements, manpower demands, and energy consumption on the entire production process, the benefits derivable from the process make the process inevitable. The pretreatment process helps to improve the biodegradability, digestibility, and ease of conversion of the lignocellulosic biomass by reducing the energy required to separate the cellulose, hemicellulose, and the lignin contents of the biomass.
+Going forward, novel pretreatment techniques should be developed to enhance the biodegradability and digestibility of lignocellulosic biomass into biofuel and other useful products. The application of innovative technologies including artificial intelligence, robotics, smart metering, and machine learning should be adopted to minimize energy consumption, reaction time, and monitoring of processes and products of the various pretreatment processes. More investigations should be commissioned to develop state-of-the-art and practicable pretreatment processes for wastewater, animal waste, and other forms of waste. More studies are required on the techno-economic and environmental analyses, and life cycle assessments of these pretreatment techniques to identify and recommend the best method of improving the biodegradability and digestibility of waste. among the techniques.
+Author contributions
+OA conceived and wrote the manuscript, DVVK edited and supervised. Both authors agreed and approved the final version.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors are grateful for the valuable support received from the Library, the Faculty of Engineering and Built Environment, and School of Postgraduate Studies, University of Johannesburg, South Africa.
+References
+[1]
+O. Awogbemi, D.V.V. Kallon, K.A. Bello
+Resource recycling with the aim of achieving zero-waste manufacturing
+Sustainability, 14 (2022), p. 4503, 10.3390/su14084503
+View in ScopusGoogle Scholar
+[2]
+J. Ylä-Mella, R.L. Keiski, E. Pongrácz
+End-of-Use vs. End-of-Life: when do consumer electronics become waste?
+Resources, 11 (2022), p. 8, 10.3390/resources11020018
+Google Scholar
+[3]
+M.C.M. Parlato, F. Valenti, G. Midolo, et al.
+Livestock wastes sustainable use and management: assessment of raw sheep wool reuse and valorization
+Energies, 15 (2022), p. 3008, 10.3390/en15093008
+View in ScopusGoogle Scholar
+[4]
+Global municipal solid waste generation projection 2016-2050
+Available from:
+https://www.statista.com/statistics/916625/global-generation-of-municipal-solid-waste-forecast/
+Google Scholar
+[5]
+Global biofuels market size 2020-2030
+Available from:
+https://www.statista.com/statistics/217179/global-biofuels-market-size/#
+Google Scholar
+[6]
+H. Guo, S. Wu, Y. ian, J. Zhang, H. Liu
+Application of machine learning methods for the prediction of organic solid waste treatment and recycling processes: a review
+Bioresour. Technol., 319 (2021), Article 124114, 10.1016/j.biortech.2020.124114
+View PDF
+View articleView in ScopusGoogle Scholar
+[7]
+L. Pattanaik, F. Pattnaik, D.K. Saxena, S.N. Naik
+Biofuels from agricultural wastes
+A. Basile, F. Dalena (Eds.), Second and Third Generation of Feedstocks, Elsevier, Netherlands (2019), pp. 103-142, 10.1016/B978-0-12-815162-4.00005-7
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+O. Awogbemi, D.V.V. Kallon, V.S. Aigbodion
+Trends in the development and utilization of agricultural wastes as heterogeneous catalyst for biodiesel production
+J. Energy Inst., 98 (2021), pp. 244-258, 10.1016/j.joei.2021.06.017
+View PDF
+View articleView in ScopusGoogle Scholar
+[9]
+C.R. Chilakamarry, A.M. Mimi Sakinah, A.W. Zularisam, et al.
+Advances in solid-state fermentation for bioconversion of agricultural wastes to value-added products: opportunities and challenges
+Bioresour. Technol., 343 (2022), Article 126065, 10.1016/j.biortech.2021.126065
+View PDF
+View articleView in ScopusGoogle Scholar
+[10]
+A. Taghizadeh-Alisaraei, S.H. Hosseini, B. Ghobadian, et al.
+Biofuel production from citrus wastes: a feasibility study in Iran
+Renew. Sustain. Energy Rev., 69 (2017), pp. 1100-1112, 10.1016/j.rser.2016.09.102
+View PDF
+View articleView in ScopusGoogle Scholar
+[11]
+F. Shen, R.L. Smith Jr., J. Li, et al.
+Critical assessment of reaction pathways for conversion of agricultural waste biomass into formic acid
+Green Chem., 23 (2021), pp. 1536-1561, 10.1039/D0GC04263C
+View in ScopusGoogle Scholar
+[12]
+S. Ge, P.N.Y. Yek, Y.W. Cheng, et al.
+Progress in microwave pyrolysis conversion of agricultural waste to value-added biofuels: a batch to continuous approach
+Renew. Sustain. Energy Rev., 135 (2021), Article 110148, 10.1016/j.rser.2020.110148
+View PDF
+View articleView in ScopusGoogle Scholar
+[13]
+L. Atanda, G.L.L. Fraga, M.H.M. Ahmed, et al.
+Conversion of agricultural waste into stable biocrude using spinel oxide catalysts
+J. Hazard Mater., 402 (2021), Article 123539, 10.1016/j.jhazmat.2020.123539
+View PDF
+View articleGoogle Scholar
+[14]
+M.K. Awasthi, R. Sindhu, R. Sirohi, et al.
+Agricultural waste biorefinery development towards circular bioeconomy
+Renew. Sustain. Energy Rev., 158 (2022), Article 112122, 10.1016/j.rser.2022.112122
+View PDF
+View articleView in ScopusGoogle Scholar
+[15]
+S. Kanwal, N. Chaudhry, S. Munir, et al.
+Effect of torrefaction conditions on the physicochemical characterization of agricultural waste (sugarcane bagasse)
+Waste Manage. (Tucson, Ariz.), 88 (2019), pp. 280-290, 10.1016/j.wasman.2019.03.053
+View PDF
+View articleView in ScopusGoogle Scholar
+[16]
+F. Akhter, S.A. Soomro, A.R. Jamali, et al.
+Rice husk ash as green and sustainable biomass waste for construction and renewable energy applications: a review
+Biomass Convers Biorefin, 1–11 (2021), 10.1007/s13399-021-01527-5
+Google Scholar
+[17]
+H. Ismail, H. Mohamad
+Bioactivity and biocompatibility properties of sustainable wollastonite bioceramics from rice husk ash/rice straw ash: a review
+Materials, 14 (2021), p. 5193, 10.3390/ma14185193
+View in ScopusGoogle Scholar
+[18]
+F. Ndayisenga, Z. Yu, J. Zheng, et al.
+Microbial electrohydrogenesis cell and dark fermentation integrated system enhances biohydrogen production from lignocellulosic agricultural wastes: substrate pretreatment towards optimization
+Renew. Sustain. Energy Rev., 145 (2021), Article 111078, 10.1016/j.rser.2021.111078
+View PDF
+View articleView in ScopusGoogle Scholar
+[19]
+G.P. Naik, A.K. Poonia, P.K. Chaudhari
+Pretreatment of lignocellulosic agricultural waste for delignification, rapid hydrolysis, and enhanced biogas production: a review
+J. Indian Chem. Soc., 98 (2021), Article 100147, 10.1016/j.jics.2021.100147
+View PDF
+View articleView in ScopusGoogle Scholar
+[20]
+A.T. Hoang, S. Nižetić, H.C. Ong, et al.
+Insight into the recent advances of microwave pretreatment technologies for the conversion of lignocellulosic biomass into sustainable biofuel
+Chemosphere, 281 (2021), Article 130878, 10.1016/j.chemosphere.2021.130878
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+S. Ge, P.N.Y. Yek, Y.W. Cheng, et al.
+Progress in microwave pyrolysis conversion of agricultural waste to value-added biofuels: a batch to continuous approach
+Renew. Sustain. Energy Rev., 135 (2021), Article 110148, 10.1016/j.rser.2020.110148
+View PDF
+View articleView in ScopusGoogle Scholar
+[22]
+S.D. Stefanidis, K.G. Kalogiannis, E.F. Iliopoulou, et al.
+A study of lignocellulosic biomass pyrolysis via the pyrolysis of cellulose, hemicellulose and lignin
+J. Anal. Appl. Pyrolysis, 105 (2014), pp. 143-150, 10.1016/j.jaap.2013.10.013
+View PDF
+View articleView in ScopusGoogle Scholar
+[23]
+V. Dhyani, T. Bhaskar
+A comprehensive review on the pyrolysis of lignocellulosic biomass
+Renew. Energy, 129 (2018), pp. 695-716, 10.1016/j.renene.2017.04.035
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+P.S. Bandgar, S. Jain, N.L. Panwar
+A comprehensive review on optimization of anaerobic digestion technologies for lignocellulosic biomass available in India
+Biomass Bioenergy, 161 (2022), Article 106479, 10.1016/j.biombioe.2022.106479
+View PDF
+View articleView in ScopusGoogle Scholar
+[25]
+D. Kumari, R. Singh
+Pretreatment of lignocellulosic wastes for biofuel production: a critical review
+Renew. Sustain. Energy Rev., 90 (2018), pp. 877-891, 10.1016/j.rser.2018.03.111
+View PDF
+View articleView in ScopusGoogle Scholar
+[26]
+H. Zhang, L. Han, H. Dong
+An insight to pretreatment, enzyme adsorption and enzymatic hydrolysis of lignocellulosic biomass: experimental and modeling studies
+Renew. Sustain. Energy Rev., 140 (2021), Article 110758, 10.1016/j.rser.2021.110758
+View PDF
+View articleView in ScopusGoogle Scholar
+[27]
+Y. Liu, X. Zheng, S. Tao, et al.
+Process optimization for deep eutectic solvent pretreatment and enzymatic hydrolysis of sugar cane bagasse for cellulosic ethanol fermentation
+Renew. Energy, 177 (2021), pp. 259-267, 10.1016/j.renene.2021.05.131
+View PDF
+View articleView in ScopusGoogle Scholar
+[28]
+A.L. Umagiliyage, R. Choudhary, Y. Liang, et al.
+Laboratory scale optimization of alkali pretreatment for improving enzymatic hydrolysis of sweet sorghum bagasse
+Ind. Crop. Prod., 74 (2015), pp. 977-986, 10.1016/j.indcrop.2015.05.044
+View PDF
+View articleView in ScopusGoogle Scholar
+[29]
+Z. Wang, X. He, L. Yan, et al.
+Enhancing enzymatic hydrolysis of corn stover by twin-screw extrusion pretreatment
+Ind. Crop. Prod., 143 (2020), Article 111960, 10.1016/j.indcrop.2019.111960
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+F. Bonfiglio, M. Cagno, C.K. Yamakawa, et al.
+Production of xylitol and carotenoids from switchgrass and Eucalyptus globulus hydrolysates obtained by intensified steam explosion pretreatment
+Ind. Crop. Prod., 170 (2021), Article 113800, 10.1016/j.indcrop.2021.113800
+View PDF
+View articleView in ScopusGoogle Scholar
+[31]
+Z. Ziaei-Rad, J. Fooladi, M. Pazouki, et al.
+Lignocellulosic biomass pre-treatment using low-cost ionic liquid for bioethanol production: an economically viable method for wheat straw fractionation
+Biomass Bioenergy, 151 (2021), Article 106140, 10.1016/j.biombioe.2021.106140
+View PDF
+View articleView in ScopusGoogle Scholar
+[32]
+E. Antwi, N. Engler, M. Nelles, et al.
+Anaerobic digestion and the effect of hydrothermal pretreatment on the biogas yield of cocoa pods residues
+Waste Manage. (Tucson, Ariz.), 88 (2019), pp. 131-140, 10.1016/j.wasman.2019.03.034
+View PDF
+View articleView in ScopusGoogle Scholar
+[33]
+W. Wang, X. Tan, M. Imtiaz, et al.
+Rice straw pretreatment with KOH/urea for enhancing sugar yield and ethanol production at low temperature
+Ind. Crop. Prod., 170 (2021), Article 113776, 10.1016/j.indcrop.2021.113776
+View in ScopusGoogle Scholar
+[34]
+J. Montoya-Rosales, M. Peces, L. González-Rodríguez, et al.
+A broad overview comparing a fungal, thermal and acid pre-treatment of bean straw in terms of substrate and anaerobic digestion effect
+Biomass Bioenergy, 142 (2020), Article 105775, 10.1016/j.biombioe.2020.105775
+View PDF
+View articleView in ScopusGoogle Scholar
+[35]
+S. Pan, Y. Chi, L. Zhou, et al.
+Evaluation of squeezing pretreatment for improving methane production from fresh banana pseudo-stems
+Waste Manage. (Tucson, Ariz.), 102 (2020), pp. 900-908, 10.1016/j.wasman.2019.12.011
+View PDF
+View articleView in ScopusGoogle Scholar
+[36]
+B.G. Fonseca, S. Mateo, I.C. Roberto, et al.
+Bioconversion in batch bioreactor of olive-tree pruning biomass optimizing treatments for ethanol production
+Biochem. Eng. J., 164 (2020), Article 107793, 10.1016/j.bej.2020.107793
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+T. Shahzadi, S. Mehmood, M. Irshad, et al.
+Advances in lignocellulosic biotechnology: a brief review on lignocellulosic biomass and cellulases
+Adv. Biosci. Biotechnol., 5 (2014), pp. 1-6, 10.4236/abb.2014.53031
+Google Scholar
+[38]
+N. Kamimura, S. Sakamoto, N. Mitsuda, et al.
+Advances in microbial lignin degradation and its applications
+Curr. Opin. Biotechnol., 56 (2019), pp. 179-186, 10.1016/j.copbio.2018.11.011
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+C. Areepak, T. Jiradechakorn, S. Chuetor, et al.
+Improvement of lignocellulosic pretreatment efficiency by combined chemo - mechanical pretreatment for energy consumption reduction and biofuel production
+Renew. Energy, 182 (2022), pp. 1094-1102, 10.1016/j.renene.2021.11.002
+View PDF
+View articleView in ScopusGoogle Scholar
+[40]
+R.Y. Zhang, H.M. Liu, J. Hou, et al.
+Cellulose fibers extracted from sesame hull using subcritical water as a pretreatment
+Arab. J. Chem., 14 (2021), Article 103178, 10.1016/j.arabjc.2021.103178
+View PDF
+View articleView in ScopusGoogle Scholar
+[41]
+X. Bai, G. Wang, Y. Yu, et al.
+Changes in the physicochemical structure and pyrolysis characteristics of wheat straw after rod-milling pretreatment
+Bioresour. Technol., 250 (2018), pp. 770-776, 10.1016/j.biortech.2017.11.085
+View PDF
+View articleView in ScopusGoogle Scholar
+[42]
+S. Dahunsi
+Mechanical pretreatment of lignocelluloses for enhanced biogas production: methane yield prediction from biomass structural components
+Bioresour. Technol., 280 (2019), pp. 18-26, 10.1016/j.biortech.2019.02.006
+View PDF
+View articleView in ScopusGoogle Scholar
+[43]
+A.R. Mankar, A. Pandey, A. Modak, et al.
+Pretreatment of lignocellulosic biomass: a review on recent advances
+Bioresour. Technol., 334 (2021), Article 125235, 10.1016/j.biortech.2021.125235
+View PDF
+View articleView in ScopusGoogle Scholar
+[44]
+P.B. Subhedar, P. Ray, P.R. Gogate
+Intensification of delignification and subsequent hydrolysis for the fermentable sugar production from lignocellulosic biomass using ultrasonic irradiation
+Ultrason. Sonochem., 40 (2018), pp. 140-150, 10.1016/j.ultsonch.2017.01.030
+View PDF
+View articleView in ScopusGoogle Scholar
+[45]
+S. Wang, B.S. Dien, K.D. Rausch, et al.
+Fermentation of undetoxified sugarcane bagasse hydrolyzates using a two stage hydrothermal and mechanical refining pretreatment
+Bioresour. Technol., 261 (2018), pp. 313-321, 10.1016/j.biortech.2018.04.018
+View in ScopusGoogle Scholar
+[46]
+A. Morales, J. Labidi, P. Gullón
+Hydrothermal treatments of walnut shells: a potential pretreatment for subsequent product obtaining
+Sci. Total Environ., 764 (2021), Article 142800, 10.1016/j.scitotenv.2020.142800
+2021
+View PDF
+View articleView in ScopusGoogle Scholar
+[47]
+R. Ahorsu, G. Cintorrino, F. Medina, et al.
+Microwave processes: a viable technology for obtaining xylose from walnut shell to produce lactic acid by Bacillus coagulans
+J. Clean. Prod., 231 (2019), pp. 1171-1181, 10.1016/j.jclepro.2019.05.289
+View PDF
+View articleView in ScopusGoogle Scholar
+[48]
+B. Koul, M. Yakoob, M.P. Shah
+Agricultural waste management strategies for environmental sustainability
+Environ. Res., 206 (2022), Article 112285, 10.1016/j.envres.2021.112285
+View PDF
+View articleView in ScopusGoogle Scholar
+[49]
+S.R. Paudel, S.P. Banjara, O.K. Choi, et al.
+Pretreatment of agricultural biomass for anaerobic digestion: current state and challenges
+Bioresour. Technol., 245 (2017), pp. 1194-1205, 10.1016/j.biortech.2017.08.182
+View PDF
+View articleView in ScopusGoogle Scholar
+[50]
+S. Rezania, B. Oryani, J. Cho, et al.
+Different pretreatment technologies of lignocellulosic biomass for bioethanol production: an overview
+Energy, 199 (2020), Article 117457, 10.1016/j.energy.2020.117457
+View PDF
+View articleView in ScopusGoogle Scholar
+[51]
+H. Ruan, S.C. Fransen, A.H. Carter
+Selecting winter wheat straw for cellulosic ethanol production in the Pacific Northwest, USA
+Biomass Bioenergy, 123 (2019), pp. 59-69, 10.1016/j.biombioe.2019.02.012
+Google Scholar
+[52]
+R.R. Gonzales, P. Sivagurunathan, S.H. Kim
+Effect of severity on dilute acid pretreatment of lignocellulosic biomass and the following hydrogen fermentation
+Int. J. Hydrogen Energy, 41 (2016), pp. 21678-21684, 10.1016/j.ijhydene.2016.06.198
+View PDF
+View articleView in ScopusGoogle Scholar
+[53]
+A. Lorenci Woiciechowski, C.J. Dalmas Neto, L. Porto de Souza Vandenberghe, et al.
+Lignocellulosic biomass: acid and alkaline pretreatments and their effects on biomass recalcitrance–Conventional processing and recent advances
+Bioresour. Technol., 304 (2020), Article 122848, 10.1016/j.biortech.2020.122848
+View PDF
+View articleView in ScopusGoogle Scholar
+[54]
+Z. Yuan, Y. Wen, G. Li
+Production of bioethanol and value added compounds from wheat straw through combined alkaline/alkaline-peroxide pretreatment
+Bioresour. Technol., 259 (2018), pp. 228-236, 10.1016/j.biortech.2018.03.044
+View PDF
+View articleView in ScopusGoogle Scholar
+[55]
+J. Tan, Y. Li, X. Tan, et al.
+Advances in Pretreatment of straw biomass for sugar production
+Front. Chem., 9 (2021), Article 696030, 10.3389/fchem.2021.696030
+View in ScopusGoogle Scholar
+[56]
+F.M. Putrino, M. Tedesco, R.B. Bodini, et al.
+Study of supercritical carbon dioxide pretreatment processes on green coconut fiber to enhance enzymatic hydrolysis of cellulose
+Bioresour. Technol., 309 (2020), Article 123387, 10.1016/j.biortech.2020.123387
+View PDF
+View articleView in ScopusGoogle Scholar
+[57]
+L.C. Dos Santos, O.F.H. Adarme, B.E.L. Baêta, et al.
+Production of biogas (methane and hydrogen) from anaerobic digestion of hemicellulosic hydrolysate generated in the oxidative pretreatment of coffee husks
+Bioresour. Technol., 263 (2018), pp. 601-612, 10.1016/j.biortech.2018.05.037
+Google Scholar
+[58]
+Z. Yuan, G.E. Klinger, S. Nikafshar, et al.
+Effective biomass fractionation through oxygen-enhanced alkaline–oxidative pretreatment
+ACS Sustain. Chem. Eng., 9 (2021), pp. 1118-1127, 10.1021/acssuschemeng.0c06170
+View in ScopusGoogle Scholar
+[59]
+I. Salapa, C. Katsimpouras, E. Topakas, et al.
+Organosolv pretreatment of wheat straw for efficient ethanol production using various solvents
+Biomass Bioenergy, 100 (2017), pp. 10-16, 10.1016/j.biombioe.2017.03.011
+View PDF
+View articleView in ScopusGoogle Scholar
+[60]
+C. Tang, J. Shan, Y. Chen, et al.
+Organic amine catalytic organosolv pretreatment of corn stover for enzymatic saccharification and high-quality lignin
+Bioresour. Technol., 232 (2017), pp. 222-228, 10.1016/j.biortech.2017.02.041
+View PDF
+View articleView in ScopusGoogle Scholar
+[61]
+R. Sindhu, P. Binod, A. Pandey
+Biological pretreatment of lignocellulosic biomass–An overview
+Bioresour. Technol., 199 (2016), pp. 76-82, 10.1016/j.biortech.2015.08.030
+View PDF
+View articleView in ScopusGoogle Scholar
+[62]
+C. Farkas, J.M. Rezessy-Szabó, V.K. Gupta, et al.
+Microbial saccharification of wheat bran for bioethanol fermentation
+J. Clean. Prod., 240 (2019), Article 118269, 10.1016/j.jclepro.2019.118269
+View PDF
+View articleView in ScopusGoogle Scholar
+[63]
+J. Ma, H. Yue, H. Li, et al.
+Selective delignification of poplar wood with a newly isolated white-rot basidiomycete Peniophora incarnata T-7 by submerged fermentation to enhance saccharification
+Biotechnol. Biofuels, 14 (2021), pp. 1-15, 10.1186/s13068-021-01986-y
+View in ScopusGoogle Scholar
+[64]
+L. Dumond, P.Y. Lam, G. van Erven, et al.
+Termite gut microbiota contribution to wheat straw delignification in anaerobic bioreactors
+ACS Sustain. Chem. Eng., 9 (2021), pp. 2191-2202, 10.1021/acssuschemeng.0c07817
+View in ScopusGoogle Scholar
+[65]
+Q. Zhang, J. He, M. Tian, et al.
+Enhancement of methane production from cassava residues by biological pretreatment using a constructed microbial consortium
+Bioresour. Technol., 102 (2011), pp. 8899-8906, 10.1016/j.biortech.2011.06.061
+View PDF
+View articleView in ScopusGoogle Scholar
+[66]
+G.C. Xu, J.C. Ding, R.Z. Han, et al.
+Enhancing cellulose accessibility of corn stover by deep eutectic solvent pretreatment for butanol fermentation
+Bioresour. Technol., 203 (2016), pp. 364-369, 10.1016/j.biortech.2015.11.002
+View PDF
+View articleView in ScopusGoogle Scholar
+[67]
+C.R. He, Y.Y. Kuo, S.Y. Li
+Lignocellulosic butanol production from Napier grass using semi-simultaneous saccharification fermentation
+Bioresour. Technol., 231 (2017), pp. 101-108, 10.1016/j.biortech.2017.01.039
+View PDF
+View articleView in ScopusGoogle Scholar
+[68]
+A. Ranjan, S. Khanna, V. Moholkar
+Feasibility of rice straw as alternate substrate for biobutanol production
+Appl. Energy, 103 (2013), pp. 32-38, 10.1016/j.apenergy.2012.10.035
+View PDF
+View articleView in ScopusGoogle Scholar
+[69]
+Y. Chen, W. Wang, D. Zhou, et al.
+Acetobacter orientalis XJC-C with a high lignocellulosic biomass-degrading ability improves significantly composting efficiency of banana residues by increasing metabolic activity and functional diversity of bacterial community
+Bioresour. Technol., 324 (2021), Article 124661, 10.1016/j.biortech.2020.124661
+View PDF
+View articleView in ScopusGoogle Scholar
+[70]
+W. Xu, S. Fu, Z. Yang, et al.
+Improved methane production from corn straw by microaerobic pretreatment with a pure bacteria system
+Bioresour. Technol., 259 (2018), pp. 18-23, 10.1016/j.biortech.2018.02.046
+View PDF
+View articleView in ScopusGoogle Scholar
+[71]
+B. Kumar, N. Bhardwaj, K. Agrawal, et al.
+Current perspective on pretreatment technologies using lignocellulosic biomass: an emerging biorefinery concept
+Fuel Process. Technol., 199 (2020), Article 106244, 10.1016/j.fuproc.2019.106244
+View PDF
+View articleView in ScopusGoogle Scholar
+[72]
+M. Rastogi, S. Shrivastava
+Recent advances in second generation bioethanol production: an insight to pretreatment, saccharification and fermentation processes
+Renew. Sustain. Energy Rev., 80 (2017), pp. 330-340, 10.1016/j.rser.2017.05.225
+2017
+View PDF
+View articleView in ScopusGoogle Scholar
+[73]
+S. Tanpichai, S. Witayakran, A. Boonmahitthisud
+Study on structural and thermal properties of cellulose microfibers isolated from pineapple leaves using steam explosion
+J. Environ. Chem. Eng., 7 (2019), Article 102836, 10.1016/j.jece.2018.102836
+View PDF
+View articleView in ScopusGoogle Scholar
+[74]
+J. Lizasoain, M. Rincón, F. Theuretzbacher, et al.
+Biogas production from reed biomass: effect of pretreatment using different steam explosion conditions
+Biomass Bioenergy, 95 (2016), pp. 84-91, 10.1016/j.biombioe.2016.09.021
+View PDF
+View articleView in ScopusGoogle Scholar
+[75]
+J. Wu, M. Ebadian, K.H. Kim, et al.
+The use of steam pretreatment to enhance pellet durability and the enzyme-mediated hydrolysis of pellets to fermentable sugars
+Bioresour. Technol., 347 (2022), Article 126731, 10.1016/j.biortech.2022.126731
+View PDF
+View articleView in ScopusGoogle Scholar
+[76]
+C.I.S. Rodrigues, J.J. Jackson, M.D. Montross
+A molar basis comparison of calcium hydroxide, sodium hydroxide, and potassium hydroxide on the pretreatment of switchgrass and miscanthus under high solids conditions
+Ind. Crop. Prod., 92 (2016), pp. 165-173, 10.1016/j.indcrop.2016.08.010
+View in ScopusGoogle Scholar
+[77]
+T. Zhang, D. Jiang, H. Zhang, et al.
+Effects of different pretreatment methods on the structural characteristics, enzymatic saccharification and photo-fermentative bio-hydrogen production performance of corn straw
+Bioresour. Technol., 304 (2020), Article 122999, 10.1016/j.biortech.2020.122999
+View PDF
+View articleView in ScopusGoogle Scholar
+[78]
+M.D.C.F. Lopez, M. Rigal, L. Rigal, et al.
+Influence of temperature and soda concentration in a thermo-mechano-chemical pretreatment for bioethanol production from sweet corn co-products
+Ind. Crop. Prod., 133 (2019), pp. 317-324, 10.1016/j.indcrop.2019.03.044
+View in ScopusGoogle Scholar
+[79]
+C. Zhao, Q. Shao, S.P. Chundawat
+Recent advances on ammonia-based pretreatments of lignocellulosic biomass
+Bioresour. Technol., 298 (2020), Article 122446, 10.1016/j.biortech.2019.122446
+View PDF
+View articleView in ScopusGoogle Scholar
+[80]
+K.A. Beauchemin, G.O. Ribeiro, T. Ran, et al.
+Recombinant fibrolytic feed enzymes and ammonia fibre expansion (AFEX) pretreatment of crop residues to improve fibre degradability in cattle
+Anim. Feed Sci. Technol., 256 (2019), Article 114260, 10.1016/j.anifeedsci.2019.114260
+View PDF
+View articleView in ScopusGoogle Scholar
+[81]
+C. Zhao, X. Qiao, Y. Cao, et al.
+Application of hydrogen peroxide presoaking prior to ammonia fiber expansion pretreatment of energy crops
+Fuel, 205 (2017), pp. 184-191, 10.1016/j.fuel.2017.05.073
+View PDF
+View articleView in ScopusGoogle Scholar
+[82]
+R. Sankaran, R.A.P. Cruz, H. Pakalapati, et al.
+Recent advances in the pretreatment of microalgal and lignocellulosic biomass: a comprehensive review
+Bioresour. Technol., 298 (2020), Article 122476, 10.1016/j.biortech.2019.122476
+View PDF
+View articleView in ScopusGoogle Scholar
+[83]
+P. Wang, C. Liu, J. Chang, et al.
+Effect of physicochemical pretreatments plus enzymatic hydrolysis on the composition and morphologic structure of corn straw
+Renew. Energy, 138 (2019), pp. 502-508, 10.1016/j.renene.2019.01.118
+View PDF
+View articleView in ScopusGoogle Scholar
+[84]
+L. Zhao, Z.F. Sun, C.C. Zhang, et al.
+Advances in pretreatment of lignocellulosic biomass for bioenergy production: challenges and perspectives
+Bioresour. Technol., 343 (2022), Article 126123, 10.1016/j.biortech.2021.126123
+View PDF
+View articleView in ScopusGoogle Scholar
+[85]
+M. Yadav, V. Vivekanand
+Biological treatment of lignocellulosic biomass by Curvularia lunata for biogas production
+Bioresour. Technol., 306 (2020), Article 123151, 10.1016/j.biortech.2020.123151
+View PDF
+View articleView in ScopusGoogle Scholar
+[86]
+Z. Shen, K. Zhang, M. Si, et al.
+Synergy of lignocelluloses pretreatment by sodium carbonate and bacterium to enhance enzymatic hydrolysis of rice straw
+Bioresour. Technol., 249 (2018), pp. 154-160, 10.1016/j.biortech.2017.10.008
+View PDF
+View articleView in ScopusGoogle Scholar
+[87]
+S. Meenakshisundaram, A. Fayeulle, E. Leonard, et al.
+Fiber degradation and carbohydrate production by combined biological and chemical/physicochemical pretreatment methods of lignocellulosic biomass – a review
+Bioresour. Technol., 331 (2021), Article 125053, 10.1016/j.biortech.2021.125053
+View PDF
+View articleView in ScopusGoogle Scholar
+[88]
+R. Roy, M.S. Rahman, D.E. Raynie
+Recent advances of greener pretreatment technologies of lignocellulose
+Curr Res Sustain Chem, 3 (2020), Article 100035, 10.1016/j.crgsc.2020.100035
+View PDF
+View articleView in ScopusGoogle Scholar
+[89]
+J. Zhang, X. Zhang, M. Yang, et al.
+Transforming lignocellulosic biomass into biofuels enabled by ionic liquid pretreatment
+Bioresour. Technol., 322 (2021), Article 124522, 10.1016/j.biortech.2020.124522
+View PDF
+View articleView in ScopusGoogle Scholar
+[90]
+Z. Usmani, M. Sharma, P. Gupta, et al.
+Ionic liquid based pretreatment of lignocellulosic biomass for enhanced bioconversion
+Bioresour. Technol., 304 (2020), Article 123003, 10.1016/j.biortech.2020.123003
+View PDF
+View articleView in ScopusGoogle Scholar
+[91]
+W. Yang, H. Fan, M. Zhou, et al.
+Synergistic effect of ionic liquid and surfactant for enzymatic hydrolysis of lignocellulose by Paenibacillus sp. LLZ1 cellulase
+Biomass Bioenergy, 142 (2020), Article 105760, 10.1016/j.biombioe.2020.105760
+View PDF
+View articleView in ScopusGoogle Scholar
+[92]
+R. Alayoubi, N. Mehmood, E. Husson, et al.
+Low temperature ionic liquid pretreatment of lignocellulosic biomass to enhance bioethanol yield
+Renew. Energy, 145 (2020), pp. 1808-1816, 10.1016/j.renene.2019.07.091
+View PDF
+View articleView in ScopusGoogle Scholar
+[93]
+C.Y. Ma, X. Gao, X.P. Peng, et al.
+Microwave-assisted deep eutectic solvents (DES) pretreatment of control and transgenic poplars for boosting the lignin valorization and cellulose bioconversion
+Ind. Crop. Prod., 164 (2021), Article 13415, 10.1016/j.indcrop.2021.113415
+View in ScopusGoogle Scholar
+[94]
+S. Sarmad, Y. Xie, J.P. Mikkola, et al.
+Screening of deep eutectic solvents (DESs) as green CO 2 sorbents: from solubility to viscosity
+New J. Chem., 41 (2017), pp. 290-301, 10.1039/C6NJ03140D
+Google Scholar
+[95]
+R. Wang, K. Wang, M. Zhou, et al.
+Efficient fractionation of moso bamboo by synergistic hydrothermal-deep eutectic solvents pretreatment
+Bioresour. Technol., 328 (2021), Article 124873, 10.1016/j.biortech.2021.124873
+View PDF
+View articleView in ScopusGoogle Scholar
+[96]
+Q. Zhang, M. Zhao, Q. Xu, et al.
+Enhanced enzymatic hydrolysis of sorghum stalk by supercritical carbon dioxide and ultrasonic pretreatment
+Appl. Biochem. Biotechnol., 188 (2019), pp. 101-111, 10.1007/s12010-018-2909-x
+View in ScopusGoogle Scholar
+[97]
+H.P. Vu, L.N. Nguyen, M.T. Vu, et al.
+A comprehensive review on the framework to valorise lignocellulosic biomass as biorefinery feedstocks
+Sci. Total Environ., 743 (2020), Article 140630, 10.1016/j.scitotenv.2020.140630
+View PDF
+View articleView in ScopusGoogle Scholar
+[98]
+A. Solikhin, Y.S. Hadi, M.Y. Massijaya, et al.
+Morphological and chemo-thermal changes of oven-heat treated oil palm empty fruit bunch fibers during dry disk milling
+J Indian Acad Wood Sci, 14 (2017), pp. 9-17, 10.1007/s13196-016-0182-6
+View in ScopusGoogle Scholar
+[99]
+X. Luo, X. Wang
+Preparation and characterization of nanocellulose fibers from NaOH/urea pretreatment of oil palm fibers
+Bioresources, 12 (2017), pp. 5826-5837, 10.15376/biores.12.3.5826-5837
+View in ScopusGoogle Scholar
+[100]
+K.S. Muthuvelu, R. Rajarathinam, L.P. Kanagaraj, et al.
+Evaluation and characterization of novel sources of sustainable lignocellulosic residues for bioethanol production using ultrasound-assisted alkaline pre-treatment
+Waste Manage. (Tucson, Ariz.), 87 (2019), pp. 368-374, 10.1016/j.wasman.2019.02.015
+View PDF
+View articleView in ScopusGoogle Scholar
+[101]
+R. Apriani, N. Manik, E. Mahardhika, et al.
+Study on the utilization of palm fruit waste as a pulp raw material organosolv method with hydrothermal pretreatment
+J Phys Conf Ser, 1456 (2020), Article 012003, 10.1088/1742-6596/1456/1/012003
+View in ScopusGoogle Scholar
+[102]
+H. Risdianto, S. Sugesty
+Pretreatment of Marasmius sp. on biopulping of oil palm empty fruit bunches
+Mod. Appl. Sci., 9 (2015), pp. 1-6, 10.5539/mas.v9n7p1
+View in ScopusGoogle Scholar
+[103]
+C.G. Liu, Y. Xiao, X.X. Xia, et al.
+Cellulosic ethanol production: progress, challenges and strategies for solutions
+Biotechnol. Adv., 37 (2019), pp. 491-504, 10.1016/j.biotechadv.2019.03.002
+View PDF
+View articleGoogle Scholar
+[104]
+P. Singh, O. Sulaiman, R. Hashim, et al.
+Using biomass residues from oil palm industry as a raw material for pulp and paper industry: potential benefits and threat to the environment
+Environ. Dev. Sustain., 15 (2013), pp. 367-383, 10.1007/s10668-012-9390-4
+View in ScopusGoogle Scholar
+[105]
+B.O. Abo, M. Gao, Y. Wang, et al.
+Lignocellulosic biomass for bioethanol: an overview on pretreatment, hydrolysis and fermentation processes
+Rev. Environ. Health, 34 (2019), pp. 57-68, 10.1515/reveh-2018-0054
+View in ScopusGoogle Scholar
+[106]
+Z. Xu, F. Huang
+Pretreatment methods for bioethanol production
+Appl. Biochem. Biotechnol., 174 (2014), pp. 43-62, 10.1007/s12010-014-1015-y
+View in ScopusGoogle Scholar
+[107]
+B. Satari, A.K. Jaiswal
+Green fractionation of 2G and 3G feedstocks for ethanol production: advances, incentives and barriers
+Curr. Opin. Food Sci., 37 (2021), pp. 1-9, 10.1016/j.cofs.2020.07.004
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (64)
+Agricultural wastes: A practical and potential source for the isolation and preparation of cellulose and application in agriculture and different industries
+2024, Industrial Crops and Products
+
+Show abstract
+Agro-waste for renewable and sustainable green production: A review
+2024, Journal of Cleaner Production
+
+Show abstract
+State-of-the-art and future directions of machine learning for biomass characterization and for sustainable biorefinery
+2023, Journal of Energy Chemistry
+
+Show abstract
+Transformation of Agro-Waste into Value-Added Bioproducts and Bioactive Compounds: Micro/Nano Formulations and Application in the Agri-Food-Pharma Sector
+2023, Bioengineering
+Bioethanol Production from Lignocellulosic Biomass—Challenges and Solutions
+2022, Molecules
+An Overview of Agro-Waste Management in Light of the Water-Energy-Waste Nexus
+2022, Sustainability (Switzerland)
+View all citing articles on Scopus
+© 2022 The Authors. Published by Elsevier Ltd.
+
+Part of special issue
+Wastewater-Based Epidemiology to Monitor COVID-19 Outbreak.Present and Future Diagnostic Methods to be on Your Radar
+Edited by Damià Barceló, Nikolaos S. Thomaidis
+View special issue
+
+Recommended articles
+Application of virtual product design to the development of HVAC solution for Incheon International Airport Modular COVID-19 testing center
+Case Studies in Chemical and Environmental Engineering, Volume 6, 2022, Article 100257
+Sun Jong Noh, …, Man Yeong Ha
+View PDF
+Pyrolysis of date kernels using natural Jordanian Tripoli as a catalyst under different operational conditions
+Case Studies in Chemical and Environmental Engineering, Volume 6, 2022, Article 100212
+Rima A. Aljeradat, …, Nabeel A. Jarrah
+View PDF
+Visualization of water accumulation in micro porous layers in polymer electrolyte membrane fuel cells using synchrotron phase contrast tomography
+Case Studies in Chemical and Environmental Engineering, Volume 6, 2022, Article 100260
+Saad S. Alrwashdeh, …, Ingo Manke
+View PDF
+
+Show 3 more articles
+
+Article Metrics
+Citations
+Citation Indexes:
+60
+Captures
+Readers:
+190
+Mentions
+References:
+3
+plumX logoView details
+Elsevier logo with wordmark
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+
+RELX group home page

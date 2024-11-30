@@ -1,0 +1,520 @@
+Water Quality Monitoring System for Centro-3 Luna, Isabela Garcia, Abegael P. Garcia, Cristine Joy P. Jove, Phoebe Love B. January 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information, and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Garcia, Abegael P. Garcia, Cristine Joy P. Jove, Phoebe Love B. January 2023
+
+
+
+ABSTRACT
+
+Water is essential for life, but some people need safe water sources, which can have serious health consequences. Water safety issues are critical, so we should monitor water in real-time. Developing a system for detecting water quality has been the subject of extensive research, primarily based on costly and time laboratory tests. So researchers came up with the concept of developing a low-cost and efficient water quality monitoring system. This paper aims to detect the quality of water that people use daily. The researchers implemented this project at Centro-3 Luna in Isabela and used an Arduino UNO, a pH and turbidity sensor for measuring the water value. Water value will be displayed on LCD or smartphone using our application. This system will assist authorities in taking the necessary steps to provide solutions for the affected area. After analyzing the gathered information, the researchers concluded that 54 per cent of our respondents are male, while 36 per cent are female. It also reveals that 58 per cent of the respondent are using tap water as their drinking water, while 42 per cent are drinking mineral water. The evaluation of the user "Strongly Agreed" with the Water Quality Monitoring System in terms of functional suitability, performance efficiency. compatibility, usability, reliability, security, maintainability, and portability. The researchers concluded that the respondents were satisfied with the system's performance.
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+Water is essential for life on Earth. Unfortunately, many people are not able to get enough of it. There is a water crisis in many parts of the world, and people are having much trouble getting the water they need for drinking, cooking, bathing, and other activities, Women and children are the most affected by water pollution. Children are more vulnerable to diseases caused by dirty water. Women and girls often bear the burden of carrying water for their families for an estimated 200 million hours daily. People can improve their hygiene and sanitation practices with access to clean water. These make them less likely to get water-related diseases, which can be a big worry for parents. Additionally, having access to clean water can help communities earn an income from their water resources (Reid, 2021).
+
+In the Philippines, over a billion people still live in areas where they do not have access to clean, safe water. Especially common in rural areas and lower-income cities, but it is also a problem in the country's biggest city, Metro Manila, Inefficiency in government-run water utilities makes it very difficult for people to get the water they need in quantity and quality (Tan, 2020). There are several reasons why cities in the Philippines are having trouble dealing with water shortages. One of the main reasons is that the government has not planned well, and many different institutions are responsible for water management (Rola, 2019). There is a pandemic called COVID-19, and it has been making many people sick. Millions of people are struggling to survive and stay healthy during this crisis, and one of the biggest challenges they face is not having access to clean water. Essential during a pandemic when people are more likely to get sick if they do not have access to clean water.
+
+In Isabela, residents and local officials are upset because they believe that the city officials and the Isabela Water District did not prepare for the increase in people and water usage (Unson, 2020). Access to safe water can be a huge time-saver for many people. It can also make people more confident and psychologically happier, leading to more opportunities to challenge themselves and create solutions to issues. Ensuring that everyone has access to safe water is essential for the individual and society as a whole. Clean water is needed by the body every day; without safe water, people would not function appropriately (Earthbuddies, 2021).
+
+After a long planning process and finding the right resources, the researcher proposed developing a low-cost water quality monitoring system to ensure the water we drink is safe. This paper focuses on the development of a cost-effective water quality monitoring system. The researcher is working on monitoring water quality cheaply and easily, so people can be sure the water they are drinking is safe. These will help protect people's health. Researchers will use a turbidity and pH sensor to determine water quality. The turbidity sensor detects the clarity of a water sample, while the pH sensor can measure alkalinity and acidity. The result is on the user's smartphone.
+
+Objectives of the Study
+
+The primary purpose of this study is to develop and implement the proposed study entitled "Water Quality Monitoring System for Centro 3, Luna, Isabela". Specifically, the study aims to:
+
+1. identify the respondent's problem with their drinking water in terms of:
+
+1.1 Tap Water Pros and Cons
+
+1.2 Mineral Water Pros and Cons
+
+2. design and develop a system that enables the identification of the quality of drinking water using turbidity and pH sensors.
+
+3. evaluate the performance of the developed system using ISO 25010 in terms of;
+
+3.1 functional suitability;
+
+3.2 performance efficiency;
+
+3.3 compatibility:
+
+3.4 usability:
+
+3.5 reliability:
+
+3.6 security:
+
+3.7 maintainability; and
+
+3.8 portability.
+
+Scope and Delimitation
+
+This study focused on detecting the current, ongoing, and emerging problems regarding water quality, determining compliance with drinking water standards, and helping protect other beneficial users. The study was conducted in Centro- 3 Luna, Isabela. The study will take place from the second semester of the academic year 2021-2022 through the first semester of the following academic year 2022-2023. The study has two administrative respondents from Luna, Isabela, And the IT experts in the CCSICT faculty.
+
+Moreover, the said system has its limitation; the water tester, a Ph sensor, and a Turbidity sensor can only test the quality of limited liquid samples. The study presents the Water Quality and Monitoring. This aspect will help them try and monitor their drinking water.
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter will review other researchers' works and studies related to the development of this project, which is the Water Quality Monitoring System. The researchers use this as a guide as they construct the project. Furthermore, the information in this chapter aids in familiarizing facts that are relevant and related to the current research.
+
+Researchers conducted a literature review in the library and on the Internet, specifically in Google Scholar. Before starting any research, it is wise to familiarize oneself with what has been done before. This will help ensure that the work undertaken is relevant to the study. Additionally, it is essential to check for any possible research gaps to ensure that the work undertaken is up-to-date. That is what researchers are doing with this paperwork.
+
+According to (Cabahug, 2018). The Philippines is a country that is rapidly growing and industrialized. Unfortunately, this growth has come at the cost of increased water pollution. Nearly half of all surveyed water bodies in the Philippines have good water quality, 40% have only fair water quality, and 13% have poor water quality. Around 50 of the 421 rivers in the Philippines are now considered to be "biologically dead," meaning they do not have enough oxygen to support most living things.
+
+As stated in the study of (Walag et al., 2018), the Philippines is an archipelagic country with many islands and much water. The country is focused on water quality because it is an integral part of agriculture. There are many threats to Water quality, including the scarcity of potable water. The legal framework helps agencies carry out water quality control, usage, and management policies. This is important because it helps to reduce the environmental impact of poor population health. The fact that the Philippines is an island nation with lots of natural water resources does not mean everyone has access to clean water. 75% of the population who have low socioeconomic status and live in rural villages called barangays do not have access to clean water (United Nations, 2018). In 2017, 58% of households in urban areas in the Philippines used bottled water or refilling stations as their primary source of drinking water. Next, respondents said they got drinking water from a pipe running into their house, yard, or plot (Statista Research Department, 2021).
+
+(Denchak, 2022), Water pollution happens when harmful substances (often chemicals or microorganisms) get into the water, making it less healthy and potentially dangerous to people or the environment.
+
+Statement (Manriquez, 2020), water shortages are a common problem in the Philippines, and they can be terrible during the summer when there is an El Niño. During these times, finding water during the day can be challenging, so people often have to bathe or wash dishes at night. These can be inconvenient, especially if we have to do chores during the night.
+
+According to (World Health Organization, 2022). Water and sanitation are essential for preventing diseases. If these services are unsafe, people can get sick from drinking or using the water. Diseases like cholera, diarrhoea, dysentery, hepatitis A. typhoid, and polio can spread through contaminated water and poor sanitation.
+
+Based on the study of (Japitana et al., 2018), integrated technologies have been used to monitor water quality in the Philippines. Water is an essential commodity and is becoming scarce due to human activity and natural destruction. The Philippines has much water, but the country's rapid development, human activities, and poor policy implementation have led to the deterioration of water quality in many water bodies. Water quality monitoring can be tedious and expensive, but some technologies are used to achieve precise, periodic, real-time, and low-cost water quality monitoring.
+
+As stated in the study of (Demetillo et al., 2019), a system for monitoring water quality in a large aquatic area using wireless sensor network technology is present. This system is easy to use and can be applied in remote rivers, lakes, coastal areas, and other water bodies. The leading hardware of the system consists of off-the-shelf electrochemical sensors, a microcontroller, a wireless communication system, and a customized buoy. The system detects water temperature, dissolved oxygen, and pH in a pre-programmed time interval. The prototype disseminates the gathered information in graphical and tabular formats through a customized web-based portal and preregistered mobile phones. The boy's stability in harsh environmental conditions, system energy consumption, data transmission efficiency, and web-based information display were carefully evaluated to check the system's effectiveness. The experimental results prove that the system has a great prospect and can be practically used for environmental monitoring. 
+
+According to (Rowland, 2021), water quality monitoring equipment has used to see how a water source is doing. This information can help people make informed decisions about how to care for the water.
+
+According to (Japitana et al., 2018), water is essential for many reasons. We are running out of it, and some of it is becoming polluted. The Philippines has much water, but it needs to be better used because of rapid development, human activities, and poor policy. Water quality monitoring (WQM) is a very tedious and expensive process. However, some new technologies could make it easier and cheaper. Some researchers are studying ways to use new technologies to monitor water quality very accurately, often without costing much. However, this would require a lot of research and development. We need a better way to do it often or cheaply.
+
+As stated in the study of (Ignacio et al., 2019), people can get sick from drinking contaminated water if we do not take care of wastewater and faeces. Furthermore, if there are harmful bacteria or viruses in wastewater, it can cause people to get sick. In some cases, this can even lead to death.
+
+According to (Ighalo et al., 2020), a researcher looked at water quality monitoring and assessment in Nigeria over the past two decades and found that there are still many problems with enforcing quality guidelines. Monitoring systems help ensure the safety of the water everyone is drinking.
+
+As stated in the study of (Masangkay et al., 2020), cryptosporidium is a waterborne pathogen that can cause diarrhoea in infants and people with weakened Immune systems. The Philippines is susceptible to the effects of climate change and water shortages, so it is essential to have a water quality monitoring system to help track the quality of water people drink.
+
+Based on the study of (Demetillo et al., 2019), water quality monitoring can be expensive and time-consuming. However, there are ways to measure water quality more cheaply and efficiently than before. One method is to use stationary equipment with a small coverage area. A newer method is to use a mobile surface vehicle, but this is more expensive and may not be available in some places.
+
+As stated in the study by (Vidal et al., 2020), the water safety plan (WSP) approach ensures water quality is always good from the point it has collected to when it is drunk. These include using risk assessment and management practices to determine the most significant risks to water quality and then taking steps to fix those problems. Programs to help implement the WSP were needed to help make sure that the water supply is always safe,
+
+According to (Araneta, DMT, 2022), this device can monitor water quality. It comprises several parts, including a computer, sensors, and a power bank. The computer can monitor the different water quality parameters, and the sensors can detect those parameters. The power bank can use to keep the device running, and the device can use to monitor water quality in real-time.
+
+According to (World Health Organization, 2021), the UN-Water Integrated Monitoring Initiative for SDG 6 (IMI-SDG6) helps to monitor different aspects of the Sustainable Development Goals (SDGs) related to water, such as reducing poverty. improving health, and increasing education. The 2030 Agenda calls for universal access to water and sanitation services by 2030, and IMI-SDG6 helps to measure how close we are to achieving this goal. In addition, IMI-SDG6 looks at how inequalities in access to these services exist and how different groups of people are affected by them.
+
+Based on (Sandoval et al., 2019) study, groundwater is essential to the Philippines' water resources. It can be helpful in areas where it usually does not Rain a lot and surface water is not as readily available. However, over the years, groundwater depletion and pollution have been problems in many parts of the Philippines.
+
+Based on the study of (Tolentino et al., 2019). The system's proponents measured the system's efficiency and reliability. The data showed that the system increased efficiency and avoided fish kills in a controlled setting while outperforming the yield quality of a conventional setup in an intensive setting. Aquaculture is a farming method that uses water to raise fish. Aquaculture can be done in a controlled setting. where the farmer knows what they are doing, or in an intensive setting, where the farmer does not have control over the environment. One problem with intensive aquaculture is that it can result in low-quality fish or even fish kills. A water quality monitoring system uses sensors, microcontrollers, and a web application. The system monitors six different water quality parameters and keeps them at a desired level that is optimal for fish growth,
+
+Based on the (Hong et al., 2021) study, water is essential for human survival and is always in demand. Water quality can traditionally be monitored. However, this is time-consuming and prone to inaccuracies. An Arduino-based sensor system was tested and found reliable but reliant on human assistance. The system could improve by making it more loT-friendly. In some parts of Bangladesh, there needs to be more safe drinking water. Because the country has a lot of different types of rocks, water can get contaminated by things like industrial pollution. To try to reduce the amount of water-related illnesses, scientists have developed a way to measure water quality using sensors. This system would allow the government to monitor water quality in specific areas and decide when and where to provide safe drinking water.
+
+As stated in the study by (Yashwanth et al., 2020), a real-time water quality monitoring system helps utilities to monitor water quality more accurately because it is difficult to do this with traditional methods. Also, because our population is growing, water resources are limited, and our infrastructure needs to be updated.
+
+Statement of (Sugapriyaa et al., 2018), an intelligent water quality monitoring system uses sensors to collect data about water quality. The data is transmitted to a computer, which can decide how to care for the water. The system is cost-effectivebecause it uses technology from the internet of things. This means many devices can be connected to the internet and share data.
+
+Likewise, (Mukta et al., 2019), an IoT-based Smart Water Quality Monitoring (SWQM) system helps continuously measure water quality using four different parameters: pH, temperature, turbidity, and electric conductivity. An Arduino UNO and the data collected send to a written desktop application connected to sensors. NET. The application uses fast forest binary classifiers to determine whether a water sample is potable. They use Arduino microcontrollers in many scientific fields, including mechanics, electricity and magnetism, light and optics, and many more. You can use these devices to do more in-depth labs and programming (Chaudry, 2020).
+
+According to (Jerom et al., 2020) study, an intelligent water quality monitoring system uses loT technology to monitor water quality in various water resources. This system is more effective and faster than traditional methods because it does not require people to collect water samples manually and can send real-time alerts about water quality. It is essential to continuously monitor water quality to ensure it is safe to drink. By using IoT technology, this system can help to prevent issues related to the environment.
+
+By (Chowdury et al., 2019). The current water quality monitoring system is a manual system that is very time-consuming. This system would be easier to use and more accurate than the current one. Real-time data access could be done using remote monitoring and Internet of Things (IoT) technology. Suppose data is collected at an away site, and the value is above a threshold. In that case, an automated warning SMS alert will be sent to the person responsible for the water quality.
+
+About (Parra et al., 2018), turbidity is a type of water particle concentration. It can help determine the health of a body of water but in some. Cases more are needed to quantify the turbidity more accurately. A sensor must be able to differentiate between different sources of turbidity. That is why turbidity monitoring is essential in fish farms. Also used to reduce waste, improve yields, and analyze water quality in various industries (Atlas Scientific, 2022). 
+
+Based on (Apure, 2022), a pH sensor is a tool used to measure a solution's pH. It can be helpful in water quality monitoring, as it can tell us how acidic or alkaline the solution is. In most cases, a pH range of 0 to 14 is represented by a number on a scale. When a solution has a pH value of 7, this is considered neutral. Solutions with pH values above 7 are acidic, while those with a pH value of 7 or below are alkaline.
+
+As stated in the study (Olatinwo & Joubert, 2019). There has been much interest in developing more efficient sensing systems to help us monitor water quality. Dirty water can significantly impact human, plant, and animal health. The new sensing systems are designed to work together with traditional systems to monitor water quality. This way, we can better detect and prevent water contamination.
+
+According to (Koditala and Pandey, 2018). The water crisis is a risk worth worrying about because it is responsible for around 200 child deaths daily. Drinking unsafe water can also cause around 3.4 million deaths each year. Despite the advances in technology, there need to be better quality measures to measure the quality of drinking water. A new low-cost water quality monitoring system that uses emerging technologies such as loT, Machine Learning, and Cloud Computing could replace Traditional ways of quality monitoring. This would help protect people in rural areas from dangerous diseases, such as fluorosis, bone deformities, and more. The proposed model has achieved an R-squared score of 0.933, which is very accurate.
+
+According to (Daigavane & Gaikwad, 2020). Water quality can be monitored in real-time using a system that includes sensors to measure the physical and chemical parameters of the water. These parameters, such as temperature, PH, turbidity, and flow, can be measured. A core controller can process the data from the sensors, and then it can be viewed online using a WI-FI system.
+
+According to (Hawari et al., 2022). This research is looking into creating a water quality monitoring system using IoT. This system would use three sensors to measure temperature, turbidity, and pH. This data would then be stored in a cloud and analyzed to measure water pollution levels. Additionally, a mobile application would be developed to monitor the data. The research is highly reliable and practical and has a good response time.
+
+Statement of (Khaire & Wahul, 2018). Water quality monitoring is essential to protect our environment and natural resources from getting contaminated. Old methods used for water quality monitoring are time-consuming and not cost-effective. A newer, more cost-effective solution is to have real-time monitoring of water parameters using technology such as the Internet of Things, a wireless sensor network, and modern communication tools. If there is an emergency, this system will alert the user.
+
+Based on the (Wen et al., 2020) study, a rise in water-borne diseases, such as diarrhoea and vomiting, is because we are drinking water that is polluted. These water-borne diseases can lead to death, so ensuring that the water we drink is safe is essential. Contaminating water with harmful bacteria is a much more significant threat to human health than previously thought.
+
+The statement of (Budiarti et al., 2019) states that water is needed for people and other living things to live and stay healthy. Water consumption depends on the availability of water resources, like rivers, lakes, and reservoirs. Sometimes, these resources become limited because of water pollution. To ensure water is used sustainably. we must manage water quality. One way to do this is to use an Internet of Things (IoT) system to measure water quality. This system can be an automated water monitoring system for surface water. In addition, it can be used to send data remotely between things. This way, we can keep track of water quality even when not around.
+
+According to (Rahman et al., 2020). The water quality in Bangladesh is often difficult to access due to natural disasters and transboundary river issues. It is challenging to ensure that all people have access to safe drinking water. However, we must measure the water quality in the area to identify problems and take the necessary steps to solve them. Researchers have built a system that can measure the water quality in an area, and we have also created an interface so that anyone can access the data. This will help the government to monitor the water quality in the area and take the necessary steps to fix the problems.
+
+According to (Mukta et al., 2019). This paper is about an intelligent water quality monitoring system using four physical parameters to measure water. Condition. Four sensors are connected to an Arduino-Uno, and the data from those sensors is transmitted to a desktop application. The application compares the data from the sensors with the WHO standard values and based on the results, it decides whether the water sample is drinkable.
+
+As stated in the study by (Chowdury et al., 2019). The water quality monitoring system we are proposing uses sensors to collect data about water quality. This data can be accessed by people using remote monitoring and the Internet of things. If the data from the sensors suggests that the water quality is getting worse, it will send an alert to someone.
+
+Based on the study by (Memon et al., 2020). The Internet of things (IoT) is a new technology where devices are connected to the Internet to share data. This allows us to monitor water quality in real-time, which is essential because it can help prevent water pollution. The design and implementation of this system were done with the help of an Arduino-like board and sensors that measure things like pH, turbidity, temperature, and ultrasonic waves. The system was tested, and it found that it takes less than a minute to update its values. This system is very cost-effective, and residents and industries can use it to monitor water quality.
+
+After reviewing the literature, researchers recognize the importance of the chosen scholarly sources. The studies discussed above to enable us to analyze the literary material and conduct additional research on the theme with a focus on our specific topic area. In addition, related literature helps us search for or select a better research topic. 
+
+Concept of the Study
+
+Figure 1. Conceptual Framework
+
+These diagrams show the input, process, and output, where inputs are the conditions before group activity, and processes are the interactions between group members. Outputs illustrate the development of the proposed system.
+
+Input has the needed information, such as respondents' demographics like name, age, and sex, software requirements, hardware requirements, and an interview, survey, or other problem. The process involved transforming input information into output. After processing the data, the visual perception is appertained to as output.
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter explains the numerous approaches used in the research's data collection and analysis. The methodologies will include areas such as the requirements analysis, timeline of the project, requirements documentation, design of software/system, development and testing, prototype description, system architecture, implementation plan, and implementation results.
+
+Environment
+
+Locale
+
+Figure 2. Map of Luna, Isabela
+
+The study was conducted at Centro-3 Luna in Isabela because no previous research had been conducted in this area. This map visually represented the entire region where our study was conducted. Maps are helpful because they contain much information and show a more significant portion of a location at once.
+
+Requirements Analysis
+
+Data Flow Diagram
+
+Figure 3. Data Flow Diagram
+
+This diagram shows how data is collected and processed by a water quality nitoring syst stem collects data from various sources, processes it, and store it to  makes it easy to understand.
+
+Mext-specific map of a fingerprint registration is provided at Level 1.0. register their fingerprints, so they do not have to enter a pin code the next log in. After fingerprint registration, users must return to the application. This level 2.0 application allows users to choose whether to log in using their fingerprint or a pin. Data flows in two directions: either you enter the wrong pin or successfully log in to our application. Level 3.0 Monitor, activate to begin monitoring the water quality, after a few seconds, the will display the sensor value on both the LCD and the smartphone (pH and turbidity value). In this level 4.0 record, data flows in one direction from the result display to the pH graph, and users can view the history of previous testing here. Level 5.0 is the setting where the user can change the pin.
+
+Fishbone Diagram
+
+Figure 4. Fishbone Diagram
+
+This fishbone diagram identifies the potential causes and effects of problems.
+
+It depicts the problem on the diagram and illustrates the graphic representation. Tap water may save money, be environmentally friendly, and be easy to access. However, there are potential problems like water contamination, which is not always safe to drink and contains harmful chemicals that may lead to diseases like diarrhoea, hepatitis, and polio.
+
+Mineral water may taste better, have a more extended storage capacity, and be safer to drink. However, it is also more expensive, the environment may be harmed, it contains microplastic that may deplete aquatic ecosystems, it may lead to chronic diseases such as cancer, and it costs more to produce plastic bottles.
+
+Timeline of the Project
+
+Figure 5. Gantt Chart
+
+This table shows key dates in a project, such as a start and end dates. It is used to effectively plan a project, reduce stress, and make it more time-efficient analyzed our data and gathered information, followed by the creation of chapters one and two. By June, researchers will focus on developing and creating our system, after which researchers will implement it and distribute a questionnaire to our agency. The instructor and statistician signed a letter in December, and researchers defended our system defence and continued doing chapters four to five.
+
+Requirements Documentation
+
+Technical Background
+
+The project's proponents had gathered all relevant research and brainstormed about which technologies would be used. Since the project is still in progress, the proponents will continue looking for tools and software to develop the system.
+
+SOFTWARE
+
+The list of software used to create the study is provided below.
+
+Table 1. Materials needed in the Proposed System
+
+Arduino IDE
+
+Used to program Arduino boards and Allows for the writing and uploading code to Arduino boards.
+
+Android Studio
+
+It is the Android operating system's official integrated development environment (IDE). Various Apple, Windows, and Linux operating systems are compatible with versions of Android Studio.
+
+Mysql
+
+MySQL is a database management tool, so while it is not a database, it is widely used for managing and organizing data in databases.
+
+HARDWARE
+
+The following is the list of hardware requirements used for development and implementation of the study.
+
+Arduino UNO, a micro-controller board that can be integrated into a wide range of electronic projects, consists of a physical programmable circuit board and software.
+
+Breadboard, a board used to build quickly and test circuits before finalizing any circuit design, is also a model of an electric course.
+
+Jumper wires are typically used to components. interconnect
+
+Turbidity sensors are analytical and measure the amount of light scattered in water by suspended solids.
+
+Bluetooth module is a piece of hardware that allows a wireless product to communicate with a computer or smartphone.
+
+Functional Decomposition Diagram
+
+Figure 7. Functional Decomposition Diagram
+
+The functional decomposition diagram of the Water Quality Monitoring System shows the system's coverage for the user interface, system state, monitoring, recording, and setting.
+
+The water quality monitoring system first logs into the application and then registers a fingerprint for easy access. You can also change the pin in the settings. The system state can be activated and deactivated, but first, you need to activate it to connect the system to the application and start monitoring. It will check the ph and turbidity values to see if they are safe or unsafe based on the result and value provided, and the record will be saved so that it can be easily viewed and stored. The results may be displayed on the system LCD and the application monitor.
+
+System Flowchart
+
+Figure 8. System Flowchart
+
+This diagram shows how the entire system flows for the user from the start: connect the hardware to the smartphone, register fingerprints, and open the application by entering a pin or using a fingerprint. If the authentication is not complete, go back to entering the pin. The user can activate the application and test a water sample if the authentication is complete. If monitoring is not successful, go back to Monitor and restart monitoring. If monitoring is successful, the result will be displayed, and the record will end by deactivating.
+
+Design of Software/Systems
+
+Research software development aims to increase understanding of developing and evaluating system alternatives.
+
+Software Development Methodology 
+
+Figure 9. Iterative Waterfall Model
+
+Software development involves several stages: planning and analysis, design and development, code review, implementation, testing, and integration.
+
+Requirements Specification
+
+Phrase 1. Planning and Analysis
+
+In general, Planning and Analysis support the project plan and establish a process to ensure that the objectives are attainable from a pragmatic point of view.
+
+Phrase 2. Design and Development
+
+The researcher will design and develop user-friendly software. It would also include all the information required to move the project forward.
+
+Phrase 3. Code Review
+
+During this stage, the developers or coders must practically implement the
+
+software design using any computer language(s) so that the software can be created and used by the user.
+
+Phrase 4. Implementation
+
+At this stage, the researchers chose to implement the system in Centro 3, Luna, Isabela, because studies have yet to be conducted on this topic.
+
+Phrase 5. Testing and Integration
+
+All software and hardware configuration item components have been built and tested (The developed system has passed a Test Readiness Review). All integration plans have been completed.
+
+DEVELOPMENT TESTING
+
+Data Gathering Instruments
+
+The researchers gathered information from the respondent for the development of the proposed system through the following procedures:
+
+1. Survey
+
+A survey gathers information from a group of people to gauge their opinions or experiences.
+
+2. Pre-Questionnaire
+
+To evaluate the efficacy and impact of the current system on their knowledge and perspective, the researchers use a pre-questionnaire.
+
+3. Post-Evaluation Questionnaire
+
+A post-questionnaire is given to respondents once the system has been completed. It is frequently used with the pre-questionnaire to assess the system's effectiveness.
+
+Data Gathering Procedure
+
+The researchers first wrote a letter asking Mr Adrian Leandro Tio, the Mayor of Luna, Isabela, for his approval. After receiving permission, the researchers interviewed residents of the Municipality of Luna, Isabela, to learn about their current methods for accessing safe and clean water.
+
+Data Gathering Techniques.
+
+These are the methods that the researchers employ when collecting data and building the system.
+
+1. Library Research
+
+The researchers searched the library for books and studies relevant to the topic and could provide information.
+
+2. Internet Research
+
+The researchers searched the internet for additional studies and information that could assist them In developing a strategy. The internet offers information that enables users to learn about the most recent approaches researchers might use in their research.
+
+3. Questionnaire Pre/Post Evaluation
+
+The researchers distributed the questionnaires to evaluate and determine the proposed system's performance, information and data, economics, control, security, efficiency, and service.
+
+Data Analysis Plan
+
+Table 2. The researchers used a Likert Scale to make data analysis easier to understand.
+
+Shows above are the scale range and interpretation of the five-point scale.
+
+Scales 5 with the range of 4.20-5.00 with the interpretation of strongly agree. Scale 4 with the range of 3.40-4.19 with the agreed interpretation. Scale 3 with the range of 2.60 -3.39 with neutral interpretation. Scales 2 with the range of 1.80 2.59 with the interpretation of disagree. Scale 1 with 1.00 -1.79 with the interpretation of strongly disagree.
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers used this formula:
+
+% = x 100
+
+Where:
+
+% = percentage
+
+f- frequency
+
+n= number of respondents
+
+B. For finding the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+f(1)+f(2)+f(3)+f(4)+f(5) Where:
+
+WM Weighted Mean
+
+F- frequency
+
+N- Number of Respondents
+
+Description of the Prototype
+
+Figure 10. Prototype of the proposed system
+
+Prototypes are used to ensure the design team understands users' needs and provides an interface that is easy to use.
+
+These figures represent the the design of the proposed system, "Water Quality Monitoring System for Centro-3 Luna Isabela".
+
+System Architecture
+
+Figure 11. System Architecture
+
+The different components in the System Architecture are a pH sensor, turbidity sensor, breadboard, Arduino Uno, Bluetooth module, buzzer, and LCD.
+
+The breadboard was acting as a model of an electric circuit. Bluetooth modules connect the system or the hardware to the smartphone. Buzzer was used as a speaker to make a sound if the application activated the device. Arduino Uno is where the power supply is connected.
+
+Used the LCD to display results during and after monitoring. PH sensors determine how much acidity is present in water or other liquids. A turbidity sensor measures the clarity of water or the amount of light scattered in the water. All hardware is connected using jumper wires so it will work together.
+
+Implementation Plan
+
+Table 3. Sample Implementation Plan Number 1
+
+The researcher's implementation plan 1. It displays the strategy, activities, people involved, and duration of the proponents' efforts before implementation.
+
+Table 4. Sample Implementation Plan Number 2
+
+The researcher's implementation plan 1. It displays the strategy, activities, people involved, and duration of the proponents' efforts before implementation.
+
+
+
+
+
+CHAPTER IV RESULT AND DISCUSSION
+
+The following chapter provides a detailed analysis of the questionnaire data, including frequencies, percentages, and descriptive statistics. It also includes a detailed discussion and conclusion about the study's findings.
+
+Results by phase of study
+
+Pre-Evaluation
+
+Table 5. Respondent Demographic Profile
+
+Following table 5, this table reveals that 64 percent of respondents are male and 36 percent are female.
+
+Table 6. The kinds of drinking water preferred by respondents.
+
+This table reveals that 58 percent of the respondents use tap water as their drinking water, while 42 percent drink mineral water.
+
+Table 7. Mean and Descriptive Interpretation of the Pros of Tap Water (Municipal or Nawasa)
+
+This table reveals that items 1 and 4, "Less of environmental impact/ Environmentally friendly" and "Generally safe for basic household chores got the highest mean of 4.56 which is interpreted as" Strongly Agree", while item 3", Cheaper" obtain the lowest mean which is 4.42, interpreted as "Strongly Agree." The grand mean for this category is 4.51, with a descriptive interpretation of "Strongly Agree."""
+
+Table 8. Mean and Descriptive Interpretation of the Cons of Tap Water (Municipal or Nawasa)
+
+This table shows that item 4, "Old plumbing may introduce contaminants such as floods", received the highest mean of 4.28, interpreted as "Strongly Agree," while item 3 "Chemical effects and exposure to industrial pollutants", received the lowest mean of 4.18, interpreted as "Agree." The grand mean for this category is 4.23, interpreted as "Strongly Agree.”
+
+Table 9. Mean and Descriptive Interpretation of the Pros of Mineral Water or Bottled Water
+
+This table reveals that item I, "Can store for a long time", got the highest mean of 4.48 which is interpreted as" Strongly Agree", while item 3" Guaranteed to be of a certain standard of quality under sanitary conduction for processing bottles and transportation" obtain the lowest mean which is 4.24, interpreted as "Strongly Agree." The grand mean for this category is 4.36, with a descriptive interpretation of "Strongly Agree."
+
+Table 10. Mean and Descriptive Interpretation of the Cons of Mineral Water or Bottled Water
+
+This table reveals that item 2 and 3, "The micro plastic promotes inflammation resulting in negative health effects, andz accumulate over time in organs like the liver, kidney and intestine(healthline.com)" and "Most people in the 3rd world country recycles the plastic bottle which can harm health" got the highest mean of 4.46 which interpreted as" Strongly Agree" while item 4" Plastic bottles release toxins" obtain the lowest mean which is 4.38, interpreted as "Strongly Agree." The grand mean for this category is 4.43, with a descriptive interpretation of "Strongly Agree."
+
+Post-Evaluation
+
+Table 11. Respondent Demographic Profile.
+
+Regarding the information, 52 percent of the respondents are male, while 48 percent are female.
+
+Table 12. The types of drinking water preferred by respondents.
+
+Regarding the information, 64 percent of the respondents are using tap water as their drinking water, while 36 percent are drinking mineral water.
+
+Table 13. Advantage of Water Quality Monitoring System at Centro-3 Luna, Isabela in terms of Functional Sustainability.
+
+With regards to the information, the highest response by the respondents is on item 3, "the pH and turbidity sensor facilitate the accomplishment of specified tasks and objectives." with a mean of 4.76 which is interpreted as "Strongly Agree", while the lowest response is on item | "the pH and turbidity sensor functions cover all of the specified tasks and user objectives." with a mean of 4.58 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.65 in terms of operational sustainability.
+
+Table 14. Advantage of Water Quality Monitoring System at Centro-3 Luna, Isabela in terms of Performance Efficiency.
+
+With regards to the information, the highest response by the respondents is on item 1, "the system can quickly display pH and turbidity values," with a mean of 4.64 which is interpreted as "Strongly Agree", while the lowest response is on item 3 "the system has enormous capacity for performance" with a mean of 4.54 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.54 in performance efficiency.
+
+Table 15. Advantage of Water Quality Monitoring System for Centro-3 Luna, Isabela in terms of Compatibility.
+
+Regarding the information, the highest response by the respondents is on item 1, "the system and process system are able to exist or occur together without problems or conflict," with a mean of 4.58 which is interpreted as "Strongly Agree". In contrast, the Jowest response is on item 2, "the ability of the system and software operate in conjunction with each other well", with a mean of 4.52 which is interpreted as "Strongly Agree." The respondents responded "Strongly Agree" on the current system with a grand mean of 4.55 in Compatibility.
+
+Table 16. Advantage of Water Quality Monitoring System for Centro-3 Luna, Isabela in terms of Usability.
+
+With regards to the information, the highest response by the respondents is on item 2. "the system is easy to operate and control," with a mean of 4.74 which is interpreted as "Strongly Agree", while the lowest response is on item 3 "the system's user interface is pleasing, orderly and visually oriented" with a mean of 4.52 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.60 in terms of Usability.
+
+Table 17. Advantage of Water Quality Monitoring System At Centro-3 Luna, Isabela in terms of Reliability.
+
+With regards to the information, the highest response by the respondents is on item 3. "the system component operates despite hardware and/or software faults." with a mean of 4.76 which is interpreted as "Strongly Agree", while the lowest response is on item 2 "the system is operational and accessible." with a mean of 4.60 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.69 in terms of Reliability.
+
+Table 18. Advantage of Water Quality Monitoring System for Centro-3 Luna, Isabela in terms of Security.
+
+With regards to the information, the highest response by the respondents is on item 3, "the system is able to ensure that data is only accessible to those who have authorized access and trusted personnel." with a mean of 4.62 which is interpreted as "Strongly Agree", while the lowest response is on item 1 "the system is able to preven2t unauthorized access." with a mean of 4.50 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.55 in terms of security.
+
+Table 19. Advantage of Water Quality Monitoring System for Centro-3 Luna, Isabela in terms of Maintainability.
+
+With regards to the information, the highest response by the respondents is on item 2, "the system can be used more than once." with a mean of 4.62 which is interpreted as "Strongly Agree", while the lowest response is on item 1 "the system or program can be changed with minimal impact on the other components." with a mean of 4.54 which interpreted as "Strongly Agree." The respondents respond "Strongly Agree" on the current system with a grand mean of 4.59 in terms of Maintainability.
+
+Table 20. Advantage of Water Quality Monitoring System for Centro-3 Luna, Isabela in terms of Portability.
+
+With regards to the information, the highest response by the respondents is on item 3, "the system can replace another comparable product," with a mean of 4.62 which is interpreted as "Strongly Agree", while the lowest response is on item 2 "the system can be adapted for different or evolving hardware, software. or other usage environments' with a mean of 4.48 which interpreted as "Strongly Agree". The respondents respond "Strongly Agree" on the current system with a grand mean of 4.56 in terms of Portability.
+
+Verification studies
+
+Features of Water Quality Monitoring System
+
+This chapter includes the features of the Water Quality Monitoring System for Centro-3 Luna, Isabela, and discusses the importance of this project in the municipality. This chapter also supports and strengthens the research paper.
+
+The researchers conducted a project entitled "Water Quality Monitoring System for Centro-3 Luna, Isabela", which focuses on providing an efficient, low-cost water quality tester. This project was designed to check water safety and quality. The goal is to ensure that everyone has access to safe water, which is vital for human development and reducing poverty. Compared to traditional water quality testers, this system can help save energy, time, and money.
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS AND RECOMMENDATIONS
+
+This chapter summarizes the research by summarizing findings, conclusions, and recommendations for Developing a Water Quality Monitoring System for Centro-3 Luna, Isabela.
+
+Summary of Findings
+
+This study aimed to develop a Water Quality Monitoring System for Centro-3 Luna, Isabela, that will make it easy for residents to experience and monitor their water to see if it is safe and easier.
+
+According to the data gathered and assessed by the researchers, the respondent of the processing system experiences issues with Functional Sustainability, Performance Efficiency, Compatibility, Usability, Reliability, Security, Maintainability, and Portability. The main goal of this study is to create a system for monitoring water quality that will upgrade the Centro-3 Luna, Isabela process system.
+
+The researchers distributed a pre-survey and post-survey to 50 respondents, including five faculty members who are IT experts. They used weighted average calculations to tally the responses to determine the proposed system's effectiveness and correctness compared to the processing system.
+
+Furthermore, the proposed system's implementation is recommended; it would address all of the shortcomings of the current manual system. It would improve the system's accuracy and reliability by automating formulas to compute more accurately and quickly.
+
+Based on the survey results, respondents strongly agreed that the proposed system would be beneficial in terms of Functional Sustainability with a mean of 4.65, Performance Efficiency with a standard of 4.54, Compatibility with a mean of 4.55, Usability with a mean of 4.60. Reliability with a mean of 4.69, Security with a mean of 4.55, Maintainability with a standard of 4,59 and Portability with a mean of 4.56 for the users and residents of Centro-3 Luna, Isabela.
+
+Conclusions
+
+The findings of this study drew the following conclusions:
+
+1. Regarding respondents drinking water, it determined the problems in terms of Tap water and Mineral water Pros and Cons. 58% preferred drinking water was Tap Water because they found it more environmentally friendly but had more chance of bacterial presence. Of respondents who chose Mineral Water, 42% discovered it as they could store it for a long time, but plastic bottle produces microplastic acts as endocrine-Disrupting chemicals.
+
+2. In terms of developing a system, The researchers develop a system that enables to identify of the quality of drinking water using turbidity and pH sensors.
+
+3. The findings revealed that respondents strongly agreed with the developed proposed system regarding its Functional Suitability, Performance Efficiency, compatibility. Usability, Reliability, Security, Maintainability, and Portability.
+
+Thus, after analyzing the gathered information in the pre-survey and post-survey on the processing system and proposed system at Centro-3 Luna, Isabela, further analysis shows the respondents encountered "Strongly Agree" on the processing system and they "Strongly agreed" with the developed proposed system. This implied that the user was delighted and strongly agreed with the proposed method.
+
+Recommendations
+
+Based on the findings and conclusions, the researchers developed a recommendation for the proposed project entitled "Water Quality Monitoring System for Centro-3 Luna, Isabela."
+
+1. The researchers of this study hope to find a solution to the next future researcher's relevant issues or problems. They recommend developing a productive system for better results and accomplishments.
+
+2. The researchers strongly recommend the adoption of the proposed system, the Water Quality Monitoring System, which is very beneficial to local municipalities in Isabela.
+
+3. The researchers recommend adding information measures after monitoring.

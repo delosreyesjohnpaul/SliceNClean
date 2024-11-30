@@ -1,0 +1,542 @@
+Basic Diagnostic Tools for Chicken Manure Disease Classification using MobileNet CNN Transfer Learning LAGGUI, Charmielou CIMATO, Mary Grace CUREG, Eduard January 2024
+A Thesis Presented to the Faculty of the College of Computing Studies, Information and
+Communication Technology Isabela State University Cauayan Campus
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer
+Science
+
+
+ABSTRACT
+In Cagayan, Isabela, the Philippines, raising livestock is a significant aspect of farming. The
+agricultural economy of the region depends primarily on the animal farming industry. The
+production of chicken is yearly increasing, but despite of that the poultry farming is facing a high
+death rate of chicken due spreading of diseases. The traditional of way of identifying poultry
+chicken diseases is through laboratory that performed by the professionals. The traditional way
+took 2-3 days before getting the result, this way is time consuming that is why this study to come
+up to solution to leverage the chicken poultry industry by integrating an Al and ML.. This study
+developed a diagnostic tool for chicken manure disease classification using Convolutional
+Neural Networks (CNN) Transfer Leaming. The study used three pre-trained CNN models,
+namely InceptionNet, VGGNet, and MobileNet, to train and compare their performance on a
+dataset of chicken manure images.
+The results show that MobileNet achieved the highest accuracy of 92.13%, with a training time
+of 12.45 minutes. The study provides a valuable solution for early disease detection and
+classification in the animal farming industry, with potential benefits for commercial farms,
+researchers, and future researchers. The researchers conclude that the proposed approach is
+effective and has the potential to significantly impact the poultry chicken industry by providing a
+practical and efficient tool for disease management and prevention.
+In conclusion, the study demonstrated the potential of Convolutional Neural Networks (CNN)
+and Machine Learning (ML) in addressing challenges in the animal farming industry. They
+developed a diagnostic tool for chicken manure disease classification using CNN transfer
+learning, which could benefit commercial farms, researchers, and future researchers. The study
+showed that MobileNet, when integrated into an app, achieved the highest accuracy of 92.13%,
+indicating the effectiveness of the proposed approach.
+
+1 INTRODUCTION
+1.1 Background of the Study
+Farming animals is a big part of the farming business in Cagayan, Isabela, Philippines. The
+animal farming business is very important to the region's farm economy. It deals with things like
+chickens, pigs, goats, and sheep (Ortega et al., 2021). From January to March 2023, the
+Philippines reported that chicken production was about 470 thousand metric tons. This is a
+yearly increase of around 3% from the same lime in 2019, when there were only about 455
+thousand metric tons produced. By March 31, 2023, there were a total of 195.48 million
+chickens on hand. This was 3% more than last year's count of 189.7 million birds. The number
+of native or improved chickens and broiler chickens went up by 5.6% and 2.1%, respectively,
+according to the Philippine Statistics Authority's report from 2023. (Philippine Statistics
+Authority)
+Furthermore, in Isabela, they grow important farm crops. This includes animals such as cattle
+and chickens. (Isabela Economic Website 2023). Even though the Philippines is growing its live
+poultry industry, it's also making more people sick from chicken diseases. (Salvador et al.,
+2020). Additionally, according to a news report from the Department of Agriculture, around
+39,000 birds were killed at a farm near Manila to stop bird flu from spreading. (Reuters, 2020).
+Common chicken diseases that all farrns face are coccidiosis, salmonella, and Newcastle. If
+these illnesses aren't found early on, they can cut down a farm's number of chickens produced.
+Checking for illnesses early can help control sickness and make poultry healthier. When
+checking for Salmonella, Coccidiosis, and Newcastle illnesses in labs using poop samples, it
+takes 3-4 days. Getting to these lab services is not cheap, and it's also restricted for farmers.
+Methods called deep leaming have shown they can make machines do the tests for detecting
+diseases in humans and animals. Also, the Deep Learning Convolutional Neural Network (CNN)
+model can help in finding some poultry diseases early (Mbelwa et al., 2021).
+Recently, using deep learning techniques like convolutional neural Networks (CNN) for finding
+out poultry diseases have become very popular. Kholil et al. (2022) made a system using CNN
+to sort out illnesses in chickens with pictures of their poop. This helps farmers spot problems
+easier, making production better. Zhou and his team (2023) used a faster R-CNN to find weird
+chicken poop. They showed that CNNs are good at identifying diseases in animals, especially
+because they can recognize things well and work in many different situations.
+
+1.2 Objectives of the Study
+
+The main goal of that research was to assess the performance of the latest top-notch
+Convolutional Neural Network (CNN) designs in identifying chicken diseases through their
+manure, as demonstrated in an app,
+The following were the objectives of the study:
+1. Compare the three-classification model in terms;
+2.1. Validation;
+2.2. Accuracy,
+2. Evaluate the performance of the model applied using a confusion matrix;
+2.1. Confusion matrix of the MobileNet,
+2.2. Confusion matrix of the InceptionNet; and
+2.3. Confusion matrix of the VGG16;
+1.3 Significance of the Study
+The researchers believe that the results of the study will be of benefit to the following:
+Commercial Poultry Farm. This research will provide a tool that can correctly sort out if a
+chicken is sick. This model can be used to find chicken diseases early. This helps farm owners
+and farmers make better decisions faster and prevents the possibility of disease spreading
+quickly and causing death rates in chickens.
+Researchers. The findings, methods, and data gathered in the study will help students learn
+about machine learning with various deep learning designs and approaches. The methods and
+tools used here can be applied to different types of image-sorting problems.
+Future Researchers. The findings of the study will serve as a valuable reference for upcoming
+researchers aiming to employ convolutional neural networks and transfer learning methods in
+their projects. Subsequently, experts can explore enhanced methodologies to achieve even
+greater precision in their studies. The compiled, refined, and expanded lists will be made
+accessible to the public, supporting the broader research community.
+
+1.4 Scope and Delimitations
+1.4.1 Scope
+
+This research involved experimenting with the latest state-of-the-art CNN designs to train
+models for accurately classifying chicken illnesses in pictures. Salmonella, coccidiosis, and
+Newcastle disease were the targeted chicken diseases for training, given their potential impact
+on chicken health. The CNN model that demonstrated the most effective classification results
+was subsequently employed in a mobile application.
+The study focused on exploring diverse CNN designs commonly utilized in mobile and internet
+applications, including InceptionNet, VGGNet, and MobileNet. The datasets used for training the
+models comprised collections released by other researchers.
+
+1.4.2 Delimitations
+The diseases were not further classified, and the study was solely concerned with categorizing
+chicken illnesses, thus refraining from training the models to identify the overall health of the
+chickens. Additionally, the chicken species included for disease classification were broilers.
+
+2
+THEORETICAL FRAMEWORK
+This chapter includes discussions about related literature, the conceptual model of the study,
+and the operational definition of terms.
+2.1 Review of Related Literature
+This section includes the ideas, generalization or conclusions, methodologies, and other
+information that are relevant and similar to the present study.
+2.1.1 Poultry Disease Overview
+Diseases in poultry are a big issue for the chicken business. They can affect the health of
+animals and people, too. Checking chicken sickness by looking at poop can help find out how
+healthy the birds are. Many studies show that watching out for sick chickens and possible
+dangers from germs is important.
+According to Ali et al. (2019), coccidiosis is a big problem for birds called chickens. Blake et al.
+(2020), who also wrote about it recently, explained that it is a result of parasites from the Eimeria
+species and is expensive to treat. Coccidiosis is a big sickness in birds caused by germs called
+Eimeria. It costs lots of money to fix and impacts the business that raises poultry.
+
+Moreover, salmonella is also a big issue in farming feathered animals because it's so common
+and can resist many types of medicine at once. Research shows that Salmonella germs are
+often seen in bird poop, suggesting they might help spread the bacteria (Babatunde et al.,
+2017).
+Additionally, Parvee et al. (2022) emphasized the importance of considering the levels of
+Newcastle disease found in chicken feces, along with its potential impact on the health of birds,
+primarily chickens, due to its easy spread. Furthermore, Mugide et al. (2022) asserted that
+understanding the visual characteristics of bird feces can provide valuable insights into their
+health conditions. It is noteworthy that regular chicken feces may exhibit various colors, such as
+brown, green, yellow, or white, with occasional occurrences of black (Alon, 2020). In the case of
+sick birds, signs of illness may manifest in changes to the appearance of their feces, possibly
+linked to issues related to eating or breathing.
+2.1.2 Chicken color droppings in CNNs
+Ahmed et al. (2021) emphasized the significance of classifying poultry diseases based on the
+color and texture of droppings, highlighting this as a critical aspect of poultry farming. Numerous
+studies have been conducted to devise systems and methods for the early detection and
+diagnosis of diseases in poultry chickens. They proposed an loT-based predictive service
+framework for the early identification of diseases in poultry chickens.
+According to Merzlova et al. (2022), the color and texture of poultry droppings offer valuable
+insights into chicken health. They underscored the importance of poultry droppings as a source
+of nutrients for microorganisms and plants, noting that alterations in color and texture could
+signity underlying health issues in the chickens.
+Mugide et al. (2022) also emphasized the impact of diseases on the color of chicken droppings,
+indicating that respiratory diseases in infected fowl may affect the sounds produced, while
+digestive diseases influence the color of the droppings. This underscores the importance of
+considering both color and texture for effective disease classification. Additionally, they utilized
+machine vision technology to differentiate freshly slaughtered wholesome chickens from
+systemically diseased chickens based on carcass and viscera correlation, showcasing the
+potential of technology in disease classification.
+Enahoro et al. (2021) highlighted the prevalence of infectious poultry diseases, such as
+Newcastle disease, in village poultry systems, underscoring the significance of disease
+resistance in poultry. This underscores the importance of accurate disease classification
+methods for effective disease management. Similarly, based on Halder et al. (2021), a study
+was conducted to determine the prevalence of common bacterial diseases like colibacillosis,
+salmonellosis, and fowl cholera infection in commercial poultry farms, further emphasizing the
+imperative need for accurate disease classification in disease control and prevention.
+
+In Girma et al.'s (2022) study, the effective utilization of a convolutional neural network (CNN) for
+the classification of poultry diseases underscores the importance of comprehending the diverse
+diseases impacting poultry. Worldwide, poultry diseases represent a significant threat to poultry
+production. In relation to review Wang et al. (2019) proposed a deep CNN-based approach for
+recognizing and classifying broiler droppings, offering technical support for the detection of
+digestive diseases in broiler production.
+Concurrently, Ahmed et al. (2021) highlighted the application of supervised machine learning
+algorithms and deep learning techniques to classify poultry diseases with enhanced accuracy.
+The effective deployment of convolutional neural networks (CNN) and transfer leaming is
+emphasized. The utilization of CNNs and transfer leaming has demonstrated promising
+outcomes across various fields, including agriculture and medicine.
+2.1.3 Machine Learning in the Poultry Industry
+Machine learning (ML) has found increasing applications in poultry farming, contributing to the
+enhancement of various production and management aspects. Techniques in Ml. are employed
+for predicting disease outbreaks, monitoring poultry health, and optimizing overall farm
+operations.
+According to Neethirajan (2022), the integration of artificial intelligence (AI) and machine
+learning (ML.) in the poultry farming industry holds the potential to revolutionize production and
+disease management. Automated tracking systems, driven by Al, improve the assessment of
+farmed poultry, enabling more effective monitoring of their health and behavior. Beyond disease
+prediction and monitoring, ML is also leveraged to optimize farm management.
+
+Liakos et al. (2018) discuss the evolution of farm management systems into real-time Al-
+enabled programs by applying ML to sensor data, providing rich recommendations and insights
+
+for farmer decision support. Furthermore, Bhagat et al. (2022) highlights the growing interest in
+the advancement of Al and ML techniques within the poultry farming industry.
+In the study by Kamilaris & Prenafeta-Boldú (2018), the application of deep learning in
+agriculture is explored, shedding light on the potential of these techniques to address various
+industry challenges. Reviews underscore the use of deep learning methods for tasks such as
+weed detection, plant stress identification, disease diagnosis, crop recognition, and the
+detection, counting, and tracking of poultry. Moreover, Ünal (2020), Dokic et al. (2020), and
+Priya et al. (2022) emphasize the relevance and applicability of deep learning techniques in
+agricultural industries, particularly within the context of poultry farming.
+Machine leaming (ML) has emerged as a pivotal tool in the agricultural sector, presenting new
+avenues to tackle diverse challenges in poultry farming. Ayoola et al. (2022) utilized both
+traditional and deep learning approaches to identify critical farm and environmental variables
+influencing multidrug resistance in poultry pathogens.
+
+In the study by Darwin et al. (2021), the incorporation of deep learning in agriculture is linked to
+achieving heightened accuracy and improved performance in smart farming applications.
+Bhagat et al. (2022) underscored in their review that machine leaming and deep learning
+models in agriculture, including livestock management relevant to the poultry farm industry, have
+gained popularity, showcasing the effectiveness of artificial and deep neural network methods
+across various processes.
+Ünal (2020) highlighted the potential of deep learning techniques in agriculture, especially in
+addressing challenges specific to the poultry farm industry. The importance of continuously
+measuring and evaluating the hygienic status of poultry farms was emphasized, aligning with
+the potential of machine learning in adopting data-driven approaches.
+Cakic et al. (2023) described the application of high-performance computing and deep learning
+to create prediction models for deployment in poultry farms, showcasing the potential for
+advanced technologies to enhance farm management. This aligns with the capacity of machine
+learning to offer predictive insights into poultry farm managemerit.
+A study by Borgonovo et al. (2020) found a strong link between data on air quality and the
+presence of coccidia infections in broiler houses. This shows that data-driven prediction
+methods could be useful in early disease warning systems for poultry farms,
+Meanwhile, Ahmed et al. (2021) state that the challenges associated with machine learning in
+chicken and poultry farming are multifaceted and necessitate a comprehensive thematic
+approach. One of the key challenges addressed is the early detection of diseases in poultry
+chickens, which can be mitigated through loT-based predictive services using machine learning
+and deep learning classification models. Bagrow (2020) emphasizes the democratization of Al
+and the involvement of non-experts in designing prediction tasks, recognizing that many poultry
+farmers lack expertise in Al and ML, supporting the idea of creating user-friendly ML. systems
+for poultry farmers.
+2.1.4 Convolutional Neural Network (CNN)
+As per Khan et al. (2020), convolutional neural networks (CNNs) stand out as a significant
+breakthrough in the realm of image processing and computer vision. The architecture of CNNS,
+enabling the direct extraction of features from images, has revolutionized the approach to image
+processing tasks. Moreover, in accordance with Zhou (2020), CNNs are crafted to mimic the
+visual perception process of the human brain, finding extensive application in pattern
+recognition and image analysis (Hardjita et al., 2022). The universality of deep CNNs has been
+demonstrated, illustrating their capacity to approximate any continuous function with sufficient
+depth and showcasing their potential for complex function approximation tasks.
+Furthermore, Fang & Cheng (2022) assert that the effectiveness of CNNs has been further
+heightened through advancements such as the utilization of second harmonic superposition
+
+activation functions and data augmentation techniques. These enhancements have contributed
+to improved performance in image classification and signal processing tasks.
+In the paper by Singh et al. (2020), it is noted that the effectiveness of convolutional neural
+networks (CNNs) has significantly improved through advancements in various fields. Since the
+success of AlexNet in 2012, CNNs have been increasingly employed in medical image analysis,
+resulting in enhanced efficiency in diagnosing medical conditions. Moreover Dong (2023)
+underscores that the pooling architecture of convolutional neural networks (CNN) has been a
+focal point of extensive research and development in the realms of computer science and
+artificial intelligence. CNNs are specifically designed for spatial hierarchies of feature extraction,
+encompassing convolution layers, fully connected layers, and pooling layers.
+The extensive research and development of convolutional neural networks (CNNs) in image
+processing have been evident in recent years, as emphasized by Yamashita et al. (2018). CNNs
+find widespread application in computer vision, medical image analysis, and various other fields
+due to their innate ability to automatically and adaptively learn spatial hierarchies of features
+through a backpropagation algorithm.
+Suárez-Paniagua & Segura-Bedmar (2018) highlighted that the pooling layer plays a pivotal role
+in convolutional neural networks (CNNs) by reducing the dimensionality of the convolution layer
+output. This reduction is achieved while retaining pertinent features and eliminating irrelevant
+details. In a similar vein, Chen et al. (2020) emphasized the significance of transfer learning,
+which involves the reuse of knowledge or features from one task to address a related task. This
+approach diminishes the reliance on extensive labeled data in the target domain.
+To enhance the efficiency and effectiveness of CNNs, various studies have proposed innovative
+pooling methods and architectures. For instance, a study introduced an improved pooling
+method grounded in optimal search theory for the CNN pooling layer. This method aims to
+achieve optimal pooling effects and higher accuracy in image recognition (Lai et al., 2019).
+2.4.5 Transfer Learning
+According to Zhuang et al. (2019), transfer learning emerges as a potent technique in machine
+learning, aiming to enhance the performance of target leamers on specific domains by
+transferring knowledge gleaned from related source domains. This approach has gamered
+significant attention across diverse fields, including computer science, artificial intelligence, and
+robotics, due to its potential to address data scarcity, enhance learning performance, and
+improve model generalizability (Samala et al., 2017).
+Cheng et al. (2021) asserted that the concept of transfer learning traces its historical roots back
+to cognitive science and has found successful applications in fields such as reinforcement
+learning. Kariuki et al. (2023) elaborate on the approach, describing it as involving the
+fine-tuning of a pre-trained model on a new dataset. This fine-tuning allows for the leveraging of
+
+knowledge from pre-trained models acquired from large-scale datasets, resulting in improved
+performance and mitigating the limitations associated with small datasets,
+According to Chen et al. (2020), transfer learning has shown promise in addressing the issue of
+limited datasets, particularly in the development of a diagnostic tool for pathological image
+classification. Kimura et al. (2019) highlight the effectiveness of retraining deeper layers close to
+the end of convolutional neural networks (CNNs) for improved predictions, underscoring the
+potential of transfer learning in enhancing CNN performance. Meanwhile, Long et al. (2019)
+tackled the issue of limited labeled information in the target domain, emphasizing the
+importance of transfer leaming in adapting CNNs to new domains where direct fine-tuning is
+impractical or may lead to overfitting.
+2.1.4 Problems in Poultry Farm
+In the comprehensive review by Ismoyowati et al. (2022), the management of poultry diseases
+emerges as a multifaceted challenge for farmers. Various pathogenic bacteria have inflicted
+substantial economic losses on the global poultry sector, adversely affecting chicken output.
+Common diseases can swiftly spread among poultry, with bacterial infections like colibacillosis,
+salmonellosis, and fowl cholera identified by Halder et al. (2021) as significant impediments to
+the poultry industry's growth. Understanding the prevalence of these diseases on commercial
+poultry farms is vital for implementing targeted control measures.
+Author's view
+The researcher's perspective that the detection of chicken diseases using manure has
+underscored the pivotal role of image processing. The practice of trickle-down farming, coupled
+with the absence of accurate data, has contributed to the rampant spread of diseases in the
+poultry industry. Currently, farmers heavily rely on accessible experts for diagnosis. However,
+the integration of artificial intelligence and machine leaming techniques, including convolutional
+neural networks (CNNs), presents an opportunity to partially automate diagnostics for common
+chicken diseases.
+
+Conceptual Framework
+Figure 2-1. Conceptual Framework
+Figure 2-1 depicts the conceptual framework used in this study. The image datasets are first
+cleaned and preprocessed. The datasets are then split into two sets the training set, which is
+used for training and fine-tuning the models, and the validation set, which is used to evaluate
+the performance of the models. The trained and evaluated model is then converted into a format
+for web inferencing. The converted format will then be deployed into an app.
+2.5 Definition of Terms
+
+Convolutional Neural Network. It is a network architecture for deep learning that learns directly
+from data
+Dataset. It is a collection of examples.
+InceptionNetV3. is a convolutional neural network architecture known for its ability for multiple
+feature extraction, adaptable filter size, and extraction of features at varied scales.
+Machine learning. It is the science of getting computers to act without being explicitly
+programmed.
+MobileNetV2. is a convolutional neural net architecture which was developed to enable the
+neural net capable of well performing mobile phone devices.
+Model. It is the output of training a machine-learning algorithm.
+Prediction: The output of a trained model when applied to new data
+Preprocessing: Processing data before it's used to train a model.
+Resolution: It is the number of pixels per inch in an image.
+
+TensorFlow and Keras. famous high-level API that is from the TensorFlow platform. It is a user-
+friendly, well-performing tool for ML concerns, with a special emphasis on state-of-the-art deep
+
+learning algorithms.
+Training set: The portion of the dataset used to train a model.
+Validation set: The portion of the dataset used to validate the model.
+VGG 16. Deep learning pre-trained neural network model supporting 16 layers.
+
+3
+OPERATIONAL FRAMEWORK
+C
+This chapter focuses its discussion on the materials, methods, and software development
+methodology that are utilized to describe how the study was conducted.
+
+3.4 Technologies and Tools
+3.4.5 Tools used in training the CNN models
+Throughout the process of training and validating the CNN models, Google Colaboratory. also
+known as Google Colab, served as the chosen platform. Google Colab is a cloud-based
+environment that enables users to write and execute Python code collaboratively. As part of the
+Google Drive suite of productivity applications, it is specifically designed to facilitate the
+development of machine learning and data analysis projects. Offering a free Jupyter notebook
+environment, Google Colab requires no setup and runs entirely in the cloud. Additionally, it
+provides free access to GPU and TPU resources, crucial for training deep learning models and
+processing large datasets.
+TensorFlow and Keras collectively form the high-level API of the TensorFlow platform. This API
+provides an accessible and highly productive interface for solving machine leaming (ML)
+problems, particularly focusing on modern deep learning. Covering every step of the machine
+learning workflow, from data processing to hyperparameter tuning to deployment, Keras was
+developed with an emphasis on enabling fast experimentation. It is an open-source frontend
+library for neural networks that grants full access to the scalability and cross-platform
+capabilities of TensorFlow. Whether running on a TPU pod, large GPU dusters, or exporting
+models for deployment in the browser or on mobile devices, Keras ensures versatility in
+implementation.
+3.4.6 Tools used in building the mobile app
+Android Studio is used in developing the app due to its powerful integrated development
+environment (IDE) for building Android applications, offering a wide range of features and tools
+for developers. It provides the flexibility to use Java as the primary programming language for
+app development. Java is the language of choice for Android app development due to its
+compatibility with the Android operating system.
+3.4.7 Details of the computer and mobile phone
+Table 3-1. Specification of the technologies used in the implementation
+Table 3-1 shows the software and hardware specifications of the laptops and mobile phones
+that were used in the application development stage of this study. Two mobile phones used
+high- quality cameras and low-quality cameras to test if the model could still accurately classify
+chicken manure disease even if it was a low-quality image.
+3.5 Methods
+3.5.5 Dataset Creation
+
+3.5.5.1 Dataset Acquisition
+This study utilized a dataset obtained from a parallel research endeavor, sourced and
+downloaded from Kaggle. The data collection occurred in the Arusha and Kilimanjaro regions of
+Tanzania between September 2020 and February 2021, facilitated through the Open Data Kit
+(ODK) app on mobile phones. The dataset encompasses four distinct classes: salmonella,
+coccidiosis, Newcastle disease, and healthy. To standardize the dataset, all images were
+resized to 224px by
+224px
+Figure. 1 show sample images of the dataset
+3.5.5.2 Training-Validation Data Split
+The manure image dataset comprised a total of 6,812 images. These images were categorized
+into four classes: salmonella, coccidiosis, Newcastle disease, and healthy. The dataset
+underwent division for training and validation purposes, with 70% allocated for the training set,
+20% for the validation set, and the remaining 10% for the test set. The training set played a
+crucial role in training the Convolutional Neural Network (CNN) models to classify various
+manure diseases. The set not used during the training phase served as the remaining validation
+and test sets.
+3.5.5.3 Image Augmentation
+Image augmentation plays a crucial role in enhancing the performance and robustness of
+convolutional neural networks (CNNs). This technique involved artificially increasing the size of
+the training dataset by applying various transformations to the existing images, including
+rotation, flipping, scaling, and adding noise. Its significance was particularly notable in
+addressing challenges such as overfitting, data scarcity, and sample imbalance in CNN-based
+deep-learning tasks (Guo et al. 2023).
+To mitigate overfitting during training, the study employed the Keras ImageDataGenerator, a
+Python library, to augment additional images through operations such as rotation, flipping,
+scaling, zooming out, and zooming in. Furthermore, the augmentation technique was not solely
+employed to prevent overfitting, it also aimed to rectify sample imbalances within the images,
+contributing to improved accuracy in the model.
+The study used a python library called Augmentor (Bloice et al., 2019) to automate the process
+of performing image augmentation on the datasets. Augmentor works by building a pipeline
+where different operations such as rotation and random zooming are defined along with a
+number that defines the probability that the operation will be executed when the image dataset
+passes through the pipeline.
+
+3.5.5.4 CNN architecture model
+The study employed three different pre-trained CNN architectures-InceptionNet, MobileNet, and
+VGGNet-using specific versions of each architecture.
+VGG16
+The study utilized a pre-trained VGG16 architecture model-a convolutional neural network
+renowned for its effectiveness in large-scale image recognition and widespread use in transfer
+learning applications. It was chosen for its superior performance in specialized tasks,
+adaptability for domain-specific modifications, and efficiency in the training and development of
+the model. Fecal image dataset pre-processing involved normalization and augmentation using
+the Image Data Generator. The numerical values in the input images were normalized to the
+range [-1,1]. Augmentation included vertical and horizontal flipping, shifting width and height by
+50%, a rotation range of 90 degrees, and varied brightness. Post-augmentation, the dataset
+was divided into training (70%), validation (10%), and test sets (10%). Images were resized to
+224 x 224 pixels, and the batch size was set to 32. Before training, the training data was
+shuffled (shuffle=true), and all pre-trained layers of the base model were frozen. A new fully
+connected layer was created using the flattened outputs of the base model, followed by dense
+layers with 4,096 and 1,072 neurons, both employing the ReLU activation function. A dropout of
+0.2 and a dense layer with Softmax activation for the final prediction of four classes were
+applied. Fine-tuning of the VGG16 model involved unfreezing the last two pre-trained layers and
+lowering the leaming rate to enhance the fully connected layer's leaming of robust patterns
+Inception V3
+In a separate experiment, the study employed the InceptionV3 model, known for its ability for
+multiple feature extraction, adaptable filter size, and extraction of features at varied scales. This
+adaptability enables the effective capture of intricate details and patterns within images, making
+it suitable for diverse tasks. Inception V3, a deep learning model based on convolutional neural
+networks, was chosen for its release in 2015 with 42 layers and a lower error rate compared to
+its predecessors. The second experiment followed a similar concept to the first, differing mainly
+in the libraries utilized.
+MobileNetV2
+MobileNetV2 demonstrated improved state-of-the-art performance for mobile models across
+various model sizes, as evidenced by studies (Sandler et al., 2018). The pre-trained
+MobileNetV2 CNN model showcased its versatility and effectiveness as a tool in diverse
+applications. It proved capable of enhancing mobile model performance, serving as a feature
+extractor, and contributing to the development of accurate and efficient CNN architectures for a
+broad range of classification tasks.
+
+In the third experiment, the classifier concept remained consistent with the approaches used in
+the preceding experiments.
+3.5.6 Deploying models on a mobile device
+After training, the model with the highest accuracy among the three was selected for
+deployment on mobile device applications. To assess the accuracy of each model, both
+validation and test sets were utilized. The trained models underwent conversion into a
+TensorFlow (tflite) file format, enabling the use of the model on a mobile phone. TensorFlow
+facilitates faster model execution without the need for Python dependencies.
+During the development of the mobile app, Android Studio served as the primary tool. The
+TensorFlow in Android Studio IDE featured a built-in library that streamlined the process-upon
+importing the TensorFlow model file, there was no need to import each component individually.
+
+4
+RESULTS AND DISCUSSION
+This chapter provides a presentation of the results and gathered data. The first section presents
+the results of training CNNs. The second section presents the result verification during the
+training of the model.
+4.4 Results and Verification
+Figure 4-1. Validation and accuracy
+Figure 4-1 figures illustrates the training and validation curve of the MobileNet, InceptionNet,
+and VGG16 model. As shown in the figure, the MobileNet achieved training accuracy of 95% it
+shows the accuracy of the model in predicting in trained data. On the other hand, the validation
+accuracy achieved 92%, It shows the accuracy of the model to new input data. The
+InceptionNet model was achieved training accuracy of 89%, with the validation accuracy of 90%
+into validation set. Lastly is the VGG16 model, as shown in the figure, the achieved training
+accuracy of the model was 87%, for the validation the VGG16 achieved 88% accuracy. Based
+on the result of training and validation accuracy of the three models, the MobileNet is achieved
+the highest accuracy as compare to the InceptionNet, and VGG16. This accuracy percentage
+just shown that the MobileNet model is the best model to use among them.
+Figure 4-2. Confusion matrix
+c. VGG16
+
+Figure 4-2 presents the confusion matrix of the MobileNet, InceptionNet, and VGG16 model. A
+confusion matrix summarizes the performance of a classification model on a set of test data. As
+shown in the figure, the MobileNet model achieved 98% labeled class of salmonella correctly,
+2% in incorrect. Healthy 99% test image classify correctly, and 1% is incorrectly labeled. 98%
+coccidiosis is correctly labeled, while 2% of the class is incorrect. 99% Newcastle disease is
+correctly labeled and 1% is incorrect. For the InceptionNet, 117 labeled class of coccidiosis
+correctly and 6 is incorrect. Healthy classify correctly, 116, and 4 is incorrect. 25 Newcastle
+disease classify correctly, and 3 is incorrect. Salmonella got 126 correctly classify and 5 is
+incorrect. Lastly is the VGG16, the model labeled 216 class of coccidiosis correctly and 12 is
+incorrect. Healthy classify correctly, 227, and 13 is incorrect. 50 Newcastle disease classify
+correctly, and 7 is incorrect. Salmonella got 246 correctly classify and 16 is incorrect. As the
+result MobileNet got almost correct of true positive classification in the validation set compare to
+the InceptionNet and VGG16.
+Table 4-1. Actual Captured
+Table 4-1 shows the result of the actual captured images in the chicken poultry farm. As
+presented in the table the coccidiosis, and healthy classify the capture manured correctly, whiles
+the Newcastle and Salmonella got 2 incorrect, due to the quality of some data in the training set,
+in the datasets there's some are blurred and too far captured. Additionally, there's an image it
+almost same color and structure.
+Table 4-2. Training and actual result captured
+Table 4-2. presents the result of the training model in the test validation set and the actual
+captured result of the model into the application. As shown in the table the accuracy of the
+training model in test validation is higher which acquire 100% confidences accuracy compare
+the result of the model after transferring into the app which acquire 67.2% confidences
+accuracy.
+
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+This chapter presents the summary and conclusion derived from the study probe on the Basic
+Diagnostic Tool for Chicken Disease using CNN. It also provides recommendations for future
+researchers for the improvement of the study.
+5.4 Summary
+The thesis proposal aimed to develop a diagnostic tool for chicken manure disease
+classification using CNN transfer learning. The study highlighted potential benefits for
+commercial farms, researchers, and future researchers. Visual Studio Code Ide and the Python
+programming language are effectively used. Three pre-trained CNN models, namely
+
+InceptionNet, VGGNet, and MobileNet, were used to train and compare their performance on a
+dataset of chicken manure images. The results showed that MobileNet achieved the highest
+accuracy of 92.13%, with a training time of 12.45 minutes. The study provided a valuable
+solution for early disease detection and classification in the animal farming industry.
+5.5 Conclusions
+Based on the data gathered in this study, the following conclusions are drawn:
+1. The researchers affirm that CNN and ML present a promising approach to address the
+challenges faced by the animal farming industry.
+2. The researchers conclude that the development of a diagnostic tool for chicken manure
+disease classification using CNN transfer leaming offers potential benefits for commercial farms,
+researchers, and future researchers.
+3. The researchers concluded that, based on the results demonstrating the effectiveness of the
+proposed approach, MobileNet achieved the highest accuracy of 92.13% when integrated into
+an app
+4. The researchers conclude that the Agile software development model demonstrates a
+systematic and efficient approach to software development.
+5. The researchers conclude that this study has the potential to significantly impact the animal
+farming industry by providing a practical and effective lool for disease management and
+prevention.
+5.6 Recommendations
+The results of this study showed that the CNN model was suitable for the animal farming
+Industry; however, the researchers believed that there was room for improvement. Based on the
+results and conclusions presented in this study, the following recommendations are suggested:
+1. Incorporating a larger set of high-quality images with diverse variations during training has the
+potential to significantly enhance the model's performance.
+2. Exploring additional parameters beyond manure could enhance the effectiveness of disease
+classification for chickens.
+3. Expanding the application to include other chicken diseases and adapting it for use in various
+animal industries of economic importarnice would make the app more valuable.

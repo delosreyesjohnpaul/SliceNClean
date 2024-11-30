@@ -1,0 +1,472 @@
+ANIMAL BITE CENTER PATIENT RECORD MANAGEMENT SYSTEM IN CITY HEALTH OFFICE 02 CAUAYAN CITY JEROME M. AGUSTIN RAQUEL B. CIPRIANO January 2021
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+JEROME M. AGUSTIN RAQUEL B. CIPRIANO January 2021
+
+
+
+ABSTRACT
+
+This project entitled "Animal Bite Center Patient Record Management System in City Health office 02 Cauayan City" aimed to determine the problems encountered by the staff of ABC CH02 in terms of using the manual process.
+
+In Animal Bite Center in City Health Office 02 Cauayan city, they are using a manual system to record patients' information and have almost all the records in paper form only. Paper- form records are unnecessary time consumption for the staff and doctors, take up much space. and are high cost. The proposed system determined the benefits of the proposed system in terms of: Functionality, Usability, Reliability, and Security, The proposed system automates manual processes effectively to enable the staff of Animal Bite Center to have a quick method of managing their patient's records.
+
+The researchers followed the waterfall model as the methodology for the study. The Waterfall model is one of the most common and classic life cycle models, also referred to as a linear-sequential life cycle model. It is based on the factory assembly-line process. It follows a structured, sequential path from Requirements to Maintenance, setting out milestones at each stage that must be accomplished before the next phase can begin.
+
+In results and discussion, the analysis shows that the Reliability of the proposed system got the lowest weighted mean of 3.67 with the descriptive interpretation of "AGREE." In contrast, the Usability of the proposed system got the highest weighted mean of 4.08 with the descriptive interpretation of "AGREE."
+
+Furthermore, the General Mean of the proposed system got 3.95. The interpretation shows that the proposed system is beneficial to the staff and administration of Animal Bite Center in City Health office 02 Cauayan City
+
+The researchers recommend that the Developed Animal Bite Center patient Record Management System be implemented in an online platform to test its further efficiency, validate the system online, and implement a security algorithm to strengthen its security features.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+The Patient Record Management System is a fully-fledged system aimed at enabling you to keep track of all the patient's records and have them accessed with ease. City Health Office 2 of Cauayan City serves as the primary source of free basic health care for rural communities around Villa Luna. It is typically funded by the government and covers the immediate health of populations in the community. Treatment at this medical unit is free. That's why most of the residents in the local community are consulting with the Rural Health Unit.
+
+In City Health Office 2 of Cauayan City, they are using a manual system in terms of recording patients' information and have almost all their records in paper form only. The impact of paper-form records is the unnecessary time consumption for the administration, the space taken up, and the high cost. And the central problems of the traditional paper medical record include a lack of standardization across the health unit facilities, poor searchability, and loss of information.
+
+A new system called the Animal Bite Center Patient Record Management System was proposed in this capstone to enable the administration of the City Health Office 2 to have a quick process for managing their ABC patients' records. This study describes the Animal Bite Center Patient Record Management System in City Health Office 2. Its purpose is to provide a good service medical record, especially medical history, that enables the system users to access information needed, help store data accurately, and improve data control. This system will be an effective tool to lessen the work of the authorized person to manage their patients' record systems.
+
+Furthermore, the absence of a well-established information system that serves patients and staff led to inconveniences. That has been tantamount to the loss of patient records. This is basically because the weakness of the existing system includes overreliance on paper-based work. The researchers will develop a patient record management system to ensure the accessibility of their records and to lessen the reliance on paper-based records.
+
+Objectives of the Project
+
+The main objective of this study is a development of a Patients Medical Record of Animal Bite Center in City Health Office 02 Cauayan City Isabela.
+
+Specifically, it aims the following:
+
+1. identify the problems encountered in terms of medical record of the Animal Bite
+
+Center in City Health Office 02 Cauayan City by the staff in terms of:
+
+Usability
+
+Reliability
+
+Security
+
+2. test the Patient Record Management for Animal Bite Center in City Health Office 02
+
+Cauayan City Isabela in terms of
+
+Functionality
+
+Usability
+
+Reliability
+
+• Security
+
+Performance
+
+
+Scope and Limitations
+
+Study only deals with the Development of the Animal Bite Center Patient Record Management System. It includes all the essential information of the patients of the Animal Bite Center. This information consists of the personal data and medical records of the patients. This history of each patient is computerized, compiled correctly, and stored in the database for accessibility. The Stored Information can be edited if there are changes to be made. It can also delete data that is no longer needed to keep. The proposed system can generate an annual report of all patient records in Animal Bite Center in CH02 Cauayan City Isabela.
+
+The limitation of the study does not include checking of Phil health Number if it's verified or not. The proponents limit the system features only to doctors and staff. Access of the patient to their record is not included. And does not support online transaction.
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+Objectives in the digitization of health records, patients and doctors find difficulty in accessing their health records, especially when the health records are fragmented with different health service providers. In this paper, Patient Centric blockchain smart contracts are designed to provide a regulated solution to the requirements of patients, doctors, and health service providers with integrity management. Methods The proposed system launches smart contracts, namely i) Registration contract for immutable patient log creation. ii) Health Record Creation Contact for the creation of digital health records. for secure storage and rapid access with a new Modified Merkle Tree data structure. iv) Update the permission contract to allow access in emergency situations. v) Data sharing Permission Contract for the exchange of health records between various stakeholders; and vi) Viewership Permission Contract for patients to view their health information for homecare and future care. Results The work has been carried out on a number of trials to check the effectiveness of the proposed system. The qualitative and quantitative metrics of the proposed system have been measured to evaluate the performance of resources, transactions per second, and the latency of transactions. Conclusion The proposed system provides high security and integrity through cryptographic hash functions. The results are encouraging. The designed system is implemented and found to outperform the existing systems. Lay summary A Patient-Centered EHR Management System Using Blockchain Smart Contracts (Chendurai et al. 2021),
+
+According to Pan et al., 2021, deep neural networks (DNN) have achieved good results in the application of Named Entity Recognition (NER), but most of the DNN methods are based on large amounts of annotated data. Text data in the specific professional field is referred to as an electronic medical record (EMR). The annotation of this kind of data needs experts with strong knowledge of the medical field and time-labeling. To tackle the problems of professional medical areas, large data volume, and annotation difficulties of EMR, we propose a new method based on multi-standard active learning to recognize entities in EMR. Our approach uses three criteria: the number of labeled data, the cost of sentence annotation, and the balance of data sampling to determine the choice of active learning strategy. We put forward a more suitable method of uncertainty calculation and measurement rule for sentence annotation for NER's neural network model. Also, we use incremental training to speed up the iterative training in the process of active learning. Finally, the named entity experiment of breast clinical EMRs shows that it can achieve the same accuracy as NER results under the premise of obtaining the same sample quality. Compared with the traditional supervised learning method of randomly selecting labeled data, the method proposed in this paper reduces the amount of data that needs to be labeled by 66.67%. Besides, an improved TF-IDF method based on Word2Vec is also proposed to vectorize the text by considering the word frequency.
+
+Based on Beckmann et al., 2021. the need for and usage of electronic patient records within hospitals has steadily increased over the last decade for economic reasons as well as digitalization. While there are numerous benefits from this system, the potential risks of using electronic patient records for hospitals, patients, and healthcare professionals must also be discussed. There is a lack of research, particularly regarding effects on healthcare professionals and their daily work in health services. The study aims to gain insight into changes in interprofessional collaboration and clinical workflows resulting from introducing electronic patient records. Methods: eCoCo is a multi-center case study integrating mixed methods from qualitative and quantitative social research. The case studies include three hospitals that are going through the process of introducing electronic patient records. Data is collected before and after the introduction of electronic patient records using participant observation, interviews, focus groups, time measurement, patient and employee questionnaires, and a questionnaire to measure the level of digitalization. Furthermore, documents (patient records) as well as structural and administrative data are gathered. To analyze the interprofessional collaboration, qualitative network analyses, reconstructive-hermeneutic analyses, and document analyses are conducted. The workflow analyses, patient and employee assessment analyses, and classification within the clinical adoption meta-model are conducted to provide insights into clinical workflows. This study will be the first to investigate the effects of introducing electronic patient records on interprofessional collaboration and clinical workflows from the perspective of healthcare professionals. Therefore, it will consider patients safety, legal and ethical concerns, and the quality of care. The results will help to understand the organization and thereby improve the performance of health services working with electronic patient records. The study was registered at the German clinical trials register (DRKS00023343, Pre-Results) on November 17, 2020.
+
+Based on Abdullah et al. (2021), the traditional approach for monitoring chronic diseases represents a major challenge for hospitals and the Ministry of Health in Yemen. This research aims to develop a Remote Patient Health Monitoring System (RPHMS) using Bluetooth enabled medical sensors and mobile phones. This research adopts the Rational Unified Process (RUP), which is a software development process framework to develop the proposed system. The RPHMS provides real-time monitoring for patients suffering from chronic diseases and manages the patients' medical record in which the diagnostic and prescriptive data are stored for further analysis. The RPHMS consists of two major subsystems: Mobile Patient System (MPS) to wirelessly measure the patient's medical and position data and automatically send the data to the central hospital server, and Central Hospital System (CHS) to automatically store the diagnostic data in the hospital database and then forward the data in the form of Short Message Service (SMS) to the doctor. In addition, the CHS enables the patient to get feedback from the doctor. Moreover, CHS stores the feedback and the prescriptions in the hospital database. This data can be accessed by the patient using a mobile application. The results show that RPHMS enables hospitals and doctors to obtain accurate and timely data regarding patients' chronic illnesses. This research concludes that the RPHMS improves the control of the heart rate, blood pressure, and oxygen percentage in the blood (SPO2) since it provides real-time monitoring of chronic patients.
+
+According to Anaikatti et al., (2021), Singapore was one of the first countries outside of China to be hit by COVID-19. The number of confirmed instances of COVID-19 patients in Singapore's EDs increased dramatically, straining the system's resources. We report how we used the identify-isolate-inform tool to make strategic adjustments to improve the evaluation, treatment, and care of COVID-19 patients. During the pandemic, information technology integration, electronic medical record upgrades, and critical dashboard enhancements were implemented in a timely manner to meet clinical needs. For future epidemics, considerations for an isolation facility within an ED are extremely relevant.
+
+An Electronic Records Management System (ERMS), according to (Mukred et al., 2021), is a computer program or group of programs that is used to keep up-to-date records and save them. Academic institutions have used ERMS extensively to improve their performance. The system aids in the planning and decision-making processes, hence improving competences. Despite the fact that ERMS is important in supporting decision-making, the majority of companies have failed to take the effort to adopt it, with some implementing it without a suitable framework, resulting in behavior that does not reach the acknowledged standard. As a result, this research examines the elements that influence the adoption of ERMS among HLI personnel in Yemen. 
+
+A medical record is a file holding records and papers detailing patient identity, examination, treatment, actions, and other services provided to patients at health care facilities, according to (Abdillah & Ihksan, 2021). Each officer must work swiftly to locate data that has been entered and obtain patient data reports that meet their demands, in order to improve the speed and accuracy of service and report outcomes at the Medika Saintika Padang Clinic. The patient is more aware of the impact of service information, but recording is still done manually. necessitating the use of a web-based information system to make adjustments. The authors' goal in performing this study is to design a medical record information system for use in hospitals.
+
+The framework is meant to assist designers, software engineers, health service managers, and end-users in realizing a responsible, robust, and dependable EPR-enabled healthcare system that delivers safe, quality-assured, value-conscious treatment, according to Jacquemard et al.. 2021. Methods: A scoping assessment of the literature linked to the ethics of EPR technology preceded the development of the EPR applied ethics framework. The paradigm provided in this paper is based on the idea that ethical ideals can influence all stages of the EPR lifecycle, from design to development, implementation, and practical use. There are two elements to the framework: context and core functions. The first section, "context," consists of identifying the following: the purpose(s) for which the EPR exists or will exist; the interested parties and their interests; and the stakeholders and their interests.
+
+The implementation of an electronic medical record (EMR) raises some key challenges, according to (Xanthidis & Xanthidou, 2021). Access to such a system, satisfaction with the security and authorization protocols to follow, understanding of backup and recovery methods in place, and appreciation of IT staff training are all addressed in this study. This qualitative research was conducted in the natural setting of the medical unit. The researchers employed a purposive sample of 40 professionals from Greece and Oman. The survey emphasizes that patients should have access to their records, although pharmacists' opinions are extremely mixed.
+
+Access to such a record should be controlled and recorded for everyone else. The security level, ICT training, and backup and recovery processes are all satisfactory to the pros. They almost all acknowledged that an authorisation schema is used to gain access to the EMR. The study's key contribution is the provision of a policy and procedure framework for the establishment of such a system.
+
+According to Zhang et al. (2010), electronic medical records (EMRs) can help with medical research and discovery, but privacy concerns prevent such data from being shared widely. To reduce risk, various methods have been devised, including record simulation using generative adversarial networks (GANs). While GANs have shown promise in several applications, they lack a principled approach for EMR data, resulting in mediocre modeling. In this paper, we propose a new pipeline for improving EMR simulation that (1) improves the learning model, (2) adds data utility evaluation criteria that inform learning, and (3) refines the training process. Materials and Procedures: Using a GAN with a Wasserstein divergence and layer normalization approaches, we present a new electronic health record generator. We developed two utility measures in this study to characterize structural similarity between real and simulated EMRs in the original and latent space, respectively. To improve GAN training for low- prevalence clinical concepts, we used a filtering technique. Using billing codes from over 1 million EMRs at Vanderbilt University Medical Center, we evaluated new and existing GANs for usefulness and privacy measures (membership and disclosure attacks). Results: The suggested model surpassed state-of-the-art techniques in terms of preserving the characteristics of genuine data, such as prediction performance and structural aspects, while maintaining privacy. Furthermore, when the EMR training dataset was small, the filtering technique performed better. 
+
+These data show that by using more appropriate training, modeling, and assessment criteria, EMR simulation using GANs can be significantly improved.
+
+Complete postexposure prophylaxis with four doses of anti-rabies vaccine (ARV) in a previously vaccinated (nonnave) individual leads in the administration of two extra ARV doses, wasting vaccine logistics, human resources, physician, and patient time, according to Basu et al., 2020. In a cross-sectional study of 175 incident animal bite cases undertaken in a secondary care hospital in Delhi, 39 (22.3 percent) had an animal bite history during the previous 5 years. A total of 19 (10.8 percent) victims had previously had complete ARV vaccine after being bitten by an animal. In the lack of supporting patient medical data, however, all animal bite cases were administered a full course of ARV, regardless of previous exposure status. In 13 (81.2%) cases, rabies immunoglobulins (anti-rabies serum) were also re-administered. When a healthcare provider is confronted with this situation, which has the potential for concealed vaccine waste, national guidelines for rabies prophylaxis should consider including an explicit decision-making algorithmic process.
+
+According to Mahmoudi et al (2010), to conduct a focused study of electronic medical record (EMR) data predictive modeling to predict 30-day hospital readmission. Design A thorough examination From January 2015 to January 2019, data was gathered from Ovid Medline, Ovid Embase, CINAHL, Web of Science, and Scopus. Eligibility criteria for study selection EMR data was used in all investigations of prediction models for 28-day or 30-day hospital readmission. Measures of success Included studies' characteristics, prediction methodologies, predictive factors, and model performance Results Only 41 studies out of 4442 were found to meet the inclusion criteria. Seventeen models predicted the probability of readmission for all patients, whereas 24 provided predictions for specific patient populations, with 13 of them designed for cardiac patients. All of the studies were from the United States, with the exception of two from the United Kingdom and Israel. Each model had a total sample size of 349 to 1,195,640 people Split sample validation was employed in twenty-five models. C statistics of 0.75 or above were recorded in seventeen of the 41 investigations. To improve their models, fifteen models applied calibration procedures. Final predictive models were able to employ a wide range of clinical parameters, such as laboratory findings and vital signs, thanks to the utilization of EMR data. However, socioeconomic characteristics or functional status were rarely used. Three models were able to extract relevant psychosocial aspects using natural language processing, which significantly improved their predictions. Twenty-six of the research utilized logistic or Cox regression models, while the rest relied on machine learning. The average C statistics of models created using regression approaches (0.71, 0.68 to 0.73) and machine learning (0.03, 95 percent confidence interval-0.0 to 0.07) showed no statistically significant difference (difference 0.03, 95 percent confidence interval-0.0 to 0.07). (0.74, 0.71 to 0.77). Conclusions Prediction models that use EMR data perform better on average than those that use administrative data. However, this progress is still minor. The majority of the studies looked at didn't include socioeconomic factors, didn't calibrate the models, didn't do thorough diagnostic testing, and didn't evaluate clinical impact.
+
+Wrong-patient order entry (WPOE) mistakes, according to Salmasian et al. (2020), have a significant potential for injury, these errors are especially likely where processes are complicated and multitasking and interruptions are common, such as in the emergency room (ED). Interruptive methods, such as computerized patient verification forms or warnings, have been shown to reduce these types of errors in the past, but they can be time-consuming and induce alert fatigue. The goal of this study was to see if using a non-interruptive display of patient images in the EHR's banner is linked to a lower rate of WPOE errors. Design, environment, and participants: This cohort study reviewed data obtained as part of care for patients attending the ED of a large tertiary academic urban hospital in Boston, Massachusetts, between July 1, 2017 and June 31, 2019 Exposures: The ED personnel urged patients to get their images taken as part of a quality improvement project by alerting them of the expected safety impact. Principal Findings and Metrics: When the patient's photograph was featured in the EHR banner, the rate of WPOE mistakes (measured using the retract-and-reorder approach) was lower than when the patient's photograph was not displayed. The primary analysis looked at orders placed in the emergency room, while the secondary analysis looked at orders placed in any environment. A total of 2558746 orders were placed for 71851 different patients (mean [SD] age 49.2 [19.1] years, 42677 (59.4%) females: 55109 (76.7%) non-Hispanics). When the patient's photograph was displayed in the EHR, the likelihood of WPOE errors was considerably reduced (odds ratio, 0.72, 95 percent confidence interval, 0.57-0.89). The effect size remained nearly the same after the risk was controlled for potential variables using multivariable logistic regression (odds ratio, 0.57, 95 percent Cl, 0.52-0.61). Patients with greater acuity levels and patients whose race was identified as white had a much decreased probability of mistake. Conclusions and Implications: This cohort study demonstrates that displaying patient photos in the EHR can help with patient identification and reduce WPOE errors while remaining non-intrusive and lowering alert fatigue.
+A minimal financial commitment and proper patient and staff participation are required for successful implementation of such a program in an ED context.
+
+According to Pinto & Dos Santos (2020), in a population-based study with a cross- sectional epidemiological design that included the Rio de Janeiro population enrolled in Family Health Teams, primary health care electronic medical records were analyzed in Rio de Janeiro for two chronic diseases, namely hypertension and diabetes. The prevalence rate was separated by gender and age group, and family practitioners used the ICD-10 to assess the severity of the disease during their consultations. Except for the latter two age categories (75-79 years and 80 years and older), where there was clear under-registration of identified cases, both genders observed a positive relationship between prevalence rates and age. The generation of objective and reliable statistical data is critical for local management, as it allows for the assessment of demographic dynamics and the unique characteristics of each territory, as well as the planning and monitoring of the quality of Rio de Janeiro residents' records kept in each family health unit.
+
+To avoid over-registration of clinical cases recorded in electronic medical records, regular maintenance of duplicate entries in the registered user roster is required.
+
+According to Lucia et al (2021), in a population-based study with a cross-sectional epidemiological design that included the Rio de Janeiro population enrolled in Family Health Teams, primary health care electronic medical records were analyzed in Rio de Janeiro for two chronic diseases, namely hypertension and diabetes. The prevalence rate was separated by gender and age group, and family practitioners used the ICD-10 to assess the severity of the disease during their consultations. Except for the latter two age categories (75-79 years and 80 years and older), where there was clear under-registration of identified cases, both genders observed a positive relationship between prevalence rates and age. The generation of objective and reliable statistical data is critical for local management, as it allows for the assessment of demographic dynamics and the unique characteristics of each territory, as well as the planning and monitoring of the quality of Rio de Janeiro residents' records kept in each family health unit. To avoid over- registration of clinical cases recorded in electronic medical records, regular maintenance of duplicate entries in the registered user roster is required.
+
+Complete postexposure prophylaxis with four doses of anti-rabies vaccine (ARV) in a previously vaccinated (nonnative) individual leads in the administration of two extra ARV doses. wasting vaccine logistics, human resources, physician, and patient time, according to Basu et al., 2020. In a cross-sectional study of 175 incident animal bite cases undertaken in a secondary care hospital in Delhi, 39 (22.3 percent) had an animal bite history during the previous 5 years. A total of 19 (10.8 percent) victims had previously had complete ARV vaccine after being bitten by an animal. In the lack of supporting patient medical data, however, all animal bite cases were administered a full course of ARV, regardless of previous exposure status. In 13 (81.2%) cases, rabies immunoglobulins (anti-rabies serum) were also re-administered. When a healthcare provider is confronted with this situation, which has the potential for concealed vaccine waste, national guidelines for rabies prophylaxis should consider including an explicit decision-making algorithmic process.
+
+Blockchain is evolving to be a secure and dependable platform for secure data sharing in application sectors like as finance, supply chain management, food, energy, internet of things, and healthcare, according to (Khatoon, 2020). In this research, we examine the existing literature and uses for blockchain technology in the healthcare sector. Furthermore, this research provides alternative workflows for the healthcare sector that use blockchain technology to improve data management. Various medical workflows including sophisticated medical operations such as surgery and clinical trials have been devised and implemented utilizing the Ethereum blockchain platform. Accessing and maintaining a vast amount of medical data is also part of the job. The related cost for this system has been assessed in terms of a feasibility study, which has been extensively reported in this article, as part of the implementation of the workflows of the medical smart contract system for healthcare management. This work would make it easier for different stakeholders in the medical system to deliver better healthcare services at lower costs.
+
+Electronic information and communication technology has been widely employed and grown in the healthcare industry around the world, according to Berihun et al., 2020. However, in underdeveloped countries such as Ethiopia, EMR system adoption and use for medical practice are still uneven, and healthcare facilities that have started using them have not been able to maintain them. To extend the delivery of digital health services, healthcare professionals must be ready. As a result, the goal of this research is to determine the percentage of professionals in Bahir Dar who are willing to adopt EMR and the factors that influence that percentage. Methods From September 1 to October 30, 2019, 634 health professionals participated in an institution- based cross-sectional study. A basic random sampling method was used to pick respondents. For additional analysis, the data was loaded into EpiData version 3.1 and exported to SPSS version 23. To describe study variables, descriptive statistics were generated and presented in tables. The likelihood of using the EMR system was calculated. To find the related factors, bivariable and multivariable binary logistic regression models were used. The strength of the link was measured using the odds ratio with a 95% confidence interval. The survey drew a total of 616 health professionals, with a 97 percent response rate. The percentage of people that were willing to use the EMR system was 85.9%. Lack of access to EMR training (73.4 percent) was a key impediment to health professionals' readiness to adopt EMR. A multivariable logistic regression analysis revealed that good computer skills (AOR = 2.5; 95 percent CI: 1.3-4.6), good knowledge of EMR (AOR 2.1; 95 percent Cl: 1-4.4), EMR training (AOR 3.8; 95 percent CI: 1.7-8.1), EMR guideline access (AOR 2.8; 95 percent CI: 1.4-5.6), and management support (AOR = 2.6; 95 percent CI: 1.4-4.8) were associated with Conclusions The majority of the professionals expressed an interest in using the EMR system. Computer illiterate, less knowledgeable individuals, those unable to access EMR guidelines, and managerially unsupported professionals should all be included in EMR programs. Scaling up EMR adoption requires improving health professionals' attitudes and contextualizing EMR training in healthcare curricula.
+
+Doctors track patients in hospitals on a daily basis, according to (Mary et al., 2020). The condition of patients who have been operated on must be monitored on a regular basis. During the day, there may not be any highly qualified physicians available. Healthcare is now technologically driven. Mobile devices and their use have grown in popularity in recent years.
+
+The concept and construction of an Android smartphone device implementation framework for a patient data presentation system are described in this paper. This technology allows clinicians to remotely monitor and respond to a patient's critical metrics. Alerts, critical health parameters, healthcare; server, Android;
+
+Multimedia communication has revolutionized the way we operate and do business in today's world, according to (Parah et al., 2019), Multimedia technology's exponential growth has impacted every field. Electronic healthcare has mostly superseded traditional healthcare and is now known as eHealth. The security of the electronic patient record (EPR) is a crucial problem for the successful adoption of the electronic healthcare setup. Data concealing in medical photos has flourished as an effective strategy in the recent decade, despite the fact that several approaches are being employed to ensure the security of the EPR. Because of the benefits of reversible data concealing for hiding EPR in medical photographs, it is commonly utilized. In general and medical images, this chapter demonstrates a reversible EPR concealing approach. The suggested strategy makes advantage of a lossless information hiding technique called histogram bin shifting. We employ a block division strategy to boost the payload by taking advantage of many embedding places. Prior to embedding, we encrypt the information using the RC6 encryption algorithm to add an extra layer of security to the EPR. Our system has been thoroughly tested in terms of payload, reversibility, and imperceptibility. When compared to existing work, the proposed system outperforms the methodologies under consideration.
+
+Patient data management systems (PDMS) are frequently utilized in intensive care units (ICUs) to improve care traceability, according to (Cordier et al., 2019). For prescriptions that require quick implementation, verbal directions are still used, but they should be documented in the system afterward. In an ICU-specific PDMS, we tested the traceability of rapid sequence induction (RSI) for endotracheal intubation. Materials and procedures: In 21 ICUs, a retrospective analysis was undertaken using anonymous datasets, The number of endotracheal tube insertions during the course of a year was compared to the number of RSI recorded in the PDMS. We found 5516 insertions of endotracheal tubes. In 829 cases, suxamethonium was administered, and in 909 cases, rocuronium was administered. The overall RSI traceability rate was 31.5 percent, with the rate being higher in the units where nurses were authorized to record a medicine administration before the computerized physician order entry. Conclusions: Prescription management systems (PDMS) are expected to promote prescription completeness and traceability, yet our research reveals the contrary. To improve treatment traceability, a policy of shared accountability between physicians and nurses should be adopted. Improved PDMS ergonomics and incorporation into clinical workflow could lead to higher documentation compliance. In each center, signs of proper PDMS use should be identified and monitored on a regular basis.
+
+Healthcare organizations are subject to various sources of change, according to (Lucia, n.d.). The dominant driver of forcible change in healthcare organizations in recent years has been technological innovation and communication (ICT). E-Health refers to ICT applications in the health industry. The introduction of new instruments such as medical certificates and digital prescriptions, the Electronic Medical Record (EMR), the Electronic Health Record Longitudinal (EHR), computerized reservation systems, and other developments have translated into the health sector. Several studies in the literature have underlined the strategic importance of these instruments for corporate governance, particularly the EMR, which is the primary electronic archiving tool for citizens' health and social-health data. The purpose of this study is to address the following research question: what are the enabling conditions that have favored EMR implementation? To reach such goal, this study studies the relevant literature before analyzing a Cosenza PHS case study. Due to its peculiarities, the Cosenza PHS example provides intriguing insights on the subject of E-Health. The results make recommendations for future research in the topic.
+
+An operation note is a medicolegal document, according to (Aldoori et al., 2019). The Good Surgical Practice 2014 (GSP) of the Royal College of Surgeons of England specifies 19 things that should be included in an operation note. The goal of this study was to see if using an electronic patient record (EPR) increased the quality of general surgical procedure notes. Over five time periods, an anonymised retrospective case note assessment of general surgical operation notes was conducted. Periods 1 (before to EPR deployment), 2 (one week after EPR implementation), and 3 (after EPR implementation) comprised the first cycle (4 weeks after EPR). Period 4 was a re-audit, which took place two weeks after the initial results were revealed at the local governance meeting. The cycle was subsequently completed with period 5, which occurred one year after the EPR was implemented. Compliance with the RCS criteria was compared throughout all five time periods, with sub-analysis of the individual categories. During five time periods, 250 operation notes were reviewed. Between periods 1 and 5, compliance increased by nearly 19 percent (p-0.0003). During the audit period, eleven of the 19 points (57.9%) achieved 100 percent compliance post-EPR, compared to 0% prior. Antibiotic usage, venous thromboembolism prophylaxis, and estimated blood loss all had low compliance (noting that they are generally documented in an aesthetic record and/or WHO checklist). GSP compliance is not guaranteed by EPRs. We propose that GSP standards be modified to accommodate medical record modernisation, and that a team-based approach with multimodality input sources will result in better patient records and treatment. 
+
+Background Information (Amparo et al., 2018) mentioned that the Philippines has established a decentralized network of Animal Bite Treatment Centers (ABTCs) to assist bite victims in receiving prompt and low-cost rabies post-exposure prophylaxis (PEP). Patients in the community and at ABTCs in three provinces were polled to determine the frequency of animal bites and scratches, health-seeking behavior, and PEP-related out-of-pocket expenses (OOPE). During community surveys in 90 barangays (neighborhoods), 53 percent of households reported at least one animal bite/scratch injury in the previous three years, which was consistent across urban and rural barangays. In Nueva Vizcaya, Palawan, and Tarlac, bite/scratch incidences were 67.3, 41.9, and 48.8 per 1,000 people per year, respectively, in 2016-17. Those under the age of 15 had a 50 percent higher rate of infection than those over the age of 15. Although most households were aware of the nearest ABTCS, only 44.9 percent sought competent medical treatment, and traditional treatments were still widely employed. The distance or travel time to the nearest ABTC had no effect on the proportion of patients requesting PEP. The majority of those who did not seek medical treatment claimed a lack of understanding or a lack of cash, while about a third went to a traditional healer. There were no reported deaths from bite/scratch injuries. In early 2017, a total of 1,105 patients were questioned at six ABTCs. OOPE ranged from 5,53 USD to 37.83 USD per patient among the ABTCs, owing to the necessity to pay for immunization if government supplies ran short. Overall, 78 percent of patients finished the suggested course, with time being the most common cause for non-completion, followed by a lack of cash. According to dog observation statistics, 85 percent of patients were not genuinely exposed to rabies, and bite prevention education could reduce provoked bites and PEP requirement. An additional study describes the ABTC network from the standpoint of health care providers.
+
+According to (Kuo et al., 2018), hospitals are increasingly realizing that widespread adoption of electronic medical records (EMR) can provide a variety of tangible and intangible henefits, including improved quality of care, reduced medical errors, lower costs, and allowing healthcare professionals instant access to relevant patient information without time or space constraints. However, as hospitals and patients rely more on EMR, the negative impact of EMR breaches has escalated, potentially causing unexpected damage to both hospitals and patients. This study looked into the factors that can influence hospital staff continued adherence to the Electronic Medical Record privacy policy (EMR). This is done from both a motivational and a habitual standpoint; specifically, we looked into the function of habit in mediating motivation and continued compliance with EMR privacy policies. Methods: Survey methods was used to obtain data from a large Taiwanese medical center. A total of 312 responses were collected and evaluated using structural equation modeling from diverse groups of healthcare professionals. The findings revealed that self-efficacy, perceived usefulness, and facilitating situations may considerably predict hospital employees' compliance habit formation, whereas habit may significantly predict hospital employees' desire to continue following the EMR privacy policy. In addition, habit modulates the relationship between self-efficacy, perceived usefulness, facilitating conditions, and the intention to stick to a plan. Conclusions: Based on our findings, healthcare facilities should take steps to encourage staff habitualization while also ensuring that EMR privacy criteria are protected. Improve employee self-efficacy, publicize the effectiveness of ongoing privacy policies, and create a pleasant habit-conducive atmosphere that leads to continuing compliance behaviors are all viable ways.
+
+According to (Chowdhury et al., 2018), an electronic medical record (EMR) is a collection of patients' medical data obtained by medical personnel in order to provide better health care. Named Entity Recognition (NER) is a sub-field of information extraction that focuses on identifying specified entity names like disease, test, symptom, and genes. NER can help healthcare professionals and medical specialists extract important information from their EMR while avoiding unneeded and unrelated data. However, mining entity terms is difficult due to the limited resources of available EMR. As a result, a multitask bi-directional RNN model is offered as a possible data augmentation option for improving NER performance with little data. Methods: For extracting entity terms from Chinese EMR, a multitask bi-directional RNN model is proposed. A shared layer and a task-specific layer can be found in the suggested model. To begin, each word's vector representation is created by concatenating word embedding and character embedding. The context information from the sentence is then extracted using Bi-directional RNN. Following that, two different task levels, the parts-of-speech tagging task layer and the named entity identification task layer, share all of these layers. These two task layers are alternately trained so that knowledge gained from the named entity identification job can be supplemented by knowledge gained from the parts-of-speech tagging task. Results: Our proposed model's performance was assessed in terms of micro average F-score, macro average F-score, and accuracy. The proposed model consistently outperforms the baseline model in all circumstances. Experiments on discharge summaries, for example, demonstrate that the micro average F-score and macro average F-score are both improved by 2.41 percent point and 4.16 percent point, respectively, while total accuracy is improved by 5.66 percent point. Conclusions: In this research, an unique multitask bi-directional RNN model for increasing named entity identification performance in EMR is proposed. The suggested model's usefulness is demonstrated by evaluation results using real datasets.
+
+According to (Gunja et al., 2018), traditional EMR system implementations have followed one of two approaches: a 'big bang' strategy on the day of go-live, or a gradual ward-by- ward approach over months. Objective To describe a fresh implementation methodology for converting from paper to EMR that is patient-centric. Method This strategy was used to convert a big tertiary teaching hospital from paper to electronic medication charts, starting with the emergency department (ED). New patients on EMR were kept on paper charts until they were discharged, while existing inpatients were kept on paper charts until they were discharged. All other intake points started patients on EMR in the second week, and all remaining patients were manually converted to EMR in the third week Training completion rates, staff satisfaction surveys, focus group interviews, and incident logs were used to evaluate the implementation. Results At the time of go-live, the EMR system had been trained by 79 percent of doctors, 68 percent of nurses, and 90 percent of pharmacists. Within 24 hours, the ED had switched to electronic prescription, and by day 20, all patients were using EMR. There were 230 concerns total, none of which were significant, and 22 of which were escalated. There were 13 EMR- related clinical occurrences among the 51,063 drugs provided, including three double dosage errors, none of which resulted in an adverse event or death. Overall, 77% of employees polled were pleased with the EMR implementation. Conclusions With a single medication chart, the patient-centric roll-out model represents an innovative and safe method, decreasing transcribing and improving drug safety for both the patient and the business.
+
+Online access to digital medical records, according to Mold et al. (2018), has the potential to increase patient convenience, satisfaction, and care, as well as promote more efficient organization and delivery of treatment. The goal of this study is to look into the benefits and drawbacks of having online access to electronic medical records and services for patients with type 2 diabetes in primary care. Methods: Between 2004 and 2016, researchers searched Medline, Embase, CINAHL, PsycINFO, and the Cochrane Library, among other foreign databases. Study design was not restricted, however each study was subjected to specific inclusion and exclusion criteria. The evidence was synthesized using thematic analysis. To assess study quality, the Mixed Methods Appraisal Toolkit was employed. The search yielded 917 studies, 28 of which were included. There were five main motifs identified: (1) inequalities in service utilization based on age, gender, ethnicity, educational attainment, and the number of comorbidities, with young men in full-time employment using these services the most, (2) improved health outcomes Glycemic control was improved, but blood pressure results were mixed; (3) self-management support from improved self-care and shared management occurred, particularly shortly after diagnosis and when complications arose. The effects on physician-patient relationships were mostly good. (4) accessibility: When online access to computerized medical records and services works, patients value more convenient access; and (5) technological obstacles, barriers to usage, and system features that impacted patient and physician use. Three studies received a perfect grade, 19 studies received a 75 percent, four studies received a 50 percent, and one study received a 25 percent. Conclusions: Patients valued online access to computerized medical records and services, even if it may exacerbate disparities in its current degree of development. Although online access to computerized medical information appeared to be safe and is linked to better glycemic control, there was a lack of robust evidence in terms of favorable health outcomes for other comorbidities, such as blood pressure. Patients are still anxious about how these systems function, the rules, and how quickly they can be used (Dayrit et al., 2018).
+
+The merger of computation and science, known as computational science, is addressing some of the most difficult challenges in science and engineering. Fundamental advances in biology, physics, chemistry, astronomy, and a variety of other fields rely heavily on computational research. Coordination of computing, data management, access to instrumentation, knowledge synthesis, and the usage of new devices are all ways to do this. It has an impact on scientists and practitioners across the board. Many computational science tasks require supercomputing, parallel and districted processing, grid-based processing, improved visualization, and sophisticated algorithms due to their sheer scale. The series of International Conferences on Computational Science (ICCS) began in May 2001 in San Francisco, at the turn of the twenty-first century. The success of that meeting prompted the creation of the Cond gathering, which took place in Amsterdam from April 21 to 24, 2002, and drew almost 500 people. Following up on these earlier conferences is the International Conference on Computational Science 2003 (ICCS 2003), ICCS 2003 was remarkable in that it was a single event hosted in Melbourne, Australia, and St. Petersburg, Russian Federation, virtually opposite cach other on the globe. The conference took place on the same dates in both locations, and all of the papers presented were collected in a single set of proceedings, which you are currently holding
+
+According to (Alotaibi & Federico, 2017), there has been an increased development and implementation of health information technology since the initial Institute of Medicine (IOM) study was issued, with differing degrees of evidence about the influence of health information technology on patient safety. The purpose of this article is to summarize the current scientific evidence on the impact of various health information technologies on improving patient safety outcomes. We find that health information technology enhances patient safety by reducing medication errors, adverse drug responses, and adherence to practice recommendations. There is no doubt that health information technology can help to improve the quality and safety of healthcare. Healthcare companies must be cautious about which technologies they invest in, as research suggests that some have poor evidence of enhancing patient safety results.
+
+As stated by (Gregory et al., 2017), it has been proven that electronic health records (EHRs) increase physician burden. Asynchronous alerts (also known as inbox notifications) pertaining to test results, referral answers, medication refill requests, and messages from physicians and other health care providers are one EHR feature that adds to increased workload. 
+
+This alert-related burden has been linked to bad cognitive outcomes, but its impact on affective outcomes like burnout has been overlooked. The goal of this study was to look at EHR alert- related workload (both objective and subjective) as a predictor of burnout among primary care physicians (PCPs), with the goal of eventually informing strategies to reduce burnout caused by alert workload. A cross-sectional survey and focus group of 16 primary care physicians were conducted in a big medical center in the southern United States. When controlling for organizational tenure, subjective, but not objective, alert workload was linked to two of the three aspects of burnout, including physical fatigue (p=0.02) and cognitive weariness (p=0.04). Participants expressed a wish for more protected time for alert management, fewer unwanted alerts, and enhancements to the EHR system to reduce alert strain and fatigue. Conclusions Burnout related with alert workload may be caused in part by subjective differences at an individual level, rather than exclusively by the actual work environment. This shows that measures at both the individual and organizational levels are needed to reduce alert burden and burnout. These findings need be confirmed in larger, more representative populations in future research
+
+In terms of functions and utility, the healthcare industry increases the use of information technology (IT). One of the most important applications in the field of e-health is the electronic medical record (EMR). The use of an EMR system in the real world may increase health care quality and reduce medical errors. However, because to privacy and security issues, EMR systems have a low level of acceptability and usage among healthcare practitioners. This issue must be addressed in order to increase the adoption of EMR. The purpose of this study is to investigate the various elements that influence EMR acceptability and use, as well as to make recommendations for EMR development in the context of privacy and security.
+
+Concept of the Study
+
+Figure 1. Conceptual Framework
+
+The conceptual framework, which has been illustrated, demonstrates the various steps of the procedures that must be completed to accomplish the aims of the study. Input is the first stage, and it relates to the requirements that must be met to construct the system that is intended. The process, which refers to the various phases needed in carrying out the system, is the next stage that must be completed. The procedure consists of determining the issues that are experienced when using the current system, conducting an interview, and putting the new system through its paces for testing. The categories are the crucial steps in the process of constructing the system, and they are also the aspect of the project that can be regarded as the most difficult. The output, or the system that will be built, is the third and final stage of the process.
+
+
+
+
+
+CHAPTER II
+
+DESIGN AND METHODOLOGY
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram
+
+To illustrate how the system will flow, the patients go to the Animal Bite Center. The receptionist then asks the patient about his or her personal information as well as their medical history. A receptionist types all these facts through manual recording. After they have assisted their patients, they will see the doctor and administer the proper vaccine.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram of Existing Procedure
+
+The figure above is the Fish Bone Diagram that illustrates the cause and effect of having a Manual Record of the Patients Information. The problems were experienced by the Animal Bite Center. The main problem of the Doctors and the receptionist is time-consuming recording
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt chart of the Capstone Project
+
+The figure presents a chronology of the activities that the system's proponents intend to carry out in order to bring about the system's development. The measures that the researchers are doing and the schedules that they are adhering to in order to develop the planned project are outlined in the table below.
+
+Requirements Documentation
+
+Technical Background
+
+Patient Record Management System is a computerized recording and managing patients" data. It provides a good service medical record, especially medical history, generating annual reports that enable the system users to access information needed
+
+Materials
+
+Software
+
+The researchers used Windows 10 32 bit as the Operating System for the system. Visual Basic 2012 for developing and designing the system, XAMPP Mysql for the database, and Adobe Photoshop CC for editing pictures and logos.
+
+Hardware
+
+The Researchers used a computer with a 16 GB of ram, Ryzen 5 3400g processor, an integrated display adapter AMD Radeon (TM) Rx Vega 11 graphic with 500Gb of HDD for saving patient's information, and a printer to print patients' information and annual report.
+
+Data
+
+The researchers gathered data from Animal Bite Center in City Health Office 02 Cauayan City Isabela for the list and records of the patients, Vaccines they used, the treatment they did to their patients, all the list of barangays in Cauayan City, and asked the Head Nurse to find out what else can be added to the study.
+
+Use case Diagram
+
+Figure 5. Use Case Diagram
+
+The use case study illustrates the connection between the role of the doctor or administrator and the use case in which the user participated. The Administrator is the only person who has access to the user's information and is also the only person who can delete the patient's and user's information. While the receptionist can only add new patients and make changes to existing ones, patients' information can be updated.
+
+Functional decomposition diagram
+
+Figure 6. Functional Decomposition Diagram
+
+It demonstrates the developed system's process in its entirety, step by step. The user would have an easier time understanding and utilizing the system if it were constructed in this manner. It illustrates the processes and functions that occur at lower levels of the system. It is clear from looking at the diagram that the physicians have complete access to the system. The administrators were in charge of the doctors, and they were responsible for their duties.
+
+System flowchart
+
+Figure 7. System Flowchart
+
+The flow of information through the system is depicted on the system flow chart. It begins with the user logging in and continues with the encoding of the patients' information at the Animal Bite Center, which is located at the City Health Office 02 of Cauayan City, Isabela. And conclude with the information about the patient being saved into the database.
+
+Entity Relationship Diagram
+
+Figure 8. Entity Relationship Diagram
+
+The databases that the users will be responsible for entering into the system are depicted in the figure that can be found above. The ERD for the Patient Record Management System at the Animal Bite Center provides information regarding the entity relationships present in each entity as well as the presumed functions that are associated with each connection. The ERD of the system contains a summary of these features as well. The transactions that have been carried out within the system are documented in the form of reports, where the component parts are also mentioned and recorded.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+Figure 9. Waterfall Model
+
+The waterfall model is one of the most common and classic life cycle models, also referred to as a linear-sequential life cycle model. It is based on the factory assembly-line process. It follows a structured sequential path from requirements to maintenance, setting out milestones at each stage which must be accomplished before the
+
+Analysis
+
+System Analysis includes the data gathering where researchers conducted call interviews and met the respondents' expectations to meet the specifications. Software definitions must be reliable, valid, accurate, and efficient. The respondents must be familiar with the requirements and expectations.
+
+Requirement Specification
+
+This phase captures all possible requirements for the system to be developed. The researchers thoroughly analyze the needs that best fit the goals of the project, considering functional requirements for the intended application.
+
+Design
+
+The researchers generated the initial graphical user-interface designs and the program coding. In addition, the researchers design internal and external controls, including computer- based and manual features, to guarantee that the system will be reliable, accurate, and secure.
+
+Development
+
+The researchers created a system for recording patients in the Animal Bite Center to be more accurate, faster, and have a more reliable way of transaction. This system was created using Microsoft Visual Studio Express 2012 and XAMPP.
+
+Testing and Integration
+
+The system is divided into units, each of which is built and tested for functionality.
+
+During the Integration phase, all units are combined into a whole system and tested to ensure that all modules communicate the system performs as expected.
+
+Implementation/Deployment
+
+The implementation phase involves installing the approved application into the agency.
+
+The researchers finalized the system to check whether the system has errors and mistakes so the system can use by the agency without any problems.
+
+Development and Testing
+
+Data Gathering Procedure
+
+The researchers surveyed to gather data for this study. The researchers visited the agency and interviewed certain staff for additional information as part of the data collection process
+
+Interview The researchers conducted an actual face-to-face interview in the office to gather factual data regarding their way of recording. Questions are being asked to both members and staff of the Animal Bite Center in CH02
+
+Observation The researchers used this method to gain the accurate information needed in developing this application.
+
+Internet Research Was also used by the researchers to gather additional data and information that could not be found in a library. This is the best alternative way for library research as it contains most of the information in today's technology world in terms of online record management systems. This method also helped the researchers to have an overview and knowledge.
+
+Data Analysis Plan
+
+Table 1. Five-point Likert's Scale with Equivalent Weight Mean and Interpretation
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers used this formula:
+
+% = × 100
+
+Where:
+
+%= percentage
+
+f- frequency
+
+n = number of respondents
+
+B. For finding the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+WM = f(1)+(2)+f(3) = f(4)+f(5) N
+
+Where:
+
+WM-Weighted Mean
+
+F= frequency
+
+N- Number of Respondents
+
+Different Software Testing
+
+Testing-This process determines the functionality of the Animal Bite Center Patient Record Management System. The researchers conducted a series of tests and system testing to confirm that the system's capabilities were working properly.
+
+Unit Testing-The researchers used unit testing to is to validate that each unit of the software code performs as expected. This enhances the design and enables better code reworking. Additionally, it prevents an error from affecting the entire system.
+
+Integration Testing - The researchers conducted integration testing to evaluate the
+
+compliance of the system or component with specified functional requirements. This method involves testing the entire system's flow to see if it functions correctly
+
+Compatibility Testing - The researchers tested the developed Animal Bite Center
+
+Patient Record Management in a different operating system. They can use the system with an Operating system of 7 or higher.
+
+Performance Testing - The researchers tested the performance of the system
+
+processes for viewing, inputting, and generating an annual report on various Computers and laptops
+
+System Testing In this part, technical and functional testing was performed, which
+
+involves evaluating and verifying that the software does what it is supposed to do. To prevent bugs and improve performance. Some staff offered recommendations or suggestions for how to improve the system.
+
+Acceptance testing - The researchers conducted an evaluation during the introduction of the system to the administrator for implementation, the administration conducts this testing to decide whether to approve the system.
+
+System Architecture
+
+Figure 10. System Architecture
+
+This figure shows the flow of transactions on how the admin and user interacted with the system. It also shows the connection in one server processes the data for viewing, inputting, and changing data,
+
+Implementation Plan
+
+Table 2. Implementation Plan
+
+This table outlines the steps the researchers should take to accomplishing the system's objectives. This plan combines strategy, process, and action and will include all parts of the project from the scope and beyond
+
+Implementation Results
+
+The result of implementation was successfully conducted to the proposed system and implemented at Animal Bite Center in City Health Office 02 Center for them to have a computerized patient recording. And also reduce time wasted in manual recording. The system was tested and implemented.
+
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by phase of study
+
+This Chapter explains the results from gathering data through evaluation for Animal Bite Center in City Health Office 02 Cauayan City
+
+1. Assessment of the Current Manual System
+
+Table 3. Weighted Mean and Descriptive Interpretation of the Manual Process in Terms of Recording
+
+The table shows the weighted mean and descriptive interpretation of respondents on the problem encountered in the manual system in terms of Paper-based Recording.
+
+The table shows the weighted mean of responses and descriptive interpretations of the problems encountered by the respondents in the use of manual systems in terms of Paper-based recording. The table reveals that item 1, "The Information is not Accurate." got a grand mean of 3.75, being the highest with a descriptive interpretation of" A Problem," while on the other hand, item number 2, "Time-Consuming in locating a record." got a grand mean of 2.25 with a descriptive interpretation of "Less Problem”
+
+Table 4. Weighted Mean and Descriptive Interpretation of the Manual Process in Terms of Reliability
+
+The table shows the weighted mean of responses and descriptive interpretations of the problems encountered by the respondents in the use of manual systems in terms of Reliability The table reveals that item 1, "There are missing files and documents." got a grand mean of 3.25. being the highest with a descriptive interpretation of" A Problem," while on the other hand, item number 2, "Information and Records are not Secured." got a grand mean of 2.75 with a descriptive interpretation of "A Problem."
+
+The analysis shows that the Reliability of the current system got an overall mean of 2.75. Therefore, the interpretation shows that the respondents encountered problems in the current system in terms of Reliability.
+
+Table 5. Weighted Mean and Descriptive Interpretation of the Manual Process in Terms of Security
+
+The table shows the weighted mean of responses and descriptive interpretations of the problems encountered by the respondents in the use of manual systems in terms of Security. The table reveals that item 1, "Records are confidential." got a grand mean of 3.5, the highest with a descriptive interpretation of Much A Problem." On the other hand, item number 2, Only Access by authorized person." got a grand mean of 3.25 with a descriptive interpretation of "A Problem."
+
+Further analysis shows that the security of the current system got an overall mean of 3.38. therefore, the interpretation shows insufficient protection for the safety of the files and records.
+
+2. Assessment of the Proposed System
+
+Table 6. Weighted Mean and Descriptive Interpretation of the Proposed System in terms of Functionality
+
+Analysis shows that the of the proposed system. Item number 2, which says "The System suited for Animal Bite Center CH02." got the highest weighted mean of 4.25 with the descriptive interpretation "Strongly Agree." While item number 1, which says "The System is Executing its functions." got the second-highest weighted mean of 3.75 with the descriptive interpretation "Agree."
+
+Further analysis shows that the respondents found the proposed system very acceptable in terms of Functionality with the grand mean of 4, which is interpreted as "agree." It shows that the proposed developed system performed its Functionality.
+
+Table 7. Weighted Mean and Descriptive Interpretation of the Proposed System in terms of Usability
+
+The table shows that the developed system is found very acceptable by the respondents in terms of usability with the weighted mean of 4.08 which is interpreted as "agree". The Analysis of the proposed system. Item number 1, which says "The Automated system is easy to use," got the highest weighted mean of 4.25 with the descriptive interpretation "Strongly Agree." While item number 2, which says "Easy to operate and control the function of the system," got the lowest with grand mean of 3.5 with the descriptive interpretation of "Agree", and item number 3. which says "Easy to understand the function of the system," got the second-highest weighted mean of 4.5, with the descriptive interpretation "Agree."
+
+Further analysis shows that the respondents found the developed system very acceptable in terms of Usability, with the weighted mean of 4.08, interpreted as "agree. "The developed system is reliable and performs correctly during the specified time duration. It can perform the system's features well, and easy to understand the functions of the system.
+
+Table 8. Weighted Mean and Descriptive Interpretation of the Proposed System in terms of Reliability
+
+The table shows that the respondents found the developed system very acceptable in terms of Reliability with a weighted mean of 4.08, interpreted as "agree" The Analysis of the proposed system. Item number 2, which says". No Missing files and Documents", and item number 3, which says "Easy to find the files," got the same highest weighted mean of 3.75 with descriptive interpretation if "Agree." Item number 1 says "No Missing files and Documents," with the weighted mean of 3.5 with a descriptive interpretation of Agree.
+
+Further analysis shows that the respondents found the developed system very acceptable in terms of Reliability, with the weighted mean of 3.67, interpreted as "agree. "The developed system is reliable and performs correctly during the specified time duration. It can perform the system's features well, providing reliable information such as showing the patient list and quarterly reports and searching for patients' information.
+
+Table 9. Weighted Mean and Descriptive Interpretation of the Proposed System in terms of Security
+
+Table Shows that the respondents found the developed system very acceptable in terms of security with the weighted mean of 4, which is interpreted as "Agree." In the analysis of the proposed system, Item number 1 says," Records and Information are Secured. "Item Number 2 says, "Login password is strength." Item number 3, "Accessible only to an authorized person," got the same weighted mean of 4 with the descriptive interpretation of "Agree."
+
+This means that the security of the developed system is secure because of the system including data and password encryption. The developed system can only access an authorized user for the security of the system like if an unauthorized user will log in it will not allow it.
+
+Table 10. Weighted Mean and Descriptive Interpretation of the Proposed System in terms of Performance
+
+Table Shows that the respondents found the developed system very acceptable in terms of security with the weighted mean of 4, which is interpreted as "Agree." In the analysis of the proposed system, Item number 1 says, "Performing properly" with a weighted mean of 4 with the descriptive interpretation of "Agree," Item number 2 which says Easy to access with a weighted mean of 4 and item number 3, which says "The capacity is in maximum limits" with a weighted mean of 4 with a descriptive interpretation of "Agree."
+
+Further Analysis shows that the developed system is functionally suitable for all the modules, such as giving the completeness of the specified tasks and user objectives, ie, registration, transaction, and annual report generation, also giving the correctness of results with the needed degree of precision in the announcements, accomplishments, and services programs.
+
+Lastly, in giving the appropriateness to which the functions facilitate the attainments of stipulated assignments and intentions that are timely needed in all aspects of the organization.
+
+Table 11. Summary of Mean rating distribution and its Descriptive Interpretation of the Proposed System
+
+The analysis shows that the Reliability of the proposed system got the lowest weighted mean of 3.67 with the descriptive interpretation of "AGREE." In contrast, the proposed system's Functionality, Security, and Performance got the highest weighted mean of 4 with the descriptive interpretation of "AGREE."
+
+Furthermore, this may mean that the developed system can appropriately perform the required modules such as account settings, patient record management, and quarterly report generation. In addition, the system provides all the necessary feature.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+Patient Record Management System, also known as the Animal Bite Center Patient Record Management System, is an organization's management of the documents and data during the record life-cycle,
+
+The Analysis shows that most of the staff encountered the problems on the current manual process regarding security as being the highest with a category mean of 3.38 with a descriptive interpretation of "A Problem." While Reliability is the lowest with a category mean of 2.75 with a descriptive interpretation of "A Problem." it proves that the staff has a problem using the manual process of patient record management.
+
+The Analysis shows that the majority of the respondents responded with regards to the evaluation of the "Animal Bite Center Patient Record Management System" in terms of Functionality with a weighted mean of 4, while Usability a highest with a general weighted mean of 4.08, Reliability with a mean of 3.67, Security and Performance with a weighted mean of 4. And an overall grand mean of 3.95 interpreted as "Agree."
+
+Furthermore, this may mean that the developed system can appropriately perform the required modules such as, patient record management, logs, and quarterly report generation. In addition, the system provides all the necessary features 
+
+Conclusions
+
+Based on the finding of the study, the following conclusion was identified
+
+1. It has been noted that the use of the manual recording in Animal Bite Center in City Health Office 02 has encountered numerous problems in terms of; recording, with an average weighted mean of 3.25 interpreted as a "Fairly Agree" while reliability has an average weighted mean of 2.75 interpreted as "A Problem" and Security with an average weighted means of 3.38 interpreted as "A Problem." this proves that the staff of Animal Bite Center in CH02 has a problem using manual process of patient record management.
+
+2 The proposed system was tested and evaluated by the staff of Animal Bite Center in City Health Office 02. In terms of; Functionality, with an average weighted mean of 4, which is interpreted as an "Agree," it means that the developed system performed its functionality, Usability with a grand mean of 4.08 is interpreted as an "Agree, " Reliability with the weighted mean of 3.67 which is interpreted as "Agree," Security with the grand mean of 4 which is interpreted as "Agree," and Performance with a grand mean of 4 and interpreted as "Agree." and an overall grand mean of 3.95 interpreted as "Agree." This means that the developed system can really help the staff of the Animal Bite Center in CH02.
+
+Recommendations
+
+1. For More Accurate Information a website is Recommended in Development and Significance of the Animal Bite Center Patient Record Management System in City Health Office 02 Cauayan City is to be implemented for Online Appointment
+
+2. The use of online platform to validate system results may be implemented.
+
+3. Implement a security algorithm to improve the security features may be encouraged,
+
+4. Add a Back-up and Restore Feature of the Database
+

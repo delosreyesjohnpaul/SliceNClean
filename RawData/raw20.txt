@@ -1,0 +1,448 @@
+Ai-Based Mobile Application for Flower Identification Estoque, Krisha Valerie M. Lagat, Jenilyn C. Lagunilla, Ma. Dorothea S. January 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and
+
+Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Estoque, Krisha Valerie M. Lagat, Jenilyn C. Lagunilla, Ma. Dorothea S. January 2023
+
+
+
+
+ABSTRACT
+
+This research paper presents the design, development and evaluation of a flower species classifier android application. The app utilizes image recognition technology to identify various flower species through the analysis of images taken by the user with their mobile device. The goal of the app is to aid in the identification and classification of flowers for recreational and educational purposes.
+
+The design of the app was based on a convolutional neural network (CNN) model trained on a dataset of flower images. The dataset consisted of over 1000 images of different flower species, with a diverse range of variations in lighting. angles, and backgrounds. The CNN model was trained and evaluated using the latest deep learning techniques and tools, such as transfer learning and data augmentation. The development of the app was done using Android Studio, with Kotlin and XML as the primary programming languages. The user interface was designed to be simple, intuitive and user-friendly, with features such as a camera function, gallery access, and a search function. The app also includes a database of information about each flower species, including its scientific name, common name, and characteristics.
+
+The evaluation of the app was done through a series of user testing, where participants were asked to use the app to identify a set of flower images. The results of the user testing showed that the app had a high accuracy in identifying flower species, with an average accuracy of 95%. The app also received positive feedback from users, who found the app to be easy to use and informative.
+
+The flower species classifier android app developed in this research is a reliable and user-friendly tool for the identification and classification of flowers. The app's high accuracy, combined with its user-friendly design, makes it a valuable resource for both recreational and educational purposes. The app can be further improved by expanding its database and incorporating more advanced features such as real-time flower identification.
+
+
+
+
+CHAPTER I INTRODUCTION
+
+Project Context
+
+Flowers have always been an integral part of human life, serving as a source of beauty, fragrance, and even as a symbol of love and affection. The Philippines, being a tropical country, is home to a wide variety of flowers that bloom throughout the year. From the delicate orchids to the vibrant hibiscus, these flowers add color and beauty to the country's lush landscape.
+
+Artificial intelligence (AI) has the potential to revolutionize many fields, including the classification of different types of flowers. With the ability to analyze large amounts of data and make accurate predictions, Al can greatly aid in the identification and categorization of various species of flowers.
+
+One way in which Al can be used for flower classification is through the use of machine learning algorithms. These algorithms can be trained on a large dataset of images of flowers, along with their corresponding labels (e.g., rose, daisy, lily). The algorithm can then use this training data to identify patterns and features that distinguish one type of flower from another.
+
+Another approach to using Al for flower classification is through the use of computer vision techniques. These techniques involve the use of algorithms to analyze and understand images, allowing for the automatic identification of objects and features within the image. This can be particularly useful for identifying flowers in the wild, where labels may not be readily available.
+
+There are many potential applications for using Al to classify different types of flowers. For example, it could be used to help botanists and horticulturists identify and catalog new species of flowers. It could also be used by florists and gardeners to help them choose the most appropriate flowers for a particular location or occasion. Additionally, Al-based flower classification could be used in the development of automated systems for greenhouses and agricultural settings, allowing for more efficient and effective cultivation of flowers.
+
+Overall, the use of Al for flower classification has the potential to greatly improve our understanding and appreciation of the diversity and beauty of the natural world.
+
+Image recognition is a system used by different sectors in recognizing unwanted objects upon discovery by scientists. Massive innovations in technology have introduced many applications that help lessen time and human effort consumed in performing a certain task, and this is where the benefits of using image recognition come in (Yamane et al., 2022).
+
+Objectives of the Project
+
+This study aims to develop a mobile application using Convolutional Neural Network (CNN) to classify some of the most common flowers found in the Philippines. Specifically, it aims to:
+
+1. Collect and build a dataset of images of different types of flowers that are commonly found in the Philippines;
+
+2. Analyze the results of training the CNN model;
+
+3. Evaluate the mobile application using ISO 25010 in terms of Functionality, Efficiency, Compatibility, Reliability, Usability, Security, and Maintainability.
+
+Scope and Limitations of the Study
+
+Scope
+
+The study will focus on developing and evaluating a mobile app that uses artificial intelligence (Al) to classify different types of flowers.
+
+The app will be designed to work on smartphones and tablets running the Android operating system only.
+
+The app will use Convolutional Neural Network algorithm to classify flowers based on input image from the user.
+
+The app will include a database of common flower species that are commonly found in the Philippines, and will be able to classify both common and rare types of flowers.
+
+The app will be able to provide information about the care and cultivation of different types of flowers after classifying them.
+
+All of the functionality of the app can be used without the need of internet connection.
+
+Limitations
+
+The app will not be able to classify flowers with 100% accuracy, as there may be variations in flower appearance and characteristics that the Al is not able to accurately identify.
+
+The app will be limited to classifying flowers that have been included in its database. If a flower species is not in the database, the app will not be able to classify it.
+
+The app will not be able to identify flowers that have been artificially altered, such as dyed or modified with plastic or other materials.
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+Traditional Methods of Identifying Flowers
+
+According to Ibiblio (2018), identification is a fundamental activity and one of the key goals of systematics. Although identification is a distinct activity or process, classification and nomenclature are both involved in practice. Identification is simply determining the similarities or differences between two elements, i.e., if two elements are the same or not. When comparing an unknown plant to a named specimen and determining that the two elements are the same, classification is also involved; that is, when one correctly determines that an unknown belongs to the same group (species, genus, family, etc.) as a known specimen, the information stored in classification systems becomes available and applicable to the material at hand.
+
+According to Stieglitz et al. (2018), in terms of dependability or accuracy, expert decision is the best method of identifying. In general, specialists have published treatments (monographs, revisions, and synopses) of the group in question, and it is likely that more current floras or manuals use the expert's taxonomic principles. Botanical gardens, herbaria, museums, colleges, and universities are common places to find experts. However, despite its high reliability, this method has the disadvantage of demanding the valuable time of experts and causing identification delays.
+
+According to Jones (2021), another method for identifying flowers is by using "key". Many plant manuals, plant identification books, and field guides contain these tools.
+
+A key is a set of questions or statements about a specific plant feature. You must decide if they are "true" (if the description in the key matches the plant's physical appearance) or "false" (if the description does not match the physical appearance of the plant). Beginning with comments or questions concerning more prominent or visible traits, such as branch or leaf direction or foliage color, a key will be created. As you progress through the key, statements or questions become more focused on minor details, such as the presence or absence of leaf hairs or floral elements. Following is a very simplistic example to demonstrate this tool.
+
+According to Mili (2022), the process of matching a specimen (plant) to a recognized taxon is known as plant identification. It employs a variety of techniques. The following are the most frequent ways for recognizing plants:
+
+1. The expert's determination
+
+2. Recognition
+
+3. Comparison to illustrations/photographs/literature. known herbarium specimens or
+
+4. Using DNA Bar Coding and molecular methods (the process of identifying plant species through the amplification and sequencing of specific and conserved regions of plant DNA).
+
+5. Making use of keys.
+
+According to Schobeck et al. (2021), taking note of when and how a weed emerges and flourishes might help with identification. Summer annuals are primarily frost-sensitive, appearing between the spring frost-free date and late summer, and dying with the first fall frost. Winter annuals can appear at any time between the end of summer and the beginning of the next spring, flower and set seed in the spring or early summer, and then dry up with the arrival of hot weather. Thus, a weed that survives a fall frost is almost surely not a summer annual like pigweed, purslane, or galinsoga, and a weed that is succulent and vegetative in July is almost certainly not a winter annual like henbit or yellow rocket.
+
+According to Davis (2022), Plant species identification has traditionally depended mainly on physical characteristics. However, vegetative traits are highly variable between individuals and frequently too plastic to be used for species identification (plasticity: the deviation of the mean phenotype of a genotype (the sum total of the genes contained in the chromosomes of eukaryotes) within an environment from the mean phenotype of that across all environments). However, the relevance of floral traits for identification is limited by their absence from the plant for much of the year and the absence of flowers in small plant species. Many times, the amount of material given is insufficient to allow identification using standard methods.
+
+The guidebook by Boke (2020) provides a comprehensive overview of the manual methods used for identifying plants and flowers, including the use of morphological characteristics, such as leaf shape and flower color. It also includes illustrations and photographs to aid in identification.
+
+The book "A Field Guide to Wildflowers" by Hough (2019), provides a comprehensive introduction to the manual identification of wildflowers, including detailed descriptions and illustrations of common species found in North America.
+
+The book "Manual of the Vascular Flora of the Carolinas" by Weakley (2015), provides a comprehensive overview of the manual identification of vascular plants found in the Carolinas, including detailed descriptions and illustrations of common species.
+
+Thompson (2022) provides a comprehensive introduction to the manual identification of ferns, including detailed descriptions and illustrations of common species found in North America in his book "A Field Guide to Ferns and Their Related Families".
+
+According to an article by Plant Snap (2019), given the staggering variety of flowers in the world (over 400,000, in fact), it's a daunting task to learn plant and flower identification. That figure doesn't even include the subspecies, varieties, and breeds that you can find within many specialty garden stores.
+
+According to Simpson (2019), one more commonly used method of plant identification entails acquiring one or more DNA sequences of one or more candidate genes and comparing these with a repository of genes associated with plant taxa. Generally, short orthologous sequences, known as "barcodes.”
+
+According to the book "Botany in a Day" by Elpel (2018), Botany is the study of patterns seen in plants. Plants that are related exhibit similar traits, and botanists have classified them based on these patterns of similarity. Botanists have essentially established a filing system in which all plants with one pattern are placed in one file folder, all plants with another pattern are placed in another, and so on. The better you understand these patterns, the more accurately you will be able to identify plants.
+
+According to Simpson (2022), With so many various types of plants available, it might be difficult to tell them apart. However, you do not need a botany degree to begin naming the plants you come across. Learning to recognize different species begins with carefully analyzing the plant's distinctive physical traits and recording what you see. You can then use other resources, such as a plant identification guide or the expertise of a local wildlife specialist, to make a positive identification and expand your understanding of the natural world.
+
+According to an article written by Masterclass (2022), identifying flowers can make a difference during a critical survival situation in the wild or simply help you identify an unknown plant that sprouts up in a garden.
+
+According to Boom (2021), flower/plant identification begins with observation.
+
+You have to observe the qualities of the unknown, but to do that accurately so you know what to look for when you are using a key-you need to know some plant basics: the difference between perennial and annual plants, for example, and some general information about plant parts-flowers, leaves, roots, seeds, and fruit.
+
+According to the Red Seal Landscape Horticulturist Identify Plants and Plant Requirements (2019), Taxonomy, a branch of botan, is described as the systematic classification, naming, and identification of plants. This systematic system classifies related plants with comparable features into taxa and assigns a unique name to each taxon. Botanists currently use DNA sequencing and biochemistry to decode the evolutionary history of plant connections, in addition to morphology (external form) and anatomy (interior structures). Taxonomy has evolved as a field over centuries of botanical study, and this knowledge is available to plant identification students.
+
+According to an article by Incognita (2019), Today, fewer and fewer individuals can accurately recognize a significant number of species and place their existence in an ecological context - herbaceous plants, in particular, are difficult for laypeople to discern. Plants appear as a homogenous green mass to the inexperienced eye. Even a " field of flowers" is regarded by many people merely as "grass". Even for expert scientists, exact plant identification is frequently a big challenge.
+
+The Use of AI to Identify Flowers
+
+According to Matas and Sulc (2018), interest in methods for visual classification of plants has grown recently as devices equipped with cameras became ubiquitous, making intelligent field guides, education tools and automation in forestry and agriculture practical.
+
+Belhumeur et al. (2019) discussed the use of such a system in the field allowing a botanist to quickly search entire collections of plant species-a process that previously took hours can now be done in seconds. Plant recognition has been posed, almost without exceptions, as recognition of photos depicting solely a specific plant organ such as flower, bark, fruit, leaf or their combination
+
+According to Hai & Le (2019), there are two main approaches for plant identification based on image of the plant organs using image processing: (1) hand- designed feature and deep learning. Hand-designed features pertain to the manual extraction of features on an image such as the color, shape, and texture. For instance, the work of Nilsback et al. (2019) extracted different type of feature such as HSV values, MR8 filter, SIFT, and Histogram of Oriented Gradient (HOG) on a dataset that consists 17 types of flowers. After that, the hand designed-features are trained using traditional Machine Learning algorithms like the Support Vector Machine (SVM).
+
+Naggy & Zou (2018) introduced a user-interactive approach computer-assisted visual interactive recognition (CAVIAR) that extracts shape features from a rose curve model, as well as hue and saturation color moments.
+
+On the study of Sun et al. (2018), Plant image identification has become an interdisciplinary emphasis in botany and computer vision. The first plant image collection gathered by cell phone in a natural scenario, containing 10,000 photographs of 100 decorative plant species on the Beijing Forestry University campus, is given. For large- scale plant categorization in the natural environment, a 26-layer deep learning model with 8 residual building components is constructed. On the BJFU100 dataset, the suggested model achieves a recognition rate of 91.78%, suggesting that deep learning is a promising approach for smart forestry.
+
+According to Jones (2020), given the recent surge in image recognition technology development and its application to automated plant identification, it is essential to evaluate its possibilities for field botany.
+
+According to Kegan (2020), PlantSpot, a plant education and ID software accessible only for iOS devices, provides quick and easy plant identification. All you have to do is take a photo, upload it to the app's server, and you'll get your results right away. This app recognizes all flowers, plants, and trees using artificial intelligence technology and machine learning. PlantSpot will also tell you everything you need to know about the plant, how to care for it, and when it's time to water and fertilize it.
+
+According to Partel (2021), Automated image-based plant identification has advanced rapidly and is now employed in research and environmental management. However, research is needed to determine how accurate automatic plant identification is and whether the properties of observations and study species influence the results.
+
+According to Holmes (2021), there are several apps right now that use Artificial Intelligence to identify plants and flowers. One of these apps is the iNaturalist. Artificial intelligence is utilized to instantly identify all types of plants and wildlife, and it also functions as a social network for naturalists, allowing you to record and share observations of plants, add them to the database, and then ask the community for assistance in identifying your finds. The California Academy of Sciences and the National Geographic Society collaborated on iNaturalist.
+
+Chen & Hsu (2021), proposed a classification method based on weighted Euclidean distance, HSV color model characteristics, and floral boundary form. They also collected color and shape characteristics from the floral center area. This strategy, however, necessitates manual user interaction.
+
+According to Hiary et al. (2018), Deep learning techniques, particularly CNN- based algorithms, have recently been proposed to handle the flower categorization challenge. CNNs have recently sparked a lot of interest in solving a variety of learning problems due to their greater accuracy when compared to traditional methods. They have lately been applied in a number of natural picture classification tasks.
+
+There are a few papers in the literature that employ CNN to solve the flower categorization problem. Song et al. (2018), for example, coupled a two-level hierarchical feature learning (HFL) with a deep CNN to solve the problem. They began by initializing a pre-trained deep CNN model for the new target dataset using the HFL transfer-learning method. The deep feature extractors were then trained at various degrees. When compared to previous categorization algorithms, this strategy effectively boosts the classification accuracy.
+
+Bakhtiary et al. (2019), recently presented a method for reducing the processing time of the CNN forward and backward propagation phases utilizing winner takes all (WTA) hashing (2017).
+
+Zhang et al. (2018), introduced a hierarchical deep semantic representation (H- DSR) that blends semantic context modeling with visual data in a novel method. Deep CNN characteristics were collected from spatially defined image grids and used with pre- learned classifiers to detect a response map. Following that, the response map was utilized to extract semantic representations, which were then integrated with visual representations to construct a hierarchical deep semantic model.
+
+Xu et al. (2017), suggested a method for flower categorization based on the CNN Inception model. The approach was tested on the Oxford 17 and Oxford 102 datasets and yielded promising results.
+
+Wei et al. (2017), suggested a selective convolutional descriptor aggregation (SCDA) strategy based on unsupervised fine-grained image retrieval in several applications including flowers. The proposed method depends on detecting the principal item in an image to build deep descriptors for image categorization, hence no annotation was required to cluster the objects.
+
+The study of Chen et al. (2018), explores the use of deep learning algorithms for accurately identifying plant species and diagnosing plant diseases. The authors propose a multi-task deep learning model that utilizes both image and text data to achieve high classification accuracy.
+
+A Comparative Study of CNNs for Plant Identification by Al-Jumaily et al. (2019), compares the performance of different convolutional neural network (CNN) architectures for plant identification using a dataset of images of leaves. The authors find that a ResNet-based architecture outperforms other CNN architectures in terms of accuracy.
+
+Li et al. (2020), summarizes recent advances in the use of deep learning for plant identification, including the use of CNNs, transfer learning, and data augmentation techniques. The authors also discuss future research directions in this field.
+
+A Survey of Plant Identification Techniques by Tiwari et al. (2020), provides an overview of various techniques used for plant identification, including traditional methods and newer techniques that utilize computer vision and machine learning.
+
+"Plant Identification using Deep Learning and Transfer Learning" by Zhang et al. (2019), explores the use of transfer learning for plant identification using deep learning. The authors propose a model that utilizes a pre-trained CNN to extract features from images, which are then fed into a classifier for plant identification.
+
+"Plant Leaf Recognition using Deep Learning" by Al-Ani et al. (2018), proposes a deep learning-based approach for recognizing plant leaves using a dataset of leaf images. The authors find that a CNN-based model outperforms traditional machine learning methods in terms of accuracy.
+
+Al-Hakim et al. (2020,) presented an Al-based approach for automatically identifying medicinal plants using a dataset of images. The authors propose a CNN-based model that achieved high accuracy in identifying different plant species.
+
+"Deep Learning for Plant Identification: A Case Study" by Liu et al. (2019), this case study applies deep learning techniques to a dataset of images of plants collected in the wild. The authors propose a CNN-based model that achieved high accuracy in identifying different plant species.
+
+The study of Li et al. (2018), proposes a method for plant identification that combines deep learning and local binary patterns (LBP) techniques. The authors find that the combination of these techniques results in improved accuracy compared to using either technique alone.
+
+The study of Wang et al. (2019), compares the performance of different deep learning architectures for plant identification using a dataset of images of leaves. The authors find that a CNN-based architecture outperforms other deep learning architectures in terms of accuracy.
+
+On a study by Namire (2019), Using NVIDIA GPUs and cuDNN with the TensorFlow deep learning framework, they trained the neural networks on their massive database of images that have been labeled by the site's community of experts. Currently, they are able to identify 10,000 different species of plants and are adding new species to the model every 1.7 hours.
+
+According to Bennett (2018), PlantSnap app is an app that uses artificial intelligence to identify around 316,000 different species of plants. PlantSnap works by taking close up photos of the leaves or flowers of a plant. The app then uses its own proprietary artificial intelligence to compare the plant to other flora in its database. PlantSnap's use of artificial intelligence for identification means that the more people that use it, the smarter it gets.
+
+According to Ledford (2018, researchers say that computer algorithms trained on photos of thousands of preserved plants have learned to automatically identify species that have been pressed, dried, and mounted on herbarium sheets. The study, which was published on August 11 in the journal BMC Evolutionary Biology, is the first attempt to use deep learning an artificial-intelligence technique that teaches neural networks using large, complex data sets to tackle the difficult taxonomic task of identifying species in natural-history collections.
+
+According to Co & Marr (2021), the artificial intelligence technology behind the latest plant identification apps is particularly impressive because it has learned to recognize and categorize over 300,000 classes. That kind of volume requires millions of training images, particularly because so many plants look similar to each other. While the app experiences are simple and intuitive, and the results that users get back are useful and accurate, the technology happening behind the scenes is powerful. It puts the vast databases of the natural world right in the palms of our hands which is a tremendous breakthrough for hobbyists, serious, gardeners, and environmentalists alike.
+
+Concept of the Study
+
+Figure 1. Conceptual Model of the Study
+
+Figure I shows the conceptual framework of this study. The input is the flowers dataset which consists of the different types of flowers collected for the training and evaluation of the CNN model. After the flower dataset has been collected, the CNN model was trained using the dataset and then evaluated to measure the classification accuracy. After the model evaluation, the model is then deployed to the designed mobile application.
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram of Existing Procedure
+
+The figure above shows the data flow diagram. The flow of data begins from the user who captures photo. The photo will be cropped to focus only on the most important part of the picture which is where the flower is located. After cropping the image, it is processed by the trained classification model. Afterwards, these data on findings will be forwarded to the user along with relevant information about the flower.
+
+Fishbone Diagram
+
+Figure 3. Sample Fishbone Diagram of Existing Procedure
+
+The illustration above is the fishbone diagram of the system. There are two main causes for the problem of inefficient method for identifying flowers. These causes are the knowledge about the flowers and the methods of identifying it. In the flower's knowledge, the sub-causes are lack of reliable knowledge about it and lack of knowledge in the classifications of flowers. In Identification, it was very slow.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt Chart of the Capstone Project
+
+The figure above shows the Gantt Chart as a way to visualize the progress of tasks and milestones in this study. The study officially started in September where the researchers started to gather relevant information from different literature about the implementation of image classification on mobile devices. The documentation of this paper started on the second week of September. The system development started in October which includes all the testing and implementation.
+
+Requirements Documentation
+
+Technical Background
+
+Materials
+
+1.1.1 Software
+
+Table 1. Software Requirements for Flower Identifier Mobile Application
+
+The table above shows the software requirements. For the researchers/developers, that is Windows Operating System running on version 10 or 11. Regardless, they should have Android Studio installed as well as the Java Software Development Kit because Java is the programming language used to develops the system.
+
+1.1.2 Hardware
+
+Table 2. Hardware Requirements for Flower Identifier Mobile Application
+
+For researchers/developers, they should have a personal computer (can either be windows or mac). But it should have a CPU with minimum of 1.90 GHz and a RAM with minimum of 8GB. This is because they will be running Android Studio which is known to be resource extensive. On the other hand, the App User just needs an Android phone running on Android 8 or higher.
+
+1.1.3 Data
+
+Table 3. Data Requirements for Flower Identifier Mobile Application
+
+For data requirements, the researchers/developers and app user just need to provide the details about their computer. The system automatically collects to know if it can be installed in that machine. Also, camera and storage permission must be allowed so that the camera photo data which is created after capturing a photo can be stored for later processing by the Al that identifies plants according to their leaves.
+
+Use Case Diagram
+
+Figure 5. Use Case Diagram of Flower Identification System
+
+The illustration above shows the use case of the system. For the system administrator i.e., the researchers/developers, they can access the information about the plants, create and manage the dataset, use the system's functionality, code generation and basic data management such as editing, removing, and updating existing data. Meanwhile, the user can have access to the system's functionality and information about the flowers.
+
+Functional Decomposition Diagram
+
+System Flowchart
+
+Figure 6. System Flowchart Diagram of Flower Identification System
+
+On the figure above, it shows that the system starts with the app being opened. If it was the first time opening it in the device, it will ask for permission to use the camera. If the user declines, the app will terminate. However, if the user allowed it, it would open the camera and offer two options to the user, identify a plant or access the plant library. If the user wants to identify plants, he/she should capture some photo of plant leaves then wait for the Al to process it. On the other hand, if the user wants to access the plant library, the system will load it and the user can read through the material. After this, they could have the option to terminate app or go back to choosing whether to identify plant.
+
+Entity Relationship Diagram
+
+Figure 7. Entity Relationship Diagram of Flower Identification System
+
+Since the system aims to identify flowers according to their visual features such as the shape of the petals, and the color of the flowers. There is no user log in system or sign up, the entity relationship diagram is fairly simple. It only composes of information about the flowers which is where the plant library will be loaded from, and a plant dataset for Al to train on. This flowers dataset composes of many pictures of flowers so that the Al could recognize specific flower pattens for specific plants.
+
+Description of the Prototype
+
+System Architecture
+
+System Architecture Layout
+
+Figure 8. System Architecture of Flower Identification System
+
+The system architecture of Flower Identification shows how the different components fit together. First, the android device which the system will be running on has access to plant database which contains all information about the plants. Also, it has access to the Al that will process the images. Lastly, this Al accesses the plant dataset which contains a lot of pictures about the leaves of plants to train itself to be more accurate in recognizing.
+
+Development and Testing
+
+Data Gathering Procedure
+
+To gather the necessary data, the researchers prepared a letter seeking the approval of the concerned authority. After seeking approval, the researcher prepared the questionnaires, have them checked and approved by the research adviser and then administer the questionnaire to the respondents. The respondents were staff of City Agriculture. This questionnaire aimed to determine if each feature of the system is working properly.
+
+Then, the researchers tallied the responses according to the questions in the statement of the problem. Then, the responses were put into tables and graphs and interpreted and analyzed them.
+
+Data Analysis Plan
+
+After the data gathering procedure, the questionnaire will be tabulated below by calculating for mean (M) and standard deviation (SD). It will be then interpreted according to the following guidelines which were based on the utilized five-point Likert scales.
+
+Table 4. Likert Scale Statistical Treatment Tool
+
+Data were analyzed using the frequency count and weighted mean using the scale below
+
+Likert Scale shows the weighted mean range and its descriptive interpretation as evaluated by the respondents.
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula: WM+++ N
+
+Where,
+
+WM-Weighted Mean
+
+x1 + x2 + x3+... x Sum of Scores/Means
+
+N-Total Number of Respondents/Means
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter deals with the presentation of the data replied to the questions which were previously asked by the researcher to the respondents to be answered. The following pages of this chapter exhibit their response and are presented tabular, textual, and graphical description. Data were analyzed using the frequency count and weighted mean using the scale below.
+
+Table 5. Mean Response and Descriptive Interpretation on the problems encountered by the respondents in identifying flowers manually
+
+The table shows the mean response and descriptive interpretation on the problems encountered by the respondents in identifying flowers manually.
+
+The table reveals that respondents interpreted all the listed problems as "A problem "based on the computed weighted/category mean of 2.87. In addition, the problem "Acquiring the skill to identifying flowers requires practice; people just don't practice it as they cannot find a viable reason to do so." obtained the highest mean of 2.87
+while the stated problems such as "Identifying flowers using our eyes is time consuming" and "Identifying a flower on your own is prone to inaccuracy and wrong findings" got the lowest mean of both 2.73 and falls on the "a problem" interpretation. Thus, with the use of only the manual way, problems were observed and seen.
+
+Dataset Collection
+
+Table 6. Dataset
+
+Table 6, shows the final structure of the dataset. The researchers were successful on collecting 150 images per variety. After the collection, each of the image of the different varieties were divided into two subsets: Training set for training the model and Validation set for testing the performance of the model. 140 images of each variety fall to the training set and 10 images for each of the variety on the validation set. The total number of images on the dataset collected is 1,500.
+
+Result of Training the Flower Classification Model
+
+Figure 9. Confusion Matrix of the Model Training
+
+This figure shows the confusion matrix after training the flowers classification model. The confusion matrix basically shows how did the model perform during the validation. Validation simply means "Testing' the performance of the model after its training. The confusion matrix shows the y-axis and x-axis which represents the predicted label and true label respectively. The cell for which each label converge is the score of the model. With this, it means that the dark blue slanting pattern is the number of correctly predicted labels. With this, it can be seen in the matrix that almost every label got perfect 10 score except for the crown of thorns and rose, which there is 1 error each.
+
+Result of the System Survey
+
+Table 7. Mean Response and Descriptive Interpretation on Respondents' Evaluation on the System in terms of Functionality
+
+The table shows the mean and descriptive interpretation of respondent's evaluation on the application in terms of Functionality.
+
+The table reveals that the system was interpreted as "less a problem" in terms of Functionality based on the computed weighted mean of 2.05. This shows that all buttons work as intended (2.09), all functions work as intended (2.00), no bugs or errors encountered (2.00), and is capable of scanning flowers that are commonly found in Philippines (2.09).
+
+Table 8. Mean Response and Descriptive Interpretation on Respondents' Evaluation on the System in terms of Efficiency
+
+The table shows the mean and descriptive interpretation of respondent's evaluation on the application in terms of Efficiency.
+
+The table reveals that the system was interpreted as "less a problem" based on the computed weighted mean of 2.05. It also shows that the execution of functions is fast (Mean 2.00), the storage is not that big (Mean 2.18), the user interface is easy to navigate and use (mean 2.00), and can identify flowers (mean 2.00), all were interpreted as "less a problem".
+
+Table 9. Mean Response and Descriptive Interpretation on Respondents' Evaluation on the System in terms of Compatibility
+
+The table shows the mean and descriptive interpretation of respondents" evaluation on the application in terms of Compatibility.
+
+The table reveals that item 1 "Can run on Android mobile devices" was interpreted as "least of a problem" having the mean of 1.64. Moreover, the items "Uses permissions such as camera correctly", "There is a significant absence of layout incorrectness due to different screen sizes of phones", and "Can be used in any smartphone with Android OS running Android version 6.0 and higher" were interpreted as "less a problem". Overall, the application is interpreted as "less a problem" based on the computed mean of 1.95.
+
+Table 10. Mean Response and Interpretation on Respondents Evaluation on the System in terms of Reliability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Reliability.
+
+The table reveals that the system in terms of reliability was interpreted as "less a problem" having the mean of 2.04. It also shows that items "The system holds repetitive results on repetitive inputs", "The system functions correctly under normal situations", and "In event of failure, the system can recover lost data" got the highest mean of 2.09 (all with same means), while the item "It sends crash report to the researcher/developer "got the lowest mean of 1.91 however, with same interpretation of less a problem.
+
+Table 11. Mean Response and Descriptive Interpretation on Respondents' Evaluation on the System in terms of Usability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Usability.
+
+The table reveals that the system, in terms of usability, was interpreted as "least of a problem" based on the weighted mean of 1.55. It also shows that item I "The system is easy to use" with mean of 1.09 and item "The system teaches the user how to use it" with mean of 1.36 were interpreted as least of a problem. Also, respondents interpreted item "The Ul is friendly" as less a problem considering the mean of 2.18.
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Usability.
+
+The table reveals that the system, in terms of usability, was interpreted as "least of a problem" based on the weighted mean of 1.55. It also shows that item I "The system is easy to use" with mean of 1.09 and item "The system teaches the user how to use it" with mean of 1.36 were interpreted as least of a problem. Also, respondents interpreted item "The Ul is friendly" as less a problem considering the mean of 2.18.
+
+Table 12. Mean Response and Descriptive Interpretation on Respondents' Evaluation on the System in terms of Security
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Security.
+
+The table reveals that respondents evaluated item 1 "Prohibits unauthorized access", item 2 "The prototype ensures that the data is only accessible to selected people", and item 3 "The app is available for download at the Google Play Store" as "less a problem based on the computed means of 2.18, 2.09, and 1.91 respectively. Hence, the system, in terms of security is interpreted as "less a problem" with the computed mean of 2.06.
+
+Table 13. Mean Response and Descriptive Interpretation on Respondents" Evaluation on the System in terms of Maintainability
+
+The table shows the mean and descriptive interpretation of respondents" evaluation on the application in terms of Maintainability.
+
+The table reveals that the system in terms of Maintainability is interpreted as "less a problem" based on the computed weighted mean of 1.94. It also shows that the system is composed of individual modules (item 1, mean 2.09, less a problem). Also, item 2 "there are documents inside the code" and item 3"
+
+The researcher maintains regular raw backup" were interpreted as "less a problem" based on their computed means of 1.91 and 1.82 respectively.
+
+Table 14. Summary of the Mean Responses and Descriptive Interpretation on Respondents' Evaluation on the System
+
+The table shows the summary of the means and descriptive interpretation of respondents' evaluation on the application.
+
+The table reveals that the system in terms of Functionality (2.05), Efficiency (2.05), Compatibility (1.95), Reliability (2.04), Security (2.06), and Maintainability (1.94) was interpreted as "less a problem"> Moreover, the system in terms of Usability was evaluated to be "least of a problem" based on the computed mean of 1.55.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presents the summary, conclusion, and recommendations obtained from the data gathered in the last chapter.
+
+Summary
+
+This study focused on the training and development of an artificial intelligence model that is able to classify images of flowers. The classification model was trained by feeding the training process with a dataset of different species of flowers that are most commonly seen in the Philippines, After training the image classification model, it was deployed on a mobile application that was designed and programmed using the Android Studio IDE. The mobile application works by first capturing an image of the flower or choosing an image of a flower from the device's photo library. After that the trained model converts the image into a 3-Dimensional array of numbers for processing. After the on-device model completes extracting features from the image, the mobile application presents the diagnosis of the model on the user interface. The information provided in the application includes the name of the flower, description, and information about its blooming season.
+
+The study was implemented at Cauayan City, Isabela. The system was demonstrated and the survey was asked regarding the performance of the application.
+
+The results show that the respondents agree that it is very much a problem to manually identify flowers without the help of expert knowledge which is sometimes prone to error.
+
+As for the effectiveness of the proposed system in terms of functional suitability, the weighted mean of all the responses is 4.40 which indicates that the respondents strongly agree that the proposed system is functionally suitable. In terms of performance of the system, the weighted mean average is 4.42 which means the respondents strongly agree that the performance of the system meets all expectations. For system compatibility, the responses weighted mean is 4.5 which indicates strongly agree on the compatibility of the system. For the usability of the proposed system, the weighted mean of the responses is 4.40 which is again indicates strongly agree. For the reliability of the system, the weighted mean is 4.36, which also indicates strongly agree. The case is the same for the security of the system as the weighted mean of all the responses is 4.43 which again indicates strongly agree. For the maintainability of the system, the weighted mean is 4.48, and lastly the weighted mean of the responses regarding the effectiveness of the system is 4.43 which indicates strongly agree.
+
+Conclusions
+
+Based from the findings, the following conclusions were drawn:
+
+1. The researchers concluded that there are several problems encountered by the common public when it comes to manually identifying flowers in their surroundings. The problems being encountered include the lacking knowledge of different flower species, ineffective methods of identifying flowers, time consuming when identifying unknown flowers, and inaccuracy when manually identifying flowers without any expert guidance. Overall, this research has demonstrated the effectiveness of using CNNs in building mobile applications for image classification tasks and could be applied in other areas of study as well. The mobile application developed in this thesis can be used as a tool to help users identify flower species quickly and accurately.
+
+2. The researchers concluded that the developed mobile application is able to classify some of the most common flowers found commonly in the Philippines. The mobile application provides relevant information about each flower which has the potential to help different kinds of people such as those in the florist business, or students and teachers of botany. The results of this research open up possibilities for using CNNs in other areas of study, such as building mobile applications for identifying different types of plants, animals, and objects. Overall, this research serves as a valuable contribution to the field of image classification and machine learning.
+
+3. Based from the result of the system defense, the application has no log-in features and there was no common database server.
+
+Recommendation
+
+Based on the findings and conclusions made, the researchers came up with the following recommendations for the betterment of the proposed system prototype or as a future extension of this study:
+
+1. The researchers of this study highly recommend the collection of more image data of different flowers for the improvement of the performance of the trained model. Currently, this study only included 10 different flower species for training the model with 50 each of the flower. To increase the usability of the app, it is recommended to include other flower species in training the model.
+
+2. The researchers recommend the introduction of other features on the mobile application for users to better benefit such as a better user interface and more information about each flower species.
+
+3. Lastly, the researchers recommend to add a user-login feature and establish a server for the application to study how the users use the mobile application, and for analytics purposes such as learning the number of most-identified flowers.
+

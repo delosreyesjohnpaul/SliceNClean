@@ -1,0 +1,365 @@
+Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School Naguilian, Isabela
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology Isabela State University Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Ariston T. Damaso
+
+Kim D. Dela Cruz
+
+Marichen A. Robles
+
+January 2023
+
+ABSTRACT
+
+This study aims to develop an Online Admission System with Data Analysis System for Senior High School Students of Naguilian National High School. The goal is to improve the efficiency of the admission process by addressing issues encountered in the manual process, such as functionality, efficiency, security, and economic concerns. The study identifies the problems faced by both students and administrators in the current manual process and determine the advantages of the proposed system in terms of functionality, efficiency, security, and economic benefits, the researcher devised an interview and a novel method of data collection.
+
+The researcher used spiral model to provide support for risk handling and asked those involved in the study if they would agree to an interview. The researcher also conducts research on using the library and the internet.
+
+Based on evaluations, the online admission system with data analysis for senior high school students at Noguilion National High School was found to be successful, with a high level of satisfaction in terms of functionality, efficiency, security, and cost-effectiveness, The overall average rating was 4.12, indicating that respondents strongly agreed that the system was effective
+
+Based on conclusion, the researchers conclude that manual admission processes are inefficient and difficult to manage, and therefore, the developed system is strongly recommended by the researcher, to improve the overall admission process of the school.CHAPTER I INTRODUCTION
+
+Project Context
+
+In today's time, despite of technology advancement still the admission process is
+
+being carried out manually using paper and pen which is very inefficient and utilizes many
+
+efforts and time. In this present century of technology where computers are being used
+
+everywhere, they are being used as an alternative to pen and paper. The database can
+
+digitally store more information about users in less space and in very less time the very
+
+basic principle behind the necessity automated school online admission system is peaceful
+
+observation of institutes. This tool can easily store the details of students such as documents
+
+details and admission details. This System has been designed taking considering the
+
+practical needs to manage a student's data. Its design focuses on 2 types of users. Admin
+
+and Students.
+
+Admission officials typically use both high school GPA and scores on college entrance test to predict informally an applicant's probability of academic success in the first year of college exam papers are the most prevalent means of taking admission examinations, and students are required to take the exam at the universities of their choosing. (Breland et al., 2020)
+
+According to (Ramos et al., 2018), Freshmen applicants are given an entrance examination to determine readiness for tertiary education in all fields. The result of the test . to determine the advantages of the implementation of proposed system "Online Admission System with Data Analysis for Senior High School Students of Naguilian National High School" in terms of,
+
+a functionality
+
+b. efficiency
+
+c. security
+
+d. economic
+
+Scope and Limitations
+
+This study was focused in identifying the problems encountered by the students and administrators using the manual admission, the developed system will help students decide what Track is appropriate for them to pursue and the developed system will provide better insight to the school administrator for decision support
+
+This study is limited for the admission of incoming senior high school students of Naguilian National High School. The priority of this study is only the admission process The developed system limits the access of users when there is no internet connection 
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter presented similar or related studies conducted locally and foreign including scholar materials both published and unpublished that were available on the internet and books. The literature helped the researchers in having clearing background in the development of the proposed project.
+
+Assert that testing prospective students before admission is a crucial part of higher education institutions (HEls) attempts to sustain high educational standards. Institutions of higher learning can choose candidates based on their likelihood of succeeding in the program of study. The HEls can choose candidates who are most likely to succeed in their selected course through testing, (Ocbian et al., 2018)
+
+The purpose of this system is to lessen the time consumed by the students in enrolling. It also allows the Maglite school management to easily assign all incoming students to their perspective sections. The system will provide an accurate and reliable enrollment process to help the school with the enrollment process because the school previously used a manual enrollment process, (Abrillo et al., 2020)
+
+Community colleges offer online admissions applications as a way for students to upply conveniently for admission. Furthermore, higher education websites and the resources those websites provide are important to a number of stakeholders that include 
+prospective students, current students, prospective employees, existing employees, parents, alumni, and other members of the community, (Sherwin et al., 2017).
+
+The application of online-based student admission aims to provide the widest possible opportunity for every citizen to obtain a fast, transparent, and accountable registration service. The purpose of the study is to describe the online-based prospective student admission planning, organizing admissions based on online students the implementation of prospective participants online-based students online admission supervision of prospective students, as well as an online evaluation of new student candidates But there are those that are the main focus of supporting activities are the internet and electricity networks, so that these two facilities must be ensured in good condition, (Sularto et al., 2018).
+
+The enrollment system is one of the most important systems in university and lower levels of education. An enrollment record ensures good data management of enrollee information. It also encourages possible enrollees to matriculate in the institution. The purpose of the enrollment system is to enable students to enroll in their subjects before the commencement of their semesters. Students increase every year, and the difficulty of the enrollment procedure also increases. The amount of information that needs to be collected also increases, (Comedia et al., 2020). 
+
+Diagnostic test in college algebra is to know the level of performance in College Algebra of non-education freshman students of Westmead International School through the use of a diagnostic test. The researcher used the descriptive method of research, (Eliserio et al., 2018).
+
+Self-assessment practice test given before the conduct of the actual major exam with a purpose of exposing the students to a test in terms of format, content, and skills being tested. Immediately after taking and getting the result of the test, students were asked to accomplish the questionnaire on their attitudes towards self-assessment practice test to capture their response to the practice test, (Sangga et al., 2018)
+
+According to (Daitol et al., 2020), determining the relationship between the entrance examination results and the performance in selected first year courses of Engineering students at the Lyceum of the Philippines-Laguna. Data were collected from the records of the entrance examination administered by the Guidance Office and the records of the final grades from the Registrar's office.
+
+Although it is well established that college entrance exams have become a key factor for admission to selective institutions, less is known about the influence of test scores in relation to other academic factors in the evaluation of a student's application file Admission officers in the contextual condition were significantly more likely to accept both the low-SES and high-SES applicant than those without contextual information on test
+
+scores, however, they were not more likely to accept applicants who convey grit in their personal essays, (Bastedo et al., 2022).
+
+(De Lima et al., 2017), the Intranet Exam Generator (IEXGEN) provides a LAN based exam generator that allows instructor's to input questions which automatically generate a quiz or an exam for each student in class. It supports several types of examinations multiple choice, true or false, identification, enumeration, and essay. The instructor can use his/her previous self-made exam for future references. The system is also capable of monitoring a particular question in which that a student finds difficult to answer
+
+This research intends to solve the problems stated by designing and developing an automated solution of analyzing the set of questions before a competency exam, registration of student answers and generation of an interactive feedback mechanism that will determine the competency of students for the recently concluded competency exam, (Bensan et al., 2017).
+
+Comparative analysis of the scores between male and female examinees shows significantly higher scores of females in verbal comprehension than males. All other categories, verbal reasoning, figural reasoning and quantitative reasoning were not found to be significantly different between male and female, (Medallon et al., 2019)
+
+The University of the Immaculate Conception Enrollment flow is having some difficulties on pursuing the right and fast enrollment methods due to examination result calculation of stanine. The stanine is a step-by-step due process calculation that takes 15 minutes every student who partake the exam. A problem also exists concerning exams that are administered for outside Davao City because the staff has to travel back and forth in order to calculate the stanine and bring it back if it is already done. The admission also experienced having a problem using Microsoft Excel or Microsoft Word due to its saving profile capability. It is not sorted and sometimes files are being misplaced, (Felisilda et al., 2018).
+
+Postsecondary students increasingly enroll in online courses, which have the potential to further democratize higher education by expanding access for historically Ounderserved populations. While a number of studies have investigated student outcomes in online courses, past data limitations have hindered robust examination of a potential mechanism underlying the decision to enroll in an online course access to high-speed broadband, (Skinner et al., 2019)
+
+Affirmative action critics argue that race-conscious admissions policies are keeping Asian American enrollment numbers unfairly low because Asian American students are held to higher admissions standards than applicants of any other race or ethnicity "Selective Bias Asian Americans, Test Scores, and Holistic Admissions" evaluates the common arguments made by them and Students for Fair Admissions, which is suing Harvard University and has lawsuits pending against the University of North Carolina and the University of Texas at Austin over their admissions practices, (Robu et al., 2018). 
+Based on (Morco et al., 2018), Utilizing the prototype technique, the system was able to emphasize accessibility and outputs during the system's development stage and define the necessary and important requirements for the current system (NARRA). The approach taken enables the team to research the background of the current system, adapt it for simple navigation and usage, and create and enhance additional features typical of record management systems.
+
+(De Leon et al., 2022), Testing prospective students to assess their eligibility for enrollment is a common practice in private high school admission procedures, but the COVID-19 pandemic changed this. The circumstance had a severe impact on numerous schools. Numerous private schools changed their admissions procedures to withstand the economic downturn and the drop in student enrollment. The cost of online testing has climbed by two to three times, even across admission test suppliers.
+
+The Philippines Education Reform proposes assessing the quality of Filipino graduates alongside competitors in regional and worldwide work communities and educational possibilities. As a result, Maritime Educational Institutions are required to analyze their current educational setup and investigate the necessary adjustments in their general education curriculum, admission policy, and faculty status to guarantee a seamless transition with little interruption for the changeover in AY 2018, (Gruspe et al., 2017). 
+Education is an ongoing, never-ending process. Recognizing this, all educational institutions must strive for quality and greatness. The University of the Northern Philippines is likewise keen on developing its graduates into successful development managers and contributing citizens to the country. The previous phrase is clearly articulated in the vision and mission. The researcher is an advocate for high quality, (Pichay et al., 2018)
+
+In the classroom, media and technology applications, particularly online platforms, have been widely utilised. When technology is used in the classroom, learners have a more favourable attitude about their learning experience. Instructors, on the other hand, are pushed to develop curricula that incorporate the usage of diverse electronic and digital materials, (Caampued et al., 2020).
+
+In exceptional schools, a multi-site study stone student entrance approach is used. The goal of this research is to describe the student admission system at Sidoarjo Special School. This study employs qualitative data collection approaches such as interviews, observation, and documentation, (Pradipta et al., 2020).
+
+The difficulties with the Chinese University Admission (CUA) system are the topic of this thesis. Within the realm of education, the university admissions system encompasses the entire Chinese society and causes widespread concern across all socioeconomic strata Since the mid-twentieth century, university admissions have been studied as an economic issue, (Zhang et al., 2022).
+
+The difficulties with the Chinese University Admission (CUA) system are the topic of this thesis. Within the realm of education, the university admissions system encompasses the entire Chinese society and causes widespread concern across all socioeconomic strata Since the mid-twentieth century, university admissions have been studied as an economic issue, (Mahundu et al., 2019).
+
+This article will use the Use Case Point method to calculate the size of the software Online Admission System. The technique can assist developers in estimating factor productivity development of software projects, such as projected time effort, human resource requirements, and software creation costs, (Kurniadi et al., 2018)
+
+This article will use the Use Case Point method to calculate the size of the software Online Admission System (UCP) The UCP technique can assist developers in estimating factor productivity development of software projects, such as projected time effort, human resource requirements, and software creation costs, (Rios et al., 2021).
+
+This article will determine the size of the program Online Admission System using the Use Case Point approach The approach can help developers estimate project productivity factors such estimated time effort, the need for human resources, and the cost of developing the program, (Cheng et al., 2022) 
+The aims of this project were to describe the applicants using information from the UCAS (university entrance) form, to relate information from the UCAS form to interview performance and A-level results, and to evaluate whether these factors can predict performance during the first year of the course, (Hoad-Reddick et al., 2019).
+
+This paper presents a new college admission system using hybrid recommender based on data mining techniques and knowledge discovery rules, for tackling college admissions prediction problems. This is due to the huge numbers of students required to attend university colleges every year, (Ragab et at al., 2021)
+
+This research has the aim of building a system of acceptance for new students with a website-based method, so that it can help prospective new students in the subject make it easier to obtain information about the registration of new students, (Cahyono et al., 2019).
+
+This diagram shows the input, process, and output where the input column is the Profile of the Students, Account of Admin and Information Gathering, the process column is to evaluate student's profile, generate the result of GWA for track recommendation, and the output shows the development of the proposed website. 
+
+CHAPTER III DESIGN AND METHODOLOGY
+
+This chapter present the design and methodology of the research and researcher used this method to develop a proposed project entitled "Online Admission with Data Analysis System for Students of Naguilian National High School" it shows the system design of the study and the data gathering
+
+Requirement Analysis
+
+Data Flow Diagram 
+
+In this figure it shows the data flow diagram of Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School. The researcher used this diagram for the user and easy to understand the process and flow of the proposed project.
+
+This fishbone diagram was drawn to understand and identify the possible causes and effects of problems. It shows on the diagram what are the problem and illustrate the graphic representation. The researcher uses this to see the main problem and it also use for brainstorming session. 
+
+Figure 4. Gantt chart of Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School
+
+The table shows the schedule of what the group have done in proposing the Online Admission with Data Analysis System for Senior High School Students of Naguillian National High School.
+
+Requirements Documentation
+
+Technical Background
+
+The study's technological foundation covers the materials for Online Admission with Data Analysis System for Senior High School Students at the Naguilian National High School in Isabela, as well as the hardware and software resources to be employed in the suggested website.
+
+Materials
+
+Software
+
+Windows 11, is the latest major release of Microsoft's Windows NT operating system, released in October 2021. It is a free upgrade to its predecessor
+
+Visual Studio 2017 - Microsoft's integrated development environment (IDE). It is used to create computer programs, websites, web apps, web services, and mobile applications.
+
+ASP.NET, is an open-source web application framework developed by Microsoft for web development design.
+
+MySQL, is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL) A database is a structured collection of data
+
+IIS, Internet Information Services, also known as IIS, is a Microsoft web server that runs on Windows operating system and is used to exchange static and dynamic web content with internet users IIS can be used to host, deploy, and manage web applications using technologies such as ASP NET and PHP
+
+Web Browser, A browser is an application program that provides a way to look at and interact with all the information on the World Wide Web. This includes Web pages, videos and images
+Google, is a popular internet search engine. It scans the Web to find Web pages that are relevant to the words you have typed in the search box.
+
+Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards.
+
+Internet Explorer, Internet Explorer (IE) is a World Wide Web browser that comes bundled with the Microsoft Windows operating system (OS). The browser was deprecated in Windows 10 in favor of Microsoft's new Edge Browser.
+
+Hardware
+
+Lenovo, Processor: 11th Gen Intel® Core ™ 17-1165G7 @ 2.80GHz 2.80 GHz. System Type: 64-bit operating system, x64-based processor, RAM 12GB. Storage 500SSD
+
+Data
+
+The data in this system was obtained from the guidance office of the school that was selected to be the agency of this study. Before conducting or receiving the information to guidance, a letter to the agency is issued Some other information is sourced from books and the internet. 
+
+Figure 3. Use Case Diagram of Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School
+
+The use diagram illustrates the role of admin and students on how they interact the system. It contains the important details of admin and students' users, functionality. Specifically, it determines the covered of a system between the relationship of the admin and students' users of Naguilian National High School.
+
+The Spiral model is used for this study, as shown in the figure. It is one of the most important Software Development Life Cycle models, providing support for Risk Handling
+
+Planning
+
+The researchers need to interview the Guidance Office of the school, reason of gathering information's that will include in the websites. Also, identifying the current problems to solve using the proposed system.
+
+Risk-Analysis 
+
+To understand the scope and background of the manual system, the group conducted research by browsing the internet. Related information about the manual system was collected to create the system
+
+Development
+
+To create the program for Guidance office of Naguilian National High School Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School. The group used Windows 11 Operating system, 64-bit, x64-based processor and for coding the system, Asp.net, MySQL and ISS will be used.
+
+Implementation
+
+The system will now be tested for functionality, efficiency, security, and economics by the developer.
+
+Development and Testing
+
+Data Gathering Procedure
+
+To move forward with this study, the researcher devised an interview and a novel method of data collection. The researcher asked those involved in the study if they would agree to an interview. The researcher also conducts research on using the library and the internet
+
+Interview
+
+The researchers interviewed guidance staff to learn about admissions strategies and to gather relevant data and accurate information to help improve the web application
+
+Questionnaires
+
+Researchers used this method to determine the status, efficiency, and problems encountered. The questionnaires are filled out by selected respondents, Grade 11 students and administrators of Naguilian National High School.
+
+Library Research
+
+The researchers gathered information needed in the study from similar studies, they also made use of this method as guidelines in making documentary analysis from similar studies and procedures
+
+Internet Research
+
+Using this method, the researchers gathered and acquired some information on foreign literature such as study and instruction as a material in introducing Online Admission concepts. This method used wherein the researchers were able to gather facts about the automated system all over the world. This type of technique gave the researchers the idea of how web-based application used in developing worldwide.
+
+Data Analysis Plan
+
+Data were analysed using the frequency count and weighted mean using the scale below
+
+Likert Scale shows the weighted mean range and its descriptive interpretation as evaluated by the respondents
+
+The table shows the evaluation of the weighted mean range development prototype and its descriptive interpretation by respondents
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula.
+
+WMX1+X2+X3+Xn N
+
+Where,
+
+WM-Weighted Mean
+
+X+X2+X+... Sum of Scores
+
+N-Total Number of Respondents
+
+Different Software Testing
+
+Performance Testing
+
+The researchers test web application in various versions of Windows to ensure that the application can withstand extended periods of activity or peak user loads. Reaching the required stress conditions or load level would be impossible if done manually, so automation is critical in demonstrating the application can perform in any situation.
+
+System Testing
+
+The researchers demonstrated how to use the system to the study's respondents, who are students and administrators, by registering and entering data, as well as how to gain admin access to the system so that they can view the students' information and the analytical dashboard.
+
+Compatibility Testing
+
+The software's compatibility with various hardware and operating systems was tested by the researcher. This is done to determine which version of Windows can be used. The system was installed on various versions of Windows by the researchers. The system can be accessed from any computer version with internet connection
+
+Description of the Prototype
+
+The developed system has a main feature of predicting the possible incoming Madents per truck based on previous school year admissions. The developed system will amist the asscesor in processing admissions more efficiently than the manual process Addihonally, the system also has a feature of track recommendation based on GWA to
+
+assist students in deciding which Track is appropriate for them to pursue. The developed system has a main feature of predicting the possible incoming students per truck based on previous admission. 
+
+The figure illustrates the system design for the study, which involves both an administrator and student users. The administrator is the only one with access to the database stored on the website, while students can access the system's homepage using any computer device with internet and a browser.
+
+The figure depicts the study's system architecture, which includes admin and student users, with the admin being the only one who has access to the database stored on the
+
+website. To access the system's homepage, the student will need any computer device with internet access and a browser.
+
+Table 2. Implementation Plan
+
+STRATEGY
+
+ACTIVITIES
+
+PERSON'S INVOLVED
+
+DURATION
+
+Approval from the Principal of Naguilian National High School
+
+Letter for the administrator
+
+Researchers Administrator
+
+Day 1
+
+System Installation
+
+Installation of the system and required software and hardware
+
+Researchers Administrator
+
+4 Hours
+
+Information Distribution
+
+Questionnaire
+
+Faculty/Staff Administrator
+
+1 Day
+
+Implementation Result
+
+It depicts above the strategy, activities, people involved, and duration of the proponents' work prior to implementation Results as the researchers implemented the system in Guidance Office, and the school Principal, approved of the system developed. The researchers collaborated with the Naguilian National High School Guidance Office, and after a thorough investigation, the system was evaluated, tested, and implemented in the school
+
+The table shows the means and descriptive interpretation on the rating of the respondents in using the present system in terms of Functionality
+
+The table reveals that all the items were interpreted as "Agree" having a category mean of 4.20 Specifically, Item 1 "Finds difficulties to keep accurate of user's information with mean rating of 420 (Agree), item 2 "Cannot prevent typographical errors in the information provided by users" with mean rating of 4.28 (Agree), item 3 "There is a lack of organization in evaluating the student's record" with mean rating of 4.14, and item 4 "If in case there is an error, student records cannot be easily updated or edited." with mean rating of 4.16. This explains that in terms Functionality, the present system encounters problems as evaluated by the respondents
+
+Table 3.2: Category Mean and Descriptive Interpretation of the Problems Encountered by the Respondents using the Manual Process in terms of Efficiency.
+
+The table shows the means and descriptive interpretation on the rating of the respondents in using the present system in terms of Efficiency. The table revealed that all
+the respondents "Agree" on the specific problems listed on the table when it comes to the system's efficiency. Having a category mean of 4.05 which falls on an interpretation of "Agree", shows that problems are observed and experienced, thus a need to become efficient is a priority.
+
+The table shows the means and descriptive interpretation on the rating of the respondents in using the present system in terms of Security.
+
+The table revealed that item 1 "Data are not safe and controllable "obtained the
+
+highest mean of 4 28, followed by item 3 "Unprotected document and files storage" with
+
+mean of 4.24. Moreover, item 2 "Cannot avoid / prevent access being gained by
+
+unauthorized parties" got 4.08 as mean, and last item 4 "Prone on infringement of data
+
+privacy with 3.86 as mean. The table also revealed a category mean of 4.12 which was
+
+interpreted as "Agree" by the respondents. It clearly explains that in terms of Security,
+
+problems (listed in the table) are observed and experienced by the respondents
+CHAPTER V SUMMARY, CONCLUSIONS AND RECOMMENDATION
+
+The planned study's summary, conclusion and recommendation are included in this
+
+chapter.
+
+Summary
+
+"Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School," according to the title of this study. For the development of Software/System, the researchers employed the Spiral Model Method
+
+Based on the evaluations gathered, Online Admission with Data Analysis System for Senior High School Students of Naguilian National High School demonstrated that they are satisfied with the website that was developed in terms of functionality with a weighted mean of 4.20, efficiency with a weighted mean of 4.05, security with a weighted mean of 4:12, and economic with a weighted mean of 4.11. As a result, the Grand Mean for the proposed system is 4 12, indicating that respondents strongly agreed that the proposed syskon is effective
+
+Conclusion
+
+le conclusion, the study on the online admission system for senior high school dans at Negulian National High School demonstrates the effectiveness of incorporating Stay the administrative process of admissions
+
+. The system was found to be highly satisfactory in terms of functionality. efficiency, security, and cost-effectiveness, with an overall average rating of
+
+4.12.
+
+2. It was found that the manual process of admission is inconvenient and difficult to manage, and the online system serves as an efficient solution. Additionally, the study highlights the importance and benefits of implementing an online admission system in Naguilian National High School.
+
+Recommendation
+
+Based on the performance of the existing system, the researcher recommends that the current admission system be improved and replaced with a computerized online admission system.
+
+1. The researcher recommends using an online admission system to provide a faster and more convenient process for gathering the information needed to admit students
+
+2. The students and administrator problems will be solved by using the developed online admission system that is considered more advanced than the current system of the school
+
+3. The developed system improves transaction flow and reduces time spent maintaining and retrieving records, as well as keeping records safe.
+. The researchers also recommends further research to improve the accuracy of the predictive models and explore other factors that impact admission counts

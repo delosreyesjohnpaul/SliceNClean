@@ -1,0 +1,939 @@
+
+Using Spatial Data Mining Framework for Identifying the Significance of Factors Contributing to Traffic Congestion In Urban Areas JON CARLO MIGUEL C. RIVERA JAY ANN L. PASCUA REALEIN P. BLAS January 2024
+
+
+A Thesis Presented to the Faculty of the
+College of Computing Studies, Information and
+Communication Technology
+Isabela State University
+Cauayan Campus
+
+
+
+
+
+In Partial Fulfillment of the Requirements for the Degree
+Bachelor of Science in Computer Science
+
+
+
+
+
+JON CARLO MIGUEL C. RIVERA JAY ANN L. PASCUA REALEIN P. BLAS January 2024
+
+APPROVAL SHEET
+The Thesis Using Spatial Data Mining Framework for Identifying the Significance factors contributing to Traffic Congestion in urban areas, has been prepared and submitted by Jon Carlo Miguel C. Rivera, Jay Ann L. Pascua, and Realein P. Blas, in partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science is hereby endorsed.
+
+REYNALDO R. CORPUZ, DIT 
+Research Paper Adviser
+  Approved by the panel of the final oral and system defense with a grade of _________.
+
+MARVEE CHESKA B. NATIVIDAD, DIT 
+Chair, Defense Panel
+   CHERRY R. GUMIRAN, D. Eng
+JAYSON S. LIQUIGAN, MIT
+Panel Member
+Panel Member
+
+
+Accepted as partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science
+
+ROSE MARY A. VELASCO					______________	
+Program Chair, BSCS							 Date
+
+
+REYNALDO R. CORPUZ, DIT					______________	
+Dean, CCSICT								Date
+
+
+LORELEI C. TABAGO, Ph.D.					______________	
+Director, ISU Cauayan Research and Development		 	Date
+Recorded:
+
+CLARICEL P. ORATA, MBA					______________	
+Registrar II, ISU Cauayan						Date	
+				ACKNOWLEDGMENT
+	We would like to express our deep and sincere gratitude to all whom in somehow added to the completion of this research.  
+ Without the assistance of our thesis adviser, Dr. Reynaldo R. Corpuz, for his insightful suggestions and extensive knowledge. His kind counsel and professional advice have been very helpful at every step of the project. We also thank Dr. Marvee Cheska B. Natividad, Dr. Cherry R. Gumiran, and Mr. Jayson S. Liquigan for lengthy conversations and insightful recommendations that have substantially enhanced our thesis paper. 
+ Words cannot express our gratitude to Dr. Rose Mary A. Velasco, to our agency Sir Robert Jonathan C. Toledo for their guidance and information sharing that helped us improve our thesis paper. 
+ Finally, we would like to express our deepest appreciation to our parents and friends for their support and assistance.  
+
+DEDICATION 
+The parents of the researchers, who have provided unwavering support and never-ending inspiration during the study, are honored in this research report. They are the ones who supply the materials required to create this study. 
+Additionally, by helping the researcher to finish this study, it is dedicated to the teachers who fell behind in enabling this research. The study's dedication to students who might want assistance in overcoming mental health concerns is another goal shared by the researchers. Additionally, this study is dedicated to the school that helped the researchers develop, test, and collaborate on this project.
+We look up and dedicated this whole study to our Almighty God who gave us the strength, knowledge, wisdom, protection, and will to continue and keep positive to finish this research.
+
+								Jon Carlo Miguel C. Rivera  	 	 	 	 	 	 	 		Jay Ann L. Pascua  	 	 	 	 	 	 	 			Realein P. Blas
+
+
+
+
+ABSTRACT
+
+This study employs a spatial data mining framework, integrating Association Rule Mining and Clustering Analysis, to identify and understand factors contributing to traffic congestion in urban areas. Using the city of Cauayan as a case study, we analyze traffic flow and land use data. The evaluation assesses the methodology's clarity, algorithmic choices, and data reliability. Results reveal significant contributors to congestion and highlight spatial variations. The study offers insights for urban planning and policymakers, emphasizing the need for targeted interventions to improve mobility and quality of life in congested urban settings. 
+By employing a spatial data mining framework, the research integrates Association Rule Mining and Clustering Analysis to identify and comprehend the factors contributing to traffic congestion in urban areas, focusing specifically on the city of Cauayan. Traffic flow and land use data are considered, providing a comprehensive view of the city's traffic issues. Rigorous assessment of methodology clarity, algorithm choices, and data reliability ensures the validity and accuracy of results. 
+Findings of the study reveal significant contributors to traffic congestion and highlight spatial variations, indicating non-uniform distribution across the city. Some areas are more prone to congestion due to factors like road design, population density, and land use patterns. This understanding prompts the need for targeted interventions tailored to address specific congestion issues in different areas, thereby enhancing mobility and quality of life in congested urban settings. 
+The study serves as a robust framework for understanding and addressing traffic congestion in urban areas. Insights gained can inform urban planning and policy decisions, facilitating improved urban mobility and quality of life. It stands as a valuable resource for cities like Cauayan and others grappling with similar congestion challenges, offering tailored solutions to enhance urban livability.
+Keywords: data mining frameworks, traffic analysis, apriori, association rule mining, traffic congestion.
+Table of Contents
+APPROVAL SHEET	ii
+ABSTRACT	v
+Table of Contents	vi
+LIST OF TABLES	viii
+LIST OF FIGURES	ix
+1.	INTRODUCTION	1
+1.1.Background of the Study	1
+1.2 Objectives of the Study	3
+1.3 Significance of the Study	4
+1.4 Scope and Delimitations	4
+2	THEORETICAL FRAMEWORKS	6
+2.1 Review of Related Literature	6
+2.2 Concept of the Study	15
+2.3 Definition of Terms	16
+3	OPERATIONAL FRAMEWORKS	17
+3.1 Materials	17
+3.1.1 Software	17
+3.1.2 Hardware	18
+3.1.3 Data	19
+3.2 Methods	21
+3.2.2  Interpretation used in study	23
+4	RESULTS AND DISCUSSION	24
+Table 4.2.  Interpretation of the data from Table 4.1	25
+Table 4.3. Top Association Rules with the Highest Lift Values	26
+Table 4.4. Interpretation of the data from table 4.3	27
+Table 4.5. Top Association Rules with the Highest Support Values	28
+Table 4.6. User Interface and Design	30
+Table 4.7. Functionality and Features	31
+Table 4.8. Content and Information	31
+Table 4.9. Performance	32
+Table 4.10. Overall Satisfaction	32
+Analysis visualization result	33
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS	36
+5.1 Summary	36
+5.2 Conclusions	36
+5.3 Recommendations	37
+REFERENCES	38
+APPENDICES	46
+Appendix A: Relevant Source Code	46
+COMMUNICATION LETTER	60
+
+LIST OF TABLES
+Table 3.1 Minimum requirements of the IDE used	17
+Table 3.2 The Hardware used for developing the system	18
+Table 3.3. Traffic Flow Data	19
+Table 3.4. Weather Data	19
+Table 3.5. Road Network Data	20
+Table 3.6. Land Use Data	20
+Table 3.7. Demographic	20
+Table 3.8  Likert scale for Descriptive Interpretation	23
+Table 4.1 Top Association Rules with the Highest Confidence Values	24
+Table 4.2. Interpretation of the data from Table 4.1	25
+Table 4.3. Top Association Rules with the Highest Lift Values	26
+Table 4.4. Interpretation of the data from table 4.3	27
+Table 4.5. Top Association Rules with the Highest Support Values	28
+Table 4.6. User Interface and Design	30
+Table 4.7. Functionality and Features	31
+Table 4.8. Content and Information	31
+Table 4.9. Performance	32
+Table 4.10. Overall Satisfaction	32
+
+LIST OF FIGURES
+Figure 2.1 Conceptual Framework	15
+Figure 3.1 Experimental design	21
+Figure 4.1 Plot Visualization Result	33
+Figure 4.2. Bar Chart Cluster	34
+Figure 4.3. Distribution Traffic Condition	35
+
+
+
+
+
+
+
+
+
+
+
+
+INTRODUCTION
+Background of the Study 
+Spatial data mining framework is a powerful tool that helps in unraveling the complex factors contributing to traffic congestion in urban areas. Leveraging the abundance of location-based data from diverse sources like smartphones, remote sensors, and sensor networks, this framework dives deep into geo-spatial data, which includes specific geographic positioning information like latitude and longitude. Traffic congestion in urban areas poses a multifaceted challenge, influenced by a myriad of factors such as vehicular mobility, road network properties, weather conditions, holidays, and peak hours (Zafar et al., 2022). This complex interplay requires innovative approaches that extend beyond conventional analyses. In recent years, the integration of spatial data mining techniques has emerged as a promising avenue for unraveling the intricate dynamics of traffic congestion in urban environments. As we embark on this research journey focused on Cauayan City, Isabela, preliminary findings underscore the significance of factors including vehicular mobility, road network properties, weather, holidays, and peak hours in contributing to traffic congestion. Understanding the spatial variations of these factors is crucial for devising targeted interventions that address the unique challenges posed by congestion in different zones within the city. This research seeks to delve deeper into these factors, exploring their nuanced relationships and evolving dynamics over time.  
+	
+
+Association Rule Mining serves as our guide in deciphering intricate relationships among variables within the dataset. It acts as a detective, revealing subtle connections that might elude conventional analyses. In the context of traffic congestion, this method illuminates associations between the identified factors and congestion patterns. These revelations empower us with actionable insights, guiding the formulation of targeted interventions. Complementing Association Rule Mining, Clustering Analysis adds a spatial lens to our exploration. It groups together similar data points, providing a holistic view of spatial patterns within the urban landscape. In the context of traffic congestion, Clustering Analysis identifies spatial clusters of congestion associated with variations in vehicular mobility, road network properties, weather, holidays, and peak hours. This nuanced understanding enhances our ability to address congestion challenges specific to different zones within the city. The synergy of Association Rule Mining and Clustering Analysis within our spatial data mining framework enhances the depth of our exploration. It enables us not only to identify associations among contributing factors but also to discern spatial patterns in congestion dynamics. This holistic approach holds promise for unraveling the multifaceted nature of traffic congestion, providing insights critical for informed urban planning and policy-making. 
+Despite advancements in spatial data mining, a notable research gap persists in understanding how the identified factors and spatial patterns dynamically evolve over time. This study aims to bridge this gap by incorporating a temporal dimension, enriching our comprehension of traffic congestion in urban areas. As we navigate through the subsequent chapters, our focus is on evaluating the effectiveness of these techniques in the specific context of Cauayan City, Isabela, while also contributing to the broader understanding of the temporal dynamics influencing traffic congestion.
+1.2 	Objectives of the Study 
+Generally, the study strived to discover Using Spatial Data Mining Framework for Identifying the Significance of Factors Contributing to Traffic Congestion in Urban Areas. 
+Specifically, the research approach includes: 
+Identifying the significance of key factors responsible for traffic congestion in urban areas 
+Traffic Flow Data; 
+Weather Data; 
+Road Network Data; 
+Land Use Data; and 
+Demographic Data. 
+Evaluate the system through questionnaire according to the user’s perspective in terms of: 
+User Interface and Design; 
+Functionality and Features; 
+Content and Information; 
+Performance; and 
+Overall Satisfaction. 
+
+1.3 Significance of the Study 
+The finding of this study was administered the Using Spatial Data Mining Framework for 
+Identifying the Significance of Factors Contributing to Traffic Congestion in Urban Areas. Furthermore, the researchers assumed that this study was beneficial to the  
+Urban planners- With valuable insights into traffic congestion factors, aiding in informed decisions on land use, infrastructure development, and transportation system design. 
+Transportation Policymakers- To develop targeted interventions to reduce traffic congestion, considering factors like road network design, land use policies, and demographics. 
+City officials. In traffic management and urban development by utilizing spatial data mining to identify congestion patterns, evaluate factors, and develop effective policies.  
+The result of this study was also beneficial to the residents and commuters have also benefit from this study as this served by addressing traffic congestion, resulting in smoother traffic flow, reduced travel times, and improved mobility. 
+1.4 Scope and Delimitations 
+The study centered on Cauayan City, Isabela for the 2nd semester of 2023 till the end of 1st sem 2024 for the officials by extracting databases within Cauayan city. 
+The study aimed to introduce and apply a spatial data mining framework to identify the significance of factors contributing to traffic congestion in the city of Cagayan. The paper uses traffic flow data and land use data as input and applies spatial clustering, and association rule mining to analyze the data. 
+ 
+THEORETICAL FRAMEWORKS 
+2.1 Review of Related Literature
+Based on the study “Using Spatial Data Mining Framework for Identifying the Significance of Factors Contributing to Traffic Congestion in Urban Areas.” The following references are relevant and appropriate for the review: 
+Spatial Data Mining in Traffic Analysis 
+Traffic congestion is a complex issue influenced by various factors. Studies have shown that urban mobility, road capacity, and daily traffic significantly contribute to traffic congestion (Suryani et al., 2020). 
+  Additionally, the demand for traffic at different times of the day, road narrowing, traffic density, and traffic lights are identified as contributing factors to congestion ("An IoT Based Intelligent Traffic Management System and Its Implementation on Cupcarbon for Smart Cities", 2021; Yusuf et al., 2021).  
+ Furthermore, the impact of weather conditions, spatial and temporal factors, and the growth of population and vehicles have been recognized as significant contributors to traffic congestion (Hussain et al., 2022; Dammulla, 2022; Ogunyemi et al., 2021). The increase in the number of vehicles, road accidents, and the desire for vehicle ownership have also been identified as causes of traffic congestion (Hilmani et al., 2020; Al-Asadi et al., 2022). 
+In review paper of Cheng et al. (2018) emphasized the significance of multi-view learning for short-term traffic forecasting, considering spatial correlation, heterogeneity, temporal fluctuation, and regularity in road traffic. This approach offers a comprehensive understanding of the dynamic and data-intensive nature of traffic-related data mining. 
+Mihai (2021) discussed the collective use of spatial data mining techniques with GIS and satellite imagery in various domains, such as traffic risk analysis, fire accident analysis, and urban planning. This illustrates the broad range of applications where spatial data mining plays a crucial role in extracting meaningful insights. 
+In relation to Chen et al. (2021) and Cheng et al. (2023) focused on integrating Graph Neural Networks (GNNs) into traffic flow forecasting models to effectively capture spatial-temporal dependencies. This approach has demonstrated promising results in uncovering the complex 
+relationships within traffic flow data. 
+Meanwhile Liu et al. (2021) highlighted spatial-temporal patterns in traffic queues, indicating the potential for mining interesting patterns in traffic-related spatial data. Understanding these patterns is essential for efficient traffic management and optimization. 
+In papers of Zhang et al. (2021) and Zheng et al. (2018) discussed the utilization of spatial data mining techniques for analyzing urban traffic structures and probe-car tracking data, respectively. These studies emphasize the importance of spatial data mining in enhancing traffic analysis and management systems. 
+In the case of the Philippines, where intercity bus transportation is widely used due to the current lack of a railway network, city traffic, especially in Manila, is heavily congested, partly due to a high number of city buses running half-empty, the small proportion of road space relative to the vehicle population, and the insufficient provision of urban rail transportation.” (Boquet, 2019) 
+  Moreover, the influence of public transport, land use patterns, and the pattern of heavy vehicles on the road have been studied as factors contributing to congestion (Yap et al., 2022; Droj et al., 2021; Kesuma et al., 2019). Furthermore, the impact of autonomous and connected vehicles on traffic congestion has been investigated, indicating their potential influence on traffic flow (Wu et al., 2022; Kunibe et al., 2021). 
+One key aspect that has been investigated is the analysis of traffic congestion and transportation policies in Metro Manila. Sidel (2020) conducted a comprehensive analysis treating traffic in Metro Manila as an ecosystem, highlighting the complex interplay of demographic, economic, and technological factors contributing to gridlock in the region. This systemic approach is essential for understanding the root causes of traffic issues in urban areas. 
+Moreover, studies such as Ugalino (2024) have focused on spatiotemporal analysis of traffic accidents hotspots, emphasizing the importance of data-driven approaches to identify high-risk areas and improve road safety measures. By utilizing Twitter data, insights into traffic accident patterns in cities like Quezon City have been uncovered, shedding light on areas that require targeted interventions.
+Additionally, the impact of traffic on various stakeholders, such as traffic enforcers, has been examined. Gumasing et al. (2023) investigated the ergonomic risk factors affecting traffic enforcers in Manila City, emphasizing the importance of addressing environmental and postural risk factors to mitigate musculoskeletal disorders among this group. 
+In addition to safety concerns, studies like Rito et al. (2021) have explored the modeling of traffic flow, energy use, and emissions in major thoroughfares like EDSA in the Philippines. By leveraging tools like Google Maps and Google Street View, researchers have been able to assess traffic characteristics and environmental impacts, paving the way for more sustainable transportation practices. 
+Forecasting road traffic accidents has also been a focus of research in the Philippines. 
+Sabenorio et al. (2023) conducted a study on forecasting road traffic accidents in Metro Manila using ARIMA modeling, providing valuable insights into trends and patterns that can inform proactive safety measures and policy interventions. 
+Datamining Frameworks in Traffic Analysis 
+Apriori - Association rule mining 
+The Apriori algorithm, a popular data mining algorithm, has been utilized in various studies to identify significant factors contributing to different phenomena (Yu et al., 2019). applied the Apriori algorithm to mine significant association rules between the severity of crash accidents and the factors influencing their occurrence. 
+ Similarly, Cai (2020) highlighted the use of the Apriori algorithm in analyzing traffic accidents on urban roads. Furthermore, Si et al. (2022) emphasized the significant contribution of traffic congestion to climate change through the emissions of Greenhouse Gases (GHGs) such as Carbon Dioxide (CO2), Nitrous Oxide (N2O), and Ozone (O3). 
+Abstract Motivated by traffic congestion and air pollution, Beijing is one of several major cities to restrict vehicle ownership by requiring residents to win a lottery for the right to obtain an additional car.” (Qin et al., 2023) 
+With this workflow we create a dataset named Seattle Area Traffic Congestion Status (SATCS) based on traffic congestion map snapshots from a publicly available online traffic service provider Washington State Department of Transportation.” (Zhang et al., 2019) 
+The key workers are staying out the bus routes with higher frequency of passenger boarding to avoid the COVID-19 transmission but other people were unable to avoid these busy routes because of poor accessibility to essential goods and services.” (Amin & Adah, 2022) 
+ Additionally, González et al. (2021) conducted an analysis using big data, which revealed a positive non-linear causality of congestion on the number of accidents, further emphasizing the impact of traffic congestion on accidents. 
+Apriori - Association rule mining has been extensively utilized in various fields, including traffic analysis. The Apriori algorithm, a classic association rule mining technique, has been applied to identify factors influencing traffic-related incidents. Researchers have enhanced this algorithm to delve into the causes of traffic accidents on urban roads (Cai, 2020). By improving the Apriori algorithm, researchers have been able to mine association rules between risk factors, providing insights into the complex interactions leading to accidents (Cai, 2020). Moreover, the algorithm has been adapted to consider directional constraints and index weights in the context of traffic crash data analysis, leading to a more comprehensive understanding of the factors contributing to accidents (Yang et al., 2022). 
+In the realm of traffic safety research, the Apriori algorithm has proven to be a valuable tool for analyzing traffic violation data and identifying patterns related to accidents (Yang et al., 2023). It has been instrumental in discovering the relationship between various parameters of road accidents, highlighting its significance in uncovering correlations in different aspects of road safety (Tariq et al., 2022). Additionally, the algorithm has been employed to identify aggressive driving behavior and patterns of pedestrian crashes, further showcasing its versatility in analyzing diverse traffic-related data (Wu, 2023). 
+Furthermore, the Apriori algorithm has been used to examine factors associated with different types of accidents, such as motor and non-motor vehicle accidents during day and night, emphasizing its applicability in understanding the nuances of traffic incidents (CHEN, 2024). Researchers have also utilized association rule mining to explore the environmental, vehicle, and driver factors contributing to specific types of crashes, demonstrating the algorithm's effectiveness in uncovering multifaceted relationships within traffic data (Yang et al., 2020). 
+K-means Clustering 
+To identify significant factors contributing to traffic congestion, several studies have utilized the K-means clustering algorithm. Ghaffari et al. (2022) employed K-means clustering to find an optimal path in smart cities by considering traffic congestion and air pollution. Jiang et al. (2020) utilized K-means to cluster traffic states based on road congestion, safety, and stability indicators.  
+Additionally, Wang et al. (2020) highlighted the widespread use of the K-means algorithm in solving traffic clustering problems. These studies demonstrate the relevance of K-means clustering in analyzing traffic congestion.  
+Furthermore, factors contributing to traffic congestion were explored in various studies. Hamza et al. (2023) associated traffic congestion with increased environmental pollution and reduced socio-economic productivity due to significant travel time delays. Additionally, Priambodo et al. (2020) used K-means clustering to analyze traffic flow conditions and identify traffic states, indicating the relevance of K-means in understanding the factors influencing congestion.  
+The criteria include air traffic flow, airspace operational performance, flight procedure quality, cost, controller workload and pilot workload.” (Liang et al., 2022) 
+Moreover, the impact of traffic congestion on various aspects was investigated. Zamri & Hamzah (2022) determined the factors contributing to traffic congestion and assessed its impact on road users, society, and the economy. Additionally, Suryani et al. (2020) highlighted urban mobility, daily traffic, and road capacity as factors affecting traffic congestion. 
+K-means clustering is a commonly used technique in traffic analysis for identifying various factors related to traffic conditions. Xia and Chen Saha et al. (2019) utilized K-means clustering to identify traffic flow phases based on traffic density and speed data. Azimi and Zhang Lu et al. (2023) compared different clustering algorithms and found that K-means performed best in identifying traffic states based on flow characteristics. Gao et al. (2023) proposed a method for traffic state recognition using K-means clustering and AdaBoost-DS, achieving high accuracy in recognizing traffic conditions. Additionally, Ghaffari et al. (2022) and Khan et al. (2022) also employed K-means clustering for traffic congestion analysis and 5G network planning, respectively. 
+Furthermore, K-means clustering has been applied in various traffic-related applications. Lei et al. (2022) discussed the use of K-means clustering for maritime traffic pattern analysis, emphasizing its effectiveness in clustering ship trajectories. Shen et al. (2020) used the K-means algorithm for grouping traffic flows to determine traffic conditions, aiding in selecting appropriate traffic signal control schemes. Moreover, K-means clustering has been instrumental in traffic safety research, as demonstrated by (Chen et al., 2020), who used it for road traffic accident classification. 
+The literature also demonstrates the versatility of K-means clustering in traffic-related studies. Wang et al. (2020) highlighted the widespread use of the K-means algorithm in traffic clustering tasks. Thimmisetty (2021) compared K-means with other clustering methods, showing its superiority in learning high-purity clusters for traffic analysis. Additionally, Bao (2019) identified traffic flow states using K-means clustering, emphasizing the importance of density in traffic flow state identification. 
+Integration of both Apriori and K-means 
+To identify significant factors contributing to traffic congestion, recent studies have utilized advanced algorithms such as K-means clustering and Apriori. Ghaffari et al. (2022) applied the Kmeans clustering algorithm to identify optimal path-finding in smart cities, considering traffic congestion. Similarly, Jiang et al. (2020) utilized K-means to cluster traffic states based on indicators of road congestion, safety, and stability. These studies demonstrate the relevance of K-means in understanding and addressing traffic congestion. In addition to K-means, Xie et al. (2020) employed the Apriori algorithm to capture dynamic associations of regional traffic congestion, indicating its effectiveness in excavating underlying traffic congestion associations.  
+Furthermore, Han et al. (2020) used an Apriori-based method to mine temporal association rule patterns for predicting traffic congestion, yielding satisfactory results. These studies highlight the utility of Apriori in uncovering complex associations related to traffic congestion. Moreover, Mostafi et al. (2022) developed RegTraffic, a regression-based traffic simulator that effectively predicts traffic congestion, showcasing the potential of regression-based approaches in modeling and simulating traffic congestion. 
+Additionally, Tsuboi (2021) focused on a traffic congestion model in India using the Shock Wave Theory, emphasizing the macro view of traffic congestion, which is crucial for understanding its broader impact. These recent studies demonstrate the significance of K-means clustering and Apriori in identifying and understanding factors contributing to traffic congestion.  
+By leveraging these advanced algorithms, researchers have made strides in uncovering dynamic associations, clustering traffic states, and predicting congestion patterns, ultimately contributing to the development of effective strategies for mitigating traffic congestion. 
+
+
+
+
+Concept of the Study 
+
+Figure 2.1Conceptual Framework
+This study entitled “Using Spatial Data Mining Framework for Identifying the Significance of Factors Contributing to Traffic Congestion in Urban Areas.  aimed to identify the process involves collecting data. After the data is collected from City General Services Office, it is time to clean the data. Clean data means data that is free from misspellings, redundancies, and irrelevance. Clean data largely depends on data integrity. There might be duplicate data or the data might not be in a format, therefore the unnecessary data is removed and cleaned. The cleaned data is used for analyzing and identifying trends and factors using the stated datamining framework. The result of datamining framework will validate by comparing the identified patterns with real-world observation and integrate it into a web application. 
+Definition of Terms 
+Association rule mining. is a popular technique in data mining used to discover interesting relationships, correlations, or patterns in large datasets. 
+Data mining. The practice of searching through enormous datasets for intriguing facts, trends, or insights is known as data mining. It searches the data for previously unidentified patterns, correlations, or trends using statistical and machine learning techniques. 
+Examine. The purpose of this word is to examine and evaluate how socioeconomic factors impact health outcomes in a methodical manner. It includes evaluating the type, significance, and degree of the relationship; identifying trends or differences between geographic locations; and investigating plausible reasons of adverse health effects. 
+K-means Clustering. is an Unsupervised Machine Learning algorithm, which groups the unlabeled dataset into different clusters. 
+Spatial Data mining - is the process of extracting information from spatial databases that isn't specifically stored, such as knowledge, spatial correlations, or other intriguing patterns? 
+Traffic Congestion Factors - Factors that may or may not contribute to traffic. 
+Traffic. The passage of automobiles, ships, people, etc. through a region, on a street, in an aircraft, over a waterway, etc. 
+OPERATIONAL FRAMEWORKS
+Materials
+Software 
+Table 3.1Minimum requirements of the IDE used
+Software
+Specifications
+
+
+
+Visual Studio Code
+
+1.6 GHz or faster processor
+1 GB of RAM
+
+
+
+The following table shows minimum requirements of the IDE or integrated development environment. The researchers used Visual Studio Code with the minimum specifications of 1.6GHz processor and 1GB ram
+Visual Studio Code 
+Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process. 
+
+
+Google Colab 
+Colab is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs. Colab is especially well suited to machine learning, data science, and education. 
+Hardware  
+Table 3.2 The Hardware used for developing the system
+Hardware
+Specifications
+Desktop
+Graphics card
+Ram
+Processor
+Windows 10 64 bit
+Rx-580 8GB
+16gb 26666mhz
+Intel core i5-9400 3.9GHz
+
+ The table above shows the specifications of the machine used for developing the web application. It shows that the machine was able to run the IDE smoothly and without problems. 
+
+
+
+
+
+Data 
+In order to apply the spatial data mining framework for identifying significance of factors contributing to traffic congestion in urban areas. The researchers gathered various datasets containing the necessary data. These datasets may include Traffic Flow Data, Weather Data, Road 
+Network Data, Land-use Data, and Demographic Data. 
+Table 3.3. Traffic Flow Data
+Traffic flow  
+Time 
+Average Volume 
+Average Speed 
+Congestion Level 
+
+Table 3.4. Weather Data
+Weather Data 
+Month 
+Weekday 
+Temperature 
+Precipitation 
+Humidity 
+Wind speed 
+Visibility 
+
+
+Table 3.5. Road Network Data
+Road network Data 
+Road type 
+Road capacity 
+Line count 
+Traffic signal 
+Round about 
+Speed limit 
+Bus Stop Count 
+Public Transport Expert 
+Accident Count 
+Road Closure 
+Construction work 
+
+Table 3.6. Land Use Data
+Land-use Data 
+Population Density 
+Residential Area 
+Employment Rate 
+
+Table 3.7. Demographic
+Demographic 
+Is holiday 
+Traffic Condition 
+
+
+ 
+
+Methods 
+In particular the descriptive research design, was used in this study to identify the significance of factors contributing to traffic congestion in urban areas using spatial data mining, the researchers typically gather various datasets related to traffic. These datasets may include timestamp, geographic location, traffic volume, traffic speed, traffic flow, traffic density, population density, road type, weather, or temperature. 
+
+Figure 3.1Experimental design
+Data collection: The next step is to collect data on various factors that may contribute to traffic congestion, such as road infrastructure, land use patterns, public transportation availability, population density, and demographic characteristics 
+Data preprocessing: The collected data needs to be preprocessed to remove any missing or erroneous data, and to ensure that all data is in a consistent format for analysis 
+Model development: Based on the results of the spatial data mining analysis, a model would be developed to identify the most significant factors contributing to traffic congestion in urban areas.  
+Validation: The model would then be validated using additional data to ensure that it accurately identifies the factors contributing to traffic congestion in urban areas. 
+Interpretation and visualization: In order to shed light on the variables influencing traffic congestion in cities, the study's findings will finally be interpreted and visualized. Overall, a systematic process of data collecting, preprocessing, spatial data mining, model construction, validation, interpretation, and visualization is included in the research design for applying frameworks of spatial data mining to uncover factors contributing to traffic congestion in metropolitan areas.  
+The findings of this study can aid in the creation of practical plans for easing urban traffic congestion. While it might be difficult to pinpoint the exact causes of traffic congestion in cities, geographical data mining frameworks can assist in the analysis of vast datasets to find trends and connections between various variables. 
+
+	3.2.2 	Interpretation used in study 
+The 4-point Likert scale was used in the interpretation of the survey through the users’ response regarding the web-based application. The researchers decided to use the 4-point Likert due to the fact that it allows the researchers to include 4 extremes without being a neutral option.
+Table 3.8Likert scale for Descriptive Interpretation
+Mean 
+Likert scale Description 
+0.99-1.00 
+Strongly disagree 
+1.01-1.99 
+Disagree 
+2.00-2.99 
+Agree 
+3.00-4.00 
+Strongly agree 
+
+
+Standard deviation is a statistic that measures the dispersion of a dataset relative to its mean and is calculated as the square root of the variance. The standard deviation is calculated as the square root of variance by determining each data point's deviation relative to the mean. 
+ 
+RESULTS AND DISCUSSION
+In this chapter, the results, findings, analysis, and interpretations of the data gathered from the proposed system and the survey. The tables, discuss the summary and findings of the gained information from the respondents by the way of Likert scale survey questionnaires to the respondents. 
+Table 4.1Top Association Rules with the Highest Confidence Values
+antecedents
+consequents
+Support
+confidence
+lift
+(TrafficCondition_Moderate,)
+(Time_8,)
+0.170909
+1.000000
+2.980132
+(TrafficCondition_Moderate,)
+(RoadType_Highway,)
+0.170909
+1.000000
+2.980132
+(TrafficCondition_Moderate,)
+(RoadClosure_0, Time_8)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Moderate,)
+(RoadClosure_0, RoadType_Highway)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Free Flow,)
+(RoadClosure_0,)
+0.165657
+0.678808
+1.017287
+(TrafficCondition_Free Flow,)
+(RoadType_Highway,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free Flow,)
+(RoadType_Highway, Time_8)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free Flow,)
+(Time_8,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free Flow,)
+(RoadClosure_0, Time_8)
+0.109899
+0.667485
+2.939545
+(TrafficCondition_Free Flow,)
+(RoadClosure_0, RoadType_Highway)
+0.109899
+0.667485
+2.939545
+(TrafficCondition_Moderate,)
+(RoadClosure_0,)
+0.336162
+0.667201
+0.999893
+(TrafficCondition_Heavy,)
+(RoadClosure_0,)
+0.165455
+0.656250
+0.983481
+(TrafficCondition_Heavy,)
+(Time_18,)
+0.164848
+0.653846
+1.933416
+(TrafficCondition_Heavy,)
+(LaneCount_2,)
+0.130505
+0.517628
+1.529707
+(TrafficCondition_Free Flow,)
+(TrafficSignal_1,)
+0.125051
+0.512417
+1.015805
+(TrafficCondition_Heavy,)
+(RoadType_Arterial,)
+0.128081
+0.508013
+1.538962
+(TrafficCondition_Heavy,)
+(TrafficSignal_1,)
+0.127475
+0.505609
+1.002309
+(TrafficCondition_Free Flow,)
+(LaneCount_3,)
+0.123232
+0.504967
+1.027368
+
+Following were arranged in descending order according to the values of the confidence. With the first row having the highest value of confidence. 
+Following are the analysis results from Table 4.1:  
+The highest confidence value rule TrafficCondition_Moderate →Time_8 (support = 0.17, confidence = 1, lift = 2.98) indicates that traffic is moderately congested during 8am on highways  
+Table 4.2.  Interpretation of the data from Table 4.1
+Interpretation
+Likelihood chance
+Moderate Traffic Condition at 8:00am
+100%
+Moderate Traffic Condition at the Intersection on a Highway
+100%
+Moderate Traffic Condition without road closure at 8:00am
+69%
+Moderate Traffic Condition without road closure at the Highway
+69%
+Free Flow traffic condition without road closure
+68%
+Free Flow traffic condition at the Highway
+68%
+Free Flow traffic condition at the highway at 8:00am
+68%
+Free Flow traffic condition at 8:00am
+68%
+Free Flow traffic condition when no road closure at 8:00
+68%
+Free Flow traffic condition when no road closure on a highway
+68%
+Moderate Traffic condition without Road Closure
+68%
+Heavy Traffic Condition when Road Closure is present
+66%
+Heavy Traffic Condition at 6:00pm
+66%
+Heavy Traffic Condition on 2 lane roads
+52%
+Interpretation
+Likelihood chance
+Free Flow traffic condition when there is an active traffic light
+52%
+Heavy Traffic Condition on an arterial road type
+51%
+Heavy Traffic Condition when there is an active traffic light
+51%
+Free Flow traffic condition on 3 lane roads
+50%
+Moderate Traffic Condition when there is an active traffic light
+50%
+Moderate Traffic Condition when there is no active traffic light
+50%
+
+Table 4.3. Top Association Rules with the Highest Lift Values
+antecedents
+consequents
+Support
+confidence
+lift
+(TrafficCondition_Moderate,)
+(RoadClosure_0, Time_8)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Moderate,)
+(RoadClosure_0,
+RoadType_Highway)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Moderate,)
+(Time_8,)
+0.170909
+1.000000
+2.980132
+(TrafficCondition_Free
+Flow,)
+(RoadClosure_0, Time_8)
+0.109899
+0.667485
+2.939545
+(TrafficCondition_Free
+Flow,)
+(RoadClosure_0,
+RoadType_Highway)
+0.109899
+0.667485
+2.939545
+(TrafficCondition_Free
+Flow,)
+(Time_8,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free
+Flow,)
+(RoadType_Highway,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free
+Flow,)
+(RoadType_Highway, Time_8)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Heavy,)
+(Time_18,)
+0.164848
+0.653846
+1.933416
+(TrafficCondition_Free
+Flow,)
+(LaneCount_3,)
+0.123232
+0.504967
+1.027368
+antecedents
+consequents
+Support
+confidence
+lift
+(TrafficCondition_Free
+Flow,)
+(RoadClosure_0,)
+0.165657
+0.678808
+1.017287
+(TrafficCondition_Free
+Flow,)
+(TrafficSignal_1,)
+0.125051
+0.512417
+1.015805
+(TrafficCondition_Moderate,)
+(TrafficSignal_0,)
+0.251919
+0.500000
+1.008969
+(TrafficCondition_Heavy,)
+(TrafficSignal_1,)
+0.127475
+0.505609
+1.002309
+(TrafficCondition_Moderate,)
+(RoadClosure_0,)
+0.336162
+0.667201
+0.999893
+(TrafficCondition_Moderate,)
+(TrafficSignal_1,)
+0.251919
+0.500000
+0.991189
+(TrafficCondition_Heavy,)
+(RoadClosure_0,)
+0.165455
+0.656250
+0.983481
+
+Following were arranged in descending order according to the values of the lift. With the first row having the highest value of lift. 
+Following are the analysis results from Table 4.3 The highest lift value rule High lift values suggest a strong interdependence between the antecedent and the consequent. Two rules with high lift values indicate the Road Closure and Traffic Condition have a strong connection.  
+The rule with the highest lift (TrafficCondition_Moderate,) → (RoadClosure_0, Time_8) (support = 0.11, confidence = 0.68, lift = 3.01) The support value shows that 11% of Traffic congestion results are Moderate traffic whenever there is no road closure at 8am. The ratio of 
+Moderate traffic during this scenario is 3.01 times more likely to occur than the other scenarios. 
+Table 4.4. Interpretation of the data from table 4.3
+Interpretation
+Times more likely to occur compared to other
+Moderate Traffic Condition on no Road Closure at 8:00am
+3.019232
+Moderate Traffic Condition on no Road Closure on a Highway
+3.019232
+Moderate Traffic Condition at 8:00am
+2.980132
+Moderate Traffic Condition on a Highway
+2.980132
+Free Flow traffic condition on no Road Closure at 8:00am
+2.939545
+Free Flow traffic condition on no Road Closure on a Highway
+2.939545
+Free Flow traffic condition at 8:00am
+2.010603
+Free Flow traffic condition on a highway
+2.010603
+Free Flow traffic condition on a Highway at 8:00am
+2.010603
+Heavy Traffic Condition at 6:00pm
+1.933416
+Heavy Traffic Condition on an Arterial Road type
+1.538962
+Heavy Traffic Condition on a 2-lane road
+1.529707
+Free Flow traffic condition on a 3-lane road
+1.027368
+Free Flow traffic condition when no Road Closure
+1.017287
+Free Flow traffic condition when there is an active traffic signal
+1.015805
+Moderate Traffic Condition when there are no active traffic signal
+1.008969
+Heavy Traffic Condition when there is an active traffic signal
+1.002309
+Moderate Traffic Condition when there no road closure
+0.999893
+Moderate Traffic Condition when there is an active traffic signal
+0.991189
+Heavy Traffic Condition when there are no road closure
+0.983481
+
+Table 4.5. Top Association Rules with the Highest Support Values
+antecedents
+consequents
+support
+confidence
+lift
+(TrafficCondition_Moderate,)
+(RoadClosure_0,)
+0.336162
+0.667201
+0.999893
+(TrafficCondition_Moderate,)
+(TrafficSignal_0,)
+0.251919
+0.500000
+1.008969
+(TrafficCondition_Moderate,)
+(TrafficSignal_1,)
+0.251919
+0.500000
+0.991189
+(TrafficCondition_Moderate,)
+(RoadType_Highway,)
+0.170909
+1.000000
+2.980132
+(TrafficCondition_Free Flow,)
+(RoadClosure_0,)
+0.165657
+0.678808
+1.017287
+(TrafficCondition_Heavy,)
+(RoadClosure_0,)
+0.165455
+0.656250
+0.983481
+(TrafficCondition_Heavy,)
+(Time_18,)
+0.164848
+0.653846
+1.933416
+(TrafficCondition_Free Flow,)
+(RoadType_Highway,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free Flow,)
+(RoadType_Highway, Time_8)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Free Flow,)
+(Time_8,)
+0.164646
+0.674669
+2.010603
+(TrafficCondition_Heavy,)
+(LaneCount_2,)
+0.130505
+0.517628
+1.529707
+(TrafficCondition_Heavy,)
+(TrafficSignal_1,)
+0.127475
+0.505609
+1.002309
+(TrafficCondition_Free Flow,)
+(TrafficSignal_1,)
+0.125051
+0.512417
+1.015805
+(TrafficCondition_Free Flow,)
+(LaneCount_3,)
+0.123232
+0.504967
+1.027368
+(TrafficCondition_Moderate,)
+(RoadClosure_0, RoadType_Highway)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Moderate,)
+(RoadClosure_0, Time_8)
+0.117172
+0.685579
+3.019232
+(TrafficCondition_Free Flow,)
+(RoadClosure_0, RoadType_Highway)
+0.109899
+0.667485
+2.939545
+(TrafficCondition_Free Flow,)
+(RoadClosure_0, Time_8)
+0.109899
+0.667485
+2.939545
+
+The following were arranged in descending order according to the values of the support. With the first row having the highest value of support.  
+The analysis for Table 4.5 is the following: 
+The most frequent association rules with the highest value based on support is Traffic 
+Condition Moderate => RoadClosure 0(Moderate Traffic Congestion => No RoadClosure) having 33% of the proportion among the whole datasets. 
+The second highest being the TrafficCondition_Moderate => TrafficSigna_0(Moderate Traffic 
+Congestion => No active traffic light) having 25% of the proportion among the whole datasets. 
+The Third highest being the TrafficCondition_Moderate => TrafficSigna_1(Moderate Traffic 
+Congestion =>Traffic lights active) having 25% of the proportion among the whole datasets. And with the rest being less than 20% contributing to traffic congestion are 
+User’s experience 
+Table 4.6. User Interface and Design
+
+
+Mean
+SD
+Descriptive Interpretation
+1. Frequency of commuting in the city.
+
+3.05
+
+1.317
+
+Strongly Agree
+2. Modes of transportation used.
+
+3.05
+
+1.395
+
+Strongly Agree
+
+Category Mean
+
+3.05
+
+0.972
+
+Strongly Agree
+
+The table reveals that the system’s user interface and design is visually appealing (M = 3.05) and is intuitive (M = 3.05) based on the computed category mean of 3.05 which falls on strongly agree interpretation. 
+
+
+Table 4.7. Functionality and Features
+
+
+Mean
+SD
+Descriptive Interpretation
+1. Frequency of commute.
+
+
+
+3.10
+
+1.165
+
+Strongly Agree
+
+
+ 2.Modes of transportation used?
+
+3.50
+
+1.469
+
+Strongly Agree
+
+
+Category Mean
+3.30
+0.894
+Strongly Agree
+
+
+
+The table reveals that the system’s Functionality and Features is easy to use (M = 3.30) and is intuitive (M = 3.30) based on the computed category mean of 3.30 which falls on Strongly Agree interpretation. 
+Table 4.8. Content and Information
+
+
+Mean
+SD
+Descriptive Interpretation
+1. Use of navigation apps.
+2.85
+1.531
+Agree
+2. Belief in smart traffic management systems, could alleviate traffic congestion?
+3.30
+1.174
+
+Strongly Agree
+
+
+Category Mean
+3.08
+0.878
+Strongly Agree
+
+
+The table reveals that the system’s Content and Information are easily understandable (M = 
+3.30) and is intuitive (M = 3.08) based on the computed category mean of 3.08 which falls on Strongly Agree interpretation. 
+
+Table 4.9. Performance
+
+
+Mean
+SD
+Descriptive Interpretation
+1. The web application loads quickly and efficiently
+2.75
+1.164
+Agree
+2. I did not experience any technical issues (e.g., errors, crashes) while using the web application.
+3.05
+1.191
+Strongly Agree
+Category Mean
+2.90
+0.641
+Agree
+
+The data in the table indicates that the system's Performance is satisfactory, with a mean score of 2.90. Users perceive that the system is capable of effectively carrying out its tasks, as reflected by the computed category mean of 2.90, placing it in the Agree interpretation range. 
+Table 4.10. Overall Satisfaction
+
+
+Mean
+SD
+Descriptive Interpretation
+1. I am satisfied with the overall experience of using the web application.
+
+3.50
+
+1.573
+
+Strongly Agree
+2. I would recommend this web application to others.
+
+
+
+2.55
+
+1.669
+
+Agree
+Category Mean
+3.02
+0.850
+Strongly Agree
+
+The data indicates that the Overall Satisfaction with the system is moderate, with a mean score of 3.02, suggesting that users find the system's content and information easily understandable. Additionally, the system is perceived as intuitive, as reflected by a mean score of 3.02, placing it in the Neutral interpretation range. 
+
+Analysis visualization result
+
+Figure 4.1Plot Visualization Result
+ 
+1st quadrant, low congestion level around 8am, low to moderate congestion level around 12 noon. moderate to high around 6pm. The 2nd quadrant, no relationship to temperature, same with 3rd quadrant, as well as in the 4th quadrant. 
+Figure 4.2. Bar Chart Cluster
+Number of clusters without the filtration for the antecedents, consequents and relationship of each node and counts of recorded data from the dataset 
+
+Figure 4.3. Distribution Traffic Condition
+The frequency ng traffic whether heavy, moderate or free flow inside of the dataset. Assoc result rules corelating each antecedent and consequents bar chart confidence level of each rules network graph - factors chosen based on the likelihood chance Heatmap - confidence levels din similar to bar graph 
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS 
+5.1 Summary 
+The transportation network is well-developed with a mix of lane counts and road types, with 2-lane roads being the largest. Traffic conditions are free flow, heavy, and moderate. Wind speed and humidity frequencies are bell-shaped, with Monday being the most frequent weekday. Summary statistics provide insights into central tendencies and variability. 
+5.2 Conclusions 
+The study utilized a spatial data mining framework to identify the significance of factors contributing to traffic congestion in Cauayan City, a specific urban area. The analysis incorporated traffic flow data and land use data as inputs and employed spatial clustering and association rule mining techniques. The results of the study provided valuable insights into the factors contributing to traffic congestion in Cauayan City. By analyzing the traffic flow data, the study identified patterns and trends in the volume and movement of vehicles, offering a quantitative understanding of congestion within the city. Through the spatial clustering analysis, the study identified clusters or groups of locations with similar traffic congestion characteristics. This allowed for the identification of specific areas within Cauayan City that experience higher levels of congestion, providing a spatial perspective on the issue. Furthermore, the association rule mining analysis revealed significant associations and relationships between different factors and traffic congestion in Cauayan City. This helped in understanding the interdependencies and influences of various variables, such as road capacity, traffic incidents, weather conditions, time of day, and urbanization, on congestion within the city. 
+5.3 Recommendations 
+ The analysis of the data suggests 10 recommendations for improving transportation systems. These include investing in infrastructure development, implementing effective traffic management strategies, promoting public transportation, promoting sustainable transportation, improving weather monitoring, launching educational campaigns, utilizing data-driven decision-making, involving the public in transportation planning, fostering multi-modal integration, and continuously monitoring and evaluating the performance of transportation systems. These measures aim to enhance transportation efficiency, promote sustainability, improve safety, and enhance the overall travel experience. By implementing these measures, authorities can work towards creating a well-connected, sustainable, and people-centric transportation system. The recommendations also emphasize the importance of data-driven decision-making, public engagement, and seamless integration between different modes of transportation 

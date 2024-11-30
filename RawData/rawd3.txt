@@ -1,0 +1,553 @@
+Applying Health Mapping Technology for the Residents of Barangay San Fermin, Cauayan City Isabela CASTRENCE, SUSAN C. DUMELOD, ROSEMARIE D. SONGSONG, JACOB B. January 2024
+
+
+
+
+A Thesis Presented to the Faculty of the
+ College of Computing Studies, Information and 
+Communication Technology
+Isabela State University
+Cauayan Campus
+
+
+
+
+
+In Partial Fulfillment of the Requirements for the Degree 
+ Bachelor of Science in Computer Science
+
+
+
+
+APPROVAL SHEET
+The Thesis entitled Applying Health Mapping Technology for the Residents of Barangay San Fermin, Cauayan City Isabela has been prepared and submitted by Susan C. Castrence, Rosemarie D. Dumelod, Jacob B. Songsong in partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science is hereby endorsed. 
+LIEZL S. ABUZO, Ph. D.
+Research Paper Adviser
+
+Approved by the panel of the final oral and system defense with a grade of _________.
+REYNALDO R. CORPUZ, DIT
+Chair, Defense Panel
+JESUS M. LINDO, MIT 
+AIMEE D. MOLATO, DIT
+Panel Member
+Panel Member
+
+
+	Accepted as partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science.
+
+ROSE MARY A. VELASCO, DIT						______________
+Program Chair, BSCS					           			Date
+
+REYNALDO R. CORPUZ, DIT						______________
+Dean, CCSICT							           		Date
+
+
+LORELEI C. TABAGO, Ph. D.						______________
+Director, ISU Cauayan Research and Development		              		Date
+
+
+Recorded:
+
+CLARICEL P. ORATA, MBA		                                    		 ______________
+Registrar II, ISU Cauayan							Date
+ACKNOWLEDGEMENT 
+We would like to express our sincere gratitude to our thesis advisor, Dr. Liezl S. Abuzo, for her invaluable guidance, unwavering support, and insightful feedback throughout the research process. 
+A deep gratitude is also owned to our thesis professor Dr. Rose Mary A. Velasco for guiding us and sharing her knowledge to make our thesis paper better. 
+We would also like to thank to our panelists Dr. Reynaldo R. Corpuz, Dr. Jesus M. Lindo and Dr. Aimee S. Molato for their effort to taking time to read and check our thesis paper.
+Our heartfelt appreciation goes to our family for their unwavering understanding, encouragement, and support during this academic journey.
+
+
+
+
+
+
+
+
+
+DEDICATION 
+We dedicate this thesis to our parents, whose boundless love, sacrifices, and encouragement have been our guiding lights. Their unwavering support and belief in our abilities have fueled our academic journey. 
+We also dedicate this work to our professors and mentors at Isabela State University Cauayan Campus, who have imparted valuable knowledge and shaped our intellectual growth. This thesis is a tribute to the collective efforts of those who have played a pivotal role in our educational pursuit.
+
+
+
+
+
+
+
+
+
+ABSTRACT
+The study developed a health mapping system using Geographic Information Systems (GIS), following the Agile Software Development Model, using Barangay San Fermin, Cauayan City, Isabela as the case study, the system will employ mapping to represent the data and display the past and occurring health disparities and outcomes in the area, offering insights for policymakers aiding interventions for health issues and challenges.
+With the utilization of Geographic Information Systems (GIS), the resident health data had been considered, such as the number of past and occurring diseases, long-term and acute illnesses, contagious, and non-contagious illnesses, and maternity of the residents.
+The results of the study shows that the health mapping technology is well effective for the target users with a mean of 4.55 and functional with a mean of 4.46. This study proves that the use of health mapping technologies provides insights on healthcare interventions and community engagement and awareness. The researchers conclude that this approach can significantly impact the overall health and usage of mapping technologies in the barangay and is an effective tool for healthcare intervention.
+This study serves as a firm background of understanding in addressing health issues and concerns through interventions. The insights garnered from this study can aid policymaking, facilitating overall wellness and quality of life. 
+Keywords: Mapping, Health, Systems, Issues, Patients.
+Table of Contents
+
+ABSTRACT	v
+Table of Contents	vi
+LIST OF FIGURES	viii
+LIST OF TABLES	ix
+1.1 Background of the Study	1
+1.2	Objectives of the Study	2
+1.2	Significance of the Study	3
+1.3	Scope and Delimitations	4
+2	THEORETICAL FRAMEWORK	5
+2.1	Review of Related Literature	5
+2.1.1 Significance of GIS to health mapping systems	5
+2.1.2	Health Mapping to Public Health	6
+2.1.3 Health Mapping using GIS as a tool for intervention of health issues	7
+2.1.4 Policymakers using health mapping technologies	8
+2.1.5 Likert Scale	9
+2.1.6 Standard Deviation	10
+2.2 Concept of the Study	11
+2.3 Definition of Terms	12
+3	OPERATIONAL FRAMEWORK	15
+3.1	Materials	15
+Table 1 Software	15
+Table 2 Hardware	15
+3.2 Data	15
+3.3	Methods	16
+3.3.1	Research design	16
+3.4	Interpretation used in study	17
+3.5 Mean and Standard Deviation	18
+3.6 Software Development Methodology	18
+4	RESULTS AND DISCUSSION	21
+Graphical Data Representation	21
+5	SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS	30
+5.1	Summary	30
+5.2	Conclusions	31
+5.3	Recommendations	31
+REFERENCES	33
+
+
+
+
+
+
+LIST OF FIGURES
+Figure 1. Conceptual Framework	11
+Figure 2. Data Cases of Brgy. San Fermin	21
+Figure 3. Total Population of Cases	22
+Figure 4. Bar Graph of Cases per Purok	22
+Figure 5. Health Disease Cases Mapping	23
+
+LIST OF TABLES
+Table 1. Software	15
+Table 2. Hardware	15
+Table 3. Data Cases of Barangay San Fermin	16
+Table 4. Effectiveness Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Effectiveness.	24
+Table 5. Functionality Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Functionality.	25
+Table 6. Usability Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Usability.	26
+Table 7. Reliability Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Reliability.	27
+Table 8. Security Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Security.	28
+Table 9. Grand Mean, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Functionality, Usability, Reliability, and Security.	29
+
+
+
+
+
+
+
+
+
+
+INTRODUCTION
+1.1 Background of the Study
+The resident data that include factors such as existing and past health conditions, and total number of recorded health center consultations play a crucial role in shaping individuals’ well-being and overall health. The World Health Organization (WHO) in an article from 2022 stated that aging is a result from the impact of the accumulation of a wide variety of molecule and cellular damage over time. This leads to a gradual decrease in physical and mental capacity, and growing risk of disease. Obtaining a medical history can reveal chronic illnesses and other prior disease states fir which the patient may not be under treatment but may have had lasting effects on the patient’s health. The medical history may also direct differential diagnoses (Nichol Junior, et al., 2023). Understanding how these factors interact and impact health outcomes is essential for policymakers, public health professionals, and urban planners to develop effective strategies to addressing health disparities and improving population health. Policies addressing the social determinants of health and health equity play a significant role in improving the well-being of individuals, especially in child and youth health and education (Littleton & Reader, 2022).
+Information and data gathered from health mapping, allow researchers to integrate diverse datasets, including past and occurring health conditions with Geographic Information Systems (GIS). The resident data that include factors such as existing and past health conditions, and total number of recorded health center consultations play a crucial role in shaping individuals' well-being and overall health.  By incorporating the spatial dimension, it becomes possible to represent spatial patterns, hotspots, and spatial data that may otherwise remain hidden. This research aims to leverage the health mapping technique to uncover and enable more efficient strategies and interventions against diseases. Obtaining a medical history can reveal the relevant chronic illnesses and other prior disease states for which the patient may not be under treatment but may have had lasting effects on the patient's health. The medical history may also direct differential diagnoses. (Nichol JR, et al., 2023) Understanding how these factors interact and impact health outcomes is essential for policymakers, public health professionals, and urban planners to develop effective strategies for addressing health disparities and improving population health. By pinpointing geographic areas with high health disparities influenced by occurring health conditions, policymakers can allocate resources more effectively and implement targeted interventions to improve health outcomes and reduce health inequities within specific geographic areas and boundaries.
+1.2	Objectives of the Study
+The main objective of the project was to apply Health Mapping technology system using Geographic Information Systems (GIS) for the Residents of Barangay San Fermin, Cauayan City, Isabela.
+Specifically, it aimed to:
+1. Show the number gathered data cases through data representation 
+2. Evaluate the system through questionnaire according to the user’s perspective in terms of.
+	2.1 Effectiveness;
+	2.2. Functionality;
+	2.3. Usability;
+	2.4. Reliability; and
+	2.5. Security. 
+1.2	Significance of the Study
+Through the findings of this study, the researchers believe that the results will be of benefit to the following: 	
+Barangay officials. The findings of the study will emphasize the significance of extensively identifying the occurring health conditions in the barangay and give insightful patterns to barangay officials in planning actions for the barangay residents’ healthcare and well-being.
+Community. The findings of the study will enable awareness and of past and occurring health issues and disparities of the community and will provide insights for adapting to occurring health issues.
+Researchers. The findings of the study will give the researchers ideas for further applications of mapping technologies. The methods and technology applied in the study may be applied for various mapping purposes.
+Future researchers. This study will serve as a guide to future researchers for integrating Geographic Interface Systems on their projects and serve as a reference for future research studies.
+1.3	Scope and Delimitations
+This study will focus on the only consist of past and occurring health outcomes in areas of Barangay San Fermin, Cauayan City, Isabela wherein the study population will only be limited to respondents from the barangay hall of the target area. Coughs, colds, fevers, cough and cold, cough and cold with fever, abdominal pain, wounds, toothaches, dizziness and tuberculosis will be the health diseases to be included from the data that the respective agency will disclose. The study will make use of a Geographical Information System (GIS) program that will be used to represent the data concisely in a larger scale. For the resident data gathered, data from the past month will only be disclosed as the agency compiles data every after the end of the respective month.	
+
+
+	
+THEORETICAL FRAMEWORK
+2.1	Review of Related Literature
+Based on The Study “Applying Health Mapping for the Residents of San Fermin, Cauayan City, Isabela”, the following references are relevant and appropriate for the review:
+2.1.1 Significance of GIS to health mapping systems
+Geographic Information Systems (GIS) play a significant role in public health by providing a powerful tool for mapping and analyzing health-related data. GIS enables the visualization and analysis of spatial data, allowing for a better understanding of the relationship between the built environment and health outcomes (Boggs et al., 2022). It has been widely used to elucidate the underlying geography of health disparities, which may not be evident through traditional statistical analyses (Rosales et al., 2019). 
+In the context of contagious disease epidemics, GIS mapping assists in monitoring trends and patterns, providing valuable information for public health decision-makers, travelers, and local populations at risk (Shariati et al., 2020). Furthermore, GIS has been adopted increasingly in diverse health-related domains and national settings, aiming to improve responses to public health problems (KS et al., 2022). The significance of GIS in health mapping is evident in various applications, such as analyzing socio-economic and geographical factors affecting the health of the elderly, monitoring disease outbreaks, and assessing the availability and accessibility of health services (Dermatis et al., 2020; Rajapakshe et al., 2019; Rohsulina et al., 2022). 
+GIS has also been instrumental in spatial modeling of disease prevalence, environmental factors influencing disease transmission, and the mapping of geographical distributions of diseases (Parandin et al., 2022; Tewara et al., 2019). Moreover, GIS has been used to create digital maps for the distribution of minerals, mapping and complaint of damaged roads, and surveillance of infectious agents in hospitals (Puspitasari et al., 2022; Winarta et al., 2021; Silva et al., 2021). During the COVID-19 pandemic, GIS has played a critical role in understanding the spatial clustering and transmission trends of the disease. It has been utilized for near-real-time case tracking and documentation, as well as for the analysis of geographical patterns of disease incidence and prevalence (Ahasan & Hossain, 2021; Franch-Pardo et al., 2020). 
+2.1.2	Health Mapping to Public Health
+Health mapping offers various advantages and contributes to public health. Process mapping has been highlighted as advantageous for planning projects in healthcare, as it allows for the identification of areas of need and resources for targeted public health efforts (Connors et al., 2021). Participatory mapping has been demonstrated as a potent methodology for diagnosing place-based determinants of health disparities (Douglas et al., 2020). In addition, asset mapping approaches have been widely employed in public health, medicine, and other social and behavioral sciences to map local assets and ensure community participation in public health promotion strategies (Healy et al., 2023; Agdal et al.,2019). 
+Geographic Information System (GIS) mapping has been identified as an affordable and efficient method to identify areas of need and resources for targeted public health efforts, particularly in vision-related public health initiatives (Connors et al., 2021). Digital mapping using GIS technology for health emergency monitoring has been recognized for its advantages in addressing public health challenges, such as the evolution of the COVID-19 pandemic (López et al., 2021; Smith & Mennis, 2020). The use of mapping tools has been found to facilitate health policy planning and identify evidence gaps for future studies, contributing to public health research and practice (Ibiapina et al., 2022; Dick et al., 2020).
+2.1.3 Health Mapping using GIS as a tool for intervention of health issues
+Health mapping technology using Geographic Information Systems (GIS) has emerged as a valuable tool for intervening in health issues. GIS allows for the visualization and analysis of health data, enabling the identification of priority areas for intervention and the mapping of patient addresses to reveal areas in need of targeted health interventions (Banerjee et al., 2022). Utilizing to understand the spatial distribution of diseases such as tuberculosis and diabetes mellitus, aiding in the identification of risk factors and targets for public health intervention (Rosales et al., 2019). Additionally, GIS has been instrumental in spatial epidemiology, assisting in the identification and spatial analysis of diseases, such as dengue fever, to guide disease intervention strategies (Sulistyawati, 2020).
+GIS has been employed to improve urban air quality through green infrastructure, offering specific policy interventions to enhance air quality (Hewitt et al., 2019). It has been used to analyze geographic accessibility for informing radiotherapy planning, demonstrating its value in healthcare decision-making and treatment planning for cancer patients (Hande et al., 2022). GIS has been leveraged to mitigate COVID-19 contact tracing and surveillance challenges, showcasing its adaptability in addressing emerging health crises (Akpan et al., 2022).
+2.1.4 Policymakers using health mapping technologies
+Health mapping GIS data plays a crucial role in informing policymakers about health intervention and resource allocation. Geographic Information System (GIS) technologies have been shown to be effective in mapping regional differences in attributes such as disease burden, environmental exposures, and access to health care services, which can help in suggesting appropriate priorities for public health interventions (Makful, 2019). GIS aids in location-based support for public health preparedness programs, including decisions, resource allocation, communication, collaboration, and civic participation, which are essential for planning, response, and recovery in public health emergencies (Bhattacharya,2023).
+GIS-based disease mapping serves as an effective tool for communication in public health and planning disease surveillance strategies, enabling the equitable allocation of healthcare resources to those most in need and ensuring accessibility to basic health services (Zuhdi et al., 2021). 	Furthermore, GIS can be used to identify locations with inadequate access to healthcare, informing health resource allocation and ensuring optimal locations for healthcare services (Nicholson et al., 2023). Additionally, GIS mapping combined with publicly available data has been effective in identifying health service shortage areas for targeted public health programming (Connors etal.,2021).
+The use of GIS to improve public health emergency response during the COVID-19 crisis has been explored, particularly in optimizing the allocation of public health resources in rural settings using a data-driven approach that considers the multifactorial demand for new COVID-19 testing sites (Carbajales-Dale et al., 2023). Moreover, GIS has been utilized to identify social risks and align clinical services to patients' needs, although there is a paucity of literature regarding GIS use to address social risk factors in clinical settings (Ngongo et al.,2023).
+	In terms of resource allocation, GIS has been instrumental in assessing the distribution of mental health beds, guiding mental health resource allocation policies by considering demographic and geographical distributions and influencing factors (Fan et al., 2022). It has also been used to inform health benefits package design for progressing towards Universal Health Coverage, providing actionable policy recommendations regarding spending allocations across specific delivery platforms, disease programs, and interventions (Fraser-Hurt et al., 2021).
+2.1.5 Likert Scale
+A Likert scale is a commonly used psychometric tool that enables researchers to assess attitudes, perceptions, opinions, and behaviors. Typically, this scale comprises a series of statements or items to which respondents express their level of agreement or disagreement. The responses are structured on a 5-point scale, ranging from "strongly disagree" to "strongly agree" (Ong et al., 2021). Likert scales are valuable in research as they offer a quantitative measurement of qualitative data, facilitating statistical analysis and comparison ("Likert Scale in Social Sciences Research: Problems and Difficulties", 2022).
+2.1.6 Standard Deviation
+Standard deviation is a crucial statistical measure when analyzing data obtained from Likert scales, particularly in the context of achieving consensus. The Likert scale, a widely used measurement tool in social sciences research, offers versatile options for data analysis ("Likert Scale in Social Sciences Research: Problems and Difficulties", 2022; Lahnamäki-Kivelä & Kuhmonen, 2022). When responses on a Likert scale show a decrease in standard deviation and an increase in mean towards consensus, it indicates a convergence of opinions or attitudes (Centeno et al., 2021). This trend towards reduced variability and a more central tendency signifies a movement towards agreement among respondents regarding the measured construct.
+
+2.2 Concept of the Study
+
+	
+Figure 1 shows the Conceptual Framework used in the study. The data to be gathered consists of health records in the form of dataset. Using Geographic Information Systems and mapping technology, the agile software method is used to develop the system. The system that integrated GIS and mapping technology with the gathered data is deployed as a web-based application.
+
+2.3 Definition of Terms
+Agile Development Method. Is a project management approach that involved breaking the project into several phases, namely; Planning, Design, Development, Testing, Deployment, Review and Launch.
+Barangay. The smallest administrative unit of the Philippine Government.
+Computer. Is an electronic device that processes data according to a set of instructions, enabling tasks such as calculations, data storage and programming software applications.
+CSS. Used to describe the presentation of a document written in HTML or XML, including aspects such as layout, colors, and fonts.
+Dataset. Is a collection of data, in this study it is in the form of a spreadsheet, using .xlsx format.
+Functionality. Refers to the range of operations and activities that a system, software, or device can perform to fulfill its intended purpose.
+GeoJSON. A format for encoding various geographic data structures using JSON (JavaScript Object Notation).
+GIS (Geographic Information System). A computer-based system that displays geographic information to provide a powerful tool for mapping, modeling, and understanding relationships within geographical areas.
+Health Interventions. Are actions or strategies designed to prevent, diagnose, treat, or manage health conditions and improve overall health outcomes.
+Health Issues. An abnormal or physiologically unbalanced state of the body.
+Health Mapping. Involves visualizing and analyzing health-related data to understand the distribution of health indicators, resources, and risks within the community.
+HTML. Used to create and structure content of the web. It consists of tags that define the elements and structure of a web page.
+IDE. Stands for Integrated Development Environment. Software such as Visual Studio Code are examples of IDE used to compile different code and programs to function as one system. 
+JavaScript. Used for enabling dynamic and interactive web pages.
+Likert Scale. Is a psychometric scale commonly used in questionnaires to measure respondents’ attitudes or feelings toward a statement by offering a range of answer options from strong agreement to strong disagreement.
+Occurring Health Issues. Are health issues that have been recorded in the barangay health office in the present time.
+Past Health Issues. Are health issues that had already occurred and had been resolved/cured.
+Policymakers. Are individuals or groups responsible for creating and implementing rules, laws, and guidelines that govern a society, organization, or sector.
+Purok. An informal division within a barangay, it is the basis of how the collective datasets are grouped.
+Reliability. Is the consistency and dependability of a system, product, or process to perform its intended functions accurately over time without failure.
+San Fermin, Cauayan City Isabela. It is where the study is to be conducted.
+Security. Refers to the measures and protocols implemented to protect systems, networks, and data from unauthorized access, attacks, damage or theft.
+Software Systems. In computer science, a software system is a set of interrelated programs designed to perform specific tasks efficiently.
+Standard Deviation. Is a statistical measure that quantifies the amount of variation or dispersion in a set of numerical data, indicating how spread out the values are from the mean.
+Usability. Is the measure of how effectively, efficiently, and satisfactorily a user can interact with a product, system, or interface to achieve their goals.
+Visual Studio Code. An open-source code editor that supports multiple programming languages.
+OPERATIONAL FRAMEWORK
+ Materials
+Table 1. Software
+
+
+DEFINITION AND USAGE
+1. GeoJSON
+GeoJSON is a format for encoding a variety of geographic data structures. Used for rendering polygons for hotspots in the GIS.
+2. Visual Studio Code
+Used for code editor and development, building and debugging of the web application and health mapping system.
+3. JavaScript Language
+Main programming language used for system development. Used for integrating websites for the system.
+4. HTML
+Used for creating webpage
+5. CSS
+Used for structuring webpage
+
+	Table 1 shows the programs and software used for developing the health mapping system.
+      Table 2. Hardware
+
+
+DEFINITION AND USAGE
+1. Computer
+Used mainly for encoding, editing, and compilers
+2. Hard Drives
+Used for data transfer, and storage of project and assets
+3. Cloud Drive
+Used as a server to run the web-integrated system.
+
+	Table 2 shows the hardware and technology used for develpoping the health mapping system and the tools used for containing the datasets gathered, and the health mapping system’s assets.
+3.2 Data
+Researchers will gather datasets containing necessary data and visualize or represent and health measures at a geographical level. These datasets include information such as existing and past medical or health issues long term diseases and acute illnesses, datasets are in the form of spreadsheets containing data disclosed by the agency. 
+Table 3. Data Cases of Barangay San Fermin 
+
+	Table 3 shows the dataset of Barangay San Fermin health center consultations, each classified on type of diseases recorded per each corresponding purok. The different classifications of the diseases are namely; Cough, Cold, Fever, Cough and Cold, Cough and Colds with Fever, Abdominal Pain, Wounds, Toothache, Dizziness and Tuberculosis.
+3.3 Methods
+Research design
+The appropriate research design for the study is a descriptive design. In a descriptive design, the study will obtain information from the data provided by the health agency in order to describe occurring health disparities and issues. Interventions or policy changes may be implemented in specific geographic regions to address the health issues and outcomes with the usage of an experimental GIS program designed for health mapping, visualizing and providing data extensively, aiding the formulation of interventions to health issues per specific geographic boundary. A web-based system is used for a more flexible platform compatibility. The results of the study are to be determined with the utilization of a user survey to the target audience.
+3.4	Interpretation used in study
+Table 4. Likert Scale
+Scale
+Weight Mean
+Descriptive Interpretation
+5
+4.21 – 5.00
+Strongly Agree
+4
+3.41 – 4.20
+Agree
+3
+2.61 – 3.40
+Neutral
+2
+1.81 – 2.60
+Disagree
+1
+1.00 – 1.80
+Strongly Disagree
+
+The Likert scale was used in this study is a psychometric scale commonly involved in research that employs questionnaires. It is used to measure respondents' attitudes, opinions, or perceptions toward a particular subject by presenting a series of statements and asking respondents to indicate their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Furthermore, the Likert scale is a versatile and widely used tool in survey research. Its structured approach allows researchers to collect quantifiable data on attitudes, opinions, and perceptions. Properly designed and implemented, a Likert scale can provide valuable insights into the subjective experiences of respondents.
+
+3.5 Mean and Standard Deviation
+
+
+The mean provides a measure central tendency which is calculated by summing the values “x’ in the gathered data from the respondents and dividing by the total number of respondents, “N”. It is used as a fundamental element for standard deviation.
+
+
+
+
+Standard deviation is a statistic that measures the dispersion of a dataset relative to its mean and is calculated as the square root of the variance. The standard deviation is calculated as the square root of variance by determining each data point's deviation relative to the mean.
+3.6 Software Development Methodology
+The Agile software development method is a process that undergoes several phases namely; planning, system design, development, testing, deployment, review, and launch. Each phase of the agile development process has specific objectives. 
+Planning. Identifying the goals of the system. This is where the target location, San Fermin, Cauayan City, Isabela was chosen. It also involves identifying the requirements and capabilities of the system to ensure that it is attainable in the given timeframe.
+Design. The process where the architecture of the software is developed. Using the conceptual framework to have a layout of the flow of the system.
+Development. Front-end development utilized HTML, CSS and JavaScript for designs, user interface and assets. Back-end used GeoJSON to plot the coordinates and polygons for mapping the health disease cases. Python and Visual Studio Code IDE was used to compile both front-end and back-end elements.
+Testing. Performing a series of tests such as encoding and updating different values of test data and navigating through the interface  to ensure the functionality of all the operations and functions of the software/system until it meets the client’s needs.
+Deployment. Initiates the process of implementing the software and using the proposed system, to the agency which is San Fermin Barangay Hall, using the actual data from the datasets gathered from the said agency.
+Review. Helps minimize the issues and defects in a particular and subsequent phase. Bugs and inconsistencies are fixed throughout the application as newer modifications and features are added, such as including a time and date function to display the data from a given point in time.
+Launch. Implementing the final version of the system software to San Fermin Barangay hall, where it will be used for health mapping.
+RESULTS AND DISCUSSION
+This chapter presents the result, analysis, and interpretations of the data collected in pre-survey. The tables, discuss the summary and findings of the gained information from the respondents by the way of Likert scale survey questionnaires to the respondents of Barangay San Fermin, Cauayan City, Isabela. The tables discuss the benefits and perceptions of the respondents in the proposed system.
+Results by phase of study
+Graphical Data Representation
+
+
+
+
+
+
+
+Figure 2 shows the dataset gathered from the target agency, Barangay San Fermin, it shows the total number of health issues per purok, with Purok 1 having 3 cases, Purok 2, 19 cases, Purok 3, 11 cases, Purok 4, 8 cases, Purok 5, 12 cases, Purok 6, 19 cases, Purok 7, 13 cases, and Purok 8 with 85 cases with a total of 170 cases as of November 2023.
+
+
+
+
+Figure 3 shows the total population and total number of medical cases of Barangay San Fermin, Cauayan City. And system dashboard containing View Map, View Graph, Update Data, and Login functions.
+
+
+
+
+Figure 4 presents the total number of cases per purok. As shown in the figure, the bar graph can be filtered with specific diseases to show a more extensive data representation.
+
+Figure 5 depicts the health cases disease in the map. As shown, there is a color intensity to represent each respective area’s number of cases, with darker shades of green having a greater number of health issues and lighter shades of green having a smaller number of health issues.
+
+
+
+
+
+Table 4. Effectiveness Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Effectiveness.
+Effectiveness
+Mean
+SD
+Description Interpretation
+1. The health information provided to me is clearly represented.
+4.40
+0.724
+Strongly Agree
+2. Confident in understanding the health data presented.
+4.57
+0.626
+Strongly Agree
+3. The visual representations (charts, graphs) help me make informed health decisions.
+4.63
+0.556
+Strongly Agree
+4. Health data is presented in a way that is easy to interpret.
+4.70
+0.466
+Strongly Agree
+5. I believe the presented health data supports effective decision making
+4.47
+0.681
+Strongly Agree
+Category Mean
+4.55
+0.261
+Strongly Agree
+
+The table shows the category mean and descriptive interpretation of the respondents on the proposed system in terms of Effectiveness. 
+The findings show that the health information provided clearly presented (M = 4.40), confident in understanding the health data presented (M = 4.57), the visual representations (chart, graphs) help me make informed health decisions (M = 4.63), health data is presented in a way that is easy to interpret (M = 4.70), the presented health data supports effective decision making (M = 4.47). Thus, the table reveals that the system is Effective as strongly agreed by the respondents with a category mean of 4.55 (SD = 0.261).
+
+
+Functionality
+Mean
+SD
+Descriptive Interpretation
+1. The health mapping effectively addresses the specific health needs of residents in Barangay San Fermin
+4.43
+0.728
+Strongly Agree
+2. The features of health mapping system user-friendly and easy to navigate.
+4.60
+0.724
+Strongly Agree
+3. The health mapping system provides valuable insights into local health trends and issues
+4.67
+0.606
+Strongly Agree
+4. The functionality of the health mapping system positively impacts the health and well-being of residents in Barangay San Fermin.
+4.60
+0.621
+Strongly Agree
+5. Residents can easily access and utilize the health mapping technology for their well-being
+4.53
+0.681
+Strongly Agree
+Category Mean
+4.57
+0.278
+Strongly Agree
+
+Table 5. Functionality Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Functionality.
+
+The table shows the category mean and descriptive interpretation of the respondents on the proposed system in terms of Functionality.
+The findings show that the health mapping system effectively addresses the specific health needs of residents in Barangay San Fermin (M = 4.43), the features of the health mapping system user-friendly and easy to navigate (M = 4.60), the health mapping system provides valuable insights into local health trends and issues (M = 4.67), the functionality of the health mapping system positively impacts the health and well-being of residents in Barangay San Fermin (M = 4.60), residents can easily access and utilize the health mapping technology for their well-being (M = 4.53). Thus, the table reveals that the system is Functional as strongly agreed by the respondents with a category mean of 4.57 (SD = 0.278).
+
+Table 6. Usability Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Usability. 
+Usability
+Mean
+SD
+Descriptive Interpretation
+1. The health mapping system easy to navigate and use.
+4.13
+0.730
+Agree
+2. Residents find it simple to input their health data into the system.
+4.47
+0.681
+Strongly Agree
+3. The system provides clear instructions on how to use its features.
+4.47
+0.629
+Strongly Agree
+4. Residents can easily access relevant health information through the system.
+4.40
+0.770
+Strongly Agree
+5. The health mapping technology effectively accommodates users with varying levels of technological proficiency.
+4.53
+0.681
+Strongly Agree
+Category Mean
+4.40
+0.273
+Strongly Agree
+
+The table shows the category mean and descriptive interpretation of the respondents on the proposed system in terms of Usability. 
+The findings show that the system is easy to navigate and use (M = 4.13), Residents find it simple to input their health data into the system (M = 4.47), The system provides clear instructions on how to use its features (M = 4.47), residents can easily access relevant health information through the system (4.40), the health mapping technology effectively accommodate users with varying levels of technological proficiency (M = 4.53). Thus, the table reveals that the system is Usable as strongly agreed by the respondents with a category mean of 4.40 (SD = 0.273).
+Table 7. Reliability Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Reliability.
+Reliability
+Mean
+SD
+Descriptive Interpretation
+1. The health mapping system consistently provides accurate health information.
+4.23
+0.774
+Strongly Agree
+2. Residents trust the reliability of the data collected and presented by the system.
+4.33
+0.758
+Strongly Agree
+3. The system delivers timely updates and notifications regarding health-related matters.
+4.70
+0.466
+Strongly Agree
+4. Residents have confidence in the system's ability to identify and address health concerns effectively.
+4.57
+0.679
+Strongly Agree
+5. User's consider the health mapping technology in Barangay San Fermin to be reliable resource for health-related information and services.
+4.20
+0.714
+Agree
+Category Mean
+4.41
+0.275
+Strongly Agree
+
+The table shows the category mean and descriptive interpretation of the respondents on the proposed system in terms of Reliability.
+The findings show that the health mapping system consistently provides accurate health information(M = 4.23), residents trust the reliability of the data collected and presented by the system(M = 4.33), the system delivers timely updates and notifications regarding health-related matters(M = 4.70), the residents have confidence in the system's ability to identify and address health concerns effectively(M = 4.57), user's consider the health mapping technology in Barangay San Fermin to be reliable resource for health-related information and services(M = 4.20). Thus, the table reveals that the system is reliable as strongly agreed by the respondents with a category mean of 4.41 (SD = 0.275).
+Table 8. Security Mean Response, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Security.
+Security
+Mean
+SD
+Descriptive Interpretation
+1. The health mapping system securely protects health information.
+4.13
+0.730
+Agree
+2. The system provides clear information about how data is stored and safeguard.
+4.50
+0.630
+Strongly Agree
+3. Health information is kept confidential within the system
+4.37
+0.765
+Strongly Agree
+4. Health mapping system technology system employs sufficient measures to prevent unauthorized access.
+4.73
+0.450
+Strongly Agree
+5. The systems security features Meet industry standards and best practices.
+4.50
+0.731
+
+Strongly Agree
+
+
+Category Mean
+4.45
+0.343
+Strongly Agree
+
+
+The table shows the category mean and descriptive interpretation of the respondents on the proposed system in terms of Security.
+	The findings show that the health mapping securely protects personal health information (M = 4.13), the system provides clear information about health data is stored and safeguard (M = 4.50), health information is kept confidential within the system (M = 4.37), health mapping technology system employs sufficient measures to prevent unauthorized access (M = 4.73), the systems security meet industry standards and best practices (M = 4.50). Thus, the table reveals that the system is secure as strongly agreed by the respondents with a category mean of 4.45 (SD = 0.343).
+
+
+	Table 9. Grand Mean, Standard Deviation and Descriptive Interpretations of the Respondents’ Evaluation on the Health Mapping System in Terms of Functionality, Usability, Reliability, and Security.
+Indicators
+Mean
+SD
+Descriptive Interpretation
+Functionality
+4.57
+0.278
+Strongly Agree
+Usability
+4.40
+0.273
+Strongly Agree
+Reliability
+4.41
+0.275
+Strongly Agree
+Security
+4.45
+0.343
+Strongly Agree
+Grand Mean
+4.46
+0.152
+Strongly Agree
+
+	The table reveals that the system is functional (M = 4.57), usable (M = 4.40), reliable (M = 4.41) and with secured data (M = 4.45) as strongly agreed by the respondents with a grand mean of 4.46 (SD = 0.152). 
+
+. 
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+ Summary
+The researchers discussed the phases of development of the study as stated in the previous chapters and the application of Health Mapping Technology for the residents of Barangay San Fermin, Cauayan City, Isabela presents a promising and innovative approach to healthcare distribution and interventions to health issues occurring in the barangay, utilizing Geospatial Information Systems (GIS) and spatial data and technology. The study demonstrated the potential on identifying occurring health trends, and the significance of health mapping to locate the occurring health disparities in the barangay and empowering communities. With a total of 170 health cases present in San Fermin, Cauayan City, Isabela as of November 2024. The researchers found that Purok 1 has 3 cases, Purok 2,19 cases, Purok 3, 11 cases, Purok 4, 8 cases, Purok 5, 12 cases, Purok 6, 19 cases, Purok 7, 13 cases, and Purok 8 having 85 cases.
+These results have garnered feedback to the mapping system from the target respondents, consisting of barangay health officials and staff, with a mean of 4.57 and standard deviation of 0.278, corresponding to Strongly Agree to the Functionality of the system, a mean of 4.40 and standard deviation of  0.273, corresponding to Strongly Agree to the Usability of the system, a mean of 4.41 with a standard deviation of 0.275, corresponding to Strongly Agree to the Reliability of the system’s, a mean of 4.45 with a standard deviation of 0.343, corresponding  to Strongly Agree to the Security of the System and the data used, and a Grand Mean of 4.46 and standard deviation of 0.152, corresponding to Strongly Agree on the evaluation of the system from the users.
+ Conclusions
+After a thorough analysis of gathered data, the researchers conclude from the findings that Barangay San Fermin, with a total of 170 health cases based on consultation records from the Barangay, has Purok 8 with the highest number of health issues, totaling to a number of 85 cases, with Purok 1 having the lowest number of health issues, totaling to a number of 3 cases. 
+It is also revealed from the findings that the perception of the respondents on the proposed in applying health mapping technology for the residents of Barangay San Fermin, Cauayan City, Isabela is usable and beneficial in Barangay San Fermin with a Grand Mean of 4.46 in its functionality, usability, reliability and security, with a standard deviation of 0.152, and a mean of 4.55 in its effectiveness with a standard deviation of 0.261 corresponding to Strongly Agree to the evaluation of the users on the Health Mapping system. With this, the researchers therefore conclude that the Health Mapping system applied in Barangay San Fermin, Cauayan City, Isabela has been proven to be an innovative and efficient approach to identifying the occurring health issues and cases throughout the barangay.
+
+5.3	Recommendations
+Results of the study showed that the Health Mapping Technology using GIS is effective as tool for healthcare intervention, however, based on the limitations of the study, the researchers recommend using a wider range of data and parameters, which is applying to a larger area with more population and diversity, it is also recommended to cover more types of diseases, mainly contagious diseases, long-term diseases or health conditions, situational parameters and vulnerability, such as pregnancy, obesity and senior citizens to represent health mapping better. 	Gathering data on larger-scale health centers such as hospitals, which have more dense patient records for more data.  Adding more functions to the application to be able to explore more parameters such as vulnerability, and prediction of disease based on prospective data.
+
+

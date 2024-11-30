@@ -1,0 +1,422 @@
+WEB-BASED MANAGEMENT INFORMATION SYSTEM FOR BARANGAY DEL PILAR, ALICIA, ISABELA Chua, Niño Angelo Dalanhon, Roneil Nikko Langit, Angelika JANUARY 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Chua, Niño Angelo Dalanhon, Roneil Nikko Langit, Angelika JANUARY 2023
+
+
+
+
+ABSTRACT
+
+This research study entitled "Web-Based Management Information System " aims to develop, implement, and assess the proposed system. Specifically, it aims the following: to identify the problems encountered by the barangay in using the current process, and to determine the benefits of the proposed system in terms of Functionality, Performance, Usability, and Security. The purpose of this study is to offer detailed reliable and secure keeping of all data. Based on the result of the study, there are still problems encountered in using the manual process, and needs an effective system to manage profiles efficiently and effectively. This study is the solution to the problems encountered regardless of using the existing manual process.
+
+The researchers conducted the proposed research study with the primary objective of identifying the problems encountered in the present manual process. A Questionnaire was prepared to conduct the necessary information needed by the researchers. The Barangay Officials including the Barangay Secretary and Barangay Health Workers (BHW) were the ones who answered questionnaires to create accurate findings, the researchers concluded that the Barangay Officials needed a solution.
+
+Based on the summary of the findings and conclusion, the researcher wants to recommend the acceptance of the Proposed System for its very beneficial for the said Barangay.
+
+Hence, the Barangay Management and Information System for all the Residents are recommended to be used to address the problem encountered based on the result of the study.
+
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+Web-Based Management Information System has been developing in such a way that it now essentially controls a country's riches, power, and achievements in science and technology. The growth of current information technology has made it a source of raw materials, wealth, and power that are oriented toward the benefit of people. In actuality, these technological breakthroughs help to promote human well-being. Different companies and nations can employ web-based management information systems. (Hariri Hassan, 2021).
+
+Future studies will assist businesses in making improvements to their web-based services, assessing their quality, and ultimately integrating their websites into new services. The research conclusions only apply to Web-based Management Information Systems for the development of services, and this study covers numerous case studies.Eny-Setyawati 2021. A collection of tools and processes known as a management information system (MIS) collect data from many sources and display it in a comprehensible manner. An MIS is used by managers to develop reports that give them all the data they require to make choices about everything from daily operations to top-level strategy. (David Ingram, 2019).
+
+This study was conducted in the Barangay Del Pilar, Alicia, Isabela, where this study aims to implement and assess the proposed system.
+
+Based on the result of the study, there are still problems encountered regardless of using the existing manual-based process to secure the record of their constituents.
+
+Web-Based Management Information System for Barangay Del Pilar, Alicia Isabela needs to develop so they can easily determine and manage its constituents as to their age classification, employment status, no. of residents belonging to PWD, Pregnant, Houscowners, Tenants, and no. of Households. This problem will be resolved by applying a computer-based system.
+
+Objectives of the Project
+
+Generally, the study aimed to develop and implement the study entitled" Web-Based Management Information System for Barangay Del Pilar, Alicia, Isabela".
+
+Specifically, it aims to:
+
+1. determine the problems encountered by the barangay in using the existing manual-based process in terms of Functionality, Performance, Usability, and Security.
+
+2. Lessen the workload of Barangay Health Workers by using MIS.
+
+3. assess the developed system using ISO25010 evaluation standard by the end user in terms of
+
+a. Functionality
+
+b. Performance
+
+c. Usability
+
+d. Security
+
+Scope and Limitations
+
+The scope of this study is to provide a functional and usable computer-based system to perform a good quality service, secure client files, ensure that services and information are given at the right time to satisfy the client's needs, provide a user-efficient working environment, and generate more output.
+
+This study limits its coverage only to Barangay Del Pilar Alicia, Isabela. The main goal is to identify the age classification, employment status, no. of residents belonging to PWD, Pregnant, Houseowners, Tenants, and no. of Households.In case there's a census evaluation of the barangay the data gathered from the system will be their basis for checking.
+
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter tends to show the related literature on the research work entitled, Web-Based Management Information System for Barangay Del Pilar Alicia, Isabela.
+
+Therefore, the aim of this chapter is to review the literature on Web-based Management Information System related work. In this chapter, the studies which various researchers have undertaken will be identified at the Local and international in relation to the Barangay Management Information System.
+
+Local
+
+A management information system (MIS) is a computer-based system that provides managers with the tools to organize, evaluate and efficiently manage departments within an organization. An MIS can include software that helps indecision-making, data resources such as databases and people management, and project management applications.https://aimst.academia.edu/SurendranAnbalagan
+
+The computerized barangay information system is appropriate for use by barangay employees, who have access to the profile of barangay residents for direct reports. Moreover, departmental organizational staff which has a business need for this information for their business unit can also benefit. This is responsible for an effective and efficient approach for barangay employees and residents. It helps them accomplish tasks faster and would also eliminate the need for a large staff. It will provide profile-based information for residents. (Lado et al., 2017)
+
+Management Information systems are very important for decision-making in professional and personal life. For the functioning of organizational decision-making is important. Today there is a cut-throat competition and it is imperative to take effective decisions because that manager needs accurate information to beat the competition. MIS facilitates the better flow of information. MIS is implemented at all levels of the organization. Collection of data, processing of information, and controlling of information are done by the MIS applications. MIS is needed for the functioning role, for the performance role, and for support. (Talent Magnifier,2017).
+
+Computer-based information retrieval operates through the use of software that can offer information services for an institution or organization. It is a powerful and convenient builder for simultaneous growth in society and industries. An information service provides a way to electronically access, retrieve, and transmit that information (Imus et al., 2018).
+
+Web-based Management Information Systems (WBMIS) from the perception of employees such as educationalists is increasingly needed as it has important contributions to organizations. Therefore, the primary focus of this study is to develop an assessment model to evaluate the effectiveness/net benefits of WBMIS from the developmental vision of educationalists which in turn positively affect the whole education process.
+
+Management Information System (MIS) theories, it is found that the user satisfaction has a mediating role in the relationship between equality factors and the WBMIS benefits. Accordingly, an extended assessment model is proposed in order to fill the gap in MIS literature and also, contributes to empirical studies in the fields of Information Systems (IS) development and education technology.
+
+Barangay represents the government at the grass root level. They are considered the epitome of what the government can offer and are the court of first help of the general populace.
+
+The Management Information System (MIS) plays precisely the same role in the organization. The system ensures that appropriate data is collected from various sources, processed, and sent further to all the needy destinations. The system is expected to fulfill the information needs of an individual, a group of individuals, and the management functionaries: the managers and top management. (Sakthivel, 2018).
+
+Information systems gain their importance by processing the data from company inputs to generate information that is useful for managing your operations. To increase the information system's effectiveness, you can either add more data to make the information more accurate or use the information in a new way. (Bert Markgraf, 2019).
+
+An information system is regarded as a tool to provide various services to different management functions. The devices have been developing year by year and the application of the tool has become more and more diverse. In management, it is now a very powerful means to manage and control various activities and decision-making.
+
+process access. (Shweta Dhuri, 2017)
+
+In a study by (Martinez, 2018). The Computerized Barangay Information System is appropriate for use by barangay employees, who have access to profile information of barangay residents for direct reports. Moreover, departmental organizational staff which has a business need for this information for their business unit can also benefit. This is responsible for an effective and efficient approach for barangay employees and residents. It will help them accomplish tasks faster and would also eliminate the need for a large staff. It will provide profile-based information for residents.
+
+Information systems are a tool to support information management information systems that are increasingly being used in organizations with the objective of providing a competitive advantage. The information systems used by organizations can be grouped into different types such as transaction processing system management information system decision support systems executive information system expert systems and office information systems information technology has heralded the advent of the information society, the information society may be a virtual society. the concepts of the electronic classroom the electronic office and the electronic library have been explored, information system poses a number of issues on society in general including changing employment patterns archiving and bibliographic control security and data protection intellectual property marketplace issues and access. (Flowley, 2018).
+
+An information system is a system that consists of the collection, input, data processing, storage, processing, control, and reporting so that information is reached from a decision to achieve the desired goals and objectives. With an information system, the community becomes easier to obtain information quickly. The development of information systems also grows faster and faster, along with the development of technology today, for example, the internet. (Prasetyo Wibowo Yunanto, Diat Nurhidayat, and Rimulyo Wicaksono, 2019).
+
+Management Information Systems often referred to as MIS is the people-oriented use of computers in business. MIS is both a field of study and a career path. It combines the foundations of computing, analysis, and business into one field of study. When developing an information system it is important that the end users are highly involved from the beginning of a project. Since the end users will be the ones utilizing the system, it must cater to their needs and desires. Oftentimes, users have the most input when it comes to system requirements. (Lahue, Benjamin Richard, 2018).
+
+Foreign
+
+The Student Information System explains the need to promote the use of internet-based information services among teaching and research staff at a university in the U.K. (Hollands, 2019).
+
+The Student Information System at the Hebrew University of Jerusalem conducted a survey of the faculty members they provided data on internet access as of 2018. The results showed higher usage by the members of the faculties of science.
+
+Medicine and agriculture than the members of the faculties of social science and humanities. (Lazinger et al., 2021).
+
+The Student Management Information System conducted a study on the Internet used by 2250 teachers from public and private schools in the U.S. The study revealed that 90% of the teachers had Internet access. More than half of the teachers (59%) had Internet access at home. A majority of the teachers (68%) used the Internet to find information resources for preparing their lessons. (Becker, 2018).
+
+Web-Based Monitoring Student Information in the University of Malaysia conducted a research study on the use of the Internet by librarians in Malaysia. The main findings of the study indicated that 90% of the respondents used the Internet for work-related purposes. Most of the respondents were recent users. (Singh, 2019).
+
+Management Information System on their report results of a questionnaire survey to determine how knowledge workers use the web to seek external information as part of their daily work. The result of the survey is 61 significant episodes of information seeking were observed, and a framework that relates motivations and moves may be helpful in analyzing patterns of web-based information seeking. (Choo and Deltor, 2020).
+
+Web-Based Information Systems acknowledged that searching for relevant information on the Web is often a laborious and frustrating task for newbies and experienced users. (Hölscher and Strube, 2020).
+
+The Online Information System at Newman University investigates the importance of the organization of electronic resources. Different types of Websites are discussed. Both purchased and free resources are considered with particular reference to those who set policies on how the resources are organized. (Newman, 2018).
+
+Management Information System at S V university, Tirupathi, which showed that more than 25% of the respondents used the Internet 2-3 times a week and more than 123 56% used it for accessing information. A majority of the respondents used the Web and e-mail services of the Internet. The purposes of using the Internet included communication and information gathering. The sources used for identifying information about the Internet included the website itself, journals and magazines, staff, and newspapers. A majority of the respondents used general websites as compared to recreational and discipline-oriented websites. (Chandran, 2018).
+
+Online Management System at Guru Nanak Dev University conducted a survey regarding the use of Internet facilities at the Guru Nanak Dev University, Amritsar. The study indicated that all respondents used the Internet for sending e-mail and 82% for the web. More than 60% of the respondents used the internet for primary information.38% for secondary and only 15% used it for consulting OPACs. A majority of the respondent i.e.75.6% faced the problem of slow Internet connectivity. All respondents used search engineers to browse the required information. More than one-third of the respondents typed the web address directly and only 1.5% used subscription data-based. The results of the study further showed that more than 80% of the respondents felt that in comparison to traditional documents, the Internet was time-saving, easy to use, more informative, more useful, and more preferred. (Amritpal Kaur, 2018).
+
+Web-Based Monitoring System shares the views that many studies in published literature did not analyze Web search behavior directly but sought to understand who searched the Web, what tasks they performed, what their perception was of Web search tools, and how they searched. She conducted a study in 2018 that shows the trends of research on the phenomenon of Web search behavior during the period of 2017 to 2018. Hsieh-Yee mentioned that according to the Search Engine Index, Internet users ranked searching as the most important activity, giving it a 9.1 on a 10-point scale. The Index also indicated that 57% of Internet users search the Web each day and that searching was reported to be the second most popular activity, right behind e-mail. (Hsieh-Yee, 2018).
+
+Information and Management System. Show that information technology has made the management of information a relatively easier task thus helping improve quick and easy access to information. With the growing number of electronic sources of information, it has become imperative for information professionals to redefine the process of collection development. (Seetharama and Ambuja, 2020).
+
+Information and Management System. They conducted a study in the UK to examine the use of the web for health information and advice. More than 1300 people were surveyed. The study showed that 66% of the respondents accessed the Internet from home, 28% from work and the remainder (6%) used a combination of both workplace and home. (Nicholas et al, 2018).
+
+Web-Based Information Computerized System investigated, the Internet and World Wide Web offer a rapidly increasing quantity of valuable resources on Asia-specific information. In view of the vast scope of Asian countries and the fast proliferation of good sites, this article offers only a sampling of valuable Internet resources as starting points for further exploration. It covers Meta sites, Asian search engines, library resource pages, and electronic journals and newspapers. The first part of this paper includes the Internet sites of Asian studies, the second part contains selected East Asian country resources from China, Hong Kong, Japan, Korea, and Taiwan, and the third part presents the leading Asian electronic journals and newspapers. Preference was given to comprehensive sites on countries or regions that have been the focus of recent academic study and research. All the sources are in English and some of them contain bilingual or multilingual versions. 13 (Sheau-yueh J. Chao, 2018)
+
+Management Information System in University of Ghana. Conducted a study to find the extent of awareness and use of the internet and its resources by academic staff and postgraduate students of the University of Ghana. The main findings indicate that both staff and students are fully aware of the Internet and most of its services. The study established that email is highly used by both staff and students. Both staff and students found the Internet a very useful resource. The main reason for the non-use of the Internet is inadequate training. Both staff and students need appropriate education and training to ensure effective use of the Internet in all their academic pursuits. A survey of eighty-one users of a cyber café owned and run by Delta State University. (Badu, 2019).
+
+Information and Monitoring System. Investigate the use of the Internet, its purpose, amount of time spent using the internet, place of use, Internet expertise, and the perceived obstacles in the use of the internet by physicists in the universities of Karnataka State. They recommended some strategies to use the internet to a greater extent. (Biradar and Sampath Kumar, 2019).
+
+Web-Base Management System. Concluded that email is still one of the most popular services. The Review was conducted to study the pattern of internet use:
+
+satisfaction with the search results and the internet services; and reason for non-use of the internet by the Ph.D. scholars of Dr.H.S.Gour University, Sagar, M.P. The findings show that the rate of internet use is more in research scholars of science, Life science 136, Engineering Technology and Management faculties as compared to the faculties of arts, Social science, Law Education, and Commerce. Among the non-users of the internet, the number of female research scholars is more as compared to males. The research scholars use the internet for research purposes, entertainment as well as a job search. (Biradar et al. 2018).
+
+Concept of the Study
+
+Figure 1. Concept of the Study
+
+The figure above shows the different inputs, processes to follow, and expected output.
+
+The figure shows the conceptual framework of the proposed Web-Based Management Information System which illustrates how the system is used by the users.
+
+
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+Requirement Analysis
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram of Existing Procedure
+
+This diagram was used to show the system's internal databases as well as the data that was saved and retrieved during runtime.
+
+Fishbone Diagram
+
+Figure 3. Sample Fishbone diagram of existing procedure
+
+The fishbone diagram demonstrates the several root causes of the primary issue. Three sub-factors make up the head, which represents the primary issue. The security, resident data, and performance are all impacted by two sub-causes. The first is a record loss because there are no manual backup procedures, so if the records are lost, there is no way to recover them. The second is record security because files and records are stored in open-access cabinets or folders. The performance also has two underlying causes: first, it takes a long time to complete the manual procedure, which delays barangay transactions; second, the records are disorganized, which is a regular issue. The final factor is residents' data; the primary reason for this is that it cannot be changed because the process is manual and you would have to start over if you entered incorrect information.
+
+The other cause is misplaced records because of many files in the barangay, there is a big chance that the records will be misplaced.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt chart of the Capstone Project
+
+Figure 4 illustrates the project's Gantt chart, which covers the many actions undertaken by the researchers from the planning phase through the project's execution, as well as the corresponding month to complete each deliverable.
+
+Requirements Documentation
+
+Technical Background
+
+Materials
+
+1.1.1 Software
+
+The following is a detailed description of the many technologies used by researchers to develop the Web-based Barangay Management Information System.
+
+SUBLIME - The researchers will use this to make the Web-based parent-teacher portal with Data Visualization and SMS Notification. It is easy to work with a codebase.
+
+XAMPP The researchers will use this to create a WordPress site on the computer's local web server. This "cross-platform" component refers to the fact that this simple and lightweight solution works on Windows, Linux, and Mac.
+
+MySQL - The researchers will use this to manage all database commands for the system. It is an open-source relational database management system (RDBMS) based on Structured Query Language that is backed by Oracle (SQL).
+
+PHP - The researchers will use this to operate the HTML that we use to operate various aspects of the system. This means the code can be put into a Web page's HTML. When a PHP page is accessed, the server that the page is hosted on reads or "parses" the PHP code. The output of PHP functions on a page is usually returned as HTML code, which the browser can view.
+
+jQuery is a JavaScript library that allows web designers to extend the functionality of their webpages. To get data from a database, jQuery can work with Ajax code and scripting languages like PHP and ASP. A web developer only needs to reference the jQuery JavaScript file within the HTML of a webpage to use jQuery. Some websites maintain their own local copy of jQuery, while others just use Google's or the jQuery server's library.
+
+Bootstrap- This will be used by the researchers to create the foundation for creating websites. It is used in the computing world to describe a procedure that automatically loads and executes commands.
+
+1.1.2 Hardware
+
+The researchers used the following detailed hardware, which includes the details of the processor, memory, hard drive, and computer in order to use the system to construct the Web-based Barangay Management Information System.
+
+1.1.3 Data
+
+The researcher gathered data from Barangay Del Pilar Alicia, Isabela by using interview method to get the total number of respondents, including their additional informatin like Age classification, Employment status and etc. This data are needed by the researcher in order to fully develop the proposed system.
+
+Use case Diagram
+
+Figure 5. Use Case Diagram
+
+This diagram shows the relationship of the users which are the Brgy.Captain, Brgy. Secretary, and BHW to the system. It describes the flow of the system to different users.
+
+Functional decomposition diagram 
+System flowchart
+
+Figure 6. System Flowchart
+
+Entity Relationship Diagram
+
+Figure 7. Entity Relationship Diagram
+
+The diagram shows the relationships between "entities," such as people, things, or concepts, within a system.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+Rapid Application Development Model
+
+According to Scott Stiner (2016), Rapid Application Development (RAD) reduces planning time and increases prototyping. This RAD methodology enables developers to immediately adapt to changing requirements in a fast-paced, continually evolving market, resulting in significantly faster development and higher-quality outputs than traditional software development methodologies.
+
+Figure 8. Rapid Application Development Model
+
+The researchers of the study used Rapid Application Development. The system development process involves different phases. It includes requirements planning, prototyping (user design & construction), testing, and cutover. As shown in the figure above.
+
+PHASE 1: PLANNING AND ANALYSIS
+
+In this phase, the researchers identified the concept of the project, problems, objectives, and scope. The researchers did internet research to know the different materials to create the Web-based Management Information System.
+
+PHASE 2: PROTOTYPING (User Design & Development)
+
+In this phase, the researchers started to design and construct the system. The researchers made necessary adjustments during system development.
+
+PHASE 3: TESTING
+
+In this phase, the researchers looked for available users for the pilot testing. The researchers tested the input and output functionality of the system to know if the system served its purpose or not. Feedback from the users was consolidated and considered to improve the system.
+
+PHASE 4: DEPLOYMENT
+
+This phase is the implementation phase. Once the development of the system is completed, the researcher will implement the Web-based Management Information System. to 7 Barangay officials including the Barangay Secretary, and 7 Barangay Health Workers. The respondents were given a questionnaire to evaluate the system based on ISO25010. The researchers also utilized respondents' feedback to know the necessary adjustments to improve the system.
+
+Development and Testing
+
+The researchers primarily used a descriptive method of research to fully expand and understand the flow of data gathered and issues concerning the problems encountered when using manual systems which are handwritten. The proposed Web-based Management Information System was conducted to design and implement an efficient and secure new system to be designed and implemented.
+
+Data Gathering Procedure
+
+Interview. This tool was utilized by the researcher to learn the techniques or methods for following the system's design.
+
+Observation. In order to obtain additional information on how to create the proposed system, the researcher used this instrument. This method is one of the useful ways for gathering data and information.
+
+Questionnaire. The researcher used this instrument, which is answered by the respondents of the study because they need to gather information for the proposed system "Web-Based Barangay Management Information System".
+
+Data Analysis Plan
+
+The gathered data was collated, tallied, and correspondingly summarized by the researchers. The data gathered from the questionnaire was subjected to statistical treatment in order to ensure the reliability of the results.
+
+The following is the statistical tool, which will be used to answer the problems posed in this study.
+
+1. Weighted Mean. This was used to determine and consider the importance of some data values to other values. Data elements with a high weight contribute more to the understanding of the research study.
+
+The scale of statistical values used in this study is as follows:
+
+Table 1: Pre-Evaluation Scale
+
+2. The total number of respondents of the study in the evaluation of the system and its quality is 15, where random sampling has been utilized in order to get the total number of respondents. The respondents are the barangay officials including the barangay secretary and barangay health worker (BHW) which was the result of random sampling methods. As it is created for a certain purpose, the Barangay Del Pilar of Alicia, Isabela pertaining to the barangay personnel are used to become the respondents of the study.
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers %= X 100 used this formula:
+
+Where:
+
+% = percentage
+
+f = frequency
+
+n=number of respondents
+
+B. For finding the weighted mean in the presentation, analysis, and interpretation of data, the researcher used this formula.
+
+WM = fa)+f(2)+f(3)+f(4)+f(5) N
+
+Where:
+
+WM-Weighted Mean
+
+F= frequency
+
+N= Number of Respondents
+
+Different Software Testing
+
+The system was developed for Barangay Del Pilar, Alicia, Isabela. The testing and implementation of the system occurred the first week of December. After the day of implementation the end users, which are the barangay officials of Barangay Del Pilar Alicia, Isabela have rated the developed website system to 25010 standards in terms of functionality, performance, usability, and security.
+
+Moreover, the developed system has also been evaluated by the admin in terms of its quality.
+
+Description of the Prototype
+
+System Architecture
+
+Table 3: Implementation Plan
+
+Implementation Results
+
+The researchers' implementation plan is depicted in the figure above. It includes the barangay staff members who work under the direction of the barangay captain as well as other participants in the system's implementation. Rogelio Sanchez, Mrs. Haidee Camitog, the barangay secretary, and Mrs. Joy Castulo, a barangay health worker from Barangay Del Pilar.
+
+The second is the day the system is put into use in Barangay Del Pilar Alicia, Isabela. It has taken the researchers nearly a week to deploy the system at the office of the barangay chairman, with assistance from the secretary of the barangay. The final strategy is to conduct a survey and distribute a three-day-long questionnaire to the study's respondents.
+
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+Results by phase of the study
+
+This chapter features and explains the result gathered from the data gathering of evaluations from the Officials of Barangay Del Pilar, Alicia, Isabela with pre and post-evaluation questionnaires.
+
+Pre-Evaluation
+
+1. The problem encountered in the present System(objective 1)
+
+Table 4. Weighted Mean and Descriptive Interpretation of the current process in terms of Functionality
+
+The table above shows the result that the pre-evaluators fall under "Very much a problem" on the current process to be efficient wherein all the aspects are averagely rated with a 4(four). Being interpreted, the current process shows errors frequently, does not tolerate failures and does not recover from failures.
+
+Table 5. Weighted Mean and Descriptive Interpretation of the current process in terms of Performance
+
+The table above shows that the pre-evaluators are "Very much a problem" with the current process being performed in all the aspects of performance. It shows that the performance of the current process is not properly performing its function.
+
+Table 6. Weighted Mean and Descriptive Interpretation of the current process in terms of Usability.
+
+The table above shows that the pre-evaluators are "Very much a problem" on the current process being deemed as usable. All the aspects of usability listed in the pre-evaluation questionnaire are rated with an average of 4(four). Being interpreted, the current process is not understandable, learnable, and functional.
+
+Table 7. Weighted Mean and Descriptive Interpretation of the current process in terms of Security.
+
+The table above shows that the pre-evaluators "Very much a problem" on the current process to be secure wherein all the aspects are averagely rated with a 4(four). The current process for security shows not have enough protection for the safety of the files and records.
+
+Post-Evaluation
+
+2. Assessment of the Proposed System (objective 2)
+
+Table 8. Weighted Mean and Descriptive Interpretation of Proposed Developed System in terms of Functionality
+
+The table above shows that the post-evaluators fall on "Agree" wherein, the Web-Based Barangay Management Information System is functional. It also shows that the proposed developed system performed its functionality.
+
+Table 9. Weighted Mean and Descriptive Interpretation of Proposed Developed System in terms of Performance
+
+Table 9 shows the result of the post-evaluators falls under "Agree" on the Web-Based Barangay Management Information System to be performed. The satisfaction in all the aspects of the proposed developed system in terms of performance meets the requirements.
+
+Table 10. Weighted Mean and Descriptive Interpretation of Proposed Developed System in terms of Usability
+
+The table above shows that the post-evaluators deemed that the Web-Based Barangay Management Information System is usable with the rating of 4.50 that is equivalent to a "Strongly Agree" rating. It shows that the proposed developed system is casy to use, easy to control, and easy to understand regarding the result of its descriptive interpretation.
+
+Table 11. Weighted Mean and Descriptive Interpretation of Proposed Developed System in terms of Security
+
+The table above shows the result of post-evaluators where most of the respondent's answer falls under strongly Agree" on the Web-Based Barangay Management Information System to the aspect of Security. It means that the proposed developed system is safe for keeping confidential files and secure in accessing them.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+The researchers conducted the proposed project for the Barangay Del Pilar, Alicia, Isabela. The main objective of the proposed system is to secure records and reports of the data of their residents. The researchers conducted interviews and questionnaires for data gathering of information.
+
+The researcher conducted an evaluation of the Functionality, Performance, Usability, and Security of the system. After preparing the requirements, functionality, and features embedded in the system, the evaluation was conducted. The respondents are the Barangay officials, the Barangay secretary, and the Barangay Health Workers (BHW).
+
+Conclusions
+
+1. In the conducted pre-evaluation, respondents' answers fell on very many problems.
+
+1.1 Users encountered some faults during the process of using the manual-based system.
+
+1.2 Thus, it is a hassle for the user, particularly if they are not capable of using it or are not familiar with using the system.
+
+2. Therefore, researchers proposed a computer-based system, and the results strongly agree based on the post-evaluation survey conducted.
+
+3. As a final observation, the computer-based system is a great help to the respondents, particularly in keeping files, records, or any documents that they are going to input safe and secure.
+
+Recommendations
+
+For further enhancement of the developed system, the following are recommended based on the above findings of the study:
+
+1. The user level in the developed system must be included for them to know what type of transaction they are pertaining to.
+
+2. The arrangement of reports and the system dashboard must be graphical or smaller.
+
+3. The researchers recommend to future researchers that the developed system will improve more for the welfare of the barangay.
+

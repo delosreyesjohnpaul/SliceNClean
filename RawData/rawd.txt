@@ -1,0 +1,1146 @@
+A Predictive Analysis Model for Identifying Factors that Contribute to Student Dropout Using Random Forest
+
+A Thesis Presented to the Faculty of the
+College of Computing Studies, Information and
+
+Communication Technology
+Isabela State University
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree
+Bachelor of Science in Computer Science
+
+ARIBBAY, Rosaly B. BENIGNO, Rachelle F. NAZARENO, Aerol P. January 2024
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science ii
+
+APPROVAL SHEET
+
+The Thesis entitled A Predictive Analysis Model on Identifying Factor that Contributing to
+Student Dropout Using Random Forest, has been prepared and submitted by Rosaly B. Aribbay,
+Rachelle F. Benigno, Aerol P. Nazareno, in partial fulfillment of the requirements for the degree
+Bachelor of Science in Computer Science is hereby endorsed.
+
+MARVEE CHESKA B. NATIVIDAD, DIT
+Research Paper Adviser
+Approved by the panel of the final oral and system defense with a grade of .
+
+REYNALDO R. CORPUZ, DIT
+Chair, Defense Panel
+
+JESUS M, LINDO MIT AIMEE D. MOLATO, DIT
+Panel Member Panel Member
+Accepted as partial fulfillment of the requirements for the degree Bachelor of Science in
+Computer Science.
+
+ROSE MARY A. VELASCO, DIT
+Program Chair, BSCS Date
+
+REYNALDO R. CORPUZ, DIT
+Dean, CCSICT Date
+LORELEI C. TABAGO, Ph. D.
+Director, ISU Cauayan Research and Development Date
+Recorded:
+
+CLARICEL P. ORATA, MBA
+Registrar III, ISU Cauayan Date
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science iii
+
+ACKNOWLEDGMENT
+
+The successful completion of this thesis is attributed to the invaluable contributions and
+support from several individuals who have played a pivotal role in guiding the researcher through
+this academic journey.
+The researcher expressed heartfelt gratitude to their Dean, Dr. Reynaldo R. Corpuz for
+unwavering support and encouragement. His commitment to academic excellence and the cultivation
+of a conducive learning environment has been a consistent source of inspiration.
+Recognition is expressed to Program Chair and Subject Instructor at the same time, Dr. Rose
+Mary A. Velasco for providing valuable insights, constructive feedback, guidance and mentorship
+during the process. Her expertise has significantly enhanced the quality of the research and served
+as a catalyst for the researcher's intellectual growth.
+Appreciation is expressed to Research Coordinator and Research Adviser at the same time,
+Dr. Marvee Cheska B. Natividad for invaluable assistance in navigating the complexities of the
+research process. She skillfully coordinated various aspects of the research process, ensuring
+smooth execution.
+The author expresses gratitude to the members of the thesis panel, Dr. Reynaldo R. Copuz,
+Mr. Jesus M. Lindo and Dr. Aimee D. Molato for their constructive feedback and insightful
+suggestions during the defense. Their expertise and discerning insights added significant value to
+the final work.
+And lastly, researcher extends gratitude to their parents and friends, whose unwavering
+support and belief in the researcher's abilities have been foundational to their academic journey. The
+sacrifices and encouragement from their parents have been the driving force behind the researcher's
+success.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science iv
+
+DEDICATION
+
+This thesis is dedicated to those whose unwavering support and inspiration have been
+instrumental in the realization of their academic pursuit.
+
+To their family, whose love and encouragement have served as the cornerstone of their
+journey, fueling their determination and sustaining them through challenges.
+
+To their mentors and educators, whose guidance and wisdom have shaped their intellectual
+growth, leaving an indelible mark on their academic path.
+
+To their friends, whose camaraderie and understanding have provided solace during
+arduous moments, turning this academic endeavor into a shared experience.
+
+This work is dedicated to all those who have contributed to their academic and personal
+development. Their influence is deeply appreciated, and this thesis stands as a testament to their
+collective journey.
+
+Rosaly Aribbay
+Rachelle Benigno
+Aerol Nazarenno
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science v
+
+ABSTRACT
+
+This study developed a predictive analysis model on identifying factors that contributing to student
+dropout using Machine Learning Techniques. The study trained machine learning techniques
+specifically, Random Forest.
+The study used Random Forest analysis data mining technique process that includes the data
+collection where the relevant data was gathered from various sources, including educational
+institutions, student databases, and other related repositories. Further data preprocessing,
+preprocessing to clean and prepare it for analysis. This involved handling missing values, removing
+duplicates, and addressing outliers. Moreover, data splitting dataset was divided into training and
+testing sets. The training set was used to train the machine learning model, while the testing set was
+reserved for evaluating the model's performance on unseen data. Furthermore, model training with
+the training set prepared, the selected machine learning algorithm was applied to the data. The model
+learned patterns and relationships within the training data to make predictions about student dropout.
+Once the model was trained and validated, it could have been integrated into the educational system
+for real-time or periodic predictions. The system could utilize the trained model to identify students
+at risk of dropping out based on the input features.
+The result shows that the most relevant variables are age, academic personal challenge, course,
+parent competence level and home distance level. The model’s accuracy result is 0.785. The result
+shows the correlation of the factors that contribute to Student Dropout. The study provides valuable
+insights into the factors influencing student dropout and highlight the potential of machine learning
+techniques in addressing this critical issue in education. The researchers conclude that their
+predictive analysis model using machine learning techniques effectively identified factors contributing
+to student dropout.
+Keyword: predictive analysis, model, student dropout, random forest, machine learning.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science vi
+
+Table of Contents
+
+ABSTRACT................................................................................................................................v
+Table of Contents................................................................................................................. vi
+LIST OF TABLES................................................................................................................viii
+LIST OF FIGURES................................................................................................................... ix
+1 INTRODUCTION ...............................................................................................................1
+1.1 Background of the Study...........................................................................................1
+1.2 Objectives of the Study...................................................................................................4
+1.3 Significance of the Study ................................................................................................4
+1.4 Scope and Delimitation...................................................................................................5
+2 THEORETICAL FRAMEWORK........................................................................................6
+2.1 Review of Related Literature ....................................................................................6
+2.1.1 Dropout Overview ...................................................................................................6
+2.1.2 Machine Learning in Dropout .................................................................................9
+2.1.3 Random Forest......................................................................................................10
+2.1.4 Factors that Contribute to Student Dropout .........................................................14
+2.2 Concept of the Study...............................................................................................18
+2.3 Definition of Terms ..................................................................................................19
+3 OPERATIONAL FRAMEWORK......................................................................................21
+3.1 Materials ..................................................................................................................21
+3.1.1 Software.................................................................................................................21
+3.1.2 Data ....................................................................................................................23
+3.2 Methods ...................................................................................................................23
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science vii
+4 RESULTS AND DISCUSSION........................................................................................25
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS........................................31
+5.1 Summary..................................................................................................................31
+5.2 Conclusions ...........................................................................................................32
+5.2 Recommendations ..................................................................................................33
+REFERENCES ........................................................................................................................34
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science viii
+
+LIST OF TABLES
+
+Table 1. Specification Hardware ............................................................................................22
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science ix
+
+LIST OF FIGURES
+
+Figure 1. Conceptual Framework...........................................................................................18
+Figure 2. Feature Importance Factors that Contribute to Dropout .......................................25
+Figure 3. Evaluation accuracy using Root Mean Square Error (RMSE)..............................26
+Figure 4. Correlation Heat map of the Attributes...................................................................27
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 1
+
+1 INTRODUCTION
+
+1.1 Background of the Study
+
+Education is universally recognized as a critical component of personal growth, social
+mobility, and economic progress. It gives people the information, abilities, and skills they need to
+prosper in the complicated world of today. However, despite its undeniable importance, one of the
+persistent challenges undermining the transformative power of education is the issue of dropout.
+
+Education plays a crucial role in the development and preparedness of the Philippines
+(Hoffmann & Muttarak, 2018). The multifaceted nature of the dropout problem has come to light in
+research, which shows that a variety of factors, including academic failure, social, personal,
+psychological, and economic variables, influence it (Thumiki, 2019). The impact of dropout is
+substantial, leading to negative consequences for individuals and society as a whole (Parreño,
+2022). Despite efforts to address this issue, dropout rates continue to rise, indicating the complexity
+of the problem due to the numerous variables involved (Villalba et al., 2023).
+
+The issue of student dropout is a significant concern in the field of education, particularly in
+higher education institutions. Various factors contribute to student dropout, including socioeconomic
+status, academic performance, mental health, and adaptation to the educational environment (Dalipi
+et al., 2018). Kabathova and Drlik (2021) emphasize the prevalence of student dropout in both
+traditional and e-learning educational settings, highlighting the challenges associated with this issue
+(Dalipi et al., 2018; Kabathova & Drlik, 2021).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 2
+Manila, Philippines, projected that the attrition rate, or the number of students who dropped
+out of universities and colleges in the school year 2023–2024, is currently at 35.15 percent, slightly
+lower than the 40.98 percent the previous year, according to the Commission on Higher Education
+(CHEd). According to Gatchalian, universities and colleges had an attrition rate of 15.90 percent in
+the school year (SY) 2020–2021, but jumped to 37.79 percent in SY 2021–2022, then further to
+40.98 percent in SY 2022–2023. However, De Vera clarified that the rate has begun to decrease,
+with CHEd projecting a 35.15 attrition rate in FY 2023–2024.
+
+It is evident that addressing the dropout problem requires a comprehensive understanding
+of the various factors contributing to it. This includes recognizing the influence of school factors on
+students' educational decisions and the need for effective policies and interventions to prevent
+dropout (EL, 2020). Moreover, the use of machine learning techniques and data mining algorithms
+has been proposed to predict and tackle the dropout problem, highlighting the potential for
+technological solutions in addressing this issue (Dalipi et al., 2018; Vasconcelos et al., 2019).
+
+To analyze dropout, various studies have employed machine learning algorithms to predict
+dropout occurrences. The random forest algorithm has been compared with other models,
+demonstrating its superior performance in predicting gene expression and student dropout (Xie et
+al., 2017; Kumar et al., 2022). Furthermore, research has shown that the random forest algorithm,
+when trained with big data samples, can effectively predict high school student dropout rates (Lee &
+Chung, 2019). Moreover, the random forest algorithm has been utilized for early detection of
+university dropout, demonstrating its effectiveness in predicting dropout based on student
+background and academic factors (Flores et al., 2022).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 3
+A lot of prediction models have also used the random forest algorithm to look at things like
+supply fraud, customer churn, post-operative mortality in elderly patients, solar radiation, and more
+(Xing et al., 2022; Kor, 2021; Pan, 2022; "Accuracy Measure of Customer Churn Prediction in
+Telecom Industry using Adaboost over Random Forest Algorithm," 2022). A brand-new statistical
+method called generalized mixed-effects random forest (GMERF) has been suggested as a way to
+use random forest to look at hierarchical data, showing that it can work with a variety of response
+variables (Pellagatti et al., 2021). The random forest algorithm has also been compared to decision
+trees and deep learning algorithms, and the results show that it is better at predicting early dropouts
+in online learning and postgraduate student dropout analysis (Park & Yoo, 2021).
+
+There are many different factors that play a role in the complex and multifaceted problem of
+educational dropout. Addressing this problem requires a holistic approach that considers academic,
+social, economic, and cultural aspects. Furthermore, the potential for technological solutions and the
+need for effective policies and interventions are crucial in mitigating the impact of dropout on
+individuals and society. The random forest algorithm has been widely utilized in predicting dropout
+occurrences across various domains, demonstrating its effectiveness and versatility in handling
+different types of data and achieving superior predictive performance.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 4
+1.2 Objectives of the Study
+
+The main objective of this study was to develop a predictive analysis model that could be
+used to identify at-risk students early in the semester and provide an impact on student dropout.
+
+Specifically, the study aimed to:
+
+i. Identify the most relevant variables contributing to student dropout using the feature
+selection technique.
+ii. Evaluate the accuracy of the random forest in identifying patterns and trends that
+are associated with student dropout.
+iii. Identify the correlation of the attributes and factors that contribute to student dropout
+using the correlation heatmap.
+
+1.3 Significance of the Study
+
+The significance of this study lies in its potential to address a significant issue in the field of
+education: student dropout and will be beneficial of the following:
+
+Educational Institutions. Gain insights to develop targeted interventions and support
+services for improved student retention and academic success.
+
+Students. Empowered to recognize challenges and seek assistance, enhancing their
+chances of completing education and achieving goals.
+
+Government and Policy Makers. Use findings to develop policies and initiatives for efficient
+resource allocation and targeted interventions to reduce dropout rates.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 5
+Future Researchers. Provides a foundation for future research, enabling deeper
+understanding and exploration of new aspects of student dropout.
+
+1.4 Scope and Delimitation
+
+The scope of this study was to develop A Predictive Analysis Model for Identifying Factors That
+Contribute to Student Dropout Using Random Forest a predictive analysis model that could be used
+to identify at-risk students early in the semester and provide an impact on student dropout. The
+focused only in identifying the factors that contributed to student dropout in computer science courses
+using the random forest data mining technique. In addition, the collected data was limited to the
+students of the Bachelor of Science in Computer Science of the CCSICT Department at Isabela State
+University with year range 2017 to 2021 through questionnaires and surveys.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 6
+
+2 THEORETICAL FRAMEWORK
+
+This chapter includes discussions about related literature, the conceptual model of the study,
+and the operational definition of terms.
+
+2.1 Review of Related Literature
+This section includes the ideas, generalization or conclusions, methodologies, and other
+information that are relevant and similar to the present study.
+
+2.1.1 Dropout Overview
+
+A dropout in an educational context refers to a student who leaves a school, college, or
+university before completing their studies. According to Hanson (2023), there is a big problem with
+dropout rates all over the world. High dropout rates can have long-term consequences, affecting
+individuals' future opportunities and contributing to societal challenges (Bañeres, 2023). Addressing
+the dropout problem involves implementing strategies like personalized interventions, mentorship
+programs, and leveraging technology, such as machine learning, to identify at-risk students early on
+for timely support. Reducing dropout rates is crucial for fostering a more inclusive and effective
+educational system.
+
+To understand the complex issue of student dropout, various studies have been conducted
+to identify the factors influencing dropout rates and to develop predictive models for early
+
+identification. Singh and Alhulail (2022) proposed a logistic regression approach to predict student-
+teacher dropout risk, emphasizing the influence of socioeconomic status. Similarly, Bocsi et al.
+
+(2019) highlighted the need for improved methodologies to determine dropout ratios due to the lack
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 7
+of expert consensus (Bocsi et al., 2019; Abid et al., 2021). Abid et al. (2021) emphasized the interplay
+of various factors contributing to school dropouts in Pakistan, aligning with Rumberger's extensive
+study of dropout children in the United States. Furthermore, Lainjo (2023) suggested that students
+with low academic success and weak school connections are more likely to drop out.
+
+According to Palacios et al. (2021), dropout prediction has been the subject of machine
+learning and data mining techniques. Their work underscores the global relevance of dropout
+assessment through knowledge discovery and machine learning algorithms. According to EL (2022),
+in a related study, Moroccan higher educational institutions used a clustering approach model based
+on machine learning algorithms to categorize universities. Meanwhile, Cardona et al. (2020)
+conducted a systematic review of the literature focusing on dropout risk and completion risk
+prediction in higher education using machine learning algorithms. These studies collectively illustrate
+the increasing interest in leveraging advanced technologies to tackle the dropout challenge.
+
+Moreover, research has explored the psychological and social dimensions of dropout. Sáez-
+Delgado et al. (2021) incorporated self-regulation skills into dropout intention models, underscoring
+
+the importance of nurturing these skills to reduce dropout rates in secondary education. Additionally,
+Li̇ra et al. (2023) adopted a qualitative approach to understand the perspectives of educational
+stakeholders on school retention and dropout, shedding light on the significance attached to these
+phenomena.
+
+To gain a comprehensive understanding of the dropout situation in the Philippines,
+numerous studies have been conducted to identify influencing factors and develop predictive models
+for dropout trends. Alipio (2020) investigated the academic adjustment and performance of first-year
+students in health sciences courses, revealing variations in academic adjustment and performance
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 8
+among these students. Similarly, Gambulao (2023) employed time series modeling methods to
+forecast college dropout rates at King’s College of the Philippines-Benguet, offering insights into
+potential dropout trends at the institution. Furthermore, Albuquerque et al. (2022) utilized a genetic
+algorithm to evaluate significant factors for university student dropout in the Philippines, emphasizing
+the predictive importance of family income and university entrance exam grades.
+
+Furthermore, Parreño (2022) pinpointed the high cost of education and student employment
+as the primary causes of dropouts in the Philippines, highlighting the socioeconomic factors
+influencing dropout rates. Additionally, Gamao (2019) developed a predictive model for dropout
+analysis at Davao del Norte State College, enriching the understanding of dropout patterns in the
+country. These studies collectively emphasize the multifaceted nature of dropout, spanning
+academic, socioeconomic, and institutional dimensions.
+
+Moreover, the impact of external factors, such as the COVID-19 pandemic, on dropout rates
+has been investigated. Lavado et al. (2022) illuminated disparities in dropout rates based on gender
+and income, stressing the potential exacerbation of dropout differentials during crises like the
+COVID-19 pandemic. Additionally, Honra (2022) identified challenges faced by teachers, including
+high dropout rates, as prevalent issues in the Philippines, further underscoring the urgency of
+addressing dropout rates.
+
+The synthesis of these studies underscores the multidimensional nature of student dropout,
+encompassing socioeconomic, academic, technological, and psychological factors. The utilization of
+advanced methodologies, such as machine learning and qualitative approaches, reflects the diverse
+strategies employed to comprehend and mitigate the dropout phenomenon.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 9
+2.1.2 Machine Learning in Dropout
+
+Machine learning stands as a cornerstone in tackling the dropout dilemma in education,
+harnessing predictive analytics and data-driven insights. By scrutinizing patterns in student
+performance, algorithms can pinpoint at-risk individuals, facilitating timely interventions and tailored
+support systems. Such an approach not only enriches educational outcomes but also aids in curbing
+dropout rates (Shuklla & Misra, 2024).
+
+In recent years, the exploration of machine learning in dropout prediction has garnered
+significant attention. Diverse machine learning algorithms have proven effective in forecasting
+dropout rates across educational institutions (Dalipi et al., 2018; Eegdeman et al., 2022; Mduma et
+al., 2019; IJATCSE, 2021). These algorithms have been instrumental in crafting early warning
+systems for dropout prediction, boasting statistically high accuracy in identifying at-risk students
+(Eegdeman et al., 2022; IJATCSE, 2021). Moreover, machine learning models have showcased
+superiority over traditional methods in student dropout prediction, underscoring their efficacy in this
+sphere (Baranyi et al., 2020).
+
+Furthermore, the utilization of machine learning in projecting dropout rates has extended to
+diverse educational settings, encompassing higher education institutions (Oqaidi et al., 2022;
+Nicoletti & Oliveira, 2020), high schools (Sansone, 2018), and even specific countries like Brazil and
+South Korea (Uldall & Rojas, 2022). Machine learning techniques have also been very important in
+creating computer systems that can predict dropouts. These techniques have taught us a lot about
+the trade-offs between accuracy and sensitivity when looking for possible dropouts (Eegdeman et
+al., 2022; Nicoletti & Oliveira, 2020).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 10
+Moreover, the literature underscores the potential of machine learning to confront the global
+challenge of student dropout, with a focus on devising models that can be universally applied across
+various educational institutions and countries (Oqaidi et al., 2022; EL, 2022). This signals a
+burgeoning interest in harnessing machine learning to formulate scalable solutions for dropout
+prediction.
+
+According to Mduma et al. (2019), a survey was conducted on machine learning approaches
+and techniques for predicting student dropout, highlighting the potential of machine learning in
+addressing dropout issues. Similarly, Lee and Chung (2019) developed a machine learning-based
+dropout early warning system to enhance the accuracy of dropout prediction, emphasizing the
+utilization of diverse machine learning algorithms for early detection. Furthermore, Oqaidi et al.
+(2022) focused on detecting student dropout in higher education institutions using machine learning
+algorithms, providing critical analysis and recommendations to overcome the limitations of existing
+models.
+
+Overall, research on machine learning in dropout prediction has showcased its effectiveness
+in developing accurate and scalable models for identifying at-risk students across various
+educational settings. The application of machine learning algorithms has yielded promising results
+in enhancing the performance of dropout prediction systems, thereby paving the way for more
+effective interventions to support student retention in educational institutions.
+
+2.1.3 Random Forest
+
+In the realm of education, particularly in addressing the critical issue of student dropout, the
+utilization of data mining techniques, such as the Random Forest model, has gained significant
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 11
+attention. Researchers have delved into the application of various algorithms to analyze factors
+contributing to student dropout rates, aiming to enhance predictive accuracy and identify at-risk
+students (Vasconcelos et al., 2019). Data mining, specifically Educational Data Mining (EDM), has
+been instrumental in uncovering hidden patterns within educational datasets, aiding in the
+development of predictive models to mitigate dropout rates (Palacios et al., 2021). By exploring
+variables that influence student dropout through supervised data mining approaches, researchers
+have strived to enhance the understanding of dropout phenomena and improve intervention
+strategies (Yaacob et al., 2019).
+
+Studies have demonstrated the efficacy of data mining algorithms, including Random Forest,
+in educational settings by analyzing real data to predict student outcomes and dropout rates (Bulut
+& Yavuz, 2019). The application of Machine Learning (ML) and EDM techniques has enabled
+researchers to develop predictive models to identify students at risk of dropping out, facilitating the
+implementation of preventive strategies (Colpo, 2023). Moreover, data mining has been instrumental
+in revealing the relationship between various factors, such as ethnicity, and predicting students'
+performance and dropout potential, thereby aiding in the enhancement of the learning process
+(Adekitan & Salau, 2019).
+
+The significance of data mining techniques in education extends to predicting and analyzing
+students' academic performance and dropout indicators, providing valuable insights for educators
+and policymakers (Nabil et al., 2021). Decision tree algorithms, such as C4.5, ID3, and CART, have
+been applied to socioeconomic and demographic data to predict student dropout in adult literacy
+programs, showcasing the utility of data mining in addressing dropout challenges (Tomori, 2023).
+Furthermore, the comparison of predictive models using the SMOTE method has offered valuable
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 12
+insights into forecasting university dropout rates, emphasizing the importance of data mining in
+enhancing student retention strategies (Flores et al., 2022).
+
+Random Forest analysis, as a data mining technique, has been employed to identify factors
+influencing student outcomes and distinguish between different groups based on academic
+achievement levels (Hong et al., 2022). By leveraging EDM methods like random forest analysis,
+researchers have been able to extract critical factors associated with student success and dropout,
+aiding in the development of targeted interventions (Miranda & Guzmán, 2017). The application of
+data mining in educational contexts has enabled the analysis of factors influencing student
+performance, supporting efforts to enhance academic outcomes and retention rates (Carneiro et al.,
+2022).
+
+In the context of the COVID-19 pandemic, data mining techniques have been instrumental
+in improving dropout forecasting and identifying at-risk students, particularly through feature
+selection and neural network models (Nuanmeesri et al., 2022). By predicting students' academic
+performance and behavioral features using data mining techniques, researchers have advanced the
+field of education by providing insights into student outcomes and potential dropout risks (Almutairi
+et al., 2019). The extraction of valuable knowledge from educational datasets through data mining
+methods has become increasingly crucial in understanding and addressing factors affecting
+students' performance and retention (Al-Hagery et al., 2020).
+
+Random Forest stands out as a widely acclaimed ensemble learning method renowned for
+its adaptability and resilience across diverse fields. Breiman first introduced Random Forest in 2001
+(Fox et al., 2017), which consists of a collection of classification and regression trees, simple models
+that use binary splits on predictor variables to derive outcome predictions. Operating as an ensemble
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 13
+of decision trees, its fundamental principle lies in aggregating the predictions of individual trees to
+determine the most prevalent class (Yu et al., 2020).
+
+Moreover, the efficacy of Random Forest in dropout prediction has been underscored in
+numerous studies. Lee & Chung (2019) showcased the potential of Random Forest in dropout
+prediction by training it alongside other machine learning models using a sizable dataset of high
+school students. Similarly, Sani et al. (2022) reported high accuracy in predicting student attrition
+rates with Random Forest. Additionally, Dake & Buabeng-Andoh (2022) identified Random Forest
+as the top-performing algorithm for forecasting learner dropout rates in higher educational
+institutions.
+
+In terms of dropout prediction accuracy and sensitivity, Random Forest has done better
+than other machine learning algorithms like neural networks, support vector machines, and logistic
+regression (Oqaidi et al., 2022). Behr et al. (2020), who used Random Forest based on conditional
+inference trees to predict university dropout and obtained encouraging results from a comprehensive
+German dataset covering various aspects of student life and study courses, further support this
+observation. Moreover, Random Forest has emerged as the leading predictive model for dropout in
+massive open online courses (MOOCs) (Dass et al., 2021), as well as in the study by Park & Yoo
+(2021), where Random Forest algorithms demonstrated superior prediction and performance.
+
+Managing thousands of variables without sacrificing accuracy, being quick, and being easy
+to set up have all been named as big benefits of Random Forest, which further supports its
+usefulness in predictive analysis (Sari et al., 2021). Random Forest isn't just used to predict dropouts
+in education; studies have shown that it can also be used to predict dropouts from electronic health
+platforms for lifestyle interventions (Pedersen et al., 2019).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 14
+In summary, the literature consistently champions the superiority of Random Forest over
+other predictive analysis models in dropout prediction. Its robust performance, ability to handle
+diverse datasets, and effectiveness across various domains position it as the preferred choice for
+addressing the challenges associated with dropout prediction.
+
+2.1.4 Factors that Contribute to Student Dropout
+
+Student dropout is a multifaceted phenomenon influenced by various factors that can be
+categorized into different domains such as academic, personal, social, and environmental. Academic
+factors like academic procrastination, low study satisfaction, and lack of motivation play a significant
+role in students' intentions to drop out (Scheunemann et al., 2021). Additionally, academic
+performance, course challenges, and GPA have been identified as crucial determinants of dropout
+(Tayebi et al., 2021; Majumder & Mitra, 2020). Personal challenges such as mental distress, lack of
+motivation, and emotional exhaustion can also contribute to students' decisions to leave their studies
+(Wagner, 2024; Hartl et al., 2022). Moreover, factors like age, socioeconomic status, and parental
+competence level have been found to impact dropout rates, with older students and socially
+disadvantaged individuals being more prone to dropping out (Tayebi et al., 2021; Schuchart &
+Schimke, 2021; Nurmalitasari et al., 2023).
+
+The influence of environmental factors on student dropout cannot be overlooked. Factors
+like home distance, family economic status, and parents' involvement in their children's education
+have been highlighted as contributors to dropout rates ("Causes of Students’ Dropout in Public
+Secondary Schools of Balochistan, Pakistan", 2022; Herman & Ligembe, 2022). The quality of the
+school environment, student supervision, and the overall educational experience also play a crucial
+role in determining whether a student stays in school or decides to drop out ("Causes of Students’
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 15
+Dropout in Public Secondary Schools of Balochistan, Pakistan", 2022; Doe et al., 2022).
+Furthermore, the impact of societal and cultural factors on dropout rates, such as race, ethnicity, and
+cultural incompatibilities, has been noted in various studies (Majumder & Mitra, 2020; Kısa et al.,
+2023).
+
+In addition to these factors, the interplay between personal characteristics and external
+influences further complicates the dropout phenomenon. For instance, students' intrinsic and
+extrinsic motivations, as well as their need fulfillment and affective well-being, can affect their
+decision to continue or discontinue their studies (Sosin, 2024). The presence of mental health issues,
+high-risk behaviors, and low self-esteem can also contribute to dropout rates (Kamissa, 2020).
+Moreover, the balance between academic responsibilities and external commitments, such as work
+or family obligations, can influence students' ability to persist in their studies (Sáez et al., 2021;
+Kocsis & Pusztai, 2020).
+
+The problem of student dropout is complex and subject to many influences. Studies have
+identified age as a significant contributor to dropout rates (Afia et al., 2019; Sánchez-Gelabert, 2021;
+Giese, 2020; Taylor & Bicak, 2019). Additionally, regardless of age, students' economic situations,
+
+especially among working students, have been linked to higher dropout probabilities (Sánchez-
+Gelabert, 2021). Adult learners aged 25–34, in particular, often face insufficient support from federal
+
+and institutional financial aid, leading to elevated dropout rates and lower graduation rates (Taylor &
+Bicak, 2019).
+
+Academic challenges, such as stress, failure to meet previous performance levels, and
+inadequate support from professors, significantly impact students' persistence (Bergmann et al.,
+2019; Morava et al., 2023; Lines et al., 2021). Personal challenges, including burnout, work-family
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 16
+conflict, and a sense of lack of control, also affect students' mental health and academic performance
+(Aguayo et al., 2019; Toyon, 2023; Wilkins-Yel et al., 2022). Moreover, the difficulty of courses and
+satisfaction with course content can contribute to dropout rates (Radovanović et al., 2021; Bernardo
+et al., 2022).
+
+Parental competence is another significant factor influencing student dropout rates. Studies
+have highlighted the impact of parental qualifications, income stability, and attitudes towards
+education on dropout probabilities (Rincón et al., 2021; Gagica et al., 2022). Lack of parental support
+and home-related factors also play crucial roles in students' decisions to drop out (Wells, Bechard,
+& Hambly, 2001; "Causes of Students’ Dropout in Public Secondary Schools of Balochistan,
+Pakistan," 2022).
+
+Class attendance is frequently cited as a primary indicator of students' persistence, with
+lower attendance correlating with higher dropout risks (Pinter et al., 2020; Gil, 2020). Academic
+aspects such as attendance percentage are key attributes affecting dropout rates (Gil, 2020; Benden
+& Lauermann, 2020). Poor school attendance is closely linked to negative outcomes for students,
+including perceptions of a poor school climate and underperformance academically (Benden &
+Lauermann, 2020; Rifenbark et al., 2023).
+
+Stress plays a pivotal role in student dropout rates within higher education settings. Studies
+indicate that negative affectivity, encompassing symptoms of depression, anxiety, and stress,
+heightens students' inclination to abandon their courses (Souza et al., 2022). Furthermore, the
+reciprocal relationship between academic procrastination, study satisfaction, and dropout intentions
+underscores the profound influence of psychological factors on dropout decisions (Scheunemann et
+al., 2021).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 17
+However, Farliana et al. (2022) posited that excessive engagement in extracurricular
+activities could lead to academic dishonesty due to time constraints, revealing a potential downside
+to extensive participation in such activities. This observation raises concerns about maintaining
+student academic integrity and performance. Moreover, Özkan (2020) found that students involved
+
+in extracurricular activities exhibited lower academic achievement compared to their non-
+participating counterparts, suggesting potential trade-offs between extracurricular engagement and
+
+academic performance that could impact dropout rates.
+
+Part-time employment emerges as another significant contributor to student dropout. Rincón
+et al. (2021) highlighted that parents of dropouts typically have lower educational attainment levels
+and engage in unpaid or part-time work, such as housekeeping. Additionally, Marina and Senthilrajan
+(2023) emphasized that inaccurate time management for student jobs diminishes study time, further
+exacerbating dropout rates.
+
+Student dropout constitutes a multifaceted issue influenced by various factors. Scholarship
+availability, for instance, significantly impacts dropout probabilities, as evidenced by research
+(Jaksztat et al., 2021). Financial support, including scholarships, proves decisive for course
+completion duration and overall academic progress (Rodrigues et al., 2019). Furthermore, financial
+constraints, particularly prevalent when mothers have limited educational backgrounds, have been
+linked to higher dropout rates (Pusztai et al., 2019).
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 18
+2.2 Concept of the Study
+
+Figure 1. Conceptual Framework
+
+The process begins with data collection through student questionnaires administered online to
+gather information on dropout risk factors. The collected data is then cleaned and preprocessed to
+ensure quality. Feature selection follows, where relevant variables are identified for inclusion in the
+predictive model. The model training phase involves using the Random Forest algorithm to train the
+predictive model, with data split into training and testing sets for evaluation. Analysis of the model's
+performance provides insights into factors influencing student dropout. Once trained, the model is
+deployed for real-world use, providing stakeholders with actionable insights to improve student
+retention
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 19
+2.3 Definition of Terms
+
+Accuracy: A metric for evaluating classification models, defined as the ratio of correctly predicted
+instances to the total instances.
+
+Data Preprocessing: The process of transforming raw data into a clean dataset by handling missing
+values, encoding categorical variables, and scaling numerical variables.
+
+Dataset: Collection of raw students’ information.
+
+Early Warning System: It is a proactive approach to identify and address potential issues before
+they escalate, typically involving data analysis to spot patterns indicating impending problems.
+
+Factors Contributing to Dropout: Variables or conditions that can influence a student's likelihood
+to drop out, such as academic performance, attendance, socioeconomic status, engagement, and
+personal circumstances.
+
+Factors: It is a variables or elements that influence outcomes in analysis or research.
+
+Feature Importance: It is the relevance of input variables in determining model predictions, aiding
+in understanding which features are most influential.
+
+Feature Selection: The technique of selecting a subset of relevant features for model building to
+improve the model’s performance and reduce complexity.
+
+Machine learning: It is an AI branch enabling computers to learn from data without explicit
+programming, used for predictions and decisions.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 20
+Model: In machine learning, a model is a mathematical representation created during the training
+process that can predict outcomes based on input data.
+
+Predictive Analysis Model: A mathematical tool or algorithm used to forecast future outcomes
+based on historical data. In this context, it is used to predict whether a student is likely to drop out
+based on various factors.
+
+Predictive Analysis: The process of using historical data, statistical algorithms, and machine
+learning techniques to identify the likelihood of future outcomes based on historical data.
+
+Predictive Model: It is a computational representation trained on historical data to forecast future
+outcomes.
+
+Random Forest: It is an ensemble learning technique using multiple decision trees to improve
+predictive accuracy.
+
+Root Mean Square Error: It is a measure the average difference between values predicted by a
+model and the actual values. It provides an estimation of how well the model is able to predict the
+target value (accuracy).
+
+Student Dropout: It is the act of a student leaving an educational program or institution before
+completing their intended course of study.
+
+Visual Studio Code: Used as an integrated development environment (IDE) for tasks such as data
+cleaning, model training, and analysis.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 21
+
+3 OPERATIONAL FRAMEWORK
+
+This chapter focuses its discussion on the materials and methods that are utilized to describe
+how the study was conducted.
+
+3.1 Materials
+
+3.1.1 Software
+
+Visual Studio Code (VS Code) used as an integrated development environment (IDE) for
+tasks such as data cleaning, model training, and analysis. Researchers write and execute Python
+scripts for data preprocessing and machine learning model development within VS Code. Its features
+include syntax highlighting, integrated terminal, debugging capabilities, and Git support for version
+control. Additionally, VS Code integrates with Jupyter Notebooks for interactive data analysis and
+visualization.
+
+Python, it is used for various tasks including data collection through web scraping or survey
+platforms, data processing and manipulation with Pandas, feature selection with scikit-learn, model
+training using the Random Forest algorithm from scikit-learn, analysis and visualization with
+Matplotlib and Seaborn, and model deployment using Flask or Django. Python's versatility and rich
+ecosystem of libraries make it an ideal choice for the data analysis and modeling process.
+
+CSS, used to design visually appealing and user-friendly online survey forms. It helps in
+styling the forms, ensuring responsiveness across devices, customizing them to match the
+institution's branding, enhancing accessibility, and providing user feedback during interaction with
+the forms.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 22
+JavaScript used in the study for tasks such as implementing online surveys and
+questionnaires, validating user input, client-side data preprocessing, asynchronous data processing,
+visualization using libraries like D3.js or Chart.js, model deployment as web services or interactive
+dashboards for stakeholders to explore predictions and insights in real-time.
+
+HTML, or Hyper Text Markup Language, used for creating online surveys to collect data
+from students. It utilized to present results through web-based interfaces or dashboards. Additionally,
+HTML templates employed for generating automated reports summarizing the study's findings. While
+HTML itself isn't used for predictive analysis, it supports data collection, result presentation, and
+report generation.
+3.1.1 Hardware
+Table 1. shows the hardware specifications of the laptop used in the development of the study.
+
+LAPTOP
+
+Processor- Intel(R) Core(TM) i5- 2540m CPU @2.60GHz 2.60GHz
+
+Memory- 10GB
+
+OS- Windows 10
+
+System Type- 64 bit
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 23
+
+3.1.2 Data
+
+The collected data was sourced from students who dropped out of the Bachelor of
+Science in Computer Science course at the CCSICT Department at the Isabela State
+University-Cauayan Campus. The data spanned from 2017 to 2021. Researchers designed
+surveys and questionnaires to directly collect data from students. These surveys gathered
+information about students' personal circumstances, challenges, and experiences related to
+dropout risk factors through online platforms. Additionally, researchers utilized existing
+studies and reports that had already investigated factors contributing to student dropout.
+
+3.2 Methods
+Data Collection:
+Relevant data was gathered from various sources, including educational institutions, student
+databases, and other related repositories. The collected data included academic performance
+records, socio-economic factors, attendance records, demographic information, and other relevant
+variables that could potentially contribute to student dropout. The goal was to create a
+comprehensive dataset that covered diverse aspects of a student's academic journey.
+Data Preprocessing:
+Once the data was collected, it underwent preprocessing to clean and prepare it for analysis.
+This involved handling missing values, removing duplicates, and addressing outliers. Categorical
+variables were encoded, and numerical variables were scaled to ensure uniformity and prevent
+certain features from dominating the model. Data preprocessing was crucial for enhancing the quality
+and reliability of the machine learning model.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 24
+Data Splitting:
+After preprocessing, the dataset was divided into training and testing sets. The training set
+was used to train the machine learning model, while the testing set was reserved for evaluating the
+model's performance on unseen data. This step helped ensure that the model generalized well to
+new, unseen instances and provided an accurate representation of its predictive capabilities.
+Model Training:
+With the training set prepared, the selected machine learning algorithm was applied to the
+data. The model learned patterns and relationships within the training data to make predictions about
+student dropout. Common machine-learning algorithms for this type of prediction include decision
+trees, random forests, logistic regression, and neural networks. The model's hyperparameters were
+fine-tuned to achieve optimal performance.
+Model Applied in System:
+Once the model was trained and validated, it could have been integrated into the educational
+system for real-time or periodic predictions. The system could utilize the trained model to identify
+students at risk of dropping out based on the input features. Early identification allowed educational
+institutions to intervene and provide necessary support to students, potentially mitigating the risk of
+dropout. The model's predictions could have been presented through a user-friendly interface or
+integrated into existing academic management systems.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 25
+
+4 RESULTS AND DISCUSSION
+
+This chapter provides a presentation of the results and gathered data. The first section presents
+the results of most relevant variables. The second section presents the result of the model's
+accuracy. Lastly, the correlation result of the attributes that contribute to Student Dropouts.
+
+Figure 2. Feature Importance Factors that Contribute to Dropout
+Figure 2. displays the most important features in the datasets. As depicted in the graph, age,
+academic personal challenge, course, parent competence level, home distance level, GPA, and
+attendance were the most important feature variables when building a predictive model. Stressful
+level, participation in extracurricular activities, having a part-time job, sex, planned course
+completion, having a scholarship, having study partners, and changing courses were considered
+mid- to least important feature variables in the dataset.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 26
+Figure 3. Evaluation accuracy using Root Mean Square Error (RMSE)
+Figure 3. depicts the accuracy evaluation value of the model. As shown, the RSME result
+obtained a value of 0.7853732304523188, representing the standard deviation of the residuals
+(prediction errors). Residuals served as a measure of how far the data points were from the
+regression line, while RMSE indicated how spread out these residuals were. In other words, it
+provided insight into how concentrated the data was around the line of best fit. On the right side, the
+comparison of the results of the train prediction and the test prediction is illustrated. The blue and
+red dots in the graph represented the input value. Dots near the lines were predicted as being at risk
+of dropping, while those farther from the line were predicted as not being at risk. Each dot
+corresponded to a value number, with lower numbers most likely considered at risk.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 27
+
+Figure 4. Correlation Heat map of the Attributes
+
+Figure 4. depicted the correlation of the attributes, where positive numbers indicated a
+correlation between the attributes, while negative numbers did not. The correlation means that each
+parameters or attributes have relationship and both of them is contributing factors in the possibilities
+of dropping student. The following attributes showed correlations:
+As shown in the figure the Age and GPA, change of course, stress level, having a scholarship, having
+a part-time job, parental competence level, planned course completion, and dropout tendency level
+are the attributes that has correlated to age attribute.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 28
+Additionally, Sex and course, participation in extracurricular activities, home distance level, and
+dropout tendency level are the attributes that has correlated to sex attribute.
+Then GPA and age, attendance, change of course, having academic personal challenges, having a
+part-time job, planned course completion, and dropout tendency level are the attributes that has
+correlated to GPA attribute.
+After that Attendance and age, GPA, change of course, participation in extracurricular activities,
+stress level, having academic personal challenges, having a part-time job, having study partners,
+and home distance level are the attributes that has correlated to attendance attribute.
+Moreover, changed course and age, GPA, attendance, participation in extracurricular activities,
+stress level, having academic personal challenges, having a part-time job, and dropout tendency are
+the attributes that has correlated to changed course attribute.
+Further, Participation in extracurricular activities and sex, courses, attendance, change of
+course, stress level, and home distance level are the attributes that has correlated to participation in
+extracurricular activities attribute.
+Followed by Stress level and age, attendance, change of course, participation in extracurricular
+activities, having academic personal challenges, having a scholarship, having a part-time job,
+parental competence level, home distance, dropout tendency, and dropout tendency level are the
+attributes that has correlated to stress level attribute.
+After that the Having academic personal challenges and GPA, attendance, change of course,
+stress level, having a part-time job, having parental competence level, home distance level, and
+planned course completion level are the attributes that has correlated to having academic personal
+challenges attribute.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 29
+Furthermore, had a scholarship and age, course, stress level, had a part-time job, parental
+competence level, and dropout tendency level are the attributes that has correlated to had a
+scholarship attribute.
+Then, had a part-time job and age GPA, attendance, changed course, stress level, had
+academic personal challenges, had a scholarship, parental competence level, planned course
+completion, and dropout tendency level are the attributes that has correlated to part-time job attribute.
+
+Afterward Had study partners and attendance, home distance level, had study partners, and
+planned course completion level are the attributes that has correlated to had study partners attribute.
+
+Additionally, Parental competence level and age, course, stress level, academic personal
+challenges, having a scholarship having a part-time job, and planned course completion level are
+the attributes that has correlated to parental competence attribute.
+
+Meanwhile, Home distance level and sex, attendance, participation in extracurricular activities, stress
+level, academic personal challenges, study partners, planned course completion, and dropout
+tendency level are the attributes that has correlated to home distance level attribute.
+
+Subsequently Planned course completion and age, had academic personal challenges, had a part-
+time job, had study partners, parental competence level, home distance level and dropout tendency
+
+level are the attributes that has correlated to planned course completion attribute.
+
+Lastly, Dropout tendency level and age, sex, GPA, change of course, stress level, had a scholarship,
+had a part-time job, home distance level, and planned course completion level are the attributes that
+has correlated to dropout tendency level attribute.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 30
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 31
+
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presents the summary and conclusion derived from the study probe on the
+Predictive Analysis Model on Identifying Factor that Contributing to Student Dropout using Machine
+Learning Techniques. It also provides recommendations for future researchers for the improvement
+of the study.
+
+5.1 Summary
+
+The research conducted at Isabela State University focused on developing a predictive
+analysis model to identify at-risk students early in the semester and understand the factors
+contributing to student dropout. The study aimed to utilize machine learning techniques, such as
+random forest and correlation analysis, to analyze relevant variables and patterns associated with
+student dropout. Data were collected from students in the Bachelor of Science in Computer Science
+program from 2017 to 2021 through surveys and existing studies. The research highlighted the most
+important factors, like age, academic personal challenge, course, parent competence level, home
+distance, and attendance, in influencing student dropout rates. The study also emphasized the
+significance of creating a responsive web application for managing student information.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 32
+5.2 Conclusions
+
+Based on the data gathered in this study, the following conclusions are drawn:
+
+1. The study successfully identified and analyzed key variables such as academic
+performance, socio-economic conditions, and personal circumstances that significantly
+contributed to student dropout rates in the Bachelor of Science in Computer Science
+program.
+2. The research demonstrated the effectiveness of the random forest algorithm in accurately
+identifying patterns and trends related to student dropout, showcasing its potential as a
+valuable tool for predictive analysis in the education sector.
+
+3. The study utilized correlation analysis to identify and understand the relationships between
+different factors contributing to student dropout, providing valuable insights into the complex
+interplay of variables influencing dropout rates.
+
+4. The synthesis of these studies underscores the effectiveness of the Random Forest
+algorithm in identifying student dropout by leveraging diverse datasets, considering various
+student-related factors.
+
+Overall, the research successfully achieved its objectives by employing machine learning
+techniques to gain a deeper understanding of student dropout in the Bachelor of Science in Computer
+Science program at Isabela State University.
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Bachelor of Science in Computer Science 33
+5.2 Recommendations
+
+The results of this study indicated that Random Forest successfully identified factors
+contributing to dropout. Nevertheless, the researchers recognized potential areas for enhancement.
+Drawing from the findings and conclusions outlined in this study, the following recommendations are
+proposed:
+
+1. It is suggested that researchers expand the scope of the study to include other programs
+and institutions, which would provide a more comprehensive understanding of student
+dropout across various educational settings.
+
+2. It is suggested that educational administrators and staff implement communication and
+engagement strategies aimed at fostering a sense of community and belonging among
+students, potentially reducing dropout rates.
+
+3. It is suggested that future research explore the application of other machine learning
+algorithms, such as support vector machines or neural networks, to compare their
+effectiveness in predicting student dropout and identifying relevant factors.

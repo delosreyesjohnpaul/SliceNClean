@@ -1,0 +1,399 @@
+A Mobile Application for Analysis of Diabetes Mellitus using Naïve Bayes Algorithm Armea, Raiveen S. Castrence, Madonna L. Catolico, Latrell James R. January 2023
+
+A Thesis Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer Science
+
+Armea, Raiveen S. Castrence, Madonna L. Catolico, Latrell James R. January 2023
+
+
+
+
+ABSTRACT
+
+This paper details the mobile application developed to predict the user having diabetes mellitus. The developed mobile application uses the Naive Bayes machine learning classification algorithm. This study aimed to evaluate the mobile application's efficiency, effectiveness, reliability, portability, and usability. Evaluate the Naive Bayes algorithm in terms of accuracy, precision, recall, and f1-measure. Lastly, it aimed to identify the factors involved in analyzing diabetes mellitus. The research method of this study is an agile methodology, which consists of a series of steps that led us to achieve our objectives. The findings showed the developed mobile application functioned well in terms of performance efficiency with a weighted mean rate of 3.93, effectiveness with a weighted mean rate of 3.83, reliability with a weighted mean rate of 3.85, portability with a weighted mean rate of 3.96, and usability with a weighted mean rate of 3.96. The Naive Bayes algorithm demonstrated 0.79 accuracies, 0.73 precision, 0.85 recall, and a 0.85 f1-score. The identified factors for analyzing diabetes, according to our findings, are glucose levels, age, body mass index, smoking habits, family history of diabetes, and the number of pregnancies.
+
+
+
+
+
+1 INTRODUCTION
+
+1.1 Background of the Study
+
+Diabetes mellitus is a term used to describe a group of illnesses that impact the body's ability to utilize blood sugar, also known as glucose, Glucose is a crucial energy source for cells in muscles and tissues, as well as the primary fuel for the brain. (Kudva, Y. 2023)
+
+According to the International Diabetes Federation (IDF), 3,993,300 Filipinos out of a total population of 63,265,700 have diabetes, representing a 6.3 percent prevalence rate. (Baclig, 2021)
+
+Fatalities from diabetes mellitus, which placed fourth, recorded 2,882 cases or 6.6 percent share, while deaths from hypertensive disorders, which were the fifth leading cause of death, recorded 2,565 instances or 5.9% proportion. (Philippines Statistics Authority, 2022)
+
+Because of this, we came up with a solution to predict the risk of any individual having diabetes. An article in the Current Opinion in Endocrinology, Diabetes, and Obesity joumal acknowledges that there are a variety of ways that earlier diabetes diagnosis may be advantageous for both the patient and the healthcare system because it allows for the treatment of high blood sugar and heart disease risk factors that are frequently associated with diabetes. (Falcone, 2021)
+
+Mobile health technology is a promising solution to this problem. Mobile applications can provide patients with convenient and cost-effective access to health information and services, including self-management tools for DM. However, most existing mobile apps for DM are focused on tracking blood glucose levels, and few provide diagnostic or risk assessment capabilities, 
+
+The study aims to develop a mobile application for the analysis of DM using a Naive Bayes algorithm. The app will use self-reported symptoms, risk factors, and laboratory test results to estimate the probability of a patient having DM. The app will also provide patients personalized advice for managing their conditions based on their risk profile. The study will assess the app's acceptability and usability by patients and healthcare providers and its performance in a sample of patients with and without diabetes.
+
+1.2 Objectives of the Study
+
+The general objective is to develop a Mobile Application for Analysis of Diabetes Mellitus using Supervised Learning Algorithm.
+
+The specific objectives follow:
+
+1. Evaluate the Naïve Bayes algorithm in predicting the diabetes in terms of: Precision, Recall, F1-Score and Accuracy.
+
+2. Evaluate the Mobile Application system in terms of:
+
+a. Performance Efficiency,
+
+b. Effectiveness
+
+c. Portability,
+
+d. Reliability and
+
+e Usability
+
+3. Identify the factors for analyzing diabetes mellitus.
+
+1.3
+
+Significance of the Study
+
+This research is important for everyone, especially for people who may have diabetes. It has been proven that the sooner a person recognizes his or her ailment, the less likely it will worsen and the longer they will live by seeking medical help and leading a healthy lifestyle. There are various machine learning algorithms to choose from. However, Nave Bayes is proven to have prediction capability. The study's algorithms are better for making predictions regarding diabetes. We hope that by finishing this study, we will be able to assist future diabetes prediction researchers.
+
+1.4
+
+Scope and Delimitations
+
+The goal of this research is to create "A Mobile Application for Diabetes Mellitus Analysis Using Naive Bayes Algorithm." The app focuses on analyzing the user's input and predicting whether or not the user has diabetes.
+
+The app's limitation is that it can only be used by someone who already has the required inputs and is familiar with Android apps. This app is only for Android phones and tablets running 7.0 and above.
+
+
+
+
+
+2 THEORETICAL FRAMEWORK
+
+2.1 Review of Related Literature
+
+This chapter presents the relevant literature and studies that the researcher considered in strengthening the importance of the present study. It also presents the synthesis of the art to fully understand the research for better comprehension of the study.
+
+Predicting Diabetes
+
+According to Priya et al. (2020), diabetes is present for using Al grouping to increase the precision of the forecast calculation. Compared to other classifiers, the Naive Bayes classifier achieves higher accuracy. It is plausible to infer from the results that the Nave Bayes reached expanded classifier performance. The K-Nearest Neighbor classifier has the shortest execution time calculation. The outcomes also show that the proposed novel strategy can foresee diabetes with higher exactness levels (0.96) than the customary/existing techniques.
+
+According to Sharmila & Saraswathi. (2020) To categorize the attributes and determine the probability of each attribute separately, Naive Bayes is crucial. The suggested method outperforms Hadoop Technology by Bhardwaj & Baliyan (2019) in handling big and small amounts of data. Being an algorithm for classifying is quick, secure, flexible, and produces reliable results. Making this more precise can help medical researchers, and based on these discoveries, a mobile app is developed to make it available to users who are at risk of acquiring diabetes as well as regular users.
+
+According to Salliah & Ansari. (2021) Naïve Bayes is advantageous in terms of accuracy compared to Support Vector Machines and Decision tree algorithms. In terms of precision, Recall, F-measures, and ROC, Naïve Bayes resulted in higher compared to the SVM and Decision Tree. The Pima Indian Diabetes as a database by the researchers.
+
+While the study conducted by Kishor et al. (2017). They proposed Machine Learning Algorithms such as Bayesian and K- Nearest Neighbour in the forecast for diabetes among patients. They admitted that the prognosis that came before made was without a dataset. Better prediction is made sure with a dataset. It also lacks a system for making recommendations. If there are any early Indicators of diabetes, we will make recommendations to the patient on how to manage or prevent it.
+
+According to Raj et al. (2019), the probability of a patient having diabetes effectiveness of the Naive Bayes algorithm for sample datasets is 62.5%, with a prediction accuracy of 82% for sample datasets using support vector machines. Hence, we conclude that, when used on sample datasets, the Support vector machine approach outperforms the Naive Bayes technique for predicting the likelihood of diabetics. The input for these train datasets is the algorithm for machine leaming. The researchers then compared the prediction accuracy of several machine-leaming techniques.
+
+According to Marathe et al. (2021), The Naïve Bayes algorithm is reliable at predicting the likelihood of a person having diabetes and heart disease. University of California at Irvine researchers Marathe, Gawade, and Kanekar used a data set of 2000 records and ten fields of the heart disease dataset. The suggested research uses a naive Bayes naïve algorithm to categorize the data set. The study's system's architecture is as follows: data Collection, preprocessing of the data, building the model, and making the prediction.
+
+According to Mirshahvalad & Zanjani (2017). Fast food and ready-to-use goods are more prevalent than ever today because of people's new way of life. These foods have high sugar and fat content, which raises the risk of diabetes in more people. When it comes to an abundance of individuals, these tests are very pricey, require facilities, and take a lot of time. To reduce the large number of people who need to take blood tests for diagnosis and to save time and money, machine leaming algorithms can be used as computer-aided systems to predict whether a person is highly likely to have diabetes or not.
+
+According to Dinh et al. (2019), the leading causes of death in the US are cardiovascular disease and diabetes. Several machine learning models (including gradient boosting, random forest, support vector machines, and logistic regression) had their classification performance evaluated. With no laboratory results and with laboratory results, an ensemble model for cardiovascular disease had an Area Under - Receiver Operating Characteristics (AU-ROC) score of 83.1% and 83.9%, respectively. Age, self-reported weight, leg length, waist size, and sodium intake were the top five indicators among diabetes patients. Machine learning models built on survey questionnaires can offer an automated technique for identifying people at risk for cardiovascular and diabetic disorders.
+
+According to Khalid Mahboob et al. (2022), in the study of an ensemble approach to predict early-stage diabetes risk using machine learning. Most people with diabetes have little knowledge of the risk factors they face before diagnosis. And hospitals nowadays can deploy rudimentary information systems that generate vast amounts of data that cannot be converted into information and are used to support decision-making for clinical purposes. Moreover, Various automated techniques are available for early disease prediction. Ensemble leaming is a data analysis technique that combines multiple procedures into one optimal prediction system to assess and improve forecasts. Predictive models used in this study include his AdaBoost, Bagging, and Random Forest to compare precision, recall, classification accuracy, and F1 scores. Finally, the random forest ensemble method showed the best accuracy (97%), while the AdaBoost and bagging algorithms had lower accuracy, precision, recall, and F1 scores.
+
+Accoding to Faruque et al., (2019). The study primarily investigates how to predict diabetes before it manifests numerous risk factors. Researchers gather a dataset of 200 patients with 200 features of diabetes for the study's purposes. These characteristics include age, diet, hypertension, eye issues, genetics, etc. It is possible to forecast diabetes mellitus using a variety of machine- leaming techniques. The researchers' findings in this study utilize the following four well-known machine leaming algorithms: K-Nearest, Naive Bayes (NB), and Support Vector Machine (SVM) and C4.5 DECISION TREE (DT), on an adult to forecast diabetes using population statistics. A test demonstrates that the C4.5 decision tree has greater accuracy than alternative machine learning methods.
+
+According to Dey et al. (2018), Researchers employed the Pima Indian benchmark dataset. which can predict the onset of diabetes. Artificial Neural Network (ANN) accuracy has significantly improved, coming in at 82.35%. Their investigation's primary goal is to develop a web application based on machine learning algorithms with greater prediction accuracy. SVM, KNN, Naive Bayes, and ANN models have all been put to the test by the researchers. They additionally calculate the accuracy for our specified mode to improve prediction accuracy. The data set was split into two subparts: one for testing and one for training to solve the overfitting issue. From different machine leaming algorithms, Artificial Neural Network (ANN) provides our highest accuracy with Min Max Scaling Method on Indian Pima Dataset.
+
+According to Mahboob et al. (2019), On the diabetes dataset for Pima Indians, three machine-learning approaches were used. They also trained and verified a test dataset. The findings from association rule mining revealed a significant correlation between BMI, glucose levels, and diabetes. Future diabetes diagnoses will also be considered additional characteristics, such as inactivity and family history of the disease. Future diabetes diagnoses will also bring characteristics including smoking habits, physical inactivity, and a family history of the disease. Many people utilize data mining techniques to predict early on. The results show a significant correlation between body mass index (BMI) and glucose levels, which were determined using the Apriori approach. With an accuracy of 75.7%, the ANN approach may help guide medical practitioners treatment choices.
+
+According to Marwa et al. (2022), Models for risk prediction are methods for calculating the likelihood that a person with a set of risk factors will experience a future condition. By including additional and time-varying variables that may increase the predictive power of the existing models, new approaches (such as the parametric approach) are necessary for the procedure for predictive models of T2DM complications. Future research can and will use to create predictive models that are more accurate in predicting T2DM problems.
+
+According to Steffi et al. (2018), Diabetes is a chronic illness brought on by a higher-than- normal blood sugar addiction level. Their study investigates the use of data mining techniques for diabetes prediction. The PIMA Indian Diabetes Dataset provided 768 instances for the dataset. 
+
+These models included Naive Bayes, Logistic Regression, Artificial Neural Networks, and Logistic Regression, Due to its steadily rising prevalence, diabetes mellitus unfairly affects more households.
+
+Prediction Models
+
+According to Kamrul et al., (2020) Due to the small number of labeled data and outliers (or missing values) in the Diabetes Dataset, predicting diabetes is difficult. In this article, Hasan and Colleagues propose a robust framework for diabetes prediction using K-fold cross-validation, feature selection, outlier rejection, and filling in missing values. Multilayer Perceptron (MLP) and other Machine Learning (ML) classifiers (k-nearest Neighbour, Decision Trees, Random Forest, AdaBoost, Naive Bayes, and XGBoost) were also utilized. The authors have achieved an AUC of 0.95 with the ensemble of AdaBoost and gradient boost, preprocessing techniques with correlated feature selection method.
+
+According to Maniruzzaman et al., (2020). Logistic Regression was used to identify the risk factors for diabetes disease based on p-value and odds ratio. The researcher adopted Naïve Bayes, Decision Tree, Adaboost, and Random Forest to predict diabetic patients. A combination of LR (Logistic Regression) and RF (random forest) based classifiers perform better.
+
+According to Ramesh et al., (2021) Remote patient monitoring can facilitate effective interventions and treatment paradigms using current technology. This work proposes an end-to-end remote monitoring framework for automated diabetes risk prediction and management using personal health devices, smart wearables, and smartphones. A support vector machine was used to predict diabetes risk using the Pima Indian Diabetes Database. After feature scaling and imputation, patients can use multiple health devices, smartphones, and smartwatches to measure vital signs, slow diabetes progression, and gain a communication loop with nearby medical professionals or experts. The proposed framework will enable healthcare professionals to make informed decisions based on the latest diabetes risk predictions and lifestyle insights while keeping quiet, reducing costs., you can achieve provider interoperability.
+
+According to Ahmed et al., (2021) Diabetes is a widespread condition that affects people. Different supervised machine learning models on relevant datasets can help with the initial diabetes diagnosis. Decision tree (DT), Naive Bayes (NB), k-nearest neighbor (KNN), Random Forest (RF), Gradient Boosting (GB), Logistic Regression (LR), and Support Vector Machine are some of the machine learning techniques. The findings of this work imply that a suitable preprocessing pipeline on clinical data and the use of ML-based classification may accurately and efficiently predict.
+
+According to Alfian et al., (2018). Personal vital signs data monitoring may be possible with Bluetooth Low Energy (BLE)-based sensors. To assist diabetic patients in better managing their chronic condition, The researcher suggest a personalized healthcare monitoring system that makes use of a BLE-based sensor device, real-time data processing, and machine learning-based algorithms. The patient's sensor data was stored in MongoDB as part of the planned real-time data processing, which also used Apache Kafka as a streaming platform. The findings demonstrate that commercially available BLE-based sensors and the suggested real-time data processing are effective enough to monitor diabetic patients' vital signs data. A Multilayer Perceptron can provide early diabetes prediction given the user's sensor data as input, according to tests of machine leaming-based classification methods on a diabetes dataset. ital signs data monitoring may be possible with Bluetooth Low Energy (BLE)-based sensors. 
+
+According to Dwivedi (2018), Data mining is growing with the discovery of such global disease issues through its tools. Dwivedi suggests using the UCI repository Generating Polygenic Disease Datasets and Call Tree Models Classification error LAD (Least Absolute Deviation) tree, NB tree, and genetic J48 wood. Studies on decision tree-based classifier models include various parameters such as computational effort used, delivery functionality, efficiency, precision, and results. In terms of time, accuracy, and features, the genetic J48 model is discovered to be the most efficient and accurate when compared to the opposite 2 call models. The analysis successfully compares the three decision tree classification models for the diabetes dataset from the UCI library.
+
+According to Lekha & Suchetha. (2018) a non-invasive technique for diabetes has been discussed and analyzed. The study uses a one-dimensional convolution neural network. It has been discovered that the technique lowers mean square errors and improves the classifier's overall performance. Similar to the multilayer perceptron-based neural network, the CNN algorithm is a neural network.
+
+According to Abbas et al., (2019). The Naive Bayes method for text classification is effective because of its grating assumptions and it is quick and straightforward. The problems with multinomial Naive heuristic solutions take into account both systemic issues and those difficulties that result from the text's false assertions of multinomial model-generated data. MNB classifier is a kind of NB classifier and is frequently applied as a baseline for text classification, though sentiment analysis is the focus.
+
+According to Loor & Tré (2020). A classification process can be a sequence of steps during which various items are determined to which class (or classes) they belong. Predictions made by a categorization method must be comprehensible when transparency is a prerequisite. They suggest a novel variation of the Naive Bayes (NB) classification procedure in this study that generates such interpretable predictions. In the alternative, evaluations were conducted to create the forecast and examined them using enhanced appraisal degrees.
+
+According to Zhang et al. (2020), one of the top 10 data mining algorithms is Naive Bayes (NB). Numerous approaches to attribute weighting have recommended mitigating this assumption. Class labels' vertical and horizontal granularity can only partially explain some of these.
+
+According to Yang, F. J. (2018), classification is necessary. The Naive Bayes classifier is a mathematical classification method that uses a series of probabilistic computations to determine the best classifier for a given set of data within a problem domain. This classifier is adaptable to different classification domains and used as a general toolkit. A sample data set is chosen to test this classifier to guarantee the accuracy of all probabilistic computations involved.
+
+According to Malik S. et al. (2020), Using machine leaming techniques to diagnose this condition is one option. Machine learning has quickly spread over many areas of healthcare. Machine leaming algorithms can identify whether a patient has diabetes by uncovering hidden pattems using diabetes data. Their study compares the performance and efficacy of a few machine leaming algorithms. Naive Bayes, Bayes Net, Decision Tree, Random Forest, AdaBoost, Bagging, K-Nearest Neighbor, Support Vector Machine, Logistic Regression, and Multi-Layer Perceptron. K-Nearest Neighbor, Random Forest, and Decision Tree performed better experimentally than other algorithms on the Frankfurt hospital (Germany) dataset across all metrics. 
+
+2.2 Concept of the Study
+
+Figure 1. Conceptual Framework
+
+The study will use the Android Studio software, the Java programming language, and a diabetes dataset. The input for this study consists of the devices that are used to produce the desired results, such as computers and mobile phones. The agile technique was used since it is a suitable strategy and fits the study's goals. The output will meet the research objectives and offer insightful information about the issue because of the use of the Agile approach and the accessibility of all necessary resources. This study illustrates the importance of having all resources and a well-suited methodology to conduct effective research, 
+
+2.3
+
+Definition of Terms
+
+Diabetes mellitus
+
+refers to a group of diseases that affect how the body uses blood sugar (glucose). Glucose is an important source of energy for the cells that make up the muscles and tissues.
+
+Naïve Bayes
+
+Naïve Bayes algorithm is one of the simple and most effective classification algorithms which helps in building the fast machine learning models that can make quick predictions.
+
+Machine Learning
+
+Machine learning is a growing technology which enables computers to leam automatically from past data. It uses various algorithms for building mathematical models and making predictions using historical data or information.
+
+Dataset
+
+Test Data
+
+A dataset is a collection of data in which data is arranged in some order. It contains any data from a series of an array to a database table.
+
+Used to measure the performance, such as accuracy or efficiency, of the algorithm you are using to train the machine.
+
+Training Data
+
+The data you use to train an algorithm or machine leaming model to predict the outcome.
+
+
+
+
+
+
+3 OPERATIONAL FRAMEWORK
+
+3.1
+
+Materials
+
+3.1.1 Software
+
+Table 1. Software Specification
+
+3.1.2 Hardware
+
+Table 2. Hardware Specification
+
+3.1.3 Data
+
+The dataset is from the National Institute of Diabetes and Digestive and Kidney Diseases.
+
+The dataset has nine columns and 768 rows. The classification outcome variable takes (0 or 1) values, where 0 indicates a negative test for diabetes, and 1 implies a positive test.
+
+(a) Original owners: National Institute of Diabetes and Digestive and Kidney Diseases
+
+(b) Donor of database: Vincent Sigillito.
+
+3.2
+
+Methods
+
+3.2.1 Experimental design
+
+Figure 2. Agile Methodology
+
+The Agile methodology is a flexible and iterative approach to software development that is ideal for mobile app development. The Agile methodology emphasizes collaboration, adaptability, and customer satisfaction.
+
+Planning Phase: At this stage, the researchers identify the goals and requirements for the mobile app and also create a plan for how it will function and look. This will include determining the target audience, key features, and overall user experience.
+
+Designing Phase: In this phase, the researchers Android Studio to design the interfaces of the mobile application. The researchers also decided on the features that the application would have and how they would be implemented. To achieve this, the researchers used the Java programming language.
+
+Testing Phase: In this stage, the researchers conduct in beta testing to ensure the app is functioning correctly and without bugs in multiple end-users such as, android smartphone.
+
+Deployment Phase: In this stage, the researchers prepare the app for release by uploading it on google play store, and configuring the environment necessary for the app to run.
+
+Review Phase: At this stage, the researchers collect feedback by administering post evaluation and make any necessary changes. This will entail analyzing usage data and user feedback to identify areas for improvement using Likert scale.
+
+Launch Phase: In this phase, the mobile application researchers developed using the Naive Bayes algorithm was made available to the public. We distributed the mobile application's APK file via google play store.
+
+3.2.2 Methodology
+
+In this section, the methodology is explained, including how the data sets are obtained. training and the data mining algorithms
+
+Data collection
+
+The diabetes dataset comes from the National Institute of Diabetes and Digestive and Kidney Diseases. This dataset was used whether a person has diabetes based on diagnostic measurements in the dataset.
+
+Data Pre-processing
+
+The data pre-processing step is one of the most significant steps in the data discovery process as we try to learn more about health care, Most healthcare data contain a missing value and noisy and inconsistent data. The missing value is replaced or handled by an attribute and removed manually.
+
+Training data
+
+The separation of the testing and training is done in Google Colab. Values like 0.2 and 0.8 that is 20 percent for the testing set and 80 percent for the training set.
+
+Applying Naïve Bayes
+
+Naïve Bayes is a probabilistic classification algorithm and a supervised classification algorithm. It classifies the dataset based on an independence assumption. Naive Bayes classifies datasets based on the presence of a specific feature in a class that is unrelated to other features.
+
+Evaluation
+
+To evaluate the model, we will check the accuracy using actual and predicted values. We will first import metrics for accurate calculation and how often the classifier correctly predicts a person with diabetes or not.
+
+These metrics are using True Positive/TP (the person has diabetes and predicted diabetes). True Negative/TN (the person did not have diabetes and predicted non-diabetic), False Positive/FP (the person did not have diabetes but predicted diabetes) and False Negative/FN (the person had diabetes but predicted non-diabetic). (Paudyal, (2020)
+
+Precision - Accuracy of positive prediction. Precision = TP TP+FP Recall - Fraction of positives that were correctly identified. TP Recall = TP+FN F1 score-percent of positive prediction correct. F1 score 2 (Recall Precision) Recall Measure
+
+Likert Scale
+
+Table 3. Statistical Treatment Tool
+
+Data were analyzed using the frequency count and weighted mean using the scale above.
+
+Likert Scale shows the weighted mean range and its descriptive interpretation as evaluated by the respondents.
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula:
+
+WM N
+
+Were,
+
+WM-Weighted Mean
+
+*1+X2 +X+Sum of Scores/Responses
+
+N-Total Number of Respondents/Means
+
+Implementation Procedure
+
+Figure 3. Procedure of Diabetes Prediction
+
+Input data is cleaned, transformed, and organized through data preprocessing before being split into training and test sets. Machine Learning algorithm, is then applied to the input data, resulting in model output. Evaluation is done on the model to assess its performance and identify areas for improvement.
+
+
+
+
+
+
+4 RESULTS AND DISCUSSION
+
+4.1 Results
+
+In this chapter, we present the results of our study on predicting Diabetes using the Naive Bayes algorithm. We trained and tested different machine leaming models using a dataset from the National Institute of Diabetes and Digestive and Kidney Diseases, and evaluated the performance of the models using a range of evaluation matrics.
+
+A. Evaluation Report
+Figure 4. Naïve Bayes, Decision Tree and K Nearest Neigbour Result Chart
+
+The figure shows the different model evaluations in categories: Accuracy, Precision, Recall, and F1-Score. Classification reports show Naive Bayes is the highest compared to the Decision tree and K Nearest Neighbor.
+
+Precision shows how the classifier does not label an instance positive that is negative. Precision tells us when the model predicts yes, how often is it correct.
+
+The recall shows a classifier to find all positive instances. When the actual value is positive, how often is the prediction correct?
+
+The F1 score is a weighted mean of precision and recall. What percent of positive predictions were correct?
+
+B. Results: Survey Mean and Descriptive Statistics
+
+Mean Response and Descriptive Interpretation on respondents' evaluation on the Mobile application system in terms of Performance Efficiency
+
+Table 4. Performance Efficiency
+
+The table shows the mean response and descriptive interpretation of respondents' evaluation on the Mobile Application system in terms of Performance Efficiency.
+
+The table reveals that respondents agree that the system result is accurate when it comes to its function based on the computed mean of 3.92. Also, it shows that the system functions without any problem based on the computed mean of 3.94 which falls on "agree" interpretation. Thus, Mobile application system performs efficiently having the computed weighted mean of 3.93 which belongs to "agree”
+
+Mean Response and Descriptive Interpretation on respondents' evaluation on the Mobile application system in terms of Reliability
+
+Table 5. Reliability
+
+The table shows the mean response and descriptive interpretation on respondents evaluation on the Mobile Application system in terms of Reliability.
+
+The table reveals that the system is reliable based on the computed mean of 3.85 which falls on "agree" interpretation. It shows that the mobile application system is operational and accessible at a time needed for use (M = 3.88) and it provides basic operational instructions and hints to its user's when in operation (M = 3.82).
+
+Mean Response and Descriptive Interpretation on respondents' evaluation on the Mobile application system in terms of Effectiveness
+
+Table 6. Effectiveness
+
+The table shows the mean response and descriptive interpretation of respondents' evaluation on the Mobile Application system in terms of Effectiveness.
+
+The table reveals that respondents agree that the application system can produce the desired output based on the computed mean of 3.82, Also, it shows that that system is beneficial to the user considering the weighted mean of 3.84. Thus, the developed system is effective with mean equivalent of 3.83 which falls on "agree".
+
+Mean Response and Descriptive Interpretation on respondents' evaluation on the Mobile application system in terms of Portability
+
+Table 7. Portability
+
+The table shows the mean response and descriptive interpretation on respondents' evaluation on the Mobile Application system in terms of Portability.
+
+The table reveals that the system is portable based on the computed weighted mean of 3.96 which falls on Agree interpretation. Also, respondents agree that the system can effectively and efficiently be adapted for being different or evolving hardware, software, or other operational and usage environment.
+
+Mean Response and Descriptive Interpretation on respondents' evaluation on the application system in terms of Usability
+
+Table 8. Usability
+
+The table shows the mean response and descriptive interpretation on respondents' evaluation on the Mobile Application system in terms of Usability.
+
+The table reveals that the respondents Agree that the system is easily operated and can be transferred considering the computed mean of 3.88. Also, the system's user interface looks pleasant and satisfactory based on the computed weighted mean of 4.04 and fall on "Agree". Thus, the system is usable.
+
+Summary of the Mean Responses and Descriptive Interpretation on respondents' evaluation on the Mobile application system
+
+Table 9. Mobile Application Evaluation
+
+The table shows the mean response and descriptive interpretation of respondents evaluation on the Mobile Application system in terms of Efficiency.
+
+The table reveals that the system performs efficiently (3.93), is reliable (3.85), is effective (3.83), portable (3.96) and is usable (3.96) based on the computed mean of 3.90 which falls on all "Agree".
+
+C. Factors for predicting diabetes mellitus
+
+Pregnancy on Diabetes
+
+Figure 5. Pregnancy
+
+The figure shows that having or not having a history of pregnancy does affect your chances of having diabetes; therefore, it shows that pregnancy has an impact on diabetes, You're at risk for prediabetes if you have had gestational diabetes. (Centers for Disease Control and Prevention. 2022)
+
+Figure 6. Body Mass Index (BMI)
+
+The figure above shows the Body Mass Index (BMI), where 18.5 and below is underweight, 18.5 to 24.9 is healthy, 25.0 to 29.9 is overweight, and 30.0 and above is obese. It has been shown that being obese increases the risk of developing diabetes. Being overweight and above means, you have at risk of having diabetes. (Centers for Disease Control and Prevention, 2022)
+
+Figure 7. Family History
+
+The graph above depicts family history observed from the data presented: yes and no: having and not having a history. The information above demonstrates that having a family history of diabetes can increase the risk of diabetes mellitus. The known risk factors include a family history of type 1 diabetes. (Centers for Disease Control and Prevention, 2022)
+
+Glucose on Diabetes
+
+Figure 8. Glucose
+
+The graph above shows that people with higher glucose levels are more likely to develop diabetes, and people with normal glucose levels are also at risk. A normal blood sugar level was 140 mg/dl or lower to 199 mg/dL indicates you have prediabetes, and 200 mg/dL or higher shows you have diabetes. (Centers for Disease Control and Prevention, 2022)
+
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+5.1 Summary
+
+In this study, a machine learning model was made to predict diabetes in patients based on their user data. The Naïve Bayes algorithm was applied as a prediction method and evaluated the model's performance using several evaluation metrics, including the F1 score, precision, recall, and accuracy. The results showed that the Naive Bayes model performed well, with an F1 score of 0.78, good precision, and recall values. The model made accurate predictions in about 79% of the cases compared to the decision tree and k nearest neighbor. However, there is still room for improvement in the model, and further research is needed to optimize its performance and identify the most effective strategies for the detection and prevention of Diabetes Mellitus. In addition, this study identifies the risk factor of diabetes. Finally, this study also developed an android application system that can predict Diabetes Mellitus based on user input and evaluate it using ISO/IEC 25010 to get a result of descriptive interpretation to agree.
+
+5.2
+
+Conclusions
+
+1. The Naive Bayes model performed well in the results. The model predicts correctly in the vast majority of cases and has a good balance of precision and recall.
+
+2. The developed Android application was evaluated and rated positively in terms of Performance Efficiency, Effectiveness, Portability, Reliability, and Usability. This indicates that the application is of high quality and meets the needs of its intended users.
+
+3. The risk of diabetes mellitus is based on their medical history and other lifestyle factors in Pregnancy, BMI, family history, and Glucose, Diabetes is a cause of death worldwide, and early prevention and detection can improve outcomes and reduce the disease from getting worse.
+
+5.3 Recommendations
+
+The Naïve Bayes algorithm was used as a prediction model, but many other machine leaming algorithms could be used to predict diabetes mellitus. It would be interesting to explore the performance of different algorithms.
+
+Since the effectiveness of using mobile applications for the analysis of diabetes mellitus has been tested, a person may incorporate mobile apps for every individual, especially in the hospital for patients, and help them build self-care management.
+
+If possible, the system could also apply to IOS and add more details on the user interface and for the future research could consider collecting additional data to see possible risk of having diabetes mellitus.

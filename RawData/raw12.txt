@@ -1,0 +1,645 @@
+GREENHOUSE MONITORING SYSTEM OF NAPA CABBAGE: ACCURACY AND PRODUCTIVITY WITH THE USE OF FIELD ANALYTICS Windel John C. Bermudez Precious May G. Cortez Lory Ann F. Layugan January 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Windel John C. Bermudez Precious May G. Cortez Lory Ann F. Layugan January 2023
+
+
+
+ABSTRACT
+
+The study entitled "Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics" in the Institute of Agricultural and Technology (IAT) in Isabela State University Cauayan City Campus, specifically aimed to determine the problems encountered in monitoring vegetable garden without the use of an automated greenhouse system for monitoring in terms of service, performance, and information, it also aimed to design and develop a system that can monitor the humidity, temperature, and soil moisture and it is automatically watering the plants as well as evaluate the system by adapting the ISO 25010. The researchers of this study tested the system for 21 days using one crop, the napa cabbage (pechay), to test the effectiveness of the developed system. Also, the researchers of this study compared the crop inside and outside the greenhouses to see if the developed system was more effective than the uncontrolled environment. Based on the evaluation, the respondents described "much of a problem" the problems encountered in monitoring a vegetable garden without the use of an automated greenhouse system for monitoring. The evaluation of Agriculture experts and IT experts in the developed system rated it "excellent" in adapting ISO 25010 of criteria performance efficiency, functionality sustainability, reliability, usability, maintainability, and security with overall category grand mean of (4.67) in Agriculture experts and in IT experts category grand mean of 4.59. Overall, the respondents encountered much of a problem in the manual processes; agriculture experts and IT experts described the developed system as excellent.
+
+
+
+
+
+CHAPTER I INTRODUCTION
+
+Project Context
+
+Greenhouses are climate-controlled structures with walls and roofs that are specifically designed for off-season plant growth. Most greenhouse systems use manual systems to monitor temperature and humidity, which can be inconvenient for workers who must visit the greenhouse's day and manually control them. Various issues can arise as it affects the production rate because temperature and humidity must be constantly monitored to ensure the plants' good yield. The Internet of Things is one of the most recent advances in information and communication technologies, providing global connectivity and management of sensors, devices, and information users (Danita et al., 2018). According to Kitpo (2019), The Internet of Things (IoT) has recently played an essential role in the agricultural industry by providing farmers with tools such as growth monitoring systems for temperature, humidity, and water supply.
+
+The agency of this study or where the researchers conducted this study at the Institute of Agricultural and Technology (IAT) Department located in Isabela State University Cauayan Campus, which aimed to help agriculturists to boost their agricultural knowledge and skills through the application of agricultural sensors.
+
+The main reason why the researchers conducted this study is because of the problem of the agency that encountered a manual system in monitoring their greenhouse and inadequate in controlling the temperature inside the greenhouse.
+
+The researchers want conducted this study and developed a system to help agriculturists to improve their crop production in napa cabbage (pechay). In this study of napa cabbage (pechay), the researchers monitored the growth with the use of field analytics.
+
+Objectives of the Project
+
+The main objective of the study is to develop a "Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics."
+
+Specifically, it aimed to:
+
+1. determine the problems encountered in monitoring a vegetable garden without the use of an automated greenhouse system for monitoring in terms of service, performance, and information.
+
+2. evaluate agriculture experts and IT experts of the developed system in adapting ISO 25010 criteria.
+
+2.1 Performance Efficiency
+
+2.2 Functionality Sustainability
+
+2.3 Reliability
+
+2.4 Usability
+
+2.5 Maintainability;
+
+2.6 Security;
+
+3. make a comparative analysis of the existing process and the developed system.
+
+Scope and Delimitations
+
+This study focuses on "Greenhouse Monitoring System of Napa Cabbage:
+
+Accuracy and Productivity with the Use of Field Analytics" in the Institute of Agricultural and Technology (IAT) located at Isabela State University Cauayan Campus, there is a login for users and admin, and it also has a dashboard where can see the monitored temperature, humidity, and soil moisture, and also it has an on/off button for the fan and solenoid valve. Aside from controlling the button, it can automatically water the plants when the water content of the soil moisture is 15%, and it will automatically stop when it's already 30%.
+
+The study is limited only to napa cabbage (pechay), and the system cannot be used without the internet, which is for real-time monitoring. This was only implemented in the Institute of Agricultural Technology at Isabela State University, Cauayan Campus.
+
+Significance of the study
+
+The following people or organizations will gain from the study:
+
+Future Researchers. They may also research relating to this kind of study and may use it as a guide or a reference for them if they find the study useful and effective.
+
+The Institute of Agricultural Technology (IAT). They will benefit from the study to aid them in monitoring the plants.
+
+Developer - The Proposed Greenhouse Monitoring is one way to develop and improve the developer's skills in innovation and research.
+
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+This chapter presents the relevant literature and studies that the researchers have considered in strengthening the claims and importance of the present study.
+
+Smart Farming agriculture is a management concept focused on providing the agricultural industry with the infrastructure to leverage advanced technology including big data, the cloud, and the internet of things for tracking, monitoring, automating, and analyzing operations. Smart Farming, often known as Precision Agriculture, is controlled by software and monitored by sensors. Smart Farming is becoming more important as the world's population grows, as does the desire for higher agricultural yields, the need to conserve natural resources, the increased usage and sophistication of information and communication technology, and the growing need for climate-smart agriculture.
+
+Greenhouse Monitoring
+
+According to Raviteja et al. (2020), IoT has recently played a significant role in agricultural growth. Smart Farming is becoming an emerging idea as a result of the tremendous expansion of loT, as IoT is capable of providing information about agricultural lands. The twenty-first century saw the beginning of the growth of information technology, with the emergence of the Internet of Things being one of the revolutions. The Internet of Things (IoT) is a technology that manages data and applications by combining electronic devices, sensors, and the internet. Precision Farming refers to the use of the Internet of Things in agriculture for crop management as a medium for monitoring and managing. particularly in greenhouses. Precision farming will be more effective in a greenhouse since identical environmental conditions are easier to construct (Ardiansah et al., 2020),
+
+As stated by Li (2021), a regulated environment, greenhouse production consumes and emits less resources than field crop production and emits fewer greenhouse gases than agricultural production. Furthermore, the greenhouse with an automated monitoring system saves more energy and reduces emissions. At the same time, the intelligent monitoring system can foresee the harsh greenhouse environment, prevent illnesses and insect pests, cut pesticide and fertilizer consumption, and deliver high-quality food. Researchers are increasingly interested in greenhouse monitoring systems, but putting them into production appropriately and effectively remains a huge barrier. The technology can identify what is occurring in the greenhouse and make judgments based on the data collected by employing sensors. Temperature and humidity sensors, soil moisture sensors, and light sensors are all often utilized in Precision Farming. Based on the study results of Verschuur et al. (2022), the numerous Greenhouse monitoring strategies attempted with the use of internet of things (IoT) technologies. The Internet of Things (IoT) is a network of interconnected objects that can communicate with one another. IoT is a fantastic platform for data analysis, and it is used in greenhouses to monitor and act on numerous aspects such as temperature, pH value, humidity, and so on. As stated by Verschuur et al. (2022), greenhouses are used to cultivate diverse plants in a controlled environment with ideal climatic conditions since they protect the plants from essential environmental restrictions such as overheating, dryness, and so on.
+
+As stated by Danita et al. (2018), greenhouses are climate-controlled facilities with specially built walls and roofing for off-season plant growing. Most greenhouse systems employ manual temperature and humidity monitoring systems, which can be problematic for staff who must visit the greenhouse every day and manually manage them. Because temperature and humidity must be regularly controlled to maintain the plants' high output, a number of problems might develop. The Internet of Things is one of the most recent advancements in information and communication technology, allowing sensors, devices, and people to connect to the internet and manage their data. As a result, the combination of lot and embedded technology has aided in the resolution of many current practical challenges over the years. Additional study suggested that system can provide the green house with the necessary climatic conditions. Because the playhouse is machine- controlled, human interference will be reduced. During droughts, agriculture requires irrigation, and some plants demand a lot of water, which rain cannot deliver. Farmers must keep track of soil moisture and water levels at all times. Plants may decay owing to insufficient watering while the farmer is away from the farm or has a health condition (Sherkar et al., 2017).
+
+Greenhouse technology is a way for increasing crop yields. However, the greenhouse's climate-controlled settings need further monitoring and management of environmental conditions. This study describes an internet of things (IoT)-based monitoring system for greenhouse environmental conditions. Data on greenhouse environmental parameters such as temperature, humidity, soil temperature, soil moisture, and light intensity are collected using sensors as stated by Widyawati et al. (2020).
+
+Kimal et al. (2017) also added that greenhouses are enclosed spaces where plants may be cultivated. For a greenhouse system to promote optimal plant development, environmental factors such as temperature, humidity, and soil moisture must be continuously monitored and controlled. The major purpose of this project is to develop a simple, low-cost Arduino-based system that continually analyzes and regulates the values of environmental factors in order to maximize plant growth and production.
+
+According to Kumar et al. (2020), the greenhouse environment is a location where plants thrive under highly protected conditions, such as a glass-covered space. The greenhouse environment is a unique application of wireless sensor networks, with wireless sensor network control being the most important aspect. We can witness several significant gains by monitoring and managing the greenhouse environment, such as improved crop quality. Monitoring and managing crop development in the greenhouse are critical aspects for optimal quality and yield. Maintaining humidity and temperature promotes plant development. Using a multi-sensor method, this occurrence might readily occur.
+
+Based on the study results of Ibrahim et al. (2019), greenhouses are constantly evolving, beginning with the deployment of various sensor nodes that act as human observers. These sensor nodes replace human observations by measuring environmental characteristics and conditions within the greenhouse to provide more exact data at the appropriate sampling frequency. Furthermore, they enable the collection and analysis of acquired measures in order to assess the actual state of the greenhouses. As a result, a user interface is created to convey this information to greenhouse stakeholders.
+
+As stated by Soheli et al. (2022), climate change has already demonstrated its disastrous impact on agriculture. Although the greenhouse is a well-established crop production system, technology advancements allow for automation in many areas of the greenhouse. As a result, an automated smart greenhouse based on an adaptive neuro fuzzy inference system (ANFIS) and the Internet of Things (IoT) may be the greatest answer for increasing food yield within the house. Farmers may therefore monitor all data and determine the ideal temperature and humidity value.
+
+According to Kitpo et al. (2019), the Internet of Things (IoT) has lately played a major role in the agricultural business in order to give farmers with assistance such as growth monitoring systems of temperature, humidity, and water supply, as well as early disease monitoring and detection systems. Because of its capacity to replace the cables used to transport the recorded greenhouse characteristics while avoiding damage, the greenhouse has become one of the most significant areas of internet of things application (Taha et al., 2018).
+
+The environment is the most important aspect in the greenhouse system. An loT- based system is a more flexible and appropriate alternative for providing monitoring and controlling capabilities within the greenhouse (Nath et al., 2021).
+
+As added by Mekki et al. (2017), many environmental characteristics, such as temperature, humidity, and radiation leakage, might be monitored and controlled using wireless sensor networks (WSN). The weather and soil in a greenhouse should be independent of natural influences. To attain this scenario, wireless sensor nodes that interact with a central base station to measure and broadcast the needed environment parameters might be placed.
+
+Vishwakarma et al. (2020) said that creating a smart greenhouse-controlled environment to grow plants. Employing a low-cost, more efficient programmable module to monitor climatic behavior within the greenhouse and adjust settings based on crop production requirements, using different ways using the board ESP8266 Node MCU module. The characteristics that require optimization include the soil's water content, the intensity of light from natural or artificial sources, and the temperature and humidity of the field area.
+
+As mentioned by Anthony (2018), Auto GMS: An Automated Greenhouse Monitoring System, the system was intelligently engineered to automate the traditional watering system in order to prevent under and over irrigation. of Abiotic Factors for Leafy Vegetables Production" was created to make monitoring or data logging different natural parameters in the greenhouse that affect crop growth easier. The system can monitor and record soil moisture content, relative humidity, and temperature. Smart sensors, gadgets, network topologies, big data analytics, and intelligent decision-making are regarded to be the solution to greenhouse farming's core difficulties, such as greenhouse local climate management, crop growth monitoring, crop harvesting, and so on. Another component that will biodegrade polystyrene and act as an artificial home for mealworms throughout their life cycle is a fully automated polystyrene biodegrading system for mealworm segregation as stated by Hani (2021). 
+
+As stated by Tolentino et al. (2019), internet of things-based monitoring and automated correction system for an aquaponics setup in a temperature-controlled greenhouse utilizing an Android smartphone (IoT). The system collects real-time data from the light intensity sensor, as well as the air temperature and humidity sensors. It also includes monitoring the pH level and temperature of the system's recirculating water, as well as the plant's canopy area.
+
+According to Akkas et al. (2017), wireless sensor networks (WSNs) are one of the most important technologies of the twenty-first century, and they are ideal for dispersed data collection and monitoring in harsh settings such as greenhouses. The Internet of Things (IoT) is another of the most important technologies of the twenty-first century, with hundreds of applications in civic, health, military, and agricultural fields. To guarantee the optimal functioning of the greenhouse automation system, multiple measurement stations are necessary in modern greenhouses to track down the local climatic parameters in different sections of a large size greenhouse. Once built, cabling would make the measuring system costly, vulnerable, and difficult to transfer.
+
+The hierarchical structure of WSNs is provided for the greenhouse monitoring system, and the two-stage data fusion technique is described for the hierarchical network, taking into account the features of local consistency and gradual change of the greenhouse environmental information. The weighted data fusion technique of WSNs on local state estimation is devised for the cluster in the first stage, which improves the fusion accuracy and anti-interference capability of the system. Furthermore, the multi rate measurement mode is proposed to lower the energy consumption of WSNs while still fulfilling the system's information-sensing capability. In the second step, data fusion is performed on the support function at the sink node using consistency analysis of data from distinct clusters (Bai et al, (2018). Based on the study results of Liu et al. (2017), the host computer can achieve real-time monitoring and control of greenhouse temperature, humidity, light, air quality, and other environmental parameters by displaying and regulating greenhouse parameters in real time. The simulation results suggest that the system is stable, consumes less power, and has an excellent real-time monitoring effect. It may significantly increase the reliability and intelligence of greenhouse environment monitoring while also lowering monitoring costs.
+
+A greenhouse is mostly used to cultivate particular types of plants all year or plants that require constant monitoring. Obtain great quality and quantity. At the moment, the majority of greenhouses are manually regulated and monitored. This technique of Greenhouse monitoring is time-consuming and labor expensive. The notion of the Internet of Things may be applied in greenhouses to Increase productivity by sensing environmental factors using numerous sensors. The Internet of Things is a network of connected devices. Devices that are linked to the internet and communicate with one another via online services (Satpute et al. 2018). As stated by Lavanya et al. (2018), the Benefits of Greenhouse Monitoring and Control Inside a building, a reasonable temperature and humidity may be maintained. A greenhouse that is useful for plant propagation. It also Aids in increasing manufacturing quality and quantity. Furthermore, disease or pest infestation is reduced. Water is a significant benefit. In comparison to open fields, conservation and fertilizer requirements are reduced. cultivation. It also shortens the crop's gestation time.
+
+IoT is an emerging trend that is extensively employed to make items think more wisely and to offer an event forecast based on past data. The connectivity between IoT devices coupled with sensors These sensors need the use of a wireless sensor network.
+
+As said by Vimal et al. (2017), greenhouses are enclosed environments in which plants can be grown. Continuous monitoring and adjustment of environmental factors such as temperature, humidity, soil moisture, light intensity, soil pH, and so on are required for a greenhouse system in order to promote optimal plant development. Geng et al. (2019) has added that knowledge of the environmental information of diverse spaces of a big greenhouse is required for proper control, which necessitates multipoint monitoring. Given the shortcomings of present greenhouse environmental monitoring, a mobile greenhouse environment monitoring system based on the Internet of Things was developed. A four- layer system architecture with exceptional motion control features was built, which leverages mobile acquisition rather than many sensor nodes to provide a low-cost automatic collection of greenhouse environmental information and crop photography.
+
+According to Sampiao et al. (2017), the hierarchical wireless sensor network investigated in this research is made up of sensor nodes at the lowest level, and router nodes at the middle level to transport data from sensor nodes to a controller known as the coordinator node. At the highest level, the coordinator node communicates with a central base, where all data received is evaluated. For two separate situations, the total number of sensor nodes that may be accommodated in this hierarchical system is evaluated. Today, advances in greenhouse technology and modifications have pushed science-based solutions for optimal plant development in all seasons across the world by regulating internal climatic growth elements, including temperature, humidity, light intensity, and CO2 concentration. Solar greenhouses boost agricultural output and quality, helping to solve global food security challenges (Badji et al., 2022).
+
+Based on the study of Silmo et al. (2022), the phrase "smart agriculture" refers to an industrial agriculture-centered management paradigm. It monitors, automates, and evaluates agricultural activities by utilizing cutting-edge technology like big data, the cloud, and the Internet of Things. A management idea is a smart agriculture. Smart agriculture, also known as precision agriculture, uses software and sensors. The software manages smart agriculture. This paper proposes the creation of a low-cost monitoring device for environmental parameters and electrical amounts. According to the findings, such Internet of Things devices are well-suited for digitizing essential data to obtain information that may assist farmers in making the best decisions.
+
+According to Abbasy et al. (2020), there is a quicker advancement in the invention of monitoring agricultural conditions to improve field production quality. Various cultivating factors, including light, soil moisture, temperature, humidity, and so on, are monitored and controlled using monitoring and controlling equipment. It proposes using IOT innovation to assist farm owners in controlling and monitoring their farms via screen and sensing vital information from their farms using their smartphone application to aid in crop quality enhancement and crop amount. The suggested system provides fully automated control over climatic changes in the greenhouse in order to improve agricultural conditions for the various plants in the greenhouse. 
+
+Comparison of open field cultivation to greenhouse cultivation
+
+As stated by Siddiqui et al. (2017), due to worldwide climate changes, the recent era has resulted in significant global food scarcity. To address the issue of global food scarcity, households must cultivate a fair amount of vegetable and other crops in artificial greenhouses. When compared to open-field farming, an artificially controlled greenhouse yields more crops per square meter because the microclimatic factors that impact crop production are regularly analyzed and managed to guarantee that an ideal environment is generated.
+
+Using of RFID Tags in greenhouse
+
+According to Rennane et al. (2021), when it comes to greenhouse management modernization, UHF RFID technology, with its passive nature, low cost, and power consumption, gives a very effective alternative. An EPC global C3 SL900A sensor tag is strengthened to this aim by including energy harvesting and multi-sensing capabilities. The difficulty of merely employing the basic carrier as an energy-harvesting source without the requirement for additional auxiliary energy or a battery source is explored and appraised. For detecting the needed metrics in the growing monitoring process, the designed architecture employs a deep power consumption control technique and functions autonomously in complete passive mode. 
+
+Monitoring vegetable gardens without the use of IOT
+
+Based on the study of Rayhana et al. (2020), the climate change, population growth, and shrinking arable land require innovative techniques to assure sustainable agriculture and food supply in the future. Greenhouse agriculture is seen as a realistic and sustainable option that can address future food crises by regulating the local environment and cultivating crops all year round, even in severe outside settings. However, greenhouse farms continue to face several operational and managerial issues. The evolving Internet of Things (IoT) technologies, which include smart sensors, devices, network topologies, big data analytics, and intelligent decision making, are thought to be the answer to addressing the key challenges confronting greenhouse farming, such as greenhouse local climate control, crop growth monitoring, crop harvesting, and so on.
+
+Based on the study of Liang et al. (2018), environmental parameters like as temperature, relative humidity, and light intensity all have a significant impact on greenhouse crop development. At the moment, greenhouse manufacturing typically employs artificial techniques to monitor environmental information, which consumes personnel and cannot detect environmental information effectively.
+
+According to Hubbard (2017), plants fail or perish when they lack two critical elements: appropriate growth requirements and the proper growing environment. If only one species of plant experienced a problem, it might be due to improper growth conditions, which allowed insects or diseases to attack. The plant may be in the incorrect location or is not suited to the climate. If the majority of the plants in a flowerbed were harmed, the growth conditions were most likely inadequate. Growing circumstances include soil, light availability, hydration, and weather. In addition, plants, like people, may contract harmful illnesses and transfer them to others in their vicinity. Plants can be afflicted with a wide range of illnesses. Diseases of varying severity can have fungal, bacterial, or viral origins (Vinson, n,d).
+
+Some may be avoided, while others can be detected and treated. If the illness is severe or has developed too quickly or severely, it might kill the plant. As stated by Prodhan et al. (2018), crop production is heavily reliant on soil and the environment. Vegetables require suitable soil and an atmosphere to thrive. Vegetables are most abundant in the winter, although they can grow throughout the year. Vegetable production is dependent on soil and environment. Good vegetables require soil PH, soil wetness, soil humidity, soil texture, and soil fertility. Other than temperature, rainfall, humidity, and light intensity. The environment is mostly responsible for vegetable production.
+
+According to Klauser (2018), plant diseases have a significant impact on agricultural output in underdeveloped nations and tropical ecosystems. These countries are more prone to disease transmission due to a lack of capacity to handle the illnesses. Major epidemics can jeopardize national food security, displace people, and severely harm economies that are frequently heavily reliant on agriculture. Disease pressure is expected to rise as a result of worldwide commerce and farming patterns. Climate change may also have a detrimental impact. Outbreak prevention strategies should ideally include consistent monitoring, precise detection, and prompt action. 
+
+Widyawati et al. (2020) said that greenhouse technology can help enhance food crop output. However, the greenhouse's regulated climatic settings need more labor in monitoring and managing environmental conditions. Sensors are used to collect data on greenhouse ambient variables like as temperature, humidity, soil temperature, soil moisture, and light intensity. The sensor's data is subsequently transmitted to the gateway once per minute through an access point established in the greenhouse area.
+
+Based on the result, traditional farming requires farmers to return to the farm on a regular basis to assess numerous environmental parameters such as temperature, humidity, light intensity, and soil moisture in order to plant the appropriate crops at the right time in the correct soil. Even though this traditional farming technique has been utilized for many years, it is chaotic and fails to demonstrate a high productivity rate because farmers are often unable to precisely assess all of the parameters. Greenhouse farming, on the other hand, is a technique in which farmers raise crops in ecosystem habitats where all environmental factors are modified based on crop type (Hoque et al., 2020).
+
+Automation in greenhouse is a way through which a farmer may automatically monitor and regulate the greenhouse environment from anywhere in the globe at any time.
+
+Planting outside greenhouse
+
+As mentioned by McDougall (2019), low vegetable yields combined with inefficient marketing systems in the Southern Philippines keep vegetable farmers poor and threaten food security. The system we want to develop is an information system about vegetable crops that will help farmers maximize profitability, estimate production, and so on.
+
+Napa Cabbage
+
+Seedling management is critical in leafy vegetables with a short growth season since it accounts for over half of the productive time. In the Philippines, Napa Cabbage (pechay) is regarded as a high-value and in-demand leaf vegetable (Gonzaga et al., 2017).
+
+According to Lara et al. (2019), it is a well-known fact that consumers increasingly choose organic food cultivated in an environmentally friendly manner in order to lessen their carbon footprint and environmental harm. Ecology is suffering as a result of the damage pesticides and crop protection agents inflict to the flora and animals in the environment where crops are grown. In addition, individuals are attempting to obtain the freshest veggies, fruits, and even flowers. Because of these circumstances, it is more frequent nowadays to discover people attempting to cultivate their own food or plants that are unavailable where they reside. It is helpful to employ instruments that can aid in the growth of these plants and make the task easier, but this is not always the case.
+
+The result of the study of Jimenez et al. (2021), napa cabbage takes 30-40 days to mature. It has green leaves and a white petiole, and it is cultivated all year. It has narrow and thick petioles and is compact.
+
+As mentioned by Gloria et al. (2019), plants produced in greenhouses were substantially taller than plants cultivated in traditional farming, however there was no significant difference in leaf quality between the two setups. This is due to the fact that healthy plants require three essential elements: nitrogen, phosphorus, and potassium.
+
+Fuzzy Logic
+
+According to Scott (2022), Fuzzy logic is a method of variable processing that allows multiple truth values to be processed by the same variable and attempts to solve problems by using an open, imprecise spectrum of data and heuristics to generate a variety of accurate conclusions, and also it is intended to solve problems by considering all available information and making the best decision possible given the input.
+
+As stated by Benyezza et al. (2021), a fuzzy logic controller (FLC) processes these data and makes an intelligent and optimal decision to control irrigation. Using a Human Man Interface (HMI) developed under the project, the developed system can monitor and control the irrigation in the greenhouse from anywhere and at any time.
+
+The research paper describes the design of a greenhouse system that uses fuzzy logic to control climate, soil moisture, and lighting. The proposed model uses fuzzy logic to control GHS parameters such as temperature, humidity, light, soil moisture, and the plant's watering system. The temperature regulating controller in this proposed system takes the current temperature as input from a temperature sensor and its deviation from user set data. The speed of the fan controls the temperature. This algorithm applies to all other parameters as well. The greenhouse owner chooses the set value of different sensors in this study based on the growing plant condition. In the case of process automation, this system will improve the capability of fuzzy logic control systems (Mostakim et al., 2020).
+
+The introduction of fuzzy logic and its applications transformed the face of industrial control engineering. Fuzzy logic has enabled control engineers to face and surpass the problems of building effective controllers for more complex systems with poorly characterized dynamics over the last two decades. Engineers nowadays require a basic grasp of the ideas and techniques of fuzzy logic, which Intelligent Control gives as said by De Silva et al. (2018).
+
+Concept of the Study
+
+Figure 1. Conceptual Framework of the Study Using Input-Process-Output
+
+This diagram illustrates the actions that must be followed to achieve the goals. The first column is input, and it indicates which data will be needed by the researchers during the study. The second process indicates which model was applied in developing the system. And the last is output, which indicates the developed system.
+
+DESIGN AND METHODOLOGY
+
+This chapter contains requirements analysis, fuzzy logic algorithm, fishbone diagram, system flowchart, and the statistical procedure and techniques for the interpretation of data gathered. Good research design ensures that the data you obtain will help in answering research questions more effectively.
+
+Requirement Analysis
+
+Fuzzy Logic Algorithm
+
+Table 1: Input, Linguistic Values, and Numerical Values
+
+Table 1: In the table you can see the input, linguistic values, and numerical values of the fuzzy logic algorithm.
+
+Figure 2. Fuzzy Logic Algorithm of the Proposed System
+
+In this fuzzy logic algorithm, you will see the general process done in the Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics. If the soil moisture sensor current data is 15 below, it will start watering the plant. If the current data is 30 above, the solenoid valve will stop watering the plant, and if the temperature inside the Greenhouse is high, you can turn on the fan.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram in Manual System
+
+The fishbone diagram is a graphic presentation of the problem encountered by the respondents using a manual system in Monitoring the Greenhouse. The problems encountered are in performance, service, and information. In performance, monitoring and watering need a lot of time. In service, watering and monitoring need much effort. And in information, temperature, humidity, and soil moisture are not accurately monitored.
+
+Timeline of the Project Gantt Chart
+
+Figure 4. Time Frame of the study
+
+The figure above is the Gantt Chart; it is a chart that shows the Development of the Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics.
+
+Requirements Documentation
+
+Technical Background
+
+This chapter discusses the technical background of the "Greenhouse Monitoring System of Napa Cabbage Accuracy and Productivity with the Use of Field Analytics." It covers the technicality of the project, brief details of the technologies to be used.
+
+Materials
+
+1.1.1 SOFTWARE
+
+SOFTWARE SPECIFICATION
+
+The system requires the following software for the development of developers and for the usage of end users of the said proposed systems:
+
+For Developers
+
+◆Windows 7/8/10/11 operating system.
+
+◆Android Phone (Android 7 and up)
+
+◆IOS 14.1 and Later (Blynk IOT App Compatibility)
+
+◆CPU: Intel Core i3 and up
+
+◆ Updated javascript-compatible browsers such as Mozilla Firefox, Internet Explorer, Google Chrome, Safari, Opera Mini, etc.
+
+For End-Users
+
+◆Windows 7/8/10/11 Operating System
+
+◆ Android Phone (Android 7 and up)
+
+◆IOS 14.1 and Later (Blynk IOT App Compatibility)
+
+◆ Updated java script compatible browsers such as Mozilla Firefox, Internet Explorer, Google Chrome, Safari, Opera Mini and etc.
+
+1.1.2 Hardware
+
+HARDWARE SPECIFICATION
+
+Table 2: Hardware Modules
+
+MODULES
+
+NodeMCU ESP826
+
+Soil Moisture Sensor
+
+Description
+
+The researchers used nodeMCU or esp8266 to wifi access and gain cloud access which we can pull data from the components via the Blynk server.
+
+The researchers used this technology to identify soil moisture and send via nodemcu to the server.
+
+Temperature and Humidity Sensor
+
+The researchers used the DHT sensor to determine the humidity and temperature inside the miniature.
+
+Relay Module
+
+The relay module gives us the capability to use high-voltage modules and electronics, the researchers used a relay because the water pump and fan, which is 12 volts, and the nodemcu are only 5 volts and cannot supply the water pump and fan.
+
+Solenoid Water Valve
+
+The researchers used a solenoid water valve to water the plants. If the soil moisture sensor detects that the target number of lowest moisture is reached, the valve will automatically open.
+
+Breadboard
+
+The researchers used only the straight long line to in negative and accessed positive polarity from nodemcu to the modules.
+
+12v Battery
+
+Since the Nodemcu or Arduino can't produce 12 volts, the researchers used a battery to supply the solenoid lock connected to the relay module.
+
+Jumper Wires
+
+Jumper wires were used to make a connection in our modules to nodemcu.
+
+Arduino Uno
+
+00
+
+The researchers used an Arduino Uno for an RFID door lock, our additional feature to miniature.
+
+Solenoid Lock
+
+Solenoid lock was used as an additional feature, the RFID door lock.
+
+RFID Reader
+
+The researchers added an RFID reader to unlock the door using an ID programmed in the Arduino Uno Board.
+
+RFID Card
+
+RFID Card has a serial ID that can access the door lock. The researcher programmed one of our RFID Cards to unlock the door.
+
+The table 2 above illustrates the modules that were used to monitor the greenhouse.
+
+For Developer
+
+The developer used LCD or Led Monitors, CPU (Dual Processer), Computer Keyboard, USB or Optical mouse, and Multimedia Speakers.
+
+Android and IOS devices for mobile app statistics of the live data from the server.
+
+For End User
+
+Same to the developer hardware requirements, End-user also used LCD or Led Monitor, CPU (Dual Processer), Computer Keyboard, USB or Optical mouse, and Multimedia Speakers. Android and IOS devices for mobile app statistics of the live data from the server.
+
+1.1.3 Data
+
+Use Case Diagram
+
+Figure 5. Use Case Diagram of the Study
+
+The use case diagram shows how the Admin and Users interact with the Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics. The admin and the user can access all the functions in the system except for the user who can't add the user directly, while the admin can add a user.
+
+Functional Decomposition Diagram
+
+Figure 6. Functional Decomposition Diagram of the study
+
+The figure above shows the greenhouse monitoring system functional decomposition diagram in which login is needed to enter your email and password, in the dashboard, has a fan and plant monitoring whereas, the dashboard it can see the current situation of greenhouse like the temperature, humidity, and soil moisture. It also invites new users who want to access the system.
+
+System Flowchart for Admin
+
+Figure 7. System Flowchart of the Admin
+
+The figure shows the system flowchart of admin. The admin can also log in to access the system, and it will be directed to the dashboard, where it can see the current temperature, humidity, and soil moisture in the greenhouse. Also, the admin can invite users to access the system.
+
+Entity Relationship Diagram
+
+Figure 9. Entity Relationship Diagram
+
+Every relationship between the table's entity and attributes were explained in the Entity Relationship Diagram. Each table includes a definition that links all the tables together, including the main and foreign keys. Every procedure is connected by each attribute.
+
+System Architecture
+
+Figure 10. System Architecture for Greenhouse Monitoring System of Napa
+
+Cabbage: Accuracy and Productivity with the Use of Field Analytics
+
+The figure above shows the system architecture of the Greenhouse consisting of a soil moisture sensor, fan, temperature sensor, humidity sensor, and nodeMCU. The NodeMCU will be the one who sends the data that the sensors acquired and send it to the blynk cloud. The data receiver is the Blynk app, which shows in the Blynk app the data acquired by the sensors and the admin, user, and farmer can see the current situation in the Greenhouse.
+
+Design of Software/System
+
+Software Development Methodology
+
+Figure 11. The SDLC and Phases of the System (Model)
+
+Phases
+
+This is the initial phase of the system development.
+
+Phase 1: The Requirements Collection
+
+This step included the phase to assess the problems encountered by the students in the Institute of Agricultural and Technology in monitoring the Greenhouse. This is all included in the input process of the system. This phase will gather the information that is needed to develop the system.
+
+Phase 2: Analysis
+
+This phase involved analyzing the collected data or inputs from Phase 1. This serves as the basis for the planning of designing the system. It is important to note the suggestions and feedback of the users before designing the system. Also, it helped the researchers to analyze the system.
+
+Phase 3: Designing
+
+This phase is about the designing of the system, which includes monitoring the brassica rapa and other necessary system design. The design of the system was planned carefully and detailed to persuade the users to use it in monitoring the greenhouse.
+
+Phase 4: Coding
+
+This phase is all about the programming language or the coding section in developing the system.
+
+Phase 5: Testing
+
+This phase includes the testing of the system in terms of accuracy and efficiency.
+
+Phase 6: Review
+
+This phase includes reviewing the system in terms of functionality and feedback from the users.
+
+Field Analytics
+
+Day 1
+
+Figure 12. Day 1 Planting the napa cabbage seed (pechay) inside
+
+the greenhouse
+
+Figure 12 the researchers started planting the napa cabbage seed (pechay).
+
+Day 2
+
+Figure 13. Day 2 Napa Cabbage Inside the Greenhouse
+
+Figure 13 the napa cabbage (petchay) started to grow.
+
+Day 3
+
+Figure 14. Day 3 Napa Cabbage (Pechay) Insde the Greenhouse
+
+Figure 14 the napa cabbage (pechay) started to show its leaves.
+
+Day 7
+
+Inside the Greenhouse
+
+Outside the Greenhouse
+
+Figure 15. Day 7 Comparison of the Napa Cabbage (pechay) Inside and Outside the Greenhouse
+
+Figure 15. the researchers started to transplant the napa cabbage (pechay) to observe the different reaction of the plant between controlled environment and open environment.
+
+Day 12
+
+Inside the Greenhouse
+
+Outside the Greenhouse
+
+Figure 16. Day 12 comparison of the napa cabbage (pechay) inside and outside the greenhouse
+
+Figure 16 the researchers observe the different reaction of the napa cabbage (pechay) between controlled environment and open environment outside the greenhouse and in the outside has only three leaves remain.
+
+Day 14
+
+Figure 17. Day 14 Inside and Outside the greenhouse
+
+Figure 17 Comparison of the napa cabbage (pechay) Inside and Outside the greenhouse, only three leaves remain in outside the greenhouse while in the inside has a complete leaves and no damage so it's more safe than the outside.
+
+DAY 21
+
+Figure 18. Day 21 The napa cabbage (pechay) inside the Greenhouse
+
+Figure 18 The napa cabbage (pechay) that is inside the greenhouse only remain because of the different environment between the inside and outside of the greenhouse.
+
+Development and Testing
+
+Data Gathering Procedure
+
+This study used the questionnaire as its main instrument in gathering data from the respondents. It also used the interview method to support the data gathered from the questionnaire. Observations and documentary analyses were also supplemented.
+
+Questionnaire.
+
+It is a list of questions to be answered by the respondents. The researchers used. data gathering procedure as a main instrument in collecting the data needed from the respondents.
+
+Interview Method.
+
+The researchers used this method as a guide to conduct interviews. It is a verbal conversation between two people with its objectives in collecting relevant information for this study.
+
+Internet Researcher.
+
+The internet is the best way to search for information. It is way better and easier than before. Instead of going to the library, people with internet access can do their work that needs to be done through searching.
+
+Data Analysis Plan
+
+The data gathered was analyzed by the researchers using statistical methods in which the data was interpreted using the evaluation of the questionnaire based on the objectives of the study.
+
+Population of the Study
+
+Table 3: Total of Respondents
+
+The number respondents of the study in the evaluation of the system and its quality are 10, where random sampling was utilized in order to get the total number of respondents. The respondents were from the Institute of Agricultural and Technology (IAT) Department agriculture experts and IT experts of the Isabela State University Cauayan Campus.
+
+Table 4. To Interpret the Data Gathered from the Respondents in Problems
+
+Encountered in Monitoring Manual System, a Likert Scale is presented below:
+
+Table 5. A Likert Scale is Used to Interpret the Data Gathered for the Evaluation of the Prototype Develop.
+
+Statistical Tools and Treatment of Data
+
+The statistical procedure was used to determine the equivalence of the computed weighted mean and descriptive interpretation of demonstrated here. Five (5) points Likert's Scale below was used in interpreting and analyzing the data. In finding the weighted mean, the researchers used this format:
+
+A. In finding the percentage of the samples in the presentation, analysis, and interpretation of the data, the researchers used this formula:
+
+% = £x x 100 n
+
+Where:
+
+% = percentage
+
+f = frequency
+
+n=number of respondents
+
+B. In finding the mean in the presentation, analysis and interpretation of data, the researchers used this formula:
+
+M = f(1)+f(2)+f(3)+f(4)+f(5) N
+
+Where:
+
+M- Mean
+
+F= frequency
+
+N=Number of Respondent
+
+C. In finding the comparative computation in problems encountered by the respondents in manual system and the developed system, the researchers used this formula:
+
+CA= pre GM-post GM post GM x 100
+
+Where:
+
+CA = Comparative Analysis
+
+Pre GM-Pre-Grand Mean
+
+Post GMPost Grand Mean
+
+Implementation Plan
+
+Table 6. Implementation Plan
+
+Implementation Results
+
+The Greenhouse Monitoring System of Napa Cabbage: Accuracy and Productivity with the Use of Field Analytics helps the faculty members and students of the Institute of Agricultural and Technology (IAT) Department to monitor the greenhouses easily.
+
+
+
+
+
+
+RESULTS AND DISCUSSION
+
+go
+
+Results by Phase of Study
+
+This chapter deals with the results of the data gathered, analyses, and interpretation by the researchers using the Pre-Evaluation and Post-Evaluation Questionnaires.
+
+1. Pre-Evaluation of the problems encountered in monitoring a vegetable garden without the use of an automated greenhouse system for monitoring in terms of service, performance and information.
+
+Table 7. Problems Encountered in Monitoring a Vegetable Garden without the Use of Internet of Things (IOT).
+
+As seen in Table 7, it shows common problems that has encountered of the respondents in Monitoring a Vegetable Garden without the Use of Internet of Things (IOT). It can be described as the Monitoring, and Watering needs a lot of time. The respondents rated "much of a problem" with a mean of (3.70), and Temperature, Humidity and Soil Moisture are not accurately monitored so as the respondents rated it "much of a problem” with a mean of (3.50) and also in terms of Watering and Monitoring need much effort, the respondents rated it "much of a problem" with a mean of (3.70).
+
+Overall, the problem encountered in monitoring a vegetable garden without the use of an automated greenhouse system for monitoring in terms of service, performance and information has as a grand mean of (3.63) which described as "much of a problem."
+
+2. Post-Evaluation of the Proposed System in terms of (ISO 25010)
+
+Table 8. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Performance Efficiency
+
+Based on the Table 8, the agriculture experts rated it "Excellent" that the system significantly speeds up the monitoring process with a mean of (5.00), and the system monitors the greenhouse quickly and easily rated it "Excellent" with a mean of (4.40). The same with IT experts rated it "Excellent" with a mean of (4.60), and (4.00). The computed grand mean to Agriculture experts is 4.70, and IT experts is 4.30 and described as "Excellent." Therefore, the respondents rated the Efficiency of the System as Excellent.
+
+Table 9. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Functionality Sustainability
+
+As seen in the Table 9, the agriculture experts and IT experts rated it "Excellent" that the system provides the accurate information such as soil moisture, temperature and humidity, with a mean of (4.60) and (4.80), the system provides the correct and real-time data of the monitored greenhouse and rated it "Excellent" with a mean of (4.60) and (4.80). Lastly, the system is suitable in greenhouse to record real-time data using (soil moisture sensor, temperature sensor and humidity sensor) and rated it as "Excellent" with a mean of (5.00) and (4.60). The computed overall grand mean for agriculture experts is 4.73 and in IT experts is 4.73 and described as "Excellent". Therefore, the respondents rated the Functionality of the System as Excellent.
+
+Table 10. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Reliability
+
+As seen in the Table 10, the agriculture experts and IT experts rated the system as "Excellent" that provides an accurate information to the users with a mean of (5.00) and (4.60). The system has all the functions that the users are expected to have and rated it as "Excellent" with a mean of (5.00) and (4.20). The computed overall grand mean for Agriculture experts is 5.00 and for IT experts is 4.40 and described as "Excellent". Therefore, the respondents rated the Reliability of the System as Excellent.
+
+Table 11. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Usability
+
+As seen in the Table 11, the agriculture experts and IT experts rated "Excellent" as the system is easier to learn and to use even to novice users with a mean of (4.20) and (4.80). The monitor information was organized and clear and rated it as "Excellent" with a mean of (4.20) and (4.60). The computed overall grand mean for Agriculture experts is 4.30 and for IT experts is 4.70 and described as "Excellent". Therefore, the respondents rated the Usability of the System as Excellent.
+
+Table 12. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Maintainability
+
+As seen in the Table 12, the agriculture experts and IT experts rated "Excellent" as the system maintains the set limit of soil moisture with a mean of (4.40) and (4.60). The system is easy to use and appropriate so it was rated as "Excellent" with a mean of (4.60) and (4.80). The computed overall grand mean for agriculture experts is 4.50 and for IT experts is 4.70 and described as "Excellent". Therefore, the respondents rated the Maintainability of the System as Excellent.
+
+Table 13. Post-Evaluation of the Proposed System adapting ISO 25010 Criteria.
+
+System Security
+
+As seen in the Table 13, the agriculture experts and IT experts rated "Excellent" as the system does not allow unauthorized user to access data with a mean of (4.40) and (5.00).
+
+The system did not allow unauthorized users to open the greenhouse without RFID card and was rated as "Excellent" with a mean of (5.00) and (5.00). The computed overall grand mean for agriculture experts is 4.80 and for IT experts is 4.70 is described as "Excellent". Therefore, the respondents rated the Security of the System as Excellent.
+
+Table 14. The Overall Category Grand Mean of the Proposed System adapting ISO Criteria
+
+Table 14 includes here the category mean of the Proposed System Adapting (ISO 25010) Criteria. It can be described that among the six (6) of ISO 25010, the agriculture experts and the IT experts rated the System Performance Efficiency with the mean of 4.70 and 4.30. When it comes to System Functionality Sustainability, it has a mean of 4.73 and 4.73. In addition, the System Reliability has mean of 5.00 and 4.40, followed with the System Usability that has 4.30 and 4.70, and System Maintainability that has 4.50 and 4.47 of mean. Lastly, the System Security has mean of 4.80 and 4.70 rated it all as Excellent.
+
+Finally, the evaluation of the overall grand mean of the Proposed System Adapting (ISO 25010) Criteria has a category grand mean of 4.67 for Agriculture experts and 4.59 category grand mean for IT experts. Therefore, the two were both rated it as Excellent based on the respondents' responses.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter contains the summary, conclusion and recommendations as stated from the objective of the study that is to determine the problems encountered in monitoring a vegetable garden without the use of an automate greenhouse system for monitoring in terms of service, performance and information.
+
+The data was analyzed using the weighted mean and descriptive interpretation to determine the effectiveness of the developed system for monitoring in adapting ISO 25010 criteria and comparative analysis of the existing process and the developed system.
+
+Summary
+
+The general aimed of this research project was to develop and design a Greenhouse Monitoring System of Napa Cabbage Accuracy and Productivity with the Use of Field Analytics that would allow the Users to monitor the Humidity, Temperature, and Soil Moisture Using technology and it will lessen the work in watering the plants.
+
+The data gathered was analyzed through the use of weighted mean and descriptive interpretation to determine the effectiveness of the developed system as evaluated by the ten (10) respondents: Five (5) from Agriculture experts and five (5) from IT experts.
+
+Based from the respondents' feedbacks to the problems encountered in monitoring a vegetable garden without the use of automated Greenhouse System for Monitoring in terms of service, performance and information. Monitoring and watering need a lot of time described it as "much of a problem" with a mean of (3.70). Temperature, humidity and soil moisture are not accurately monitored and described it as "much of a problem" with a mean of (3.50). Watering and monitoring need much effort and also described it as "much of a problem" with a mean of (3.70). Overall interpretation, the respondents described it as "much of a problem" with a grand total mean of (3.63).
+
+Furthermore, the evaluation of agriculture experts and IT experts in the developed system as respondents, rated it as "excellent" in terms of adapting ISO 25010 in performance efficiency with a category mean of (4.70) and (4.30); functionality sustainability with a category mean of (4.73) and (4.73); reliability with a category mean of (5.00) and (4.40); usability with a category mean of (4.30) and (4.70); maintainability with a category mean of (4.50) and (4.70); and lastly security with a category mean of (4.80) and (4.70). Overall, it is described as "excellent" with a category grand mean of (4.67) and (4.59).
+
+As a result, the observation result of napa cabbage (pechay) using greenhouse was twenty-one (21) days. In under controlled greenhouse, maintained the environment inside and the monitoring was suit to the plant napa cabbage (pechay). 
+
+Conclusions
+
+Based on the summary and findings of the study, the following conclusions are listed below.
+
+1. Agriculture experts experienced "Much of a Problem" in monitoring the vegetable garden without the use of an automated greenhouse system for monitoring in terms of service, performance and information.
+
+2. The agriculture experts and IT experts rated the developed system as "Excellent" in terms of adapting ISO 25010 in performance efficiency, functionality sustainability, reliability, usability, maintainability, and security.
+
+3. The Greenhouse Monitoring System of Napa Cabbage Accuracy and Productivity with the Use of Field Analytics is very useful for the Institute of Agricultural and Technology (IAT) Department in monitoring the plants napa cabbage (pechay) with pre-survey category grand mean of (4.63), and post survey in agriculture experts with category grand mean of (4.67). The proposed system has been improved by 22% and to the IT experts post survey with a grand total mean of (4.69), the proposed system has been improved by 20%.
+
+Recommendations
+
+The results of the study suggested the following to be given utmost consideration:
+
+1. Future researchers may include a solar panel.
+
+2. Future researchers may include automatic saving data gathered in monitoring the greenhouse.
+
+3. Future researchers may include an automatic on and off for fan when the temperature is high and low.
+
+

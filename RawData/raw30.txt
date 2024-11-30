@@ -1,0 +1,603 @@
+SCHOOL MAPPING GUIDE APPLICATION USING A-STAR PATHFINDING ALGORITHM FOR ISU CAMPUSES Leslie Ann A. Agramon Maria S. Garcia Jasper John A. Madriaga January 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Leslie Ann A. Agramon Maria S. Garcia Jasper John A. Madriaga January 2023
+
+
+
+
+ABSTRACT
+
+This project entitled "School Mapping Guide Application Using A Path Finding Algorithm" aims to develop implement, and asses the proposed system. Specifically, it aims the following: to identify the problems encountered; and to determine the benefits of the proposed system in terms of Functionality, Performance, Compatibility, Usability, Reliability, Security, Maintainability, and Portability. The purpose of the project is to offer a School Mapping Application for ISU Campus that can help students and visitors. Based on the result of the study there is a problem at locating a buildings and needs an effective School Mapping Application for ISU Campus to locate easily the buildings. This project is the solution to the different problems encountered. The researchers use the software development of life cycle reason being that it shows the step-by-step on how the system flows and can be easily understood by the users.. A Questionnaire was prepared to conduct the necessary information needed by the researchers. The Students and Visitors were who answered the questionnaire to create accurate findings, the researchers concluded that the students and visitors needed a solution. Base from the findings, the researchers concluded that the problems encountered in terms of Performance, Information, and Efficiency have been much a problem to the respondents who answered the pre-evaluation questionnaire given by the researchers. The MIS office of Isabela State University Cauayan Campus reviewed the process of the proposed system and provided feedback for the functions which led to some changes from what was originally proposed and has since then been integrated by the researchers to the final and accepted system by the agency.
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+Technologies are a regular part of the lives of most teachers and students in the world today, as Naismith & Sharples (2018) stated. The A-star algorithm in this project is fundamental because it is critical to completing it. Based on the study of (František et al., 2018) A-star algorithm is one of the best-known path planning algorithms, which can be applied to metric or topological configuration space. This algorithm combines heuristic searching and searching based on the shortest path.
+
+In the fast progress of the world today, applications in a small compact device or mobile phone are much easier than using any significant materials and equipment. The researchers will be conducting a study using an A-star Algorithm for the mapping guide application in Isabela State University Cauayan Campus.
+
+Moreover, several existing technologies require the same processes, including situations that solve significant problems like finding the shortest way to locate the building. This procedure requires specific innovation for proper time relevance, hassle-free thinking, and real-time accuracy.
+
+Some students, especially newcomers to the campus, lack the confidence to ask others where the exact location they want to go, and also those students who are having a hard time because of their disabilities. According to Akintoye (2019), the primary purpose of school mapping is to work out a program that will enhance the expansion of educational facilities, taking into consideration the regional inequalities and financial requirements, such as the provision of vocational and technical components of primary, secondary, and tertiary schools.
+
+Research Gap
+
+As presented in the following literature and studies in Chapter 2, much of this research is based on the A-star algorithm, which is very flexible in problem-solving, GPS mapping, and even general planning. However, only some of these studies are based on developing flexible environment Based GPS guides for people who use their phones for their daily uses. That is why the researchers of this study will be conducting a project based on developing a School Mapping Guide using an A-star pathfinding algorithm for Isabela State University Campuses.
+
+Objectives of the Study
+
+The main objective of this study was to develop a School Mapping Guide Application using A-Star Algorithm for Isabela State University Campuses to serve the students in a more effective way in locating buildings inside the school vicinity.
+
+Specifically, it aimed to:
+
+1. determine the problems encountered in looking for the location of the campuses, buildings, and teacher information from students;
+
+2. determine the features of the application in the use of the system;
+
+3. evaluate an application in terms of functionality, usability, content, reliability, and performance of the developed system by adopting the ISO 9126 system development criteria.
+
+Scope and Limitation
+
+This project aimed to create a school mapping guide application using A-Star Algorithm for Isabela State University Campus. The focus of this study was to provide a map that shows the location of the campuses and gives the direction or a waypoint from your location to the selected campus. Hence you could see the different locations of buildings inside the campus, which also indicates the name of the building and other information. The application has the teacher's info on every campus to help new students know the information of their instructors.
+
+The Visual Studio code powers this project for the software requirements and the PC desktop for hardware requirements. The system to be developed is to be available for mobile and pc use, so it is applicable for all Android and Windows pc devices, but there are also some limitations in this system. It depends on the quality and capacity of mobile phones and pe that could access the system as an application.
+
+
+
+
+
+CHAPTER II
+
+Review of Related Literature and Studies
+
+In this section, you will read about the different literature the researchers have read that are directly related to their study. This literature helps the researchers to have a more transparent background in developing the School Mapping Guide Application Using the A-Star Algorithm.
+
+Mapping Systems
+
+In the fast progress of the world today, applications in small compact devices or mobile phones are much handier than using any significant materials and equipment. Mobile technologies are a regular part of the lives of most teachers and students today, as Naismith & Sharples (2017) stated. The specific uses of this device are very complex and broad, which is why it is convenient. For example, it can be used in social networking (William, 2019). Mobile phones are ubiquitous, social networks are widely used, cities are increasingly connected, and the mobility of people and goods has risen globally. The other one is for Tracking, Locating, Mapping, or GPS. According to (Ricardo, 2018), recent advancements in smartphones and Global Positioning System (GPS) technologies present new opportunities to track travelers' trips.
+
+Introducing Algorithms
+
+Given the widespread use of cell phones, it makes sense to use smartphone data as a trustworthy source for personal travel diaries. Additionally, practically everyone in today's society owns a mobile phone, making them a rising digital tool. This study aimed to determine whether or not phones have an impact on specific algorithms used in problem- solving (Marcus, 2019). According to (Wang et al., 2018), algorithms are a crucial topic in computer science since they aid software developers in developing practical and error-free programs. Having algorithms in software is, therefore, very necessary in problem processing.
+
+Importance of Algorithm
+
+Because there are several variations and uses for algorithms, each algorithm has a specific purpose for problem-solving or completing a task. Additionally, an algorithm describes the sequential procedures and actions that must be used to solve a problem. Although many different algorithms may be created to tackle various issues, we consider the following algorithms crucial in programming (Hazas. et al., 2021).
+
+Algorithms used for GPS
+
+Many studies have employed GPS-based data in planning and demand analysis, but mobile phone GPS data has yet to get much attention. In this study, the algorithm is focused on solving the waypoint, position, or actual GPS functions. The option to investigate the potential of the Google Location History (GLH) data is provided (Renz, 2018). The chance represents a significant advancement in the study's progress. Based on research by (Barberis et al., 2019), indoor positioning is a crucial one that is developing quickly along with the rise of IoT and the digitization of large cities. Finding and developing a suitable technology to condense nonlinearities from multipath propagation is the goal of this endeavor. Our system's ability to locate the user is one of its most crucial functions. The significance of having technology that can gather, analyze, distribute, and receive data is therefore crucial. loT, or the Internet of Things, is designed for that. Even if loT has already altered the globe, its potential is still untapped. IoT network technologies are the component of the loT that enable data transmission and reception (Chen et al., 2019). These advantages can be obtained without increasing transmit power or bandwidth but typically come at the cost of a more sophisticated system at the transmitter and receiver ends stated (Joseph, 2018).
+
+Introduction to A-star(A*) Algorithm
+
+Because it is essential to finish the project, the A-star algorithm must be used in this endeavor. Based on research by Frantiek et al. (2018), the A method is one of the most well-known path-planning algorithms. It may be used for metric or topological configuration spaces and combines heuristic and shortest-path searching. As a result, one of the most well-known path-planning algorithms is the A algorithm. However, the conventional A algorithm has certain drawbacks, including slow planning speed and proximity to obstacles (Marmasse et al., 2022). Basic Theta and Phi algorithms also leverage the concept of searching from all directions. Basic Theta is an extension of the A algorithm that measures the visibility of cells between them (Phanikanth et al., 2019). According to (Rouse, 2018), the robustness and speed of the planned path are the primary indicators of the A algorithm's performance. There are still important things that could be improved in the A* algorithm despite extensive research by academics. The research team may employ algorithms for problem-solving and troubleshooting to address any flaws that may have occurred throughout the project's development. Path planning algorithms use various classification techniques depending on the environmental information., there are numerous classification techniques for path-planning algorithms (Alija, 2019).
+
+System optimizations are helpful since they give the system the stability and accuracy it needs to function. In order to evaluate the value of land in terms of appropriateness or cost for a particular use, planners involved in locational decision- making frequently employ raster-based geographic information systems (GIS) (Tesoriero, 2018). However, even with these algorithms' improved capabilities, real-time path planning still needs to be attainable. These algorithms continue to use intricate grid maps (Johnny, 2018). Additionally, path planning in a static environment assumes that the robot can sense its surroundings and applies local path-planning techniques when it cannot fully comprehend them. Based on knowledge of the barriers present in the static environment, A* is utilized to determine the shortest path (Segunda, 2018). According to (David, 2022) Dijkstra algorithm uses a greedy technique for path planning, although other algorithms like A- star accomplish the same task. It is employed to locate the graph's shortest path. It needs to formally pay regard to the pragmatism of the answer to be interested in finding the quickest path. The A* algorithm can therefore design the shortest way on the map, but it must navigate around the path nodes and choose the least expensive path (Celli,2019).
+
+The heuristic function (Elton, 2019) claimed that the heuristic function directs the A* algorithm to seek the shortest path. This is one of the functions of the A-star algorithm that helps it function very well. The Manhattan, Euclidean, and Diagonal distances are designed in later research and are used in the heuristic function of the conventional A* algorithm. The algorithm uses the heuristic function to determine the path's cost before planning it. Scholars have conducted a substantial study on the efficiency optimization of the A algorithm. We focus on the efficiency and resilience of the method, among other research accomplishments related to the A algorithm. The efficiency issue of the algorithm is addressed via an A* optimization method through two improvements. To increase the trustworthiness of the heuristic function, the evaluation function is first weighted (Barnouti, 2018). According to a study by (Cardei et al., 2019), most A-star algorithms are used for autonomous vehicles, which are highly helpful for the community. The field of autonomous vehicles is constantly increasing, and there is a significant demand for reliable and effective path planners. Using two approaches a two-step path planning and path smoothing approach and a method based on an optimal control formulation of the path planning problem-we tackle the global path-planning problem for an autonomous load carrier for quarry environments developed at Volvo Construction Equipment. Static path planning is another name for global path planning.
+
+In contrast, local path planning, also known as dynamic path planning, is most frequently carried out in ambiguous or dynamic contexts (Narzt et al., 2018). As a result, the two-step strategy is based on smoothing an initial path discovered by the effective grid search algorithm A* by fitting a curve with the fewest possible clothoid segmentations to the A path. The smoothing is accomplished by linearizing the deviation restrictions around the curvature of the A* path and rewriting the non-linear optimization problem in a convex form (Kirsten, 2018). The technique, nevertheless, makes the algorithm's calculations more complex. To improve the A* storage approach, academics concentrate on node storage. While the standard A* technique requires traversing numerous nodes to finish the search process, the storage method has to search the node's sequence number to access the array element (Cooper, 2019).
+
+The ultimate result of this project will be advantageous to the user because it will locate the destination of the user's chosen place. The EBS-A* algorithm, an improved path- planning method for mobile robots based on the traditional A* algorithm, is proposed in work (Aesther, 2022). This approach overcame the shortcomings of the traditional A* algorithm in terms of path robustness and path planning effectiveness by utilizing the three strategies of expansion distance, bidirectional search, and smoothing. It will be possible to finish the investigation with the help of the A-star algorithm. The A algorithm was selected because, according to (Wood, 2018), it embodies the fundamental algorithms utilized in modern real-time path planning solutions in a static setting. To improve this algorithm's performance and efficiency, new research builds on it. The researchers of this project hope to complete the study based on earlier research that can benefit the project's success.
+
+Framework Conditions
+
+According to (Angelo, 2018), management systems are tools for dealing with complexity. It entails setting goals, accounting for the framework's requirements, deriving actions and measures from the goals, and dependably completing tasks via various processes and roles.
+
+Officer Profile Management System Using by Cloud Computing Services 
+
+The challenges of designing DBMS data-flow control systems in a distributed centralized information center were covered in the article by Jorgan (2018). The design of the application of a comparable system is being taken into consideration to create an open cloud platform a high-performance machine utilized for clustering database servers' massive data analysis. Theoretical concepts and ideas for a hybrid interface application used to manage officer profiles have been created and achieved.
+
+GPS Localization Accuracy Classification: A Context-Based Approach
+
+According to (Verma, 2018), the localization of the Global Positioning System (GPS) has recently piqued interest in a variety of disciplines, including collision avoidance, intelligent transportation systems (ITSS), navigation systems, road tolling, and smart parking. Even though several techniques for improving localization accuracy have been discussed in the literature, more efficient solutions that can partially credit the localization process are still needed. By using these actions, localization systems can manage the localization process and resources at their disposal, achieving the best accuracy feasible while minimizing the adverse effects of insufficient precision on the intended application. Any GPS's localization accuracy is strongly influenced by the method for calculating positions and environmental measurement conditions. The measuring conditions in their environment still have a considerable impact, even though localization approaches have lately started to demonstrate a significant improvement in localization performance. The impact of measurement conditions on localization accuracy could be a better-conditioned problem in and of itself due to the incongruent character of the measurement process. The method for calculating localization accuracy is suggested in this paper. The two steps of this technique are improved location accuracy classification and measurement condition disambiguation. The effectiveness of the suggested approach for categorizing GPS localization accuracy under various measurement settings is shown by comparing real- world studies.
+
+Academic institutions and R&D organizations gather, curate, and arrange research- related activities from various sources (Sayyad et al., 2016). In academic institutions, the faculty Profile System sometimes referred to as the Research Information Management System, is essential for managing data related to scholarly communication. The Faculty Profile System's collection of research-related metadata can be used for several things, such as rating research institutes, evaluating faculty and departmental research, and allocating funds. The study's objectives are to use the Indian Research Information Network System (IRINS) to build a faculty profile management system for seven IITs and to use bibliometric indicators to assess faculty members' contributions to research. The study aimed to evaluate seven IITs' research output based on publications and citations from 2010 to 2019.
+
+Candidate or employee selection is the method of choosing a new hire who is best suited for the open position (Padmaraj, 2012). The hiring process's steps depend on the position you are filling, your budget for recruiting, the level of seniority required for the role, the resources you have available, and your organization's needs.
+
+Locator Map using A-star algorithm
+
+In order to save time and money, locater maps are created to help people get to specific locations. The locator map's usefulness improves the awareness, satisfaction, productivity, and accessibility (Pathak et al., 2016). The locator map's usefulness improves the awareness, satisfaction, productivity, and accessibility (Justin et al., 2016). Locator Maps are a valuable addition to campus initiatives. Finding specific locations is still a typical issue. The map is made to lessen the burden. Different types of maps are created for various types of regions. Despite this, some regions still require navigational maps (Severin, 2018).
+
+Mobile Location Campus Map
+
+In recent years, mobile phones have made tremendous advancements in memory capacity, computing capacities, and better hardware characteristics. We can now refer to this age as the era of smartphones because mobile phones have become an essential requirement for people. Mobile phones have advanced functions and can execute sophisticated tasks (Lester, 2015). Portable computers (also known as mobile computers) and wireless communication are two significant and crucial technologies that have given consumers access to computing power and network resources. At the same time, they travel from one location to another. People may now access files and data whenever and wherever they want, thanks to the trend of smaller PCs and higher wireless network capacity. Using any form of computer in a moving setting is referred to as "mobile computing" (Escobar, 2015).
+
+However, context-aware computing is a mobile computing paradigm in which an application can find and utilize contextual data, such as the user's location, time of day, adjacent locations and activities, and user activity (Hendrix, 2015). Location is one of the most often utilized contexts in context-aware computing, as humans and mobile devices regularly move locations. Using presence technology, location awareness allows a user or application to get information about a device's precise location (Chaimowicz, 2017).
+
+In order to make computers available everywhere while remaining invisible to users, the research team at Olivetti Research Limited (ORLXeron)'s PARC laboratory pioneered the context-aware computing field under the idea of ubiquitous, known as pervasive computing. Since then, researchers have become more interested in this topic and have added to it (Arado, 2017).
+
+Importance of Location Awareness
+
+According to (Luther, 2018), location and context awareness go hand in hand. They claimed that context could be used more flexibly with mobile computing with any moving entities, especially with bearers of intelligent communicators. In contrast, the location could be a determining factor for resident processes. However, (Culler, 2016) defined context awareness in terms of active context awareness (a situation where an application automatically adapts to discovered context by changing the application's behavior) and passive context awareness (whereby an application presents the new or updated context to an interested user or makes the context persistent for the user to retrieve later). The idea of location awareness is the ability to sense and respond to a changing environment. As a critical element of context, location has been the subject of several studies over the years, with particular attention paid to location-sensing technologies, location-aware application support, and location-based applications. Numerous businesses have used the idea of location awareness to create navigational systems and context-aware map apps (Richard, 2017).
+
+Indoor Locator using A-star Pathfinder
+
+The Global Positioning System (GPS) was cited as an example of a technology employed in many modern applications. One of the applications tracks your car and keeps an eye on it frequently. With the help of this tracking device, you may see the location and route taken by the car from any other distant point. It also includes an online application that gives you the target's precise position. (Patel, 2016).
+
+A dynamic electronic map that directs people around campus is called a campus map application. It should be able to conduct navigational tasks, display the user's current location, recognize their points of interest (POI), describe those POI in some detail, and, most significantly, be user-friendly. The campus map application comprises locating objects and displaying a map with their location or direction. Users using GPS programs can enter a destination, and the program then displays the quickest route based on their current coordinates (Cardei et al., 2013). Google Maps and Google Navigation display navigational information. Different types of navigation, including bus routes, driving instructions, walking directions, and bicycling directions, have started to be incorporated into technology as it develops (Kincaid, 2015). Kincaid and Marissa stated that over the past few years, Google Maps and GPS devices have developed into essential tools for people who need directions (Mihaela, 2016).
+
+Location Awareness inside Universities
+
+Their potential has yet to be fully utilized on college campuses. Because directions within campuses cannot be found using Google Maps, this effort aims to provide them on mobile devices. This is because many location-aware mobile technologies are successfully used in mobile applications (Misra, 2018). Finding specific buildings on campus can be very difficult, especially for someone unfamiliar with the school, because most of our universities have a permanent campus map at their main entrance that needs to be updated (Vasilev, 2016). The system was created to deliver the highest level of usability, a fantastic user interface, and, most importantly, accurate data (Kincaid, 2015). A feature of presence technology called location awareness provides details on the precise location of a device. (Sarah, 2016).
+
+Concept of the Study
+
+Figure 1. Concept of the Study of the Application
+
+The figure shows that the system's paradigm summarizes the steps to achieve the study's goals. To address the information needed to develop the proposed method, the input requirements contain two categories: hardware requirements and software. Second, it has planning, designing, and testing for constructing and testing the school mapping guide application. Third, the proposed system produced an output School mapping guide application using an A-star algorithm for Isabela State University campuses.
+
+
+
+
+
+
+CHAPTER III
+
+Design and Methodology
+
+Requirement Analysis
+
+Phase 1: Requirement Analysis
+
+The researchers prepared the requirement analysis by brainstorming ideas and planning for the quality assurance requirements and recognizing the risks involved in the entire project and the anticipated issues, opportunities, and directives which triggered the project. It also consists of the following diagrams; Data Flow Diagram, Fishbone Diagram, Use Case Diagram, Flowchart, and the required documentation, which is the project's timeline. Technical background and materials needed in the proposed system, which are the hardware and software of the system.
+
+Based on the identification of this problem, it needs to be described in a more detailed way based on the need for system implementation.
+
+The two following requirements are:
+
+1. Information Needs
+
+- To be able to perform tasks and activities of each entity, the School Mapping Guide System must be able to provide the required information including:
+
+a. location
+
+- This information contains every building around the Campuses in ISABELA.
+
+b. Buildings
+
+- This information includes every department logo and the number of rooms in every building.
+
+2. Functional Requirements
+
+The system's functional requirements must generally be owned to run smoothly and manage data. The following functional requirements are:
+
+A-Star Algorithm process
+
+- This process finds the shortest path between an initial and a final point.
+
+Phase 2: (Design)
+
+The system and software design documents are prepared per the requirement specification document in this phase. The researcher's prepared their documents with the design of their system.
+
+Phase 3: (Implementation)
+
+The researchers created the actual product, and the product is installed and ready for implementation by the researcher's chosen agency.
+
+The agency selected by the researchers is the ISU Cauayan Campus which will float questionnaires and collect data from the users.
+
+Phase4: (Verification)
+
+It is the installation, testing, and debugging of the entire system's functionality to verify that the entire application works accordingly.
+
+The researchers fixed all the bugs and suggested features for the system, which were gathered from the implementation phase.
+
+Phase5: (Maintenance)
+
+Once the system is deployed and customers start using the application, the following activities occur; bug fixing, upgrades, and enhancements.
+
+The researchers maintained the functionality of the application for continued use of the application.
+
+Data Flow Diagram
+
+Figure 2. Data flow Diagram of Existing Procedure
+
+The figure above shows the Data flow of using the mapping guiding app. It demonstrated that the user must use a Mobile Phone to open the application and select the campus location to identify the shortest waypoint. The user will then follow the recommended way and be updated in real-time. Moreover, the user can then see the location of every building of the selected campus available for the time being.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram of the Application
+
+The figure above shows the problems encountered with the traditional process for locating waypoints, such as procedures, accuracy, performance, and material. For example, traditional needs more time to finalize whether you will follow a specific waypoint, and you need to know where you are at.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt Chart of the Capstone Project
+
+The figures above show the Gantt Chart. It demonstrates the span of every activity like title defense, development of system, documentation, system defense, until final defense. It also allows the researchers to manage their time in doing their tasks.
+
+Requirements Documentation
+
+Technical Background
+
+This chapter discusses the details of the project by that it deserves the sort of project to be developed practically. It additionally represents the sort of application development of the project. During the development stage, the researchers came up with this project's software hardware and peopleware requirements.
+
+Materials
+
+Software
+
+Microsoft Visual Studio Code as a platform, specifically Microsoft Visual Studio Code, is a Source-code editor developed by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control and GitHub, syntax, highlighting, intelligent code completion, snippets, and code refactoring. Browser for viewing the result of coding and PhpMyAdmin as Database.
+
+Database:
+
+PhpMyAdmin
+
+Windows 10
+
+Operating System:
+
+Technology:
+
+Phone and PC
+
+Programming Language:
+
+PHP, MAP API, JS
+
+• Platform:
+
+MS VS Code and Swing2App
+
+Hardware
+
+The researchers used one unit PC desktop for developing the application and lunit of an Android phone for installing the actual application with the following specification:
+
+Minimum Requirements:
+
+PC
+
+Processor-Core i3-2400
+
+Memory 4GB DDR2
+
+Hard Disk Drive - 200GB
+
+Mobile Phone
+
+Android v6.0
+
+Octacore 1.3GHz
+
+2GB RAM and 32 GB ROM
+
+Maximum Requirements
+
+PC
+
+Processor Core i5-7400
+
+Memory 4GB DDR4
+
+Hard Disk Drive - ITB
+
+Phone
+
+Android v12.0
+
+Octa-core 2.3Ghz
+
+8GB RAM and 128GB ROM
+
+Data
+
+In conducting our study, the data set includes the campus layout, building information, and teacher information wherein the staff of every Isabela State University Campuses allowed us to get some of their basic information except those with confidential details just for the safety of their personal and school data.
+
+Use Case Diagram
+
+Figure 5. Use Case Diagram of the Application
+
+The figure above shows the use case diagram of the mapping guiding app. It demonstrates the users and admin functionality in which data they can manage and use inside the application.
+
+System Flowchart
+
+Figure 6. Flowchart of the Application
+
+The figure above shows the flow of using the mapping guiding app. It demonstrates the user's need to select the campus location to identify the shortest waypoint. The user will follow the recommended way and be updated in real-time.
+
+Entity Relationship Diagram
+
+Figure 7. Entity Relationship Diagram
+
+The figure above shows the flow and connectivity of the database of the mapping guiding app. It demonstrates all the accessible data inside the application that are available for the users and admin of the app.
+
+Software Development Methodology
+
+The researchers used the software development of the life cycle because it shows step-by- step how the system flows and can be easily understood by the users.
+
+Phase 1: Concept
+
+The researchers gathered information to develop the functionality required for a system. Then the researchers interviewed the agency and gathered vital information on how they would like the process and some problems they want solutions to.
+
+Phase 2: Inception
+
+In this phase, the researchers surfed and browsed the internet to research essential information needed in the application and determined the requirements through flow charts and diagrams for the processing and flow of data to be understood easily.
+
+Phase 3: Construction
+
+The researchers began working on the first iteration to develop the systems and the device based on the functions needed. Soon after, revisions followed to meet the functions required by the user regarding how the system works.
+
+Phase 4: Testing
+
+Once the development was completed, the testing phase started. The researchers then verified the functions as well as the bugs that had been detected in the system. They also Demonstrated user flow to understand how the system works.
+
+Phase 5: Production
+
+In this phase, the system would have been implemented online and ready to be used by the users.
+
+Phase 6: Retirement
+
+This last phase is composed of the system wherein retirement where the researchers can apply if there are any innovations or developed suggestions that are new and to be suggested by the users.
+
+Development Testing
+
+Data Gathering Procedure
+
+Interview
+
+This was the first thing to do and the best way of gathering data in the chosen agency. The researchers interviewed the person who would sign the letter to the agency.
+
+Questionnaire
+
+The researchers constructed questionnaires for data gathering. This was checked by the adviser and by the statistician for proper procedures. The number of copies was based on the number of respondents. The contents of the questionnaire included the features
+
+proposed for application evaluation and the problems encountered in the present system. It was distributed among respondents for agency purposes.
+
+Observation
+
+The researchers observed and determined the actual transactions and the flow of the existing manual system. It gave the researchers information that would help develop the "School Mapping Guide Application Using A-Star Algorithm for ISU Campuses."
+
+Internet Research
+
+The researchers also searched the internet. The researchers researched on the internet to understand the flow of the School Mapping Guide Application using A-Star Pathfinding Algorithm for ISU Campuses. Sample data were gathered on the internet with the related studies and any related studies.
+
+Research Instruments
+
+The researchers used a survey questionnaire as their primary instrument in gathering data. The survey questionnaire was based on a fact-finding approach, which adequately interprets findings. There were instances when the respondents were asked to rate the performance and effectiveness of implementing the phase in the investment process.
+
+Data Analysis Plan
+
+The researchers used a Likert Scale for the analysis of data to quickly understand 
+
+Table 1. To determine the problems encountered by the student and visitor in looking for the building location and teacher information
+
+Table 2. To determine the features in the use of(Building Location, Campus Location, Teachers Information and Notification)
+
+Table 3. To evaluate an application in terms of functionality, Usability, Content, Reliability, and Performance (ISO 9162)
+
+A. To find the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers used this formula:
+
+B. %= 100
+
+Where:
+
+% = percentage
+
+f- frequency
+
+n=number of respondents
+
+C. To find the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+WM = f(1)+f(2)+f(3)+f(4)+f(5) N
+
+Where:
+
+WM-Weighted Mean
+
+Fe frequency
+
+N- Number of Respondents
+
+Population of the Study
+
+This study's primary source of information was from students and visitors of ISU Campuses. They were interviewed to get the needed information to know the requirements needed in developing the proposed system, which improves the present system.
+
+Table 4. Frequency and Percentage Distribution of respondents in Isabela State University Campuses
+
+Table above shows above the frequency and the percentage of each respondents in ISU Campuses.
+
+Different Software Testing
+
+Testing
+
+In order to test the system, it must be used by the project respondents for evaluative purposes to produce reliable information that will make the project more efficient for the targeted agency.
+
+The researchers tested the application by sending the downloadable file to the users to install the app on their devices.
+
+Unit Testing
+
+In the testing, the researchers used this method to know the control of data. The usage procedure and the operating procedure have been tested to determine whether they are fit or not. Moreover, we can now monitor the system.
+
+The researchers only had one application for each device per user to monitor the app's functionality.
+
+Compatibility Testing
+
+The researchers installed the system on different versions of Windows. The system can be opened from any version of computers except IOS. Also, we checked that the software could run on different hardware and operating systems. This is done to know what version of Windows can be used.
+
+The researchers made the application available for Android Devices and can also be accessed through Websites.
+
+Performance Testing
+
+In performance testing, the researchers tested the system on different versions of Windows, which resulted well. We tested the speed, responsiveness, and efficiency of the system. It went especially on Windows.
+
+The application's performance was very responsive, and all the functions worked correctly.
+
+Stress Testing
+
+In conducting this stress testing, the researchers test the stability and reliability of the system. This phase was performed to find the system's upper limit capacity and determine the limits of normal operations.
+
+The researchers tested the system's stability, which is very light in resources, and the database capacity on which the admin can enter a teacher's information has only eight capacities.
+
+Acceptance Testing
+
+We tested the system on the respondents of this study, which are the administrators, the faculty, and the staff, on how to run the system compiling, viewing, downloading, and retrieving the data. The whole system's behavior was tested and defined by the scope of a development project.
+
+The application users had no problem installing and using the application, and the researchers met the conditions in the scope and delimitation.
+
+Acceptance Testing Part 2
+
+The researchers evaluated the system's compliance and whether it was accepted for delivery. We conducted this kind of test if the staff agreed and all the requirements were met.
+
+The researchers complied with the agency with the fully functional application, which they agreed to implement.
+
+Description of the Prototype
+
+The system features include the generation of data and updating monitoring of the buildings and teacher information. It also includes a mapping that helps the students and visitors to locate buildings and campuses near them.
+
+The researchers were concerned about the development. Furthermore, they developed a system using current trends and technologies available for the present generation.
+
+System Architecture
+
+Figure 8. System Architecture of the Application
+
+The figure above shows the system architecture of the application. It demonstrates the flow and usage of the system in which the student, visitor, and admin use and interact.
+
+Implementation Plan
+
+Table 5. Implementation Plan of the Study
+
+Implementation Results
+
+The researchers implemented the system in ISU Campuses and approved the system that had been developed. The researchers coordinate with the ISU Campuses. After a thorough investigation, the system was evaluated and observed by the personnel designated for the mapping project of the ISU Campus. 
+
+
+
+
+
+CHAPTER IV
+
+Results and Discussion
+
+Results by Phase of Study
+
+This chapter deals with the results of the data gathered, analyses, and interpretation.
+
+by the researchers using the Pre-Evaluation and Post-Evaluation Questionnaires. First is the result of the Pre-Evaluation Questionnaires.
+
+Pre Evaluation of Determining Problems Encountered in looking for Building, Campuses, and Teachers Information for student and Visitor
+
+Table 6. Pre-Evaluation on the Problems Encountered in Looking for Buildings, Campuses, and Teacher Information from student
+
+As seen in Table 6, the respondents have "Much a Problem" that the problems encountered in locating a particular college building are sometimes complex (4.20) and time-consuming (3.93). The computed overall weighted mean is 4.07 and is described as "Much a Problem."It means that the problems encountered in terms of performance are problems that the respondents have encountered.
+
+Table 7. Pre-Evaluation on the Problems Encountered in Looking for Buildings, Campuses, and Teacher Information from student
+
+As seen in Table 7, the respondents have "Much a Problem" problems encountered in that it takes time to walk around the campus to find the building (4.20), and there is insufficient information (4.20). The information needs to be more accurate (4.13), and lastly, access to the additional information of Teachers (4.13). As a whole, the computed overall sub-mean is 4.17, described as "Much a Problem "It means that the problems encountered in terms of information are a problem that the respondents have encountered.
+
+Table 8. Pre-Evaluation on the Problems Encountered in Looking for Buildings, Campuses, and Teacher Information from student
+
+As seen in Table 8, the respondents have "Much a Problem" the Problems Encountered Asking the person who does not know the location (3.73) and Misleading information and location (4), and effort in looking around the campus for proper knowledge of the campus (4.06) and lastly Being Shy to ask a question about the location of the building (4.4). The weighted average of 4.05 is described as "Much a Problem. "It means that the Problems Encountered in terms of efficiency is a problems that the respondents have encountered.
+
+Pre-Evaluation of Determining the Features of the Application for Students and Visitors
+
+Table 9. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of the system developed
+
+Table 9 shows the obtained mean of each criterion of the main features. The Building location has a mean of (4.67), Campus Location (4.53), and Teacher's Information (4.53), which is rated as "Strongly Agree." In contrast, the Notification (3.8), Real-time Location, Building Information, and Campus Information (4.46) and interpreted as "Agree" for the conducted pre-evaluation resulted in 4.50. This value suggests the application features are "Strongly Agree" by the respondents in terms of main features on location.
+
+Post-Evaluation of the Application in Terms of (9126) for students and visitors
+
+Table 10. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in Terms of Functionality Suitability
+
+As seen in Table 10, the respondents "Strongly Agree" with Functional Completeness (4.93), Functional Correctness (4.60), and Functional Appropriateness (4.66). As a whole, the computed overall weighted mean is 4.73, described as "Strongly Agree The." respondents strongly agreed that they encountered a little problem with Functional suitability.
+
+Table 11. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Performance Efficiency
+
+As seen in Table 11, the respondents "Strongly Agree" with Time Behavior (4.53) and Capacity (4.66), and respondents "Agree" with Resource Utilization (4.40). As a whole, the computed overall weighted mean is 4.53, described as "Strongly Agree. "It means that the respondents strongly agreed that there is a little problem they encountered with Performance Efficiency.
+
+Table 12. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Compatibility
+
+As seen in Table 12, the respondents "Agree" in Co-existence (4.46) respondents "agree" in Interoperability (4.60). As a whole, the computed overall weighted mean is 4.53, described as "Strongly Agree. "The respondents strongly agreed that they encountered a little problem with Compatibility.
+
+Table 13. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Usability
+
+Table 13 shows the obtained mean of each criterion. The appropriateness and Recognizability (4.73), Learnability (4.66), and Operability (4.73), followed by User Interaction Aesthetics (4.66), are all rated as "Strongly Agree" while User Error Protection (4.46), and it is interpreted as "Agree." This value suggests the application features have a sub-mean of (4.65) and are rated as "Strongly Agree" by the respondents regarding usability.
+
+Table 14. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Reliability
+
+Table 14 shows the obtained mean of each criterion. Maturity (4.73), Availability (4.53), and Recoverability (4.60) are all rated as "Strongly Agree," while Fault Tolerance has (4.46) and is Interpreted as "Agree." This value suggests the features of the application has a sub mean of (4.58) and are rated as "Strongly Agree" by the respondents regarding reliability.
+
+Table 15. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Security
+
+As seen in Table 15, the respondents "Strongly Agree" with Confidentiality (4.60), Integrity (4.53), and Non-repudiation (4.53). As a whole, the computed overall weighted mean is 4.55, described as "Strongly Agree "The respondents strongly agreed that they encountered a little problem with Security.
+
+Table 16. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Maintainability
+
+Table 16 shows the obtained mean of each criterion. Analyzability and Testability (4.80), Modularity & Reusability (4.73), and Modifiability (4.60) are all rated as "Strongly Agree." This value suggests the features of the application has a sub mean of (4.73) and are rated as "Strongly Agree" by the respondents in terms of Maintainability.
+
+Table 17. Weighted Mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of Portability
+
+As seen in Table 17, the respondents "Strongly Agree" that Adaptability (4.93), Installability (4.73), Modifiability (4.86), and Testability (4.80). As a whole, the computed overall weighted mean is 4.83, described as "Strongly Agree. "It means that the respondents strongly agreed that there is a little problem they encountered with Portability.
+
+Table 18. The Overall mean and Descriptive Interpretation of the Data Gathered Evaluated by the Respondents in terms of (ISO 9126)
+
+To conclude, table 18 shows the overall mean of the application (ISO 9126) for students. It can be described that among the eight (8) of ISO 9126, functional suitability has the sub mean of 4.73, performance efficiency and Compatibility has a sub mean of 4.53, followed by usability has 4.65, reliability has 4.58, Security with 4.55, in the other hand maintainability and Portability has a sub mean of 4.73 and 4.83 which is rated as Strongly agree.
+
+Overall, the evaluation of the overall mean of the application in terms of (ISO 9126) for students has a grand weighted mean of 4.64, rated as Strongly agree based on the respondent,
+
+
+
+
+CHAPTER V
+
+SUMMARY, COMCLUSSION AND RECOMMENDATIONS
+
+This chapter contains the summary, conclusion, and recommendation as drawn from the objective of the study: to identify the problems encountered in looking for the location of campuses, buildings, and teacher information and to determine the features of the application for the School Mapping Guide Applications Using A-Star Pathfinding Algorithm for ISU Campuses.
+
+Data were analyzed using the weighted mean and descriptive interpretation to determine the effectiveness of the proposed School Mapping Guide Applications Using the A-Star Pathfinding Algorithm for ISU Campuses as evaluated by Thirty (30) student and visitor-respondents.
+
+Summary of Findings
+
+Based on the study of the proposed School Mapping Guide Applications Using A-Star Pathfinding Algorithm for ISU Campuses, the following findings are hereby forwarded. Based on the study of the proposed School Mapping Guide Applications Using the A- Star Pathfinding Algorithm for ISU Campuses, the following findings are at this moment forwarded.
+
+1. The Respondents of the ISU Campuses encountered "Much A Problem" in terms of performance (4.07), information (4.17), and efficiency (4.05) and are looking for the location of the Campus, Buildings, and teacher information.
+
+2. The Respondents "Strongly Agree" on the Main Features (4.50) of School Mapping Guide Application Using the A-Star Pathfinding Algorithm for ISU Campuses.
+
+3. The Respondents "Strongly Agree" on the overall evaluation of the Application in terms of ISO (9126) Functionality, Performance, Compatibility, Usability. Reliability, Security, Maintainability, and Portability (4.64) for the proposed School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses.
+
+Conclusions
+
+With the development of the "School Mapping Guide Application Using A-star Pathfinding Algorithm for ISU Campuses" and feedback from the respondents and agencies acquired the research:
+
+1. Based on the findings, the researchers concluded that the problems encountered in terms of Performance, Information, and Efficiency had been much of a problem to the respondents who answered the pre-evaluation questionnaire given by the researchers.
+
+2. The researchers successfully gathered the required features for the School Mapping Guide Application from the given pre-evaluation questionnaire to the respondents which they strongly agreed.
+
+3. The researchers evaluated the application in terms of Functionality, Usability. Content, reliability, and performance by adopting the ISO (9126), which the study's respondents strongly agree with.
+
+4. Isabela State University Cauayan Campus's MIS office reviewed the proposed system's process. It provided feedback for the functions, which led to some changes from initially proposed and has since been integrated by the researchers into the final and accepted system by the agency.
+
+Recommendations
+
+The researchers of this study are hoping to solve the subsequent future research about the relevant issues or problems that are being said. To make a possible solution regarding this study is to develop a productive system to have a better result and a good accomplishment.
+
+From the conclusion cited, the researchers strongly recommend the adoption of the proposed system School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses, which is very beneficial to the students and visitors of the ISU Campus in terms of looking for the location of the Campus, Buildings, and Teachers Information.
+
+1. The School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses needs to improve the system features to lessen the problems encountered in looking for campuses, buildings, and teacher information.
+
+2. The future researchers of School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses must continuously implement the application in each ISU Campuses.
+
+3. The future researchers of School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses must enhance the current system features in terms of ISO (9126) to improve the application's functionality.
+
+4. The School Mapping Guide Application Using A-Star Pathfinding Algorithm for ISU Campuses needs verification to create an account for the students who need additional features like an Al voice guide system for giving directions.
+
+
+
+

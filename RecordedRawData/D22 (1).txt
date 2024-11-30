@@ -1,0 +1,387 @@
+SMART POULTRY FARM AUTOMATION TEMPERATURE SYSTEM
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Harold John G. Acio
+
+Dante B. Agron Jr.
+
+Dean D. Javonillo
+
+ABSTRACT
+
+Nowadays in the Philippines, there are so many advancements done in the agricultural advancements mainly in poultry farm Automatic machineries have reduced the work and handheld work of farmers. This is also an approach for the advancement of poultry farm productions Bird mortality at a young age can be reduced by monitoring parameters like temperature and relative humidity in a poultry chick house. As the thermal environment becomes more stressful, the animal body perceives a risk to life and stops prioritizing production for survival. The health of the chicks can be ensured by using an efficient temperature and humidity control system that conserves energy by only using the heater or fan when necessary. The purpose of this research study entitled "Smart poultry farm automation temperature system", in the past we did not use this kind of technology for farming so we decided to create a technology to easily work. Furthermore, giving them a low cost but beneficial way of modernized farming. A combination of wireless sensors and GSM module can be used for monitoring environment inside the poultry cage. Operator can get updates regarding the internal environmental situation of poultry farm by updaung or sending data to the operator A combination of hardware and software is used which will mitiate the action automatically to control the environment of the cage. DHT11 are used to control temperature and humidity and this sensor connected to the Arduino and GSM module which is monitored the data Data is transmitted using GSM module, and detailed record of poultry cage System thus focuses on maintaining best possible environmental conditions with minimal humon effort. The respondent's analysis with the grand percentage 100 percent agreed that the proposed system is "very good", based on the findings Therefore, the researchers recommend that the system be implemented to help the farmers
+
+CHAPTER I INTRODUCTION
+
+PROJECT CONTEXT
+
+According to Choukidar & Dawande (2017), it is a combination of wireless sensor
+
+and GPRS network can use to control or monitor the poultry farm, temperature and
+
+humidity operate of poultry cage. It is a combination of hardware and software also to
+
+automatically help to take actions to control the environment parameters Poultry
+
+immunity, health, and production are several factors that challenge the future growth of the
+
+poultry industry. Consumer confidence, product quality and safety, types of products, and
+
+the emergence and re-emergence of diseases will continue to be major challenges to the
+
+current situation and the strategic future of the industry. It will also take into consideration
+
+economic, ethical, social dimensions, and the sustenance of the accomplishment of high
+
+environmental security. Stockholders, veterinarians, farmers, and all the partners of the
+
+chain of poultry production need to be more involved in the current situation and the
+
+strategic future of the industry to fulfill human demands and ensure sustainable agriculture
+
+Thus, the present review explores these important tasks.
+
+Nowadays, we need technology that we can use in a daily basis to make our work casier and not to make people suffer. We thought of the monitoring system for poultry farms to make the work easier and keep the chicken in poultry farm safe, The purpose of poultry farms to provide good quality chicken meat that can be sold. This project aimed to motutor the situation of the chicken inside the poultry house and monitor the temperature
+
+inside the poultry house. If there are diseases that are spreading need to check what the problem is, they will no longer be difficult because someone is already monitoring the poultry house. Most of the farm today will only notice that their chicken in poultry have diseases when a doctor visits, so it is better to have someone to monitor the diseases to avoid spreading
+
+We noticed that production on a poultry farm is very important because they are the ones who supply chicken meat and eggs, it is important to monitor the chickens to avoid diseases. Thus, this project was created to monitor the chickens in the poultry farm.
+
+OBJECTIVES OF THE STUDY
+
+The main objective is to design and develop smart poultry farm automation temperature system to monitor temperature and humidity, Automate humidity with switching system
+
+Specifically, it aims to,
+
+1. identify the problems encountered by poultry farmers using manual process in terms of
+
+Efficiency
+
+Functionality
+
+Usability
+
+Performance, and
+
+2 evaluate the developed system, based form user perspective in terms of
+
+Functionality
+
+Maintainability
+
+Usability
+
+Performance
+
+Bachelor of Severse ja Igornsation Technology
+
+SCOPE AND DELIMITATION
+
+This study focused on the development of a Smart Poultry Farm to help farmers. The scope of the study is in Purok 4, Santa Luciana, Cauayan City, Isabelwhichashave a poultry farm to apply our system. The researchers constantly observed the effectiveness and efficiency of the proposed project.
+
+The limitation of our system is it cannot provide their needs or medicine if the chick is sick in case of eradication, elimination, and/or control of foodborne and zoonotic pathogens and also it is not a long-covered area for the chicks.
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Presented in this chapter are foreign and local literature and studies gathered from online journal resources used by the researchers who have sought guide to have a more accurate study. This related literature helped the researchers have a better understanding and a wider perspective on the topic gathered.
+
+FOREIGN LITERATURE
+
+In this chapter, the researchers gave discussion of the theoretical literature. Here you can see how important Temperature Control in Poultry with Automatic Water Refilling supply is to those who have a poultry house, you will know its benefits are poultry and for poultry men This chapter discussed the review of the related literature, the review of the temperature control in poultry with automatic water refilling supply
+
+Review of the theoretical literature
+
+Our world is getting warmer as time passes by. The production of poultry is declining because many chickens are dying due to the extreme heat of the weather or not being cared for properly
+
+Therefore, there is temperature control in poultry with an automatic water refilling supply, to provide the appropriate temperature in poultry and to take good care of the chickens
+Temperature control in poultry with automatic water refilling will also help poultry men, as they will have less work to do in the poultry house.
+
+The system is constructed using Arduino Uno as micro controller, a water level sensor to detect change of water volume, and flow sensor to detect for leakage (Aribowo, Putra and Tjao, 2019). The working principle of this system is to control water level in the pipes used to deliver water to the poultry cages and detect whether there is a leakage or not between the pipeline nipples. The system uses two micro controllers to monitor the pipes and communicate to each other using Wi-Fi. The system should also be able to dispense vaccination, so just like a poultry farm automation temperature system using Arduino. In poultry many chickens die due to the intensity of the heat or do not drink enough and properly the chickens and other animals in the poultry. Based on the Philippine Statistics Authority (Cordillera administrative region) Poultry production includes chicken, duck, chicken egg and duck egg production. From 2015 to 2019, highest poultry production was reported in 2015 at 12,923 metric tons while the lowest was in 2019 at 12,137 metric tons Total poultry production went down in 2019 as compared to 2018 which was largely attributed to the decrease in broiler production due to shifting to layer farm operation of two large broider farms in Ifugao, January-December 2015-2019 As can be seen in this figure, with each passing year the production of chickens, ducks decrease Over time, our world is getting warmer. Therefore, it is necessary to take care and provide the right tomperature inside the poultry and proper drinking water for chickens. To avoid having chickens die in heat in the poultry
+
+To reduce mortality and maximize productivity, temperature management in chicken houses with automatic water replenishment is critical. Farmers who have poultry or intend to grow chickens or ducks will benefit from this because refilling of the water will be simple. It also features automatic control for the heat needed for poultry to provide the proper temperature in the poultry to reduce diseases that might infect chickens and ducks, especially if the poultry is large. Temperature control in poultry, as well as automatic water replenishment in poultry, might be beneficial, particularly for people who keep poultry in our nation where it is hot and rains suddenly. Because this is one of the causes of illness in poultry chickens. From a productivity standpoint, housing systems need to be managed to maintain optimal temperatures seasonally and reduce the risk of heat stress, which requires more investment in ventilation and cooling
+
+Reproduction ability may decrease Broilers, Environmental, Food and Rural Arca (Defra) survey shows that poultry houses exposed to future climate change scenarios are 30% more likely to exceed critical temperatures, despite 10% more ventilation. In this paper, the chicken farm monitoring system is proposed and developed based on wireless communication unit to transfer data by using the wireless module combined with the sensors that enable to detect temperature, humidity, light and water level values. This system is focused on the collecting, storing, and controlling the information of the chicken farm so that the high quality and quantity of the meal production can be produced. This system is developed to solve several problems in the chicken farm which are many human workers is needed to control the farm, high cost in maintenance, and inaccurate data 
+collected at one point. The proposed methodology helps in finishing this project within the period given. Based on the research that has been carried out, the system that can monitor and control environment condition (temperature, humidity, and light) has been developed by using the Arduino micro controller This system also is able to collect data and operate autonomously according to Abas, Amir and Shafi, (2018)
+
+Chicken meat production is in demand now a days because of the increasing population around the world. (2018) International Conference on Computer and Communication Engineering (ICCC) Monitoring of a chicken farm could be very helpful to produce a great number of chicken meat and to meet the demand of the people. However, there are different environmental factors that are affecting the growth of a chicken that also affects the production of chicken meat for food consumption because of the disease and bird flu spreading. This study aimed to determine the different sensors and materials that can be included in the system architecture for smart chicken farming which focus on the monitoring of the environmental parameter literature survey. The result of the literature survey used as basis in the design of the system architecture for a Smart Chicken Farming Based on the literature survey, there are different sensors and materials that could be used to monitor the environmental parameter in a chicken farm. Thus, the following factors are considered such as low cost, effectiveness and positive used of the sensors and materials that is the reason that they are included in the system architecture so the monitoring system for poultry farm used a device to detect and monitor in a poultry house so we will use an Arduino to enable the device to make the monitoring device work and must monitor the 
+temperature and the situation in the poultry house and to prevent the disease. Poultry farm in Santa Luciana, Cauayan City, Isabela, will have difficulty because it is a big help for them to that they can produce good quality chicken meat because to avoid the disease that causes their losses because if you neglect your poultry houses it is a problem, The researchers we need make a monitoring system to prevent this according to
+
+Chicken meat production is in demand now a days because of the increasing population around the world. Monitoring of a chicken farm could be very helpful to produce a great number of chicken meat and to meet the demand of the people. However, there are different environmental factors that are affecting the growth of a chicken that also affects the production of chicken meat for food consumption. The study of this is aimed to determine the sensors and materials that included to the system for smart chicken poultry farming Archana, M.P, Uma, S.K., Raghavendra, BTM (2018)
+
+Recently, the using of smart technology are common working process in various field such as agriculture, traffic light and medical. In the process of poultry farming in the world, rapid development of technology has been built such as closed poultry farming equipped with technological systems and more too smart farming system due to the high demand for chicken broiler all over the world including Malaysia (Levy, 2018) As a consequence, many new poultry farmers have ventured into this field. However, many of them suffer from problema such as chicken diseases due to the unconducive environment of chicken coop Unmitable temperature and humidity in chicken coop may lead the
+
+chicken susceptible to disease such as Coryza which causes chicken eyes become swollen and loss appetite. Therefore, a system named Smart Chicken Farm Monitoring System has been developed to monitor and control the environment of chicken coop by using sensors and Internet of Thing (IoT) platform With this system, poultry farmers can monitor and control the temperature and humidity in the coop using DHT11 automatically Poultry farmers can also estimate the weight of chickens by using the load cell sensor to identify the maturity of chicken broilers in the coop. This system is believed may help chicken farmers in monitoring a conducive chicken coop and the growth of the chicken broiler
+
+There are two major types of chickens that are farmed globally egg laying hens, and broiler chickens. As the names suggest, one produces eggs and the other is raised for meat. In terms of egg production Broiler meat production In the last several years, poultry has overtaken pork as the most produced type of meat worldwide. The United States has the highest volume of broiler meat production of any country, at around 20.5 million metric tons in 2020. China and Brazil came in second and third in terms of broiler meat production, at 15 million and 13.7 million metric tons (Ali et al., 2020).
+
+The raising of poultry mainly fulfills the purposes of meat, eggs and feather production, and sometimes for religious ceremonies (Scanes et al., 2004) Poultry are efficient converters of feed to food Food of poultry ongin serves the highest nutritional values, with egg being not only delicious but extremely nutritious and balance of all mutrients (Scanes et al., 2019) 
+
+Poultry plays very important role for mankind through food supply, income and employment generation, providing raw materials to some industries, facilitating research works etc Family poultry makes up to 80 percent of poultry stocks in low-income food- deficit countries (Pym et al, 2006) where owners raise poultry in small numbers ranging from single birds up to a few hundred. Backyard poultry rearing also finds an important role to raise indigenous birds free of stress and harmful residues
+
+According to animal nutrition and health, the global demand for poultry meat and eggs is growing at a phenomenal rate. The poultry sector will need to evolve and innovate in line with this demand. Our innovative feed additives are developed to help farmers meet the challenges they face. The cutting-edge products provide a wide range of benefits: they can help increase production and productivity, improve welfare, reduce environmental impact, and enhance product quality
+
+We used GSM module for our system to easily monitor the poultry farm so according foreign literature there are using a GSM module to transmit the data from user According to Kumar (2019) "Automatic water level control and monitoring system using GSM module GSM Module controller connected is SIM900 and it was engaged to the Arduino Uno. Its work is to send message to the Fire technician or a particular number
+
+(Indra, 2018) "GSM-Based Smart Energy Meter with Arduino Uno "Arduino UNO, main controller, was the interface between energy meter and Global System for Mobile comannication (GSM) module GSM module connect the energy meter to users' mobile
+
+phone Real Time Clock (RTC) DS1307 was used to get the real time to count and store the usage into the EEPROM. The program developed in C language with the Arduino syntax in the Arduino IDE. The proposed system demonstrated its capability to check the current usage (bill), notify when reaching the limit, reset the usage (bill) successfully, only via accessing GSM-based mobile phone
+
+Abd El-Hack et al, (2019). Several studies have confirmed the beneficial effects of phytogenic additives on growth indices, gut health, nutrient retention, and intestinal microflora. In addition to enhancing immunity functions and reducing the susceptibility to diseases, such additives also improve carcass yield and quality in poultry
+
+Among those interviewed were specialized in layers not broilers The confinement system of poultry housing was used by all the raisers. Feeding space allowed for one day to two-week-old chick which was simply calculated. Vaccinating of birds and disinfecting poultry houses and premises were administered by commercial and semi-commercial respondents. Debating was practiced among few raisers. Sick birds were isolated and returned to their respective pens upon recovery and dead birds were generally cooked when still edible and burned if otherwise. Majority of the raisers relied on commercial feeds Marketing was a problem to some raisers as there were no sure market outlets for these farms. Competition and inconsistent demand of consumers were also reported as marketing problems 
+
+Home management and controlling have seen a great introduction to network that enabled digital technology, especially in recent decades. For the purpose of home automation, this technique offers an exciting capability to enhance the connectivity of equipment within the home. Also, with the rapid expansion of the Internet, there are potentials that added to the remote control and monitoring of such network-enabled devices. In this paper, we had been designed and implemented a fully manageable and secure smart home automation system based on a cloud computing system with an ESP Arduino system (Abdul Raharme, Abdul Zahra and Mohsim, 2019).
+
+LOCAL LITERATURE
+
+According to the Philippine Statistics Authority, DA Communications Group | 2021, dressed chicken production in the Philippines surged 40% over a decade, growing from 1 million MT in 2009 to 1.4 million MT in 2018. The major factors for this growth include the establishment of new commercial farnıs and dressing plants, switching of some commercial farms to tunnel-ventilated housing, expansion of farms' stocking capacities, adequate supply of day-old chicks, growing use of contract farming, and an ever-increasing dentand for chicken meat.
+
+The growth in chicken demand has been faster than other meats due to its affordability, lower fat content, and the absence of cultural and religious hindrances. In addition, chicken is the preferred meat in fast food outlets, which is a sector experiencing fast expansion throughout the country. Over the past decade, food service spending has
+
+grown, and restaurants have developed new chicken dishes to meet this increased demand Per capital consumption rose by 4% per year from 11.6kg in 2009 to 15.6kg in 2018, while consumption averaged 13.4kg per person per year.
+
+The Philippine broiler industry is composed of 20% backyard (fewer than 1,000 birds) and 80% commercial farms There are reportedly 588 registered poultry farms and approximately 175 meat processors located throughout the country. The fresh processed meat sector was estimated at 420,000 MT. This excludes the volumes for food service and the small-scale/backyard hotdog and longanıza producers Likewise, the canned meat sector was estimated at 126,000 MT in the same year. Both sectors use chicken meat as a raw material, particularly mechanically deboned or separated chicken meat
+
+The Department of Science and Technology has allocated over PHP4.7 million to support a project that would use the internet of things (loT) in monitoring poultry environment, an official said Friday "It is essential to monitor environmental conditions, such as temperature, humidity, dust concentration, light, in poultry facilities. When environmental conditions are unfavorable, it may affect the production or may hinder the growth of the animals," DOST Undersecretary Rowena Cristina Guevara told the Philippine News Agency in an interview
+
+Through a collaboration with the University of Southeastern Philippines (USP) and Tetra Connding Corporation, the DOST is supporting the "Chiclot An loT-Based
+Smart Poultry Building Environment and Growth and Health Status Monitoring and Modelling" research project.
+
+The project officially started last August 9, and is expected to run for two years. Tetra Consulting Corporation provided a counterpart fund of over PHP1.7 million, while USeP provided PHP860,000 as the implementing party Basically, a device and sensors would be mounted in a poultry farm. These would generate data (e.g., temperature) that can be viewed by the owner through a dashboard. "With this project, one would be able to design and create a bio surveillance system that could remotely collect data. Real-time data can be used to monitor the condition of the poultry farm. That way, it would be easier to address concerns such as temperature or humidity conditions that can be controlled to optimize the growth of chickens," Guevara explained. The ChicloT, she said, has three aspects. First is data collection through sensors and cameras. Second is data analysis, which would help in decision-making, like if high temperature is detected. Third is its ability to communicate the data to users via a dashboard and management portal "The lot would collect and transfer data through a wireless network, without human intervention," Guevara said. She said the Tetra Consulting Corporation is the main beneficiary of this project. The Agree Industrial Development Corporation (AIDC) in Agusan Del Sur would also benefit since it owns the poultry facilities being managed by Tetra Consulting The ChicloT technology will be pilot tested in the AIDC's facilities "Based on the CRADLE (Collaborative Research and Development to Leverage Philippine Economy) program's framework, the first to benefit and use the Chiclot is the Tetra Consulting Corporation 
+since it was the one that identified the problem specific for the company, and an active collaborator in the project," Guevara said. She added that the DOST, as a funding agency, hopes that other poultry business would see the benefit of this technology, and be encouraged to adopt it (PNA)
+
+Agriculture Secretary William Dar highlighted the crucial role of the poultry sector in the growth of the agriculture sector during his opening address for the "Philippine Poultry and Livestock Virtual Summit" on August 27, 2021
+
+Poultry production accounts for 13% of agriculture gross value added (GVA) and dressed chicken production in the Philippines surged 40% between 2009 and 2018, increasing from a million metric tons to 14 million In the second quarter of 2021, the poultry subsector also logged a 2.5% growth rate. The summit aimed at discussing the challenges and opportunities in the Philippine poultry industry wherein Secretary Dar also reported the Department's plans and investments in the subsector including the establishment of postharvest and processing facilities Among the many dietary factors that affect health and production of poultry, antioxidants have a major role in animal survival, maintenance of poultry health, and reproductive and productive rates. Dietary phytogenic additives are products derived from plants and added to poultry feed, to improve growth and productive performance. Phytogenic additives in poultry feed enhance the birds' appetite and feed consumption, stimulate the secretion of digestive enzymes, and activate 
+
+antioxidants, in addition to having antibacterial, anthelmintic, and antiviral properties that enhance the immune responses (Abd El-Hack et al., 2018).
+
+Flood Detector System Using Arduino "The Arduino Flood Detector System is developed to be one of the fastest methods to monitor flood that will help motorists or road user to avoid Flood is an unavoidable natural disaster in Metro Manila, Philippines, causing heavy flow of traffic and can also cause severe damage to properties and lives (Cuadra, De Guzman, De Luna and Villaueva, 2020) For this reason, researchers created a flood detection system to monitor rising water in residential areas. Using ultrasonic sensor, researchers created flood level sensing device which is attached to Arduino Yun to process the sensor's analog signal into a usable digital value of distance. The user can get real-time information on monitoring flooded roads over the livestream plus SMS based service Flood height is determined by subtracting the sensor's height with respect to the floor minus the sensed distance between the sensor and the flood water. Updates on the height of the water level will be texted to the rescue team (Local Government Unit) and to the residents of Barangay Marulas, Valenzuela City, Philippines and can the locals can also view level of the flood in the interface of the system. The level of the flood will be divided into four. The flood sensor and microcontroller will be powered by a solar power bank with 80,000 Ampere-Hour (mAh) for the benefit of continuous operation of water flood beight detection and network data transmission. The Arduino Flood Detector System is developed As be one of the fastest niethods to monitor flood that will help motorists or road user to void problem whes flood occurred. Index Terms-Arduino, Detector, Flood, Sensor
+
+"Design, Development and Implementation of Educational and Entertainment Mobile Robots Utilizing Arduino Microcontroller "This paper provides fundamental insights on academic initiatives undertaken by Mindanao University of Science and Technology (MUST) in Cagayan de Oro City, Philippines in addressing some issues relative to the declining academic interests in science and technology (S&T) among students in the secondary schools in the country. While academic interventions were implemented both public and private efforts, career preference continue to persist in favor of the medical service programs. This notion motivated the pursuance of this study in an effort to entice students toward science and technology (Coasito, 2018) The study features the design and implementation of educational and entertainment mobile robots with variety of control concept applications The control design implemented follows pre-established parameters set forth by MUST as basis for the students in their respective robotic designs. The basic criteria set the prototype to be light weight, "Arduino" microcontroller-based, programmable in C-Language, powered by internal battery, and a choice of DC or servo motor prime movers. The control designs are guided by the discrete truth table where input and output devices interact via programming through appropriate electronic interfacing The outcome of the study is perceived to influence career interest and direction of students towards science and technology through high impact advocacy using the educational and entertainment mobile robots as the primary pedagogic tool and attraction. The survey results yielded positive affirmation on the performance of the educational and entertainment mobile robots as evidenced by the high to very high mean ratings on pre- established evaluation parameters.
+
+Tools for Automating Your Home Monitoring and Security Using Arduino, 1st Edition (2020)" Design and build your own smart home devices-no prior experience required! This hands-on guide contains step-by-step plans for easy-to-build projects that work through your phone to control your home environment remotely-all using free, open-source software A DIY Smart Home Guide: Tools for Automating Your Home Monitoring and Security Using Arduino, ESP8266, and Android offers a low-cost, hassle- free alternative to expensive, highly intrusive professional installations. All projects can be accomplished with no previous knowledge, for those with some background in C/C++ or Java, the projects can be customized
+
+Real time flood water level monitoring system with SMS notification "Metropolitan Manila, Philippines is one of the regions at high risk from flooding Pandacan, is one of the districts in the city of Manila, located at the south of Pasig River which is prone to flooding. The purpose of this project is to provide a standalone flood water level monitoring system for the community in Kahilom Street Pandacan, Manila The system is constructed through the use of Arduino Uno, GSM shield and sensors that will be powered by a solar panel with generator. The early warning device will be the three LED that is mounted to a PVC pipe and then the system will send an SMS notification to the people in the community The functionality of the system was tested by the simulation
+
+of flooding. The results provided that the objectives of the design satisfied the needs of the client Yumang, A. N. et al, (2017).
+
+Smart home automation system using Arduino microcontrollers. The monitoring. control, and automation of the house became possible due to the advanced technology and the objects connected via the Internet (IoT). Home automation comes as a novelty for all those passionate about innovation and technology, allowing control of the different systems implemented. Another great utility and support for home automation are helping people with disabilities who would make their lives much easier, having the opportunity to control door closures, monitor the ventilation system, and the temperature using desktop applications or directly from the smartphone This paper presents a scale model that represents a smart home, the LEDs are connected in series and programmed to switch off and on or each one at the same time. It uses actuators that have a fixed movement from 0 degrees to 180 degrees for closing and opening windows and doors, but it is also used as a dour fock controlled and operated from the web application. The automation of the garage door using inductive sensors and the control for closing and opening of the web application is another function of the system. The temperature of the rooms inside and outside the house is monitored, but also control of a ventilation system for the interior-depending on the reading of the temperature variable, the whose set value will influence the ventilation system on or off The ventilation system can be operated independently or manually, using the actuator buttona. A web application has bem implemented, which represents the control panel, with the buttons for actuating the different systems, as well as the temperature
+
+monitoring. Also, two doors with stepper motors were automated, and contact sensors and presence sensors were used for control.
+
+Design and Implementation of an Arduino-basedrt home PU Okorie, Ibrahim, D Auwal-2020 A smart home is the residential extension of building automation. It initially involved the control and automation of systems that ensure human comfort such as lighting, heating, ventilation, air conditioning and security. This paper presents a design and implementation of cost-effective smart home controlled with an android phone. This framework is intended to help and satisfy the needs of the elderly and the handicapped within our houses Additionally, the idea of smart home system will improve the well- being status at our homes. The fundamental control system uses a wireless Bluetooth device and analog sensors which in tums they give a wireless access to smart phones. The system design does not remove the existing electrical switches but rather gives a safer control over the switches with low voltage usage technique. The switch status is synchronized everywhere each person interface demonstrates the current existing switch status. This system is designed to control electrical device throughout the home with ease of installing it, ease of use and cost-effective design and implementation
+
+Smart home automation system using ZigBee, Bluetooth and Arduino technologies. The use of modem technologies for control and monitoring and accessing devices in domestic or industrial buildings with convenience, comfortable and easy access from any location is the primary aim of the internet of things (IoT) technology for smart home automation (Ezugwu & Taimo, 2020) Complete Smart home automation, with
+
+overall control from any place at any time is still not fully available. Nevertheless, this work proposes a mobile application system for smart homes, with the purpose of overall monitoring and control of home appliances and devices The proposed method is based on Zigbee, Arduino and Bluetooth for wireless communication among devices in the home. At the same time, a mobile application is used for the control and monitoring of the devices or appliances. In this study, Zigbee and Bluetooth are combined in order to establish efficient communication either within or outside the home premises. A user scenario of the proposed work was simulated using Proteus Simulation software to validate the practicability of the new system
+
+Voice-Based Home Security and SMS Gateway Using Arduino Uno Microcontroller And Passive Infra-Red Sensor (Belarb, Irawan, and Yulisman, 2021)- Journal of Applied 2021 The development of advanced Information Technology by greatly improving human thought patterns. This home security problem can be overcome with a security system that can be delivered to homeowners via SMS notification (Short Message Service) compilation of plow sensors accepting people who enter the compilation house when it is installed and the system is in standby and the alarm will sound and the sound module has been designed to provide information about the movement in the house. To minimize this crime, the need for tools that can help improve home security Based on the overall system test results in accordance with the desired that the security system can be waed in a supported system, where when the PIR sensor supports movement the buzzer will sound, the red L.I.D lights up, the sound module issues the expected voice message and the
+
+GSM module will send a message to the homeowner's mobile number PIR sensor will work optimally if the object is detected by humans with a maximum distance of 6 meters. While for animals (cats), the success is only 40%, and plants cannot be detected at all by the PIR sensor and the GSM module will send a verification message to the cellphone owner in less than 1 minute
+
+In this concept the researchers we loput Interview and Survey, Issue and problems merusteried. Data gathering, Humidity and Temperature monitoring to conduct this project in our soncept of the study. The process will work by using a hardware and data analysis infinish progett caputosa
+CHAPTER III RESEARCH METHODOLOGY
+
+REQUIREMENTS ANALYSIS
+
+In this stage, the researchers discuss the conduct data gathering procedure through a personal interview and also a survey at Santa Luciana, Cauayan City, Isabela. The interview and survey were also conducted with the other concerned agencies relevant to this study. The result of this interview and survey were analyzed for the design an development of the Smart Poultry Farm Automation Temperature System
+
+Figure 2. Data Flow Diagram of Existing Procedure
+
+In this diagram, the researchers put the owner to manage or operate the system. This system controls the temperature and see the humidity of the chick cage. Next put GSM module to send the message to the owner to see what the temperature and humidity even the owner is far away from home.
+Figure 3. Sample Fishbone diagram of existing procedure
+
+The fishbone diagram was drawn to present the main problem of the project, which is the project needs the time, environment, people and equipment. Tume consuming of the people in working, environment is climate change, people working in a poultry farm to monitor daily time, and lastly the equipment's for using a poultry
+
+Requirements Documentation
+
+Technical Background
+
+This section discusses the technical background of the Smart Poultry Farm automation temperature system, it covers the project technicality, gives brief details of the technology to be used, and explain how the scheme works
+
+Hardware Requirements
+
+NAME
+
+DESCRIPTION
+
+an open-source
+
+15 hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices
+
+Figure 5. Use Case Diagram of Capstone Research
+
+The figure shows the Use Case Diagram of the software application It visualizes on how the user and the system plays their roles in one system. Specifically, it determines the covered of a system between the relationship the user and the system.
+
+Figure 6. System Flowchart of the Application
+
+It shows the different flow of the system by the user. The system flowchart shows the algorithms and methods of the software application to show how it works. It discusses the flow of the application and its processes
+Software Development Methodology
+
+Requirement
+
+Design
+
+Implementation
+
+Verification
+
+Maintenance
+
+Figure 7: Waterfall Model Software Development
+
+The researchers of the study used waterfall model software development. The system development process involves different phases. It includes the define project equirements, design, implementation, verification and maintenance. As shown in the figure above
+
+Requirements Specification
+
+Phase 1: Requirements
+
+Potential requirements, deadlines and guidelines for the project were analyzed and placed into a functional specification This stage handles the defining and planning of the project without mentioning specific processes.
+
+Phase 2: Design
+
+The design phase serves to develop a concrete solution concept based on the previously determined requirements, tasks, and strategies In this phase, software developers develop the software architecture and a detailed construction plan for the software, concentrating on specific components such as interfaces, frameworks, or libraries. The result of the design phase comprises a draft document with a software construction plan and test plans for individual components.
+
+Phase 3: Implementation
+
+In this phase, the researchers chose to implement the system in the Barangay Purok 4 Sta. Luciana, Cauayan City, Isabela
+
+Phase 4: Verification
+
+In this phase, the researchers checked if the system is working well by testing and checking the codes for possible errors before they implement
+
+Phase 5: Maintenance
+
+This is the last and one of the most important phases in the project development. the system performance must be maintained well for it to work for a long time by checking any errors that might occur, bug fixing, improving it, and adding possible features that might be helpful for the residents and Secretary.
+
+Table 1. To determine the perception of the poultry in problem and challenges encountered.
+
+Scale
+
+Weight Mean
+
+Interpretation
+
+5
+
+4.20-5.0
+
+Very Much a Problem
+
+4
+
+3.40-4.19
+
+Much a Problem
+
+3
+
+2.60-3.39
+
+A Problem
+
+2
+
+1.80-2.59
+
+Less a Problem
+
+1.00-1.79
+
+Least a Problem
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers used the weighted mean formula
+
+(A) <%= × 100
+
+Where
+
+-percentage
+
+f-frequency
+
+number of respondents
+
+For finding the weighted mean in the presentation, analysis and interpretation of data, the researchers used this formula.
+
+WM/(1)+(2)+/(3)+(4)+(5) N
+
+Where
+
+38
+
+WM-Weighted Mean
+
+F- frequency
+
+N-Number of Respondents
+
+Data Analysis Plan
+
+After gathering data, the statistician tools that will be used in the analysis of the data are the Weighted Arithmetic Mean, Standard Deviation, Analysis of Variance (AVONA) and the Person Product-Moment Coefficient of Correlation The weighted arithmetic mean will be used to determine the average responses for each item of the five (5) option in each item in the questionnaire namely, 5 (Strongly Agree/Very Good/Very willing/Very High), 4 (Agree/Good/High/Willing), 3 (Undecided/Fair), 2 (Disagree Hesitant/low/Poor) and 1 (Strongly Disagree / Very Hesitant/Very Low/Very Poor) The Likert scale can be generated by means of the respondent's replication on the survey
+
+The points that will be used are:
+
+Strongly Agree/Very Good/Very Willing / Very High
+
+5 points
+
+Agree/Good Willing/High
+
+4 points
+
+Undecide/Fair
+
+3 points
+
+Disagree/Hesitant/Love/Poor
+
+2 points
+
+Strongly Disagree/Very Hesitant/Very Low/ Very Poor
+
+I
+
+CHAPTER V
+
+SUMMARY, CONCLUSION, AND RECOMMENDATION
+
+SUMMARY
+
+The study entitled "Smart Poultry Farm Automation Temperature System" aimed to answer the problem encountered in monitoring the temperature in a poultry cage The researchers found out that the agricultural students need a system that monitor the temperature and humidity based on the set time or program time on the system. This is for them to monitor on anytime to lessen their time so that they will have a good growth of a chicks
+
+Based on evaluation, majority of the respondents and especially our agencies agreed with this kind of system to improve their poultry farm.
+
+Furthermore, majority of the respondents agreed with the performance in terms of correctness in the use of the system.
+
+Based also the evaluation, most of the respondents answered that they "agree" with the functional suitability in terms of appropriateness in the use of the system.
+
+CONCLUSION
+
+Based on the study of Smart Poultry Farm Automation Temperature System: in Purok 4, Santa Luciana, Cauayan City, Isabela, the findings listed below are hereby forwarded
+
+1. There are problems experienced by the poultry farmers in the manual process, most especially the agricultural students need a system that monitor the temperature and humidity based on the set time or program time on the system.
+
+2. The smart poultry farm automation temperature system is effective and agreed by the agency or respondents.
+
+3. Based from the result of the system defense, the project's performance fulfilled the design specifications, and the precise values of temperature and humidity at any moment in time are shown on the LCD screen. The prototype system has no backup battery or generator for electricity
+
+RECOMMENDATION
+
+Based on the findings and conclusions, the researchers would like to consider the following recommendations
+
+1. The adoption of the smart poultry farm automation temperature system to solve the problems encountered in the manual system
+
+2. Continuous adoption and usage of the smart poultry farm automation temperature system to help the agency for higher production of the chicks.
+
+3. To the future researchers, the study conducted on smart poultry farm automation temperature system it needs a battery back-up, and the use of generator for backup electricity

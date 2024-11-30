@@ -1,0 +1,1323 @@
+USING CONVOLUTIONAL NEURAL NETWORK TO CLASSIFY PAPAYA AND MANGO LEAF HEALTH AGCAOILI, NERIE MAE P. BAJO, FRANCISCO BLANCA, MARICEL Q. January 2024
+
+A Thesis Presented to the Faculty of the
+College of Computing Studies, Information and
+Communication Technology
+Isabela State University
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree
+Bachelor of Science in Computer Science
+
+AGCAOILI, NERIE MAE P. BAJO, FRANCISCO BLANCA, MARICEL Q. January 2024
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+APPROVAL SHEET
+
+The Thesis entitled Using Convolutional Neural Network to Classify Papaya and Mango Leaf
+Health, has been prepared and submitted by Nerie mae P. Agcaoili, Francisco Bajo, Maricel Q.
+Blanca, in partial fulfillment of the requirements for the degree Bachelor of Science in Computer
+Science is hereby endorsed.
+
+REYNALDO R. CORPUZ, DIT
+Research Paper Adviser
+
+Approved by the panel of the final oral and system defense with a grade of _________.
+
+MARVEE CHESKA B. NATIVIDAD, DIT
+Chair, Defense Panel
+
+CHERRY R. GUMIRAN, D. Eng. JAYSON LIQUIGAN, MIT Panel Member
+
+Panel Member
+
+Accepted as partial fulfillment of the requirements for the degree BSCS.
+
+ROSE MARY A. VELASCO, DIT ______________ Program Chair, BSCS Date
+
+REYNALDO R. CORPUZ, DIT ______________ Dean, CCSICT Date
+
+LORELEI C. TABAGO, Ph. D. ______________ Director, ISU Cauayan Research and
+Development Date
+
+Recorded:
+CLARICEL P. ORATA, MBA ______________ Registrar II, ISU Cauayan Date
+Bachelor of Science in Computer Science i
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+ACKNOWLEDGMENT
+
+First and foremost, praises and thanks to God, the Almighty, for His showers of blessings
+throughout our project to complete this thesis project successfully. The researchers of this study
+would like to thank the people who helped and supported the researchers.
+
+The Researchers would like to thank their research adviser and Dean at the same time Dr,
+Reynaldo R. Corpuz of the College of Computing Studies, Information and Communication
+Technology, for the help, support, and for guiding the researchers throughout the completion of this
+project.
+The author expresses thanks to Dr. Rose Mary A. Velasco, the subject instructor, for
+offering crucial guidance, support, and insightful feedback. Dr. Velasco's expertise played a crucial
+role in shaping the direction of the research.
+Marvee Cheska B. Natividad, campus research director whose approval for this research
+paper is the most important, the researchers would like to thank her for it.
+The researchers extend their heartfelt thanks to the esteemed panel, Dr. Marvee Chescka
+B. Natividad, D. Eng. Cherry Gumiran and Mr. Jayson Liquigan for your invaluable contributions
+and insightful feedback. Your expertise and dedication have been instrumental in shaping the
+success of this project. Grateful for your collaborative spirit and commitment to excellence.
+The researchers, Francisco Bajo, Nerie Mae P. Agcaoili, Maricel Q. Blanca, would also like
+to thank the Department of Agriculture for their participation in doing the research paper. To the
+parents of the researchers, they want to give you thanks for the support. Effort, and time you have
+to make the study possible. Lastly, to our Almighty God, the researchers want to thank you for
+giving them the knowledge to do the research paper
+
+Bachelor of Science in Computer Science
+
+ii
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+DEDICATION
+
+This project is wholeheartedly dedicated to our beloved parents, who have been our source
+of inspiration and gave us strength when thought of giving up, who continually provide their moral,
+spiritual, emotional, and financial support. To our brothers, sisters, relatives, mentors, friends, and
+our beloved ones who shared their words of advice and encouragement to finish this project. And
+
+lastly we dedicated this thesis project to the almighty God, thank you for guidance, strength, power
+of mind, protection, skills, and for giving us a healthy lifestyle. All of this, we offer to you.
+
+Nerie mae P. Agcaoili
+Francisco Bajo
+Maricel Q. Blanca
+
+Bachelor of Science in Computer Science
+
+iii
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+ABSTRACT
+
+Mangos and papayas two fruits with globalization importance as they are fruits that are important in
+the international markets. The state of the leaves in plants is one of the most critical signs that can
+indicate either a healthy plant or the possible presence of an illness. Consequently, the intelligent
+crop health analysis can be conducted to address early detection of diseases and control of crop
+production and quality. The identification of plant leaf health is among the image classification
+problems, which have great promise in the application of CNNs. Research has it that diseases are
+
+one of the most significant causes that usually result in plant loss. As it is obvious plant production
+capacity is minimized by 10–16% every year due to diseases. For control of papaya and mango
+strategic leaf diseases in Philippines certain pathogens has to be determined in specific crops like
+papaya begomoviruses affecting the papaya leaf curl and Colletotrichum affecting the mango
+anthracnosp.
+In developing the model, the study used the Mobilenet CNN architecture due to the capability for
+fast development of the model, and the compatibility for mobile application integration. Further, the
+study used google colab in building the model because of the free gpu offer that makes the model
+for fast development and for easy importing libraries that need in builing the mobilenet model.
+Researchers have successfully demonstrated the potential use of MobileNet CNN architecture for
+plant health classification applications, specifically focusing on papaya and mango leaf health. As
+result the training accuracy of the mobilenet model was 91%. However, the validation accuracy was
+88%, indicating the model's performance on new input data. The study highlights the efficiency and
+effectiveness of CNN models in accurately identifying and classifying leaf health, providing valuable
+insights for advancing agricultural practices and crop management. The emphasis on
+understanding specific pathogens, implementing efficient management strategies, and utilizing
+advanced technology like CNNs underscores the importance of combating leaf health to ensure
+sustainable agriculture and market competitiveness. The paper contributes to the field by
+showcasing the potential of CNNs in disease identification and management, ultimately benefiting
+farmers, researchers, and agricultural professionals in enhancing crop health and productivity.
+Keywords: CNN, papaya leaf disease, mango leaf disease mobilenet, classification.
+
+Bachelor of Science in Computer Science
+
+iv
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Table of Contents
+
+APPROVAL SHEET.......................................................................................................... i
+ABSTRACT......................................................................................................................... iv
+Table of Contents................................................................................................................. v
+
+LIST OF FIGURES..............................................................................................................vii
+1 INTRODUCTION ..........................................................................................................1
+1.1 Background of the Study ...................................................................................... 1
+1.2 Objective of the study ................................................................................................ 3
+1.2 Significance of the Study............................................................................................ 3
+1.2 Scope and Delimitations ............................................................................................
+4
+2 THEORETICAL FRAMEWORK.................................................................................... 5
+2.1 Review of Related Literature ................................................................................5 2.1.1
+Machine Learning in Agriculture .........................................................................5 2.1.2
+Convolutional Neural Network (CNN) .................................................................8 2.1.3
+MobileNet Model............................................................................................... 10 2.1.4
+Diseases cause unhealthy leaves..................................................................... 15 Figure 1.
+Concept of the Study .................................................................................. 19 2.3 Definition
+of Terms................................................................................................... 20 2
+OPERATIONAL FRAMEWORK.................................................................................. 24 3.1
+Materials ............................................................................................................. 24 3.1.1
+Software ........................................................................................................... 24 3.1.1
+Hardware ....................................................................................................... 26 3.2
+Methods ................................................................................................................... 27
+
+Bachelor of Science in Computer Science
+
+v
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+3.2.1 Dataset .............................................................................................................
+27 3.2.1.1 Dataset Acquisition........................................................................................
+27 Figure 2. Healthy and Unhealthy Papaya Leaf
+.......................................................... 27 Figure 3. Healthy and Unhealthy Mango
+
+leaf............................................................. 27 3.2.1.2 Training-Validation Data Split
+........................................................................ 28 3.2.2 CNNs architecture
+model.................................................................................. 28
+4 RESULTS AND DISCUSSION ................................................................................... 29
+4.1 Accuracy Evaluation of the Chosen CNN Model on Mobile Phone .......................... 29
+Figure 4. Accuracy Evaluation ................................................................................... 29
+Table 2. Prediction on actual field images ................................................................. 30
+Table 3. Accuracy and Training time ......................................................................... 30
+Google Collab Training Result ....................................................................................... 31
+Figure 5. MobileNet train, validation curve................................................................. 31
+Figure 6. Confusion matrix......................................................................................... 31 4.1.2
+Classification performance of the model........................................................... 32 4.1.3
+Epoch training................................................................................................... 32 Figure 7.
+Epoch training............................................................................................. 32 5 SUMMARY,
+CONCLUSIONS, AND RECOMMENDATIONS...................................... 33 5.1
+Summary.................................................................................................................. 33 5.2
+Conclusions ............................................................................................................. 34 5.3
+Recommendations ................................................................................................... 34
+APPENDICES.................................................................................................................... 41
+
+Bachelor of Science in Computer Science
+
+vi
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+LIST OF FIGURES
+
+Figure 1. Concept of the Study........................................................................................... 19
+Figure 2. Healthy and Unhealthy Papaya Leaf................................................................... 27
+
+Figure 3. Healthy and Unhealthy Mango leaf .....................................................................
+27 Figure 4. Accuracy Evaluation............................................................................................
+29 Figure 5. MobileNet train, validation curve
+......................................................................... 31 Figure 6. Confusion matrix
+................................................................................................. 31 Figure 7. Epoch training
+..................................................................................................... 32
+
+Bachelor of Science in Computer Science
+
+vii
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+LIST OF TABLES
+
+Table 1. Hardware specs ................................................................................................... 26
+
+Table 2. Prediction on actual field images.......................................................................... 30
+Table 3. Accuracy and Training time .................................................................................. 30
+
+Bachelor of Science in Computer Science
+
+viii
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+1 INTRODUCTION
+
+1.1 Background of the Study
+
+Mangos and papayas are two tropical fruits of global economic significance. One of the
+most important markers of plant life and possible illness is the condition of their leaves. The
+production and quality of crops can be increased by using automated leaf health categorization to
+help with early disease diagnosis and response. Plant leaf health classification is one of the image
+classification problems where Convolutional Neural Networks (CNNs) have demonstrated potential.
+
+A farmer may cultivate many plants, but diseases can impede their growth. Disease attack
+is one of the primary reasons that lead to plant loss. Each year 10–16% of plant production is
+reduced due to disease. (Manhoor Khalid, et al., 2023).
+
+In order to effectively control papaya and mango leaf diseases in the Philippines, it is
+imperative to identify particular pathogens, such as begomoviruses for papaya leaf curl and
+Colletotrichum for mango anthracnose. Leaf diseases that affect fruit production and export
+competitiveness in the Philippines, such as begomovirus infections in papayas and anthracnose in
+mangoes, have a major negative economic impact. This emphasizes the need for efficient
+management strategies to maintain agriculture and market competitiveness.
+To address the issue of papaya and mango leaf diseases in the Philippines, it is essential to
+consider the potential causes and management strategies for these diseases. Several studies
+provide valuable insights into the pathogens and factors contributing to leaf diseases in papaya and
+mango plants. For instance, Colletotrichum species have been identified as the causative agents of
+anthracnose in mangoes (Tovar-Pedraza et al., 2020), while begomoviruses have been associated
+Bachelor of Science in Computer Science
+
+1
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+with leaf curl disease in papaya (Premchand et al., 2022). Additionally, the presence of pathogens
+
+such as Colletotrichum asianum has been linked to anthracnose in Philippine mango cultivars
+(Alvarez et al., 2020). These findings underscore the significance of understanding the specific
+pathogens responsible for leaf diseases in papaya and mango plants in the Philippines.
+
+Moreover, the impact of leaf diseases on the agricultural sector is noteworthy. Anthracnose,
+a serious fungal disease affecting mangoes in the Philippines, has been reported to impact the
+export of Carabao mangoes by accelerating ripening and reducing their price competitiveness in
+the global market (Ilisan et al., 2020). Similarly, the occurrence of begomovirus infections in papaya
+has been documented, highlighting the economic implications of these diseases on fruit production
+(Nehra et al., 2019). These references emphasize the economic significance of addressing leaf
+diseases in papaya and mango plants to ensure sustainable agricultural practices and market
+competitiveness.
+
+The potential of CNNs in disease identification is evident from studies such as Kandasamy
+and Rajendran (2022), who developed a multilayer CNN for detecting anthracnose fungal disease
+on mango leaves. Similarly, Nithya et al. (2022) utilized CNN for automated defect detection in
+mangoes. These studies demonstrate the applicability of CNNs in identifying diseases affecting
+mango leaves, which could be extended to include papaya leaves in the Philippines. The
+incorporation of CNNs in the examination of papaya and mango leaves in the Philippines shows
+great potential for identifying diseases, assessing nutritional content, and evaluating quality.
+Through the application of CNNs, researchers and agricultural professionals can acquire valuable
+insights into the health, composition, and possible uses of these leaves, thereby advancing
+agricultural practices and crop management in the Philippines.
+
+Bachelor of Science in Computer Science
+
+2
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+1.2 Objective of the study
+
+The general objective of this study was to explore the potential use of the MobileNet CNN
+architecture in plant health and transfer it into an app.
+
+Specific objectives include the following:
+
+1. To test and compare the training and actual capture results.
+2. To validate the accuracy of the model applied by using a confusion matrix.
+
+1.2 Significance of the Study
+Every research study has significance for the people, the society, the country, and the
+world. The study was conducted to benefit the farmers.
+
+Farmer/s. Farmers would be able to predict the early signs of disease in leaves and take
+early action to prevent the spread of the disease. It has the potential to give farmers useful
+information on the health and performance of their crops, enabling them to make better-informed
+decisions and enhance the sustainability of their agricultural techniques. Utilizing CNNs to
+determine the health of leaves from digital images could yield this information.
+
+Students. By using advanced technology (CNNs), students learn to check leaf health from
+pictures, blending biology and computing. It sharpens problem-solving skills and prepares them for
+agriculture-tech jobs. This project boosts data analysis, innovation, and collaboration, offering a well
+rounded skill set for future success.
+
+Bachelor of Science in Computer Science
+
+3
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Future researchers. The application of CNNs to predicting leaf health from digital images
+provides a foundation for future researchers to explore, innovate, and contribute to the evolution of
+agricultural practices and technology.
+
+1.2 Scope and Delimitations
+
+The study used metrics like accuracy to measure how well the model predicted plant health. To
+make it user-friendly, we created an easy interface and documented everything for others to use.
+
+The study had some limits, like mainly using digital images and focusing on specific plant
+types. We used only one model to classify papaya and mango leaves into two classes: 'healthy'
+and 'unhealthy.
+
+Bachelor of Science in Computer Science
+
+4
+
+ISABELA STATE UNIVERSITY
+
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+2 THEORETICAL FRAMEWORK
+
+2.1 Review of Related Literature
+This theoretical framework aims to demonstrate how CNN can be used to forecast the
+health of leaves using digital images.
+
+2.1.1 Machine Learning in Agriculture
+
+The extensive research and reviews on machine learning in agriculture underscore its
+significance and potential for revolutionizing various aspects of agricultural practices. From crop
+management to supply chain performance and precision agriculture, machine learning has
+demonstrated its ability to optimize resource utilization, enhance decision-making processes, and
+improve overall agricultural productivity.
+
+Machine learning has emerged as a transformative technology in the field of agriculture,
+offering a wide range of applications and benefits. The potential of machine learning technologies in
+agriculture is evident from the extensive research and reviews conducted in recent years. Several
+studies have highlighted the significance of machine learning in agriculture, emphasizing its role in
+crop management, water management, soil management, livestock management, and precision
+agriculture (Benos et al., 2021; Condran et al., 2022; Jhajharia & Mathur, 2022). The utilization of
+machine learning in agriculture extends to various aspects such as crop classification, disease and
+pest prediction, agricultural product price prediction, and decision-making processes (Zhang et al.,
+2021). Furthermore, machine learning has been shown to be effective in optimizing farmland and
+
+Bachelor of Science in Computer Science
+
+5
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+crop monitoring systems, leading to efficient resource utilization and improved prediction and
+management in agriculture (Adebiyi et al., 2020; Veeragandham & Santhi, 2020).
+
+The impact of machine learning in agriculture is not limited to crop management but extends
+to supply chain performance, agricultural yield, and agricultural engineering. Machine learning
+applications have been systematically reviewed for sustainable agriculture supply chain
+performance, leading to insights that minimize agricultural losses and provide valuable
+recommendations and crop insights (Sharma et al., 2020; Annapoorna et al., 2023).
+
+The comprehensive reviews and surveys conducted on machine learning in agriculture
+have provided valuable insights into the current state and future prospects of this technology in the
+agricultural sector. These studies have systematically analyzed and summarized the research
+efforts dedicated to contemporary machine learning applications in agriculture, shedding light on
+the opportunities and challenges in this domain (Mahmood et al., 2022; Umar et al., 2022;
+Sumangala & Kini, 2022).
+
+Machine learning has been increasingly applied in agriculture to improve crop management
+and health status assessment. Several studies have demonstrated the successful application of
+machine learning techniques in the context of fruit quality assessment, disease detection, and yield
+prediction. For instance, Worasawate et al. (2022) and Long & Thinh (2020) utilized machine
+learning to classify the ripeness stage and grade the quality of mangoes based on external
+features, respectively. Similarly, Arianti et al. (2023) focused on the classification of the harvesting
+age of mangoes using machine learning algorithms. These studies collectively highlight the
+potential of machine learning for accurately assessing the health status and quality of mangoes.
+Bachelor of Science in Computer Science
+
+6
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+In the context of agriculture, machine learning technologies have been proven to contribute
+modestly to the field, emphasizing the need for their adoption in agricultural ecosystems (Umar et
+al., 2022). Furthermore, machine learning applications have been reviewed for their role in soil
+classification, disease detection, species management, water management, yield prediction, crop
+quality, and weed detection, all of which are crucial aspects of agriculture (Veeragandham & Santhi,
+2020). A systematic review of academic literature has highlighted the application of machine
+learning techniques to agriculture, emphasizing its trends, applications, and evaluations over the
+past two decades (Condran et al., 2022).
+
+Furthermore, machine learning plays a crucial role in modern agricultural intelligent
+management and decision-making processes, particularly in crop classification, disease and insect
+pest prediction, and agricultural product price prediction (Zhang et al., 2021). The application of
+machine learning in precision agriculture has become popular, enabling superior and precise
+agricultural practices (Sivakumar et al., 2022).
+
+Machine learning has been applied to predicting tourist arrivals in the Philippines,
+demonstrating its versatility across different domains (Jesus & Samonte, 2023). Machine learning
+has gained significant attention in the agriculture sector, particularly in the Philippines, due to its
+potential to revolutionize farming practices. Several studies have highlighted the diverse
+applications of machine learning in agriculture, including pest and disease detection, crop quality
+assessment, soil classification, water management, and yield prediction (Veeragandham & Santhi,
+2020; Brunelli et al., 2019; Chithambarathanu & Jeyakumar, 2023; Chen et al., 2021).
+
+Bachelor of Science in Computer Science
+
+7
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Machine learning has emerged as a powerful tool in agriculture, contributing to various
+aspects such as crop monitoring, disease detection, precision agriculture, and health prediction. Its
+potential for optimizing agricultural practices and ensuring food security is evident from the
+extensive research and applications in the field. The integration of machine learning in the
+agriculture sector in the Philippines holds immense potential for enhancing productivity,
+sustainability, and precision farming practices. By leveraging advanced technologies such as
+machine learning, the agriculture industry can make significant strides towards addressing pest
+and disease management, optimizing resource utilization, and ensuring food security.
+
+2.1.2 Convolutional Neural Network (CNN)
+
+The application of convolutional neural networks (CNN) in predicting diseases in papaya
+and mango leaves has garnered substantial attention in recent research. Multiple studies have
+highlighted the efficacy of CNN in precisely identifying and classifying various diseases that impact
+these plants. For instance, in 2023, an implemented CNN algorithm showcased its versatility in
+predicting papaya diseases, demonstrating its effectiveness in disease prediction across different
+plant species. Similarly, in 2022, another study conducted research in a similar vein. The use of
+convolutional neural networks (CNN) in predicting papaya and mango leaf diseases has gained
+significant attention in recent research.
+
+Several studies have demonstrated the effectiveness of CNN in accurately identifying and
+classifying various diseases affecting these plants. For instance, Sema (2023) implemented a CNN
+
+algorithm to predict papaya disease, demonstrating the versatility of CNN in addressing diseases
+across different plant species. Similarly, Faye et al. (2022) utilized a CNN trained on a specific
+Bachelor of Science in Computer Science
+
+8
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+dataset to diagnose mango plant leaf disease with an accuracy of 96.67%. Furthermore, Rajpoot et
+al. (2022) proposed a hybrid approach using CNN, which achieved a maximum accuracy of 99.21%
+in detecting mango leaf disease at an early stage.
+
+To predict papaya leaf diseases, the use of convolutional neural networks (CNN) has been
+widely explored in the literature. CNNs have been successfully applied in the real-time detection of
+various plant leaf diseases, such as apple leaf diseases (Jiang et al., 2019), tomato leaf diseases
+(David et al., 2021), and mango leaves infected by anthracnose disease (Singh et al., 2019). These
+studies have demonstrated high accuracy in disease identification, with validation accuracy
+reaching no less than 91.83% (Li et al., 2023).
+
+The use of CNNs for plant disease prediction has been supported by the superior
+performance of CNNs compared to traditional machine learning methods in the identification of
+plant diseases and insect pests (Li et al., 2022).
+
+Agriculture is a crucial sector in the Philippines, contributing significantly to the country's
+economy and providing livelihoods to millions of Filipinos (Echalar, 2023). The use of CNNs in
+agriculture has shown promising results in addressing various challenges, such as plant disease
+detection, crop monitoring, and fruit classification. For instance, CNNs have been successfully
+employed in the detection, segmentation, and tracking of grape clusters, demonstrating their
+effectiveness in handling the variability in shape, color, and size of crops (Santos et al., 2020).
+
+Additionally, CNNs have been utilized for the identification of plant-leaf diseases, showing promising
+results in the efficient identification of diseases and potential for real-time disease detection in
+agricultural systems (Hassan et al., 2021).
+Bachelor of Science in Computer Science
+
+9
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Furthermore, CNNs have been applied in the Philippines for the classification of mango
+quality, copra meat, and coffee grading, reflecting the diverse applications of CNNs in different
+agricultural products (Cases et al., 2019; Marasigan, 2020; Wallelign et al., 2019). The potential of
+CNNs in addressing agricultural challenges is further highlighted by their use in weed detection,
+crop row guidance, and early prediction of plant diseases, demonstrating their versatility in
+addressing various agricultural needs (Ponnambalam et al., 2020; Tannouche et al., 2022; P et al.,
+2022; Gomaa & El-Latif, 2021).
+
+The application of CNNs in agriculture in the Philippines has shown significant potential for
+addressing various agricultural challenges, ranging from plant disease detection to crop monitoring
+and quality assessment. While there are challenges associated with the application of CNNs in
+agriculture, the ongoing research and development in this field indicate a promising future for the
+integration of CNNs in enhancing agricultural practices in the Philippines.
+
+2.1.3 MobileNet Model
+
+MobileNet is a widely recognized architecture for mobile models, offering improved
+performance across various tasks and benchmarks, as well as different model sizes (Sandler et al.,
+2018). It is known for its efficiency in terms of computational effort, making it suitable for
+deployment on mobile devices and computers with lower computational capabilities (Srinivasu et
+
+al., 2021). Additionally, research has shown that MobileNet achieves strong performance
+compared to other popular models in tasks such as image classification (Howard et al., 2017).
+Furthermore, studies have demonstrated that MobileNet can achieve high classification accuracy,
+with results comparable to or better than other state-of-the-art CNN models (Wu & Kwon, 2022).
+Bachelor of Science in Computer Science
+
+10
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+The application of MobileNet, a lightweight CNN model, for predicting papaya and mango
+leaf diseases is backed by its effectiveness in disease detection, evident from its high accuracy in
+identifying various plant diseases. Nevertheless, it's crucial to consider the computational resource
+requirements of MobileNet during model development.
+
+To develop a model for predicting papaya and mango leaf diseases using convolutional
+neural networks (CNN), it is essential to consider the use of MobileNet, a lightweight CNN model.
+MobileNet has been widely used in various applications, including disease detection in plants such
+as papaya and mango leaves. The use of MobileNet in disease detection has shown promising
+results in terms of accuracy and efficiency (Ma et al., 2022). Additionally, MobileNet has been
+utilized in the detection of various plant diseases, including mango leaf diseases, with high
+accuracy (S et al., 2022).
+
+To predict papaya and mango leaf diseases using convolutional neural networks (CNN) with
+the MobileNet model, several relevant references can be used to support this research. The study
+by Sema (2023) demonstrates the successful use of a CNN to diagnose mango plant leaf disease
+with an accuracy of 96.67%. Additionally, the work by Prabu and Chelliah (2022) presents the
+identification and classification of mango leaf diseases using a CNN architecture, indicating the
+applicability of CNN in disease prediction for mango leaves. Furthermore, Ma et al. (2022) discuss
+
+the training and comparison of deep and lightweight CNN models on the Plant Village dataset, with
+MobileNet achieving a test accuracy of 98.69%, showcasing the effectiveness of MobileNet in
+disease identification.
+
+Bachelor of Science in Computer Science
+
+11
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+However, it is important to note that MobileNet, like other CNN models, requires significant
+computational resources such as memory and storage capacity (Sahlol et al., 2020). This aspect
+should be considered when developing the model to ensure that the computational resources are
+adequate for the implementation of MobileNet. Moreover, the use of MobileNet in the identification
+of plant diseases, such as maize leaf diseases, has demonstrated high test accuracy, indicating the
+effectiveness of MobileNet in disease identification (Ma et al., 2022). This highlights the potential of
+MobileNet for accurately predicting papaya and mango leaf diseases.
+
+It is important to note that while MobileNet has shown advantages in various applications, it
+is not without limitations. For instance, it has been reported that although MobileNet is lighter than
+other CNN models, it commonly achieves lower classification accuracy (Kim et al., 2022).
+Additionally, in some cases, the overall recognition accuracy of other models, such as InceptionV3,
+was slightly higher, but the recognition balance and model size of MobileNet were more
+advantageous (Li et al., 2022). It is also worth noting that the performance of MobileNet has been
+compared with that of other models in various contexts. For instance, in the classification of palm
+tree diseases, the performance of MobileNet was found to be very close to that of other models,
+with a minor advantage over others (Abu-Zanona et al., 2022). Similarly, in the context of image
+classification, the precision value of the proposed MobileNet model was reported to be about
+
+99.59%, indicating its superiority over other models (Venkatesh et al., 2021).
+
+A study on bean leaf disease classification using MobileNet models demonstrated the
+effectiveness of deep learning-based models for the classification and detection of plant leaf
+diseases. Furthermore, Howard et al. (2017) highlighted the efficiency of MobileNets in building
+
+Bachelor of Science in Computer Science
+
+12
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+lightweight deep neural networks, which is crucial for mobile vision applications. Furthermore,
+Srinivasu et al. (2021) reported that mobile-net-based models exhibited better performance in
+classifying the region of interest with minimal computational effort.
+
+The architecture of MobileNet has been compared with other CNN models, and it has been
+found to be statistically better in certain experiments, indicating its competitive performance in
+specific contexts (Lacerda et al., 2021; Zhu et al., 2021). Furthermore, MobileNet's efficiency has
+been enhanced through techniques such as selective depth multipliers, local receptive field
+expansion, and pointwise group convolution, further improving its capabilities (Wang et al., 2020;
+Konaite et al., 2021).
+
+According to (Nurhayati et al., 2022) Paddy is a rice-producing plant as a staple food raw
+material for most of the population in Indonesia. The rice planting process cannot be separated
+from pests and diseases that can cause crop failure and impact on rice production stocks.
+Currently, the process of monitoring the development of rice plants is done conventionally by direct
+observation by farmers. Meanwhile, in this paper, a classification model and determination of
+object detection in rice plants infected with pests and diseases is proposed based on leaf color.
+Leaf classification applies convolution conditional network algorithm with mobilenet as the
+
+architecture and based on the study of (Sinha et al. 2019) In the field of computer, mobile and
+embedded vision Convolutional Neural Networks (CNNs) are deep learning models which play a
+significant role in object detection and recognition. MobileNet is one such efficient, light-weighted
+model for this purpose, but there are many constraints or challenges for the hardware deployment
+of such architectures into resource constrained micro-controller units due to limited memory, energy
+and power. Also, the overall
+
+Bachelor of Science in Computer Science
+
+13
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+accuracy of the model generally decreases when the size and the total number of parameters are
+reduced by any method such as pruning or deep compression.
+
+The efficiency of MobileNet in disease classification has been highlighted in various studies.
+For instance, utilized optimal MobileNet-based convolutional neural networks for automated plant
+leaf disease detection and classification (Ashwinkumar et al., 2022). Similarly, found that MobileNet
+based models exhibited better performance in classifying diseases with minimal computational
+efforts (Srinivasu et al., 2021).
+
+Based on the relevant references, it is evident that the use of MobileNet models has been
+widely explored in the classification of various plant diseases. For instance, Elfatimi et al. (2022)
+and Zaki et al. (2020) have successfully employed MobileNet models in the classification of bean
+leaf diseases and tomato leaf diseases, respectively. These studies demonstrated high accuracy
+rates, indicating the effectiveness of MobileNet models in disease classification. Furthermore, Li et
+al. (2022) highlighted the successful implementation of plant disease leaf detection on cell phones
+through transfer learning on lightweight CNNs, including MobileNet. This suggests the potential for
+
+MobileNet models to be utilized in mobile applications for leaf health classification.
+
+Furthermore, the work of Howard et al. (2017) provided insights into the architecture of
+MobileNets, emphasizing their efficiency in building lightweight deep neural networks. This
+architectural advantage aligns with the requirements for deploying models in resource-constrained
+environments, such as mobile devices, making MobileNet an attractive choice for leaf health
+classification applications.
+
+Bachelor of Science in Computer Science
+
+14
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+To classify mango and papaya leaf diseases in the Philippines, several studies have utilized
+convolutional neural network (CNN) models for disease recognition and classification in various
+plant species. For instance, Sema (2023) successfully diagnosed mango plant leaf disease with an
+accuracy of 96.67% using a CNN trained on a specific dataset. Similarly, Waheed et al. (2020) and
+S et al. (2022) developed optimized CNN models for disease recognition and classification in corn
+and mango leaves, respectively. These studies demonstrate the effectiveness of CNN models in
+accurately identifying and classifying plant leaf diseases.
+
+The large amount of research on CNN models for the classification, detection, and
+identification of plant leaf diseases highlights their efficacy and promise for precisely identifying
+papaya and mango leaf diseases in the Philippines.
+
+2.1.4 Diseases cause unhealthy leaves
+
+The unhealthy leaves in mango and papaya plants can be attributed to various diseases,
+including but not limited to red rust, anthracnose, powdery mildew, sooty mold, and leaf curl
+
+diseases caused by begomoviruses. Fungi and viruses play a significant role in causing these
+diseases, highlighting the importance of disease recognition and management strategies.
+
+To understand the causes of unhealthy leaves in mango and papaya plants, it is essential to
+consider the various diseases that affect these plants. Several studies have focused on the
+identification and management of diseases affecting mango and papaya leaves. For instance, they
+developed a technique for recognizing and classifying mango leaf diseases, including red rust,
+anthracnose, powdery mildew, and sooty mold (Saleem et al., 2021). Similarly, they utilized
+convolutional neural network models for the recognition of mango leaf diseases, incorporating
+Bachelor of Science in Computer Science
+
+15
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+anthracnose, gall machi, powdery mildew, and red rust in their dataset (Rajbongshi et al., 2021).
+These studies provide valuable insights into the specific diseases that can lead to unhealthy leaves
+in mango plants.
+
+In the case of papaya plants, this highlighted the significant implications of papaya leaf curl
+disease (PaLCD) caused by begomovirus species, leading to substantial losses in papaya
+production (Srivastava et al., 2022). Additionally, they reviewed the use of papaya leaves as a cure
+for epidemic diseases, emphasizing the phytochemical composition and pharmacological attributes
+of papaya leaves (Sharma et al., 2022). These references shed light on the diseases affecting
+papaya plants and the potential therapeutic applications of papaya leaf extract.
+
+To understand the causes of unhealthy leaves, it is essential to consider various factors
+such as diseases, pests, and environmental stressors (Dai et al., 2021). found that Fusarium
+proliferatum caused leaf curling and stem morbid elongation in rice, resulting in chlorosis and
+
+unhealthy plants (Dai et al., 2021). Additionally, Cabuy et al. (2023) observed that a significant
+proportion of Shorea palembanica leaves were unhealthy due to disease and insect pests (Cabuy
+et al., 2023). Furthermore, Sullivan et al. (2018) highlighted the detrimental impact of lesions
+bisecting the width of seagrass leaves on plant oxygen and nutrient transport, leading to unhealthy
+plants (Sullivan et al., 2018).
+
+Environmental factors also play a crucial role in leaf health. For instance, Kopaka et al.
+(2021) discovered that high air humidity encourages Guignardia aesculi-caused leaf damage,
+which results in unhealthy leaves. Additionally, Kenjabaev et al. (2020) noted that unhealthy
+vegetation exhibits
+
+Bachelor of Science in Computer Science
+
+16
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+lower photosynthetic activity, leading to increased visible reflectance and reduced near-infrared
+reflectance from the vegetation (Kenjabaev et al., 2020).
+
+The characteristics of unhealthy and healthy leaves play a crucial role in identifying plant
+diseases and ensuring the overall well-being of plants. Several studies have focused on different
+aspects of leaf characteristics to distinguish between healthy and unhealthy leaves. For instance,
+Almadhor et al. (2021) utilized texture characteristics to identify plant leaf diseases, emphasizing
+the use of machine learning for the detection of unhealthy regions on plant leaves. Similarly,
+Pereira et al. (2021) applied proximal optical sensing to differentiate between healthy and
+inoculated leaves, demonstrating the effectiveness of this approach for early disease detection.
+Furthermore, Martins et al. (2022) highlighted the influence of plant type and morphological
+characteristics on leaf health, indicating that these factors are more influential than leaf size.
+
+Based on the provided references, it is evident that the unhealthy leaf condition in papaya
+and mango in the Philippines is primarily caused by fungal diseases such as anthracnose.
+Anthracnose is a common postharvest fungal disease affecting mangoes and papayas, leading to
+significant economic losses and impacting the export competitiveness of Carabao mangoes (Ilisan
+et al., 2020; Sivakumar et al., 2021). The fungal pathogen Colletotrichum gloeosporioides is
+identified as a major cause of anthracnose in mangoes and papayas (Nga & Bac, 2021; Sivakumar
+et al., 2021). Additionally, Lasiodiplodia theobromae, another fungal pathogen, is associated with
+dieback, gummosis, leaf spot, and fruit rot symptoms in mangoes and papayas (Rego et al., 2019).
+
+In addition to fungal diseases, the presence of insect pests such as the oriental fruit fly and
+the cecid fly has been reported in the Philippines, posing further challenges to mango and papaya
+Bachelor of Science in Computer Science
+
+17
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+cultivation (Cortaga et al., 2022). Furthermore, the economic assessment of agroforestry systems
+has indicated that certain combinations, such as Lemon-Pineapple-Papaya-Banana-Aroid, are
+more productive, highlighting the importance of agroforestry practices in enhancing productivity
+and disease management (Hasan et al., 2020; Rana, 2022).
+
+In the Philippines, fungal diseases like anthracnose, which are caused by infections like
+Colletotrichum gloeosporioides and Lasiodiplodia theobromae, are mostly to blame for the ill leaf
+state of papaya and mango. Numerous approaches have been investigated to lessen the effects of
+these illnesses, including the use of chitosan, papaya leaf extract, sophisticated technology for
+disease detection, and agroforestry techniques. Mango and papaya quality preservation also
+heavily depends on postharvest handling and storage techniques. In general, managing the
+
+problems caused by unhealthy leaf conditions in the Philippines' papaya and mango crops requires
+a multidisciplinary strategy that includes innovation in technology, disease control, and agricultural
+methods.
+
+Bachelor of Science in Computer Science
+
+18
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Figure 1. Concept of the Study
+
+Figure 2-1 depicts the conceptual framework used in this study. The image datasets are first
+
+cleaned and preprocessed. The datasets are then split into two sets: the training model and the
+validation set, which is used to evaluate the performance of the models. The trained and evaluated
+model is then converted into a format for mobile inferencing. The converted format will then be
+deployed into an Android app.
+
+Bachelor of Science in Computer Science
+
+19
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+2.3 Definition of Terms
+Agriculture: It describes the practice of growing crops or raising animals. Someone who works as
+a farmer is in the agriculture industry. The Latin root of agriculture is agri, or "field," plus cultura,
+"cultivation." Cultivating a piece of land, or planting and growing food plants on it, is largely what
+agriculture means.
+
+Agroforestry: It is a farming or land management approach that combines growing trees or woody
+plants with traditional agricultural crops or livestock in the same area.
+
+Anthracnose: It is a fungal disease that affects a variety of plants, including trees, shrubs, and
+crops. It typically causes dark lesions on leaves, stems, and fruits, leading to wilting and, in severe
+cases, defoliation. Warm and wet conditions often favor anthracnose development. Management
+strategies involve pruning infected parts, applying fungicides, and maintaining proper plant hygiene
+
+to reduce the spread of the disease.
+
+Begomovirus: It refers to a group of plant viruses that are transmitted by whiteflies. The viruses
+mainly affect dicotyledonous plants, including many economically important crops such as
+tomatoes, peppers, and beans. Begomoviruses can cause symptoms like leaf curling, yellowing,
+and stunted growth, leading to significant agricultural losses. Effective management often involves
+controlling the whitefly vectors and implementing disease-resistant crop varieties. If you were
+referring to a different term, please provide more context or clarification.
+
+Colletotrichum gloeosporioides: It is a specific species of fungus that can make plants sick. It's a
+type of pathogen that causes a plant disease known as anthracnose. When plants get infected with
+Colletotrichum gloeosporioides, you might see symptoms like dark spots, lesions, or other damage
+Bachelor of Science in Computer Science
+
+20
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+on their leaves, fruits, or other parts. So, in simple terms, it's a fungus that can harm plants by
+causing anthracnose, which shows up as visible problems on the plant's surface.
+
+Chitosan: It is a special material made from the shells of sea creatures. People use it in various
+ways, such as in agriculture to help plants grow, in water treatment to remove impurities, and even
+in some dietary supplements. It's like a versatile natural ingredient that finds applications in different
+areas due to its useful characteristics.
+
+Convolutional neural network (CNN or ConvNet): It is a network architecture for deep learning
+that learns directly from data. CNNs are particularly useful for finding patterns in images to
+recognize objects, classes, and categories. They can also be quite effective for classifying audio,
+time-series, and signal data.
+
+Crop: It is a plant or plant product that can be grown and harvested for profit or
+
+subsistence. Dataset: It is a collection of examples.
+
+Healthy leaf: If your plant grows well, the leaves will look good too. Leaves shouldn't hang, curl, or
+discolor.
+
+Inoculated leaves: These are plant leaves deliberately exposed to tiny organisms like bacteria or
+fungi. Scientists do this to study how plants react to infections, helping them learn about diseases
+and find ways to protect plants.
+
+Lasiodiplodia theobromae: It is a type of fungus that can cause problems for plants. It's a plant
+pathogen, meaning it can make plants sick. This fungus is known to cause diseases in various
+
+crops
+
+Bachelor of Science in Computer Science
+
+21
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+and trees. When plants are infected with Lasiodiplodia theobromae, you might notice symptoms like
+wilting, cankers, or rotting of plant parts.
+
+Leaf curl: It refers to a physiological response or a symptom seen in plants where the leaves
+exhibit abnormal curling or distortion. This condition can be caused by various factors, including
+environmental stress, pests, diseases, or genetic factors.
+
+Machine learning It is a branch of artificial intelligence (AI) and computer science that focuses on
+the use of data and algorithms to imitate the way that humans learn, gradually improving its
+accuracy.
+
+MobileNet: It is a type of convolutional neural network designed for mobile and embedded vision
+applications.
+
+Model: It is the output of training a machine learning algorithm.
+
+Powdery mildew: It is a fungal disease that affects various plants, forming a white powdery
+substance on the leaves, stems, and sometimes flowers. It thrives in warm, dry conditions and can
+impact a plant's health by hindering photosynthesis. Control measures may include fungicides,
+pruning affected areas, and promoting good air circulation around plants.
+
+Prediction: It is what someone thinks will happen. A prediction is a forecast, but not only about the
+weather. Pre means "before,” and diction has to do with talking. So a prediction
+
+is a statement about the future. It's a guess, sometimes based on facts or evidence, but not always.
+
+Bachelor of Science in Computer Science
+
+22
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Proximal optical sensing: It means using close-up optical devices to check things without
+touching them. For instance, in farming, it's like using special cameras up close to quickly see how
+healthy crops are or check their nutrients without getting too close.
+
+Red rust: Is the reddish-brown color you see on metal when it gets rusty. It happens because the
+metal reacts with air and water. This rust can make the metal weaker over time. People use
+coatings or rust-resistant materials to stop it from happening.
+
+Sooty mold: It is a dark, powdery fungus that grows on the honeydew secretions of sap-feeding
+insects like aphids, scale insects, or whiteflies. It forms a black coating on surfaces such as leaves,
+stems, or fruit, negatively impacting the affected plant by blocking sunlight and hindering
+photosynthesis. While the mold itself does not directly harm plants, it can indirectly affect their
+health and appearance.
+
+Unhealthy Plant: The symptoms of an unhealthy plant are expressed as visible changes in its
+appearance.
+
+Bachelor of Science in Computer Science
+
+23
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+2 OPERATIONAL FRAMEWORK
+
+3.1 Materials
+3.1.1 Software
+Google Colab the study used the google colab due to the cloud-based platform that
+provides a free, web-based environment for executing Python code, particularly suited for machine
+
+learning tasks. Steps involve loading datasets, mounting Google Drive if needed, installing
+necessary libraries, building a CNN model, loading and preprocessing images using generators,
+compiling and training the model, evaluating its performance, and saving or exporting the trained
+model for future use. The researcher uploads the dataset in the google drive and connect the
+google drive account to the collab to access the dataset. Further, importing the libraries of the
+mobilenet, after importing, the dataset split into three set, training set, validation set, and training
+set, the training set is used in building model. Before start training the researcher normalize the
+image size in 254 by 254. Moreover, after normalizing the size, the researcher set 15 epochs to
+start the training a model, after the training the researcher use the validation set to test the
+accuracy of the model before convert it into model file extension. After the validation the researcher
+save and download the model. In addition, in convolutional neural networks (CNN) and image
+processing, you can use Colab to build and train models using libraries such as TensorFlow and
+Keras. The platform offers access to GPU resources, making it advantageous for computationally
+intensive tasks like training deep learning models on large image datasets.
+
+TensorFlow is an open-source machine learning framework developed by the Google
+Brain team. It provides a comprehensive set of tools and libraries for building and deploying
+machine
+
+Bachelor of Science in Computer Science
+
+24
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+learning models, with a focus on neural networks. TensorFlow supports a wide range of tasks,
+including but not limited to deep learning, natural language processing, and computer vision. The
+framework allows developers to define, train, and deploy machine learning models efficiently.
+TensorFlow's versatility makes it a popular choice for researchers, engineers, and data scientists
+
+working on various applications in the field of artificial intelligence.
+
+Android Studio is the official integrated development environment (IDE) for Android app
+creation, sanctioned by Google. This platform offers a comprehensive suite of tools to facilitate the
+entire app development lifecycle. Tailored explicitly for Android development, Android Studio is
+constructed upon the IntelliJ IDEA IDE. Key Components: 1. User Interface Designer: Employs a
+visual designer, enabling developers to construct Android app interfaces through intuitive drag-and
+drop functionality. 2. Code Editor: Features a robust code editor with capabilities such as code
+completion, refactoring, and integrated Git support. 3. Emulator: Incorporates an Android emulator
+for efficient testing of applications across a range of virtual devices, each simulating diverse screen
+sizes and Android versions. 4. Build System: Utilizes Gradle as its build system, streamlining the
+build and management processes for Android projects. 5. Debugging Tools: Equipped with tools for
+debugging, profiling, and performance analysis, it enhances the development and troubleshooting
+experience. 6. Device Deployment: simplifies the deployment of applications onto physical Android
+devices, facilitating effective testing. 7. Integration with Google Services: Seamlessly integrates with
+various Google services and APIs, facilitating the incorporation of features like maps,
+authentication, and cloud services into Android applications. Android Studio serves as a robust and
+feature-rich environment, catering to the needs of both novice and seasoned developers and
+enabling the creation of high-quality Android applications.
+Bachelor of Science in Computer Science
+
+25
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Java the study was used java programming language due to a versatile, object-oriented
+programming language developed by Sun Microsystems, known for its simplicity, portability, and
+platform independence. Central to Java's design is the concept of Write Once, Run Anywhere
+
+(WORA), allowing developers to create applications that can run on diverse platforms with the aid
+of the Java Virtual Machine (JVM). Java promotes code organization through an object-oriented
+paradigm, automatic memory management via a garbage collector, and concurrent execution
+through multithreading. Its extensive standard library streamlines development tasks, while security
+features like a sandbox environment contribute to its suitability for varied applications, including
+web development, mobile app creation (particularly Android), and enterprise-level systems.
+
+3.1.1 Hardware
+Table 3-1. shows the software and hardware specifications of the laptops and mobile
+phones that were used in the application development stage of this study.
+
+Table 1. Hardware specs
+
+Laptop Mobile phone
+
+Processor – Intel(R) Core(TM) i5-
+2540M CPU @2.60GHz 2.60GHz
+Memory – 10 GB
+OS – Windows 10
+System Type - 64 bit
+
+Mobile 1 CPU – Helio G85
+Memory – 6 GB
+Main camera – 48MP
+Mobile 2 CPU – Octa-core
+Memory – 4 GB
+Main Camera – 8MP
+
+Bachelor of Science in Computer Science
+
+26
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+3.2 Methods
+
+3.2.1 Dataset
+
+3.2.1.1 Dataset Acquisition
+In this investigation, the dataset was obtained from a comparable research endeavor, sourced
+
+and retrieved from Kaggle via the utilization of the Open Data Kit (ODK) application on mobile
+devices. The categories are segregated into two groups: healthy and unhealthy.
+
+Healthy Unhealthy
+
+Figure 2. Healthy and Unhealthy Papaya Leaf
+
+Healthy Unhealthy
+
+Figure 3. Healthy and Unhealthy Mango leaf
+
+Bachelor of Science in Computer Science
+
+27
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+3.2.1.2 Training-Validation Data Split
+
+The total combined number of images in the health dataset was 1000. The images were
+divided into two classes: healthy and unhealthy. The dataset was then divided into training and
+
+validation sets, with 80 percent allocated to the training set and 20 percent to the validation set. The
+remaining data, not utilized in this phase, was held in a test library to evaluate the accuracy of the
+models in classifying health status.
+
+3.2.2 CNNs architecture model
+
+MobileNet was a family of lightweight deep learning models designed for efficient use on
+mobile and edge devices. The primary advantage of MobileNet was its ability to provide relatively
+high accuracy in image classification tasks while being computationally efficient and having a
+smaller memory footprint. This made it well-suited for applications where resources, such as
+processing power and memory, were limited, like on smartphones or embedded systems.
+
+Bachelor of Science in Computer Science
+
+28
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+4 RESULTS AND DISCUSSION
+
+This chapter provides a presentation of the results and gathered data. The first section
+presents the results of training CNNs. The second section presents the result verification during the
+
+training of the model.
+
+4.1 Accuracy Evaluation of the Chosen CNN Model on Mobile Phone
+
+Figure 4. Accuracy Evaluation
+
+In figure 4, the MobileNet CNN model demonstrated notable accuracy in classifying leaves
+on the mobile app. Healthy mango leaves were identified with 99.7% accuracy, unhealthy mango
+leaves with 99.8%, healthy papaya leaves with 96.3%, and unhealthy papaya leaves with 99.9%.
+These results underscored the robust performance of the model in leaf classification.
+Bachelor of Science in Computer Science
+
+29
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Table 2. Prediction on actual field images
+Category Number of
+Images
+
+Correct Predicted
+
+Unhealthy Mango Leaf 5 4/5
+
+Unhealthy Papaya Leaf 5 4/5
+Healthy mango
+Leaf
+
+5 5/5
+
+Healthy Papaya leaf 5 4/5
+
+Table 2 displays the number of images for each health status obtained in the field,
+along with the number of correct predictions when the app was tested with actual images.
+
+Table 3. Accuracy and Training time
+
+Model Accuracy Training time
+(mins)
+MobileNet 0.9023 3.34
+
+Table 3 illustrates the accuracy and training time of the model. As depicted in the
+table, the accuracy reached 90% with a training time of 3.34 minutes.
+
+Bachelor of Science in Computer Science
+
+30
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+Google Collab Training Result
+
+Figure 5. MobileNet train, validation curve
+
+In figure 5, the training and validation curves of the MobileNet model are displayed. The
+training accuracy of the model was 91%. However, the validation accuracy was 88%, indicating the
+model's performance on new input data.
+
+Figure 6. Confusion matrix
+
+Bachelor of Science in Computer Science
+
+31
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+4.1.2 Classification performance of the model
+
+Figure 6 shows the confusion matrix of the MobileNet model. A confusion matrix
+summarizes the performance of a classification model on a set of test data. The mobilenet
+model correctly labeled 114 images of healthy and 20 images were incorrectly labeled. 66
+images correctly labeled as unhealthy and 23 images incorrectly labeled.
+
+4.1.3 Epoch training
+
+Figure 7. Epoch training
+
+This figure 7 shows the epoch of the training in building a model in the google collab. As
+shown the training have 9 epochs and, in each epoch, got 546 images sets of different images in
+the training set. The first epoch got 66% accuracy until it became 90% accuracy in last epoch, if
+you’ll notice in each epoch the training accuracy of the model is continue improving, this only
+shows that the images and number of epochs is fit in to avoid over fitting training of the model.
+
+Bachelor of Science in Computer Science
+
+32
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+5 SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter presents the summary of the research work undertaken, the conclusion, and
+the recommendations.
+
+5.1 Summary
+This study discussed the utilization of convolutional neural networks (CNNs) for predicting
+papaya and mango leaf health based on digital images. It emphasized the significance of the study
+for farmers and students, highlighting the potential benefits of early disease detection and informed
+agricultural decision-making. The project aimed to develop a user-friendly interface and document
+the process for broader usage, although it was limited to using digital photos and focusing on
+specific plant types. The theoretical framework outlined how digital images could be leveraged for
+predicting leaf health using CNNs.
+
+Moreover, the publication provided insights into the technology and tools utilized in the
+research, including Android Studio for app development and TensorFlow for training machine
+learning models. It also presented the theoretical background, CNN training results, and an
+accuracy assessment of the selected CNN model on mobile phones. Additionally, the study offered
+a comprehensive overview of the subject matter by defining key terms related to plant diseases
+and agriculture.
+
+Bachelor of Science in Computer Science
+
+33
+
+ISABELA STATE UNIVERSITY
+Cauayan City, Isabela
+
+COLLEGE OF COMPUTING STUDIES, INFORMATION AND COMMUNICATION TECHNOLOGY
+
+5.2 Conclusions
+1. Researchers successfully demonstrated the potential use of the MobileNet CNN
+architecture for plant health classification applications, specifically focusing on papaya and mango
+leaf diseases.
+
+2. The study highlighted the efficiency and effectiveness of the CNN model, which was the
+MobileNet model, in accurately identifying and classifying plant diseases, providing valuable
+insights for advancing agricultural practices and crop management in the region.
+
+3. The paper contributed to the field by showcasing the potential of CNNs in disease
+identification and management, ultimately benefiting farmers, researchers, and agricultural
+professionals by enhancing crop health and productivity.
+
+5.3 Recommendations
+
+Based on the results and conclusions of this study, the following recommendations are
+suggested:
+
+1. It is recommended that the project include the names of diseases in the training model
+for classification, which would enhance its utility for researchers and practitioners in plant health
+management.
+
+2. It is suggested to extend the project to include other plants of economic importance, such
+as bananas and tomatoes, which could broaden its applicability and relevance for agricultural
+professionals and stakeholders.

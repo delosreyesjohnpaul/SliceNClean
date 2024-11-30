@@ -1,0 +1,357 @@
+Solar Powered Feeder for Pet Fish and Management System
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology Isabela State University Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Jerico Y. Criste Mark Angelo B. Juarez
+
+Brian Jade C. Tabios
+
+January 2023
+
+ABSTRACT
+
+Fish breeding stores or fish shops operate their fish feeding and breeding systems by hand. The owner of a few fish breeding facilities and pet stores hires a person or people to watch over the fish in the aquarium and feed them twice a week In addition, developing a Solar Powered Feeder for Pet Fish and Management System that will greatly assist pet fish owners and the productivity of the farm was to help them operate more without bearing too much of a cost on other things. The study was also very beneficial on the part of the pet fish owners especially for those people who lead hectic lives or when on vacation because some fish are sensitive normally need to be fed once or twice a day. This study. "Solar Powered Feeder for Pet Fish and Management System," aimed to identify the problems encountered by pet fish owners in using manual feeding. It also aimed to design and develop a working model that automatically feeds the fish and monitors the acidity of the water. Moreover, evaluate the system based on ISO25010. Based on the findings, the researchers concluded that the feeder helps the pet fish owners to automatically feed their fishes. The feeder can consistently operate by the user. The researchers concluded that the implemented system according to its result in terms of functionality with the weighted mean of 4.38, usability with the weighted mean of 4 27, performance efficiency with the weighted mean of 4.28, and reliability with the weighted mean of 4.15. In conclusion, there are more advantages of the proposed system unlike the traditional manual feeding in feeding their fishes. Project Context
+
+Fish can be fed by hand, and many fish farmers like to hand-feed their fish each day to ensure that the fish are healthy, feeding vigorously, and exhibiting no problems
+
+Often times the first questions aquarists ask, especially those who are new to the
+
+hobby, are about feeding What do I feed my fish, how much should I feed them, and how often?
+
+The feeder is designed to feed at the appointed time or depending on what the owner wants. This project is significant because it promotes sustainability of solar power while also reducing the workload of the owner.
+
+According to Paculanan (2021), automatic feeders remain the greatest alternative for feeding fish to replace the human technique, and they are also the cheapest and most accurate method due to the low cost of microcontrollers.
+
+Additionally, creating a Solar powered fish feeder with an acidity sensor that would benefit fish breeders and the owner's productivity was done to help them work more efficiently without incurring too much expense on other things. Because some fish are sensitive and typically need to be fed once or twice a day, the initiative was also highly practical for fish breeders when they were on vacation and for people leading hectic lives. Traditional feeding is carried out by hand. Objectives of the Study
+
+The main objective of the study is to design and develop a working prototype that would automatically feed the fish. The detecting on the prototype water condition is to
+
+ensure that the fish inside the aquarium is healthy at its right water acidity
+
+Specifically, it aimed to:
+
+1 identify the problems encountered by pet fish owners using conventional method of feeding fishes in the aquarium.
+
+2 evaluate the developed prototype in ISO standard 25010 in terms of,
+
+a) functional suitability:
+
+b) usability,
+
+c) performance efficiency, and
+
+d) reliability.
+
+Significance of the Study
+
+The findings of this study will redound to the benefit of society considering that technology plays an important role worldwide. Having a convenient technology means that there are so many things to do. Thus, having a Solar Powered Feeder for Fish Pet Stores that can be accessed by anyone is convenient in any way.
+
+The Future Researchers
+
+The studies that are presented may be used as reference data that may be related to the subject.
+
+The Fish Pet Store Owners
+
+This study may serve to lessen their workload, usually they feed the fishes manually so it is very laborious. And also, aquarist leads a busy life especially those who are away on vacation. The Fish Pet Owners
+
+It is the same as the fish pet owners but much more of to have time for their pet fish to feed
+
+Scope and Limitations
+
+The scope covers the list of capabilities that a solar powered Arduino-based fish feeder can perform and are placed in to fish pet store. This project was programmed so that it is used to keep fishes in the aquarium feed automatically following the water acidity sensor readings. The prototype utilized two different sensors light sensor and acidity sensor. When the prototype feeds the fish, it sends an SMS notification to fish owner when the container is nearly empty. In addition, fish owners can also view the water acidity sensor readings in the 2x16 LCD screen in the feeder.
+
+The prototype only focuses on small pet fish on fish pet store or home-based aquarium owners. And the 2x16 LCD screen only focuses in the water acidity readings and also SMS notification. While feeder container is mainly controlled by DC motors to aid the dispensing of feeds from the container and also the feeders time delay in releasing feeds can be configured in a smartphone through Bluetooth. The prototype would be capable in releasing feeds twice a day or at a given time. CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter is the discussions on past research and developed systems related to the proposed project. Previous research can serve as a general description and may broaden the topic It helps the researchers in order to have a clearer background in the development of the proposed system project.
+
+Fish Feeder
+
+In most of the automatic fish feeder systems Dhavale (2019), it is not easy to control the quantity of food that was released For indoor fish feeding system such as aquarium, a small device is suitable but the outdoor ponds might require to build a bigger system with big water storage. The size of the water storage and the dense of the fish determine the number of times the fish owner needs to do disperse the fish food
+
+According to Mohd (2020), fish farming has growth fast in capacity and became a main provider of seafood. This rapid development has emerged due application of present technologies applications as well as the transform in the fish farming community structure
+
+Therefore, monitoring and controlling the feeding activities of these farms playing a vital role as overfeeding and starvation risk the fish health, which leads to a poor water quality in indoor fish tanks.
+
+Jadhay (2020), stated people having domestic pet fish are in distress when they aren't in town to feed and take care of their fish. This may lead to overfeeding or starvation of the fish without feed. Currently, there are Arduino based systems that could serve the purpose with scheduled feeding of the fish. But the owners will be still in distress for not knowing the condition of the fish from their remote locations
+
+Khater (2021), an automatic feeder for fish feeding was manufactured and evaluated successively. Feed pellet size, air flow rate and feeder screw speed were the most important factors affecting the performance and efficiency of the automatic feeder.
+
+According to El Shal (2021), the conventional methods of supplying feed to tilapia tanks are ineffective It is better to find new a automatic feeder saving pellets from crushing and cohesion without hitting pellets during feeding at a predetermined interval of time and an accurate amount of food with a larger surface arca covered by pellets Developing-country fish farmers use manual feeding to be more cost-effective than with costly mechanized feeding.
+
+Paculanan (2021), stated automatic feeders remain the greatest alternative for feeding fish to replace the human technique, and they are also the cheapest and most accurate method due to the low cost of microcontrollers.
+
+According to Abu-Khadrah (2021), people have always enjoyed having pets around them, but in today's hectic world, it might be difficult to properly care for pets, particularly fish, which require more attention. When fish owners are out of town, their fish may be left with a feed shortfall or over-feed. Another consideration is the water quality.
+Bimal (2021), in his article "Aquacultural Facilities and Equipment," included are information about their design and operation. The feeder was created by the author, and theoretical analysis was done to determine when the various feed compartments opened. Data that the author's cxperiments produced lend credence to this. We go into detail about the demand feeder, automatic fish feeder, and solar-powered feeder that were all developed at the Central Institute of Freshwater Aquaculture in Bhubaneswar, India. Included are the design and construction of a demand-type fish feeder. The benefits of demand feeders and solar power operations are covered. The demand feeder's design specifications, constructional information, and specifications for additional parts like the electric switch, trigger assembly, and feed dispenser assembly are all included.
+
+Mohammad (2021), in the study "Smart Fish Feeder Using Solar Energy." an innovative idea in the present trend is the "smart fish feeder," which uses Internet of Things (IoT) technology to monitor, run, and deliver vital information and status to the entire farming system. In order to power a servo motor and temperature sensor that are connected to a NodeMCU for the agriculture system, this project seeks to give such crucial proof of concept that makes use of lot technology along with solar energy. The primary goals of this project are concentrated on creating a smart fish feeder that can be powered by a solar system, charged by an lot system, and operated by it. Such a fish feeding apparatus was run by a 12V battery and a 10W solar panel under the supervision of a solar charger controller.
+
+According to Anas (2020), the goal of this study is to create and install an automatic feeder to feed aquarium fish when their owners are away for an extended period of time or forget to do so because of their hectic schedules. In Auto Desk Fusion 360 software, the mechanical drawing for the feeder is created, and then a 3-D printer is used to fabricate it. The intended mechanical system has been combined with an Arduino microcontroller board for autonomous feeding, which uses a servo motor to open and close the food chamber door. This inexpensive, portable feeder's performance has been
+
+evaluated, and it has proven to be reliable in dispensing the right amount of food.
+
+According to Oseuke (2018), fish farming is becoming a profitable industry since it helps developing nations achieve food security and poverty elimination; yet, in Nigeria, the feeding procedures are still carried out by hand. Therefore, an automated fish feeder that automatically feeds the feeder at a set time was devised, manufactured, and tested to address the issue with manual feeding in aquaculture. This ends the laborious process of manual feeding. The machine could distribute 420g of feed pellets in 90 seconds and was electrically operated. 250 rpm was the maximum shaft speed.
+
+According to Emmanuel (2019), the popularity of keeping fish in aquariums for decorative purposes has increased throughout time. Electronic gadgets called automatic fish feeders can dispense fish food at predetermined intervals. They comprise of a trigger or switch to initiate the dispensing mechanism, which typically uses a motor, and timing electronics to keep track of the passage of time. Depending on the timing of the food release and closure, the motor's to-and-fro movement regulates the amount of food dispensed. Automatic fish feeders free the fish owner from the regular chore of feeding the fish and are frequently useful when the fish owner is unavailable or occupied. Simply making sure there is enough feed in the tank is all that the owner needs to do.
+Izelldin (2020), stated that the capacity of fish farming has rapidly increased, and it is now a major source of seafood. Due to the use of current technologies as well as changes in the fish farming community structure, this rapid development has emerged. Monitoring and regulating these farms' feeding practices is crucial since overfeeding and malnutrition put fish health at risk and lower the quality of the water in indoor fish tanks, This paper outlines the design and implementation of a fish feeder using a NodeMCU microcontroller with an integrated Wi-Fi module. The created system gave fish owners the ability to check the fish feeder in their tanks for proper operation, set feeding schedules for the fish, and monitor water quality using pH sensors.
+
+Electronic Feeder
+
+Fish have been kept by humans for thousands of years for commercial, scientific, and aesthetic reasons. These fish are kept in aquariums, ponds, and other enclosures and need to be fed on a regular basis (Ogunlela 2017) The fish owner manually distributing food at regular intervals is a traditional feeding technique. Fish owners may forget to feed their fish at the appropriate times or may offer the wrong amount of food.
+
+Anyadike (2017), stated automatic fish feeders are electronic devices that may dispense fish food at predetermined intervals. The fish owner only needs to pour feed into the feeder's storage tank, and the auto feeder handles the feeding.
+
+According to Rizal (2021), feeding fish is a process that affects fish yields. Undisciplined feeding of fish resulted in decreased quality and quantity of fish. The potential for this problem can be reduced by implementing an loT-based technology.
+That technology needs to have a monitoring system for remaining feed and the success of feeding
+
+Based on the study Automatic feeders of Nasir et al. (2016), feeders are in existence but they are expensive and not readily available in many developing countries Another type of feeder is the mechanical feeder, which is in high demand. The fish activates the feeding mechanism by striking a lever or panel, which releases the food. In this scenario, it takes time for the fish to learn how to use the feeder, and once they do, they continue to feed since fish, like most other animals, cat whenever food is available, which leads to overfeeding and aquarium pollution, as it is the most visible indicator of overfeeding
+
+Jodine (2022), studied the ability to research feed intake in many livestock. Her paper stated that species has improved with the invention of electronic feeders. All electronic feeders have the same fundamental function and design, with adjustments made to accommodate the physiological variances between the various species of cattle, pigs, and sheep. The current study will concentrate on electronic pig feeds. Prior to the invention of electronic feeders, pigs were kept in separate housing, and the amount of feed they consumed was physically weighed and recorded. Thus, the introduction of electronic feeders, which enables pigs to be housed in groups, has the potential to lower labor and housing expenses. Electronic feeders generate a lot of data, some of it is inaccurate.
+
+Solar Powered Feeder
+
+Based on Alammar (2018), in their study, fish breeding is a promising branch of farming, so the creation of tools for automation of this area is quite relevant. Feeding on fish farms is the main component of the successful functioning of such businesses. However, this process requires an in-depth preparation, as each species of fish has a different food culture, as well as various behaviors during nutrition. Moreover, in the method of feeding fish, farmers must take into account the age, size of the fish, and other characteristics.
+
+According to Shahiran (2021), smart fish feeder is an emerging concept of the current trend which use Internet of Things (IoT) technology to operate, monitoring and provides crucial information and status to the whole farming system
+
+Valencia (2022), stated that automated fish feeding has been developed to automate food carrying and handling of fish products and to automate the feeding of the fish to overcome feed waste, malnourished or over fat fish and water pollution problems.
+
+Osueke (2019), stated fish cultivation has become a worthwhile business activity, as it promotes food security and poverty eradication in developing countries; however, the feeding processes are done manually in Nigeria.
+
+According to Khaledian (2021), Solar farms that are incorporated into distribution substations frequently employ solar distribution feeders. This research focuses on a real- world solar distribution feeder, and employs micro-PMU measurements to carry out am event-based analysis. A behind-the-meter solar farm with about 4 MW of generation
+capacity and over 200 low-voltage distributed photovoltaic (PV) inverters is the subject of the study's solar distribution feeder. The following practical issues are ones that this study's event-based analysis aims to address. First, using an unsupervised machine Iearning method, we carry out event detection. Identify the source region of cach event using an impedance-based analysis in conjunction with a descriptive analytic approach. We distinguish between events that are locally created by the solar farm, or "solar farm- induced events," and those that are grid-induced, or "grid-induced events," which resulted in a response from the solar farm. Second, in order to draw statistical conclusions for the locally caused occurrences, investigate the effect of solar production level and other key characteristics. Third, describe the solar farm's response to grid-induced events and compare it to the response of an additional nearby feeder to the same occurrences. Fourth, examine various individual occurrences, for example, by exposing the dynamics of the solar distribution feeder's control system. The utility and solar power industries can learn from the findings and results of this study.
+
+Aquarium Fish
+
+Ali (2020), stated marine life in aquarium are continuously producing harmful impurities and proteins which should be continuously removed is considered as a big problem in today's aquariums. The water is equally important for living lives. The marine life requires equal attention for clean environment.
+
+According to Gaidhani (2022), in these days, fish tank keeping is popular, people from all age group be fond of keeping fish in their home, office, etc. In the aquarium if tank is not properly maintained, fish will be intended to an uncomfortable and short life. 
+Hence it is not easy to control and monitor water conditions closely and enhance the water quality
+
+The study of Rains (2018), focused on conventional farming, which can pollute the environment with pesticides and synthetic fertilizers, alternative farming methods are frequently more productive and successful at resource conservation. Students can work together to design an alternative farming system in the classroom in order to learn about the theory, implementation, and related scientific ideas of sustainable farming techniques This article provides information about aquaponics, a soilless agricultural technique that combines hydroponics with aquaculture. Through the use of a recirculating system, fish and plants develop a symbiotic interaction that results in a productive agricultural system that uses little water. A live fish tank is placed below a plant grow bed in a basic aquaponics system. Water is transferred from the fish tank to the plant grow bed using a small aquarium pump.
+
+Hossain (2018), stated the common aquarium fish known as the damselfish, often
+
+known as the demoiselle, is a small, tropical, marine fish belonging to the Pomacentridac
+
+family (order Perciformes). It has roughly 250 species and is found in the Atlantic and
+
+Indo-Pacific oceans. These fish are prized not only for aquarium use but also for their
+
+ecological and monetary value. Therefore, determining their biomass accurately is a
+
+crucial task. Visual sampling methods, raft and floating radio frequency identification tag
+
+systems, minnow traps, removal methods of population assessment, etc. are common but
+
+difficult, expensive, and labor-intensive methods for determining fish biomass.
+
+Based on the study. Event-based analysis of solar power distribution feeder using micro-PMU measurements of Kamalakannan (2021), understanding fish behavior is crucial, just like any other type of pet. The way fish act and behave gives us a good picture of their bealth and the environment they live in, including how well the water in their aquariums is maintained, among other things. Technology for monitoring fish activity often refers to the employment of acoustic or machine-vision technology to gather data on fish behavior As a result, assessing the welfare of a small number of people may not accurately reflect assessing the welfare of a group as a whole, and vice versa. This emphasizes the necessity to create practical, on-farm behavioral welfare indicators that can be used to quickly evaluate everyone's welfare as well as the welfare of the entire group
+
+According to Novak (2020), one of the most well-known pastimes in the world today is maintaining ornamental fish, which has both known positive and negative features, including the invasion of non-native species. Despite this, the history of the earliest importations of tropical freshwater fish species for ornamental uses has never been well researched and is typically simplified. Here, we give the first in-depth analysis of reported imports from the beginning of this aquaculture sector's existence to the First World War's conclusion. The total number of species kept has also been updated, along with a projection for the future. We underline the significant role of German importers at this time and give the facts in a broad context of both historical and contemporary links and opinions. The phrase "German aquarium phenomenon" is put up in this regard
+
+Fish Feeding
+
+According to Li (2020), fording is a main laten costs and water quality of aquacolture Analyus of fish feeding vir fests an important part of the feeding optimization, Fish fonding has generally been perfused with automatic feeding machines which can lead to ficient feeding Recognition of fish feeding behurvior can provide valuabiting fooding quantity,
+
+Based on Amundsen (2019), in his study, Feeding studies take gats-critical review and recommendations of methods for stomach contents analysis in fish Studies un the feeding ecology of fish are essential for exploring and contrasting toughώς ίπτετιετίσαι and population and community dynamics within and among aquatic ecosystems. In this respect, many different methods have been adopted for the analysis of fish stomach contents. No consensus has, however, been reached for a standardized metodology despite that for several decades there has been an ongoing debate about which methodical approaches that should be preferred.
+
+Zhou (2018), stated in aquaculture, feeding is the primary factur determining efficiency and cost, so it is important to know when to stop feeding to maximize efficiency. Until now, fish feeding has been mostly based on artificial discrimination, which is usually time-consuming and laborious. In recent years, intelligent feeding control according to changes in behavior and growth status has gained increasing attention.
+According to Tihin (2021), the inability of Indonesia's fisheries sector to be sustainable is both a strategic concern and a significant overall challenge. This study will look into how Industry 4.0 should be implemented in the fisheries industry and what will happen when this smart feeder technology is used. Our value proposition is to simplify pond feed management for farmers and boost the financial benefit of feed purchases. In order to implement an automatic ordering system when it is anticipated that the feed would run out, this project intends to create an automatic feed machine for fishponds that is integrated with the feedstock in the storage. Additionally, a cooperative approach is used to carry out food warchousing on a tearing basis. Designing an intelligent application system for fish feed buying and distribution is the study methodology. Although various Industry 4.0 technologies are used in this continuous integration and delivery for fish auto feeder, portion of the flow still uses manual processes.
+
+Volkoff (2020), in the paper, Effects of temperature on feeding and digestive processes in fish. Since the majority of fish are ectotherms, temperature has a significant impact on their physiology. Their metabolic rate is impacted by temperature, which also has an impact on their activity, including eating and moving around. The ability and desire of fish to cat, as well as how they digest food, assimilate nutrients in the gastrointestinal tract, and store surplus energy, are all influenced by temperature. Fish exhibit a great deal of species-specific variation in their habitats, feeding habits, and anatomical and physiological characteristics, therefore the impacts of temperature are complex. Temperature impacts are influenced by exposure timing, intensity, and duration as well as by how quickly temperatures change. As opposed to long-term gradual temperature changes that can result in acclimatization, such as changes in the metabolic and digestive enzyme profiles, acute short-term temperature changes can have significant, frequently negative impacts on fish physiology
+
+According to Li (2020), Aquaculture production costs and water quality are largely influenced by feeding. The optimization of feeding includes analyzing fish feeding behavior. Traditionally, fish have been fed automatically, which might result in either an excessive or inadequate feeding. The optimization of feeding quantity can benefit from recognition of fish feeding behavior. The correlation and accuracy of behavior recognition are often low due to the complexity of the surroundings and the ambiguity of fish behavior. There are still significant obstacles in the way of accurately identifying fish eating behavior.
+
+According to Tonella (2018), in order to uncover trophic factors that may explain the success of these species in the new basin over a 30-year period, this study compared the feeding strategies of nine fish species in their native basın (the Cuiabá River) and in an invaded basin (the upper Paraná River). The following predictions were examined specialist feeders are favored in the invasion process provided that their food sources are readily available in the invaded area, and species that exhibit omnivorous or piscivorous diets in the native basin are favored in the invasion process over the long term. The data confirmed these hypotheses; the invasive species had great trophic plasticity (omnivores), ate a wide variety of foods from distinct trophic guilds (piscivores), or if a species had a specialized diet, the resources required are plentiful (detritivores). Therefore, from a long-term viewpoint, the food supplies consumed by these species in aquatic environments are rarely limiting, and their feeding traits should be one of the crucial variables influencing the success of fish colonization. For the purpose of creating management strategies targeted at reducing the effects of biological invasions, it is essential to comprehend the characteristics that determine an invasive species' success in new environments.
+
+Luna (2019), stated that economic considerations are typically regarded as the most significant issue for choosing the best feed for aquaculture. The complexity of management decisions today, however, has increased due to the consideration of factors like product quality and environmental sustainability. In this sense, there is rising acceptance that an organization's financial outcomes are directly impacted by the standard of the environment in which it operates. Unfortunately, aquaculture producers are less able to modify their production strategy to more environmentally friendly production methods due to the difficult integration of all these sometimes conflicting aspects. The outcomes demonstrate the value of this methodology in incorporating a wide range of criteria in the assessment of various alternatives and in doing an effective sensitivity analysis that examines the influence of various hypotheses on stakeholders' choices.
+
+Aquaculture
+
+According to Boyd (2020), through historical, present, and future views, significant operational changes that have been gradually internalized and new strategies that are emerging as part of the movement toward sustainable intensive aquaculture production systems are described. Production efficiency improvements are continuing to lead to enhance economic and environmental sustainability. As a result of lower
+
+greenhouse gas emissions, aquaculture keeps lowering its carbon footprint. The domestication of species, improved feed management practices and increased knowledge of nutrient requirements, efficient feed ingredients and additives, decreased use of freshwater and land resources per unit of production, and new farming techniques are all currently being used or being evaluated. In order to adequately meet the rising demand for protein and the needs for food security, successful expansion into the culture of marine species, both off and on land, offers the potential for significant increases in sustainable intensive aquaculture production. These efforts will also integrate efforts to increase efficiency
+
+Valenti (2021) stated that during the Dutch rule of the northeastern region in the 17th century, aquaculture in Brazil most likely got its beginnings. By tradition and type of cultured organism, this industry can currently be separated into five primary sectors: freshwater fish, marine shrimp, mollusks, freshwater prawns, and frogs. Production for 2019 was projected to be 800,000 tonnes, with a $1 billion gross profit. The majority of the fish produced are freshwater fish, then marine shrimp. Nile tilapia, tambaqui, and Pacific white leg shrimp are the three most widely cultivated species. The socioeconomic value of other species is enormous locally Small farms account for the majority of production; more than 80% of them have less than 2 ha. Brazil is home to more than 200 000 freshwater fish farms, over 3000 marine shrimp farms, and about 100 organizations dedicated to aquaculture research. There is a sizable domestic market for edible fish and shellfish, decorative fish, baitfish, and juvenile fish raised in hatcheries for biomitigation. To support a long-lasting industry, it is difficult to create production methods that are truly sustainable. It is possible to boost productivity using new technologies, such as digital devices and straightforward disruptive inventions, and to promote the transition to a circular economy, bioeconomics, and sustainability supported by scientific advances and information.
+
+According to Gephart (2020), freshwater and marine foods are in greater demand worldwide and are being cultivated to a greater extent. A variety of species and growing techniques are used in aquaculture, which has a variety of effects on the environment, the economy, nutrition, and society. As a result, the future of aquaculture will have an impact on environmental and human health. This has led to a drive for nutrition-sensitive aquaculture, which aims to improve public health by producing a variety of seafood that is rich in nutrients and facilitating equitable access. Using a qualitative scenario method, this research investigates conceivable aquaculture futures and their contribution to nutrition security. Four scenarios representing systems that are either localized or globalized, and that are oriented toward maximizing sectoral economic growth or to meeting environmental and equity dimensions of sustainability, were bound by two economic development dimensions the degree of globalization and the dominant economic development philosophy. The potential role of aquaculture in enhancing food security is then assessed for each case. The contribution of aquaculture to addressing health inequities is more likely in the economic and political context of a more globally harmonized trade environment and where economic policies are focused on social equity and environinental sustainability, even though aquaculture could be "nutrition-sensitive" under any of the scenarios According to Dawood (2021), in order to boost productivity, intensive culture techniques are typically used. However, we assume that in these systems, stress and infection damage fish health. A lack of resources or a challenge in optimizing the raising circumstances could cause such systems to fail Aquatic creatures gradually quit feeding when intensive culture systems fail. As a result, their physiological condition declines and their immunity is weakened Fish can be protected from sickness using a variety of tactics, such as feeding them a balanced diet that promotes digestion and intestinal health while boosting immune. Numerous studies have shown that balanced meals that meet the fundamental nutritional needs are the essential determinant in preserving intestinal health in aquatic animals. Utilizing various non-nutritional food additives that boost the activity of helpful bacteria and the release of digestive enzymes while reducing the activity of dangerous bacteria is another method for enhancing the local immunity of the intestine. By discussing the results of linked investigations, this review paper attempted to elucidate the connection between a balanced aquafeed and the intestinal health of aquatic animals. It is anticipated that knowledge of this connection between diet and intestinal health will help the aquaculture sector create appropriate nutritional strategies that guarantee the protection of fish health.
+
+Dauda (2019), stated that due to rivalry brought on by other production and development sectors' use of natural resources, such as land and water, intensifying aquaculture has become a viable option for boosting aquaculture production. However, intensification calls for more inputs per unit of culture area, such as fish and feed, which leads to more waste being produced by the aquaculture production systems. The impact of aquaculture waste products has raised public concern and endangers the long-term viability of aquaculture methods. It is imperative to develop culture systems that will increase fish production while providing effective waste management in order to prevent environmental degradation brought on by aquaculture wastes and ensure its sustainability. The need for increasing aquaculture product production cannot be overstated.
+
+According to Garlock (2020), the majority of discussions concerning the output of aquaculture worldwide and its potential for growth in the future center on Asia. Around 89% of the world's production in 2016 was produced by Asian nations. However, focusing only on Asian aquaculture ignores the fact that "the blue revolution" is taking place in the majority of the world. This study evaluates global growth rates at the regional, species, and country levels to look for trends in the development of aquaculture production. The findings indicate that certain non-Asian nations are producing more than major Asian producers. Moreover, despite being the top producers until the 1970s, the majority of industrialized nations have only had a minor impact on the blue revolution.
+
+The study of Dawood (2020), focused on Application of fermentation strategy in aquafeed for sustainable aquaculture. Fishy meal is a common animal protein source in the aqua feed industry due to its excellent nutritional content, palatability, and improved digestion. However, the use of fish meal (FM) in aquaculture is severely constrained by a lack of resources and escalating costs. In light of this, great attempts have been made to find sustainable protein sources to replace FM. Plant protein sources have been restricted in aqua feed due to their relatively low protein content and palatability, the presence of anti-nutritional factors (ANFs), and unbalanced amino acid profiles, whereas animal protein sources can replace FM in aqua feed due to their high protein content, total digestible dry matter, and absence of ANFs. The function of fermentation in enhancing the nutntional value of sources of protein from plants and animals has long been acknowledged. Aquafeed can be created by combining the protein sources with the proper microbes to preserve their nutrients and reduce feed costs and environmental harm. Aquafeed's nutritional value may be increased by fermented meais because they demonstrated greater nutrient efficiency. The goal of this review was to provide more recent information on the use of fermented substances in the aquafeed business. Based on the data gathered, this evaluation will help advance research into the creation of fermented feed as a useful feed for environmentally friendly aquaculture.
+
+According to Ahmad (2021), when it comes to producing a source of protein for human consumption, the aquaculture business has grown significantly in importance. The demand for aquaculture is expected to expand along with the world population and account for 62% of all worldwide production by 2030. Aquaculture demand accounted for 46% of the overall production in 2018, according to reports, and given the present encouraging trends, it could rise further in the years to come. China continues to be a major producer of aquaculture worldwide. Due to the increasing demand, aquaculture production produces significant amounts of wastewater, endangering the ecosystem. Aquaculture effluent contains nutrients and contaminants of rising concern, as well as solid waste and dissolved elements. As a result, it has negative effects such cutrophication, chemical toxicity, and food insecurity, Culture systems, artificial wetlands, biofloc, and other treatment technologies can be used to remove waste. Some techniques could be used as zero-waste discharge treatments.
+
+According to Ahmed (2019), as capture fisheries have stalled, there is enormous
+
+pressure on aquaculture productivity to rise in order to fulfill the need for food from a
+
+growing global population. Aquaculture has brought up a number of environmental
+
+issues, nevertheless, and any further growth in aquaculture output will confront
+
+significant environmental difficulties. Global aquaculture production will be further
+
+threatened by the consequences of climate change. A variety of climatic factors, such as
+
+cyclones, droughts, floods, global warming, ocean acidification, variations in rainfall,
+
+salinity, and sea level rise frequently put aquaculture at risk. Aquaculture's environmental
+
+implications must be greatly reduced for its growth to be sustainable. Climate change
+
+adaptation is also required to increase fish production without harming the environment.
+
+Recirculating aquaculture systems (RAS), expanded seafood farming, and integrated
+
+aquaculture are a few adaptation options that could improve aquaculture production,
+
+environmental sustainability, and climate change adaptability.
+
+Figure 1. Conceptual Framework of the Study
+
+The figure above presents the different inputs, process to follow, and expected output. The input column contains the hardware requirements, namely Arduino Board, DC Motor, GSM Module, Light Sensor, Acidity Sensor, Bluetooth Module, and as well as software requirements such as Arduino IDE, Cl, and C++ The methodology. specifically the Spiral Model, is presented in the process column, which involves different phases: planning, analysis, design, coding, implementation and testing. The output column contains the developed system itself. Feedback was reviewed and used to improve the system further.
+
+Figure 1. Conceptual Framework of the Study
+
+The figure above presents the different inputs, process to follow, and expected output. The input column contains the hardware requirements, namely Arduino Board, DC Motor, GSM Module, Light Sensor, Acidity Sensor, Bluetooth Module, and as well as software requirements such as Arduino IDE, Cl, and C++ The methodology. specifically the Spiral Model, is presented in the process column, which involves different phases: planning, analysis, design, coding, implementation and testing. The output column contains the developed system itself. Feedback was reviewed and used to improve the system further.
+
+CHAPTER III DESIGN AND METHODOLOGY
+
+This chapter presents the design and methodology of the research and researcher used this method to develop a proposed project entitled "Solar Powered Feeder for Pet Fish and Management System". It shows the system design of the study and the data gathering
+
+Requirement Analysis
+
+Conceptual Diagram
+Figure 2. Conceptual Diagram
+
+In the figure above, it shows the data flow diagram of the Solar Powered Feeder for Pet Fish and Management System. The researcher uses this diagram for the user to casily understand the process and flow of the proposed project.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+This part discusses a different phase of the spiral model. This model is designed until the proceeding phase is complete. The researchers used the spiral model as a guide in establishing a Solar Powered Feeder for Pet Fish and Management System.
+
+Figure 8 Spiral Model
+
+The figure above shows the System Development Life Cycle (SDLC). SDLC provided the alternative model that focuses more on title, planning, analysis, design, implementation and testing phase: This is where the system tells the user the results or the problem occurred in water being sensor by Arduino.
+
+Phase 1: System Planning
+
+This phase is the most important system. This phase involves understanding what you need to design and what is its function. We determine the problem first to find out what's going well. We make sure this system has good flow and planning. In developing the system, you need to know all the hardware that you will use as well as the users.
+
+Phase 2: System Analysis
+
+In this phase, we should study every requirement we use so that the result or output of the system is desirable or is right in determining which computer language should be used for designing the software and hardware.
+
+Phase 3: System Design
+
+In this phase, all designs are evaluated and defined as hardware and software to make system development easier.
+
+Phase 4: Coding
+
+In this phase, after the design, the coding will be started based from the system flow. The hardest part of developing the system is the preparation of this phase
+
+Phase 5: System Implementation
+
+This phase is a verification phase. Based on the algorithms written in the previous phase, software program is written. For every module, software code is written and tested to check if the correct output is received.
+
+Phase 6: System Testing
+
+Once the system development is completed, we will begin to test cach component and make sure the developed components are working correctly. It must be used by the respondents and evaluate the system to know their response or suggestions to the project that will help us to improve our system.
+
+Research Instrument
+
+The researchers used a survey questionnaire as the main data gathering tool. The questionnaire was formulated to determine the opinion, suggestions and recommendations from the respondents for the improvement of the proposed system. It consists of the weighted mean interpreted using the Likert Scale below.
+Statistical Treatment
+
+Data were analyzed using frequency distribution to determine the number of respondents and weighted mean to decide on the definitive interpretation in the Likert Scale. In finding the weighted mean, the researchers used this formula
+
+Development and Testing
+
+Development
+
+The researchers used this method to design and create a sample prototype for the feeder and water quality monitoring
+
+Testing
+
+The researcher will collect input from the respondents who will be performing the testing procedures during this process.
+
+Data Gathering Procedure
+
+To be able to gather data, this study used a questionnaire as the main instrument and also used an interview method to support the information and data gathered from the related literature. This was also be supplemented by observation and documentary analysis
+
+Internet research
+
+Instead of going to the library, researchers use this tool to find the information they need by searching the internet.
+
+Data Analysis Plan
+
+It is the process of looking at and summarizing data with the intent of looking at and summarizing data with intent to extract useful information and develop conclusions and recommendations 
+
+Questionnaire The researchers used a questionnaire to gather data from the respondents based on ISO 25010
+
+Different Software Testing
+
+Testing
+
+The system was used by the respondents to the project for evaluative purposes to reduce reliable information that would make the project more efficient for the targeted agency
+
+Unit Testing
+
+The researchers used this method to determine the control of data. The usage procedure and the operating procedure have been tested to see whether they fit or not.
+
+Compatibility Testing
+
+The researchers installed the feeder on few sizes of tanks/aquarium. The mobile app can be opened by any smartphone with Bluetooth.
+
+Performance Testing
+
+In performance testing, the researchers tested the mobile application on few versions of android. They tested the speed, responsiveness, and efficiency of the app. This ran efficiently, especially on latest smartphone today.
+
+Stress Testing
+
+In conducting this stress testing, the researchers tested the stability and reliability of the system. This phase was performed to find the upper limit capacity of the system and to determine the limits of normal operation.
+
+System Testing
+
+The researchers tested the system with the respondents of this study, who are the pet fish owners and home-based aquarium owners, on how to run the app by installing it.
+
+Acceptance Testing
+
+The researchers evaluate the system's compliance to determine whether it is acceptable for delivery. This was done to determine if the pet fish owners agreed and all the requirements were met
+
+CHAPTER V SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary
+
+The main objective is to design and develop Solar Powered Feeder for Pet Fish and Management System to reduce the workload and problems faced by aquarium owners or fish enthusiasts through a modern solution in development of advance technology. To address the problem of the aquarium owners and enthusiast, the researchers created a prototype that would automatically feed the fish in the tank/aquarium with specific period of time and the monitoring process of the water quality through advance technology, The prototype can detect the water acidity and can be viewed in the 2x16 LCD screen in the feeder.
+
+The data gathered was analyzed using a weighted mean and descriptive interpretation to determine the acceptability of the developed prototype as evaluated by 30 fish pet owners and home-based aquarium owners.
+
+Based from the responses within the problem encountered in conventional method of feeding fishes in the aquarium the researchers observed that the problem "The manual way of watering needs manpower to water the plants" obtained the highest mean of 4 47 which falls on "strongly Agree" interpretation while the problem "Due to my busy daily schedule, I only feed my fish once." got the lowest mean of 4 17 which also falls on "strongly agree"
+
+Based on the evaluation of the functional suitability, usability, performance efficiency and the reliability of the study which rated by the respondents has 4.27 general
+
+mean which means the study solar powered feeder for pet fish and management system was acceptable in its features and how the feeder works.
+
+Conclusions
+
+After analyzing the gathered information, the researchers concluded that the evaluation of both the user and the prototype agrees on the solar powered feeder for pet fish and management system in terms of functionality, usability, performance efficiency and reliability. It works properly and adequately, meaning that it meets the minimum expectations that were set for it initially. In general, all respondents believed that the suggested approach had more benefits and was more successful.
+
+Recommendation
+
+After thorough study, the researchers strongly recommended the following:
+
+1. The prototype should provide another access to fish pet owners by viewing and monitoring water acidity like smartphones.
+
+2. Future researchers need to consider testing the prototype for a longer duration.
+
+3. The researchers recommended to the future developers to include other features for the application like configuring the exact time for releasing the feeds to the aquarium.

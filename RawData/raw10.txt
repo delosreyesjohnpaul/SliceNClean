@@ -1,0 +1,595 @@
+CAUAYAN CITY BOARDINGHOUSE GEOGRAPHICAL INFORMATION SYSTEM Janessa Pearl D. Paet Trina V. Ramos Gerome C. Sales JANUARY 2023
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan, Isabela
+
+In Partial Fulfilment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Janessa Pearl D. Paet Trina V. Ramos Gerome C. Sales JANUARY 2023
+
+
+ABSTRACT
+
+The purpose of this study, the Cauayan City Boarding House Geographical Information System, is to identify the problems encountered by the boarders. And propose building a system for the boarders can easily find boarding information in specific locations, such as a website that would display all of the necessary information. The primary objective of the study is to identify respondents' gender and social identity profiles. This also includes evaluating the system in accordance with ISO 25010 in terms of functionality, dependability, efficiency, maintainability, and usability.
+
+According to the study's findings, the Cauayan City Boarding House Geographical Information System respondents encountered several problems with the manual searching process in finding boarding houses, and the system presented was a big help in finding boarding houses easily and safely. Based on the results of post-survey, the overall mean of the categories indicates that the Cauayan City Boarding House Geographical Information System is functional, reliable, usable, efficient, and maintainable. To analyze the data, the study used statistical tools and methods. Calculations have been made to show ratings based on collected data. The waterfall model has been used as a software development model by its supporters. When using the waterfall model, project managers must follow specific methods, principles, and best practices. The waterfall model's 'rules' can be thought of as these: The waterfall model is a traditional model that is use in systems that take a linear and sequential approach. As a result of this investigation, the researchers' knowledge will expand. As they implement a useful Geographic Information System for the Cauayan City Boardinghouse, it also assisted them in strengthening their abilities and offer a worthwhile educational experience.
+
+The respondents "Strongly Agree" with an overall acquired grand mean of 4.35, according to the evaluation of the produced using ISO 25010 Software Quality Standards in terms of; Functionality. Reliability. Efficiency. Maintainability, and Usability. These findings suggest that, in contrast to the manual procedure of looking for a boarding house, the proposed system has greater advantages.
+
+
+
+
+CHAPTER I INTRODUCTION
+
+Background of the Study
+
+A boarding house is a facility that offers accommodation services or serves as a temporary house. It comprises multiple rooms, each of which has a different type of apartment. The boarding house owner sets the price, while the tenant chooses the duration of the rental. We all know that many people utilize technology these days virtually everyone, from children to adults, has a gadget. Usually, Boarding houses are one of the constant needs of students, employees, or those visiting Cauayan city. Some students choose the boarding house as a temporary shelter because the place to study and work is away from home.
+
+The Cauayan city Isabela has an area of 336.40 km2 According to the 2020 census, it has a population of 143,403 people. In Cauayan city, there are many opportunities for students and job seekers because there are colleges in the city and many available jobs. Because of costly transportation fair, an increasing number of students and employees are choosing boarding houses as a temporary place to stay. However, lack of boarding houses information is one of the problems for students and employees, because of not having any information on where they get find boarding houses near their school or workplace. Students and employees seeking boarding places obtain information from friends or conduct an immediate search, which is ineffective and inefficient and this system could be an opportunity for landlords to use this system to provide information or publish about their boarding to students or workers who are looking for a temporary shelter.
+
+Researchers proposed to construct a Cauayan City Boardinghouse Geographical Information System for the students and merchants may find boarding information in certain locations easily, whether in the form of boarding photos, comprehensive boarding equipment, or a pricing list per boarding contract. The goal is to create a system to help students or merchants find boarding houses in a way that saves money and time. The system includes reserving boarding houses by calling the owner, and the system has boarding locations for it to be easily identify the direction of the boarding. This system includes Phyton as a programming language and Django as a web server which will display a boarding house. This system is an online web-based for mobiles and android devices and is capable of browsing.
+
+Objectives of the Study
+
+The main objective of the study is to develop a Boardinghouse Geographical Information System for Cauayan City Isabela.
+
+Specifically, it aimed to:
+
+1. identify the profile of respondents in terms of gender and social identity.
+
+2. to evaluate the developed system by adopting ISO 25010 using the following criteria:
+
+2.1 Functionality;
+
+2.2 Reliability;
+
+2.3 Efficiency;
+
+2.4 Maintainability; and
+
+2.5 Usability.
+
+Significance of the Study
+
+The results of this research study shall be significant to the following entities:
+
+To the User. This system will help those who are looking for boarding near their place of work or school. It will also save money and time for those who have to travel around just to look for boarding houses.
+
+To the Boardinghouse Owners. This approach will help the owner by providing them with the ability to publish their boarding houses. The system can also help newly rented boarding houses to gain customers.
+
+To the Researchers. This study will increase the knowledge of the researchers. It will also help them to develop their skills and a good learning experience for them in implementing a useful Cauayan City Boardinghouse Geographical Information System.
+
+To the Future Researchers. This study could serve as handy reference for other researchers who would embark on a similar study in the future, especially in certain aspects not derived from the present study.
+
+Scope and Limitation of the Study
+
+The Boardinghouse Geographical Information System intends to implement in Cauayan City Isabela. It is a web-based system that the user can search for boarding searchers want and it will display on the website. It can also locate the boarding house location so that they can easily know the direction to the boarding house.
+
+The web-based only available for mobile android phones with the capability of browsing, and also should accessible to an internet connection. The project only has information about Cauayan City Isabela.
+
+Framework of the Study
+
+This study aimed to determine all of the available boarding houses in Cauayan City with a location. Just choose the available board shown on the website or search for the available rental boardinghouses near your preferences. The system uses a Dashboard to choose a boarding house and will display all the information about the boarding house, including all the pictures, rules, and payment information, and also the location of the board.
+
+Conceptual Framework
+
+Figure 1. Conceptual Framework
+
+The requirements model shows the input which is the Boarding information needs and the software and hardware and Programming Language needed to make the system, then it will process by Planning, Analysis, Design and Test, and Working Prototype. It also helps the researchers to get the output of the research study wherein the end product is the web-based system entitled Cauayan City Boarding House Geographical Information System used for finding boarding houses.
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE
+
+This part contains local and foreign literature and studies relevant to the research. Sources include journal articles. This chapter discussed the review of related literature and studies which were used by the researchers in the analysis of the study which served as a foundation of overview and points in the discussion of the topic that was undertaken by reviewing all articles from the books.
+
+Web-Base Boardinghouses Locator
+
+According to Prasetyo, Utomo, and Hudallah (2018), a boarding house is a temporary shelter in which students and employees from outside the area live in blocks of rooms of varying sizes. In actuality, finding a boarding house on the outskirts takes a lot of effort, money, and time. With this, the creation of an information system helps them to find boarding house more easily. Just using only your mobile phone, you can easily access a site where you can find all the information of a boarding house on your respective area. Lack of information about boarding houses is often an obstacle and an opportunity for boarding house brokers. Besides that, the boarding houses must be able to use technology to market their boarding houses. With the development of information technology, it increases the ability of computers to solve these problems. So, it is necessary to develop an information system that is able to facilitate of users to find the ideal boarding house in accordance with user wishes
+
+According to Mulyanto, et. Al, (2016), many people encountered problem about locations, especially when looking for a suitable boarding place it will take many times and money to find a good one. So, learners and students require a boarding house information system to search for their boarding houses. This data base will help to assist students in discovering boarding houses in easy way. SDLC is the system development method used in this study (System Development Life Cycle) utilizing the waterfall model the waterfall model is a method of approaching system requirements in a systematic and sequential manner. Then there's data analysis, design, coding, and testing/verification. This information system can provide all the information needed by the user to make boarding house location searches easier, researchers use Google Maps API.
+
+According to Indriati and Kasih (2017), the method uses a Geographic Information System (GIS) to calculate the location of the recommended boarding house. WP algorithm implementation was based on parameters such as room rental pricing, amenities, and distance from boarding house location. Ten boarding houses were chosen at random near campus, with various distances and amenities.
+
+According to Widiastuti, Nugroho, Widiantoro, (2021), The advantage of technology is to make the life easier of humans to find all available knowledge. The boarding house search program aims students to locate information of their desired boarding places. This program can be use in android phones, and the profiles and amenities of boarding houses are printed so that users can simply utilize them. It is also equipped with GPS to discover boarding house locations, which makes it much easier to find them. According to findings 90% of respondents agree that a boarding house system can exists.
+
+According to Bustillo, Batistis, (2016), this study was to create a reliable Student Boarding House Locator and Monitoring System in Naval, Biliran. It is a system with a comprehensive list of services and information. It helps the Students Affair Service Office in monitoring students to ensure that they are safe and secure when renting boarding houses.
+
+According to Hamzah, Findawati, (2021), this study aimed to assist college students in locating a suitable boarding house close to their school. The project yielded a geographic-based information system that loads boarding house data in Sidoarjo and various features.
+
+According to Sahagun and Flores (2019), this study was conducted to help universities that lack support for student housing services. The lack of off-campus and student-friendly housing in most university towns has forced students to rent an apartment near campus. The Boarding House Finder has a feature that allows you to easily monitor the records of each licensed Boarding House.
+
+According to Syahwari, the Internet is a physical network of millions of computers that exchange and transmit information using the same protocols. The Internet is made up of smaller networks. In addition to sharing and transferring information, the Internet is used to access site about the information of boarding house.
+
+According to Widiastuti et. al., (2018), the advancement of technology makes it casier for humans to find all available boarding places. 90% of respondents agree that a boarding house search application exists. The boarding home search program runs on Android and is equipped with GPS to discover boarding house locations.
+
+According to Consignado, and Velasco, et. AL., (2017). This study was to develop a system for finding apartments and boarding houses named HAYBOL. The study gathered user requirements such as standards of tenants in selecting an apartment and issues and concerns by both owners and tenants. It can also help owners promote their businesses.
+
+According to Loncar, et. al., (2016), many people waste their time looking for places where they can withdraw money. In this study, the proponents developed a mobile- based application order to help users find an ATM quickly and easily, this mobile application offers ATM locations of all banks in Rijeka, useful advice on where the money can be withdrawn free of charge, and the shortest path to each ATM. This study is related to the proposed system since it uses maps, determining the geo-location of the user and computing the shortest path to the selected ATM.
+
+According to Abella et. al., (2017), the Board Me App is a mobile application that was developed in order to help users to find the nearest boarding houses available in Sampaloc, Manila. The only app that caters to boarding house locator for users to search all the closest dormitories using the Global Positioning System or GPS, display their geographical information, show the available facilities and services such as bathrooms, gender-specific rooms, with a security guard and provision for pets.
+
+According to Anisa, et. al., (2018), because of the high cost of buying or renting a property in Indonesia, boarding houses are a fantastic way to assist reduce the growth of urban planning space, especially in big cities. Because of the enormous and interesting boarding house, it provides people with a business opportunity that generates huge profits year after year. As a result, good boarding home business management must be managed by converting the manual method into a system.
+
+According to Signh (2016), the most widely used app Housing.com is a website that helps people find houses to rent. A website that offers a room, space, apartment, or another type of accommodation. The property is available for rent on Airbnb. Creating a listing is absolutely free. The amount charged per night, week, or month is determined by the host. Each listing allows hosts to promote their properties using titles, descriptions, photos with captions, and a user profile that allows potential guests to learn more about the hosts. This program makes it possible to can advertise a flat for sale, search for a new apartment to rent or purchase, find a hostel, and research new neighborhoods. Every property in this app comes with extensive information and photos. Every single detail may be found by filtering and searching.
+
+According to Komarudin, Sundari, (2016), the application program design method used is a waterfall with an object-oriented approach using UML modeling. While the data collection techniques that the author uses are observation, interviews, and literature study programming language, Dreamweaver 8.0 as the web design and MySQL as the database. This Web-Based Boarding House Information System will display boarding houses for rent along with prices, locations, boarding facilities, and map information on the location of the desired boarding house. Tenants can search for information based on location so that prospective tenants who come from outside the city can find information on boarding places according to their needs and can directly book the desired room. Boarding owners can also advertise their boarding house by registering as an owner in this system and there is a response facility from the system via short message service (SMS).
+
+According to Sulaiman, Arifin, Wibowo, (2016), the boarding house business is a source of investment that is not shaken by the global crisis. Currently, the existing boarding house search system still uses the usual filtering search method regardless of the importance of a criterion. One alternative to this problem is to use the exponential comparison method in the search process. The search process in this system begins by entering the level of importance and then the system displays the results according to the calculation of the exponential comparison method. Each boarding house that is displayed in the search will be directed to the boarding house profile page which displays more information about the boarding house. On the profile page, a map of the boarding house is also displayed using the Google Maps web service. This system can provide benefits for boarding house seekers in the form of a suggested boarding house order.
+
+According to Setyarsih, (2017), boarding house brokers are a significant deal in Solo, where Sebelas Maret University is located. In was the theory used as the instrument of analysis Blau's theory of exchange, this research was placed near Sebelas Maret University. According to the study, there is a mutually beneficial effect between the homecoming seeker, the owner of the homestayer, and the realtor, thus it can be assumed that a balanced exchange has occurred between the three parties. This is demonstrated by the presence of boarding owners who want to work with the broker boarding house, as well as the fact that there are still students who use the realtor's services to board their residence while studying in the city of Solo.
+
+According to Gaddale, Parimala, (2019), HTML was used to create web pages in the early days of the internet. By allowing partial page updates, AJAX has revolutionized the old paradigm of Web development. Ajax stands for Asynchronous JavaScript and XML in short. It's a collection of technologies used to build new, dynamic, responsive, and powerful web applications. Ajax is used by the majority of the world's largest internet corporations, including Google, Yahoo, Microsoft, and Amazon. Despite the fact that Ajax is used by many big internet organizations, many developers are unaware of the technology. Many developers struggle with the combination of technologies required to create an Ajax application.
+
+According to Suraya, Sutanta information systems are a type of information technology that is continually evolving. Anyone who uses technology that can make things easier, faster, safer, and more effective will undoubtedly benefit from it. This involves assisting students with boarding house searches. This information system will help students who are having trouble discovering acceptable boarding houses, as well as boarding house owners who want to sell their boarding houses online. This method can be used to create a system that focuses on discovering eligible boarding criteria and bookings for the boarding room. The effectiveness of this system's deployment is that it can effectively aid students in locating suitable boarding houses. The boarding web is made faster, and searches, directions, and online orders are made easier, thanks to the Codelgniter framework. The deployment of this system is effective in that it can effectively assist students in locating suitable boarding houses. With the help of the CodeIgniter framework, the boarding web is faster, and searches, directions, and online orders are easier.
+
+According to Medellen Serma, Vargas, Ruiz, The inability to solve problems is usually frustrating submitting a detailed petition on the necessary form, as well as huge number of results returned, or by the imprecision of them, resulting in inappropriate outcomes Meanwhile, the truly relevant responses have yet to be discovered. Different fields have different levels of differentiation. The diversity of users is given more weight. That is the case when looking for places and geo-located information, services, such as through a digital map. In this case, the usage of location-based services (LBS) allows the user to focus. access to data for locating geographical locations and points of interest (POIs), making it appealing to locate and explore. find the most appropriate for a user's specific demand.
+
+According to Sukarti, (2017), a boarding house is a home business that provides a place or room for rent to those in need. The Bandar Lampung area has many locations for boarding houses, especially in campus and school locations. At this time the search for the location of the boarding house is still being carried out manually, making it difficult for boarding house seekers, especially students and boarding house search. From the problems above, the author designed a web-based ordering information system and database using Notepate ++ software, MySQL database. Tool system development used is the Unified Modeling Language (UML) using case diagrams, activity diagrams, sequence diagrams and class diagrams. System development method used by extreme programming, which has the advantage of more advanced system development faster and the development process is more responsive to customer needs. With this system information on the location of the boarding house can be obtained by searchers boarding houses easily and quickly, the search and ordering process becomes easier and more efficient, as well as booking reports can be done quickly and accurately by the owner of the boarding house. This can increase the rental business of the boarding house so that it can follow developments increasingly fierce business competition. The purpose of this study is to facilitate the search for boarding locations by students and students, while for boarding house owners it is a good promotion tool for boarding houses to market his boarding house.
+
+According to Kushwaha, Kushwaha, we are dealing with palmtops and iPhones in this era, which will eventually replace big PCs, even for computing purposes. We have a wide range of applications and uses where someone sitting in a roadside café needs to get essential data and information. Such requirements can only be met with the assistance of LBS. We've been able to develop a variety of applications that provide users with information on a destination they want to visit. However, some programs are only available on desktop computers. They must be downloaded onto mobile devices. We must ensure that when people travel, they do not need to bring travel guides with them. All of the data must be accessible on his mobile device, as well as in a user-customized format.
+
+According to Anamisa, Rachmad, Widiastutik, (2016), a boarding house is a temporary dwelling consisting of blocks of rooms of various sizes occupied by students and personnel from outside the area. There is a method for choosing the best boarding home, which is influenced by a variety of factors, including the rental price, amenities, number of rooms, and other factors such as distance to the destination, location, and visit time limits. The large number of factors allows for quick selection of the finest boarding. However, there is little information on which boarding house has the shortest distance to the destination, which creates difficulties in picking a boarding location, necessitating the employment of a decision support system to select boarding locations based on factors.
+
+According to Gunawan, and Nugroho, (2016), a comprehensive system Many of them continue to conduct sales and reservations in person. Consumers must continue to make purchases at the location where the manager worked. And a lack of knowledge about the possible types in the case study, the authors wanted to employ boarding houses and rented houses, which are rental dwellings intended for temporary shelter. With the establishment of the Rent House Rented in Surakarta boarding and web-based system in Information Systems. It can be several conclusions, for example, that have created a web- based system that can be accessed through the website by logging in at capacity level, and that users of this system can effectively assist in the billing process, as well as provide information to consumers about the waiting time and reservation status. People can utilize information technologies to find boarding houses and houses for rent. According to one's information needs or one's personal needs.
+
+According to Gommans, Njiru, Owange, the system was created with the goal of providing the most user-friendly interface possible. When a user signs in, the system displays three forms: a housing form, a rent payment form, and a tenant registration form. New, save, cancel, delete, next, previous, and exit are all command buttons on each form. You can manipulate the database using the command buttons. If you wish to add data to the database, simply click new, enter data in the textboxes supplied, and then click save. 
+
+The data will be saved immediately. If you wish to see data from the database, simply click next or previous, and the information will be presented.
+
+According to Kimani, Imwati, (2016), The information offered in the advertisements is usually relatively restricted, with important details such as a house's accessibility and closeness to neighboring amenities (schools, motorways, supermarkets, and recreational facilities) frequently missing. The rental housing nightmare in Nairobi will persist as long as the city's population grows and the bulk of private developers build only for high-end households. Nairobi's housing ranges from flats in high-rise structures to apartments in most residential neighborhoods and the rapidly growing gated communities. On the other side, estate agents, whose usual day include transporting customers around to show them potential rental properties, do not help matters. The goal of the research is to merge GIS technology and the web to create a web-based Geographical Information System that will serve as a platform for residential house marketing, thus addressing these important challenges. To find a home to live in, the vast majority rely on real estate or relocation agents, radio and television, newspapers, and the internet.
+
+According to Lilian, Dida, Kaijage, (2020), in higher education institutions, finding student housing has been difficult. This article examines the current state of student housing at Tanzanian higher education institutions, as well as student access to private rental housing as an alternative source of housing. Furthermore, the research proposes an online portal as a solution to the difficulties that students have when looking for and obtaining private renting housing. 
+
+According to Wiesjahn, (2016), college classes are an excellent way to learn fundamental concepts in a field of study. However, studies alone will not properly prepare pupils for a post-college profession. In the field of Computer Science, having hands-on experience working with a client to produce production software is invaluable experience that will come in handy when looking for a job after graduation. This thesis focuses on my Computer Science senior capstone project, describing the entire process from locating a client through designing and polishing functioning production software.
+
+Application Boarding and Hotel Locator
+
+According in sunstar, (2017), this system was created to make the booking process easier by including search tools. Finding boarding houses in Baguio City has never been easier. GrabHostel began operations with a small gathering of reporters and bloggers to explain the app, which will be handy for parents looking for housing for their college- bound children in the city. This software also allows parents and guardians to browse for available boarding houses according on their preferences. The reason for this study's creation is that although many tourists and students choose to continue their studies in Baguio, they only have a limited amount of information. This app will may come in helpful for parents seeking for apartments in the city for their college-bound kids. Using this software, parents and guardians can search for suitable boarding schools that suit their preferences.
+
+According in startuptalky (2021). trivago App often referred to as trivago, is a German multinational technology company specializing in internet-related services and products in the hotel, lodging and metasearch fields. Trivago was the first hotel search engine in Germany, and is one of the fastest growing companies in Germany, with profitability doubling since 2008. Recently, Trivago is servicing travelers in more than a hundred countries. When you visit the app, you will see a simplified vertical menu that makes navigation easier. Hotels can upload photos that create a background image for the app, as well as map to the property.
+
+According in coursehero websites. With search capabilities that assist customers find condos, townhouses, apartments, and single-family homes for lease, this system was created to make the booking process easier. The Zillow rental tool, like the real estate app, sends out immediate updates when new listings are available, and you can contact landlords and property managers by phone or email. You can use your smartphone's GPS to search for homes by address or present location. On a map, you may even design your own unique search area. There are also all of the standard search filters: number of bedrooms, bathrooms, home price, and so on.
+
+According to Sur. Sharma, a warehouse is a subject-oriented, integrated, time- variant, and non-volatile data collection that assists management in making decisions. Data that provides information on a specific subject rather than a company's ongoing operations. It is integrated as data acquired from various sources and blended into a coherent whole in the data warehouse.
+
+A data warehouse is a collection of operational data that has been subjectively chosen and customized to answer any ad hoc, statistical, complicated, or analytical query. 
+
+In a globally competitive environment where larger and larger amounts of data must be processed faster and faster for comprehension of its true meaning and impact, data warehousing technology is becoming increasingly important for effective business intelligence, business strategy formulation, and implementation.
+
+The data warehouse system is time variant because all data in the data warehouse is associated with a specific time period. This paper compares and contrasts two existing database models used for data warehousing, the relational database and the object-oriented database, and examines the advantages of object-oriented databases over relational databases in data warehousing.
+
+According to Anupriya, and Saxena, with aerial photos and precise street data, Google Maps offers an intuitive and extremely dynamic mapping interface. Users can also add map controls and overlays to give them complete control over map navigation. Panning the map can also be done with the mouse or the keyboard's arrow keys. Google maps can be tailored to meet the demands of unique applications. Google maps can display the results of a variety of web-based applications.
+
+A Rent Zestimate according in Zillow's predicted monthly rent price, calculated using a proprietary formula. It serves as a starting point for determining a property's monthly rental price. The Rent Zestimate is based on public property data and comparable local properties for rent; particular characteristics, location, and market conditions may have been overlooked by our algorithms. Negotiating variables, special incentives, and the term of the lease can all affect the rental price. We recommend that renters and landlords enhance Zillow's data with their own research, such as: Consult a specialized rental real estate agent or property manager in your area. On Zillow, compare the rental to other neighboring apartments and homes for rent.
+
+According to Consignado, et. al., (2017), high growth of Internet users makes e- commerce to be a promising business opportunity. Mobile apps for searching a house for rent or a home to buy makes this job easier. Currently, there are few existing systems intended for searching an apartment. Other mobile applications for hunting house and apartment include Housing.com, 99acres, MagicBrick and The Property. The study aims to develop a system for finding apartments and boarding houses named as HAYBOL. It involves the access to Google map containing markers indicating the position or location of the apartment registered to the application. It also has a web application for administrator to validate the legality of the business by accessing information about business permit and clearance.
+
+According to Abella, et. al., (2017), the Philippines' University Belt is recognized for the clusters of universities and institutions that can be found on almost every street in the area where boarding houses are located. Boarding homes or dormitories are regarded a second home for students and tenants seeking comfort and a home-like environment. This neighborhood has the majority of hostels. As a result, many boarders, particularly students, are unsure which boarding house is best for them. Board Me App is a mobile application that assists users in locating nearby boarding homes in Sampaloc, Manila. The only app that caters boarding house locator for users to search all of the closest dormitories using the Global Positioning System or GPS, display their geographical information, show the available facilities and services such as bathrooms, gender-specific rooms, with a security guard, and pet provision. It also contains boarding house directory lists where they may look for contact information.
+
+The Use of Geographical Information System
+
+According to Education National Geographic, A geographic information system (GIS) is a computer system that captures, stores, verifies, and displays data about locations on the Earth's surface. Individuals and organizations can better understand spatial patterns and relationships by using GIS to connect seemingly unrelated data.
+
+The White House defines spatial data infrastructure as "the technology, policies, standards, human resources, and related activities necessary to acquire, process, distribute, use, maintain, and preserve spatial data." GIS technology is an important part of that infrastructure. Any information with a location can be used by GIS. The location can be described in a variety of ways, including latitude and longitude, address, and ZIP code.
+
+Although a growing body of research has used mobile technologies and geographic information systems (GIS) to improve health care and health information systems, studies of how these two types of systems are integrated together into an organization's information infrastructure to provide a foundation for data analysis and decision support are still lacking. Large-scale deployment requires the integration of data and technological systems across the company.
+
+According to Sharma, Morwal, (2016), in this paper, we demonstrate a fully functional system for tracking the location of objects. The user's location will be determined. Location tracking will be useful for a variety of applications thanks to the Google API. This system provides us with the user's or the hosting device's current geographic location. API, GSM, GPS, and Location Tracking These days, location tracking is getting increasingly prevalent. In terms of the, any area or place can be identified. The locations' geographical coordinates are latitude and longitude.
+
+The survey discovered that the student boarders had a wide range of personalities. Females predominate, particularly between the ages of 18 and 20, or from the second to fourth year levels of BEED and BSED programs, and are mostly from the Kalinga tribe who hail from the province's far reaches the majority of the students' boarding houses were of the single type Almost all of them utilize manual flush comfort rooms, which are prevalent among both male and female boarders; the major appliance used by students in their boarding house was the electric fan, with a minor number utilizing television; and garbage burning was a common activity among boarders. Finally, the student boarders' problems were generally moderately serious, with three issues being particularly serious: no abode policies, rules and regulations, and contracts executed between the landlady/landlord and the boarders, and shared bath and comfort rooms for both male and female boarders.
+
+According to Garude, and Haldikar, Vehicle Sensor Networks (VSN) are gaining traction as a new tool for effectively monitoring the physical world, particularly in urban areas where a high concentration of vehicles equipped with onboard sensors is expected. A vehicle tracking system combines the installation of an electronic device in a vehicle, or fleet of vehicles, with purpose-designed computer software at at least one operational base to enable the owner or a third party to track the vehicle's location, collect data, and send alerts to the owner or a third party.
+
+According to Kunmar, and Ganesh, (2016), the planning and location of wireless AP building layout, GPS co-ordinate, and signal power between the electronic gadget and access point are all included in 4-way mapping. The methodology employs the Haversine formula for distance measuring and estimate, resulting in increased localization efficiency.
+
+According in Abdesslam, and Abdellah, (2019), users can obtain geographic data through micro-laptops, tablet PCs, and personal digital assistants via location-based services (LBS) (PDA). These services use the GPRS2 and UMTS3 technologies and can utilise data about the spatial location of GPS devices on a map. This article describes a platform dedicated to Fez's Medina, which will be an addition to Morocco's handicrafts and tourism development strategies, known as Vision 2016 Craft and Vision 2020 Tourism, which aim to place Morocco among the top 20 tourist destinations. The map is of Fez's Medina in SVG format, using the J2ME and J2EE technologies.
+
+According to Firmansyah, (2020). Day care centres provide non-formal education as a temporary substitute for the family for children whose parents are busy with their work and careers. Many Day Care Centers exist in Indonesia, but the general public is unaware of them. A geographical information system based on Android has been developed to search the locations of Child Care Houses in Padang City.
+
+According to Agrawala and Stolte, route maps are one of the most popular Web applications. Computer-generated route maps can be difficult to use. This study describes cartographic generalization techniques aimed at improving the usefulness of route maps. It is based on cognitive psychology studies and an examination of the prevalent generalizations found in handdrawn route maps in LineDrive.
+
+According to Freska and Barkowsky, a method for simulating human comprehension of (actual) geographic maps is presented. Paper maps impose additional constraints on the depiction of spatial configurations. Two types of hierarchic structures of spatial characteristics of maps are used to illustrate cartographic interpretation and misunderstanding phenomena.
+
+According to Mintsis, et. Al., The global positioning system (GPS) uses satellite signals to accurately position an object. GPS has numerous applications in a variety of scientific sectors all around the world. GPS data can be imported into a GIS database, allowing thermatic maps to be created. A review of applications in the field of transportation in Greece and overseas is offered in this study.
+
+According to Hardiyana, and Wibawa, (2019), The Housing Assistance Program for uninhabitable buildings is one of the poverty alleviation activities carried out in Rancamanyar Village through community empowerment. Local governments' efforts to reduce the number of unfit houses is inconsistent. There is insufficient management and processing of survey data in the areas. The local government needs to undertake geographical analysis and mapping of uninhabitable-located houses to aid in making decisions for unfit housing. 
+
+Critical Review
+
+The author's research is based on boarding houses, rental houses, and apartment temporary shelters for students and workers with the use of geographical information systems to locate a location and get directions to it. It also explains the use of and what a geographical information system is. To create the system, the researchers use a web-based and application to run and operate it so that the user can easily use it.
+
+Summary and Research Gaps to be Filled
+
+Summary
+
+The authors of the data have the same perspective and information with this study based on the literature review that were gathered for this research. It takes a lot of effort, money, and time to find a boarding house on the outskirts. As a consequence of this research, the researchers decided to develop a system to alleviate the challenges of all students and employees, as well as to assist them in finding boarding rooms without having to leave the house. The benefit of this project is to easily search and book boarding house from home using the system which only requires an internet connection.
+
+Research Gaps
+
+The goal is to create a system to help students and visitors to find boarding houses in a way to save money and time of the students or visitors. The system includes the booking of boarding houses and find location. The only problem that may encounter of the user to the system is the internet connection, also the wrong information of the owner of the boarding or outdated information. The purpose of the system is to not need to walk in, and just need to communicate with the owner of the boarding house and settle all payments on the starting date of payment. The challenge here is to develop a system that can surely help and improve the new normal of finding boarding houses. As the website creators need to update all the details needed in the system for the user of the website and to lessen the complaints.
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter presents the method of research used by the researchers, locale of the study, respondents of the study, the measuring instrument, how the data were gathered and how such data were treated statistically,
+
+Requirement Analysis
+
+Based on the identification of these problems, it needs to be described in detailed, the needs of system implementation.
+
+The two following requirements are:
+
+1. Information Needs
+
+To be able to perform tasks and activities of each entity, the web-based boarding house information system must be able to provide the required information including:
+
+Boarding Data:
+
+This information includes data from boarding profiles. From the boarding name to the boarding images and also boarding location.
+
+Class Data Information:
+
+This information contains data class, data from a boarding house that includes price sizes and so on.
+
+General Facilities Data:
+
+This data comprises ownership information for public facilities in a boarding house on the list of public facilities.
+
+Room Facilities Data Information:
+
+This information contains ownership data of facilities in a boarding room in the list of room facilities.
+
+Room Size Data:
+
+This information contains data about the size of rooms that are common in a boarding.
+
+2. Functional Requirements
+
+Functional requirements need which generally must be owned by the system to run a business processing and managing data. The fallowing functional requirements are:
+
+Login Process:
+
+This Process needs username and password to open the system. Users need to create username passwords in website.
+
+Data View Process:
+
+This process is to display data from the database to the screen.
+
+Data Addition Process:
+
+This process is for entering new data from the system interface display into the database.
+
+Data Search Process:
+
+This process is for searching boarding house in certain parameters.
+
+Data Removal Process:
+
+This process is to delete or delete data from the system boarding house.
+
+Logout Process:
+
+This process is for leaving the system.
+
+Data Flow Diagram
+
+Data flow diagram illustrates how data is processed by a system in terms of inputs and outputs. As its name indicates, its focus is on the flow of information.
+
+Figure 2. Data Flow Diagram of Existing Procedure
+
+This data flow diagram explains the procedure of the system and illustrates how data is processed by the system in terms of inputs and outputs. In register, the user is allowed to create their account to log-in in the system and this data flow show the other features which is the searching to search location or boarding name and the admin which the researcher's account will decide if the post is approved or denied by the researcher.
+
+Fishbone Diagram
+
+One of the most effective methods to track the root cause or problem of the area where the study was conducted is the fishbone method. This method is being used because researchers can determine what problems are going to be solved when the system is being implemented. The diagram below shows the data gathered by the researcher, and it shows the cause and effect of the manual search for Boarding House.
+
+Figure 3. Sample Fishbone diagram of existing procedure
+
+This Fishbone diagram represents the procedure of the manual problem of the boarding house searcher in terms of expenses, information, performance, service, efficiency, and if the boarding house has a permit.
+
+Timeline of the Project
+
+Tracked and recorded the files and activities of the researchers, and the plan of implementation of the system is recorded through long method process.
+
+Gantt Chart
+
+Figure 4. Gantt chart of the Capstone Project
+
+Represents the start and end dates of each task of the project. This Gantt chart includes the task name of the task then the researcher will do in the same month, including the day and month.
+
+Requirements Documentation
+
+Technical Background
+
+The project's members gathered all relevant researches and brainstormed which technologies will be used. Since the project is still under progress, the proponents will continue to look for tools and software that can aid the development of the system.
+
+Materials
+
+1. Software
+
+The software requirements are Operating system with windows 10 specification, Text editor which is Notepad++ or Sublime Editor, Include Pyhton as developing app, and also a Web Browser which is Google chrome, Safari, Firefox etc.
+
+2. Hardware
+
+The Hardware Requirements are Intel Pentium 1.10 GHz with 4GB ram storage, and also internet connection for browsing.
+
+3. Data
+
+The source is coming from the other researcher which is Prasetyo S, Utomo A, Hudallah N, (2018), from the same topic and a web-based system and revise it by the researchers to collect what is the only needs by the researcher to implement the system.
+
+Use case Diagram
+
+Figure 5. Use Case Diagram
+
+The user can only browse boarding houses, so the user can only search boarding houses, view maps, view locations, and get information about boarding houses; however, the boarding house owner can sign up for the system, create an account, log in, and also search for boarding houses, add boarding houses, view locations, and get information about boarding houses that the owner owns.
+
+Functional Decomposition Diagram
+
+Figure 6. Functional Decomposition Diagram of the System
+
+This Functional decomposition diagram show the function of the system and gives a clear picture of the system user's perception of the workflow as it is related to the Usage model, it is a model or hierarchy of system functions, so you write each job in every box.
+
+System flowchart
+
+A flow chart is a type of diagram that presents an algorithm, workflow or process.
+
+Figure 7. Boardinghouse Owner System Flowchart
+
+This figure represents the boarding owner server in the boarding house owner flowchart has two decision symbols the first one is if the owner has an account this is to create or log in to the owner account on the website and the other one is Searching boarding house so the owner can search for boarding house, he/she posted.
+
+Figure 8. User System Flowchart
+
+This figure represents the user server process the user flowchart only has one decision symbol which is the searching boarding house this because the user is only can browse boarding house but can't post boarding house.
+
+Entity-Relationship Diagram
+
+Figure 9. Entity-Relationship Diagram of the System
+
+Figure 8 represents the entity-relationship of the diagram in the system, which is the sign-up or registration in the system has the information needed to go to the next page or another page.
+
+Design of Software/ Systems
+
+The proponents have used the waterfall model as a software development. The waterfall model has defined methods, principles, and best practices that project managers adhere to when using it. These can be thought of as the 'rules' of the waterfall model. The watertall model is a classical model used in system with a linear and sequential approach. It is termed as waterfall because the model develops systematically from one phase to another in a downward fashion. This model is divided into different phases and the output of one phase is used as the input of the output of one phase is used as the input of the next phase. Every phase has to be completed before the next phase starts and there is no overlapping of the phases.
+
+Software Development Methodology
+
+This study aimed to identify the information needed and the problem encountered by the manually searching Boarding Houses of students in Cauayan City Isabela.
+
+The researchers faced the task of analyzing and understanding the needs of the users encompassing different processes. These processes served as the bases for the design and Implementing Cauayan City Boarding House Geographical Information System.
+
+One of the approaches used in software development is "The Waterfall Model". According to (Parekhn.2005), the Waterfall model is the first process model that was introduced and followed widely in Software Engineering to ensure the success of the project.
+
+In the waterfall approach, the whole process of software development is divided into different process phases. The phase in the waterfall model was the requirement analysis phase; planning phase; design and development phase; testing phase; and evaluation phase. All of these phases are cascaded to each other, such that the second phase is started when a defined set of goals are achieved for the first phase and subsequently signed off, thus, the name "Waterfall Model". 
+
+Figure 10. Waterfall diagram of the Software Development Methodology
+
+Requirements
+
+In this phase, the researchers gathered the requirements needed such as the problem encountered by the person finding boarding houses in manual system. This in phase, allowed the researchers to observe, interview and gather data through internet to become an input to the next phase. This phase is important because the researchers had the ideas on how are they going to plan for the system.
+
+Planning
+
+In this stage of waterfall model the researchers had the chance to look into the future of the system they will make because they will plan according to the requirements they gathered. Researchers determine the functionality of the entire system.
+
+Design
+
+It is one of the important phases because in this phase the researchers began to design and develop the entire system as follows the requirements and planning, they had. It is simply about the graphical user interface of the system.
+
+Testing
+
+It is one of the important phases of the waterfall model because from requirements down to design and development, the researchers of Boarding House Geographical system and some students or user for the testing of the system. The user allowed to test the system if its easily for them to use the system.
+
+Evaluation
+
+After the testing, the researcher evaluated the system, collect the comments and suggestions of the students for further improvement. This phase showed the important of every phase to develop a system according to the right requirement and information to be planned, designed and development to be made down to evaluation to see if the system has a potential to be used and lessen the burden than manual searching boarding houses.
+
+Description of the Prototype
+
+Architectural Design
+
+Figure 11. Architectural Design
+
+The figure above shows the arrangement of the Web system. The website is both accessible to Students/Employees and the owner. Both can engage with the website. The students can view the owner boarding house post on the website and user can search for the boarding house and the website gives the data information of the available boarding also use can reserve so the website system has an availability space in every boarding house post. The Owner can post their boarding house to the website system. So, via posting a boarding house first it goes to the admin and the admin will decide whether to approve it and it will post on the website or not.
+
+Hardware and Software Connection
+
+Figure 12. Hardware and Software connection
+
+The system components include the user, mobile app, internet, admin, and database.
+
+The users can register using android phones and connect to the internet. The admin checks the user's information through the internet and the user's information is saved to the database. The admin views all transactions through the system.
+
+Questionnaire
+
+The researchers use google form to implement the questionnaire.
+
+POST-SURVEY
+
+5-Strongly Agree, 4- Agree, 3-Neutral, 2--Strong Disagree, 1 - Disagree
+
+A. Functionality
+
+1. The system provides the correct results.
+
+2. The system run smoothly.
+
+3. The system performs properly and can complete the required tasks and objectives,
+
+B. Reliability
+
+1. The system works rapidly.
+
+2. The system interface design is easy to understand.
+
+3. User find the information needed.
+
+C. Efficiency
+
+1. All of the listed responsibilities and user goals are covered by the system's feature.
+
+2. The system provides the correct data and information.
+
+3. The system functions well.
+
+D. Maintainability
+
+1. The system can be used more than once.
+
+2 The system maintains the data information.
+
+3. The system maintains the system functions.
+
+E. Usability
+
+1. The system is suitable for someone looking for boarding house.
+
+2. The system is easy to learn and use.
+
+3. The system is simple to use and manage.
+
+Data Gathering Procedure
+
+1. The researchers prepared to seek approval from the agency to conduct data gathering.
+
+2. After approval, the researchers gathered information about the students and employees who rented boarding houses.
+
+3. The Cauayan City boarding house was discovered that the students and employees need a website easy for them to find boarding houses based on their preferences.
+
+Statistical Treatment
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation % = f x 100 of data, f %=x100 the researchers used this formula:
+
+In which:
+
+% = percentage
+
+F = frequency
+
+N number of respondents
+
+B. Mean. The researchers used the following formula to determine the weighted mean when presenting, analyzing, and interpreting data:
+
+WM-f(1)+f(2)+f(3)+f(4)+f(5) N
+
+WM-f(1)+f(2)+f(3)+f(4)+f(5) N
+
+In which:
+
+WM-Weighted Mean..
+
+F= frequency
+
+N= Number of Respondents
+
+B. Likert's Scale. The researchers used a Likert Scale for the analysis of data
+
+Data Analysis Plan
+
+Immediately after compiling the entire system, the researcher needs to analyze and collect this data. To analyze the data, the study used statistical tools and methods; Calculations have been made to show ratings based on collected data.
+
+Table 1. Chart Scale is used for Descriptive Interpretation for the Online Survey Questionnaire
+
+The table above illustrates the scale range and interpretation of the five-point scale.
+
+Scales 5 with the range of 4.205.00 with the interpretation of Strongly Agree. Scale 4 with the range of 3.40-4.19 with the interpretation of Agree. Scale 3 with the range of 2.60 -3.39 with the interpretation of Neutral. Scales 2 with the range of 1.80-2.59 with the interpretation of Strong Disagree. Scale 1 with the range of 1.00 -1.79 with the interpretation of Disagree.
+
+Table 2. Implementation Plan
+
+Implementation Results
+
+The implementation was an accomplishment; according to the head of the Cauayan City Boarding House Geographical Information System and users who have already used the Web system, it is greatly useful to Students and Employees.
+
+
+
+
+CHAPTER IV
+
+RESULTS AND DISCUSSION
+
+This chapter consists of the presentation, analysis, and interpretation of data gathered by the researchers.
+
+Result by phase of study
+
+Table 3: Total Frequency and Percentage of the respondent base on their Gender and Position.
+
+The table shows the frequency and percentage of the respondent according to their gender and position. As indicated in the table there are 22 male respondents or 73% and 8 females or 27% and in the position 20 students or 67% and Employee 10 or 33%.
+
+1. Post Survey determine the process in term of objective, functionality, reliability, efficiency, maintainability, and usability of the system presented.
+
+Table 4. Response to the Functionality encountered in the content of the presented system if it works properly for the users.
+
+Tables 4 show the functionality of the system. If the system works in terms of using the presented system, this question got a 4.37 Category Mean with a descriptive interpretation of strongly agree.
+
+Table 5. Response to the Reliability encountered in the content of the presented system if it works properly for the users.
+
+Tables 5 show the Reliability of the system. If the system works in terms of using the presented system, this question got a 4.30 Category Mean with a descriptive interpretation of strongly agree.
+
+Table 6 Response to the Efficiency encountered in the content of the presented system if it works properly for the users.
+
+Tables 6 show the Efficiency of the system. If the system works in terms of using the presented system, this question got a 4.36 Category Mean with a descriptive interpretation of strongly agree.
+
+Table 7 Response to the Maintainability encountered in the content of the presented system if it works properly for the users.
+
+Tables 7 show the Maintainability of the system. If the system works in terms of using the presented system, this question got a 4.32 Category Mean with a descriptive interpretation of strongly agree.
+
+Table 8 Response to the Usability encountered in the content of the presented system if it works properly for the users.
+
+Tables 8 show the Usability of the system. If the system works in terms of using
+
+the presented system, this question got a 4.42 Category Mean with a descriptive interpretation of strongly agree.
+
+Table 9 Post-Survey Summary of Mean rating distribution and its Descriptive of Cauayan City Boarding House Geographical Information System
+
+The table shows the overall mean of post-survey evaluation questionnaires, in the overall mean of the categories, it shows that the post-survey "Strongly Agree" on the Cauayan City Boarding House Geographical Information System is functional, reliable, usable, efficient, and maintainable.
+
+Verification of the Studies
+
+Based on the findings of the study, the respondents of the Cauayan City Boarding House Geographical Information System encountered several problems with the manual searching process for finding boarding houses, and the system presented to them was a big help in helping them find boarding houses easily and safely.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+Summary of Findings
+
+The primary objective of this study was to develop a system that would make it easier for students, and employee to discover boarding accommodations while also saving them time and money. The system has boarding locations so users can simply determine the direction of the boarding as well as the ability to reserve boarding houses by calling the owner or you can also use the system chat box to communicate the owner. This system uses the programming language Phyton and the web server Django to display a boarding house. This system is a web-based one that can be browsed on mobile Android devices.
+
+Researchers suggested building a Cauayan City Boardinghouse Geographical Information System so that students and employees could learn about boarding in specific locations, whether in the form of boarding photos, comprehensive boarding equipment, or a pricing list per boarding contract. It would also include the availability of the room so that you could reserve your preferred room. The goal of this study was to identify every boarding house in Cauayan City that was open, along with each one's address. Simply select the available board from the website's list or use the search bar to find rental boardinghouses in the area that meet your requirements. The knowledge of the researchers will grow as a result of this investigation. Additionally, it will aid in their skill development and provide a beneficial learning opportunity for them as they install a practical Cauayan City Boardinghouse Geographic Information System.
+
+Furthermore, the evaluation of the developed using ISO 25010 Software Quality Standards in terms of, Functionality, Reliability, Efficiency, Maintainability, and Usability it was revealed that the respondents "Strongly Agree" with an overall obtained grand mean of 4.35. These results indicate that the developed system has more advantages, unlike the manual process of searching for a boarding house.
+
+Conclusion
+
+The researchers conclude that the general objective of the study is to develop a Cauayan City Boarding House Geographical Information System that helps to assist the Students and Employees. Also, the Boarding owners at the same time by posting their boarding houses on the website, and the students can view the list of boarding houses on the website.
+
+1. The researchers conclude that the service quality of the system is reliable, effective, usable, and has the capability to maintain the function and data of Cauayan city boarding house information and they are satisfied with using the system as it easier for them to find boarding house base on their preferred.
+
+2. The researchers conclude that the system works functional, reliable, usable, portable, and maintainable efficiently for the users.
+
+Recommendation
+
+The researchers advocate the following for further development and refinement of the implemented system:
+
+1. Future researchers are advised to improve the web system, as it was the lowest category in the system evaluations.
+
+2. The researchers proposed that the web system be used in locations other than Cauayan City in future works.
+
+3. Future researchers can add other functions such as payment for every approve posted boarding house by the owner.
+
+4. The researchers suggest that the Cauayan City Boarding House Geographical Information System be modified so that it can be used by their parents, friends, siblings, and classmates.
+

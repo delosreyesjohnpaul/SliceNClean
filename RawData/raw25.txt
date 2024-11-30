@@ -1,0 +1,492 @@
+Mobile Application for Motorcycle Security System with GSM and GPS Tracking Jeffrey Y. De Leon Shenna Mariz C. Escano Joshua M. Juan January 2023
+
+A Thesis Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer Science
+
+Jeffrey Y. De Leon Shenna Mariz C. Escano Joshua M. Juan January 2023
+
+
+
+
+ABSTRACT
+
+Today, technology is progressing quickly. Security systems are one example of the many technological advancements that have been made and greatly enhance human activities. Motorcycles left unattended on a street or in a park run a significant risk of being stolen. A motorcycle security system is needed in order to prevent motorcycle theft. The researchers aimed to design a Motorcycle security system, with the use of a mobile application, in combination with a Gizduino microcontroller, for tracking the location and movement of motorcycles to prevent theft-related accident. The Gizduino, a variation of the Arduino microcontroller, connected to GPS and GSM modules to gather and transmit data on the motorcycle's location. This information are accessible through a mobile application that allows users to track the motorcycle's location in real-time. The study evaluated the functionality and reliability of the system. It also examined the effectiveness of the system in terms of performance efficiency, compatibility, usability, security, maintainability, portability.
+
+The researchers utilized the Geofencing Algorithm to detect if the motorcycle is moved outside of the established geofence, and sending an alert to the owner's mobile device. GPS tracking device are installed on the motorcycle, which is connected to a mobile app. Setting up a virtual perimeter, or geofence, around the desired location of the motorcycle, such as the owner's home or workplace. The app sends notifications to the owner's mobile device when the motorcycle exceeds radius limit. And it continuously monitors the location of the motorcycle using GPS and sending updates to the app in real-time. There were a total of 50 respondents which are the students from CCSICT Department of Isabela State University Cauayan-Campus, and they were gathered through printed questionnaires.
+
+The study found that the Gizduino-based tracking system was functioning effectively and reliably track the location of motorcycles within a geofenced area with general mean of 4.33. However, the accuracy of the real-time location of the system is dependent on the availability of radio signal received by the GPS antenna. Open and urbanized areas with a good source of radio signal produced more accurate results, while densely packed infrastructure in an area would make it more challenging to track the location of the motorcycle. The system also proved to be durable and reliable, which functions properly. The system is also effective in terms of performance efficiency, compatibility, usability, security, maintainability, and portability with general mean of 4.36.
+
+The study indicates that the Gizduino-based tracking system is a viable solution for motorcycle tracking, particularly within a geofenced area. The use of a geofencing feature in the system allows for added security and the ability to set boundaries for the motorcycle to operate. This study also provides evidence that the Gizduino microcontroller is a reliable and durable platform for this type of application. However, it is important to note that the results may not generalize to all areas, and further research should be conducted in different locations and environments to fully evaluate the performance of the system. Also, the future researchers who wish to conduct the same study are recommended to invest in a more advanced microcontroller such as the Raspberry Pi, which offers additional functionality and larger data storage.
+
+
+
+
+
+1 INTRODUCTION
+
+1.1 Background of the Study
+
+Motorcycle theft is a significant problem in the area, despite efforts by authorities to catch criminals. Every motorcycle owner must prioritize vehicle safety in today's society. Professional thieves often follow the user of the vehicle to where they park, assess the situation, and come back with the necessary tools to steal the vehicle. Motorists who park their vehicles in public places often check if it is still there when they return. Locking the vehicle and placing chains are common ways to secure the vehicle, but it can be difficult to ensure complete security. As the user approaches the destination, especially at home, thieves may grab the motorcycle or find ways to steal it. When motorists are far from the place where they parked their vehicle, they tend to check if it is still there. The owners of stolen motorcycles have limited options to find their vehicle, one of which is to call for help from active responders such as the police. However, the police may take a long time to locate the vehicle due to lack of resources or devices. There are no alarms or systems in place to alert them of emergency situations or stolen vehicles, and fast response is crucial in these cases. In the Philippines, vehicle owners use alarms to alert them if someone is moving their vehicle, but these alarms are often ignored due to the high number of false alarms. This is because the alarm sensors are so sensitive that even dragging noisy vehicles can set off the alarm. Another common way to secure a vehicle is by locking it with its key when the owner leaves it at a parking place. However, a thief can easily bypass this security measure by using tools to break the lock. At home, some owners use chains to secure their vehicle, but these can also be cut using heavy tools, allowing the thief to take the vehicle away.
+
+The number of motorcycles reported stolen by the Philippine National Police has been rising over the years. According to the PNP Highway Patrol Group, there were 3,701 motorcycle theft instances reported in 2013, 7,302 reported in 2014, 2,404 reported in the first quarter of 2015, and 8,203 reported in 2015. In November 2015, the PNP-HPG reported an average of 6.2 motorcycles being stolen per day. Additionally, according to Dalizon (2022), during the first 90 days of the administration of Ferdinand "Bongbong" R. Marcos Jr, a total of 48 automobiles and 276 motorcycles were reported stolen, an average of 3.64 cars per day. These numbers indicate that motorcycle theft is a significant problem in the Philippines and it's important to take precautions to secure your vehicle.
+
+The Scorpio Ride "Core" Cellular Motorcycle Alarm and GPS Tracking System is one of the existing options for preventing motorcycle theft that is already on the market. It uses a module that is built within the bike and an IOS or Android app. It notifies the user via Short Message Service (SMS) wamings if the motorcycle has been tampered with, but it generates a lot of noise that can disturb nearby residents. Additionally, the user won't be able to hear the alert if they are far from the motorcycle's location. However, this system does not have enough safeguards against attempted theft. Furthermore, most vehicle security systems are expensive, complex, and better suited for cars rather than motorcycles.
+
+This study proposed to adapt existing vehicle security system solutions to address the problem of motorcycle theft. The goal was to improve the features of the system to better serve its objectives. The proposed system allows the motorcycle owner to receive real-time notifications if the motorcycle exceeds a certain range, preventing theft. Additionally, the system has the ability to locate the motorcycle, making it easier to find and recover stolen motorcycles. The system utilizes Global System for Mobile Communication (GSM) and Global Positioning System (GPS) technologies to make this possible. Users can control the entire system using a mobile application. 
+
+1.2 General Objectives
+
+After examining the current state of motorcycle security systems, the researchers aimed to adapt and improve existing microcontroller-based motorcycle security system with real-time tracking functionality using GSM and GPS technology with the development of a mobile application. The goal of this system is to assist motorcycle owners in tracking their vehicle in the event of theft-related accidents and help prevent theft.
+
+1.3 Specific Objectives
+
+This study primarily aimed to implement a mobile application for motorcycle security system that can be used for tracking in the event of theft-related accidents, in order to establish a safe and secured community. The research specifically aimed to:
+
+1. Develop and design a motorcycle security system that provides real-time tracking functionality.
+
+2. Test and evaluate the system's functionality and reliability.
+
+3. Determine the effectiveness of the motorcycle security system on the user's experience
+
+in terms of:
+
+a. Performance Efficiency
+
+b. Compatibility
+
+c. Usability
+
+d. Security
+
+e. Maintainability
+
+f. Portability
+
+1.4 Significance of the Study
+
+The purpose of this project is to develop a motorcycle security systern and improve its features to better serve its objectives. The proposed system allows the motorcycle owner to receive real-time notifications if the motorcycle exceeds a certain range set by the user. The system would be installed with a microcontroller, an alarm system device, and an Android application that would track the location of the motorcycle using Global System for Mobile Communication (GSM) and Global Positioning System (GPS) technology. This device provides information and alarm the owner about the condition of their motorcycle.
+
+Furthermore, the following groups of individuals would benefit greatly from this research:
+
+1. Motorcycle Owners: The results of the study would help vehicle owner's track down their vehicles more easily, with less hassle and less time consumption.
+
+2. The Police Force: The results of the study would assist the police in tracking down stolen motorcycles, which would lower the cost and time required for tracking operations.
+
+3. Future Researchers: The results and outcome of this project would be beneficial for future improvements and development in this field.
+
+1.4 Scope and Delimitation
+
+1.4.1 Scope
+
+The researchers have designed and developed a Mobile Application for Motorcycle Security System with GSM and GPS Tracking using a microcontroller-based device. This systern would help motorcycle riders to secure their vehicles and prevent theft-related accidents. However, it should be noted that this system is specific for motorcycle owners of CCSICT students at Isabela State University, Cauayan Campus and is not intended for cars or other vehicles. It is meant to be an aid to prevent specific theft-related accidents.
+
+1.4.2 Delimitations
+
+However, this system has some limitations, just like every other technology. (1) The system may have trouble determining the motorcycle's precise location if it is in a remote place, as it is difficult for satellites to determine the motorcycle's longitude and latitude in such areas. (2) The tracking mobile application lacks a data visualization feature to collect a large volume and wide range of data, such as summary reports that highlight the actions taken by the driver, stop reports, alerts, schedule reports, journey reports, and even heat maps that display the locations of the most activity. This type of information is essential for planning.
+
+Arduino Based Anti-Motorcycle Theft System with GPS Tracker
+
+The research conducted by Arcillo et al. (2020) aims to develop an Arduino-based motorcycle anti-theft system with a GSM and GPS module to provide quick knowledge of safety and security to prevent and reduce stolen motorcycle incidents. The system is designed to be used in a commercial motorcycle project and utilizes GSM and GPS connectivity to provide early notifications to the owner in case of a breach or theft. The system also allows the owner to locate and deactivate the motorcycle's engine through the microcontroller, GSM modem, and GPS module.
+
+The research is similar to the one you described earlier, but the main difference is that the Arcillo et al. (2020) research is focused on the prevention and reduction of motorcycle theft incidents rather than just tracking of the motorcycle.
+
+GSM Based Vehicle Anti-Theft Security System
+
+Overall, the research studies by Arcillo etal (2020) and Cruz et.al. (2019) have similar goals to develop a motorcycle/car security system that utilizes GSM and GPS technology to provide real-time tracking and notifications to prevent theft-related incidents. Both studies utilize microcontrollers and have incorporated additional features such as camera control systems in the Cruz et.al. (2019) study.
+
+However, the proposed system developed in this study aims to improve upon these existing systems by designing and developing a mobile application for the user to control the system and potentially adding more features such as data visualization for improved tracking and analysis.
+
+Development of GPS-based Vehicle Tracking System that Achieves a Secure Tracking and Monitoring of the Whereabouts of a Vehicle
+
+According to Borromeo (2018), when a motorcycle is breached or stolen, the information and location are wirelessly relayed to the vehicle's owner. In the event of data transfer, the microcontroller communicate with the GSM modem. The owner can also connect with the Relay, GSM, and GPS module to locate and deactivate the motorcycle's engine. The system is designed to be user-friendly and easy to operate, making it accessible to a wide range of users. Overall, this research aims to provide a practical solution to the problem of motorcycle theft and enhance the safety and security of motorcycle owners.
+
+The research conducted by Borromeo (2018) aims to design and develop a microcontroller-based motorcycle security system with real-time tracking functionality using GSM and GPS technologies. The system would help motorcycle owners track their vehicle in case of theft-related accidents and prevent theft. The system uses a combination of GSM and GPS connectivity to send real-time notifications to the owner if the motorcycle exceeds a certain range and allows the owner to locate and deactivate the motorcycle's engine remotely. This research is similar to the proposed study, as it also aims to develop a motorcycle security system with real-time tracking functionality using GSM and GPS technologies.
+
+Vehicle Anti-Theft Detection System
+
+The system utilizes a combination of GSM and GPS technology to provide real-time tracking and notifications to the car owner in the event of theft. The microcontroller is programmed to send an SMS message to the owner's mobile phone when the car's ignition is turned on without the owner's knowledge. The system also has a feature that allows the owner to remotely deactivate the engine to prevent the thief from driving away. The study found that the anti-theft system significantly reduced car thefts in the area and improved the security of the respondents' vehicles (Del Sol, B., 2021).
+
+Android based position tracking for car condition monitoring
+
+This research by Bin Masoud et.al. 2019 was about a position tracking system that had been built in this project, beginning with the system's architecture with a telecommunication network and ending with its behavior using UML Diagrams. Many applications for improving current automobile condition monitoring might be built in Android Phone. That might be a basic user interface for On-Board Diagnostics (OBD) tools for monitoring a car's condition in today's manual driving, or it could be the replacement of its driver for further control in autonomous driving. However, they will all be heavily reliant on its location monitoring.
+
+The system was divided into two components. They were an android software (app) and a NodeJS web server. The data collecting would be handled by the app. The web server would then display the result using an Open Street Map interface. 611 location points were gathered during a testing trip. It was also discovered from those sites that the smallest processing time between the records was 5 seconds and the longest might be more than 3 minutes (Bin Masoud, A., et al. 2019).
+
+Bus Tracking System (BTS)
+
+An loT-based school bus tracking system would notify parents and the school administration of the current location of the bus. The method we're proposing also advises the school management if the bus driver has been drinking. Also, the proposed system provides a school and parent notification of any emergency to get to the scene of the accident immediately. According to this research, the proposed system would benefit the community and helps us locate the school bus with precision. In addition, the authors of the proposed method used the Blynk application for online vehicle tracking. The authors also installed an alcohol testing system to protect the students from being drunk and having an accident, making it more difficult for them to drive (Gode and Desai 2020).
+
+Anti-Theft Tracking System
+
+An anti-theft tracking system is one way of preventing or detecting illegal access to valuable devices. Using GPS/GSM tracking systems, proposed a vehicle tracking system and an anti-theft system to guard against intruders. The system used the Kalman Filter (Wan, S. et al., 2020) to improve position accuracy and minimize position errors. When a vehicle's ignition is turned on, the owner receives an SMS confirmation that the car is running. The owner of the vehicle sends an SMS to turn off the vehicle if it is not accessible. The vehicle's status and location are tracked and displayed on a map using a Google Earth built-in a personal computer. A smartphone can be used to perform the same tasks as a laptop.
+
+Vehicle tracking system based on Social Network Service
+
+Vehicle tracking system based on social networking services like Twitter and Facebook (Azer, and Elshafee, 2018) piqued the interest of several researchers. Every vehicle device has a Twitter identification and can track the vehicle's whereabouts daily in the social network. A position will be shown on Google maps via a web interface and another vehicle status such as door opening and closing and ignition on/off. Users can also use the web interface to send commands to the in-vehicle device, such as rebooting or shutting down the vehicle. A Smartphone can easily access the proposed system because the social network services are available on the smartphone. For users of the social network and smartphones, the system would thus become more efficient, allowing quick monitoring of the car's situation and status. 
+
+In the security-unstable countries, crimes always happen in remote areas where there are no police patrols or where police patrols need time to get to. Therefore, this paper addresses Vehicle Tracking systems in remote areas where there are no police patrols because most police patrols are in the center areas. Thus, this paper aims to design and implement a Vehicle Tracking System that identifies the location of the patrol closest to those areas and sends it to someone who needs help from a police patrol or has been exposed to a specific incident such as a quarrel theft other criminal incident. The proposed system uses GPS/GSM with Arduino to monitor the vehicles within a platform that can help us quickly set up our tracking server, accept and coordinate data to be sent from the tracking device, and visualize and store this data for better use.
+
+There are some limitations with the proposed vehicle tracking devices. For example, we must have a clear view of the sky when using GPS to work with GPS trackers accurately because it does not work in the case of effects (Kin-Chung, 2018), Some areas, such as rural areas, are not covered by the GSM network that provides GPRS for GPS trackers. Bad weather affects the transmission process, and GPS tracking often takes time to connect to the GSM-GPRS network (Uddin, et al., 2017). Others like building or infrastructure that prevent communication between the GPS tracking antenna and GPS satellites. Furthermore, outdoors where there is no apparent loss of GPS satellites often cause a multi-track error of GPS reception signals in the GPS receiver. Hence, tracked locations seem to jump from one place to another with inaccurate results. Thus, the server received incorrect longitude and latitude values and then followed client- side locations are displayed on web maps with wrong positioning.
+
+LOCAL STUDIES
+
+Philippine Vehicle Incidence Crimes
+
+These studies demonstrate the need for and the potential of a motorcycle security system with real-time tracking functionality using GSM and GPS. The studies also show that there is a need for a more effective motorcycle security system and the potential of such a system in preventing motorcycle theft and assisting in recovering stolen motorcycles. This is especially important in places where motorcycle theft is prevalent, such as in the Philippines. However, it is important to note that even the best security system has limitations and it is always wise to take extra precautions.
+
+Vehicle tracking devices or systems use in the Philippine market & where their place.
+
+Car GPS was not very popular in the Philippines just a few years ago, but as more functionality and features were introduced over time, this device has evolved into more than just an automobile accessory. It is now a must-have accessory for any vehicle. According to PhilKotse, the best car GPS trackers for 2020 are the following, based on reviews and market research:
+
+1. VJOYCAR GPS Tracker - This device is a high-quality GPS tracker that offers real-time tracking, remote control, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.
+
+2. GT02D GPS Tracker - This device has a compact and lightweight design, making it easy to install. It offers real-time tracking, remote control, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.
+
+3. TKSTAR TK905 GPS Tracker - This device is a high-performance GPS tracker that offers real-time tracking, remote control, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.
+
+4. JIMI GPS Tracker - This device is a high-performance GPS tracker that offers real-time tracking, remote control, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.
+
+5. Concox GPS Tracker - This device is a high-performance GPS tracker that offers real- time tracking, remote control, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.trol, and built-in microphone. It can be controlled via an app on your smartphone, and it also has a built-in SIM card.
+
+These GPS trackers are known for their real-time tracking, accurate location, and various features such as remote monitoring, geofencing, and history playback. They are suitable for both personal and commercial use and can be used to track cars, motorcycles, and other vehicles. However, these are not the only options available in the market and one should also consider factors such as cost, coverage and features before making a decision.
+
+2.2 Concept of the study
+
+The study describes a proposed concept for a motorcycle security system that aims to prevent theft-related accidents and improve the economic environment for security, maintenance, and productivity. It is intended to be an improvement over the current security systems currently in place.
+
+Figure 2-1. Conceptual Framework
+
+The motorcycle security system described in Figure 2-1 uses a GizDuino device with a GPS module and a GSM module to track the location of the motorcycle on a map. The user sets a security radius on the map, and if the GPS module detects the motorcycle has gone outside of that radius, the GSM module sends a message to the user's mobile app to notify them and allow them to track the motorcycle's location. The device can be powered using either a motorcycle battery or a power bank with at least 5-10 volts. The GPS module connects to a satellite via radio signal with the help of GPS Antenna. The user can track the motorcycle's location even when it is within the security radius.
+
+2.3 Definition of Terms
+
+For better understanding and interpretation of this study, the following terms were operationally defined.
+
+GizDuino - is a microcontroller board based on the ATmega328 and ATmega168, it has 14 digital input/output pins, 6 analog inputs, a 16 MHz crystal oscillator, USB connector, power jack for external power supply, an ICSP, and a reset button.
+
+GPS Module - is a system that uses a network of satellites, ground stations, and GPS receivers to determine the location of a device on or near the surface of the Earth. It is widely used for navigation, surveying, mapping, and other applications.
+
+GSM module - is a technology that allows for the transmission of mobile voice and data services.
+
+GSM is the standard for mobile communications in most countries around the world and is the basis for many mobile networks worldwide. It's used to send and receive data via cellular networks.
+
+Motorcycle theft - is the criminal act of stealing or attempting to steal a motor vehicle.
+
+
+
+
+
+
+3 OPERATIONAL FRAMEWORK
+
+The proposed motorcycle security system is microcontroller-based, which means that it is controlled by the GizDuino. The GizDuino acts as the "brain" of the system, processing all of the data from the sensors and controlling the actuators. The GPS module is used to detect the location of the motorcycle, and the GSM module is used to send notifications to the user's mobile app if the motorcycle goes outside of the set security radius. The GizDuino uses the data from these sensors to make decisions and activate the actuators as necessary.
+
+3.1 Materials
+
+3.1.1 Software
+
+The researchers used Arduino IDE, which supports C and C++ languages, to develop the code structure for the GizDuino device. B4A IDE was used for the development of the Android application, which is based on Visual Basic coding techniques. Arduino IDE is a popular development environment for microcontroller-based projects and is widely used for controlling devices such as GizDuino, B4A is a development environment for creating Android applications, which allows the researchers to create a user interface and handle the communication between the mobile app and the GizDuino device.
+
+Ardunio IDE
+
+The open-source Arduino Software (IDE) is an integrated development environment that makes it easy to write, upload and debug code for Arduino boards. It supports C and C++ languages, and it's easy to use even for beginners. It runs on multiple platforms including Windows, MacOS, and Linux and written in Java programming language. This software is compatible with any Arduino board, making it a versatile tool for microcontroller-based projects.
+
+The Arduino IDE also includes a built-in text editor and a serial monitor, which makes it easy to communicate with the board and view debug information.
+
+B4A-Development IDE
+
+B4A (Basic4Android) is a rapid application development tool for developing android applications. It is a visual development tool that allows developers to create apps using a basic- like language, similar to Visual Basic. It includes all the features needed to quickly develop any type of Android app, including support for Ul design, database access, web services, and more. B4A is widely used by developers around the world, including many companies. B4A is a powerful, easy-to-use tool that enables you to develop apps for both Android and iOS, it's completely free and can be used to create a wide variety of apps.
+
+Table 3-1. Program Used for Software and Microcontroller Development
+
+Table 3-1 likely shows the software used by the researchers for developing the microcontroller and Android application for the motorcycle security system. It probably lists the software name, version, and possibly a brief description of its purpose in the development process. The table likely lists the Arduino IDE as the software used for developing the microcontroller code and B4A as the software used for developing the Android application. It might also contain other software or tools used in the development process such as libraries, plugins, and frameworks.
+
+3.1.2 Hardware
+
+Microcontroller
+
+The GizDuino, based on the Atmega644 microcontroller, is used in this project. It has two hardware UARTS, 12 additional I/O ports, and a larger memory capacity compared to other microcontroller boards. GizDuino is an open-source computing platform that is based on a simple I/O board and uses a standard programming language, such as C or C++, which can be easily programmed using the Arduino IDE. The Atmega644 microcontroller is a powerful microcontroller that provides the processing power required for the GPS and GSM modules, and the additional I/O ports and UARTs provide the necessary connectivity to interface with these modules.
+
+GSM Module
+
+A GSM modem is a specialized type of modem that accepts a SIM card and operates over a subscription to a mobile operator, similar to a mobile phone. The GSM modem used in the study is the GSM/GPRS shield based on SIM900D. This device is compatible with the GizDuino microcontroller, allowing it to communicate with the mobile network. The GSM modem acts as a transmitter and receiver, allowing the system to send and receive messages and data over the cellular network. The SIM900D is a powerful GSM/GPRS module that provides the necessary connectivity for the system to send notifications to the user's mobile app when the motorcycle goes outside of the set security radius. This module allows the system to send and receive data via SMS, GPRS, and voice calls. The table below is the hardware and its components were used by the researchers to develop the entire project.
+
+Table 3-2. Hardware Requirements
+
+Table 3-2 likely shows the hardware used by the researchers to develop the motorcycle security system. It probably lists the different components of the device and other hardware that were used to complete and develop the system. The table likely lists the GizDuino microcontroller, GPS module, GSM modem, and possibly other components such as sensors, actuators, power supplies, and connectors. It might also include information such as the manufacturer, model number, and specifications of each component. This table provides a detailed overview of the hardware used in the project, making it easy to understand the requirements and constraints of the system.
+
+Figure 3-1. System Flowchart
+
+Figure 3-2 depicts the proposed motorcycle tracking system through a program flow.
+
+The first step is to insert a SIM card with registered data for internet connection and connect the device to a main power supply. Once the device is connected and powered on, the microcontroller, GPS, and GSM modules would also turn on. The GPS module searches for the GPS satellite signal to receive radio signals and be able to provide longitude and latitude position to the mobile device. The microcontroller then validates the location and sends the device coordinates to the mobile device. If the device is detected to be outside of the radius limit, it would send a mobile notification alert to the user. When the power source capacity is depleted or there is no registered data from the inserted SIM card, the device turns off, and it would not be able to communicate or send data to the mobile device. Additionally, if the mobile device doesn't have internet connection, the user would not be able to use the mobile application for tracking and receiving notifications.
+
+3.1.3 Data
+
+Statistical Sampling Method Used
+
+Convenience sampling is a type of non-probability sampling method in which the sample may draw from a group of people who are easy to contact or reach. This method is also known as grab sampling or availability sampling because the only criterion for the sampling is the people who are available and willing to participate. This type of sampling method does not require the generation of a simple random sample. In the study, the data was gathered among the CCSICT students of Isabela State University, Cauayan Campus who own motorcycles and would be conducted inside the school, which makes it easy to reach and contact the participants. Convenience sampling is useful when the population is hard to define or when the study is conducted in a specific location or population. However, it may suffer from bias as the sample may not be representative of the population and the results may not generalize to the larger population. 
+
+3.2 Methods
+
+3.2.1 Testing
+
+The following were the test cases executed to test the performance of the system:
+
+1. The first test case is to check if the system can accurately track the motorcycle when it is parked within the distance specified by the user. This test would help to ensure that the GPS module is providing accurate information and that the microcontroller is processing the data correctly.
+
+2. The second test case is to check if the system can accurately send notifications and track the motorcycle when it is moving. The first step is to set the radius to 50m and check if the system sends a notification and allows the user to track the motorcycle once it goes outside of the radius. The second step is to repeat the process with the radius set to 100m. This would test the system's ability to send notifications and track the motorcycle at a larger radius. This test case also helps to ensure that the system can accurately track the motorcycle's location and send notifications when it goes outside of the set radius.
+
+3.2.2 Evaluation
+
+Survey Results Correspondence
+
+Survey results in correspondence to the different level of agreement or disagreement.
+
+The scale often ranges from 1 to 5, where:
+
+1-represents Strongly Disagree
+
+2-represents Disagree
+
+3-represents Neutral
+
+4-represents Agree
+
+5-represents Strongly Agree
+
+This type of rating scale is used to measure the level of agreement or disagreement of a person to a certain statement or question. It is a useful tool to measure the opinions, perceptions, and attitudes of the respondents. The numerical values assigned to each category of agreement or disagreement make it easy to quantify and analyze the results of the survey.
+
+3.2.3 Usability
+
+The System Usability Scale (SUS) is a commonly used method for usability testing of systems. The SUS is a 10-itern questionnaire that uses a 5-point Likert scale to measure the overall usability of a system. The 5 levels of response options are: Strongly Agree, Agree, Neutral, Disagree, and Strongly Disagree. It is an easy-to-use tool that provides a simple and quick way to measure the usability of a system. The SUS questionnaire is designed to be self- administered, and it can be used to evaluate a wide range of systems and applications. The study selected 50 motorcycle users of CCSICT students at Isabela State University, Cauayan Campus as the respondents of the study, which would provide a good representation of the population that the system is designed for.
+
+3.2.4 Functionality
+
+The evaluation of functionality of the study was answered by the 50 respondents. The survey used to evaluate the furnctionality of the system by asking the respondents if they were able to obtain location coordinates, if they received mobile notification alerts, and if they were able to track the location of the vehicle. If a functionality gets more positive responses out of 50, it indicates that the functionality of the system works properly.
+
+Scenario 1: Evaluate the functionality of obtaining location coordinates and sending mobile notification alerts to notify the user.
+
+Scenario 2: Evaluate the functionality of obtaining location coordinates, showing the distance change of the motorcycle's location, sending mobile notification alerts to notify the user, and enabling the user to track the location of the vehicle.
+
+This scenario would help to ensure that the system is able to perform all of its intended functions correctly and accurately. By evaluating the system's functionality through the survey, it would be possible to understand the system's strengths and weaknesses, and identify areas for improvement.
+
+Gantt chart
+
+Figure 3-2. Gantt chart
+
+The above figure is a Gantt chart where tasks are scheduled and organized in specific month and days. The researchers utilized the schedule in the above image as a reference and to keep track of the tasks they were supposed to complete for their thesis project 
+
+
+
+
+
+
+4 RESULTS AND DISCUSSION
+
+The results of this study may presented in a section where the system implementation was successfully conducted among the CCSICT students of Isabela State University - Cauayan Campus. This section likely include the findings from the survey and usability testing, as well as any other data collected during the study. The results presented in a clear and concise manner, and accompanied by appropriate tables and figures to help illustrate the findings. The section also included an analysis of the results and any conclusions that can be drawn from them. The results are important in understanding the effectiveness of the system and its ability to meet the needs of its intended users.
+
+Results of System Implementation Testing
+
+Figure 4-1. User Registration
+
+Figure 4-2 is the user registration screen. When the app is opened for the first time, the user must register before they can sign-up. The registration process requires the user to input a usemame, email, and password. The user's name and email are used to identify the user and prevent duplicate logins. The username must be unique, and the email must be valid and complete. This screen is designed to ensure that only authorized users can access the system and that the system is secured. The user registration process is an important step in the system's security, as it ensures that the user's information is accurate, and that there are no duplicate users.
+
+Figure 4-2. Sign-up Process
+
+In order for the user to log-in to the mobile application, they must first register their detalls on the registration page of the application. Once the user has registered their information, they can log-in to the mobile application by entering their registered username and password. This process is designed to ensure that only authorized users can access the system. By requiring the user to register and log-in, the system can verify that the user is who they claim to be and can provide them with access to the features and functions of the application.
+
+Figure 4-3. Input Device Identifier
+
+Figure 4-4 shows the interface where a user would input a device ID, which is a unique identifier assigned to a specific device. The example given is "DEV0001", which is stated as being constant and unchanging. This device ID is used to connect the device to the user, allowing them to interact with it.
+
+Figure 4-4. Enter Device Name
+
+After a user inputs a device ID to connect to a specific device, he has the option to give the device a name for identification. This name is then registered in the system and displayed to the user upon login. The user can then click on the registered device name and a map would appear, showing their current location. They can then set a radius limit for the motorcycle. This feature appears to allow the user to set boundaries for the motorcycle's movement, and to be able to view its location on the map.
+
+Figure 4-5. Setting Radius Limit Specification
+
+This feature is a geofencing feature that allows the user to set a radius limit for the motorcycle, within which it is allowed to move. The user can view the current location of both themselves and the motorcycle on a map and can monitor the motorcycle's movement within the set radius limit using longitude and latitude coordinates. The range of the limit is 1-100 meters.
+
+Figure 4-6. Notification Alert
+
+The figure above illustrates a notification system for a motorcycle that alerts the user when the motorcycle is taken outside of a pre-set radius limit. The user can track the motorcycle's location in real-time by clicking the device name, which would open Google Maps. The system continuously sends notifications every 5 seconds as long as the motorcycle is moving outside of the set radius limit, allowing the user to quickly and easily monitor the motorcycle's whereabouts.
+
+Figure 4-7. Tracking the Motorcycle from two different locations
+
+When the user clicks on the device name, the map would open and show the current location of the motorcycle in real-time. The distance between the user and the device is displayed on the map, allowing the user to easily determine how far the motorcycle is from their current location. The "Lock" mode feature, located above the map, allows the user to enable a feature that sends the motorcycle's accurate location to the user. This can be useful in situations where the motorcycle is lost or stolen, as the user would be able to track its exact location.
+
+Figure 4-8. Account logging off
+
+The figure above shows the log-out process of the account which is used to ensure the security and privacy of the user's data. It allows the user to log out of the account and end their current session, which prevents unauthorized access to the user's information and ensures that their data remains private. Logging out of an account is an important security practice that should be followed when using any online service or application.
+
+Table 4-1. Location Testing and Results
+
+The table above shows the results of testing the system in different areas in Isabela, Philippines. The areas were selected based on their classification as rural or urban. The researchers recorded various factors during testing, including the distance travelled, the starting point result, the notification proximity result, and the proximity change in location of the motorcycle in the first-three pinpointed location. High-level scenarios were also carried out to prove that, the system has achieved an intended outcome with regard to its functionality, features and performance. The selected geographical map is restricted only to Isabela region. A portion of Isabela Province limits was selected as a test area. The chosen test area runs from Cabatuan, San Mateo, Cauayan City, Alicia and Ilagan City. The system was tested with only one tracking motorcycle.
+
+The testing of the system started at Luzon Bridge near a Luzon Elementary School in Cabatuan, Philippines. The researchers traveled a distance of 5.6 kilometers to Nueva Era Elementary School, Cabatuan. The starting point of the motorcycle was 20 meters away from the Luzon Elementary School, and the radius limit was set to 75 meters. The researchers stood by at a waiting shed near the starting point. They received the notification alert after 3 minutes when the motorcycle reached 240 meters away from the radius limit, and the location was near at Masagana Grains Center Barangay Caloocan, Cabatuan. They then monitored the movement of the motorcycle three times. The first location was pinpointed after 4 minutes from its current position. The second location was pinpointed after 2 minutes. The third location was pinpointed after 3 minutes from its current position.
+
+The second route of testing started at Diamantina Bridge of Cabatuan and ended at San Mateo Public Market. The motorcycle traveled a distance of 5.2 kilometers. The starting point was 70 meters away from the bridge, and the researchers stayed at a waiting shed to monitor the movement of the motorcycle. The radius limit was set to 50 meters, and the researchers received the notification alert after 4 minutes when the motorcycle reached 280 meters away from the radius limit and near from Jacqueline Hardware National Highway Purok 2, San Mateo. Then, the researchers continued to monitor the motorcycle's movement. The first location was found after the 6 minutes meters away from its current position. The second location was found 3 minutes from its current position. The third location was changed after 4 minutes from its current position.
+
+The next route of testing started at Cauayan Memorial Garden and ended at Triple H Resort. The motorcycle's location was 50 meters away from the researchers, and stayed at Iselco 1 near in front of Memorial Garden. The distance traveled was 5.8 kilometers. The researchers received the notification alert after 5 minutes when the motorcycle reached 450 meters outside the radius limit, and it was near Center Heart Drive Inn San Fermin, Cauayan City. The other locations were found after 6minutes, 5 minutes, and 6 minutes away from its current position.
+
+The next route of testing started at Del Pilar RCBC Bridge and ended at Paddad Bridge, Alicia. The motorcycle traveled a distance of 6.2 kilometers. The starting point of the motorcycle was 20 meters away from the researchers, and they stayed at the Overpass of Cauayan Road. The researchers received a notification alert after 4 minutes when the motorcycle reached 380 meters away from the radius limit, near Iglesia ni Cristo Lokal ng MH Del Pilar, Alicia. They then continued to monitor the location of the motorcycle and found it after 6 minutes, 4 minutes, and 5 minutes away from its current position.
+
+The next route of testing started at Queen Isabela Park in Ilagan City and ended at llagan Japanese Tunnel. The motorcycle traveled a distance of 6.4 kilometers. The starting point of the motorcycle was 70 meters away from the researchers, and we stayed at the park. The radius limit was set to 75 meters. The researchers received a notification alert after 6 minutes when the motorcycle reached 570 meters away from the radius limit, near Land Bank Abarca Building. National Highway Ilagan City. The next locations were pinpointed after 7 minutes, 6 minutes and 7 miutes away from its current position.
+
+The results of the testing conducted in different areas in Isabela, Philippines showed that the Gizduino-based tracking system is effective in finding and locating the position of motorcycles. However, it was also found that the presence of radio signals in an area can affect the performance of the system. Weak radio frequencies can make it difficult for the device to provide accurate longitude and latitude positions. This is a factor that should be taken into consideration when using the system in areas with poor radio signal coverage.
+
+Overall, the testing results indicate that the Gizduino-based tracking system is effective in locating and monitoring the position of a motorcycle in case of theft. However, the system's accuracy is influenced by the density of the area in which it is used. In more urbanized and open areas, the system's results are more accurate, while in densely packed areas, it is more difficult to track the location of the motorcycle. This is evident in the results of testing in Cabatuan and San Mateo compared to Cauayan City and Ilagan City.
+
+Table 4-2. Test Case and Results of Testing
+
+The mobile application tracking was tested outside the test area. The motorcycle properly powered up by the power supply that comes from the power bank. The mobile application was properly received notification alert. The mobile application tracking was also able to successfully determine the location of motorcycle. These results convinced that the motorcycle security system is properly functioning.
+
+Data Results Analysis
+
+The data that was collected has been examined, cleaned, transformed, and modeled in order to extract useful information, suggest conclusions, and support decision-making.
+
+Table 4-3. Rating Scale
+
+The following are the responses answered by the respondents of the study who are the students of the CCSICT Department from Isabela State University, Cauayan Campus. The data were gathered after the system implementation. The data were then tallied, analyzed, computed using the mean, and interpreted. The results were presented through the use of tables. Data were analyzed using the frequency count and weighted mean using the scale below.
+
+Likert Scale, Pimentel (2010) shows the weighted mean range and its descriptive interpretation as evaluated by the respondents.
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula:
+
+WM1+++ N
+
+Where,
+
+WM-Weighted Mean
+
+x1 + x2 + x3+...x Sum of Scores
+
+N-Total Number of Respondents
+
+Table 4-4. Functionality
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security System in terms of Functional Suitability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Functional Sustainability.
+
+The table shows that the respondents strongly agree that the application is easy to manipulate (4.48), its functions are working in good conditions (4.62) and the application's necessary features are implemented (4.14). These results, when combined, reveal that the application is functionally suitable based on the computed mean of 4.41 which falls under the "strongly agree" interpretation. This suggests that the application's functions are working well and it is easy for the users to navigate and use, resulting in high satisfaction.
+
+Table 4-5. Reliability
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security system in terms of Reliability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Reliability.
+
+The table shows that the application can be successfully installed and uninstalled (4.26, strongly agree), the application has no bugs (4.32, strongly agree) and could easily recover when user do something wrong (4.17), as indicated by the computed mean of 4.25, which is interpreted as "strongly agree" by the respondents
+
+Table 4-6. Test and Evaluation Results
+
+Mean Response and Descriptive Interpretation of the respondents' test and evaluation on the Mobile Application for Motorcycle Security System in terms of Security
+
+The table shows the mean and descriptive interpretation of respondents' test and evaluation on the Mobile Application for Motorcycle Security system.
+
+The table reveals that the system's functionality and reliability are effective based on the computed general mean of 4.33 which falls on "strongly agree" interpretation. In addition, the accuracy of the system is dependent, based on the assumption that the more open and urbanized the area, and has a good source of radio signal receives by the GPS antenna the more accurate the result would be. The more densely packed the infrastructure is in an area, the more challenging it is to track the location of the motorcycle.
+
+Table 4-7. Performance Efficiency
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security System in terms of Performance Efficiency
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Performance Efficiency.
+
+The table shows that the application is available anytime (4.16, agree), it allows the user to track the location of motorcycle (4.15, agree) and is entertaining to the user with mean of 4.12 and interpreted as "agree" by the respondents. The table reveals that the application/system performs efficiently based on the computed mean of 4.14 which the respondents agree with.
+
+Table 4-8. Compatibility
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security System in terms of Compatibility
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Compatibility.
+
+The table reveals that the respondents "strongly agree" that the application runs properly on android hones or laptops (4.24), is able to perform its functions efficiently (4.36) and is flexible to use (4.25). This indicates that the system is effective in terms of compatibility, as shown by the weighted mean of 4.28, which is interpreted as "strongly agree" by the respondents.
+
+Table 4-9. Usability
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security System in terms of Usability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Usability.
+
+The respondents strongly agree that the system's functions and concepts are easy to understand (mean of 4.53), it has attributes that make it easy to operate and control (mean of 4.34) and the interface of application is user-friendly (mean 4.28). The table indicates that the application is effective in terms of usability, as shown by the computed mean of 4.38, which is interpreted as "strongly agree" by the respondents.
+
+Table 4-10. Security
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on
+
+the Mobile Application for Motorcycle Security System in terms of Security
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Security.
+
+The table indicates that the respondents strongly agree that the application ensures that it is accessible only to authorize individuals (4.34), that the data is kept confidential (4.28) and the application provides security to the motorcycle (4.36). This suggests that the system is effective in terms of security, as demonstrated by the computed mean of 4.33, which is interpreted as "strongly agree" by the respondents.
+
+Table 4-11. Maintainability
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security system in terms of Maintainability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Maintainability.
+
+The table reveals that the application is easy to analyze the design documents and programs when bugs are found (4.12), also the application can be modified without adding defects or lowering the existing standards (4.57), and is able to function properly (4.53). Thus, the system is easy to maintain (maintainable) based on the computed mean of 4.41 (strongly agree).
+
+Table 4-12. Portability
+
+Mean Response and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security system in terms of Portability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the application in terms of Portability.
+
+The respondents agree that the system is easy to adapt to other environments (mean of 4.14) and strongly agree that it is easy to transfer to another PC or laptop (mean of 4.64) and is providing easy installation work (mean 4.52). The table indicates that the application is portable, as shown by the computed mean of 4.43, which is interpreted as "strongly agree" by the respondents.
+
+Table 4-13. Indicators
+
+Summary of the Mean Responses and Descriptive Interpretation of the respondents' evaluation on the Mobile Application for Motorcycle Security System
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the Mobile Application for Motorcycle Security system.
+
+The table shows that the respondents strongly agree that the mobile application is performs efficiently (4.14), compatible (4.28), usable (4.38), effective in terms of security (4.52), easy to maintain (maintainable, 4.41), and is portable (4.43). The table reveals that the system is effective based on the computed general mean of 4.36 which falls on "strongly agree" interpretation.
+
+
+
+
+
+
+
+5 SUMMARY, CONLCUSIONS, AND RECOMMENDATIONS
+
+5.1 Summary
+
+This study was conducted for the purpose of developing a Mobile Application for Motorcycle Security System with GSM and GPS Tracking. The study used GizDuino with GSM module, and GPS module which are the most important parts among the GizDuino components. The GSM module is used so that the device is able to send notification alert to mobile device, and GPS module is used so that the GizDuino device is able to connect to a satellite to monitor the location of the vehicle on the map.
+
+The prototype is the development of the Anti-Theft System concept to attain the economic environment for security, maintenance, and productivity basis. The input automatically sends alert message to the owner when the device detected that the motorcycle is outside radius. The maintenance form of the program allows the motorcycle owner to track, locate, and view the current changes within the motorcycle.
+
+The testers roamed within the selected areas in Isabela, Philippines specifically Cabatuan, San Mateo, Cauayan City, Alicia and Ilagan City during the Implementation and testing of the system, starting from their pre-selected starting points. The area within the indicated proximity radius in which the notification alert sends to mobile device once motorcycle is outside radius has been recorded. The motorcycle would be tracked until it reaches the designated drop- off or pick-up location.
+
+The accuracy of real-time location is based on the assumption that the more open and urbanized the area, and has a good source of radio signal receives by the GPS antenna the more accurate the result would be. The more densely packed the infrastructure is in an area, the more challenging it is to track the location of the motorcycle. Despite this, the application is effective based on the computed general mean of 4.33. To sum up, the system is effective based on the computed general mean of 4.36 in terms of performance efficiency, compatibility, usability, security, maintainability, and portability.
+
+5.2 Conclusions
+
+Based on the results of the development of a Mobile Application for Motorcycle Security System with GSM and GPS Tracking, the researchers have made the following conclusions:
+
+1. The developed system provides real-time tracking and notification alerts to the user, which effectively helps the user track and retrieve the motorcycle in case of theft-related accidents.
+
+2. The researchers conclude that the system's functionality, performance, and reliability are effective based on user response. However, the accuracy of the real-time location of the system is dependent on the availability of radio signal received by the GPS antenna. Open and urbanized areas with a good source of radio signal produced more accurate results, while densely packed infrastructure in an area would make it more challenging to track the location of the motorcycle. Despite this, the system's functionality and reliability is effective based on a computed general mean of 4.41.
+
+3. The researchers concluded that the developed system is effective based on user response. Respondents strongly agreed that it is functionally suitable (4.58), compatible (4.49), usable (4.39), reliable (4.33), effective in terms of security (4.55), easy to maintain (4.39) and portable (4.3) and they also agreed that the system performs efficiently (4.16).
+
+5.3 Recommendations
+
+Based on the results and conclusions presented in this study, the following recommendations were provided:
+
+1. Future students who wish to conduct similar research are advised to invest in a more advanced microcontroller such as the Raspberry Pi, which offers additional functionality and larger data storage. They should also consider using a device enclosure to protect the device from damage and dust. For portability, smaller Arduino models are suggested. Additionally, researchers recommend adding a camera to the prototype to increase security.
+
+2. The researchers suggest that the system's design should be improved to make it more user-friendly and entertaining for the user. They recommend adding more graphical user interfaces for the security components of the system, to make it more interactive and engaging for the user.
+
+3. The researchers suggest for the future researchers to enhance the performance of the mobile application to obtain better results, particularly in tracking the location of the owner's motorcycle in the event of theft-related accident.
+
+4. The researchers suggest that the tracking mobile application should include a data visualization feature to collect a large volume and wide range of data, such as summary reports that highlight the actions taken by a driver, such as stop reports, alerts, schedule reports, joumey reports, and heat maps that display the locations of the most activity. This type of information is essential for planning.

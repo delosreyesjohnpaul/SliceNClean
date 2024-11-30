@@ -1,0 +1,708 @@
+A WEB-BASED GIS MAPPING AND FORECASTING UTILIZED MEDICINES IN THE RURAL HEALTH UNIT-1 OF CAUAYAN CITY ISABELA CASTILLO, KRISTINE JOY FORONDA, EUNICE LAPUEBLA, ANA MARIE C. January 2024
+
+
+
+
+
+A Thesis Presented to the Faculty of the
+ College of Computing Studies, Information and 
+Communication Technology
+Isabela State University
+Cauayan Campus
+
+
+
+
+
+In Partial Fulfillment of the Requirements for the Degree 
+ Bachelor of Science in Computer Science
+
+
+
+
+
+CASTILLO, KRISTINE JOY FORONDA, EUNICE LAPUEBLA, ANA MARIE C. January 2024
+APPROVAL SHEET
+The Thesis entitled A Web-Based GIS Mapping and Forecasting Utilized Medicines in the Rural Health Unit-1 of Cauayan City, Isabela, has been prepared and submitted by Kristine Joy Castillo, Eunice P. Foronda and Ana Marie C. Lapuebla, in partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science is hereby endorsed. 
+
+ANGELO C. GALAPON, DIT
+Research Paper Adviser
+
+Approved by the panel of the final oral and system defense with a grade of _________.
+
+REYNALDO R. CORPUZ, DIT
+      Dean, Defense Panel
+JESUS M. LINDO, MIT
+AIMEE D. MOLATO, DIT
+Panel Member
+Panel Member
+
+
+	Accepted as partial fulfillment of the requirements for the degree Bachelor of Science in Computer Science.
+
+ROSE MARY A. VELASCO, DIT						______________	
+Program Chair, BSCS							          Date
+REYNALDO R. CORPUZ, DIT						______________	
+Dean, CCSICT							       	          Date
+LORELEI C. TABAGO, Ph. D.						______________	
+Director, ISU Cauayan Research and Development		 	          Date
+
+Recorded:
+CLARICEL P. ORATA, MBA						______________	
+Registrar II, ISU Cauayan						          Date
+ACKNOWLEDGMENT
+	The road to this point in your studies couldn’t have been travelled alone.  Along the way, someone somewhere helped you.  This is your chance to thank them. 
+By the way, exercise the liberty to be personal to reflect the sincerity of your gratitude… We are deeply grateful to the many individuals and organizations who have helped make this book a reality. We would like to express our heartfelt thanks and for their unwavering support and encouragement.  
+Dr. Angelo C. Galapon, our thesis adviser who guided us throughout and helped us in this journey.
+Dr. Reynaldo R. Corpuz, our dean, for the advices to complete our study. 
+ Dr. Rose Mary A. Velasco, our thesis instructor/Program chair, for unrelentless guidance and constant encouragement, it is our honor for having you as instructor. 
+ Dr. Reynaldo R. Corpuz, Jesus M. Lindo, MIT, Dr. Aimee D. Molato our panelists, for their knowledge, encouragement, recommendation and for guiding us to the completion of our thesis. 
+Lastly, the researcher Ana Marie C. Lapuebla, would like to thank herself for not giving up on doing this paper alone.
+DEDICATION 
+We are combining all of the knowledge we have gained, not just the knowledge, but also the experiences and amazing memories we have made us arrive with this piece of work, despite many hardships and attempts during our college life. 
+We owe our accomplishments and success to our loving family, particularly to our dear parents, who served as our inspiration and provided us with financial assistance, strength, and determination to achieve our goals. 
+We also dedicate our research to our instructor, who assisted us in completing our work. 
+Above all, we are grateful to our Almighty God for his love and blessings he has bestowed upon us. For guiding us and providing the strength we needed to complete this task. 
+
+
+
+
+
+
+
+
+
+ABSTRACT
+Mapping and Forecasting is a web application that locates, view and displays the projects. Moreover, maps are more than simply a component of a visual image; they serve as a guide for following directions. It is significant not just for the knowledge it may provide us with, but also for helping us locate things. While the Forecasting, in the various fields such as business, economics, and weather prediction, involves making predictions or estimates about future trends, behaviors, or outcomes based on historical data, patterns, and relevant factors. It is a systematic approach to anticipate future events or conditions, helping individuals and organizations make informed decisions and plan for potential scenarios. Forecasting methods often include statistical models, data analysis, and other techniques to project future developments with a certain degree of accuracy. The Mapping Information System showcases the following features like; locating, viewing and displaying the selected barangay of Rural Health unit-1 of Cauayan City provide them information as to how to locate the selected barangay that distributed of medicine, view and displays the locations. The develop system was to record, view, locate and display of the confidential data of the Rural Health Unit-1. Generally, based on the analysis and evaluation of the system by the respondents they rated it “strongly agree” with a grand mean of 4.50 in terms of the ISO evaluation Performance Efficiency, Reliability, Functionality, Usability, Security and Maintainability. Thus, the GIS Web-Based Mapping and Forecasting Utilized Medicines in the Rural Health Unit-1 of Cauayan City Isabela will help its constituents in locating, viewing and displaying the needed of the project.
+Table of Contents
+
+ABSTRACT	v
+Table of Contents	vi
+LIST OF TABLES	viii
+LIST OF FIGURES	ix
+1	INTRODUCTION	9
+1.1	Background of the Study	9
+1.2	Objectives of the Study	13
+1.3	Significance of the Study	14
+1.4	Scope and Delimitations	14
+2	THEORETICAL FRAMEWORK	15
+2.1	Review of Related Literature	15
+2.2	Concept of the Study	21
+2.3	Definition of Terms	22
+3	OPERATIONAL FRAMEWORK	25
+3.1	Materials	25
+3.1.1	Software	25
+3.1.2	Hardware	25
+3.1.3	Data	25
+3.2	Methods	26
+3.2.1	Experimental design	27
+3.2.2	Procedures for the different phases	27
+3.2.3	Evaluation	30
+4	RESULTS AND DISCUSSION	33
+4.1	Results by phase of study	33
+4.2	Verification studies	36
+5	SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS	47
+5.1	Summary	47
+5.2	Conclusions	48
+5.3	Recommendations	49
+
+
+
+LIST OF TABLES
+Table 1. Software Specification………………………………………….………………………..……26
+Table 2. Hardware Specification…………………………………………………..……………….…..26
+Table 3. Data……………………………………………………………………………………………..26
+Table 4. Likert Scale……………..…..………………………………………………………...………..31
+Table 5. Performance Efficiency………………………………………………………………………..37
+Table 6. Reliability………………………………………………………………………………………..37
+Table 7. Functionality ……………………………………………………………………………………38
+Table 8. Usability…………...………….…………………………………………………………………39
+Table 9. Security………………………………………………………………………………………….40
+Table 10. Maintainability…………..……………………………………………………………………..41
+Table 11. GIS Web-based Application Evaluation…………………………………………………….42
+
+
+
+LIST OF FIGURES
+Figure 1. Conceptual Framework………………………………………………….…..……….……...21
+Figure 2. The Agile Methodology……………………….……………………………………..……….28
+Figure 3. Procedure of Medicine Forecasting……………………………………….….…………….33
+Figure 4. Mapping System…………………..………………………………………………………….34
+Figure 5. Forecasting System……………….………………………………………………………….35
+Figure 6. Benefits of GIS Mapping………………….………………………………………………….36
+Figure 7. Benefits of GIS Forecasting………………….…………………..………………………….37
+
+
+
+
+INTRODUCTION
+Background of the Study
+A Web-Based GIS Mapping and forecasting the utilization of medicine at Rural Health Units (RHUs) is a critical aspect of healthcare delivery, particularly in rural areas where access to healthcare is often limited. In Cauayan City, Isabela, this is particularly relevant due to the rural nature of the community and the challenges in accessing basic healthcare delivery services. By understanding how medicine is being utilized at RHUs, healthcare providers can better plan and allocate resources to meet the healthcare needs of the local population. This analysis involves the use of data mining techniques to analyze patterns and trends in medicine utilization at RHUs Cauayan City, Isabela.
+Cauayan City is a third-class city located in the province of Isabela, Philippines. It has a population of approximately 141,913 (2023) people and is known for its agricultural economy. Like many other rural areas, Cauayan City faces several challenges in healthcare delivery, including limited access to healthcare facilities, inadequate resources, and a shortage of healthcare professionals.
+	The city's healthcare system is mainly composed of primary care facilities, including rural health units (RHUs). RHUs are the primary healthcare facilities in the Philippines, providing a range of services, including maternal and child health, family planning, immunization, and treatment of common illnesses. They are staffed by doctors, nurses, and other healthcare workers.
+	One of the main challenges faced by RHUs in Cauayan City is the availability and utilization of medicines. Medicines are an essential component of healthcare, and their availability can significantly affect the quality of care provided. However, RHUs often face shortages of essential medicines, leading to suboptimal treatment and patient outcomes. This issue is compounded by the fact that there is a lack of data on the utilization of medicines in RHUs, making it difficult to plan for the procurement and distribution of medicines.
+According to a study by Gonzales (2018), mapping the utilization of medicine in rural areas can help healthcare providers to understand the distribution of health resources, identify potential disparities, and allocate resources more effectively. The study found that mapping the utilization of medicine can be useful in identify areas where access to healthcare is limited, as well as areas where patients may be overusing medications.
+A study published by Amoloza in 2018 titled "Mapping and Forecasting Medicine Utilization in Rural Health Units: A Tool for Public Health Planning" aimed to develop a tool for mapping and forecasting medicine utilization in rural health units in the Philippines. The study utilized a geographic information system (GIS) to map the utilization of medicine in different areas and created a predictive model to forecast future medicine utilization based on current data.
+	The authors found that the tool could assist in identifying gaps in medicine supply and demand, which could help health officials plan for future medicine needs in rural areas. By mapping and forecasting medicine utilization, rural health units could allocate their resources more effectively, provide more targeted interventions, and ultimately improve access to medicine for residents.
+In a separate study by Aziz (2019), predictive analytics were used to forecast medicine utilization in rural areas. The study found that predictive models could be used to identify patterns in medicine utilization over time, as well as to identify factors that may contributes to changes in medicine usage. This information can be used by healthcare providers to develop more effective strategies for managing medicine supplies and meeting the needs of patients.
+. 	 Mapping and Forecasting Utilize Medicine at Rural Health Unit in Cauayan City, Isabela project is significant for several reasons. Firstly, it aims to address a critical healthcare issue, which is the inadequate utilization of medicine at the RHU. The RHU is responsible for providing primary healthcare services to a large population in the rural areas of Cauayan City, Isabela. However, the RHU faces several challenges that hinder the effective utilization of medicine, including inadequate data, limited resources, and poor healthcare infrastructure. This project seeks to address these challenges by using data to predict and improve the utilization of medicine at the RHU.
+Secondly, this project is significant because it is a step towards using data and analytics to improve healthcare outcomes in rural areas. The use of data and Analytics is an emerging trend in healthcare, and this project seeks to demonstrate how data can be used to improve healthcare delivery to rural communities. By mapping and forecasting the utilization of medicine at the RHU, this project aims to provide insights into how data can be used to optimize healthcare delivery in rural areas.
+	The implementation of mapping and forecasting the utilization of medicine in RHUs requires the collection and analysis of data on medicine utilization. This data can be collected through various means, including patient records, prescription data, and inventory records. Once collected, the data can be analyzed using statistical software to identify patterns and trends in medicine utilization.
+	To ensure the successful implementation of mapping and forecasting medicine utilization, healthcare providers in Cauayan City must be trained on the use of statistical software and data analysis techniques. This can be done through training programs and workshops, which can be conducted by local health authorities or external organizations.
+	The implementation of mapping and forecasting medicine utilization also requires the establishment of a data management system. This system should be designed to collect, store, and analyze data on medicine utilization in RHUs. It should also be user- friendly and accessible to healthcare providers, allowing them to easily access and analyze data.
+The goal is to develop a predictive model that can accurately forecast the demand for medicine based on various factors such as patient demographics, prevalent diseases, and seasonal variations. This model will enable healthcare providers to plan and allocate resources more efficiently. Through the mapping and prediction of medicine utilization at RHUs in Cauayan City, Isabela, healthcare providers can make informed decisions about resource allocation and ensure that patients receive the care they need, when they need it. This will help to improve the overall health outcomes of the community, reduce healthcare costs, and improve access to healthcare services in rural areas.
+The scope of the problem in implementing a web-based GIS mapping and forecasting system for medicine utilization at Rural Health Unit 1 in Cauayan City, Isabela, is significant. The rural health unit faces challenges in efficiently managing medicine distribution and forecasting future demand due to limited resources and geographic constraints. Implementing a web-based GIS system will enable real-time tracking of medicine inventory, optimizing supply chain management, and improving distribution efficiency. Additionally, the system will provide data-driven insights and forecasting capabilities to anticipate medicine demand, enabling proactive planning and reducing stockouts or wastage. Overall, this solution has the potential to ensure timely availability of medicines, and improve the health outcomes of the rural population.
+Objectives of the Study
+This Thesis study aimed to develop a Web-Based GIS Mapping and Forecasting Utilize Medicines in the Rural Health Unit 1 of Cauayan City, Isabela. 
+Specifically, it aimed to:
+1. Apply Mapping and Forecasting of Utilized Medicines at Rural Health Unit-1 of Cauayan City, Isabela.
+2. Evaluate the develop system in terms of ISO 25010 software evaluation criteria;
+		2.1 Performance Efficiency;
+	2.2 Reliability;
+	2.3 Functionality;
+	2.4 Usability;
+	2.5 Security, and
+	2.6 Maintainability.
+3. Identify the benefits of the mapping and forecasting web application.
+Significance of the Study
+The results of this study can have significant implications for the RHU in Cauayan City and other rural healthcare providers in the Philippines. By developing a mapping and forecasting model, the RHU can make data-driven decisions that can enhance the basic delivery of healthcare services to the residents. The use of GIS can also help in identifying areas where resources are needed the most, allowing the RHU to allocate its resources more efficiently. The study can also serve as a basis for future research on the use of technology in rural healthcare delivery.
+Scope and Delimitations
+This study focuses on mapping by applying the GIS of the RHU 1 Cauayan city, Isabela. This research study, was to forecast and monitors the data and stocks of the medicine of RHU 1, Cauayan city. The limitations include: (1) the web-based GIS mapping can be accessed only by the users and RHU 1 personnel of Cauayan City, Isabela. (2) The admin is the one who has the main access of the system. (3) it can`t be accessed by other RHU personnel of Cauayan City, Isabela.
+THEORETICAL FRAMEWORK
+Review of Related Literature
+This chapter presents the relevant literature and studies that the researcher considered in strengthening the importance of the present study. It also presents the synthesis of the art to fully understand the research for better comprehension of the study. 
+
+	Mapping and Forecasting Utilization of Medicine
+		"Mapping and forecasting the utilization of medicine in rural health units: A case study in the Philippines" by Arocena and Villanueva (2019). This study aimed to identify the factors that influence the utilization of medicine at rural health units in the Philippines and to develop a model to predict medicine utilization. The authors used data from surveys and interviews with healthcare providers and patients, as well as geographic and demographic data, to create a spatial regression model that can be used to map and predict medicine utilization in different areas. 
+"Utilization of essential medicines in rural health units in the Philippines" by Atun and Tayag (2016). This study assessed the utilization of essential medicines at rural health units in the Philippines and identified the factors that affect their availability and accessibility. The authors found that the availability and accessibility of essential medicines were influenced by factors such as funding, supply chain management, and the training and supervision of healthcare providers.
+ "Assessing the availability and use of medicines in rural health units in the Philippines" by Tayag (2015). This study evaluated the availability and use of medicines at rural health units in the Philippines and identified the factors that affect their availability and utilization. The authors found that the availability and use of medicines were influenced by factors such as funding, procurement and supply chain management, and healthcare provider training and supervision.
+ "Mapping healthcare access and utilization in rural areas: A case study in the Philippines" Palisoc (2019). It aimed to map healthcare access and utilization in rural areas of the Philippines and to identify the factors that influence access and utilization. The authors used data from surveys and interviews with healthcare providers and patients, as well as geographic and demographic data, to create a spatial model that can be used to predict healthcare access and utilization in different areas. 
+"Predictors of Medicine Utilization among Rural Communities in Nigeria" by Adedapo (2016). It aimed to identify the predictors of medicine utilization among rural communities in Nigeria. The authors used a multivariate logistic regression model to determine the factors that influence medicine utilization. They found that factors such as income, education, distance to healthcare facilities, and availability of medicines were significant predictors of medicine utilization.
+"Mapping healthcare services and resources in rural areas: A case study in Uganda" by Namazzi (2015). This study aimed to map healthcare services and resources in rural areas of Uganda and to identify the factors that influence healthcare utilization. The authors used data from surveys and interviews with healthcare providers and patients, as well as geographic and demographic data, to create a spatial model that can be used to predict healthcare utilization in different areas.
+"Utilization of Medicine and Health Services among Rural Communities in Ghana" by Owusu-Ansah (2016). This study aimed to assess the utilization of medicine and health services among rural communities in Ghana and to identify the factors that influence utilization. The authors used a cross-sectional study design and a multivariate logistic regression model to determine the factors that influence medicine and health service utilization. They found that factors such as income, education, distance to healthcare facilities, and availability of medicines were significant predictors of utilization.
+"A spatial analysis of the utilization of public health services in a rural area of Ethiopia" by Ababa (2019). This study aimed to analyze the spatial distribution of the utilization of public health services in a rural area of Ethiopia and to identify the factors that influence utilization. The authors used data from surveys and interviews with healthcare providers and patients, as well as geographic and demographic data, to create a spatial regression model that can be used to predict healthcare utilization in different areas.
+
+Forecasting Model
+"Development and validation of a forecasting model for medicine utilization at rural health units in Indonesia" Ariani (2020) In this study, the authors aimed to develop and validate a prediction model for medicine utilization at rural health units (RHUs) in Indonesia. They collected data from 401 RHUs across three provinces and used logistic regression to identify factors associated with medicine utilization. The final model included variables such as patient volume, availability of health workers, and distance from the nearest referral hospital. The authors found that the model had good predictive performance and could be useful for resource allocation and planning at the RHU level.
+"Forecasting the utilization of medicines among patients attending rural health facilities in Nigeria: the role of health insurance and household wealth" Obiechina (2021) In this study, the authors aimed to develop a predictive model for medicine utilization among patients attending rural health facilities in Nigeria. They collected data from 565 patients across five states and used logistic regression to identify factors associated with medicine utilization. The final model included variables such as health insurance status, household wealth, and distance to the health facility. The authors found that the model had good predictive performance and could be useful for identifying patients at risk of not utilizing medicines due to financial barriers.
+"Mapping health services in rural Indonesia: a rapid assessment using Geographical Information Systems" by Smith (2012) - This paper uses GIS to map health services in rural Indonesia and analyze their utilization, including factors that contribute to disparities in access to care.
+"Prediction of health service utilization by rural residents: a case study in Taiwan" by Elsa Hsu (2014) - This study uses regression analysis to predict the factors that influence health service utilization by rural residents in Taiwan.
+"Forecasting health service utilization at the local level in Vietnam: a social-ecological approach" by Vuong (2017) - This paper uses a social-ecological approach to predict health service utilization in rural Vietnam, including factors related to the individual, household, community, and health system.
+"Forecasting health-seeking behavior and health service utilization among rural households in a health and demographic surveillance system in Ghana" by Azongo (2017) - This study uses logistic regression analysis to predict health-seeking behavior and health service utilization among rural households in Ghana.
+"Mapping health facilities and maternity service utilization in the Gambia" by Mason (2019) - This paper uses GIS to map health facilities and analyze maternity service utilization in rural Gambia, including factors that influence access to care.
+“Mapping and Forecasting Utilize Medicine at Rural Health Unit” Lestari, Raharjo, Kurniawan, and Pramudianto (2020) The study by Lestar aims to develop a predictive model that can be used to forecast the utilization of medicines at rural health units (RHUs) in Indonesia. The researchers collected data on the utilization of medicines at 29 RHUs in a rural area of Yogyakarta province, Indonesia, from January to December 2019. The data was then used to build a predictive model using the Random Forest algorithm, which is a machine learning technique that can handle complex and non-linear relationships between variables.
+The results of the study indicate that the predictive model developed by the researchers is effective in forecasting the utilization of medicines at RHUs. The model had an accuracy rate of 92.77% in forecasting the utilization of medicines in the next month, and 85.07% in forecasting the utilization of medicines in the next three months. The researchers also identified several factors that influence the utilization of medicines at RHUs, including the number of patients, the number of health workers, and the type of disease.
+The findings of this study have important implications for improving the delivery of healthcare services in rural areas of Indonesia. By using the predictive model developed in this study, healthcare providers can better anticipate the utilization of medicines at RHUs and plan accordingly. This can help to ensure that adequate supplies of medicines are available, which can ultimately lead to better health outcomes for patients in rural areas.
+Mendoza, Liao, & Huang (2019). Mapping and forecasting utilization of medicine at rural health units. Journal of Medical Systems, 43(11), 326.
+This study by Mendoza et al. (2019) focuses on the utilization of medicine at rural health units (RHUs) in the Philippines, which are primary healthcare facilities that serve populations in remote and underserved areas. The authors aimed to map the utilization of medicine at RHUs and predict the demand for medicine in these areas.
+To achieve this, the authors collected data on the utilization of medicine at 121 RHUs in the province of Tarlac, Philippines. They also gathered data on demographic, geographic, and health-related factors that could affect the utilization of medicine, such as population size, distance to the nearest hospital, and disease burden.
+Using spatial analysis techniques and statistical models, the authors created a map of medicine utilization at RHUs in Tarlac and identified areas with high demand for medicine. They also developed a predictive model that could estimate the demand for medicine at RHUs based on the aforementioned factors.
+The results of this study could help health authorities and policymakers to allocate resources and improve the supply chain management of medicine at RHUs in rural areas. By forecasting the demand for medicine, RHUs can ensure that they have sufficient stocks of essential medicines and reduce the incidence of stock outs. This study demonstrates the potential of using spatial analysis and predictive modeling to improve healthcare delivery in underserved areas.
+2.2 	Concept of the Study
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 1. Conceptual Framework
+	The system uses the Input-Process-Output model to show the complete procedures that took place in the development of the proposed system. 
+The study aims to identify the factors that contribute to the utilization of the medicine and to forecast the demand for specific medicines based on the demographics of the population served by the rural health units.
+	The research employs many techniques to collect information, including medical record analysis, patient questionnaires, and interviews with medical providers. In order to spot trends and patterns and ascertain the variables affecting the use of medicine at the rural health facilities, the gathered data will be examined.
+	To forecast the future demand for particular medications, the study also make use of statistical modeling. In order to forecast future demand, this entail examining historical data on medication usage and finding trends. The study also considers a number of demographic variables that may affect the use of medications, including age, gender, and income.
+	The study's findings are applied to enhance the fundamental healthcare services provided at Cauayan City, Isabela's rural health units. The rural health units can guarantee that they have sufficient supply of the medications required to deliver high-quality healthcare services to the community they serve by forecasting the demand for particular medications. The study also point out areas where the provision of healthcare services might be improved, like determining the need for more employees or funding.
+Definition of Terms
+
+A web-based   GIS
+
+
+
+
+Dataset 
+
+
+Forecasting
+
+GIS Integration
+
+
+
+
+
+Health Statistics
+
+
+Healthcare Needs
+Assessment
+
+
+
+Mapping
+
+
+
+
+Medicine Utilization
+
+             
+            
+
+ Rural Health Unit
+
+
+
+Resource Allocation
+
+
+
+             
+
+
+
+
+
+  Spatial Analysis
+
+
+
+
+
+A web-based GIS also known a Geographic Information System 
+that accessible through a web browser. It allows users to access, analyze, and visualize geospatial data from anywhere with an internet connection.
+A dataset is a collection of data in which data is arranged in some order. It contains any data from a series of an array to a database table. 
+Forecasting it is the process of utilizing data and statistical models to anticipate and estimate future events or trends.
+The incorporation of GIS functionalities and spatial data into
+existing systems or workflows. GIS integration in a web-based
+platform for medicine utilization involves embedding GIS
+capabilities, such as mapping and spatial analysis tools, into the
+forecasting and decision-making processes to enhance data
+visualization and analysis.
+Data on prevalent diseases, health conditions, and
+healthcare needs in the community can help in forecasting the
+types and quantities of medicines that may be needed.
+The process of evaluating the healthcare needs of a population or community to identify gaps, priorities, and opportunities for intervention. In the context of medicine utilization, healthcare needs assessment informs resource allocation decisions and strategic planning to ensure that healthcare services meet the needs of the population effectively.
+Mapping is the process of creating a visual representation of a certain area or phenomenon.
+
+The extent to which medicines are used or consumed within a given population or healthcare facility. It encompasses various aspects such as prescribing patterns, dispensing practices, and patient adherence to medication regimens.
+
+A healthcare facility serving rural or remote communities, typically providing primary healthcare services, preventive care, and health education. Rural health units play a crucial role in addressing the healthcare needs of underserved populations.
+The process of distributing available resources, such as medicines, healthcare personnel, or funding, among different geographical areas or population groups based on identified needs and priorities. Effective resource allocation ensures that healthcare resources are utilized optimally to address the healthcare needs of the community.
+The examination of spatial relationships, patterns, and trends within geographic data. In the context of medicine utilization, spatial analysis techniques are used to identify spatial patterns of disease incidence, healthcare access, or resource distribution, enabling informed decision-making and planning.
+
+OPERATIONAL FRAMEWORK
+Materials
+Software
+Table 1. The table that shows below illustrate the software specifications that needed in the development of the system. 
+
+
+Software
+Specifications
+Android Studio 
+Microsoft Windows 8/10 (64-bit) 
+8 GB ram or more 
+8 GB of available disk space minimum, 1280 x 800 minimum screen resolution 
+
+
+Hardware
+Table 2. The table below illustrate the hardware specifications that needed by the admin of RHU 1, Cauayan city, Isabela.
+Hardware
+Specifications
+Laptop 
+Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz   1.99 GHz
+4.00 GB ram 
+Smartphone 
+CPH1909
+Android Version 7.0 and above 
+3.0 GB ram 
+
+.	
+Data
+The Dataset is from the Rural Health Unit 1 of Cauayan City Isabela. And we collect as the evidence of our research that make the system more functional. The table below show the partial medicine that been distribute to every barangay.
+Table 3: The table below illustrates the data that needed by the researcher of RHU 1, Cauayan City, Isabela
+Location
+Year
+Month
+Ambroxol
+Losartan
+Lagundi
+Dicycloverine
+Diclofenac
+San Fermin
+2023
+July
+100
+80
+90
+75
+100
+Tagaran
+2023
+July 
+50
+100
+90
+80
+90
+Labinab
+2023
+July 
+100
+80
+80
+80
+100
+Culalabat
+2023
+July 
+80
+100
+90
+100
+80
+Sta. Luciana
+2023
+July 
+70
+90
+70
+90
+90
+
+
+There are five Barangay that stated from above. In the selected barangay where stated the collected information of each of them. The table show the partial medicines that been distributed to them.
+
+
+
+
+
+
+
+
+
+Methods
+Experimental design
+
+Figure 2. Agile Methodology
+The Agile methodology is a flexible and iterative approach to software development that is ideal for web development. The Agile methodology emphasizes collaboration, adaptability, and customer satisfaction. 
+Procedures for the different phases
+Planning Phase: These steps are included in the phase to assess the problems encountered by the RHU 1 Cauayan City, Isabela. This phase gathers the information that needed to develop the system. The researchers are getting the data to RHU 1 of Cauayan City, Isabela 
+Designing Phase: This phase is about designing the system which includes the mapping Api using GIS and others necessary designs of the system. The designing of the system is be planed carefully and detailed to persuade the users to use it in forecasting and utilizing to monitor the medicine and stocks of the selected agency. 
+Testing Phase: In this stage, the researchers conduct in beta testing to ensure the web is functioning correctly and without bugs in multiple end-users such as, android smartphone and laptop. 
+Deployment Phase: In this stage, the researchers prepare the web for release by uploading it on google, and configuring the environment necessary for the app to run. 
+Review Phase: At this stage, the researchers collect feedback by administering post evaluation and make any necessary changes. This will entail analyzing usage data and user feedback to identify areas for improvement using Likert scale. 
+Launch Phases: This phase includes Preparing the system to functionally run and be ready to use and deploy in the scope area. Users will be transferred to the latest system when the system is replaced. Last but not least, the developers will conduct the remaining activities and discontinue supporting the old software. 
+Methodology 
+In this section, the methodology is explained, including how the data sets are obtained, training and the data mining algorithms.
+Applying GIS
+The developed web-based GIS application for rural health unit of Cauayan City, Isabela, integrating a predictive algorithm. The algorithm analyzes a demographic data, healthcare accessibility, and population health indicators to map and predict medicine requirements. This assists in efficient resource allocation, enabling better healthcare delivery in rural areas.
+Applying ARIMA
+	ARIMA (Auto Regressive Integrated Moving Average) is a time series forecasting algorithm commonly used in various domains, including healthcare, to analyze and predict patterns in data over time. In the context of medicines utilization, ARIMA can be applied to forecast future medication usage based on historical data.
+Applying Clustering
+The clustering was applied in this study which involves grouping geographical regions with similar characteristics to enhance the understanding of patterns, optimize resource allocation, and improve forecasting accuracy. 
+Data collection 	
+The web-based GIS mapping system in Cauayan City, Isabela are collecting the data on medicine utilization at rural health units. It captures information on medicine types, quantities, and usage patterns. The system analyzes this data to predict future medicine needs and ensure efficient allocation and distribution of medicines in rural areas.
+Data Pre-processing 
+The web-based GIS mapping and forecasting system for rural health units in Cauayan City, Isabela, the system was used the data pre-processing that collect, cleaning, and organizing geographical and medical data. It includes geocoding patient addresses, integrating medicine inventory records, and ensuring data quality and compatibility for accurate mapping and prediction of medicine utilization.
+
+Evaluation
+The web-based GIS mapping and forecasting system for medicine utilization at the Rural Health Unit in Cauayan City, Isabela is a valuable tool for improving healthcare services in the rural area. The system provides an efficient way to visualize and analyze spatial data, enabling better decision-making and resource allocation. By forecasting medicine utilization, it helps in avoiding stock outs or wastage of medicines, ensuring that patients receive the necessary treatments. The web-based interface makes it accessible to healthcare professionals and administrators, facilitating collaboration and data sharing. 
+
+Overall, this system enhances its efficiency, accuracy, and effectiveness of medicine management at the Rural Health Unit, positively impacting healthcare delivery in the region.
+Likert Scale 
+	  	 	Table 4. Statistical Treatment Tool 
+Weighted Mean 
+Descriptive Interpretation 
+4.20 – 5.00 
+Strongly Agree 
+3.40 – 4.19 
+Agree 
+2.60 – 3.39 
+Neutral 
+1.80 – 2.59 
+Disagree 
+1.00 – 1.79 
+Strongly Disagree 
+
+Data were analyzed using the frequency count and weighted mean using the scale above. 
+Likert Scale shows the weighted mean range and its descriptive interpretation as evaluated by the respondents. 
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the formula: 
+ WM = 𝑥1 + 𝑥2+𝑥3+ ...𝑥𝑛 
+𝑁
+Were,  
+WM - Weighted Mean 
+𝑥1 + 𝑥2 + 𝑥3+ . . . 𝑥𝑛 - Sum of Scores/Responses 
+N - Total Number of Respondents/Means 
+
+
+S
+Implementation Procedure 
+
+
+Figure 3. Procedure of Medicine Forecasting
+The figure above illustrates the implementation procedure of the develop system. The first is to Input the data and organized through the data preprocessing before being split the data. The Machine Learning algorithm was also applied in resulting the model output. The Evaluation is done on the model to assess its performance and identify areas for improvement. 
+
+RESULTS AND DISCUSSION
+Results by phase of study
+In this chapter presents the results, analysis and interpretation of the data gathered by the researchers among the respondents of this study. 
+Applying GIS Web-Based Mapping System in Rural Health Unit-1 of Cauayan City, Isabela
+
+
+Figure 4.  Mapping System
+The figure above shows the developed system was applied GIS Web-Based Mapping System in the Rural Health Unit-1 of Cauayan City, Isabela. The system can used by its constituents to locate, view and display the selected barangay for its distribution of medicines. Nineteen barangays—Baringin Norte, Baringin Sur, Rizal, Duminit, San Fermin, Alicaocao, Tagaran, and Sta—are included in the mapping. District 2, Culalabat, Guayabal, Cabaruan, District 1, Turayong, Gagabutan, and Dabburab; District 3, Labinab, Luciana; and District 2, Buena Suerte. Additionally, you can view the medications that have been distributed in a barangay by clicking on the name of the barangay you wish to view.
+Applying GIS Web-Based Forecasting System in Rural Health Unit-1 of Cauayan City, Isabela.
+
+Figure 5. Forecasting System 
+The figure above shows the developed system was applied the GIS Web-Based Forecasting System in the Rural Health Unit-1 of Cauayan City, Isabela. The system can used to forecast the remaining medicines that have been stock of the pharmacist. By clicking in the right button, you will see the result of the forecasting of medicine that will be needed from 5 years from now. Below the figure of some medicine that have been forecast for the future medicine that be needed.
+
+
+Verification studies
+This chapter indicates the results of the survey of the respondents on their level of agreement. It focuses on the needs of the agency. It also presents the level of the agreement on the system’s acceptance along with functional Performance Efficiency, Reliability Usability, Functionality, Security and Maintainability.
+1. Survey-evaluation as the effectiveness of the proposed system based on the respondent’s feedback.
+Table 5. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Performance Efficiency.
+
+Performance Efficiency
+
+Mean
+
+SD
+Descriptive Interpretation
+1. The WEB-BASED Application system result accurately when it comes to its function.
+4.27
+0.450
+Strongly Agree
+2. The WEB-BASED Application system functions without any problem.
+4.50
+0.509
+Strongly Agree
+3. The response time of the system is satisfactory.
+4.20
+0.610
+Strongly Agree
+Sub-Mean
+4.32
+0.270
+Strongly Agree
+
+In terms of the performance efficiency, the respondents rated the system strongly agree as the system application was function well with a mean of 4.27. the system also response on time without any problems with a mean of 4.50 and 4.20 respectively.
+	Overall, there are still strongly agree in the system performance as it revealed by the sub-mean of 4.32 based on the respondent’s feedback on the evaluation. 
+Table 6. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Reliability
+Reliability
+Mean
+SD
+Descriptive Interpretation
+1. The WEB-BASED Application system result accurately when it comes to its function.
+4.90
+0.305
+Strongly Agree
+2. The WEB-BASED Application system functions without any problem?
+4.43
+0.504
+Strongly Agree
+3. The response time of the system is satisfactory.
+4.67
+0.479
+Strongly Agree
+Sub-Mean
+4.67
+0.277
+Strongly Agree
+
+	In terms of the reliability of the proposed system, the system gave an accurate function as it reveals that the system is reliable based on the computed mean of 4.67 which falls on “Strongly agree” interpretation. It shows that the mobile application system is operational and accessible at a time needed for use (M = 4.67) and it provides basic operational instructions and hints to its user’s when in operation (M = 4.67). 
+Table 7. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Functionality.
+Functionality
+Mean
+SD
+Descriptive Interpretation
+1. The WEB-BASED Application system can produce the desired output.
+4.17
+0.791
+Agree
+2. The WEB-BASED Application system is beneficial to the user.
+4.07
+0.640
+Agree
+3. The system provides accurate and reliable information.
+4.43
+0.817
+Strongly Agree
+Sub- Mean
+4.22
+0.458
+Strongly Agree
+
+The table shows above the mean responses and descriptive interpretation of respondents’ evaluation on the GIS Web-based Application in terms of the system functionality. 
+The table reveals that respondents agree that the application system can produce the desired output based on the computed mean of 4.22. Also, it shows that that system is beneficial to the user considering the weighted mean of 4.22. Thus, the developed system is effective with mean equivalent of 4.22 which falls on “Strongly agree". 
+Table 8. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Usability
+Usability
+Mean
+SD
+Descriptive Interpretation
+1. The WEB-BASED Application system is easy to operated and control.
+4.60
+0.621
+Strongly Agree
+2. The WEB-BASED Application system user interface 
+look pleasant and satisfactory.
+4.47
+0.629
+Strongly Agree
+3. The system provides clear instructions for each feature.
+4.30
+0.466
+Strongly Agree
+4. The system’s interface is visually appealing.
+4.40
+0.675
+Strongly Agree
+Sub-Mean
+4.44
+0.243
+Strongly Agree
+
+In terms of the system usability, the respondents rated the system strongly agree as the system was operated and control it easily as the highest mean of 4.60. The system interface was very pleasant as it revealed with a mean of 4.47. And also, the system instructions to its features and the visualization are very clear and appealing as it rated by the respondents with a mean of 4.30 and 4.40 respectively.
+Overall, the system usability was still strongly agree as it revealed by the total weighted mean of 4.44 based on the respondents feedback.
+
+Table 9. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Security
+Security
+Mean
+SD
+Descriptive Interpretation
+1. The system’s log-in/logout procedures are straightforward
+ and secure.
+4.70
+0.466
+Strongly Agree
+2. The system effectively safeguards sensitive user information.
+4.63
+0.490
+Strongly Agree
+ 3. The system provides clear and transparent communication 
+about security measures.
+4.43
+0.679
+Strongly Agree
+Sub-Mean
+4.59
+0.347
+Strongly Agree
+
+The table shows the mean response and descriptive interpretation on respondents’ evaluation on the GIS Web-based Application in terms of system security 
+In terms of the system security, the respondents rated the system strongly agree as it revealed that the users and admin was been secure with a mean of 4.70. And also, the system has effectively safeguarded the sensitive user’s information’s and it has a clear and transparent communications about security with a mean of 4.63 and 4.43 respectively. 
+Table 10. Mean Response and Descriptive Interpretation on respondents’ evaluation on the GIS Web-based application system in terms of Maintainability
+Maintainability
+Mean
+SD
+Descriptive Interpretation
+1. The system is stable.
+
+
+4.40
+0.498
+Strongly Agree
+2. The system operates cleanly.
+4.50
+0.509
+Strongly Agree
+3. The system is understandable.
+4.60
+0.675
+Strongly Agree
+Sub-Mean
+4.50
+0.461
+Strongly Agree
+
+The table shows the mean response and descriptive interpretation on respondents’ evaluation on the GIS Web-based Application in terms of the system Maintainability.
+The table has revealed that the respondents rated agree as the system was easily operated and can be transferred considering the computed mean of 4.50. Also, the system’s user interface looks pleasant and satisfactory based on the computed weighted mean of 4.50 and fall on “Strongly Agree”. Thus, the system is maintainable.  
+Table 11. Overall mean of the characteristics of GIS mapping of RHU 1 Cauayan City, Isabela.
+Indicators
+Mean
+SD
+Descriptive Interpretation
+Performance
+4.32
+0.270
+Strongly Agree
+Reliability
+4.67
+0.277
+Strongly Agree
+Functionality
+4.22
+0.458
+Strongly Agree
+Portability
+4.60
+0.395
+Strongly Agree
+Usability
+4.44
+0.243
+Strongly Agree
+Security
+4.59
+0.347
+Strongly Agree
+Maintainability
+4.50
+0.461
+Strongly Agree
+Grand mean
+4.48
+0.200
+Strongly Agree
+
+To conclude the table 10 that shows the overall mean of the characteristics of the develop web-based GIS mapping and forecasting in utilizing medicines of RHU 1, Cauayan City, Isabela. it can be described that among the seven (7) standards of ISO 25010, the system reliability has the highest sub-mean of 4.67, followed by the system portability with a sub-mean of 4.60, the system security with a sub-mean of 4.59, system maintainability with a sub-mean of 4.50, system usability with a sub-mean of 4.44, and the performance efficiency and system functionality with a sub-mean of 4.31 and 4.22 respectively.
+Overall, the system has been rated strongly agree with a grand mean of 4.48 which means that the we-based GIS mapping and forecasting in utilizing medicine of Rural Health Unit 1 of Cauayan City, Isabela has strongly agreed characteristic based on the respondents. 
+
+3. Identified the benefits of the GIS mapping web application.
+	
+
+Figure 6. The benefitss of the GIS mapping web application.
+The figure above, it shows the benefits of the developed GIS mapping web application in terms of materials in disseminating the medicines information list of the selected barangay and it show how efficiently improve when it comes to distributing the medicines to them and also it gives history to know what month, date year the distribution of medicines of Rural Health Unit-1 of Cauayan City Isabela.
+
+
+
+
+Figure 7. The benefits of the GIS forecasting utilized medicines.
+The figure above shows how convenient for the pharmacist to input data for the medicine’s utilization, instead a manual checking for the remaining medicines, he/she will go to the implemented system to check about the remaining stocks of medicines that also generates if overstocking or shortage of medicines in the Rural Health Unit-1 of Cauayan City Isabela.
+
+The figure above, the advantages of the produced GIS mapping web application with regard to the process of adding a list of medications that will be distributed in the designated barangay of Cauayan City, Isabela's Rural Health Unit-1.
+
+The picture shown above shows the advantages of the forecasting web application that was developed in terms of the process of updating the Rural Health Unit-1 of Cauayan City, Isabela's system with medicines that are out of supply.
+
+The figure above, shows the benefit of the develop web application system to the user role in terms of account security. The user role will used their Google account to access the system. Also, the system doesn’t allow unauthorized users.
+
+
+
+The figure above, shows how the development of a web application system can aid the Rural Health Unit-1 by providing a history or record that will be useful in the event of a disaster or crisis. The record, particularly if it is not manually entered, will be kept securely.
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+ 	Summary
+A responsive online web-based application for the utilization of Rural Health Unit 1 of Cauayan City, Isabela, is designed to improve healthcare management and service delivery in the rural setting. The system integrates geographical information systems (GIS) technology with forecasting capabilities to enhance the understanding and prediction of medicine usage patterns.
+
+The basis for understanding the healthcare demands of the community is laid by the thorough assessment, mapping, and demographic insights of the population served. By bridging shortfalls and preventing overstock, identifying gaps in the medication supply guarantees a balanced and effective administration of care. Creating a predictive model improves readiness for upcoming health needs. Targeted resource allocation is made possible by detailed mapping of health requirements made possible by the use of GIS. In the end, strategic plans are developed to improve the basic healthcare services that are provided at the rural health unit, guaranteeing a customized and efficient strategy for community health.
+
+The web-based GIS mapping and forecasting system in Rural Health Unit 1 of Cauayan City, Isabela, leverages technology to enhance healthcare management by providing spatial insights and predictive analytics for better medicine utilization planning in the rural health setting. This solution integrates Geographic Information Systems to map healthcare trends and employs forecasting algorithms to predict medicine needs. The platform facilitates informed decision-making by health professionals, ensuring timely medication distribution and addressing healthcare challenges in rural areas. Additionally, it enhances resource management and promotes efficient healthcare delivery, ultimately improving patient outcomes and community well-being in the region.
+ 	Conclusions
+The researchers show the developed system of Rural Health Unit 1 of Cauayan
+City, Isabela by applying mapping in geographic information system, as it relevant in forecasting and utilizing medicines of the Rural Health Unit 1 using the web application. And it is already implemented and used by the RHU 1 of Cauayan City, Isabela.
+
+Based on the pilot testing of the develop system in forecasting and utilizing of RHU 1 Cauayan city, Isabela. The system is easily and transparent all the features and functions to the users as its process in forecasting, and also is has a great material in utilizing the medicines of the RHU 1 of Cauayan City, Isabela. The system also doesn’t allow unauthorized users to maintain the security both users and the admin.
+
+Based on the survey questionnaire evaluations of the system with a grand mean of 4.48, the use of the develop web application has received and rated strongly agree as its assessment from the respondents. Thus, the system has performed its functions well and its features that could be used by the RHU 1 of Cauayan City, Isabela to forecast and utilized the medicine that needed of the RHU1. 
+
+
+ Recommendations
+The researchers formulated the following recommendations:
+1. The future researchers may include number of completions per barangay for the statistical presentation.
+2. The system should indicate a data visualization for the statistical presentation and utilization and forecasting benefits to the users.
+3. The researchers can customize the projects for future study.
+4. Implementing a comprehensive web-based GIS mapping and forecasting system for medicine utilization in Rural Health Unit 1 of Cauayan City, Isabela. 
+5. The LGU should provide a budget for the computerization training and seminar for the employees.

@@ -1,0 +1,537 @@
+MOBILE POINT OF SALE (MPOS) Argie M. Balmaceda Ruby Claire D. Garma Marc Christian P. Ibarra January 2022
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Argie M. Balmaceda Ruby Claire D. Garma Marc Christian P. Ibarra January 2022
+
+
+
+
+ABSTRACT
+
+This study entitled "MOBILE POINT OF SALE" is aimed to determine the problems encountered in the manual monitoring of inventory. These are the objective of the study: to know the problems encountered by the store's owner in manual computing and counting of the inventory and purchased a product in terms of Performance, Efficiency, Information, and Service, to know the effectiveness of using the Mobile Point of Sale (MPOS) to the store's owner in terms of Performance, Efficiency, Information, and Service, to know the extent of compliance of the developed system to ISO 25010 software quality standards in terms of Functionality, Performance, Compatibility, Usability, Reliability, Security, Maintainability and Portability. The study was conducted to investigate the manual system. There are problems encountered by the store's owner in manual computing and counting of the inventory and purchased of products.
+
+The effectiveness of using the Mobile Point of Sale (MPOS) to the store's owner were aligned to the extent of compliance of the developed system to ISO 25010 software quality standards. Questionnaire and interview method were used to gather data. The researchers used the descriptive method for data analysis including weighted mean, standard deviation as the statistical tools.
+
+The Mobile point of sale is recommended on the following reasons: first is store owners should have the interest to use a technology to monitor the inventory and not be confined in using the manual computing and counting the purchased product and inventory. In this manner, they would be able to easily monitor their inventory; the school/university officials should help the researcher-developers of the system to improve their work to contribute in the development of the business; information and Communication Technology teachers should help the researcher-developers to make their developed system be patented to ensure that this system cannot be duplicated or stole by anyone.
+
+
+
+
+
+Chapter 1
+
+INTRODUCTION
+
+Project Context
+
+These days where the technological-based systems are exceptionally basic and online correspondence is essential for living, individuals who are utilizing everything over the world are unique. Holak (2020) developed a mobile point-of-sale system, also known as an MPOS or point-of-sale app, which turns a smartphone or tablet into a cash register. This allows merchants to accept payments virtually anywhere all you need is a device, the MPOS platform, and an internet connection. The mentioned project is purposed to develop a system that is efficiently, accurately, and severely help the stores to enhance their manual operations in processing and monitoring their daily sales transaction.
+
+Furthermore, Radie's Retail Store in Primark, is located in Cauayan City in the province of Isabela. This retail store has many customers especially in other barangay, they have two retail stores and a lot of customers, This Retail store is well-accommodating and has many products to deploy.
+
+In any case, to implement this system, Radie's Retail Store has many products for inventory and the revenues of each day, especially the daily sales and income of the retail store to monitor correctly, then currently they use papers for inventory and calculate the daily sales and inventory of the retail store.
+
+MPOS systems are used to process payments and may have other capabilities such as inventory management, loyalty programs, sales monitoring, reporting, and much more.
+
+These systems are best suited for small businesses and entrepreneurs, small retail stores, pop-up shops, and quick-serve establishments because the encountered problems in the present system are the manual computing and counting of the inventory and purchased product. MPOS systems don't take up too much space and are highly affordable and convenient.
+
+Objectives of the study
+
+The objective of the study is to develop a Mobile Point of Sale (MPOS)
+
+Specifically, it aims to:
+
+1. identify the problems encountered by the store's owner in manual computing and counting of the inventory and purchased product.
+
+2. identify the effectiveness of using the Mobile Point of Sale (MPOS) to the store's owner
+
+in terms of:
+
+2.1 Performance;
+
+2.2 Efficiency;
+
+2.3 Information; and
+
+2.4 Service;
+
+3. evaluate the extent of compliance of the developed system to ISO 25010 software quality
+
+standards in terms of:
+
+3.1 Functionality;
+
+3.2 Performance;
+
+3.3 Compatibility;
+
+3.4 Usability;
+
+3.5 Reliability;
+
+3.6 Security;
+
+3.7 Maintainability; and
+
+3.8 Portability;
+
+Scope and Limitation
+
+MPOS systems are used to process payments and may have other capabilities such as inventory management, loyalty programs, sales monitoring, reporting, and much more.
+
+These systems are best suited for small businesses and entrepreneurs, small retail stores. MPOS systems don't take up too much space and are highly affordable and convenient to ensure the inventory management of the retail store.
+
+Mobile Point of sale (MPOS) uses an electronic device such as a smartphone, tablet. It is highly portable and allows you to attach other peripheral devices such as barcode scanners and receipt printers.
+
+This system benefits to retail owner, that MPOS has mostly replaced the cash register and is widely used in retail businesses.
+
+They not only manage cash register operations but also maintain track of all inventory, stock data, record keeping, reporting, sales, and payroll, as well as historical order history and transactions made.
+
+The system can only accept Geash payment, it does not accommodate bank transactions.
+
+
+Framework of the study
+
+Figure 1. Conceptual Framework
+
+The paradigm of the Mobile point of sale (MPOS) will be using Input-Process- Output (IPO) to illustrate the relationship between the input and output. The paradigm of the study exhibits the skeletal framework of the research study. In input there are product details, product information and product inventory. In the Process, there are data gathering, resources, designing, coding, testing and implementation. And lastly the Output is the Mobile Point of Sale, so Figure 1 shows the paradigm of the study to be conducted, it illustrates the problem that needed to be resolved for the study input which is the system requirements for the sales environment and inventory field.
+
+Significance of the study
+
+MPOS is significant to the following:
+
+To Retail owners - The significance of the Mobile Point of sale is to recommend a system that is effective to the owner of retail stores or sari-sari stores to monitor their sales and sales inventory and it would be time-saving for them because it is easy to set up and easy to use and it will be fast and secure to check their sales. It will be better purchasing the product and supplier order management to retail store. The point of sales system can drastically increase the efficiency of your business. Its main objective is to manage the sale of all retail goods. It helps in encoding the barcodes of the product, customer, and user.
+
+This helps in reducing a lot of work and amount of time it takes to serve a customer.
+
+To supplier - The MPOS can be operated as a single device or a multi-device. In a multi-device facility, the manager is the hub and the others are clients while in a single device facility the device is the Hub and the devices who have joined the Hub are the clients, therefore you need to keep track of what is happening. All these things happen by a special system that provides information on tablets and smartphones.
+
+To future researchers - Future researchers are needed on the many variations of mobile POS and how they affect the customer journey as well as the rates of internal and external theft.
+
+
+
+
+
+
+Chapter II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+This chapter offers information gleaned from books, articles, news, and electronic sources about the study topics. To record completed transactions, a collection of people, procedures, software, databases, and devices is arranged. Related literature and research were included, demonstrating some parallels between the proposed system and others.
+
+Related Literature
+
+MPOS will account for about 1/3 of all installed POS terminals worldwide. This will account for about 45% of POS transaction value, which comes down to approximately $5.6 trillion. Even today, not adopting an MPOS would be tantamount to leaving money. according to (Smith, 2021)
+
+According to Mukherjee (2017), a mobile point-of-sale system, also known as an MPOS or point-of-sale app, turns a smartphone or tablet into a cash register. This allows merchants to accept payments virtually anywhere all you need is a device, the MPOS platform, and an internet connection. Analysts predict that MPOS systems will be used to complete nearly 25% of all transit by 2023.
+
+Mobile POS is a portable computer device that is used especially for POS (Point of Sales) purposes and it is linked to input and output devices such as barcode scanners and thermal printers, installed with special software for POS according to (Lestariningati S. I., 2018)
+
+According to (Fairbanks, 2021) as you evaluate point of sale (POS) systems for your retail store, you want to look for a solution that does more than ring up sales. In addition to having easy-to-use POS register features, it should help you manage your inventory, customers, and staff; generate a variety of reports that give you the information you need to make better business decisions; and it should sync with the other business applications you use, saving you the time it would otherwise take to download and upload shareable data, such as sales figures for your accounting system and customer contact information for your email marketing service. Additionally, it should have an offline mode so you don't lose sales if your internet goes down.
+
+This proposed two types of design of implementation Mobile Point of Sale (MPOS), which are using Mini PC Raspberry Pi and Smartphone Android OS. Both solutions passed the functional test and the comparison between both is performed, which is shows that Raspberry Pi has a more economical solution but more difficult to be developed, less comfort and less friendly use than Android Smart Phone-based implementation according to (Lestariningati S. 1., 2018)
+
+It is feasible to train corner owners in low-income areas to use a simplified point of sale mobile application for sales monitoring, Future research should explore the value- added of POST for public health interventions that rely on formal electronic record keeping according to (Emma Lewis, 2020)
+
+According to (Taylor, 2016) retailers and suppliers are facing the challenge of reconfiguring systems to accommodate increasingly mobile customers expecting multichannel options supporting quick and secure digital payment. The purpose of this paper is to harness the learning from the implementation of self-checkout and combine it with available information relating to mobile scanning and mobile point-of-sale (MPOS).
+
+According to (Rahim M. A., 2019) point of sale (POS) software is used widely in a retail business. It has changed the manual system of business to a computerized system. The main goal of this paper is to implement point of sale software which is used in the mobile shops for purchasing and selling as well as generating all necessary reports.
+
+Human faults and paper worksdecreased by using this software. Even the system works faster than at any time. Any operating system can be used to run the software properly. The software is developed following the incremental model. HTML, CSS, JavaScript, Ajax & PHP are used to design & develop the software.
+
+This paper aims to understand the extent to which mobile technologies have an impact on consumer behavior, with emphasis on the drivers motivating consumers to adopt the consumer experience of mobile shopping. To achieve this goal, we used a qualitative approach involving 29 consumers in the Italian market, where mobile shopping is still at an early stage. The findings shed a light on the extent to which consumers are moving from e-channels to mobile channels and take into account the effect of these technological innovations in retail settings from a cognitive standpoint, where studies are limited. The implications for researchers and practitioners are then discussed, with emphasis on retailers' need to develop new mobile service competencies and integrate and synthesize physical retail settings with mobile opportunities and functionalities (Eleonora Pantano, 2016).
+
+Related Studies
+
+Point of Sale (POS) on cashless policy, issues, and prospects in Nigeria economy; research questions according to Anyanwu (2020), examined the impact of were formulated and distributed to the sample population of 500 drawn from various POS operating centered in line with the objectives of the study. Four hundred and fifty responses were returned while fifty copies were not returned; the responses were categorized according to strongly agreed, agreed, strongly disagreed, disagreed and neutral with the weight of (5,4,3,2,1) assigned to each category respectively to generate acceptable raw data for econometric analysis.
+
+A tech start-up delivering an all-in-one platform with Point of Sale (POS), inventory, mobile ordering, contact fewer pick-up features in a post-Covid-19 world. This was a multifaceted internship with a variety of roles and responsibilities including assisting the CTO & CEO with weekly goals/tasks setting; marketing/sales outreach; product testing; and supervision of sales interns (Orcutt, 2020).
+
+The data used to process the design includes user data, item data, sales data, purchase data, supplier data, item type data, supplier type data, reports, sales at the STORE SHOP requires a system that simplifies sales performance, saves time, and is easy to run so that better customer service increases and the data presentation process is more organized and runs well (Rifandi, 2020).
+
+A novel solution for the cashier problem of the Current cashier system/Point of Sale (POS) terminals can be inefficient, cumbersome, and time-consuming for the users. There is a need for a solution dependent on modern technology and ubiquitous computing resources. We present I-POST (Intelligent Point of Sale and Transaction) as a software system that uses smart devices, mobile phones, and state-of-the-art machine learning algorithms to process user transactions in an automated and real-time manner. I-POST is an automated checkout system that allows the user to walk into a store, collect his items and exit the store. There is no need to stand and wait in a queue. The system uses an object detection and facial recognition algorithm to process the authentication of the client and the state of the object according to Khan (2020).
+
+A Point-of-Sale System is an enterprise solution primarily based on software programs used to tune sales pastime and inventory simultaneously. Manufacturers and outlets can both benefit from a comprehensive answer the place single transaction entry record, quintessential client details, purchased products; rate and date are also updated. The gadget would be of awesome assist to the entire procedure due to the fact it serves as many customers as possible at a speedy tempo and helps to screen all kinds of data faster, less complicated, and extra conveniently. The Inventory Point of Sale System may be a computer-based way of checking and reviewing the company deals; it is speedier additional dependable than physically (Mendoza, 2019)
+
+Mangmang (2018) presented a study on innovation of POS system wherein notification features through screen pop-ups of overdue payments and out-of-stock items were integrated. The developed system gave satisfaction to an enterprise - Sheallzy Enterprises, located in Malitbog Southern Leyte. The software product is created in Microsoft Visual Studio 2012 with Microsoft SQL Server 2005 as the database. The ISO/IEC 25010:2011 standard was used as a model for evaluating the created software. 
+
+This study used a developmental evaluative design which is an approach that supports innovation. A research questionnaire was used to assess the performance of the existing system and the developed software. The research instrument was validated by an information technology expert to ensure the validity of the questionnaire. The target client of the study served as the respondents of the study to achieve the purpose of the software, specifically, the owner and the cashier of the business.
+
+The retail business is under closer observation than ever before by customers.
+
+They want to know exactly what a company's position is on sustainability and environmental issues. Who produced the merchandise, where, and under what conditions? What steps is a company taking to operate its stores sustainably? When it comes to environmental friendliness, customers now request absolute transparency, and it increasingly influences purchase decisions. It's good to separate paper from plastic waste and to use environmentally friendly LED lighting in the whole store, but that is far from being enough now according to Spanke (2020).
+
+According to Goyal (2020) a proposed online restaurant management system is time-saving and error-free as compared to the traditional system. This system attracts customers and also adds the efficiency of maintaining the restaurant's ordering and billing. Hence it is the modern way to grow up the business using E-commerce. Here implementation of an advanced e-restaurant menu ordering system using a smart android mobile phone. This system entirely reduces unnecessary time. Every order is associated with an individual seat at the table, and orders are built one customer at a time, just like on paper, but with greater accuracy. Items can also easily be shared by the whole table, moved or modified, and noted and the cost can be calculated in real-time.
+
+Information and Communication Technology (ICT) has quickly developed in various businesses, Mobile Banking is supported by Information Technology, labeled as "E-banking". Mobile technology has been playing a main role in business via Mobile- Payment applications. Mobile-Payment operates payment when a customer purchases a good or service from a business via trusted third party via Point-Of-Sale (POS) System. So, the payment is through the mobile application without need of using the ATM bank card or credit card directly with POS. However, the customers use Mobile-Payment technology to do a full payment of the purchase, so there will not be any remaining funds that have to be return back to customer. In cash purchases transactions, sometimes there are remaining funds that has to be returned to the customer. The problem sometime, is that there are no cash funds in the business, or exchange of funds to return the balance of the purchase to the customer. Therefore, the proposed system will focus on the use of mobile technology to solve this problem by designing a POS-Debt System to return electronically the remaining of the funds to the Customer Mobile Phone Account that was produced from Telecom Company (Alhazmi, 2020).
+
+In a fiercely competitive retail market, the biggest competitive advantage of the physical channel over the virtual channels is the product experience and service. Increasing the professionalism of the salespeople and improving service should be prioritized in physical retail. I use the AIDA model to construct a consumers' purchase guiding system named "intelligent point-of-sale" (iPOS) that integrates the sales recommendation rule model. Through the app, consumers and salespeople interact with each other and the model recommends appropriate product combinations to the consumers. The system assists salespeople to guide consumers towards a purchase to improve transaction conclusion rate and company profitability (Tsai W.-L., 2021).
+
+According to Nayak (2017) inventory management is mainly concerned about identifying the amount and the position of the goods that a firm has in their inventory. Inventory management is imperative as it helps to defend the intended course of production against the chance of running out of important materials or goods. Inventory management also includes making essential connections between the replenishment lead time of goods, asset management, and the carrying costs of inventory, future inventory price forecasting, physical inventory, and available space for inventory, demand forecasting and much more. The major objective of the study is to examine to the techniques used by the company to control the inventory. It also includes studying the effectiveness of the technique adopted. In this report we can come to know the background information and the objective of the industry as a whole and also develop the project procedures and various method performed in order to get a detailed report on the industry.
+
+A proposed system of Tsai (2019) can completely replace a traditional POS system, which can not only greatly reduce the cost, but also bring convenience in use as the size of devices is decreased markedly. Moreover, by adding the concept of warehouse management and integrating it the result of data analysis in the future, one can learn about what products or materials are lacking at this moment in real time only by pressing a few buttons, so as to save storage space and predict future trends to help enterprises make decisions. Furthermore, the system could be linked with the supplier or logistics and one can directly place orders, which not only speeds up the purchasing and saves personnel costs, but also enhances the operating efficiency.
+
+As a result, many of the shopkeepers end up hoarding a lot of irrelevant and nonprofit able products that lead to financial losses. A very cost-effective and accessible solution for this problem is a mobile application that provides all the features of a point- of-sale system as well as gives future sales insights. It will enable shopkeepers to manage their current product purchases and invoicing. The predictive sales analysis will help them to modify their investments on products and supplies thereby ensuring maximum profits. If a shop houses relevant products that cater to customer needs, its customer reach will increase. The Economic Times published an article in the May of 2019, which stated that the number of smartphone users in India is expected to rise by 84% to 859 million by 2022 from 468 million in 2017. It is safe to assume that a large population of shop owners will have smartphones in the following years. Hence, equipping the local shopkeepers with a mobile application will prove instrumental since it will give them exposure to all the aforementioned benefits according to (T. Tandel, 2020)
+
+The objective of developing a web and mobile application for managing the inventory of a small business model, represented by "Refaccionaria R", it was fulfilled, since a functional prototype was obtained that has been subjected to different tests by users. There were some setbacks in the development process, mainly due to the confinement of the global Covid-19 pandemic. The foregoing had a significant impact on the schedule of activities in the project; however, following the "home office" work model, the prototype could be reorganized and finished successfully according to Morales-Hernández (2021).
+
+In this study, we prototype a possible solution for the challenge faced by a company, which manual work in checking and tracking goods, leads to inefficiency in inventory at the company. We compare our prototype system NFC inventory with a manual system. According to the results, there was a significant difference in duration checking time between the two systems, the new and manual systems (p < 0.05). The developed system effectively solved the problem of slow process in inventory; the new system will be helpful in the company in terms of time efficiency. Moreover, we suggest management use this study to implement the solution for faster tracking items in inventory according to (Laksono, 2021)
+
+According to (Gallino, 2017) We study the effects of the introduction of cross- channel functionalities on the overall sales dispersion of retailers and the implications of these effects for inventory management. To do that, we analyze data from a leading U.S. retailer who introduced a "ship-to-store" (STS) functionality that allows customers to ship products to their local store free of charge when those products are not available in their local store. Based on the fact that stores prioritize carrying products for which local demand is high, we test the hypothesis that introducing the STS functionality increased the retailer's overall sales dispersion. We find that, on average, the contribution of the 90% lowest- selling products to total sales increased by 0.75 percentage points, increasing sales dispersion. Calibrating conventional inventory-ordering models, we show that to respond optimally to the observed increase in dispersion, the retailer would need to increase its cycle and safety inventories by approximately 2.7%. Our paper points out the effect of an increasingly important retail phenomenon (channel integration) on a key factor for inventory management (sales dispersion).
+
+According to (Syaifudin, 2021) he success of companies engaged in the field of distributors is not only from good and smart human resources, but how ready the company's way to provide tools or programs supporting the work of employees. Some of the problems are the administration system between the company's internal divisions, so there are restrictions on the processing of input data, processes, outputs that are still manual. Web Application is made to facilitate employees to conduct administrative activities with the access role of each user admin division, for example inventory data, creation of sales invoices, road letters, procurement forms and bookkeeping. In addition, The Web View application is already responsive in this sense can adjust the device PC/Tablet/Mobile, then for visualization of data calculation already using cart/data graphics in real time, and there is also a feature preview, download and print JPEG, PNG, PDF, Barcode and QR code. Web Testing This application with black box method and shows it is running well and no error method, so it can be declared passed. Web Creation This application involves the LTE 2.0 Admin Template with bootstrap CSS, for programmer frameworks using MVC model view controllers that exist in the Code Igniter 3.0 framework so that it is faster and easier to implement or developed in other field companies or in the manufacturing industry.
+
+Tests using lighthouse for perform by 94% showed that the application designed to have a good performance for display results, and its access value of 60%, indicating that the process related to responsiveness between users is appropriate both using PC/Tablet/ Mobile.
+
+With the increasing expansion of wireless networks and mobile devices, security, and efficiency in mobile payment systems have become especially important. In this research, a secure and efficient mobile payment system is provided using an Identity-Based Signature (IBS). In the proposed scheme, issues related to managing digital certificates and also the key escrow problem related to identity-based cryptosystems are resolved. In the proposed system, malicious users are not only tracked but revoked from the system. The security and correctness of the proposed protocol are analyzed theoretically and also ProVerif (Protocol Verifier) automated tool used for verifying the security of the proposed scheme formally. The proposed scheme reduces the computational overhead of mobile devices by modifying system parameters and utilizing a cloud server and demonstrates an appropriate technology to communicate between mobile devices to perform payment transactions. Moreover, the proposed protocol provides more security attributes and reduces the total running time of the signature validation algorithm server-aided compared to existing similar protocols according to (Alidadi Shamsabadi, 2021)
+
+According to (Rahim M. A., 2019) the demand of POS software is increasing day by day in business arena. Our proposed software reduces all complexities facing in manual system. It provides much complex calculation perfectly within few seconds. Any mistake performed by sub admin can be easily detected by super admin. So data consistency, security and integrity are maintained strongly using this software. Database can be exported easily in excel format by this software. Since IMEI number is used to maintain the stock & selling process, any product is identified exactly. A continuous internet service is mandatory to operate the software. We will integrate bar code reader for faster access with our software in near future.
+
+Synthesis
+
+The above literature and studies show how the mobile point of sale evolved from Rahim (2019) Point of Sale (POS) software is used widely in retail business. It has changed the manual system of business to computerized system while Smith (2021) found that mPOS will account for about 1/3 of all installed POS terminals worldwide. And according to Lestariningati (2018) a mobile point of sale system, also known as an mPOS or point-of-sale app, turns a smartphone or tablet into a cash register and portable computer device that is used especially as POS (Point of Sales) purpose and it is link to input and output device such as barcode scanner and thermal printer, installed with special software for POS, In Eleonora Pantano's (2016) paper the extent to which mobile technologies have an impact on consumer behavior, with emphasis on the drivers motivating consumers to adopt the consumer experience of mobile shopping is shown. Both of these techniques have worked that manual system of business can turn to a computerized. Spanke (2020) the retail business is under closer observation than ever before by customers. They want to know exactly what a company's position is on sustainably and environmental issues while Emma Lewis (2020) said it is feasible to train corner owners in low-income areas to use a simplified point of sale mobile application for sales monitoring. These studies confirmed that the low- and high-income areas need a sales monitoring. Mobile point of sale was initiated to help the store owners especially to their inventory. 
+
+
+
+
+
+
+
+Chapter III
+
+DESIGN AND METHODOLOGY
+
+Design methodology refers to the development of a system or method for a unique situation. Today, the term is most often applied to technological fields in reference to web design, software or information systems design.
+
+Data flow diagram 1
+
+Figure 2. Data Flow Diagram Level 0 of the system
+
+This diagram shows the admin viewing the application. The Manage Customer Information will handle the customer info and list of customers while, the Manage Sales Information is the process to collect the product details, sale list, and purchase claim to proceed in the Manage Payment for the payment details, and payment update, and lastly the Generate Receipts will process the receipts details.
+
+Data flow diagram 2
+
+Figure 3. Data Flow Diagram Level 1 of the system
+
+This diagram shows the admin viewing the application. The number 1.1 saying that collecting the information of the customer and the purchased products, and in 1.2 the manage sales information going to admin and to the transaction database. 1.3 is the mange payment will compute the all payments from transaction database. 1.4 is the process of the database and the receipts of the payment list. 
+
+Figure 4. Fishbone Diagram
+
+Process, information, security and people were the primary reasons in developing mobile point of sale which are indicated in the fishbone diagram. The main problem of the store owners in the manual computing and counting of inventory. In the process the incorrect assortment and poor inventory management, incorrect of counting of inventory. In information, poor marketing and sales alignment and short profit due to computing of inventory and sales. In security, incorrect tracker for inventory and no system for checking daily sales. And for the people, poor computing inventory of staff.
+
+System flowchart
+
+A system flowchart is a visual representation of processes, decisions, inputs and outputs that together form a system.
+
+Figure 5. System flow chart
+
+The system flowchart shows the flow of the system usage. After log in, the system will redirect to the System dashboard and the admin can manage the system. The admin can select manage product inventory after selecting the inventory it will proceed to view the product and adding the product to cart. Then, after checking the products, it will proceed to payment method if yes it will continue to select payment method, then print receipt. If yes it will logout the system, if not the system will return to select manage product inventory.
+
+Gantt chart
+
+A chart in which a series of horizontal lines shows the amount of work done or production completed in certain periods of time in relation to the amount planned for those periods.
+
+Figure 6. Gantt chart of the project
+
+The project timetable indicates that the investigation will take 11 months. It will begin the task of Data gathering which is 9 weeks; developing there are 3 Tasks, which is resources gathering (9 weeks), designing (12 weeks), and lastly coding (14 weeks), in post development there is the testing of 5 weeks, and the last is the deployment line with implementation of 6 weeks.
+
+Entity-relationship diagram
+
+This is a graphical representation that depicts relationships among people, objects, places, concepts or events within an information technology (IT) system.
+
+Figure 7. Entity Relationship Diagram
+
+Every relationship between the table's entity and attributes is explained in the Entity Relationship Diagram. Each table includes a definition that links all of the tables together, including the main and foreign keys. If the attributes of one table have a unique ID, use a foreign key, and the foreign key will be identified when the other table's attributes are present. Every procedure is connected by each attribute.
+
+Software Development methodology
+
+The structured processes involved when working on a project. It is a blend of design philosophies and pragmatic realism that stretches back to the early days of computing. The goal is to provide a systematic approach to software development.
+
+SDLC and V Model Phases
+
+In this phase, the system requires maintenance to keep the system functionality on track. It includes making changes to improve a system's performance, correct problems, enhance security, or address user requirements. 
+
+Figure 8. V-MODEL
+
+Verification: It involves a static analysis method (review) done without executing code. It is the process of evaluation of the product development process to find whether specified requirements meet.
+
+Validation: It involves dynamic analysis method (functional, non-functional), testing is done by executing code. Validation is the process to classify the software after the completion of the development process to determine whether the software meets the customer expectations and requirements
+
+Verification Phase of V-model:
+
+1. Business requirement analysis: This is the first step where product requirements understood from the customer's side. This phase contains detailed communication to understand customer's expectations and exact requirements.
+
+2. System Design: In this stage system engineers analyze and interpret the business of the proposed system by studying the user requirements document.
+
+3. Architecture Design: The baseline in selecting the architecture is that it should understand all which typically consists of the list of modules, brief functionality of each module, their interface relationships, dependencies, database tables, architecture diagrams, technology detail, etc. The integration testing model is carried out in a particular phase.
+
+4. Module Design: In the module design phase, the system breaks down into small modules. The detailed design of the modules is specified, which is known as Low- Level Design
+
+5. Coding Phase: After designing, the coding phase is started. Based on the requirements, a suitable programming language is decided. There are some guidelines and standards for coding. Before checking in the repository, the final build is optimized for better performance, and the code goes through many code reviews to check the performance.
+
+Validation Phase of V-model:
+
+1. Unit Testing: In the V-Model, Unit Test Plans (UTPs) are developed during the module design phase. These UTPs are executed to eliminate errors at code level or unit level. A unit is the smallest entity which can independently exist, e.g., a program module. Unit testing verifies that the smallest entity can function correctly when isolated from the rest of the codes/units.
+
+2. Integration Testing: Integration Test Plans are developed during the Architectural Design Phase. These tests verify that groups created and tested independently can coexist and communicate among themselves.
+
+3. System Testing: System Tests Plans are developed during System Design Phase. Unlike Unit and Integration Test Plans, System Tests Plans are composed by the client's business team. System Test ensures that expectations from an application developer are met.
+
+4. Acceptance Testing: Acceptance testing is related to the business requirement analysis part. It includes testing the software product in user atmosphere. Acceptance tests reveal the compatibility problems with the different systems, which is available within the user atmosphere. It conjointly discovers the non- functional problems like load and performance defects within the real user atmosphere.
+
+Development Materials
+
+1.1.1 Software
+
+Windows7/8/10 Operating system - For development highly needed
+
+MySQL is an Oracle relational database management system (RDBMS) based on structured query language (SQL). A database is a well-organized collection of data.
+
+PHP-This is a popular open-source general-purpose scripting language that is ideal for web development and can be integrated into HTML.
+
+Notepad++ Is a text and source code editor for the Microsoft Windows
+
+operating system. It features tabbed editing, allowing you to work with numerous open files in a single window.
+
+1.1.2 Hardware
+
+Computer - Programmers create programs in machine code, the computer's native language.
+
+Intel Core 13 above The processor of the computer
+
+Installed ram at least 4GB-The memory of the computer needed.
+
+Storage 250Gb-The storage of the computer to store data.
+
+1.1.3 Implementation hardware
+
+Android phone at least android 6.0 version Requirements for implementation of the application.
+
+Bluetooth printer - For printing the receipt of the products purchased.
+
+1.1.4 Data
+
+The researchers collected data through surveys.
+
+Use case diagram
+
+These diagrams also identify the interactions between the system and its actors.
+
+The use cases and actors in use-case diagrams describe what the system does and how the actors use it, but not how the system operates internally
+
+Figure 9. Use case diagram
+
+The use case diagram is one of the key milestones during software development process. It describes the series of interactions that involve the actor and system. The admin can perform activate and the use the developed system where he/she may navigate what is in the system through logging; view and searching the products; he/she can add products; he/she can check the daily sales, check revenue and sale list; he/she can scan the barcodes of the product and check the orders of customer.
+
+Data gathering procedure
+
+Cauayan City goes cashless with Smart City Project. The smart city project supports forward-thinking entrepreneurs who own micro and macro businesses. Multi-System aims to empower these business owners including micro-enterprises with their Mobile Point of Sale Devices or the MPOS machines.
+
+Merchants who often sell goods/services in an out-of-store environment - be it a farmer's market, a food truck, or in a customer's home can make use of an MPOS solution to securely accept different types of card payments as well as the growing ubiquity of mobile payments in retail stores.
+
+Data statistical tool
+
+Statistical treatment data were gathered using the interval scales below:
+
+Table 1. Weighted Mean & Descriptive Interpretation
+
+For finding the percentage in the tables the presentation analysis and interpretation of data, the researchers used this formula:
+
+A. For finding weighted mean the researchers used this formula: WM1(f)+2(f) +3 (f)+4(f) +5 (f) N
+
+Where:
+
+WM Weighted Mean
+
+f = frequency
+
+N = total population
+
+Different software testing
+
+Implementation Plan
+
+Table 2. Implementation Plan
+
+Testing. Respondents to the research were evaluating by the system to create trustworthy data that would assist the targeted agency in running the project more efficiently.
+
+Unit Testing. The researchers used this strategy to the test-driven environments that will typically write and run the tests prior to the software or feature being passed over to the test team. Unit testing can be conducted manually, but automating the process will speed up delivery cycles and expand test coverage.
+
+Integration Testing. After the unit testing the researchers, tests are often framed by user scenarios, such as logging into an application or opening files. Integrated tests can be conducted by either developers or independent testers and are usually comprised of a combination of automated functional and manual tests.
+
+System Testing. The system testing used of the researches for the functionality of the software is tested from end-to-end and is typically conducted by a separate testing team than the development team before the product is pushed into production.
+
+Acceptance Testing. The system developers involve ensuring that the product is in compliance with all of the original business criteria and that it meets the end user's needs.
+
+
+
+
+
+
+Chapter IV
+
+RESULTS AND DISCUSSION
+
+This chapter deals with the results of the data gathered by the researcher using the questionnaire.
+
+Part I Problems encountered by the respondents
+
+Table 3. Mean and SD response on problems encountered by the respondents in terms of performance 
+
+Table 3 shows the mean response and qualitative description on the problems encountered by the store owner in manual computing and counting of the inventory and purchased product in terms of performance.
+
+Table 3 reveals that majority of the respondents interpreted "A problem" with a highest mean of 3.31. Item "Time-consuming to count the purchased product". Item "Committing error in computing purchased product". Item "Committing error in counting purchased product" while Item "Time-consuming to compute the purchased product" has the lowest mean of 2.68 interpreted as "A problem".
+
+The analysis indicates that the performance of the manual computing and counting of the inventory and purchased product is "A problem" with the overall mean of 3.01.
+
+Table 4. Mean and SD response on problems encountered by the respondents in terms of efficiency
+
+Table 4 shows the mean response and qualitative description on the problems encountered by the store owner in manual computing and counting of the inventory and purchased product in terms of efficiency.
+
+Table 4 reveals that majority of the respondents said that there is "A problem" with a highest mean of 3.25. Item "Computing and counting the inventory are not properly monitored". Item "Computing and counting the purchased product are not properly monitored" while Item "Lack of time in monitoring the inventory every day" has the lowest mean of 3.06 interpreted as "A problem".
+
+The analysis indicates that the performance of the manual computing and counting of the inventory and purchased product is "A problem" with the overall mean of 3.16.
+
+Table 5. Mean and SD response on problems encountered by the respondents in terms of information
+
+Table 5 shows the mean response and qualitative description on the problems encountered by the store owner in manual computing and counting of the inventory and purchased product in terms of information.
+
+Table 5 reveals that majority of the respondents interpreted "A problem" with a highest mean of 3.06. Item "Monitoring their inventory and purchased product every day is not correct". Item "Fail to monitor the inventory and purchased product" while Item "Stores had their own time management to monitor their purchased product every day" has the lowest mean of 2.75 interpreted as "A problem".
+
+The analysis indicates that the performance of the manual computing and counting of the inventory and purchased product is "A problem" with the overall mean of 2.89.
+
+Table 6. Mean and SD response on problems encountered by the respondents in terms of service 
+
+Table 6 shows the mean response and qualitative description on the problems encountered by the store owner in manual computing and counting of the inventory and purchased product in terms of service.
+
+Table reveals that majority of the respondents interpreted "A problem" with a highest mean of 3.18. Item "It takes to monitor the inventory and purchased product". Item "Inaccurate to monitor using paper and ball pen only" while Item "The process is very tedious" has the lowest mean of 2.93 interpreted as "A problem".
+
+The analysis indicates that the performance of the manual computing and counting of the inventory and purchased product is "A problem" with the overall mean of 3.06.
+
+Part II Effectiveness of MPOS
+
+Table 7. Mean and SD response of the effectiveness of MPOS by the respondents in terms of performance
+
+Table 7 shows the mean response and qualitative description on the effectiveness of MPOS in terms of performance.
+
+Table 7 reveals that majority of the respondents interpreted "Agree" with a highest mean of 4.43. Item "Less time-consuming to compute the purchased product". Item "Less time-consuming to count the purchased product". Item "Less committing error in computing purchased product" while Item "Less committing error in counting purchased product" has the lowest mean of 4.18 interpreted as "Agree".
+
+The analysis indicates that the performance of the effectiveness of MPOS is "Agree" with the overall mean of 4.32.
+
+Table 8. Mean and SD response of the effectiveness of MPOS by the respondents in terms of efficiency
+
+Table 8 shows the mean response and qualitative description on the effectiveness of MPOS in terms of efficiency.
+
+Table 8 reveals that majority of the respondents interpreted "Strongly Agree" with a highest mean of 4.56. Item "Computing and counting the inventory are now properly monitored". Item "Monitoring the inventory every day is now easy and better" while Item "Computing and counting the purchased product are now properly monitored" has the lowest mean of 4.50 interpreted as "Strongly Agree".
+
+The analysis indicates that the performance of the effectiveness of MPOS is "Strongly Agree" with the overall mean of 4.52.
+
+Table 9. Mean and SD response of the effectiveness of MPOS by the respondents in terms of information
+
+Table 9 shows the mean response and qualitative description on the effectiveness of MPOS in terms of information.
+
+Table 9 reveals that majority of the respondents interpreted "Strongly Agree" with a highest mean of 4.62. Item "Monitoring inventory and purchased products every day is accurate" while Item "Anytime can monitor the purchased product every day" has the lowest mean of 4.43 interpreted as "Strongly Agree".
+
+The analysis indicates that the performance of the effectiveness of MPOS is "Strongly Agree" with the overall mean of 4.52.
+
+Table 10. Mean and SD response of the effectiveness of MPOS by the respondents in terms of service
+
+Table 10 shows the mean response and qualitative description on the effectiveness of MPOS in terms of service.
+
+Table 10 reveals that majority of the respondents interpreted "Agree" with a highest mean of 4.31. Item "Accurate to monitor the inventory using the system". Item "Less time to monitor the inventor and purchased product" while Item "The process is no longer tedious" has the lowest mean of 4.12 interpreted as "Agree".
+
+The analysis indicates that the performance of the effectiveness of MPOS is "Agree" with the overall mean of 4.22.
+
+Table 11. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of functionality
+
+Table 11 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of functionality.
+
+Table 11 reveals that majority of the respondents' perception interpreted "High extent" with a highest mean of 4.00. Item "Functional completeness". Item "Functional correctness" while Item "Functional appropriateness" has the highest mean of 4.50 interpreted as "Very high extent". Though the overall mean is 4.08 interpreted as "High extent".
+
+Table 12. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of performance
+
+Table 12 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of performance.
+
+Table 12 reveals that majority of the respondents' perception interpreted "Very high extent" with the highest mean of 4.5. Item "Time behavior and Item "Capacity" while Item "Resource utilization" has the lowest mean of 4.75 interpreted as "Very high extent. Though the overall mean is 4.58 interpreted as "Very high extent".
+
+Table 13. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of compatibility
+
+Table 13 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of compatibility.
+
+Table reveals that the respondents' perception interpreted "Very high extent" with the highest mean of 4.5. Item "Interoperability" while Item "Co-existence" has the lowest mean of 3.75. Though the overall mean is 4.13 interpreted as "High extent".
+
+Table 14. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of usability
+
+Table 14 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of usability.
+
+Table reveals that the majority of the respondents' perception interpreted "Moderately extent" with the highest mean of 4.25. Item "Interoperability". Item "Learnability". Item "Operability" and Item "User Error Protection" while Item "User Interface Aesthetics" and Item "Accessibility" has the highest mean of 4.5 interpreted as "High extent". Though the overall mean is 4.13 interpreted as "High extent".
+
+Table 15. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of reliability
+
+Table 15 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of reliability.
+
+Table 15 reveals that the majority of the respondents' perception interpreted "High extent" with the highest mean 4.25. Item "Availability" while Item "Maturity" item "Fault tolerance" and item "Recoverability" has the lowest mean of 4.00 interpreted as "High extent". Though the overall mean is 4.06 interpreted as "High extent.
+
+Table 16. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of security
+
+Table 16 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of security.
+
+Table 16 reveals that the majority of the respondents' perception interpreted "High extent" with the highest mean 4.00. Item "Integrity". Item "Non-repudiation". Item "Accountability". Item "Authenticity" and Item "Overall" while Item "Confidentiality" has the lowest mean of 3.25 interpreted as "Moderately extent". Though the overall mean is 3.60 interpreted as "High extent".
+
+Table 17. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of maintainability
+
+Table 17 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of maintainability.
+
+Table 17 reveals that the majority of the respondents' perception "Very high extent" with the highest mean of 4.50. Item "Reusability". Item "Analyzability". Item "Modifiability" and Item "Testability" while Item "Modularity" has the lowest mean of 4.00 interpreted as "High extent". Though the overall mean is 4.40 interpreted as "Very high extent".
+
+Table 18. The extent of compliance of the developed system to ISO 25010 software quality standards in terms of portability
+
+Table 18 shows the mean response and qualitative description on the extent of compliance of the developed system to ISO 25010 software quality standards in terms of portability.
+
+Table 18 reveals that the majority of the respondents perception "Very high extent" with the highest mean of 4.5. Item "Adaptability" and Item "Replace ability" while Item "Install ability" has the lowest mean of 4.75 interpreted as "Very high extent". Though the overall mean is 4.58 interpreted as "Very high extent".
+
+
+
+
+
+Chapter V
+
+SUMMARY OF FINDINGS, CONCLUSION AND RECOMMENDATION
+
+Summary of findings
+
+This study aimed to develop a Mobile Point of Sale system that may help the store owners in the City of Cauayan to monitor their inventory and purchased product every day.
+
+The developed system was evaluated by the selected twenty (16) store owners and (4) IT experts in the City of Cauayan which include those who are promoting essential goods and products whether it is food or non-foods products. The evaluations focused on the following parameters: performance; efficiency; information and service. Also, it undergone confirmatory evaluation using the ISO 25010 standards particularly in the following dimensions: functionality; performance; compatibility; usability; reliability; security; maintainability and portability.
+
+Results show that prior to the development of the system, the store owners used the manual or traditional way of computing and counting the purchased product and inventory and they always encountered the following problems: time consuming to count in computing the purchased product; committing error to count and compute the purchased product; computing and counting purchased product and inventory are not properly monitored.
+
+From the identified problems using the traditional way of computing and counting purchased product and inventory, the researchers proposed the Mobile Point of Sale system to help the store owners in the City of Cauayan to easily monitor the inventory and computing and counting the purchased product without committing errors of their inventory.
+
+Based from the evaluation of the store owners on the developed Mobile Point of sale system, they strongly agreed on all the sub criteria which include the following: performance; efficiency; information and service Also, the evaluation of the quality of the developed system confirmed in the evaluation using the ISO 25010 standards where the IT experts giving a high extent on following dimensions: functionality; performance; compatibility; usability; reliability; security; maintainability and portability.
+
+Conclusion
+
+Based on the findings of the study, the following conclusions were drawn:
+
+1. Store owners used manual computing and counting of the inventory and purchased products and they always encountered the following problems in terms of performance, efficiency, information, and service they are the same "problem" for the store owners.
+
+2. The mobile point of sale was developed to help the store owners of Cauayan City to easily monitor the inventory and purchased products.
+
+3. The extent of compliance of the developed system to ISO 25010 software quality standards where the IT experts agreed "High extent" on following dimensions: Functionality, Performance, Compatibility, Usability, Reliability, Security and "Very high extent" for Maintainability and Portability.
+
+Recommendations
+
+Based on their conclusion, the researchers strongly advise that the present manual procedure be replaced with the suggested technology. In particular, the agency must upgrade or replace its existing manual application and implement the suggested Mobile point of sale.
+
+1. Store owners should have the interest to use a technology to monitor the inventory and not be confined in using the manual computing and counting the purchased product and inventory. In this manner, they would be able to easily monitor their inventory.
+
+2. The school/university officials should help the researcher-developers of the system to improve their work to contribute in the development of the business.
+
+3. Information and Communication Technology teachers should help the researcher- developers to make their developed system be patented to ensure that this system cannot be duplicated or stole by anyone.

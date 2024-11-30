@@ -1,0 +1,584 @@
+Human Resources Information System for Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela Chester Usbal Isabela G. Zonio Ric I. Bucad February 2024
+
+A Capstone Project Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Information Technology
+
+Chester Usbal Isabela G. Zonio Ric I. Bucad February 2024
+
+
+
+ABSTRACT
+
+The study entitled "Human Resources Information System for Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela" helps the admin input employees's data. The work of the study will be reduced, as will the queue time of the employees who want the service of the office.
+
+The main purpose of this is to develop and implement the proposed research entitled "Human Resources Information System for Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela." Mainly, the study aimed to determine the listed problems encountered by the agency in the present system.
+
+The methods used in gathering data were questionnaires, interviews, and observations. Based on the weighted mean and descriptive interpretations of the performance of the existing manual system, the department head and staff "agree" encountered plenty of problems.
+
+The analysis shows that the pre-evaluation perception of the respondents on the Human Resources Information System for the Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela is "agree." The respondents agreed they encountered listed problems along the weighted mean (1.30).
+
+Likewise, the post-evaluation perception of the respondents is "strongly agree" with the development of the record management system for the Human Resources Information System for the Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela, in terms of performance (4.64), information (4.67), security (4.62), efficiency (4.71), and economics (4.70). The result of the post-evaluation. The respondents have certainly agreed that they used the current system along with the weighted mean (4.66).
+
+Based on the summary, conclusion, and recommendations, most respondents believed there was a need to improve the present system. The existing manual system is not effective, as proven by the problems encountered and the need for an effective system for easier and more accurate transactions. The evaluation of the respondents gave the reason that there is a need to replace the manual system with the Human Resource Information System, a desktop application.
+
+Hence, the development of a human resource information system is recommended by the Civil Aviation Authority of the Philippines (CAAP) to address the problems encountered based on the study results.
+
+
+
+
+
+CHAPTER I
+
+INTRODUCTION
+
+Project Context
+
+The Human Resources Information System (HRIS) serves as a methodical approach to administering employee data, facilitating planning and decision-making, and generating reports for external entities. These integrated systems have significantly improved HR practices and facilitated easier access to employee information. However, there is limited research available on the extent to which HRIS effectively contributes to employee retention, motivation, and attraction (Galanaki et al., 2019).
+
+The Civil Aviation Authority of the Philippines (CAAP) in Cauayan City, Isabela, has established clear guidelines, responsibilities, and accountability for developing and maintaining the country's safety program. This entails directives to plan, organize, develop, control, and continually enhance the State Safety Program of the Philippines to meet the state's safety requirements. Additionally, it outlines the necessary human and financial resources required for the implementation of the State Safety Program.
+
+CAAP plays various roles in society, including establishing rules and regulations for aircraft inspection and registration, enforcing laws related to air transportation, setting charges for public air utility facilities, operating the Civil Aviation Training Centre (CATC), and performing other powers and functions as mandated by law.
+
+The primary challenge faced by the Civil Aviation Authority of the Philippines (CAAP) in Cauayan City, Isabela, is the absence of a systematic employee information collection system. Currently, they manually input data such as leave, leave credits, loans, resumes, and certificates of training and seminars into Excel or ledgers. The manual system poses security risks and is time-consuming. The project aims to develop a human resources information system for CAAP's employees in Cauayan City, Isabela, enabling efficient dissemination of information by managers regarding various aspects of employee records.
+
+Objectives of the Project
+
+The general objective of this study was to develop a dependable and efficient human resources information system that can be accessed at any time by employees of the Civil Aviation Authority of the Philippines in Cauayan City, Isabela.
+
+Specifically, it aimed to:
+
+1. to determine the issues that arise when using the current system in monitoring the information's of the employees in terms of;
+
+a. Performance
+
+b. Information
+
+c. Security
+
+d. Efficiency
+
+e. Economics
+
+2. to identify the benefits of the proposed system in terms of:
+
+a. Performance
+
+b. Information
+
+c. Security
+
+d. Efficiency
+
+e. Economics
+
+3. to determine the employee file leave application process in terms of:
+
+a. Performance
+
+b. Information
+
+c. Security
+
+d. Efficiency
+
+e. Economics
+
+4. to present the result of comparison in manual system and human resources information system.
+
+Significance of the Study
+
+The study will be beneficial to the following:
+
+Manager- The system will help the manager to easily disseminate information regarding an employee's leave, leave credits, loans, file resumes, and certificate of training and seminars.
+
+Employees- The system will help them access the file or information easily.
+
+Future Researchers- This study can be a reference for the researchers who will conduct the same related study.
+
+Scope and Limitations
+
+The Civil Aviation Authority of the Philippines, Cauayan City Isabela, is focused on developing a human resources information system that may be viewed as a way, through software, to take care of a number of activities, including managing employee accounts, leave management, and setting calendar agendas. As well as to manage and control them without needing to allocate too many resources toward them.
+
+Limitation
+
+The system does not cover payroll management due to the complexity of compliance with evolving tax regulations; finance management may face challenges in data accuracy and potential disruptions from software dependencies; and attendance management might encounter resistance to change and accuracy issues in tracking time, posing hurdles to the seamless integration of these critical functions.
+
+
+
+
+
+CHAPTER II
+
+REVIEW OF RELATED LITERATURE AND STUDIES
+
+Review of Related Literature and Studies
+
+The researchers' study is related to the present system, emphasizing the importance of the Human Resources Information System in the Civil Aviation Authority of the Philippines in Cauayan City, Isabela. This chapter provides an in-depth understanding of the system and its benefits. This chapter also describes the factors and best practices involved in implementing a system. The studies listed below will assist the researcher in better assessing and constructing a system distinct from other systems. Moreover, it will help the researchers know better and understand what materials are appropriate for their system development. Furthermore, it will enable the construction of unique features that benefit employers and the manager through an effective system to disseminate information regarding an employee's leave, leave credits, benefits, and employee accounts.
+
+As stated by Anon (2020), in today's environment, businesses, governmental bodies, and non-profit entities worldwide rely on Human Resource Information Systems (HRIS) to facilitate information exchange and streamline processes associated with downsizing and reengineering. HRIS is characterized by the integration of human resource management (HRM) and information systems (IS), offering HR managers a technologically driven, efficient, and systematic approach to the execution of HR functions.
+
+According to Hagan et al. (2022), the Human Resource Information System (HRIS) stands out as a crucial component of Management Information Systems (MIS), significantly contributing to the delivery of human resource services within an organization. This research aims to pinpoint the challenges associated with this process. A survey, utilizing a closed-ended questionnaire, was conducted with 63 participants from the University of Health and Allied Sciences (UHAS) and Ho Technical University (HTU) to identify these challenges. The primary obstacle discovered in the adoption of HRIS is the lack of management support. Consequently, the study concludes that the absence of management support hinders the adoption of HRIS and recommends that management should actively engage and be educated on the significance of HRIS to enhance its adoption and functionality.
+
+As per Anon (2020b), a Human Resource Information System (HRIS) serves as a software solution encompassing comprehensive employee information, along with the management and processing of data related to Human Resources policies and procedures. HRIS functions as the core system for Human Resource Management (HRM) and Centralized Core Human Resources (Core HR), facilitating the completion of essential employee master data processes. The software establishes a centralized repository for this information. Through the analysis of the complex structure using the Decision-Making Trial and Evaluation Laboratory (DEMATEL) method, it validates a cause-and-effect chain among elements, making it effective for identifying relationships and dependencies. Notably, factors such as HRM functions, software quality, vendor support, technology, and big data analysis are crucial for evaluation. The assessment preference places HRM functions at the forefront, while technology receives the lowest rank in the analysis results.
+
+According to Lina (2019), human resources emerge as the paramount factor for any organization operating in the 21st century. With the escalating impact of globalization and technology, organizations are increasingly integrating information systems across various human resource functions. The Human Resource Information System (HRIS) is not a novel concept but rather an evolving one, adapting to the changing environment. It functions as a software solution for tasks like data entry, tracking, and managing diverse human resources information, including payroll, management, and accounting functions within an organization. An HRIS enhances planning effectiveness, offers control over HR costs, achieves heightened efficiency and excellence in decision-making, and elevates employee and managerial productivity. Notably, the primary advantage of HRIS lies in its capacity to store extensive employee data, aiding the strategic activities of HR managers, particularly in areas like training and development, applicant tracking during recruitment and selection, and human resource planning.
+
+From Razad's (2021) perspective, the complexities inherent in human resource management and the rapid advancements in science and technology have spurred the swift development of Human Resource Information Systems (HRIS). The archaic, unscientific, slow, and insufficient nature of data preservation and information systems related to employees in organizations has undergone a significant transformation. As a result, the importance of a Human Resource Information System (HRIS) has become immensely critical, particularly amidst intensifying global competition in business, industry, commerce, and international trade. At the national level, it has contributed to enhanced economic viability and cost-effectiveness and facilitated the streamlined administration of both public and private organizations. The ongoing evolution and enhancement of various computer components, encompassing both hardware and software integral to information technology, seamlessly align with the growing volume of record-keeping in human resources mandated by laws and statutes. Additionally, the sustained availability of affordable computer technology, including hardware, further substantiates these advancements (Rashid, 2021).
+
+As indicated by Pertiwi and Yulianingsih (2020), a Human Resources Information System (HRIS) functions as a comprehensive system tasked with managing all information pertaining to human resources within an institution. This research aims to assess and evaluate the existing system, examining the relationship between variables using the HOT Fit method among HRIS users in KPKNL Palembang. The model comprises three independent variables, each with its own sub-variables: human variables with system users (PS) and user satisfaction (KP), organizational variables with organizational structure (SO) and organizational environment (LO), and technology variables with system quality (KS), quality information (IC), and service quality (KL). Additionally, there are dependent variables, with net benefit being the primary focus of this research. Utilizing quantitative descriptive research methods involving observation, interviews, and the distribution of questionnaires, this study employs a Likert scale to measure employee attitudes and perceptions, with all 38 civil servants (PNS) serving as the sample. The authors anticipate that the findings from this study will provide the institution with valuable insights for refining the current system.
+
+As outlined by Ahmad and Ali (2019), the research seeks to elucidate the role of the human resources information system (specifically in the fields of activities, employees, employees as a whole, and positions) within the realm of human resource management (HRM) practices, encompassing areas such as recruitment, performance evaluation, training, and compensation and incentive activities. The primary research issue revolves around the inadequacy of the HRM strategy due to information gaps. The investigation operates under two key assumptions, aiming to explore the correlation and influence between the identified research variables by analyzing responses from a sample comprising 64 faculty teachers at the University of Cihan-Erbil. The data analysis involves the utilization of the SPSS program and various statistical methods, including arithmetic mean, standard deviation, repetition, percentages, correlation coefficient, and a simple linear regression equation. Key findings of the study include establishing the relationship and impact of the human resources information system on human resource strategy practices. The researcher recommends an increase in attention and investment in the human resources information system due to its pivotal role in activating and enhancing human resources strategy practices.
+
+As noted by Magege and Ngirwa (2023), the Human Resources Information System (HRIS) has emerged as a crucial element in Human Resource Management (HRM), particularly in developing economies like Tanzania. Although various organizations have adopted this system, there is a scarcity of evaluations regarding its impact on organizational performance. This paper presents findings on the utility of the Human Resources Information System (HRIS) within the banking sector, with a focus on Azania Bank Limited. The study aimed to explore the significance of HRIS for the performance of Azania Bank Limited. Based on descriptive research targeting 133 respondents from all employees at ABL headquarters, structured questionnaires were employed for data collection. The collected data underwent both descriptive and inferential analysis using the Statistical Package for the Social Sciences (SPSS). Additionally, correlation and regression analyses were conducted based on predetermined regression models. The results indicated a noteworthy improvement in employees' and management's access to human resource data across the institution due to HRIS utilization. A highly significant improvement (p<0.001) in working standards was also identified as a result of HRIS implementation. The study concludes that HRIS is pivotal in organizational contexts, supported by significant positive correlations (R = 0.889) between organization performance and the importance of HRIS. However, some employees faced challenges using HRIS due to low computer literacy. The study recommends that Azania Bank Limited should invest in enhancing employee computer literacy and involve them in tailoring the organizational system through analysis, design, construction, and development of the system to enhance overall performance.
+
+According to Bhatia and Nangia (2023), this paper explores the influence of the human resource information system on human resource strategies. The HRIS functions as a tool designed to address the fundamental needs of businesses, efficiently catering to the requirements of both managers and employees. With a specific focus on the banking industry, this paper underscores that while banking organizations are increasingly integrating this software for the benefit of their employees, there remains a resistance among individuals within the industry toward its adoption. In the current organizational landscape, the primary objective is to boost employee morale and acquaint them with new technologies, ultimately contributing to optimal organizational outcomes. The research presented in this paper offers insights into select banking sectors that have already embraced technology. It particularly concentrates on understanding the reasons behind employees' resistance to adopting new technological software in today's scenario. 
+
+Concept of the Study
+
+Figure 1. Conceptual Framework (IPO)
+
+The above figure, Figure 1 Conceptual Framework (IPO), depicts the input, process, and output of the research project. The concept of this study revolves around utilizing the Agile Model methodology to develop a Human Resource Information System (HRIS) tailored for the Civil Aviation Authority of the Philippines (CAAP) in Cauayan City, Isabela. Here's an explanation of each component:
+
+1. Input:
+
+Software Requirements:
+
+This input encompasses the specific features, functionalities, and technical specifications that the software solution must meet to fulfill the objectives of the study. It includes aspects such as the user interface design, database management system, security protocols, integration capabilities with existing systems, and any customizations required to meet organizational needs. Identifying and documenting these requirements is crucial for guiding the development or selection of the appropriate software solution.
+
+Hardware Requirements:
+
+Hardware requirements refer to the necessary physical components and infrastructure needed to support the software solution effectively. This may include servers, networking equipment, computing devices (such as desktops, laptops, or mobile devices), peripherals, and any specialized hardware required for specific functionalities. Understanding and specifying the hardware requirements is essential for ensuring that the chosen software solution can operate efficiently within the organization's existing technological environment.
+
+Employee Information:
+
+Employee information encompasses data related to individuals within the organization, including but not limited to personal details (such as name, contact information, and identification number), employment history, job roles and responsibilities, skills and qualifications, performance evaluations, and any relevant compliance or regulatory documentation. This data serves as the foundation for various HR processes and systems, including leave management, workforce planning, and talent development initiatives.
+
+Leave Management: 
+
+Leave management involves the processes and procedures for requesting. approving, tracking, and managing employee leave (such as vacation time, sick leave, or other types of absence). This input includes establishing policies and guidelines for leave eligibility, entitlements, accrual rates, approval workflows, reporting mechanisms, and compliance with legal or contractual requirements. Effective leave management ensures transparency, fairness, and compliance while balancing organizational needs with employee well-being and productivity.
+
+Setting Calendar Agenda:
+
+Setting calendar agendas involves integrating and managing employee schedules, appointments, meetings, and other events within a centralized calendar system. This input includes defining and coordinating scheduling priorities, allocating resources, managing conflicts, and facilitating communication and collaboration among team members. By synchronizing calendar agendas with other HR processes, such as leave management and workforce planning, organizations can optimize scheduling efficiency and ensure alignment with strategic objectives.
+
+2. Process:
+
+Agile Model: The Agile Model is a software development methodology characterized by iterative and incremental development. It emphasizes flexibility, collaboration, and responsiveness to change. In the context of this study, the Agile Model will involve breaking down the development process into smaller, manageable iterations (sprints). Each sprint will deliver a functional increment of the HRIS, allowing for continuous feedback and adaptation based on evolving requirements and user needs.
+
+3. Output:
+
+System Implementing HRIS for CAAP Cauayan City, Isabela: The end result of this study will be a comprehensive HRIS tailored specifically to meet the needs of CAAP's operations in Cauayan City, Isabela. The system will encompass features such as user management, leave management, calendar integration, and archiving capabilities. It will provide CAAP with a centralized platform to efficiently manage its human resource-related processes, enhance decision-making, and improve overall organizational productivity.
+
+By applying the Agile Model methodology to the development process, the study aims to ensure that the resulting HRIS meets CAAP's requirements effectively, adapts to changing needs, and delivers value in a timely manner. 
+
+
+
+
+CHAPTER III
+
+DESIGN AND METHODOLOGY
+
+This chapter presents the design and methodology employed in the study. It encompasses several sections, including requirement analysis, requirement documentation, technical background (covering materials, software, hardware, data, use case diagram, fishbone diagram, system flowchart, and entity relationship diagram), design of software and systems, software development methodology, development and testing, data gathering procedures, data analysis plans, different software testing, description of the prototype, system architecture, implementation plan, and implementation results.
+
+Requirement Analysis
+
+This is the process of determining system requirements by tracking the existing system, having discussions with potential users, performing task analysis, and so on. This may entail the creation of one or more different system models.
+
+Data Flow Diagram
+
+Figure 2. Data Flow Diagram
+
+The figure above - Figure 2. Data Flow Diagram, depicts the overall flow of the software system. The system grants the administrator full access to all the system's operations. Upon initiating the login process, the system verifies the administrator's credentials entered in the designated text fields, cross-referencing them with the user accounts stored in the database table known as "tbl user." If the credentials are confirmed, the administrator gains entry to the dashboard, where various operations can be executed. The administrator has the option to register additional accounts for different employees. When the necessary data for creating a new account is provided by the administrator, it is stored in the "tbl user" table. Furthermore, the administrator can add employees to the system, and their corresponding data is stored in the "tbl_profile," which serves as a repository for all registered employees under the Civil Aviation Authority of the Philippines (CAAP). The administrator also has access to manage employee accounts, profiles,and leaves, with the relevant data being retrieved from the "tbl profile" table. In the event that the administrator changes an employee's status to inactive, the associated data is automatically removed from the "tbl_profile" table and transferred to the "tbl_history," marking the employee as resigned or retired from the aforementioned agency.
+
+Fishbone Diagram
+
+Figure 3. Fishbone Diagram
+
+The figure above is Figure 3. The fishbone diagram illustrates that every issue associated with employing a manual system has a corresponding cause and effect in the diagram above. The manual system is slow to access since it uses up so much space in terms of performance, and filing documents manually takes a lot of time. In addition to collecting and storing the file, finding the information when you need it takes time, which could range from a few minutes to several hours depending on the organization's level of organization. This inefficiency can irritate both customers and staff, leading to decreased productivity. Furthermore, manual systems often lack advanced analytical capabilities, which hampers the extraction of meaningful insights from document data. Identifying trends, patterns, or opportunities for improvement becomes challenging without proper analytics insights. Another drawback is the lack of version control mechanisms in manual systems. When multiple individuals need to work on a document simultaneously or revisions are made, it becomes difficult to track and manage different versions. This can result in confusion and errors due to outdated or conflicting information. Moreover, manual systems pose security risks. Physical documents can be lost, stolen, or damaged, leaving the information vulnerable. Additionally, controlling access to sensitive information becomes more challenging, increasing the risk of unauthorized access or data breaches. The source of incomplete information is frequently damaged or misplaced. Making changes when working with paper documents is much more difficult. Each time you want to change the order, you must make a copy in order to prevent wiping the original with any changes or annotations you could make. This suggests that editing requires more time than it would with digital versions. Furthermore, manual systems have several drawbacks. They are prone to errors such as mistiling, loss, or damage of documents, which can lead to the loss of valuable information and hinder the maintenance of accurate records. Additionally, physical documents require significant storage space, leading to space constraints and a cluttered work environment as document volumes increase. Furthermore, manual systems restrict accessibility to specific locations and limited hours, causing difficulties for individuals who require remote or after-hours access to information. Economics-wise, printing and paper are expensive. As a result, the cost is higher because using paper documents requires purchasing paper and ink, which will increase your expenses. Your costs for office supplies will be higher if you manually file documents. Despite the fact that you may think this is inconsequential, it eventually adds up to a sizable chunk of money that may be put to better use. Moreover, manual systems in economies bring increased operational costs due to the need for additional resources like physical storage space, filing cabinets, and personnel. These costs rise with the volume of documents, and the labor-intensive nature of manual handling can result in higher labor costs. Moreover, manual systems lead to reduced productivity and efficiency compared to digital systems, as manual processes are slower and require more labor. This impacts tasks such as document retrieval, information search, and data processing, hindering productivity in financial reporting, auditing, and data analysis. Additionally, manual systems have a higher risk of errors and inaccuracies, including data entry mistakes, calculation errors, and document misplacement. Such errors can have significant consequences, causing incorrect decisions, financial losses, legal issues, or reputational damage in economic processes like financial reporting, tax compliance, or budgeting. In terms of security and control, a deficiency in security may result in less safeguarded data. Hard-copy filing can be less secure than computerized filing. It is easy for lost documents to end up in the wrong hands. Customers expect you to protect their private information. If you are unable to safeguard this, you face the risk of losing them. A filing cabinet is easier to use than a computer, which requires a password and other login details. Limited access control makes it difficult to restrict access to sensitive documents, increasing the possibility of unauthorized disclosure or alteration. Furthermore, manual systems offer limited confidentiality compared to digital systems.
+
+Physical documents can be read or copied by anyone with physical access, lacking the encryption and advanced security measures found in digital systems. Additionally, retrieving information from a manual system is slower. Manually searching through files and documents is time-consuming and prone to errors, impacting operational efficiency and timely decision-making. Records are inaccurate with efficiency; therefore, it takes time to make adjustments or modifications. Receiving and finding the right product is essential for efficient warehouse operations and a happy client. Manual systems encounter challenges such as slow document processing, increased administrative workload, and difficulty in document search and retrieval. The physical handling of documents causes delays, impacting productivity. More administrative tasks are required, diverting resources from critical activities. Finding specific documents within a manual system is time-consuming and inefficient.
+
+Timeline of the Project
+
+Gantt Chart
+
+Figure 4. Gantt Chart
+
+The table above illustrates the timeline of the development of the web-app project. The Gantt chart outlines the tasks, assignments, start and end dates, and duration for a research project spanning from April 2023 to January 2024. The project kicks off with the proposal, data gathering, and writing the first 3 chapters of the documentation in April and May 2023 over a period of 5 weeks. This allows for laying the groundwork through initial research and background writing. The bulk of the time from May 2023 to January 2024 for 35 weeks is focused on system development and testing a considerable amount of time, reflecting the complexity of the system being built. Finalizing the documentation, implementation, defense preparations and submission is crammed into the last month between January and February 2024, indicating an aggressive timeline toward the end. Specific tasks include: I week for the project proposal, 2 weeks for data gathering, 2 weeks for documentation chapter 1, 4 weeks each for chapters 2 and 3, 35 weeks for system development, 35 weeks for system testing, I week for final development and questionnaires, 1 week each for documentation chapters 4 and 5, 1 week for system implementation, and time for final defense preparation and thesis revision.
+
+Requirements Documentation
+
+This section delves into the technology employed throughout the entirety of the thesis project and provides explanations for each technical advancement implemented within the said project.
+
+Technical Background
+
+Materials
+
+In this section, the researchers provide an overview of all the technology utilized in the entire project system. It covers the software employed by the developers, as well as the necessary software for the end-users or employees of CAAP. Furthermore, the hardware used by the developers and the required hardware for the end-users are also discussed in this part.
+
+Software
+
+Table 1. Project team (Software)
+
+The above table is Table 1. The project team (software) showcases the technology utilized by the developers or researchers in the software system as a whole. The computer or laptop operated on the Windows 10 operating system. The software was developed using Visual Studio. The XAMPP database was employed to establish a connection between the software and the database. Additionally, Adobe Photoshop was utilized to edit images incorporated into the system as part of the UI design.
+
+Table 2. End-User | CAAP (Software)
+
+The table above-Table 2. End-User | CAAP (Software), depicts the technology required by the developers in order to run the software system smoothly.
+
+Hardware
+
+Table 3. Project Team (Hardware)
+
+The above table-Table 3. Project team (Hardware), illustrates the hardware used by the researchers to fulfill the project thesis.
+
+Table 4. End-User | CAAP (Hardware)
+
+The table above-Table 4. End-User | CAAP (Hardware), depicts the hardware required by the researchers in order to run the software system smoothly and lag free.
+
+1.1.1 Data
+
+details. Indicate the source of the data, type of data, year of acquisition, and other pertinent details 
+
+Use Case Diagram
+
+Figure 5. Use Case Diagram
+
+The figure above-Figure 5. Use case Diagram, depicts the specific parts on the system that can be accessed by the administrator and the employee.
+
+Functional decomposition diagram
+
+Figure 6. Functional Decomposition Diagram
+
+The figure above Figure 6. A functional decomposition diagram is a structured representation of a system's functions or processes, organized hierarchically to illustrate how they interact and contribute to achieving the system's overall objectives. In this case, the functional decomposition diagram depicts the functions and interactions within an administrator and user interface for managing a system, including login, employee management, benefits administration, and account management.
+
+The functional decomposition diagram illustrates the various functions available to administrators and users within the system. Each function contributes to the overall management and operation of the system, facilitating efficient administration of employee-related tasks and ensuring a user-friendly experience for both administrators and users.
+
+System flowchart
+
+Figure 7. System Flowchart (How to login?)
+
+The figure above-Figure 7. System Flowchart (How to login?), visually represents the step-by-step process through which a user can log into the software system.
+
+Figure 8. System Flowchart (How to make another account?)
+
+The figure above Figure 8. System Flowchart (How to make another account?), illustrates the sequential steps involved in the process of the administrator creating an additional account within the software system.
+
+Figure 9. System Flowchart (How to add employee?)
+
+The figure above Figure 9. System Flowchart (How to add employee?), is a visual representation of the step-by-step process in which the administrator adds an employee to the software system.
+
+Figure 10. System Flowchart (How to manage user account?)
+
+The figure above Figure 10. System Flowchart (How to manage user account?).
+
+illustrates the process by which the administrator manages a user's account within the software system.
+
+Figure 11. System Flowchart (How to manage employee's profile?)
+
+The figure above Figure 11. System Flowchart (How to manage employee's profile?), a visual representation of the steps involved in the process of the administrator managing the profiles of the employees within the mentioned agency.
+
+Figure 12. System Flowchart (How to manage employee's leave?)
+
+The figure above Figure 12. System Flowchart (How to manage employee's leave?), a visual representation of the steps involved in the process of the administrator managing the leave of the employees.
+
+Entity relationship diagram
+
+Figure 13. Entity Relationship Diagram
+
+The figure above - Figure 13. Entity Relationship Diagram, visually represents the various data tables utilized in the system project, namely, tblleave and thlemployee. These tables store different sets of data that are utilized within the software.
+
+Design of Software/Systems
+
+Software Development Methodology
+
+Figure 14. Agile Model (SDLC)
+
+The figure above is Figure 14. The entity relationship diagram illustrates the model employed by the researchers to develop the entire thesis project. It provides a comprehensive depiction of the various steps involved in detail.
+
+During the plan phase, the researchers will be conducting research at the Civil Aviation Authority of the Philippines (CAAP) in Cauayan City, Isabela. They will also collaborate with the head of the agency to gather the necessary information that fulfills the project requirements.
+
+In the design phase, the researchers will begin gathering the required resources for the software design. Once the resources have been obtained, the actual design process will commence.
+
+During the development phase, the researchers will initiate the creation of the software system. The developers within the team will utilize Microsoft Visual Studio as the primary tool for building the software. They will employ C# as the programming language to develop the actual software application. Additionally, XAMPP will be utilized to create a database responsible for storing the data.
+
+During the test phase, the researchers will commence testing the software using various software testing techniques. The purpose of this phase is to evaluate whether the software functions correctly and is free from errors. Through rigorous testing, the researchers aim to ensure the software's reliability and identify any potential issues that need to be addressed before its final implementation.
+
+During the release phase, the researchers will proceed with deploying the software system within the agency. This involves the actual implementation and installation of the software on the designated systems and infrastructure within the organization. The goal is to make the software available and accessible for use by the intended users or stakeholders. It may also involve providing necessary training or support to ensure a smooth transition and successful adoption of the software within the agency.
+
+During the feedback phase, the researchers will prioritize gathering feedback from the software's end-users. This feedback will serve as valuable input for further development and improvement of the software. By carefully analyzing the feedback, the researchers can identify areas that require enhancement or refinement to make the software more efficient, user-friendly, and aligned with the needs and expectations of the end-users. The feedback phase allows for continuous iteration and improvement of the software based on user input, ultimately aiming to deliver an optimal and satisfactory user experience.
+
+Development and Testing
+
+Data Gathering Procedure
+
+The data gathering procedure will involve administering Likert scale surveys to collect data at both the Civil Aviation Authority of the Philippines (CAAP) and a school.
+
+Participants will be selected through a convenient sampling technique from the target populations in each setting. The surveys will be distributed to the participants, who will be asked to rate their level of agreement or disagreement with a series of statements related to the research objectives. The surveys will be administered either in person or through an online platform, ensuring confidentiality and anonymity. Clear instructions will be provided to participants on how to complete the surveys accurately. Once the data collection period is complete, the Likert scale responses will be compiled and analyzed to generate insights and draw meaningful conclusions about the attitudes and opinions of the participants at CAAP and the school
+
+Data Analysis Plan
+
+After gathering data, the statistical tools that will be used in the analysis of the data are the weighted arithmetic mean, standard deviation, analysis variance (ANOVA), and Pearson product-moment coefficient correlation. The weighted arithmetic mean will be used to determine the average responses for each of the five (5) options in each item in the questionnaire, namely, 5 (strongly agree/very good/very willing/very high), 4 (agree/good/willing/high), 3 (undecided/fair), 2 (disagree/hesitant/low/poor), and 1 (strongly disagree/very hesitant/very low/very poor). The Likert scale can be generated by means of the respondents' replication of the survey.
+
+Data Analysis Plan
+
+For tables, use the following format:
+
+Table 1. From "References" > Insert Caption >Caption Label>Table
+
+Remember
+
+Indent the Table label to start of table
+
+Only the table number is capitalized., the label is not
+
+The List of Tables should be automatically generated
+
+The Chapter number is included in the table number
+
+Table 5. To determine the issues that arise encountered in the manual system
+
+Table 6. Equivalent Weight Mean and Interpretation of Scale on the Problems and Challenges Encountered by the Respondents in Human Resources Information System fo Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela
+
+A. For finding the percentage of the samples in the presentation, analysis, and interpretation of data, the researchers used this formula: phi_{0} = f *100
+
+Where:
+
+mathfrak \% theta = percentage
+
+f = frequency
+
+\mathfrak{u} = of respondents
+
+B. For finding the weighted mean in the presentation, analysis and interpretation of data, the researcher used this formula.
+
+WM = (f(1) + f(2) + f(3) = f(4) + f(5))/N
+
+Where:
+
+WM-Weighted Mean
+
+F = frequency
+
+N = Number of Respondents
+
+Data Analysis Plan
+
+After gathering data, the statistical tools that will be used in the analysis of data are the Weighted Arithmetic Mean, Standard Deviation, Analysis Variance (ANOVA) and the Pearson Product-Moment Coefficient Correlation. The weighted arithmetic mean will be used to determine the average responses for each item of the five (5) options in each item in the questionnaire namely, 5 (Strongly Agree/ Very Good/ Very Willing/ Very High), 4 (Agree/ Good Willing/ High), 3 (Undecided/ Fair), 2 (Disagree/ Hesitant/ Low/ Poor) and 1 (Strongly Disagree/ Very Hesitant/ Very Low/ Very Poor). The Likert scale can be generated by means of the respondents' replication on the survey.
+
+The points that will be used are:
+
+Strongly Agree/ Very Good/ Very Willing/ Very High
+
+5 points
+
+Agree/Good/ Willing/High
+
+4 points
+
+Undecided/Fair
+
+3 points
+
+Disagree/ Hesitant/Low/Poor
+
+2 points
+
+Strongly Disagree/ Very Hesitant/ Very Low/ Very Poor
+
+1 points
+
+In interpreting the weighted mean, the following scale will be used:
+
+Different Software Testing
+
+Human Resources Information System for Civil Aviation Authority of the Philippines (CAAP) in Cauayan City, Isabela was brought to the CAAP to test the software.
+
+Unit testing was performed by the developer to individually test each function of the system, ensuring their readiness and proper functioning.
+
+Integration testing was conducted by the team to evaluate the system's performance and maintainability when multiple functions were used simultaneously.
+
+Performance testing was executed by the team to assess the system's performance under different workloads and to identify any areas that required optimization.
+
+Loading testing was performed by the developer to examine the system's ability to handle data insertion and assess the ease of adding records.
+
+System testing involved comprehensive testing of the entire system by the team, ensuring all functionalities were working correctly and meeting the specified requirements.
+
+Security testing was conducted by the team to evaluate the system's security measures, including login authentication and account creation, by testing it with different accounts and verifying the protection of personal information.
+
+Description of the Prototype
+
+System Architecture
+
+Figure 16. System Architecture
+
+The figure above Figure 16. System Architecture, depicting the System Architecture, showcases the architecture of the software after it has been deployed. According to the illustration, the software will be installed on a server, which can be managed by the administrator. The administrator holds the capability to create additional accounts for other employees. These accounts can then be accessed by the employees from their respective units using the hub component, which efficiently routes network connections to different units.
+
+Implementation Plan
+
+Table 7. Implementation Plan number 1
+
+
+
+
+
+CHAPTER IV
+
+RESULT AND DISCUSSION
+
+Result by Phase of Study
+
+The results of the data gathered were presented, analyzed, and interpreted in this chapter. It addresses the research study "Human Resources Information System for the Civil Aviation Authority of the Philippines (CAAP), Cauayan City, Isabela."
+
+Table 8. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Performance in Pre-survey.
+
+The table presented above provides an overview of the weighted mean, standard deviation, and a comprehensive description of the computed data derived from the evaluation of the Web-app system's performance.
+
+The findings reveal that question 4, "Lack of version control, garnered the lowest mean of 1.24 (SD=0.43) with a significant description of "agree." In contrast, question 3, "Lack of analytics and insight," achieved the highest mean of 1.30 (SD 0.51) and was also characterized by a significant description of "agree.”
+
+A more in-depth analysis indicates that the overall rating for the Web-app System's performance is classified as "excellent," with a category mean of 1.26 (SD 0.03) and a significant description of "agree."
+
+Table 9. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Information in Pre-survey.
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app System's management of information.
+
+The findings reveal that question 5, "Limited Accessibility," obtained the lowest mean of 1.28 (SD=0.45) with a significant description of "agree." In contrast, question 2, "Prone to damage and being misplaced," attained the highest mean of 1.46 (SD=0.54) and was also characterized by a significant description of "agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's handling of information is classified as "excellent," with a category mean of 1.37 (SD=0.09) and a significant description of "agree.”
+
+Table 10. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Security in Pre-survey.
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the web-app system's security.
+
+The findings reveal that question 1, Records are less secured," obtained the lowest mean of 1.24 (SD = 0.43) with a significant description of "agree." In contrast, question 2, "Lack of security," attained the highest mean of 1.40 (SD 0.49) and was also characterized by a significant description of "agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's security is classified as "excellent," with a category mean of 1.30 (SD = 0.02) and a significant description of "agree.”
+
+Table 11. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Efficiency in Pre-survey.
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app system's efficiency.
+
+The findings reveal that question 2, "Records are off track," and question 5, "Difficulty in document search and retrieval" obtained the lowest mean of 1.26 (SD = 0.44) with a significant description of "agree." In contrast, question 1, "Hard to make changes," obtained the highest mean of 1.26 (SD 0.51), and question 4, "Increased administrative workload," attained the highest mean of 1.30 (SD = 0.46) and was also characterized by a significant description of "agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's efficiency is classified as "excellent," with a category mean of 1.28 (SD = 0.03) and a significant description of "agree,”
+
+Table 12. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Economics in Pre-survey
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app System's Concept for Economics.
+
+The findings reveal that question 1, "Papers are expensive," including question 2, "Higher Cost," obtained the lowest mean of 1.20 (SD 0.48) with a significant description of "agree." In contrast, question 4, "Reduced productivity and efficiency." attained the highest mean of 1.42 (SD=0.50) and was also characterized by a significant description of "agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's Concept for Economics is classified as "Excellent," with a category mean of 1.29 (SD=0.10) and a significant description of "Agree.”
+
+Table 13. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Performance in Post-activity survey.
+
+The table presented above provides an overview of the weighted mean, standard deviation, and a comprehensive description of the computed data derived from the evaluation of the Web-app system's performance.
+
+The findings reveal that question 3, "The system can determine the error quickly," garnered the lowest mean of 4.62 (SD=0.49) with a significant description of "strongly agree." In contrast, question 2, "The flow of transactions is faster," achieved the highest mean of 4.66 (SD 0.48) and was also characterized by a significant description of "strongly agree."
+
+A more in-depth analysis indicates that the overall rating for the Web-app System's performance is classified as "excellent," with a category mean of 4.64 (SD = 0.00) and a significant description of "strongly agree.”
+
+Table 14. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Information in Post-activity survey
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app System's management of information.
+
+The findings reveal that question 4, "Complete Information About Employees," obtained the lowest mean of 4.62 (SD=0.49) with a significant description of "strongly agree." In contrast, question 5, "Access to more information," attained the highest mean of 4.74 (SD=0.44) and was also characterized by a significant description of "strongly agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's handling of information is classified as "excellent," with a category mean of 4.67 (SD=0.02) and a significant description of "strongly agree.”
+
+Table 15. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Security in Post-activity survey.
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the web-app system's security.
+
+The findings reveal that question 3, "The system has secured access through password," obtained the lowest mean of 4.56 (SD=0.50) with a significant description of "strongly agree." In contrast, question 5, "Access to more information," attained the highest mean of 4.72 (SD = 0.45) and was also characterized by a significant description of "strongly agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's security is classified as "excellent," with a category mean of 4.62 (SD = 0.02) and a significant description of "strongly agree.”
+
+Table 16. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Efficiency in Post-activity survey
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app system's efficiency.
+
+The findings reveal that question 2, "less time spent on paperwork," including question number 4, "better document management," obtained the lowest mean of 4.68 (SD=0.47) with a significant description of "strongly agree." In contrast, question 5. "access to more information," attained the highest mean of 4.72 (SD=0.45) and was also characterized by a significant description of "strongly agree."
+
+A more thorough analysis suggests that the overall rating for the web-app system's efficiency is classified as "excellent," with a category mean of 4.71 (SD=0.02) and a significant description of "strongly agree.”
+
+Table 17. Weighted Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Economics in Post-activity survey.
+
+The table presented above offers a comprehensive overview of the weighted mean, standard deviation, and a detailed description of the computed data derived from the evaluation of the Web-app System's Concept for Economics.
+
+The findings reveal that question 4, "Reduces error," obtained the lowest mean of 4.66 (SD=0.48) with a significant description of "strongly agree." In contrast, question 2. "It increases efficiency," attained the highest mean of 4.78 (SD 0.42) and was also characterized by a significant description of "strongly agree."
+
+A more thorough analysis suggests that the overall rating for the Web-app System's Concept for Economics is classified as "Excellent," with a category mean of 4.70 (SD=0.03) and a significant description of "Strongly Agree.”
+
+Table 18. General Mean and Significant Description of the Project Web-app System determining the employee file leave application in Terms of Performance
+
+The employee file leave application system, with a grand mean of 4.74 and significant descriptions marked as "strongly agree," excels in performance. By delivering speed, reliability, usability, scalability, and compatibility, the system supports efficient leave management processes, enhances user experience, and contributes to overall organizational productivity and effectiveness.
+
+Table 19. General Mean and Significant Description of the Project Web-app System determining the employee file leave application in Terms of Information
+
+The employee file leave application system, with a grand mean of 4.83 and significant descriptions marked as "strongly agree," excels in managing leave-related information. By ensuring data accuracy, accessibility, security, integration, and analytics capabilities, the system supports efficient decision-making, enhances communication, and fosters a culture of transparency and accountability within the organization.
+
+Table 20. General Mean and Significant Description of the Project Web-app System determining the employee file leave application in Terms of Security
+
+The employee file leave application system, with a grand mean of 4.84 and significant descriptions marked as "strongly agree," prioritizes security as a fundamental aspect of its design and operation. By implementing robust security measures, audit trails, vulnerability management practices, and compliance frameworks, the system ensures the confidentiality, integrity, and availability of employee data, fostering trust and confidence among users and stakeholders.
+
+Table 21. General Mean and Significant Description of the Project Web-app System determining the employee file leave application in Terms of Efficiency
+
+The efficiency of the employee file leaves application system, highlighted by a grand mean of 4.81 and significant descriptions marked as "strongly agree," underscores its exceptional performance in facilitating seamless leave management. This efficiency aligns with organizational objectives, enhances user satisfaction, and contributes to a conducive work environment characterized by fairness, transparency, and productivity.
+
+Table 22. General Mean and Significant Description of the Project Web-app System determining the employee file leave application in Terms of Economics
+
+The employee file leave application system, with a grand mean of 4.85 and significant descriptions marked as "strongly agree," represents a highly economical solution for organizations. It delivers cost-effectiveness, resource optimization, scalability, and accuracy of data and record keeping, aligning with economic objectives and contributing to overall organizational success and sustainability.
+
+Table 23. General Mean, Standard Deviation and Significant Description of the Project Web-app System in Terms of Comparison between Pre-Survey and Post-Survey
+
+The general mean of pre-survey responses stands at 1.30, indicating an overall inclination towards agreement with the system's features or functionalities. Conversely, the general mean for post-survey responses sees a substantial increase to 4.66, suggesting a notable shift towards strong agreement with the system following its implementation or enhancement.
+
+The pre-survey responses exhibit a standard deviation of 0.06, indicating a relatively narrow spread of opinions around the mean, reflecting a degree of consistency in perceptions among participants. Conversely, the post-survey responses display a larger standard deviation of 0.16, implying a broader range of opinions, potentially stemming from varied experiences or perceptions among respondents after the system's modifications.
+
+The designation of "Agree" associated with the pre-survey findings suggests that the majority of participants held favorable opinions towards the web-app system prior to any alterations. However, it also hints at room for refinement or improvement based on the agreement level. The labeling of "Strongly Agree" in the post-survey underscores a remarkable consensus among participants regarding the system's effectiveness or enhancements. This indicates widespread acceptance and positive reception of the implemented changes, leading to notably higher levels of satisfaction or agreement compared to the pre-survey phase.
+
+In summary, the comparison between pre-survey and post-survey data highlights a significant improvement in perceptions and satisfaction levels concerning the Project Web-App System. The substantial increase in the general mean from pre-survey to post- survey, accompanied by the shift towards stronger agreement and the observed alterations in standard deviation, signifies a positive impact of the system's modifications on user experiences and perceptions.
+
+
+
+
+
+CHAPTER V
+
+SUMMARY, CONCLUSIONS, AND RECOMMENDATIONS
+
+This chapter summarizes the study's findings, conclusions, and recommendations based on the study's objective: to develop a dependable and efficient Human Resources Information System.
+
+Summary
+
+Based on the respondents' response to the existing system's concerns in terms of problems encountered (a mean of 1.30), as a result, with a general mean of 1.30, the respondents encountered a problem when utilizing the current system.
+
+Also, based on the responses of the respondents, the proposed system's effectiveness in terms of performance (a mean of 4.64), information (a mean of 4.67), security (a mean of 4.62), efficiency (a mean of 4.71), and economics (a mean of 4.70). With a general mean of 4.66, respondents agreed that implementing the proposed system is effective.
+
+Conclusions
+
+Upon conducting a comprehensive analysis of the proposed system, it can be confidently asserted that the system is efficient and functional for both administrative personnel and staff within the agency.
+
+1. The manual process at the agency studied faces challenges related to retrieving and locating employee records.
+
+2. The system performs effectively, meeting the minimum expectations set initially. It is anticipated to enhance overall performance, efficiency, and productivity in monitoring employee information at the Civil Aviation Authority of the Philippines Cauayan City Airport. The Human Resources Information System is supported by both administrators and staff, proving more stable and superior to the manual system.
+
+3. The Capstone Project thoroughly examined the employee file leave application process, focusing on key aspects such as performance, information management, security, efficiency, and economics. By identifying opportunities for improvement in workflow, data accuracy, security measures, and cost reduction, organizations can enhance overall operational effectiveness and achieve greater efficiency.
+
+4. The comparison between a manual system and a human resources information system (HRIS) reveals significant advantages offered by the latter. While manual systems may rely on paper-based processes and lack integration, HRIS streamlines operations, enhances efficiency, and provides comprehensive data management solutions. HRIS enables automation, facilitates data analysis, and ensures accuracy, thereby optimizing HR functions and enabling strategic decision-making. Additionally, HRIS promotes employee engagement, improves communication, and supports compliance with regulations. Ultimately, transitioning from a manual system to an HRIS represents a pivotal step towards modernizing HR practices and achieving organizational effectiveness in today's dynamic business environment.
+
+Recommendations
+
+Based on the findings and conclusions gathered, the researchers recommend the following:
+
+1. The development and implementation of a payroll and finance management system align with the organization's objectives of improving efficiency, accuracy, compliance, and strategic alignment. By addressing these key areas through the implementation of a dedicated system, the organization can streamline financial operations, mitigate risks, and position itself for long-term success and growth.
+
+2. The researchers recommend implementing an automated attendance tracking system to accurately record employee work hours and absences, Utilizing a biometric or RFID- based system ensures secure and reliable attendance monitoring, particularly beneficial for field-based employees. Additionally, integrating attendance data with payroll processing guarantees accurate wage calculations and compliance with labor regulations.
+
+3. Lastly, the researchers also recommend implementing an electronic system for the accurate recording of work hours, ensuring mobile accessibility for remote workers. Additionally, integrating DTR data with attendance tracking and payroll processing enhances accuracy and ensures compliance with labor regulations.

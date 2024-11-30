@@ -1,0 +1,440 @@
+Automated Grading and Classification of Eggs with Human Machine Interface (HMI) for Poultry Farms BRITOS, GENNAH SHAINE S. BUCCAT, JAYDEL MARL R. QUINTO, NICKCНО С. January 2023
+
+A Thesis Presented to the Faculty of the College of Computing Studies, Information and Communication Technology
+
+Isabela State University
+
+Cauayan Campus
+
+In Partial Fulfillment of the Requirements for the Degree Bachelor of Science in Computer Science
+
+BRITOS, GENNAH SHAINE S. BUCCAT, JAYDEL MARL R. QUINTO, NICKCНО С. January 2023
+
+
+
+
+
+ABSTRACT
+
+Poultry is the most intensive branch of agriculture for ensuring food security of the country In the face of competition, the improvement of technology and technological equipment for production, sorting and sale of products become relevant. Huge amount of money and manpower are spent for sorting and packaging. The main disadvantages of manual sorting are inaccuracy and large labor costs. The productivity of manual sorting is less than 1000 eggs per hour. Human sorter is physically unable to detect many defects (eggs irregular shape, the notch of the shell, marbling, etc.) and do not accurately identify the eggs by weight. Therefore, most manufacturers widely use grading machines and complexes. The main criteria according to the standards for classification of eggs is their weight. The modified size classification system prescribed by the Philippine National Standard9 was used Jumbo (>70 g), Extra-large (65-69 g), Large (60-64 g), Medium (55-59 g). Small (45-54 g) and Peewee (<45 g).
+
+The water fall model was used as a guide by the researchers to build the system and achieve the study's objectives. The main concem of this study is to attain the objective by following the process to create a successful project. The researchers identify and analyze what the project needs in detail to have the initiatives to begin with and get the idea or the main goal to initiate the project. The questionnaire was formulated to determine the opinion of the respondents. It consists of the weighted mean interpreted using the Likert Scale. The researchers used a descriptive method of research to describe the Sorting interface machine regarding design, performance, and functionality.
+
+A collecting and sorting system has the potential to greatly improve the efficiency and effectiveness of egg grading and classification in the poultry farming industry. By automating these processes, poultry farmers can save time and resources, leading to increased profitability and sustainability. The development of such a system is a promising and valuable endeavor. The ability to track the number of eggs sorted each day can help farmers to better understand and optimize their operations, leading to increased productivity and profitability. The development of an application that provides these capabilities would be a valuable tool for optimizing the use of a collecting and sorting system for eggs in the poultry farming industry. By using an HMI to view and manage data in a centralized location, it is likely that the efficiency and effectiveness of the process can be improved. The use of digital technologies can help to enhance the accuracy and reliability of data, which can further contribute to the optimization of the industrial process. 
+
+
+
+
+
+
+1 INTRODUCTION
+
+1.1
+
+Background of the Study
+
+Poultry is the most intensive branch of agriculture and is aimed at ensuring food security of the country. In the face of competition, the improvement of technology and technological equipment for production, sorting and sale of products become relevant. Huge amount of money and manpower are spent for sorting and packaging. The main disadvantages of manual sorting are inaccuracy and large labor costs. The productivity of manual sorting is less than 1000 eggs per hour. Human sorter is physically unable to detect many defects (eggs irregular shape, the notch of the shell, marbling, etc.) and do not accurately identify the eggs by weight. Therefore, most manufacturers widely use grading machines and complexes. (Alikhanov et al., 2019).
+
+The main criteria according to the standards for classification of eggs is their weight. The modified size classification system prescribed by the Philippine National Standard was used Jumbo (>70 g), Extra-large (65-69 g), Large (60-64 g), Medium (55-59 g), Small (45-54 g) and Peewee (<45 g). Following the above-mentioned regulations, the operation of the existing machines is based on the weighting of each egg and separating it into proper category. However, in that case the productivity of the machine is limited by the speed of the weighting mechanism.
+
+The other disadvantage of the existing commercial systems is the use of specific equipment, which leads to maintenance complexity and high cost. The existing systems for egg sorting include different kind of parameters like color, defects, size, etc., so separate sensors are used for determination of the individual quality indicators. There is much research published in the last 10 years that are related with the use of computer vision and artificial intelligence for the needs of food products quality control. (Zhandos Shynybay et al., 2020)
+
+Egg classification is the process of grouping eggs into specific categories based on different factors that can help in determining the quality and suitability of eggs for different purposes. Some of the most common factors used for egg classification include size, color, type of bird, farming method, nutritional content, grade, purpose, and freshness. Farming method is another important factor for egg classification, with options such as free-range, cage-free, and organic. Nutritional content, such as omega-3 enriched eggs, is also used for classification. Eggs are also classified based on their quality, with AA, A, and B being the most common grades. The purpose for which the eggs are intended is also used for classification. Eating eggs, baking eggs, and hatching eggs are just a few examples of the different purposes for which eggs can be used. Freshness, including whether the eggs are fresh, fertilized, or pasteurized, is another factor that can be used to classify eggs.
+
+Egg grading is the evaluation of egg quality based on factors such as size, weight, shape, yolk color, and interior quality. In the US, eggs are graded by the USDA into AA, A, or B grades. AA are the highest quality with firm yolks and thick whites, A are of good quality but with slightly thinner whites, while B have thin whites and runny yolks and are typically used for animal feed or liquid egg products. Other classifications, such as cage-free or organic, reflect the egg production conditions, not necessarily the egg quality.
+
+The sorting and collecting of eggs in poultry production is a tedious and time-consuming activity. Care is taken, as eggs are delicate and require caution when working with them. This reduces productivity as a considerable amount of time is spent in the sorting of eggs into their various sizes before marketing. (Koranteng et al., 2020).
+
+Farmers, on the other hand, invest a significant amount of money in the sorting process as many laborers are required in the collecting and sorting process. The profit generated after sales is disheartening. Ghana poultry sector for nearly a decade has contracted an intense competition from the import of poultry meat decreasing the profitability of egg production (Natalie Berkhout 2022).
+
+Automating this process will help increase profit and improve productivity as well. Agribusiness is a field rising with technological advancements in recent times. Poultry production is undoubtedly one of the most lucrative and popularly known agriculture business ventures in the world. The ever-increasing needs have led to the development, adaptation and utilization of new standards and technologies in developed countries. Goal number two of the United Nations Sustainable Development Goals (SDGs) focuses on the eradication of hunger. While goal number 8 focuses on economic growth, goal number 9 focus on industry and innovation. These SDGs can be contributed to by the poultry production industries by implementing an efficient and cost-effective production chain. However, developing countries like Ghana still deploy traditional method of handpicking of eggs and their separation into various sizes.
+
+Human Machine Interface (HMI) is a technology that allows for the interaction between humans and machines in a way that is intuitive and easy to understand. In the context of automated grading and classification of eggs in poultry farms, an HMI would be used to display information about the eggs being processed, as well as to allow for manual input and control of the egg sorting and grading process. It can help to improve the efficiency and accuracy of the sorting and grading process, reduce the need for manual labor, and increase overall productivity. Additionally, an HMI can provide farmers with real-time information about the eggs being processed, allowing for more effective monitoring and control of the egg grading process. (Ivy Wigmore 2019).
+
+Researchers are coming up with innovative ideas and smart machinery to automate processes and increase production on a large scale. A field survey conducted in the western sector of the Greater Accra Region of Ghana to understand the challenges faced by poultry farmers, proved that poultry are only in demand during festive seasons hence, it is better to focus on the production of eggs to gain some profit than engaging in poultry production. Based on this survey, the incorporation of a design to aid in the easier sorting and collection of eggs will help increase productivity and generate more revenue for farmers. Hence this research seeks to design a collecting and sorting system incorporated with an Arduino Uno to aid in the sorting and collection of eggs in poultry farmers. (Agyei-Henaku, 2018).
+
+1.2 Objectives of the Study
+
+To design and develop an automated grading and classification of egg with Human Machine Interface (HMI) for poultry farms.
+
+Specifically, it aimed to:
+
+1.To develop an automated grading and classification system to aid in the sorting and collection of eggs for poultry farmers.
+
+2. To develop an application that can provide information on the number of eggs sorted per day. The application will also aim to ensure a smooth operation. Additionally, it will include grading and classification functionality to categorize the eggs based on their weight and size. The system will be evaluated on its ability to accurately grade and classify eggs.
+
+3. To evaluate the capability of the system's grading and classification performance and analyzing the responses of the respondents in terms of functional suitability, performance efficiency, compatibility, usability, and reliability.
+
+1.3 Significance of the Study
+
+The following will greatly benefit from the study's finding due to its thorough investigation:
+
+Poultry Farms
+
+This study will be beneficial to all poultry farm owners through making it simpler in gathering and sorting eggs, which will enhance productivity and bring more profits to poultry producers.
+
+Researchers
+
+Researchers' IT abilities will get better thanks to this study. This will support the growth and improvement of reading abilities. It aids researchers in cultivating reading for purposes other than merely acquiring knowledge, such as critical evaluation. As they read any article or book to gather sources for their research paper, it also helps to strengthen their critical thinking abilities.
+
+Future Researchers
+
+The study and the ideas presented may use as a reference data in conducting new researchers or in testing the validity of the other related findings. This study will help them to uncover areas in the educational process that many researcher-s were not able to explore. This will be a good reference for the researchers working on a related system. The present study can be used as a basis of a system that they would want to develop with their critical thinking, idea, and knowledge.
+
+1.4
+
+Scope and Delimitations
+
+The study "Automated Grading and Classification of Egg with Human Machine Interface (HMI) for Poultry Farm" will focus on the development of an automated grading and classification system for eggs using a human machine interface for poultry farms as well as the system will be capable of grading eggs based on their size and classifying them based on their quality additionally the system will be designed for use in poultry farms to improve efficiency and accuracy in the egg grading and classification process.
+
+The study will not include the development of a system for egg packaging or egg storage and will not investigate the effects of the system on the overall profitability of the poultry farm. The study will not consider other types of poultry products such as duck eggs.
+
+
+
+
+
+
+2 THEORETICAL FRAMEWORK
+
+2.1
+
+Review of Related Literature
+
+An automatic system for eggs sorting by indirect weight and shape assessment, using computer vision, is presented. The system is equipped with a smart camera, controller, and electro pneumatic actuators. Image processing and analysis algorithms are developed to access some basic geometric characteristics of eggs. The overall sorting accuracy of the automatic system in each case is 94.6% and 90.3% respectively. (Jakhfer Alikhanov, Stanislav M. Penchev 2, Tsvetelina D. Georgieva 2. 2019)
+
+Using computer vision, the determination of the egg mass is dependent on a measurement taken from the image. Once the computed measurement value is far from the exact value, it affects the determination of the eggs' mass. Indeed, a low-cost webcam could be used as a replacement for weighing regarding determining the egg's mass with the aid of the right image processing and analysis algorithm. With the 96.31% accuracy, this study could greatly be an alternative way in the chicken egg weight estimation method especially in large-scale poultry farms in the Philippines to minimize human interaction during the process as well as to save time and energy. (Val Irvin F. Mabayo 2018)
+
+Their study found that with only 363 images they were able to create object detection models with map values between 0.8255 and 0.99. Using transfer learning allowed their analysis to proceed significantly faster than if they had built a model from scratch. Some of the predictions that correctly identified an egg class contained very low confidence values. They sampled the pixel data within the bounding box to get RGB values for each egg. They then iterated through each egg by group membership and found the closest egg based on label and euclidean distance. Once tracking of individual eggs is possible, and can be mapped back to a single chicken, analysis could be conducted on that chicken's productivity automatically. (Jeremy Lubich, Kyle Thomas, and Daniel Engels 2019)
+
+Eggs are one of the main agricultural products of the Philippines. Various manual processes that require hours of work add up to the stress and fatigue of the laborer. The implementation of this Egg Placing Machine to every poultry farm in the Philippines will boost production and profit. (Peterson Yongco 2019)
+
+Eggs 'image was captured using an inexpensive yet reliable webcam which was loaded onto the MATLAB workspace for image processing and further image analysis. Results of this study showed 96.31% accuracy in estimating the egg's weight and classification validated by manual egg weighing and classification procedure. (Alphany ARAGUA 2018)
+
+The size of eggs from commercial/transboundary breeds such as the Tsaiya and Pekin were comparable to reports of the same breeds in other countries. The distribution of mallard duck eggs by grade classification based on Haugh unit value was 21.17% Grade AA, 47.56% Grade A, 28.01% Grade B, and 3.26% Grade C. Eggs from the Pekin breed in Poland were also classified as GradeAA (73.50-84.10 HU) according to Kokoszyński et al. The Haugh unit is a measure of the viscosity of the thick albumen due to the high ovomucin content. (Orville L. Bondoc 2019)
+
+The appearance, size, and weight of poultry meat and eggs are essential for production economics and vital in the poultry sector. These external characteristics influence their market price and consumers' preference and choice. With technological developments, there is an increase in the application and importance of vision systems in the agricultural sector. Computer vision has become a promising tool in the real-time automation of poultry weighing and processing systems. Owing to its noninvasive and nonintrusive nature and its capacity to present a wide range of information, computer vision systems can be applied in the size, mass, volume determination, and sorting and grading of poultry products. This review article gives a detailed summary of the current advances in measuring poultry products' external characteristics based on computer vision systems. An overview of computer vision systems is discussed and summarized. A comprehensive presentation of the application of computer vision-based systems for assessing poultry meat and eggs was provided, that is, weight and volume estimation, sorting, and classification. Finally, the challenges and potential future trends in size, weight, and volume estimation of poultry products are reported. (Qi Chao, Tchalla Korohou, Chen Kunjie 2021)
+
+The differences in egg weight, shape dimensions, albumen weight, shell weight, and shell thickness among the four egg grades were small (P>0.05). Based on the median of Haugh unit values, the eggs from IP-Itim (60.70 HU), IP-Khaki (68.05 HU). Kayurnanggi-IP (66.45 HU) and White Mallard (61.00 Hu) were classified as Grade-A. Eggs from the Pekin breed in Poland were graded as GradeAA. Expiration dates may be placed on duck egg packages to indicate freshness or maximum time frame for quality. Haugh unit value could only be determined by the "breakout" method requiring special handling and costly equipment. Future experiments on the use of the new size classification and egg grading system will be important in breed improvement and conservation programs. (Rene C. Santiago2, Angelina R. Bustos3, Aldrin O. Ebron1 and Ana Rose Ramos 2018)
+
+Software was developed for sizing Philippine table eggs and interfacing with microcontrollers.
+
+To minimize the effect of aging on egg weight and subsequent accuracy, only fresh egg samples were used. The best weight estimate was obtained using the weight-to-projected area relationship above all the other parameters. (Quilloy, E. P.; Bato, P. M. 2018) 
+
+2.2 Concept of the Study
+
+Figure 2.1. Conceptual Framework
+
+When the load cell detects the presence of an egg, the process starts. Its precise weight is determined and swiftly relayed to the microcontroller. Based on the egg weight, the relevant servo mechanism is signaled and sent to the proper storage using the smoothly powered conveyor belt. After the sorting process the sorted sizes will save in the database furthermore there is analytics in our system application that users can view the sorting percentage.
+
+2.3 Definition of Terms
+
+For clarification, the important terms used in this study has been defined.
+
+Automated- carried out by machines or computers without needing human control a fully automated system.
+
+Grading- the act of classifying something on a scale by quality, rank, size, or progression, etc. a union dispute over pays and grading, to more staging and grading.
+
+Classification- a classification is a division or category in a system which divides things into groups or types.
+
+Egg- the content of the hand-shelled reproductive body produced by a bird, is considered as food.
+
+Poultry Farm- poultry farming, raising of birds domestically or commercially, primarily for meat and eggs but also for feathers. Chickens, turkey, ducks, and greese are of primary importance, while guinea fowl and squabs (young pigeons) are chiefly of local interest.
+
+HMI - Human Machine Interface, often known by the acronym HMI, refers to a dashboard or screen used to control machinery. Line operators, managers and supervisors in industry rely on HMIs to translate complex data into useful information. For example, they use HMIs to monitor machinery to make sure it's working properly.
+
+
+
+
+
+
+3 OPERATIONAL FRAMEWORK
+
+3.1 Materials
+
+3.1.1 Software
+
+Table 3-1 shows the Software used in the application in developing the system.
+
+Android Studio
+
+Android Studio is the official integrated development environment (IDE) for Android application development. It is based on the IntelliJ IDEA, a Java Integrated development environment for software, and incorporates its code editing and developer tools.
+
+Arduino IDE is a tool that you can use to write and upload code to your Arduino board, and it makes it easy to get started with programming your Arduino.
+
+Firebase
+
+Firebase is an app development platform that helps you build and grow apps and games users love. Backed by Google and trusted by millions of businesses around the world.
+
+Adobe XD
+
+Adobe XD features are used for creating wireframes, prototypes, and screen designs for digital products such as websites and mobile apps.
+
+Figma
+
+Figma is a modern, streamlined design tool that makes the developer handoff process smooth and seamless. Developers now have better access to the designs and can extract information about typography, redlines, colors, measurement and more.
+
+Table 3-1. Software used in the implementation
+
+3.1.2 Hardware
+
+Figure 3.1. 12v AC DC Power Supply
+
+A power supply is an electrical device that supplies electric power to an electrical load. The main purpose of a power supply is to convert electric current from a source to the correct voltage, current, and frequency to power the load.
+
+Figure 3.2. Stepper Motor
+
+A stepper motor is an electric motor whose main feature is to shaft rotates by performing steps, that is, by moving by a fixed number of degrees.
+
+Figure 3.3. Stepper Motor Cable
+
+This cable can be used to connect NEMA17 stepper motor (with 6 pins connection) to your board with stepper drivers.
+
+Figure 3.4. Loadcell
+
+A load cell measures mechanical force, mainly the weight of objects. Today, almost all electronic weighing scales use load cells for the measurement of weight.
+
+UV
+
+Figure 3.5. 12v to 5v Buck Converter
+
+A DC-to-DC power converter which steps down voltage (while stepping up current) from its input (supply) to its output (load). It is a class of switched-mode power supply (SMPS) typically contains at least two semiconductors (a diode and a transistor, although modern buck converters frequently replace the diode with a second transistor used for synchronous rectification) and at least one energy storage element, a capacitor, inductor, or the two in combination.
+
+Figure 3.6. Dupont Wire Cables
+
+Is an electrical wire, or group in a cable, with a connector or pin at each end (or sometimes without them simply "tinned"), which is normally used to interconnect the components of a breadboard or other prototype or test circuit, internally or with other equipment or components, without soldering.
+
+Figure 3.7. PCB Breadboard
+
+Is a type of prototyping that requires no soldering connections. This will make thern less permanent compared to a PCB. Breadboards have sockets that you push the components into, allowing you to remove and change them if needed.
+
+Figure 3.8. Servo Motor
+
+It is a type of motor that can rotate with great precision. Normally this type of motor consists of a control circuit that provides feedback on the current position of the motor shaft, this feedback allows the servo motors to rotate with great precision.
+
+Figure 3.9. Stepper Motor Driver Controller Board Module
+
+L298 is a high voltage and high current motor drive chip which receives TTL logic signals. It is needed to operate different loads like motors and solenoid etc. where an H-Bridge is required. High power motor driver is required. Control unit can only provide TTL outputs. 
+
+Figure 3.10. ESP32 Wireless Wi-Fi Module
+
+WiFi modules (wireless fidelity) also known as WLAN modules (wireless local area network) are electronic components used in many products to achieve a wireless connection to the intemet.
+
+Figure 3.11. Wooden Materials
+
+The entire body of the system is made of wood, it is more durable and can firmly hold on to adhesives and nails, notwithstanding its rigidity and strength.
+
+Figure 3.12. Conveyor Belt
+
+It is typically used to transport items within a facility. Internal conveyance requires a series of powered rollers/ pulleys to pull the belt.
+
+Figure 3.13. Arduino Uno
+
+The Arduino Uno is a microcontroller board that can be programmed to interact with the physical world through input and outputs. It has various functions including digital and analog input/output, a crystal oscillator, a USB connection, and a power jack. It can be programmed using the Arduino software (IDE) to perform tasks such as reading inputs from sensors and controlling outputs like motors and LEDs.
+
+3.13. ESP8266
+
+The ESP8266 is a Wi-Fi microchip with microcontroller capabilities that can be programmed using the Arduino IDE or other programming languages. It is used to provide Wi-Fi connectivity to microcontroller-based projects and has features such as GPIO pins, PWM output, ADC input, and UART. It is commonly used in loT projects and home automation systems
+
+3.2 Data
+
+For this study, the researchers at Isabela State University's Cauayan campus gathered information from a variety of chicken farm owners, including 10 owners from different barangays in San Mariano. A total of 50% of the people in barangay Sta Filomena San Mariano Isabela owned poultry farms, while 25% of the people in barangay Minanga San Mariano Isabela, 15% of the people in barangay Cataguing San Mariano Isabela, and 10% of the people in barangay Alibadabad San Mariano Isabela owned poultry farms.
+
+3.3 Methods
+
+3.3.1 Experimental Design
+
+To design the system and accomplish the study's goals, the researchers used the water fall model as a reference. The main concern of this study is to attain the objective by following the process to create a successful project.
+
+Figure 3.14: Water Fall Model
+
+3.3.2 Procedures for the different phases
+
+Phase 1: Requirement and Analysis
+
+In automated grading and classification of eggs for poultry farms, researchers conduct a thorough analysis of the requirements by identifying specific characteristics of the eggs that need to be measured, such as weight and size. Then analyze various methods for measuring and evaluating these characteristics using weight threshold algorithm. The researchers also ensure that the system integrates seamlessly into the poultry farm's operations and logistics.
+
+Phase 2: Design and Development
+
+In the design and development phase of an automated grading and classification system for eggs on poultry farms, researchers would likely focus on several key tasks. These could include:
+
+1. Defining the problem and objectives of the study: This would involve identifying the specific challenges and needs of the poultry farm, such as the need to quickly and accurately grade eggs based on weight and size.
+
+2. Conducting a literature review: the researchers review existing literature on automated egg grading and classification systems to gain a better understanding of the state of the art and identify potential approaches to the problem.
+
+3. Designing the system: Based on understanding of the problem and existing literature, researchers would design an automated egg grading and classification system. This could involve choosing appropriate sensors as well as developing algorithms to analyze the data collected by the sensors.
+
+Phase 3: Testing the System
+
+In the testing phase, researchers focus on evaluating the performance and accuracy of the automated grading and classification system for eggs on poultry farms. This includes conducting system testing, evaluating system performance, identifying, and addressing any issues, conducting validation testing, comparing with other methods, and preparing for deployment. This helps to ensure that the system can accurately grade and classify eggs in a real-world setting, and that any issues or problems are identified and addressed before the system is deployed on the poultry farm.
+
+Phase 4: Verification
+
+In the verification phase of an automated grading and classification system for eggs on poultry farms the researchers focus on ensuring that the system meets the specified requirements and performs as intended. This includes conducting system testing, evaluating system performance, identifying, and addressing any issues, conducting validation testing, finalizing documentation, and preparing for deployment. This ensures that the system can accurately grade and classify eggs.
+
+Phase 5: Maintenance
+
+In the maintenance phase, researchers focus on ensuring that the automated grading and classification system for eggs on poultry farms continues to operate correctly and effectively. This includes monitoring system performance, conducting regular maintenance, updating system software, addressing any issues that arise, providing support and training, evaluating system effectiveness, and keeping documentation updated. This helps to ensure that the system can continue to accurately grade and classify eggs, and that any issues or problems are identified and addressed in a timely manner.
+
+3.3.3 Research Design
+
+The researchers used a descriptive method of research to describe the Automated Grading and Classification of eggs with Human Machine Interface for poultry farms regarding design, functional suitability, performance efficiency, compatibility, usability, and reliability. 
+
+3.3.4 Research Instrument
+
+The questionnaire was formulated to determine the opinion of the respondents. It consists of the weighted mean interpreted using the Likert Scale. The researchers used a survey questionnaire as primary instrument in gathering data. The survey questionnaire is based on a fact-finding approach with the adequate interpretation of findings, there were instances where respondents were asked to rate the performance.
+
+3.3.5 Functional Decomposition Diagram
+
+Figure 3.15. Functional Decomposition Diagram
+
+3.3.6 System Flowchart
+
+Figure 3.16. Procedural Flow
+
+3.3.7 Respondents of the Study
+
+The respondents of the study are the poultry owners in San Mariano Isabela. Poultry farmers can provide valuable insights and feedback on the effectiveness of the system in their day-to-day operations, as well as potential areas for improvement. Their input can contribute to the advancement of the system and ultimately benefit the entire poultry industry.
+
+3.3.8 Statistical Treatment
+
+Data were analyzed using frequency distribution to determine the number of respondents and weighted mean to decide the definitive interpretation in the Likert Scale.
+
+Likert Scale
+
+Data were analysed using the frequency count and weighted mean using the scale below.
+
+Table 3.1 Likert Scale
+
+The table shows the weighted mean range and its descriptive interpretation as evaluated by the respondents.
+
+In finding the weighted Mean in the presentation, analysis and interpretation of data, the researchers used the following formula:
+
+WM1+X2+X3+Xn N
+
+
+Where.
+
+WM-Weighted Mean
+
+X1 + X2 +X3+...x Sum of Scores/Means
+
+N-Total Number of Respondents/Means
+
+3.3.9 Data Gathering and Procedures
+
+This study used the questionnaire as its main instrument in gathering data. It also used interview method to support the data information gathered from the questionnaire. Observations and documentary analyses also supplemented this.
+
+1. Questionnaire
+
+The Researchers are based predominantly on closed questions which produce data that can be analyzed quantitively for patterns and trends. It is entirely predetermined by the evaluator and provides little flexibility for respondents to qualify their answer.
+
+2. Library Research
+
+Researchers are defined as the systematic study and investigation of some aspect of library and information science where conclusions are based on the analysis of data collected by the pre- established research designs and methodologies.
+
+3. Internet Research
+
+The internet has made researching a topic easier than ever before. Instead of making a trip to the library, people with internet access can pull up a search engine, type and click away.
+
+
+
+
+
+
+4 RESULTS AND DISCUSSION
+
+4.1 Results by phase of study
+
+In this chapter the researchers will discuss the results of this particular study by phase of the creation of the system.
+
+Mean Response and Descriptive Interpretation of the respondents' assessment on the system in terms of Functional Suitability
+
+Table 4.1 Mean response and descriptive interpretation for Functional Suitability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system in terms of Functional Sustainability.
+
+The table reveals that the system is functionally suitable based on the computed category mean of 4.24 which falls on "strongly agree" interpretation. It also shows that the item "The system's operations are running smoothly." Obtained the highest mean of 4.40 which belongs to "Strongly agree" interpretation while item "The system is readily accessible so that people can use it as needed." Got the lowest mean of 4.00 in which respondents interpreted as agree.
+
+Mean Response and Descriptive Interpretation of the respondents' assessment on the system in terms of Performance Efficiency
+
+Table 4.2 Mean Response and Descriptive Interpretation for Performance Efficiency
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system in terms of Performance Efficiency.
+
+The table reveals that the systems performance is efficient based on the computed category mean of 4.18 which falls on "agree" interpretation. It also shows that the item "The system has the processing speed and power required to complete the project and satisfy the expectations of the users." Obtained the highest mean of 4.40 which belongs to "Strongly agree" interpretation while item "The system has the necessary reliability to function consistently over time." Got the lowest mean of 4.00 in which respondents interpreted as "agree".
+
+Mean Response and Descriptive Interpretation of the respondents' assessment on the system In terms of Compatibility
+
+Table 4.3 Mean Response and Descriptive Interpretation for Compatibility
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system in terms of Compatibility.
+
+The table reveals that respondents strongly agree that the system is compatible based on the computed category mean of 4.35. It also shows that the item "The system can perform its required functions efficiently." Obtained the highest mean of 4.70 which belongs to "Strongly agree" interpretation while item "The systern has the necessary hardware and software requirements for operation" Got the lowest mean of 4.10 in which respondents interpreted as agree.
+
+
+Mean Response and Descriptive Interpretation of the respondents' assessment on the system in terms of Usability
+
+Table 4.4 Mean Response and Descriptive Interpretation for Usability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system in terms of Usability.
+
+The table shows that respondents strongly agree that the system is usable based on the computed category mean of 4.47. It also shows that the item "The concept and operation of the system are easy to understand." Obtained the highest mean of 4.80 which belongs to "Strongly agree" interpretation while item "The system has features that make it simple to use and manage." Got the lowest mean of 4.20 in which respondents interpreted as "strongly agree". all were strongly agreed by the respondents.
+
+Mean Response and Descriptive Interpretation of the respondents' assessment on the system in terms of Reliability
+
+Table 4.5 Mean Response and Descriptive Interpretation for Reliability
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system in terms of Reliability.
+
+The table reveals that the system is reliable based on the computed category mean of 4.33 which falls on "strongly agree" interpretation. It also shows that respondents strongly agreed that with the use of the system, sorted egg records are easy to locate (4.60), while the item "the system is operational and accessible when required for use" got the lowest mean 4.10 in which respondents interpreted as agree.
+
+Summary of the Mean Responses and Descriptive Interpretation of the respondents' assessment
+
+Table 4.6 Summary of the Mean Responses and Descriptive Interpretation
+
+The table shows the mean and descriptive interpretation of respondents' evaluation on the system.
+
+The table reveals that respondents strongly agree with the system in terms of Functional suitability (4.24), compatibility (4.35), usability (4.47) and reliability (4.33). Also, they agree with the system in terms of performance efficiency.
+
+
+
+
+
+
+5 SUMMARY, CONCLUSION AND RECOMMENDATIONS
+
+5.1 Summary
+
+This chapter presents the summarized result of findings, proven conclusion, and recommendation.
+
+This study aims to develop grading and classification of eggs equipped with HMI for poultry farms as it helps to ensure the quality and safety of eggs for consumers. Poultry farms that are equipped with Human-Machine Interfaces (HMIs) can use these systems to grade and classify eggs accurately and efficiently. HMIs allow for easy monitoring and control of the grading and classification process and can provide real-time data on the quality of eggs. By using HMIs, poultry farms can improve the efficiency and effectiveness of their egg grading and classification processes, leading to increased profits and customer satisfaction.
+
+The researcher has met the target goals, and we can tell that our system will be appealing, user-friendly, and well-liked by its users. Information from our database is available for viewing, including records of egg production and chicken productivity.
+
+The system is reviewed according to the five criteria for functional suitability, performance efficiency, compatibility, usability, and reliability by (10) respondents from San Mariano Isabela, who serves as our respondent. In the end, the respondents overwhelmingly supported the produced system's efficacy and thought it would be beneficial for their needs.
+
+5.2 Conclusions
+
+Based on the indicated findings, the following conclusions were drawn:
+
+1. The researchers, therefore, conclude that the system has the potential to greatly improve the efficiency and effectiveness of egg collection and sorting in the poultry farming industry. By automating these processes, poultry farmers can save time and resources, leading to increased profitability and sustainability. Additionally, a collecting and sorting system has the potential to improve the overall quality of eggs by ensuring that they are properly handled and sorted, leading to a better end product for consumers. Overall, the development of a collecting and sorting system for eggs in the poultry industry is a promising and valuable endeavor.
+
+2. The researchers, therefore, conclude that the application has the potential to greatly improve the efficiency and effectiveness of a poultry farming operation. By providing real-time data on the performance of the egg collecting and sorting system, as well as the productivity of the chickens. Additionally, the ability to track the number of eggs sorted each day can help farmers to better understand and optimize their operations, leading to increased productivity and profitability. Overall, the development of an application that provides these capabilities would be a valuable tool for optimizing the performance of a poultry farming operation furthermore implementing a digitization and centralization strategy for data using a Human Machine Interface (HMI) has the potential to optimize an industrial process. By using an HMI to view and manage data in a centralized location, it is likely that the efficiency and effectiveness of the process can be improved. Additionally, the use of digital technologies such as an HMI can help to enhance the accuracy and reliability of data, which can further contribute to the optimization of the industrial process.
+
+3. The researchers, therefore, conclude that the results of the evaluation indicate that the system has a high level of functional suitability for the task of grading and classification of eggs in poultry farms. The system also exhibited high levels of performance efficiency and reliability, as well as good compatibility and usability.
+
+4. Overall, the researchers found that the respondents had a positive perception of the indicators related to the system being assessed (automated grading and classification of eggs with a human- machine interface for poultry farms). The high mean scores for all indicators suggest that the system is functional, efficient, compatible, user-friendly, and reliable. These results can be used to improve the product or service and ensure it meets the needs and expectations of the target clients. The system's functionality, efficiency, compatibility, usability, and reliability would all be important factors in ensuring its success and acceptance among users. It is essential to ensure that the system is user-friendly and easy to use, as well as reliable and accurate in its grading and classification of eggs.
+
+5.3 Recommendations
+
+Based on the findings and conclusions, the researchers presented the following recommendations and suggestions:
+
+1. Explore other approaches to identify cracked eggs for more precise sorting.
+
+2. Additional feature must be installed to pick up sorted eggs and place them in egg tray.
+
+3. Upgrade the system application to make troubleshooting simple to reduce breakdown time of the machine.
+
+4. Conduct extensive testing and validation of the system to ensure its accuracy and reliability.
+
+
